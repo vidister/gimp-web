@@ -1,3 +1,9 @@
+2007-03-22  Kevin Cozens  <kcozens@cvs.gnome.org>
+
+	* tutorials/Basic_Perl/index.htrw: Mostly grammatical to correct
+	grammatical and typographic errors. Also applied some obviously
+	needed changes for the current 2.2 version of GIMP.
+
 2007-03-13  Jakub Steiner <jimmac@ximian.com>
 
 	* links/index.htrw: add Blender and provide saner Inkscape
