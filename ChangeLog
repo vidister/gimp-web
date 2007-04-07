@@ -1,3 +1,8 @@
+2007-04-07  Kevin Cozens  <kcozens@cvs.gnome.org>
+
+	* docs/python/index.html: Correct the example command line used to
+	invoke Python from the shell. Spotted by Jorge Vargas.
+
 2007-03-22  Kevin Cozens  <kcozens@cvs.gnome.org>
 
 	* tutorials/Basic_Perl/index.htrw: Mostly updates to correct
