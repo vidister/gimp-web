@@ -1,5 +1,10 @@
 2007-04-25  Michael Schumacher  <schumaml@cvs.gnome.org>
 
+	* macintosh/index.htrw: changed the link to Apple's X11 and
+	reworded a bit. Fixes bug #427973.
+
+2007-04-25  Michael Schumacher  <schumaml@cvs.gnome.org>
+
 	* links/index.htrw: added http://www.gimp.no
 
 2007-04-24  Sven Neumann  <sven@gimp.org>
