@@ -1,3 +1,9 @@
+2007-05-11  Sven Neumann  <sven@gimp.org>
+
+	* tutorials/Custom_Brushes/index.htrw
+	* admin/gimp-web-urls: minor update and removed the broken link to
+	the original tutorial.
+
 2007-05-09  Sven Neumann  <sven@gimp.org>
 
 	* docs/index.htrw
