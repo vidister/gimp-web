@@ -1,3 +1,8 @@
+2007-05-16  Sven Neumann  <sven@gimp.org>
+
+	* programmatic/downloads/MIRRORS: replaced dutch mirror with a
+	working one (ftp.snt.utwente.nl).
+
 2007-05-11  Sven Neumann  <sven@gimp.org>
 
 	* tutorials/Custom_Brushes/index.htrw
