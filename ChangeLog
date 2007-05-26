@@ -1,7 +1,15 @@
+2007-05-26  Sven Neumann  <sven@gimp.org>
+
+	* downloads/index.htrw: updated for 2.2.15 release.
+
 2007-05-16  Sven Neumann  <sven@gimp.org>
 
 	* programmatic/downloads/MIRRORS: replaced dutch mirror with a
 	working one (ftp.snt.utwente.nl).
+
+2007-05-14  Sven Neumann  <sven@gimp.org>
+
+	* unix/fonts.htrw: minor update.
 
 2007-05-11  Sven Neumann  <sven@gimp.org>
 
