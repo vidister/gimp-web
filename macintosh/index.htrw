@@ -22,7 +22,6 @@ an easier task. These include:</p>
   <a href="mailto:yvesNOSPAM@macports.org">Yves de Champlain</a>. 
   MacPorts places the GIMP binary into
   <code>/opt/local/bin</code>.<br/>
-  <br/>
   There's a port file for the <a href="http://trac.macosforge.org/projects/macports/browser/trunk/dports/graphics/gimp-dev/Portfile">GIMP 2.3 development version</a>, too. 
   The 2.3 binary is installed to <code>/opt/local/gimp-2.3/bin</code>.</li>
 
