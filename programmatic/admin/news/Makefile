@@ -1,5 +1,5 @@
 #!/usr/bin/env make
-# $Id$
+# $Id: Makefile,v 1.14 2005/11/04 21:27:04 neo Exp $
 #
 include ../../Makefile.defs
 
@@ -41,7 +41,7 @@ news_config.py: Makefile ../../Makefile.defs
 	 echo "news_blotter='news-blotter'"                       ; \
 		echo                                                     ; \
 	 echo "news_permission=0644"                              ; \
-	 echo "datetime_format = '%Y-%m-%d'"                      ; \
+	 echo "datetime_format = '%Y-%m-%d %Z'"                   ; \
 	 echo "default_http_host = 'www.gimp.org'"                ; \
 	) > news_config.py
 
