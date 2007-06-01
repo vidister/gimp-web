@@ -41,7 +41,7 @@ news_config.py: Makefile ../../Makefile.defs
 	 echo "news_blotter='news-blotter'"                       ; \
 		echo                                                     ; \
 	 echo "news_permission=0644"                              ; \
-	 echo "datetime_format = '%Y-%m-%d %Z'"                   ; \
+	 echo "datetime_format = '%Y-%m-%d'"                      ; \
 	 echo "default_http_host = 'www.gimp.org'"                ; \
 	) > news_config.py
 
