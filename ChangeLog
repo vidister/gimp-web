@@ -1,3 +1,7 @@
+2007-06-12  Sven Neumann  <sven@gimp.org>
+
+	* downloads/index.htrw: updated for 2.3.18 release.
+
 2007-06-01  Michael Schumacher  <schumaml@cvs.gnome.org>
 
 	* programmatic/admin/news/Makefile (news_config.py): we decided
