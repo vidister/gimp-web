@@ -15,7 +15,7 @@ href="install_help.html">install help</a> page.</p>
 
 <h2>Source for version 2.2 (Stable)</h2>
 
-<p>GIMP 2.2.15 is available at
+<p>GIMP 2.2.16 is available at
 <a href="ftp://ftp.gimp.org/pub/gimp/v2.2/">ftp://ftp.gimp.org/pub/gimp/v2.2/</a>.
 You may want to read the <a href="wgo:release-notes-stable">Release
 Notes for GIMP 2.2</a>.
@@ -29,12 +29,12 @@ MD5 sum of the latest released tarballs:
   <th style="background-color: #f5f5f5;">MD5 sum</th>
 </tr>
 <tr>
-  <td>gimp-2.2.15.tar.gz</td>
-  <td><kbd><b>f974ce9fec80f072d182ac32a4761063</kbd></td>
+  <td>gimp-2.2.16.tar.gz</td>
+  <td><kbd><b>300671d2e0eb02ddda1de3c18ad1a206</kbd></td>
 </tr>
 <tr>
-  <td>gimp-2.2.15.tar.bz2</td>
-  <td><kbd><b>5e705f0c7a3b37703d407e88bee357bb</b></kbd></td>
+  <td>gimp-2.2.16.tar.bz2</td>
+  <td><kbd><b>d50c30eddbd3736156036af2e91fd526</b></kbd></td>
 </tr>
 </table>
 </p>
