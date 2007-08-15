@@ -1,5 +1,11 @@
 2007-08-15  Raphaël Quinet  <raphael@gimp.org>
 
+	* about/merchandise.htrw: Removed link to SourceWear (the domain
+	name does not exist anymore) and corrected link to Kernel
+	concepts.  Fixes bug #464038.
+
+2007-08-15  Raphaël Quinet  <raphael@gimp.org>
+
 	* unix/fonts.htrw: updated obsolete link to fonts.conf user
 	manual.  Fixes bug #461070.
 
