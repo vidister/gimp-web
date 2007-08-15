@@ -1,5 +1,10 @@
 2007-08-15  Raphaël Quinet  <raphael@gimp.org>
 
+	* unix/fonts.htrw: updated obsolete link to fonts.conf user
+	manual.  Fixes bug #461070.
+
+2007-08-15  Raphaël Quinet  <raphael@gimp.org>
+
 	* tutorials/Lite_Quickies/index.htrw: closed malformed link
 	reported by Pete Houston.  Fixes bug #461517.
 
