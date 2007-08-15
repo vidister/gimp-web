@@ -1,5 +1,14 @@
 2007-08-15  Raphaël Quinet  <raphael@gimp.org>
 
+	* admin/gimp-web-urls: removed obsolete links to old ChangeLogs,
+	added links to ChangeLog on developer.gimp.org.
+
+	* develop/index.htrw: added link to latest GIMP commits on d.g.o,
+	removed other links that were already commented out.  Fixes bug
+	#119485.
+
+2007-08-15  Raphaël Quinet  <raphael@gimp.org>
+
 	* mail_lists.htrw
 	* admin/gimp-web-urls: added links to several searchable mailing
 	list archives hosted by free.net.ph (Free Network Group,

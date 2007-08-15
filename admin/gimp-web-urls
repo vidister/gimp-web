@@ -169,6 +169,8 @@
 ["href", "wgo:old",                            { "href": "http://classic.gimp.org/"}]
 ["href", "wgo:testing",                        { "href": "http://mmmaybe.gimp.org/"}]
 ["href", "wgo:dev",                            { "href": "http://developer.gimp.org/"}]
+["href", "wgo:dev-changelog",                  { "href": "http://developer.gimp.org/ChangeLog"}]
+["href", "wgo:dev-changelog-html",             { "href": "http://developer.gimp.org/changelog.html"}]
 ["href", "wgo:dev-hacking",                    { "href": "http://developer.gimp.org/HACKING"}]
 ["href", "wgo:dev-news",                       { "href": "http://developer.gimp.org/NEWS"}]
 ["href", "wgo:dev-screenshots",                { "href": "http://developer.gimp.org/screenshots.html"}]
@@ -222,9 +224,6 @@
 ["href", "wgo:about-splash-1-1",               { "href": "/about/splash/splash-images/splash-1.1.html"}]
 ["href", "wgo:about-splash-1-3",               { "href": "/about/splash/splash-images/splash-1.3.html"}]
 ["href", "wgo:about-splash-2-1",               { "href": "/about/splash/splash-images/splash-2.1.html"}]
-["href", "wgo:about-changelogs-gimp-1.2",      { "href": "/about/ChangeLogs/1.2.3/ChangeLog.1.html"}]
-["href", "wgo:about-changelogs-gimp-pre-1.0",  { "href": "/about/ChangeLogs/ChangeLog.pre-1-0"}]
-["href", "wgo:about-changelogs-gimp-pre-1.2",  { "href": "/about/ChangeLogs/ChangeLog.pre-1-2"}]
 ["href", "wgo:team",                           { "href": "/team.html"}]
 ["href", "wgo:webmasters",                     { "href": "/webmasters.html"}]
 
