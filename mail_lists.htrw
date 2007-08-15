@@ -19,14 +19,16 @@
   <a href="maillist:GIMP-user-m-a-archive">mail-archive</a>,
   <a href="maillist:GIMP-user-aims-archive">AIMS</a>,
   <a href="maillist:GIMP-user-spin-archive">spinics</a>,
-  <a href="maillist:GIMP-user-gmane-archive">Gmane</a></dd>
+  <a href="maillist:GIMP-user-gmane-archive">Gmane</a>,
+  <a href="maillist:GIMP-user-free-archive">free.net.ph</a></dd>
 
   <dt><a href="maillist:GIMP-announce">GIMP Announce</a></dt>
   <dd>Learn of the new tarballs, without all of the help and development.
   This is a very low-traffic list.<br />
   Archives: <a href="maillist:GIMP-announce-archive">XCF</a>,
   <a href="maillist:GIMP-announce-aims-archive">AIMS (broken)</a>,
-  <a href="maillist:GIMP-announce-gmane-archive">Gmane</a></dd>
+  <a href="maillist:GIMP-announce-gmane-archive">Gmane</a>,
+  <a href="maillist:GIMP-announce-free-archive">free.net.ph</a></dd>
 
   <dt><a href="maillist:GIMP-user-windows">GIMPwin-users</a></dt>
   <dd>Especially for users of the Windows version of GIMP.<br />
@@ -40,7 +42,8 @@
   Archives: <a href="maillist:GIMP-developer-archive">XCF</a>,
   <a href="maillist:GIMP-developer-m-a-archive">mail-archive</a>,
   <a href="maillist:GIMP-developer-aims-archive">AIMS</a>,
-  <a href="maillist:GIMP-developer-gmane-archive">Gmane</a></dd>
+  <a href="maillist:GIMP-developer-gmane-archive">Gmane</a>,
+  <a href="maillist:GIMP-developer-free-archive">free.net.ph</a></dd>
 
   <dt><a href="maillist:GEGL-developer">GEGL Developer</a></dt>
   <dd>The GEGL developer mail list. For developers interested in
@@ -54,12 +57,14 @@
   <dd>The GIMP web mail list. For discussion about the contents and
   structure of this web site.<br />
   Archives: <a href="maillist:GIMP-web-archive">XCF</a>,
-  <a href="maillist:GIMP-web-gmane-archive">Gmane</a></dd>
+  <a href="maillist:GIMP-web-gmane-archive">Gmane</a>,
+  <a href="maillist:GIMP-web-free-archive">free.net.ph</a></dd>
 
   <dt><a href="maillist:GIMP-docs">GIMP docs</a></dt>
   <dd>The GIMP documentation mail list. For discussion about the
   GIMP User Manual and all derivative work.<br />
-  Archives: <a href="maillist:GIMP-docs-archive">XCF</a></dd>
+  Archives: <a href="maillist:GIMP-docs-archive">XCF</a>,
+  <a href="maillist:GIMP-docs-free-archive">free.net.ph</a></dd>
 
   <dt><a href="maillist:GIMP-user-images">GIMPImages</a></dt>
   <dd>GIMPI is a group dedicated to exchange of images created or
