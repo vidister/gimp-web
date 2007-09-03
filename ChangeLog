@@ -1,3 +1,7 @@
+2007-09-03  Michael Natterer  <mitch@gimp.org>
+
+	* downloads/index.htrw: updated for 2.4.0-rc2.
+
 2007-09-03  Raphaël Quinet  <raphael@gimp.org>
 
 	* MAINTAINERS: added file required by pre-commit hook.
