@@ -1,3 +1,7 @@
+2007-09-03  Raphaël Quinet  <raphael@gimp.org>
+
+	* MAINTAINERS: added file required by pre-commit hook.
+
 2007-08-30  Michael Schumacher  <schumaml@cvs.gnome.org>
 
 	* links/index.htrw: removed gimp.cz. The site is dead and has been
