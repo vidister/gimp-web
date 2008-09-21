@@ -1,5 +1,9 @@
 2008-09-21  Sven Neumann  <sven@gimp.org>
 
+	* downloads/source.xhtml: prepared for the upcoming 2.6 release.
+
+2008-09-21  Sven Neumann  <sven@gimp.org>
+
 	* images/frontsplash24.png: removed.
 	* images/frontsplash26.png: added version for GIMP 2.6.
 
