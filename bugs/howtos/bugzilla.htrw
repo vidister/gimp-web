@@ -30,10 +30,11 @@
 </p>
 <p>
   Third: Check to see if your bug has been reported yet. Go to the
-  <a href="home:gimp-bugzilla_stable_current">Current Bug List</a> to see if 
-  something that looks like your bug has been reported yet. Don't worry if it 
-  has, you can still help. See the section: <a href="#enhance">Enhancing Bug Reports</a>. 
-  If you can't find something that sounds like your bug there, you will need to 
+  <a href="home:gimp-bugzilla_stable_current">Current Bug List</a> to
+  see if something that looks like your bug has been reported
+  yet. Don't worry if it has, you can still help. See the
+  section: <a href="#enhance">Enhancing Bug Reports</a>.  If you can't
+  find something that sounds like your bug there, you will need to
   report it.
 </p>
 
@@ -192,6 +193,11 @@
           recently installed programs or hardware that might interfere
           with GIMP.
         </p>
+	<p>
+	  Finally, please add the output you get from
+	  running <kbd>gimp --version --verbose</kbd> to your bug
+	  report.
+	</p>
      </li>
  </ol>
  </li>
@@ -237,7 +243,8 @@
 <!--#include virtual="/includes/wgo-page-fini.xhtml" -->
     <div>
       <span id="footerleft">
-        How To Bugzilla &copy; 2002 <a href="mail:People-Walter_Rebecca_J">Rebecca J. Walter</a>
+        How To Bugzilla
+	&copy; 2002 <a href="mail:People-Walter_Rebecca_J">Rebecca J. Walter</a>
       </span>
       <span id="footerright">
         <a href="mail:People-webmaster">webmaster@gimp.org</a>

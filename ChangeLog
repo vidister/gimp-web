@@ -1,6 +1,7 @@
 2008-09-21  Sven Neumann  <sven@gimp.org>
 
-	* bugs/howtos/bugzilla.htrw: formatting.
+	* bugs/howtos/bugzilla.htrw: formatting. Ask bug reporters to
+	include the output from 'gimp --version --verbose'.
 
 2008-09-21  Sven Neumann  <sven@gimp.org>
 
