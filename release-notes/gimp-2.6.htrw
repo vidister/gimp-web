@@ -17,11 +17,11 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
 <h2>Introduction</h2>
 
 <p>
-  GIMP 2.6 is an important development milestone for two reasons. It
-  contains user interface changes addressing some often recieved
-  complaints, and it is the first version of GIMP that has a hard
-  dependancy on GEGL, the engine that will eventually bring high
-  bit-depth and non-destructive editing to GIMP.
+  GIMP 2.6 is an important development milestone that features both
+  changes to the user interface addressing some often recieved
+  complaints, and a tentative integration of GEGL, the graph based
+  image processing library that will eventually bring high bit-depth
+  and non-destructive editing to GIMP.
 </p>
 
 

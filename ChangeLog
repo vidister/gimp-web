@@ -1,5 +1,10 @@
 2008-09-21  Martin Nordholts  <martinn@svn.gnome.org>
 
+	* release-notes/gimp-2.6.htrw (Introduction): Rewritten, and
+	emphasize that GEGL only has been tentativly integrated.
+
+2008-09-21  Martin Nordholts  <martinn@svn.gnome.org>
+
 	* release-notes/images/2.6-emtpy-image-window.png: New image. It's
 	a screenshot of the empty image window taken with the Darkilouche
 	GTK+ theme set to use Glossy-like titlebars. Scaled to be 320
