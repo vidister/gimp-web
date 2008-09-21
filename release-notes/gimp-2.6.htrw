@@ -28,6 +28,7 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
 <h2>User Interface Changes</h2>
 
 <h3>The Empty Image Window</h3>
+<img class="right" src="images/2.6-empty-image-window.png" alt="Empty Image Window" />
 <p>
   A major change is the appearance of an "empty image window". This window
   is a placeholder where your image will eventually open, also a drop zone
