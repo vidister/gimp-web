@@ -2,8 +2,8 @@
 
 	* release-notes/images/2.6-emtpy-image-window.png: New image. It's
 	a screenshot of the empty image window taken with the Darkilouche
-	GTK+ theme set to use Glossy-like titlebars. Processed with the
-	pngcrush utility.
+	GTK+ theme set to use Glossy-like titlebars. Scaled to be 320
+	pixels wide, and processed with the pngcrush utility.
 
 	* release-notes/gimp-2.6.htrw (The Empty Image Window): Include
 	this image here.
