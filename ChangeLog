@@ -1,3 +1,11 @@
+2008-09-21  Martin Nordholts  <martinn@svn.gnome.org>
+
+	* release-notes/images/2.6-new-free-select-tool.png: New image
+	showing off the new Free Select Tool in action.
+
+	* release-notes/gimp-2.6.htrw (Improved Free Select Tool):
+	Rewritten, and included the above image.
+
 2008-09-21  Sven Neumann  <sven@gimp.org>
 
 	* bugs/howtos/bugzilla.htrw: formatting. Ask bug reporters to

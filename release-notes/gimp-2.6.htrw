@@ -73,12 +73,15 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
 
 <h2>Tools</h2>
 
-<h3>Improved Freehand Select Tool</h3>
+<h3>Improved Free Select Tool</h3>
+<img class="right" src="images/2.6-new-free-select-tool.png" alt="New Free Select Tool in action" />
 <p>
-  The freehand select tool has been enhanced to support polygon segments
-  in selections. Selection segments are all independently adjustable. This 
-  significant improvement fills the need for making polygonal selections 
-  without creating yet another tool.
+  The freehand select tool has been enhanced to support polygonal
+  selections. It also allows mixing free hand segments with polygonal
+  segments, editing of existing segments, applying angle-constraints
+  to segments, and of course the normal selection tool operations like
+  add and subtract. Altoghether this ends up making the Free Select
+  Tool a very versatile, powerful and easy-to-use selection tool.
 </p>
 
 <h3>Brush dynamics</h3>
