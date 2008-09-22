@@ -1,5 +1,10 @@
 2008-09-22  Martin Nordholts  <martinn@svn.gnome.org>
 
+	* release-notes/gimp-2.6.htrw: s/Other Changes/Minor Changes/ and
+	don't keep the bullet lists within paragraph tags.
+
+2008-09-22  Martin Nordholts  <martinn@svn.gnome.org>
+
 	* release-notes/gimp-2.6.htrw
 	(Documentation/Other Changes): Keep a single bullet-list of items.
 

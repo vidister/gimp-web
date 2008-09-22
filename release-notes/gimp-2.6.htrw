@@ -59,27 +59,25 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
   covering parts of the image window.
 </p>
 
-<h3>Other Changes</h3>
-<p>
-  <ul>
-    <li>
-      Renamed Dialogs menu to Windows.
-    </li>
-    <li>
-      Keep a list of recently closed Docks and allow reopening them.
-    </li>
-    <li>
-      Make opening images in already running GIMP instances work better on Windows.
-    </li>
-    <li>
-      Allow to enter the image zoom ratio in the status bar.
-    </li>
-    <li>
-      Make it possible to lock tabs in docks to prevent accidental
-      moving.
-    </li>
-  </ul>
-</p>
+<h3>Minor Changes</h3>
+<ul>
+  <li>
+    Renamed Dialogs menu to Windows.
+  </li>
+  <li>
+    Keep a list of recently closed Docks and allow reopening them.
+  </li>
+  <li>
+    Make opening images in already running GIMP instances work better on Windows.
+  </li>
+  <li>
+    Allow to enter the image zoom ratio in the status bar.
+  </li>
+  <li>
+    Make it possible to lock tabs in docks to prevent accidental
+    moving.
+  </li>
+</ul>
 
 
 <h2>Tools</h2>
@@ -114,43 +112,39 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
   speed by the end of the stroke.
 </p>
 
-<h3>Other Changes</h3>
-<p>
-  <ul>
-    <li>
-      Added motion constraints in the Move Tool.
-    </li>
-    <li>
-      Mark the center of rectangles while they are moved, and snap the
-      center to the grid and rulers.
-    </li>
-    <li>
-      Enable brush scaling for the Smudge tool.
-    </li>
-    <li>
-      Added ability to save presets in all color tools for color
-      adjustments you use frequently.
-    </li>
-    <li>
-      Move handles for rectangle based tool like Crop and Rectangle
-      Select to the outside of the rectangle when the rectangle is
-      narrow.
-    </li>
-  </ul>
-</p>
+<h3>Minor Changes</h3>
+<ul>
+  <li>
+    Added motion constraints in the Move Tool.
+  </li>
+  <li>
+    Mark the center of rectangles while they are moved, and snap the
+    center to the grid and rulers.
+  </li>
+  <li>
+    Enable brush scaling for the Smudge tool.
+  </li>
+  <li>
+    Added ability to save presets in all color tools for color
+    adjustments you use frequently.
+  </li>
+  <li>
+    Move handles for rectangle based tool like Crop and Rectangle
+    Select to the outside of the rectangle when the rectangle is
+    narrow.
+  </li>
+</ul>
 
 
 <h2>Documentation</h2>
 
-<h3>Other Changes</h3>
-<p>
-  <ul>
-    <li>
-      Added support for using online help instead of a locally
-      installed GIMP Help package.
-    </li>
-  </ul>
-</p>
+<h3>Minor Changes</h3>
+<ul>
+  <li>
+    Added support for using online help instead of a locally
+    installed GIMP Help package.
+  </li>
+</ul>
 
 
 <h2>Under the hood</h2>
