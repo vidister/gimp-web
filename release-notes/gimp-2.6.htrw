@@ -27,18 +27,17 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
 
 <h2>User Interface Changes</h2>
 
-<h3>The Empty Image Window</h3>
+<h3>Toolbox Menubar Removed</h3>
 <img class="right" src="images/2.6-empty-image-window.png" alt="Empty Image Window" />
 <p>
-  A major change is the appearance of an "empty image window". This window
-  is a placeholder where your image will eventually open, also a drop zone
-  into which you can drag-and-drop your file and  start working.
-  You will also notice that the Toolbox menu is gone: it has
-  been merged into the image window menu. Toolbox and docks are treated as utility
-  windows, so if your window manager supports it, then your problems with
-  docks and toolbox getting lost under other windows are over. Unfortunately,
-  at this moment utility window hints only work correctly in metacity, the
-  GNOME default window manager.
+  The toolbox menubar has been removed and merged with the image
+  window menubar. To be able to do this a window called the <i>empty
+  image window</i> has been introduced. It hosts the menubar and keeps
+  the application instance alive when no imagas are opened. It also
+  acts as a drag and drop target. When opening the first image the
+  empty image window is transformed into a normal image window, and
+  when closing the last image, that image window is transformed into
+  the empty image window.
 </p>
 
 <h3>Lockable Docks</h3>
