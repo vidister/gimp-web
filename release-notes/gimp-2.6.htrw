@@ -59,7 +59,7 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
   covering parts of the image window.
 </p>
 
-<h3>Other changes</h3>
+<h3>Other Changes</h3>
 <p>
   <ul>
     <li>
@@ -106,10 +106,29 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
   speed by the end of the stroke.
 </p>
 
-<h3>Preset saving for color tools</h3>
+<h3>Other Changes</h3>
 <p>
-  Now you can save presets in all color tools for color 
-  adjustments you use frequently.
+  <ul>
+    <li>
+      Added motion constraints in the Move Tool.
+    </li>
+    <li>
+      Mark the center of rectangles while they are moved, and snap the
+      center to the grid and rulers.
+    </li>
+    <li>
+      Enable brush scaling for the Smudge tool.
+    </li>
+    <li>
+      Added ability to save presets in all color tools for color
+      adjustments you use frequently.
+    </li>
+    <li>
+      Move handles for rectangle based tool like Crop and Rectangle
+      Select to the outside of the rectangle when the rectangle is
+      narrow.
+    </li>
+  </ul>
 </p>
 
 
