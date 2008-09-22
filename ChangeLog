@@ -1,5 +1,11 @@
 2008-09-22  Martin Nordholts  <martinn@svn.gnome.org>
 
+	* release-notes/gimp-2.6.htrw: Put the online help support item in
+	the list of minor user interface changes, it's not worth having a
+	separate category for this.
+
+2008-09-22  Martin Nordholts  <martinn@svn.gnome.org>
+
 	* release-notes/gimp-2.6.htrw (Cairo For UI Elements): Dump this
 	one, it's not interesting enough to keep in the release notes.
 

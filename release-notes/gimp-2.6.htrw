@@ -74,6 +74,10 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
     Allow to enter the image zoom ratio in the status bar.
   </li>
   <li>
+    Added support for using online help instead of a locally
+    installed GIMP Help package.
+  </li>
+  <li>
     Make it possible to lock tabs in docks to prevent accidental
     moving.
   </li>
@@ -132,17 +136,6 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
     Move handles for rectangle based tool like Crop and Rectangle
     Select to the outside of the rectangle when the rectangle is
     narrow.
-  </li>
-</ul>
-
-
-<h2>Documentation</h2>
-
-<h3>Minor Changes</h3>
-<ul>
-  <li>
-    Added support for using online help instead of a locally
-    installed GIMP Help package.
   </li>
 </ul>
 
