@@ -142,13 +142,14 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
 
 <h2>Documentation</h2>
 
-<h3>Improved help system</h3>
+<h3>Improved Help System</h3>
 <p>
-  Ever been bothered by the fact that you need a single page of help but 
-  can't get it because you don't have the whole large help docs package 
-  installed? Despair no more. GIMP now supports online help. All you need 
-  is a network connection and that particular page opens in your browser 
-  when you ask for help anywhere in GIMP.
+  <ul>
+    <li>
+      Added support for using online help instead of a locally
+      installed GIMP Help package.
+    </li>
+  </ul>
 </p>
 
 
