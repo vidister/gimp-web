@@ -1,5 +1,11 @@
 2008-09-22  Martin Nordholts  <martinn@svn.gnome.org>
 
+	* release-notes/gimp-2.6.htrw
+	(Ability to Scroll Beyond Image Border): Rewritten (old header:
+	Scroll Beyond Image Border) with a more formal tone.
+
+2008-09-22  Martin Nordholts  <martinn@svn.gnome.org>
+
 	* release-notes/gimp-2.6.htrw (Lockable Docks): Moved to the
 	bottom of the list of User Interface Changes, it's the most minor
 	change.

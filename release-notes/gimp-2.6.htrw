@@ -50,13 +50,13 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
   and Docks always are above image windows.
 </p>
 
-<h3>Scroll Beyond Image Border</h3>
+<h3>Ability to Scroll Beyond Image Border</h3>
 <p>
-  One of the most desired changes over the years has been "overpanning": the ability to pull
-  those pesky corners, that are so hard to reach with just the right point of 
-  the brush, to the front and center. This is now finally available. Panning does not
-  have to stop when the image edge reaches the window edge. You can go on panning,
-  and position the area you work on where it is comfortable for you.
+  It is now possible to scroll beyond the image border, making image
+  window navigation much less constrained. It is no longer a problem
+  to use the edge of a brush on the edge of an image while being
+  zoomed it, and one can adapt the canvas to any utility windows
+  covering parts of the image window.
 </p>
 
 <h3>Improved help system</h3>
