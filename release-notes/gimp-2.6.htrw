@@ -59,15 +59,18 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
   covering parts of the image window.
 </p>
 
-<h3>Lockable Docks</h3>
+<h3>Other changes</h3>
 <p>
-  There are also a couple of nice usability changes concerning docks.
-  Have you ever been aggravated to no end because you accidentally closed your 
-  neatly set up dock and had to build it from scratch again? 
-  That is no longer a source of stress, because the Window menu now holds a list of
-  recently closed docks, and just one click can bring your carefully constructed
-  setup back to you. Another common annoyance is incidentally dragging tabs out
-  of docks. Now GIMP lets you lock your tabs to make sure that does not happen. 
+  <ul>
+    <li>
+      Keep a list of recently closed Docks and allow reopening
+      them.
+    </li>
+    <li>
+      Make it possible to lock tabs in docks to prevent accidental
+      moving.
+    </li>
+  </ul>
 </p>
 
 

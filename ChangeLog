@@ -1,5 +1,11 @@
 2008-09-22  Martin Nordholts  <martinn@svn.gnome.org>
 
+	* release-notes/gimp-2.6.htrw (Other changes): New section in User
+	Interface Changes containg a bullet list of minor changes. Split
+	up "Lockable Docks" into this new section.
+
+2008-09-22  Martin Nordholts  <martinn@svn.gnome.org>
+
 	* release-notes/gimp-2.6.htrw (Improved help system): Move from
 	the User Interface Changes sub section to a new Documentation sub
 	section.
