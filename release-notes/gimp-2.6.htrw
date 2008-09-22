@@ -50,17 +50,6 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
   and Docks always are above image windows.
 </p>
 
-<h3>Lockable Docks</h3>
-<p>
-  There are also a couple of nice usability changes concerning docks.
-  Have you ever been aggravated to no end because you accidentally closed your 
-  neatly set up dock and had to build it from scratch again? 
-  That is no longer a source of stress, because the Window menu now holds a list of
-  recently closed docks, and just one click can bring your carefully constructed
-  setup back to you. Another common annoyance is incidentally dragging tabs out
-  of docks. Now GIMP lets you lock your tabs to make sure that does not happen. 
-</p>
-
 <h3>Scroll Beyond Image Border</h3>
 <p>
   One of the most desired changes over the years has been "overpanning": the ability to pull
@@ -77,6 +66,17 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
   installed? Despair no more. GIMP now supports online help. All you need 
   is a network connection and that particular page opens in your browser 
   when you ask for help anywhere in GIMP.
+</p>
+
+<h3>Lockable Docks</h3>
+<p>
+  There are also a couple of nice usability changes concerning docks.
+  Have you ever been aggravated to no end because you accidentally closed your 
+  neatly set up dock and had to build it from scratch again? 
+  That is no longer a source of stress, because the Window menu now holds a list of
+  recently closed docks, and just one click can bring your carefully constructed
+  setup back to you. Another common annoyance is incidentally dragging tabs out
+  of docks. Now GIMP lets you lock your tabs to make sure that does not happen. 
 </p>
 
 
