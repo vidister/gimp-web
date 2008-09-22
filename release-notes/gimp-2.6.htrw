@@ -97,7 +97,8 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
   Tool a very versatile, powerful and easy-to-use selection tool.
 </p>
 
-<h3>Brush dynamics</h3>
+<h3>Brush Dynamics</h3>
+<img class="right" src="images/2.6-brush-dynamics.jpg" alt="Brush Dynamics illustration" />
 <p>
   Brush dynamics let you map different brush parameters, commonly at least 
   size and opacity, to one or more of three input dynamics: pressure, 

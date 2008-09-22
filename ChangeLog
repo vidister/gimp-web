@@ -1,5 +1,13 @@
 2008-09-22  Martin Nordholts  <martinn@svn.gnome.org>
 
+	* release-notes/images/2.6-brush-dynamics.jpg: New image
+	illustrating the brush dynamics.
+
+	* release-notes/gimp-2.6.htrw (Tools/Brush Dynamics): Include the
+	image here.
+
+2008-09-22  Martin Nordholts  <martinn@svn.gnome.org>
+
 	* release-notes/images/2.6-new-free-select-tool.png: Remade, with
 	a bit more effort put into it.
 
