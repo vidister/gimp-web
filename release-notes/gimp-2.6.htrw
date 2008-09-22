@@ -159,13 +159,6 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
   non-destructive editing.
 </p>
 
-<h3>Cairo For UI Elements</h3>
-<p>
-  Peeking out from under the hood are subtle differences in the way the UI 
-  draws its elements. These changes are due to internally making use of the
-  Cairo library to draw UI elements. This is visible for example in the 
-  drawing of Layers and Paths docks and Curves dialog.
-</p>
 
 <h2>Installation</h2>
 <p>
