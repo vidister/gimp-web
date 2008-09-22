@@ -1,5 +1,11 @@
 2008-09-22  Martin Nordholts  <martinn@svn.gnome.org>
 
+	* release-notes/gimp-2.6.htrw
+	(User Interface Changes/Other Changes): Add a bunch of nice user
+	interface improvements to the bulleted list.
+
+2008-09-22  Martin Nordholts  <martinn@svn.gnome.org>
+
 	* release-notes/gimp-2.6.htrw (Tools/Other Changes): New section
 	with a bulleted list of small but nice changes for tools.
 

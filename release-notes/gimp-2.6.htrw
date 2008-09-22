@@ -63,8 +63,16 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
 <p>
   <ul>
     <li>
-      Keep a list of recently closed Docks and allow reopening
-      them.
+      Renamed Dialogs menu to Windows.
+    </li>
+    <li>
+      Keep a list of recently closed Docks and allow reopening them.
+    </li>
+    <li>
+      Make opening images in already running GIMP instances work better on Windows.
+    </li>
+    <li>
+      Allow to enter the image zoom ratio in the status bar.
     </li>
     <li>
       Make it possible to lock tabs in docks to prevent accidental
