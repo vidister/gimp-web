@@ -1,5 +1,11 @@
 2008-09-23  Martin Nordholts  <martinn@svn.gnome.org>
 
+	* release-notes/gimp-2.6.htrw (Installation): Removed, wasn't part
+	of the 2.4 release notes and indeed doesn't fit in the release
+	notes of a stable release.
+
+2008-09-23  Martin Nordholts  <martinn@svn.gnome.org>
+
 	* release-notes/images/2.6-experimental-gegl-tool.png: Screenshot
 	of on-canvas preview of gaussian blur with GEGL tool.
 

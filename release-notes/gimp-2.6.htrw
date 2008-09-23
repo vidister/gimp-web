@@ -174,45 +174,5 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
   </li>
 </ul>
 
-
-<h2>Installation</h2>
-<p>
-  GIMP 2.5 must <strong>not</strong> be installed in the same prefix
-  as other GIMP 2.x versions. If you want to keep your GIMP 2.4
-  installation in parallel to GIMP 2.5, you have to choose a separate
-  installation prefix at compile-time and ensure that you use different
-  library search paths for each version. If you do not set up your
-  environment differently for each version, you will experience
-  conflicts with the libraries and at least one version is likely to
-  fail.
-</p>
-<p>
-  You install the new version into a separate prefix, say /opt/gimp-2.5
-  by passing <kbd>--prefix=/opt/gimp-2.5</kbd> to the configure
-  script. Then, in order to run the binary installed there, you change
-  your environment to look for executables in /opt/gimp-2.5/bin by
-  setting <kbd>PATH=/opt/gimp-2.5/bin</kbd> and you tell your linker to
-  pick up libraries from /opt/gimp-2.5/lib by setting
-  <kbd>LD_LIBRARY_PATH=/opt/gimp-2.5/lib</kbd>.  Do not forget to
-  <kbd>export</kbd> both variables.
-</p>
-
-<p>
-  You can use a tiny wrapper script called gimp-2.5 and place it into
-  /usr/local/bin or elsewhere in your PATH. The script would look
-  something like this:
-</p>
-
-<pre class="code">
-#!/bin/sh
-
-PATH=/opt/gimp-2.5/bin:$PATH
-export PATH
-LD_LIBRARY_PATH=/opt/gimp-2.5/lib
-export LD_LIBRARY_PATH
-
-/opt/gimp-2.5/bin/gimp-2.5 "$@"
-</pre>
-
 <!--#include virtual="/includes/wgo-page-fini.xhtml" -->
 <!--#include virtual="/includes/wgo-xhtml-fini.xhtml" -->
