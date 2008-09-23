@@ -169,8 +169,26 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
 <ul>
   <li>
     Ported many widgets to use the 2D graphics
-    library <a href="http://www.cairographics.org/">Cairo</a> for
+    library <a href="http://www.cairographics.org/">cairo</a> for
     drawing.
+  </li>
+</ul>
+
+
+<h2>Miscellaneous</h2>
+
+<ul>
+  <li>If you build GIMP yourself and don't have GVfs support on your
+     target platform, you should pass the <kbd>--without-gvfs</kbd>
+     option to configure. Otherwise the URI plug-in will not work
+     properly.
+  </li>
+  <li>
+    There have been changes to Script-Fu that breaks scripts using
+    invalid let-syntax. The reason for the change is to prevent a
+    crash of Script-Fu. Please refer
+    to <a href="http://bugzilla.gnome.org/show_bug.cgi?id=512105">Bug
+    512105 – recent Script-Fu changes break lots of scripts</a>.
   </li>
 </ul>
 
@@ -179,7 +197,7 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
 
 <p>
   For the interested, here are roughly what is planned for GIMP 2.8,
-  the next stable:
+  the next stable release:
 </p>
 <ul>
   <li>
