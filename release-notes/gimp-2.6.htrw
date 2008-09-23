@@ -17,11 +17,11 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
 <h2>Introduction</h2>
 
 <p>
-  GIMP 2.6 is an important development milestone that features both
-  changes to the user interface addressing some often recieved
-  complaints, and a tentative integration of GEGL, the graph based
-  image processing library that will eventually bring high bit-depth
-  and non-destructive editing to GIMP.
+  GIMP 2.6 is an important release from a development point of view
+  that features both changes to the user interface addressing some
+  often received complaints, and a tentative integration of GEGL, the
+  graph based image processing library that will eventually bring high
+  bit-depth and non-destructive editing to GIMP.
 </p>
 
 
@@ -33,7 +33,7 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
   The toolbox menubar has been removed and merged with the image
   window menubar. To be able to do this a window called the <i>empty
   image window</i> has been introduced. It hosts the menubar and keeps
-  the application instance alive when no imagas are opened. It also
+  the application instance alive when no images are opened. It also
   acts as a drag and drop target. When opening the first image the
   empty image window is transformed into a normal image window, and
   when closing the last image, that image window is transformed into
@@ -43,20 +43,20 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
 <h3>Toolbox and Docks are Utility windows</h3>
 <p>
   With the empty image window acting as a natural main window the
-  default window hints for the Toolbox and Docks has been changed
-  to <i>Utility window</i>. This enables window managers to much more
-  nicely manage the GIMP windows and do things like omitting the
-  Toolbox and Docks from the taskbar and making sure that the Toolbox
-  and Docks always are above image windows.
+  default window hints for the Toolbox and Docks have been changed
+  to <i>Utility window</i>. This enables window managers to do a much
+  better job of managing the GIMP windows, including omitting the
+  Toolbox and Docks from the taskbar and ensuring that the Toolbox and
+  Docks always are above image windows.
 </p>
 
-<h3>Ability to Scroll Beyond Image Border</h3>
+<h3>Ability to Pan Beyond Image Border</h3>
 <img class="right" src="images/2.6-scroll-beyond-border.png" alt="Scroll Beyond Border illustration" />
 <p>
-  It is now possible to scroll beyond the image border, making image
+  It is now possible to pan beyond the image border, making image
   window navigation much less constrained. It is no longer a problem
   to use the edge of a brush on the edge of an image while being
-  zoomed it, and one can adapt the canvas to any utility windows
+  zoomed in, and one can adapt the canvas to any utility windows
   covering parts of the image window.
 </p>
 
@@ -72,7 +72,7 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
     Make opening images in already running GIMP instances work better on Windows.
   </li>
   <li>
-    Allow to enter the image zoom ratio in the status bar.
+    You can now enter the image zoom ratio directly in the status bar.
   </li>
   <li>
     Added support for using online help instead of a locally
@@ -189,10 +189,11 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
 </p>
 <p>
   An initial value for a variable is required as stated in
-  the <a href="http://www.schemers.org/Documents/Standards/R5RS/r5rs.pdf">R5RS&nbsp;Scheme&nbsp;standard&nbsp;document</a>. The
-  initial value can be provided as a simple constant, or as the result
-  of a function call. The following examples will illustrate the
-  problem and show a simple change that will fix a broken script.
+  the <a href="http://www.schemers.org/Documents/Standards/R5RS/r5rs.pdf">R5RS
+  Scheme standard document</a>. The initial value can be provided as a
+  simple constant, or as the result of a function call. The following
+  examples will illustrate the problem and show a simple change that
+  will fix a broken script.
 </p>
 <p>
   This example shows a <i>let*</i> block with incorrect syntax that
@@ -224,8 +225,8 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
 
 <h3>Known Problems</h3>
 <ul>
-  <li>The <i>Utility window</i> hint is currently only known to work good in
-    the GNOME desktop environment.
+  <li>The <i>Utility window</i> hint is currently only known to work
+    well in the GNOME desktop environment.
   </li>
   <li>
     Using the Text Tool is currently not an optimal experience. Making
