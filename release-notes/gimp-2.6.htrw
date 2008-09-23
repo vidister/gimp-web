@@ -28,7 +28,7 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
 <h2>User Interface</h2>
 
 <h3>Toolbox Menubar Removed</h3>
-<img class="right" src="images/2.6-empty-image-window.png" alt="Empty Image Window" />
+<img class="right" src="images/2.6-empty-image-window.png" alt="Empty Image Window screenshot" />
 <p>
   The toolbox menubar has been removed and merged with the image
   window menubar. To be able to do this a window called the <i>empty
@@ -51,6 +51,7 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
 </p>
 
 <h3>Ability to Scroll Beyond Image Border</h3>
+<img class="right" src="images/2.6-scroll-beyond-border.png" alt="Scroll Beyond Border illustration" />
 <p>
   It is now possible to scroll beyond the image border, making image
   window navigation much less constrained. It is no longer a problem
