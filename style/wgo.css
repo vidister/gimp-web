@@ -73,6 +73,12 @@ img.left {
   margin-bottom: 1em;
 }
 
+img.groupshot {
+  margin-left: 40px;
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+
 img.right, object.right {
   float: right;
   margin-left: 20px;

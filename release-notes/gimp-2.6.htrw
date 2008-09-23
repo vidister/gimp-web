@@ -214,5 +214,15 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
 </ul>
 
 
+<h2>We Hope You Enjoy GIMP 2.6!</h2>
+
+<img class="groupshot" src="images/2.6-lgm-2008-groupshot.jpg" alt="LGM 2008 shot of the GIMP team" />
+<p>
+  <i>A picture of <i>(mostly)</i> GIMP developers, taken by Garrett
+  LeSage at Libre Graphics Meeting 2008, licenced
+  under <a href="http://creativecommons.org/licenses/by/2.0/deed.en">CC-By</a></i>
+</p>
+
+
 <!--#include virtual="/includes/wgo-page-fini.xhtml" -->
 <!--#include virtual="/includes/wgo-xhtml-fini.xhtml" -->
