@@ -215,14 +215,6 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
       )
 </pre>
 
-<h3>Building</h3>
-<p>
-  If you build GIMP yourself and don't have GVfs support on your
-  target platform, you should pass the <kbd>--without-gvfs</kbd>
-  option to configure. Otherwise the URI plug-in will not work
-  properly.
-</p>
-
 <h3>Known Problems</h3>
 <ul>
   <li>The <i>Utility window</i> hint is currently only known to work
@@ -232,11 +224,16 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
     Using the Text Tool is currently not an optimal experience. Making
     it work better is a goal for GIMP 2.8.
   </li>
+  <li>
+    If you build GIMP yourself and don't have GVfs support on your
+    platform you need to explicitly pass <kbd>--without-gvfs</kbd> to
+    configure, otherwise opening remote files will not work properly.
+  </li>
 </ul>
 
 <h3>What's Planned</h3>
 <p>
-  For the interested, here are roughly what is planned for GIMP 2.8,
+  For the interested, here is roughly what is planned for GIMP 2.8,
   the next stable release:
 </p>
 <ul>

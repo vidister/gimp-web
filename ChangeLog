@@ -1,5 +1,11 @@
 2008-09-23  Martin Nordholts  <martinn@svn.gnome.org>
 
+	* release-notes/gimp-2.6.htrw (Known Problems): Put the Building
+	sub section into here instead, it was too small for having its own
+	sub section anyway.
+
+2008-09-23  Martin Nordholts  <martinn@svn.gnome.org>
+
 	* release-notes/gimp-2.6.htrw: Fix typos and use proper English.
 
 2008-09-23  Martin Nordholts  <martinn@svn.gnome.org>
