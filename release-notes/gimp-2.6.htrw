@@ -159,10 +159,9 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
 <p>
   In addition to porting color operations to GEGL, an
   experimental <i>GEGL Operation</i> tool has been added, found in
-  the <i>Tools</i> menu. It enables applying GEGL operations to
-  e.g. layers in an image and it gives on-canvas previews of the
-  results. The screenshot to the right shows on-canvas preview of
-  gaussian blur.
+  the <i>Tools</i> menu. It enables applying GEGL operations to an
+  image and it gives on-canvas previews of the results. The screenshot
+  to the right shows on-canvas preview of gaussian blur.
 </p>
 
 <h3>Minor Changes</h3>
@@ -255,8 +254,8 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
 
 <img class="groupshot" src="images/2.6-lgm-2008-groupshot.jpg" alt="LGM 2008 shot of the GIMP team" />
 <p>
-  <i>A picture of <i>(mostly)</i> GIMP developers, taken by Garrett
-  LeSage at Libre Graphics Meeting 2008, licenced
+  <i>A picture of (mostly) GIMP developers, taken by Garrett LeSage at
+  Libre Graphics Meeting 2008, licenced
   under <a href="http://creativecommons.org/licenses/by/2.0/deed.en">CC-By</a></i>
 </p>
 
