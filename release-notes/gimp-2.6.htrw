@@ -177,24 +177,24 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
 
 <h2>Miscellaneous</h2>
 
-<ul>
-  <li>If you build GIMP yourself and don't have GVfs support on your
-     target platform, you should pass the <kbd>--without-gvfs</kbd>
-     option to configure. Otherwise the URI plug-in will not work
-     properly.
-  </li>
-  <li>
-    There have been changes to Script-Fu that breaks scripts using
-    invalid let-syntax. The reason for the change is to prevent a
-    crash of Script-Fu. Please refer
-    to <a href="http://bugzilla.gnome.org/show_bug.cgi?id=512105">Bug
-    512105 – recent Script-Fu changes break lots of scripts</a>.
-  </li>
-</ul>
+<h3>Backwards Compatibility</h3>
+<p>
+  There have been changes to Script-Fu that breaks scripts using
+  invalid let-syntax. The reason for the change is to prevent a crash
+  of Script-Fu. Please refer
+  to <a href="http://bugzilla.gnome.org/show_bug.cgi?id=512105">Bug
+  512105 – recent Script-Fu changes break lots of scripts</a>.
+</p>
 
+<h3>Building</h3>
+<p>
+  If you build GIMP yourself and don't have GVfs support on your
+  target platform, you should pass the <kbd>--without-gvfs</kbd>
+  option to configure. Otherwise the URI plug-in will not work
+  properly.
+</p>
 
-<h2>Known Problems</h2>
-
+<h3>Known Problems</h3>
 <ul>
   <li>The <i>Utility window</i> hint is currently only known to work good in
     the GNOME desktop environment.
@@ -205,9 +205,7 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
   </li>
 </ul>
 
-
-<h2>What's Planned</h2>
-
+<h3>What's Planned</h3>
 <p>
   For the interested, here are roughly what is planned for GIMP 2.8,
   the next stable release:
