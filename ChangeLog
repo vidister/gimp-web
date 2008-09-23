@@ -1,3 +1,14 @@
+2008-09-23  Martin Nordholts  <martinn@svn.gnome.org>
+
+	* release-notes/gimp-2.6.htrw (Under the Hood/GEGL):
+	Rewritten. Mention the ported color operations and the
+	experimental GEGL Operation tool.
+
+	(Under the Hood/Minor Changes): New section, mention that many
+	widgets have been ported to cairo.
+
+2008-09-22  Martin Nordholts  <martinn@svn.gnome.org>
+
 2008-09-22  Martin Nordholts  <martinn@svn.gnome.org>
 
 	* release-notes/images/2.6-brush-dynamics.jpg: New image by Alexia

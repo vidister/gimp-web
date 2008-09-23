@@ -141,17 +141,35 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
 </ul>
 
 
-<h2>Under the hood</h2>
+<h2>Under the Hood</h2>
 
 <h3>GEGL</h3>
 <p>
-  Most notable of under-the-hood changes are the first steps of 
-  <a href="http://gegl.org">GEGL</a> integration. Right now the effect
-  on user experience is minimal, but it is an important development
-  for the future. Once GEGL integration is complete, GIMP will finally 
-  get support for higher color depths, more color spaces and eventually
-  non-destructive editing.
+  Important progress towards high bit-depth and non-destructive
+  editing in GIMP has been made. Most color operations in GIMP are now
+  ported to the powerful graph based image processing
+  framework <a href="http://www.gegl.org/">GEGL</a>, meaning that the
+  interal processing is being done in 32bit floating point linear
+  light RGBA. By default the legacy 8bit code paths are still used,
+  but a curious user can turn on the use of GEGL for the color
+  operations with <i>Colors / Use GEGL</i>.
 </p>
+<p>
+  In addition to porting color operations to GEGL, an
+  experimental <i>GEGL Operation</i> tool has been added, found in
+  the <i>Tools</i> menu. It enables applying GEGL operations to
+  e.g. layers in an image and it gives on-canvas previews of the
+  results.
+</p>
+
+<h3>Minor Changes</h3>
+<ul>
+  <li>
+    Ported many widgets to use the 2D graphics
+    library <a href="http://www.cairographics.org/">Cairo</a> for
+    drawing.
+  </li>
+</ul>
 
 
 <h2>Installation</h2>
