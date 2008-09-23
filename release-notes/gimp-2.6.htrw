@@ -121,11 +121,11 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
 <h3>Minor Changes</h3>
 <ul>
   <li>
-    Added motion constraints in the Move Tool.
+    Added motion constraints to the Move Tool.
   </li>
   <li>
     Mark the center of rectangles while they are moved, and snap the
-    center to the grid and rulers.
+    center to grid and rulers.
   </li>
   <li>
     Enable brush scaling for the Smudge tool.
@@ -135,7 +135,7 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
     adjustments you use frequently.
   </li>
   <li>
-    Move handles for rectangle based tool like Crop and Rectangle
+    Move handles for rectangle based tools like Crop and Rectangle
     Select to the outside of the rectangle when the rectangle is
     narrow.
   </li>
@@ -206,7 +206,7 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
     scripting enhancements.
   </li>
   <li>
-    Continue integrating of GEGL.
+    Continue integration of GEGL.
   </li>
   <li>
     And of course many other improvements...
