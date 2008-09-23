@@ -179,12 +179,40 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
 
 <h3>Backwards Compatibility</h3>
 <p>
-  There have been changes to Script-Fu that breaks scripts using
-  invalid let-syntax. The reason for the change is to prevent a crash
-  of Script-Fu. Please refer
-  to <a href="http://bugzilla.gnome.org/show_bug.cgi?id=512105">Bug
-  512105 – recent Script-Fu changes break lots of scripts</a>.
+  Script-Fu has undergone some clean up and includes several bug
+  fixes. One important bug fix,
+  for <a href="http://bugzilla.gnome.org/show_bug.cgi?id=512105">bug&nbsp;#508020</a>,
+  prevents a possible crash of Script-Fu. A side effect of the fix
+  will break any script which does not provide an initial value for a
+  variable in the binding portion of a <i>let</i>, <i>let*</i>,
+  or <i>letrec</i> block.
 </p>
+<p>
+  An initial value for a variable is required as stated in
+  the <a href="http://www.schemers.org/Documents/Standards/R5RS/r5rs.pdf">R5RS&nbsp;Scheme&nbsp;standard&nbsp;document</a>. The
+  initial value can be provided as a simple constant, or as the result
+  of a function call. The following examples will illustrate the
+  problem and show a simple change that will fix a broken script.
+</p>
+<p>
+  This example shows a <i>let*</i> block with incorrect syntax that
+  will no longer work in Script-Fu.
+</p>
+<pre class="code">
+(let* (
+      (four (+ 2 2))
+      (this-is-wrong)
+      )
+</pre>
+<p>
+  This example shows a <i>let*</i> block with the correct syntax.
+</P>
+<pre class="code">
+(let* (
+      (four (+ 2 2))
+      (this-is-correct 0)
+      )
+</pre>
 
 <h3>Building</h3>
 <p>
