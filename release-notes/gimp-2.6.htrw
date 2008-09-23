@@ -174,5 +174,27 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
   </li>
 </ul>
 
+
+<h2>What's Planned</h2>
+
+<p>
+  For the interested, here are roughly what is planned for GIMP 2.8,
+  the next stable:
+</p>
+<ul>
+  <li>
+    Merging Google Summer of Code 2008 projects to trunk, namely
+    on-canvas text editing, tagging of GIMP resources and Python
+    scripting enhancements.
+  </li>
+  <li>
+    Continue integrating of GEGL.
+  </li>
+  <li>
+    And of course many other improvements...
+  </li>
+</ul>
+
+
 <!--#include virtual="/includes/wgo-page-fini.xhtml" -->
 <!--#include virtual="/includes/wgo-xhtml-fini.xhtml" -->
