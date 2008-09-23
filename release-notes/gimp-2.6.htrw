@@ -155,12 +155,14 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
   but a curious user can turn on the use of GEGL for the color
   operations with <i>Colors / Use GEGL</i>.
 </p>
+<img class="right" src="images/2.6-experimental-gegl-tool.png" alt="Experimental GEGL tool screenshot" />
 <p>
   In addition to porting color operations to GEGL, an
   experimental <i>GEGL Operation</i> tool has been added, found in
   the <i>Tools</i> menu. It enables applying GEGL operations to
   e.g. layers in an image and it gives on-canvas previews of the
-  results.
+  results. The screenshot to the right shows on-canvas preview of
+  gaussian blur.
 </p>
 
 <h3>Minor Changes</h3>
