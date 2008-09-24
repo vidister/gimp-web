@@ -42,8 +42,8 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
 
 <h3>Toolbox and Docks are Utility windows</h3>
 <p>
-  With the empty image window acting as a natural main window the
-  default window, the hints for the Toolbox and Docks have been
+  With the empty image window acting as a natural main window, the
+  default window hints for the Toolbox and Docks have been
   changed to <i>Utility window</i>. This enables window managers to do
   a much better job of managing the GIMP windows, including omitting
   the Toolbox and Docks from the taskbar and ensuring that the Toolbox

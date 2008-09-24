@@ -1,5 +1,14 @@
 2008-09-24  Sven Neumann  <sven@gimp.org>
 
+	* release-notes/gimp-2.6.htrw: fixed error introduced by my last
+	commit.
+
+	* admin/gimp-web-urls: added links for babl, GEGL and GTK+.
+
+	* unix/index.htrw: updated in preparation of the upcoming 2.6 release.
+
+2008-09-24  Sven Neumann  <sven@gimp.org>
+
 	* release-notes/gimp-2.6.htrw: minor changes. Added link to
 	Wikipedia article about GVfs.
 
