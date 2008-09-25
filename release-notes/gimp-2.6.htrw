@@ -86,7 +86,7 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
 </ul>
 
 
-<h2>Tools</h2>
+<h2>Tools, Filters & Plug-ins</h2>
 
 <h3>Improved Free Select Tool</h3>
 <img class="right" src="images/2.6-new-free-select-tool.png" alt="New Free Select Tool in action" />
@@ -134,6 +134,36 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
   <li>
     Added ability to save presets in all color tools for color
     adjustments you use frequently.
+  </li>
+  <li>
+    Allow changing opacity on transform tool previews.
+  </li>
+  <li>
+    The Screenshot plug-in has been given the ability to capture the
+    mouse cursor (using Xfixes).
+  </li>
+  <li>
+    Display aspect ratio of the Crop and Rectangle Select Tool
+    rectangles in the status bar.
+  </li>
+  <li>
+    Added a bounding box for the Text Tool that supports automatic
+    wrapping of text within that bounding box.
+  </li>
+  <li>
+    Desaturate has been given an on-canvas preview.
+  </li>
+  <li>
+    The Flame plug-in has been extended with 22 new variations.
+  </li>
+  <li>
+    Data file folders like brush folders are searched recursively for
+    files.
+  </li>
+  <li>
+    Replaced the PSD import plug-in with a rewritten version that does
+    what the old version did plus some other things, for example
+    reading of ICC color profiles.
   </li>
   <li>
     Move handles for rectangle based tools like Crop and Rectangle

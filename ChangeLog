@@ -1,3 +1,9 @@
+2008-09-25  Martin Nordholts  <martinn@svn.gnome.org>
+
+	* release-notes/gimp-2.6.htrw: Renamed the 'Tools' section to
+	'Tools, Filters & Plug-ins' and addad a bunch of stuff to the
+	'Minor Changes' list.
+
 2008-09-24  Sven Neumann  <sven@gimp.org>
 
 	* source/index.htrw: updated in preparation of the upcoming 2.6 release.
