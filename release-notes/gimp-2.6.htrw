@@ -121,6 +121,18 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
 
 <h3>Minor Changes</h3>
 <ul>
+  <img class="right"
+       src="images/2.6-text-tool-and-rectangle-handles.png"
+       alt="Text Tool bounding box and outside rectangle handles screenshot" />
+  <li>
+    Added a bounding box for the Text Tool that supports automatic
+    wrapping of text within that bounding box.
+  </li>
+  <li>
+    Move handles for rectangle based tools like Crop and Rectangle
+    Select to the outside of the rectangle when the rectangle is
+    narrow.
+  </li>
   <li>
     Added motion constraints to the Move Tool.
   </li>
@@ -147,10 +159,6 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
     rectangles in the status bar.
   </li>
   <li>
-    Added a bounding box for the Text Tool that supports automatic
-    wrapping of text within that bounding box.
-  </li>
-  <li>
     Desaturate has been given an on-canvas preview.
   </li>
   <li>
@@ -164,11 +172,6 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
     Replaced the PSD import plug-in with a rewritten version that does
     what the old version did plus some other things, for example
     reading of ICC color profiles.
-  </li>
-  <li>
-    Move handles for rectangle based tools like Crop and Rectangle
-    Select to the outside of the rectangle when the rectangle is
-    narrow.
   </li>
 </ul>
 
