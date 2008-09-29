@@ -1,5 +1,9 @@
 2008-09-29  Sven Neumann  <sven@gimp.org>
 
+	* about/history.htrw: added missing 2.4 release dates.
+
+2008-09-29  Sven Neumann  <sven@gimp.org>
+
 	* about/splash/images/gimp-splash-2.6.png
 	* about/splash/stable.html: added splash for GIMP 2.6.
 
