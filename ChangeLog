@@ -1,5 +1,11 @@
 2008-09-29  Sven Neumann  <sven@gimp.org>
 
+	* unix/fonts.htrw: 
+	* about/splash/index.htrw: updated GIMP user directory for the
+	upcoming 2.6 release.
+
+2008-09-29  Sven Neumann  <sven@gimp.org>
+
 	* about/history.htrw: added missing 2.4 release dates.
 
 2008-09-29  Sven Neumann  <sven@gimp.org>
