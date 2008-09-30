@@ -210,7 +210,9 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
   <li>
     Ported many widgets to use the 2D graphics
     library <a href="http://www.cairographics.org/">cairo</a> for
-    drawing.
+    drawing. See
+    this <a href="images/gimp-curves-tool-2-4-vs-2-6.png">comparison</a>
+    for an example of how much better this looks.
   </li>
 </ul>
 

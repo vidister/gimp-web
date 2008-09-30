@@ -1,5 +1,14 @@
 2008-09-30  Martin Nordholts  <martinn@svn.gnome.org>
 
+	* release-notes/images/gimp-curves-tool-2-4-vs-2-6.png: Image
+	demonstrating how much better the Curves are drawn after the port
+	to cairo.
+
+	* release-notes/gimp-2.6.htrw (Under the Hood/Minor Changes): Link
+	to it.
+
+2008-09-30  Martin Nordholts  <martinn@svn.gnome.org>
+
 	* screenshots/alternative-2-6-ui-layout-example-two.jpg
 	* screenshots/alternative-2-6-ui-layout-example-one.jpg: Examples
 	of UI layouts.
