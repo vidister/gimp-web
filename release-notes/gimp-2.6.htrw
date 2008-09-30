@@ -137,6 +137,9 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
     Added motion constraints to the Move Tool.
   </li>
   <li>
+    Improved event smoothing for paint tools.
+  </li>
+  <li>
     Mark the center of rectangles while they are moved, and snap the
     center to grid and rulers.
   </li>
@@ -146,6 +149,10 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
   <li>
     Added ability to save presets in all color tools for color
     adjustments you use frequently.
+  </li>
+  <li>
+     Allow to transfer settings from <i>Brightness-Contrast</i> to
+     <i>Levels</i>, and from <i>Levels</i> to <i>Curves</i>.
   </li>
   <li>
     Allow changing opacity on transform tool previews.
