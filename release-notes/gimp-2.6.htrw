@@ -304,7 +304,7 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
   </li>
 </ul>
 
-<h3>Screenshots</h3>
+<h2>GIMP 2.6 Screenshots</h2>
 <div class="plain-screenshots">
   <a href="../screenshots/gnome-1280x800-fresh-start.jpg" />
     <img src="../screenshots/gnome-1280x800-fresh-start-thumb.jpg" alt="First GIMP&nbsp;2.6 startup" />
@@ -325,6 +325,11 @@ src="images/2.4-releasesplash.jpg" width="640" height="200" />
     <img src="../screenshots/alternative-2-6-ui-layout-example-two-thumb.jpg" alt="Another alternative UI example" />
   </a>
   <p>UI layout example: Using the image window as a background window.</p>
+
+  <a href="../screenshots/2.6-brush-dynamics-example.jpg" />
+    <img src="../screenshots/2.6-brush-dynamics-example-thumb.jpg" alt="Brush Dynamics at use" />
+  </a>
+  <p>Demonstrating the kind of effects the new Brush Dynamics can create.</p>
 </div>
 
 

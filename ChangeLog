@@ -1,5 +1,14 @@
 2008-09-30  Martin Nordholts  <martinn@svn.gnome.org>
 
+	* screenshots/2.6-brush-dynamics-example(-thumb).jpg: Screenshot
+	from Alexia Death exemplifying use of Brush Dynamics.
+
+	* release-notes/gimp-2.6.htrw: Renamed 'Screenshots' to 'GIMP 2.6
+	Screenshots' and made it into a separate sub-section and added the
+	new screenshot.
+
+2008-09-30  Martin Nordholts  <martinn@svn.gnome.org>
+
 	* release-notes/images/2.6-empty-image-window.png: Updated for 3:1
 	aspect ratio.
 
@@ -31,7 +40,7 @@
 
 	* screenshots/alternative-2-6-ui-layout-example-two.jpg
 	* screenshots/alternative-2-6-ui-layout-example-one.jpg: Examples
-	of UI layouts.
+	of UI layouts (plus thumbs).
 
 	* release-notes/gimp-2.6.htrw (Miscellaneous/Screenshots): Add the
 	screenshots.
