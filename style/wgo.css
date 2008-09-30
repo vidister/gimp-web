@@ -378,6 +378,7 @@ div.plain-screenshots p {
   margin: 0;
   margin-bottom: 1.5em;
   padding: 0;
+  max-width: 380px;
 }
 
 div.plain-screenshots a {

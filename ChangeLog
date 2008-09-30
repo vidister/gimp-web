@@ -1,5 +1,9 @@
 2008-09-30  Martin Nordholts  <martinn@svn.gnome.org>
 
+	* style/wgo.css: Limit the width of the screenshot descriptions.
+
+2008-09-30  Martin Nordholts  <martinn@svn.gnome.org>
+
 	* release-notes/images/gimp-curves-tool-2-4-vs-2-6.png: Image
 	demonstrating how much better the Curves are drawn after the port
 	to cairo.
