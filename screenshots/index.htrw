@@ -10,6 +10,10 @@
 <h2>GNU/Linux Screenshots</h2>
 
 <div class="screenshots">
+
+  <!-- TODO: Make it easy to add new screenshots and add the rest of
+  the screenshots that are in this directory. -->
+
   <a href="linux_fullscreen.jpg" rel="imagebox-screenshots" title="GIMP running fullscreen, side by side with <a href='http://f-spot.org'>F-Spot</a>.">
     <img src="linux_fullscreen_thumb.jpg" alt="Grid, Fullscreen Screenshot" />
   </a>
