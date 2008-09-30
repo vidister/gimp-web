@@ -1,5 +1,16 @@
 2008-09-30  Martin Nordholts  <martinn@svn.gnome.org>
 
+	* screenshots/alternative-2-6-ui-layout-example-two.jpg
+	* screenshots/alternative-2-6-ui-layout-example-one.jpg: Examples
+	of UI layouts.
+
+	* release-notes/gimp-2.6.htrw (Miscellaneous/Screenshots): Add the
+	screenshots.
+
+	* style/wgo.css: Tweak distance between screenshots.
+
+2008-09-30  Martin Nordholts  <martinn@svn.gnome.org>
+
 	* screenshots/on-canvas-preview-of-gaussian-blur-in-2-6.jpg
 	* screenshots/on-canvas-preview-of-gaussian-blur-in-2-6-thumb.jpg:
 	Full screenshot of on-canvas preview of Gaussian Blur using the
