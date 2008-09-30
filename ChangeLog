@@ -1,5 +1,11 @@
 2008-09-30  Martin Nordholts  <martinn@svn.gnome.org>
 
+	* release-notes/gimp-2.6.htrw (Miscellaneous/Plug-in Development):
+	New paragraph mentioning improved procedure error reporting and
+	giving a link to new symbols in 2.6.
+
+2008-09-30  Martin Nordholts  <martinn@svn.gnome.org>
+
 	* release-notes/gimp-2.6.htrw: Put a no-break space between 'GIMP'
 	and '2.x'.
 
