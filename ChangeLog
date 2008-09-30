@@ -1,5 +1,10 @@
 2008-09-30  Martin Nordholts  <martinn@svn.gnome.org>
 
+	* release-notes/images/2.6-empty-image-window.png: Updated for 3:1
+	aspect ratio.
+
+2008-09-30  Martin Nordholts  <martinn@svn.gnome.org>
+
 	* release-notes/gimp-2.6.htrw (Miscellaneous/Plug-in Development):
 	New paragraph mentioning improved procedure error reporting and
 	giving a link to new symbols in 2.6.
