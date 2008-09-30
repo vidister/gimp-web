@@ -1,5 +1,9 @@
 2008-09-30  Martin Nordholts  <martinn@svn.gnome.org>
 
+	* screenshots/index.htrw: Tag formating.
+
+2008-09-30  Martin Nordholts  <martinn@svn.gnome.org>
+
 	* release-notes/gimp-2.6.htrw
 	(Tools, Filters & Plug-ins/Minor Changes): Add items about
 	improved event smoothing for paint tools and the
