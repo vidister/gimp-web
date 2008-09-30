@@ -1,5 +1,18 @@
 2008-09-30  Martin Nordholts  <martinn@svn.gnome.org>
 
+	* screenshots/on-canvas-preview-of-gaussian-blur-in-2-6.jpg
+	* screenshots/on-canvas-preview-of-gaussian-blur-in-2-6-thumb.jpg:
+	Full screenshot of on-canvas preview of Gaussian Blur using the
+	experimental GEGL Operation tool.
+
+	* release-notes/gimp-2.6.htrw (Miscellaneous/Screenshots): Add it
+	here, and make descriptions be under the thumbs instead of as img
+	titles.
+
+	* style/wgo.css: Adapt plain-screenshots paragraph style.
+
+2008-09-30  Martin Nordholts  <martinn@svn.gnome.org>
+
 	* screenshots/gnome-1280x800-fresh-start.jpg:
 	* screenshots/gnome-1280x800-fresh-start-thumb.jpg: Screenshot of
 	how the first startup of GIMP 2.6 on a 1280x800 GNOME desktop

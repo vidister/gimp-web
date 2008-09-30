@@ -374,6 +374,12 @@ div.plain-screenshots {
   margin-bottom: 2em;
 }
 
+div.plain-screenshots p {
+  margin: 0;
+  margin-bottom: 1em;
+  padding: 0;
+}
+
 div.plain-screenshots a {
   border: 0px;
 }
