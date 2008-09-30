@@ -1,5 +1,10 @@
 2008-09-30  Martin Nordholts  <martinn@svn.gnome.org>
 
+	* release-notes/gimp-2.6.htrw: Put a no-break space between 'GIMP'
+	and '2.x'.
+
+2008-09-30  Martin Nordholts  <martinn@svn.gnome.org>
+
 	* style/wgo.css: Limit the width of the screenshot descriptions.
 
 2008-09-30  Martin Nordholts  <martinn@svn.gnome.org>
