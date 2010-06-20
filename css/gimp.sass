@@ -2,7 +2,7 @@
 @import url(grid.css) all
 
 
-$bodyfg: #fff
+$bodyfg: #babdb6
 $bodybg: #374e70
 $select: #f57900
 $text: 'Droid Sans', sans-serif  
@@ -27,7 +27,7 @@ $headline: 'RaveIn Condensed', 'Avenir Condensed', Avenir, Prelude, sans-serif
   
 body
   font-family: $text
-  font-size: 13px
+  font-size: 11pt
   background: $bodybg url(/img/frbg.png) repeat-x center top
   color: $bodyfg
   margin: 0
@@ -35,6 +35,7 @@ body
 
 h1,h2,h3,h4,h5
   font-family: $headline
+  color: #fff
 
 h1
   font-size: 150%
@@ -95,6 +96,41 @@ a
     p
       font-size: 80%
       color: #888a85
+
+#linux, #osx, #windows
+  background-image: url(/img/platforms.png)
+  background-repeat: no-repeat
+  width: 55px
+  height: 55px
+  
+#linux
+  background-position: center top
+
+#osx
+  background-position: right top  
+
+.floatleft
+  display: block
+  float: left
+  margin: 6px
+
+.floatright
+  display: block
+  float: right
+  margin: 6px
+
+.bigicon
+  width: 65px
+  height: 65px
+  background-image: url(/img/bigicons.png)
+  background-repeat: no-repeat
+
+#colorwheel
+  background-position: 0 0
+
+#gegl
+  background-position: -65px 0
+
 #content
   min-height: 400px
 
