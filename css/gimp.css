@@ -2,6 +2,7 @@
 @import url(grid.css) all;
 body {
   font-family: "Droid Sans", sans-serif;
+  font-size: 13px;
   background: #374e70 url(/img/frbg.png) repeat-x center top;
   color: white;
   margin: 0;
@@ -54,6 +55,27 @@ a {
       text-decoration: none;
       font-size: 130%;
       margin-left: 1em; }
+
+#splash img {
+  display: block;
+  width: 100%;
+  height: inherit;
+  margin: 0; }
+#splash .subtitle {
+  background-color: #3c3c3c;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px; }
+  #splash .subtitle h3 {
+    font-size: 100%;
+    margin: 0 0 1em; }
+  #splash .subtitle p {
+    font-size: 80%;
+    color: #888a85; }
 
 #content {
   min-height: 400px; }

@@ -27,6 +27,7 @@ $headline: 'RaveIn Condensed', 'Avenir Condensed', Avenir, Prelude, sans-serif
   
 body
   font-family: $text
+  font-size: 13px
   background: $bodybg url(/img/frbg.png) repeat-x center top
   color: $bodyfg
   margin: 0
@@ -78,6 +79,22 @@ a
       font-size: 130%
       margin-left: 1em
 
+#splash
+  img
+    display: block
+    width: 100%
+    height: inherit
+    margin: 0
+  .subtitle
+    background-color: #3c3c3c
+    padding: 20px
+    +border-radius-bottom(10px)
+    h3
+      font-size: 100%
+      margin: 0 0 1em
+    p
+      font-size: 80%
+      color: #888a85
 #content
   min-height: 400px
 
