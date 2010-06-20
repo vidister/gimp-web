@@ -1,0 +1,3 @@
+This is the gimp.org website. Useful info on how to contribute will come here.
+
+The stylesheet is generated from a SASS template for easier maintenance. SASS is part of HAML -- http://haml-lang.com/. You will need sass3 to regenerate the stylesheet.

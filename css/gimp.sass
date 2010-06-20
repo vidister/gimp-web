@@ -1,0 +1,31 @@
+@import url(fonts.css) all
+@import url(960.css) all
+
+
+$bodyfg: #fff
+$bodybg: #374e70
+$select: #f57900
+
+
+=border-radius($radius)
+  border-radius: $radius
+  -moz-border-radius: $radius
+  -webkit-border-radius: $radius
+
+=border-radius-bottom($radius)
+  border-bottom-left-radius: $radius
+  border-bottom-right-radius: $radius
+  -moz-border-radius-bottomleft: $radius
+  -moz-border-radius-bottomright: $radius
+  -webkit-border-bottom-left-radius: $radius
+  -webkit-border-bottom-right-radius: $radius
+
+=colorgradient($from, $to)
+  color: -moz-linear-gradient(0% 100% 90deg, $from, $to)
+  color: -webkit-gradient(linear, 0% 0%, 0% 100%, from($from), to($to))
+  
+body
+  font-family: 'RaveIn Condensed', 'Avenir Condensed', Avenir, Prelude, sans-serif
+  background: $bodybg url() no-repeat center top
+  color: $bodyfg
+

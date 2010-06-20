@@ -1,0 +1,6 @@
+@import url(fonts.css) all;
+@import url(960.css) all;
+body {
+  font-family: "RaveIn Condensed", "Avenir Condensed", Avenir, Prelude, sans-serif;
+  background: #374e70 url() no-repeat center top;
+  color: white; }

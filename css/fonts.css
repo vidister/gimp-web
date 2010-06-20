@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'RaveIn Condensed';
+  font-weight: normal;
+  font-style: normal;
+  src: local('RaveIn Condensed'),
+  local('RaveIn-Condensed'),
+  url(../fonts/RaveIn-Condensed.otf);
+}
+
+@font-face {
+  font-family: 'RaveIn Condensed';
+  font-weight: bold;
+  font-style: normal;
+  src: local('RaveIn Condensed Bold'),
+  local('RaveIn-Condensed-Bold'),
+  url(../fonts/RaveIn-Condensed-Bold.otf);
+}
+
+
