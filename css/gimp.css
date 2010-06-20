@@ -1,6 +1,34 @@
 @import url(fonts.css) all;
 @import url(960.css) all;
 body {
-  font-family: "RaveIn Condensed", "Avenir Condensed", Avenir, Prelude, sans-serif;
-  background: #374e70 url() no-repeat center top;
-  color: white; }
+  font-family: "Droid Sans", sans-serif;
+  background: #374e70 url(/img/frbg.png) repeat-x center top;
+  color: white;
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5 {
+  font-family: "RaveIn Condensed", "Avenir Condensed", Avenir, Prelude, sans-serif; }
+
+a {
+  color: #f57900; }
+  a:hover {
+    color: #ff9100; }
+  a:active {
+    color: white; }
+
+#logo a {
+  text-indent: -200em;
+  display: block;
+  width: 130px;
+  height: 70px;
+  border: 0;
+  background: url(/img/logo.png) no-repeat 0 0;
+  outline: none; }
+
+#mainmenu {
+  display: block;
+  list-style: none;
+  text-align: right; }
+  #mainmenu li {
+    display: inline-block; }

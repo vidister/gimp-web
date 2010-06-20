@@ -25,7 +25,37 @@ $select: #f57900
   color: -webkit-gradient(linear, 0% 0%, 0% 100%, from($from), to($to))
   
 body
-  font-family: 'RaveIn Condensed', 'Avenir Condensed', Avenir, Prelude, sans-serif
-  background: $bodybg url() no-repeat center top
+  font-family: 'Droid Sans', sans-serif  
+  background: $bodybg url(/img/frbg.png) repeat-x center top
   color: $bodyfg
+  margin: 0
+  padding: 0
 
+h1,h2,h3,h4,h5
+  font-family: 'RaveIn Condensed', 'Avenir Condensed', Avenir, Prelude, sans-serif
+
+a
+  color: $select
+  &:hover 
+    color: $select * 1.2
+  &:active
+    color: #fff
+    
+
+#logo
+  a
+    text-indent: -200em
+    display: block
+    width: 130px
+    height: 70px
+    border: 0
+    background: url(/img/logo.png) no-repeat 0 0
+    outline: none
+
+#mainmenu
+  display: block
+  list-style: none
+  text-align: right
+  li
+    display: inline-block
+      
