@@ -112,6 +112,9 @@ a {
 #gegl {
   background-position: -65px 0; }
 
+#download {
+  margin-top: 1em; }
+
 .notebox {
   font-size: 90%;
   background-color: #6b849f;
@@ -131,6 +134,29 @@ a {
     width: 125px;
     height: 197px;
     background: url(/img/baloons.png) no-repeat 0 0; }
+
+.button {
+  background-color: #f57900;
+  color: white;
+  display: inline-block;
+  padding: 6px 12px;
+  font-family: "RaveIn Condensed", "Avenir Condensed", Avenir, Prelude, sans-serif;
+  font-size: 110%;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  -moz-text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  -webkit-text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  -o-text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  border: 1px solid #7a3c00;
+  outline: none; }
 
 #freesoftware {
   margin: 100px 0 10px;
