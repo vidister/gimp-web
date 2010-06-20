@@ -1,5 +1,5 @@
 @import url(fonts.css) all;
-@import url(960.css) all;
+@import url(grid.css) all;
 body {
   font-family: "Droid Sans", sans-serif;
   background: #374e70 url(/img/frbg.png) repeat-x center top;
@@ -9,6 +9,21 @@ body {
 
 h1, h2, h3, h4, h5 {
   font-family: "RaveIn Condensed", "Avenir Condensed", Avenir, Prelude, sans-serif; }
+
+h1 {
+  font-size: 150%; }
+
+h2 {
+  font-size: 140%; }
+
+h3 {
+  font-size: 130%; }
+
+h4 {
+  font-size: 120%; }
+
+h5 {
+  font-size: 110%; }
 
 a {
   color: #f57900; }
@@ -29,6 +44,16 @@ a {
 #mainmenu {
   display: block;
   list-style: none;
-  text-align: right; }
+  text-align: right;
+  margin: 38px 0 0;
+  font-weight: bold; }
   #mainmenu li {
     display: inline-block; }
+    #mainmenu li a {
+      font-family: "RaveIn Condensed", "Avenir Condensed", Avenir, Prelude, sans-serif;
+      text-decoration: none;
+      font-size: 130%;
+      margin-left: 1em; }
+
+#content {
+  min-height: 400px; }

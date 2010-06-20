@@ -1,11 +1,12 @@
 @import url(fonts.css) all
-@import url(960.css) all
+@import url(grid.css) all
 
 
 $bodyfg: #fff
 $bodybg: #374e70
 $select: #f57900
-
+$text: 'Droid Sans', sans-serif  
+$headline: 'RaveIn Condensed', 'Avenir Condensed', Avenir, Prelude, sans-serif
 
 =border-radius($radius)
   border-radius: $radius
@@ -25,14 +26,25 @@ $select: #f57900
   color: -webkit-gradient(linear, 0% 0%, 0% 100%, from($from), to($to))
   
 body
-  font-family: 'Droid Sans', sans-serif  
+  font-family: $text
   background: $bodybg url(/img/frbg.png) repeat-x center top
   color: $bodyfg
   margin: 0
   padding: 0
 
 h1,h2,h3,h4,h5
-  font-family: 'RaveIn Condensed', 'Avenir Condensed', Avenir, Prelude, sans-serif
+  font-family: $headline
+
+h1
+  font-size: 150%
+h2
+  font-size: 140%
+h3
+  font-size: 130%
+h4
+  font-size: 120%
+h5
+  font-size: 110%
 
 a
   color: $select
@@ -56,6 +68,16 @@ a
   display: block
   list-style: none
   text-align: right
+  margin: 38px 0 0
+  font-weight: bold
   li
     display: inline-block
-      
+    a
+      font-family: $headline
+      text-decoration: none
+      font-size: 130%
+      margin-left: 1em
+
+#content
+  min-height: 400px
+
