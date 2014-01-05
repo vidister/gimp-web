@@ -1,19 +1,6 @@
 /* fix the ohloh widget formatting */
-div.gadget {
-	color: black;
-	background-color: white;
-}
-
-div.gadget h3 {
-	clear: none;
-}
-
-div.gadget div {
-    clear: none ! important;
-}
-
 /* hack the ohloh iframe ;) */
-iframe {
+iframe[src*=ohloh] {
     background-color: #fff;
     border-radius: 10px;
     border: thin solid #000;
