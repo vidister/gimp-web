@@ -87,9 +87,10 @@ Portugal
      http://mirrors.fe.up.pt/mirrors/ftp.gimp.org/ (web access)
      rsync://mirrors.fe.up.pt/mirrors/ftp.gimp.org/ (rsync access)
 
-#Romania
+Romania
 #     ftp://ftp.iasi.roedu.net/pub/mirrors/ftp.gimp.org/
 #     http://ftp.iasi.roedu.net/mirrors/ftp.gimp.org/ (web access)
+     http://mirrors.serverhost.ro/gimp/ (web access)
 
 South Africa
      ftp://ftp.is.co.za/mirror/ftp.gimp.org/gimp/
