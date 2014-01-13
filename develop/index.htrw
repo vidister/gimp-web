@@ -12,7 +12,7 @@
 <script type="text/javascript" src="http://www.ohloh.net/p/43/widgets/project_basic_stats.js"></script>
 <!-- <!--#include virtual="https://www.ohloh.net/p/43/widgets/project_basic_stats.html" --> -->
 
-<h2>Intention</h2>
+<h2>How You Can Help</h2>
 
 <p>GIMP is <span class="help" title="software that may be modified and
 distributed freely, as long as you do not deny other users these
@@ -40,9 +40,17 @@ to others as payment.</p>
   <li>help others to learn to use GIMP, etc.</li>
 </ul>
 
-<p>As you can see, everyone can help.</p>
+<p>As you can see, anyone can help.</p>
 
-<h2>Bug reports</h2>
+<h2>Development Status</h2>
+
+<p>The team is currently busy working on v2.10. This will be the first release of GIMP featuring a new, advanced image processing engine, high bit depth editing, as well as new and improved transformation and selection tools.</p>
+
+<p>Porting internals of GIMP to GEGL is mostly done, but more plugins have to be ported to GEGL, and GEGL needs to be made faster. If you are willing to help with that, please refer to the <a href="http://wiki.gimp.org/index.php/Hacking:Porting_filters_to_GEGL" target="_blank">Porting filters to GEGL</a> page to see what you could work on.</p>
+
+<p>To get a better understanding of where the project is heading to, which features are planned etc., please visit the <a href="http://wiki.gimp.org/index.php/Roadmap" target="_blank">Roadmap</a> page.</p>
+
+<h2>Bug Reports</h2>
 
 <p>GIMP is not a bug-free application nor is any other application so
 reporting the bugs that you will encounter is very important to the
@@ -55,7 +63,7 @@ just quit the whole bug report if you think it is hard.  Instead, look
 at the <a href="wgo:bugs">bugs</a> page you will find some very good
 help about this.</p>
 
-<h2>Web development</h2>
+<h2>Web Development</h2>
 
 <p>Creating websites that contain useful information is very
 important.  It is actually just as important as doing bug reports.  A
@@ -90,10 +98,9 @@ in the source code that might help you a little.</p>
 <!--#include virtual="/includes/urls_important.inc" -->
 <!--#include virtual="/includes/urls_go-developer.inc" -->
 
-<h2>What is going on:</h2>
+<h2>Latest Changes in Code</h2>
 <p>
-  <a href="wgo:dev-changelog-html">The Unstable GIMP</a><br />
-  The lastest ChangeLog entries from The Unstable GIMP.
+  The <a href="wgo:dev-changelog-html">Unstable GIMP</a> page lists the lastest source code commits to the unstable branch of GIMP.
 </p>
 
 <!--#include virtual="/includes/wgo-page-fini.xhtml" -->
