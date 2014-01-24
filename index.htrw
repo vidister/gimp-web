@@ -6,11 +6,9 @@
 <!--#include virtual="/includes/wgo-look-feel.xhtml" -->
 <!--#include virtual="/includes/wgo-page-init.xhtml" -->
 
-<div class="splash">
-<img id="splashbg" alt="GIMP 2.8 Released!" title="GIMP 2.8 Released!" 
-src="/images/frontsplash.jpg" />
-<img id="fadesplash" alt="-" src="/images/fade.png" />
-<img id="splashoverlay" alt="-" src="/images/frontsplash28.png" usemap="#splashmap" />
+<div class="splash front">
+    <img id="splashoverlay" alt="GIMP 2.8 Released!" title="GIMP 2.8 Released!"
+    src="/images/frontsplash28.png" usemap="#splashmap" />
 </div>
 
 <map name="splashmap" id="splashmap">

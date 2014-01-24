@@ -8,10 +8,7 @@ $(document).ready(function() {
 </script>
 <!--#include virtual="/includes/wgo-page-init.xhtml" -->
 
-<div class="splash">
-<img alt="#" id="splashbg"
-src="downloadsplash.jpg" />
-<img alt="#" id="fadesplash" src="/images/fade.png" />
+<div class="splash download">
 </div>
 
 <h1>Downloads</h1>

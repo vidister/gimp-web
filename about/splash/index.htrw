@@ -3,9 +3,7 @@
 <!--#include virtual="/includes/wgo-look-feel.xhtml" -->
 <!--#include virtual="/includes/wgo-page-init.xhtml" -->
 
-<div class="splash">
-<img alt="#" class="splashbg"
-src="splashsplash.png" width="640" height="200" />
+<div class="splash aboutsplash">
 </div>
 
 <h1>GIMP Splash Archive</h1>

@@ -472,7 +472,6 @@ div.plain-screenshots img:hover {
   padding: 20px;
   font-weight: bold;
   white-space: nowrap;
-  left: 0px;
   margin: 0 0 1em 20px;
   background-color: #0e2426;
   position:relative;
@@ -531,11 +530,11 @@ div.plain-screenshots img:hover {
   }
 
 #main {
-  max-width: 60em;
   margin: 0;
-  padding: 20px;
+  padding: 0 20px 20px 20px;
   position: relative;
   /* border: 1px solid blue; */
+
 }
 
 
@@ -624,55 +623,52 @@ div.bottomlinks li {
 
 div.splash {
   margin: 0;
+  margin-left: -20px;
+  /* #menu width (160) + #menu padding (20) */
+  margin-right: 180px;
   background-color: transparent;
+  position: relative;
   height: 180px;
-  overflow: hidden;
-  position: absolute;
-  top: 0; left: 0; right: 200px;
 }
 
-  .splash+h1 {
-    margin-top: 180px;
-   }
+ .splash img#splashoverlay {
+   position: absolute;
+   right: 0px;
+   bottom: 8px;
+   width: 300px;
+   height: 140px;
+ }
 
-  .splash img#splashbg, .splash>img:first-child {
-    display: block;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-  }
 
-  .splash img#splashoverlay {
-    display: block;
-    position: absolute;
-    right: 0px;
-    top: 32px;
-    width: 300px;
-    height: 140px;
-  }
+div.splash.front {
+  background-image: url("../images/frontsplash.jpg");
+}
 
-  .splash img#fadesplash {
-    position: absolute;
-    display: block;
-    left: 900px;
-    width: 135px;
-    height: 200px;
-  }
+div.splash.aboutsplash {
+  background-image: url("../about/splash/splashsplash.png");
+}
+
+div.splash.download {
+  background-image: url("../downloads/downloadsplash.jpg");
+}
+
+div.splash.release24 {
+  background-image: url("../release-notes/images/2.4-releasesplash.jpg");
+}
+
+div.splash.release26 {
+  background-image: url("../release-notes/images/2.4-releasesplash.jpg");
+}
 
 .intropara {
-  position: absolute !important;
-  top: 180px; left: 0; right: 200px;
   background-color: #444;
   padding: 8px 16px 16px 58px;
   line-height: 1.5em;
-  overflow: hidden;
   font-style: italic;
   font-size: 90%;
   margin: 0;
-}
-
-#downloadgimp {
-  margin-top: 20em;
+  margin-left: -20px;
+  margin-right: 180px;
 }
 
 /* some elements do not need to be printed */

@@ -3,8 +3,7 @@
 <!--#include virtual="/includes/wgo-look-feel.xhtml" -->
 <!--#include virtual="/includes/wgo-page-init.xhtml" -->
 
-<div class="splash">
-<img alt="#" src="images/2.4-releasesplash.jpg" width="640" height="200" />
+<div class="splash release24">
 </div>
 
 <h1>GIMP 2.4 Release Notes - Videos</h1>
