@@ -1,6 +1,6 @@
 <h2><a name="development"></a>GIMP Development Links</h2>
 <p>
-  <a href="http://developer.gimp.org">GIMP developers</a><br />
+  <a href="http://wiki.gimp.org">GIMP developers</a><br />
   The main GIMP development website.
 </p>
 <p>

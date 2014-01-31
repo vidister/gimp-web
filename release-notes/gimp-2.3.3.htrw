@@ -48,8 +48,8 @@ Hyperthreading and Dualcore CPUs. In order to utilize multiple
 processors at a time several internal functions were parallelized.
 </p>
 <p>
-A detailed list of all changes since GIMP 2.2 is available at
-<a href="wgo:dev-news">http://developer.gimp.org/NEWS</a>.
+A detailed list of all changes since GIMP 2.2 is available 
+<a href="https://git.gnome.org/browse/gimp/plain/NEWS?id=GIMP_2_3_3">here</a>.
 It will take a little more time until the GIMP developers will present
 the next stable release. Those who do not want to wait are free to try
 GIMP 2.3.3. For those who yearn for a faster release: Help is always

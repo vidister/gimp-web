@@ -4,7 +4,7 @@
   Take your bugs here.
 </p>
 <p>
-  <a href="http://developer.gimp.org">developer.gimp.org</a><br />
+  <a href="http://wiki.gimp.org">wiki.gimp.org</a><br />
   GIMP Developer site
 </p>
 <p>

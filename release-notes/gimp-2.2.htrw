@@ -88,8 +88,8 @@
   We have collected a list of changes and new features in the
   <a href="http://wiki.gimp.org/gimp/WhatsNew2">GIMP Wiki</a>. For a
   detailed list of changes, please have a look at the NEWS file, which
-  is contained in the tarball and available online at
-  <a href="wgo:dev-news">developer.gimp.org</a>.
+  is contained in the tarball and available 
+  <a href="https://git.gnome.org/browse/gimp/plain/NEWS?h=gimp-2-2">online</a>.
 </p>
 
 <h2>What's Next</h2>

@@ -119,8 +119,8 @@ If you need to get work done, please use the stable version, GIMP 2.4.
 </p>
 
 <p>
-  Please see the <a href="wgo:dev-news">NEWS</a> file on developer.gimp.org for a
-  more detailed list of changes.
+  Please see the <a href="https://git.gnome.org/browse/gimp/plain/NEWS?id=GIMP_2_5_0">
+  NEWS</a> file for a more detailed list of changes.
   <a href="wgo:dev-screenshots">Screenshots</a> of the development
   version can also be found there.
 </p>

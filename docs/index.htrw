@@ -72,7 +72,7 @@
 
 <h2>GIMP Documentation for Developers and Script Authors</h2>
   <ul>
-    <li><a href="wgo:dev">developer.gimp.org</a></li>
+    <li><a href="wgo:dev">wiki.gimp.org</a></li>
     <li><a href="plug-in/plug-in.html">Writing a plug-in</a></li>
     <li><a href="python/index.html">GIMP Python module documentation</a></li>
     <li><a href="scheme_plugin/">GIMP Script-Fu documentation</a></li>

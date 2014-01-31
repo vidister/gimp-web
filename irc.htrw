@@ -95,7 +95,7 @@ GNOME.  However, several channels also exist on other IRC networks:</p>
 
   <li>Don't ask frequently asked questions. Using a search engine, visiting <a
   href="/">this web site</a>, the <a
-  href="http://developer.gimp.org/">developer site</a> and reading the <a
+  href="wgo:dev">developer site</a> and reading the <a
   href="/docs/">documentation</a> will help you to determine if your question
   falls into this category. It's not forbidden to ask the question, though,
   but you should be prepared for answers like "RTFM" or "use Google".</li>

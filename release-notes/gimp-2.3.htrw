@@ -16,8 +16,8 @@ GIMP 2.2.
 
 <h2>What's New in GIMP 2.3</h2>
 <p>
-  Please see the <a href="wgo:dev-news">NEWS</a> file on
-  developer.gimp.org for a list of changes.
+  Please see the <a href="https://git.gnome.org/browse/gimp/plain/NEWS?h=gimp-2-4&id=GIMP_2_3_0">
+  NEWS</a> file for a list of changes.
   <a href="wgo:dev-screenshots">Screenshots</a> of the development
   version can also be found there.
 </p>
