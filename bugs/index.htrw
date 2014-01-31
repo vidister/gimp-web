@@ -27,9 +27,6 @@
   handle bug reports. The rest of this page contains more detailed
   information regarding bug reports.
 </p>
-<p>
-  <a href="http://bugzilla.gnome.org/enter_bug.cgi?product=GIMP">Submit a bug report</a>
-</p>
 
 <h1>Bug How Tos</h1>
 <p>
@@ -88,6 +85,10 @@
   <li><a href="https://bugzilla.gnome.org/buglist.cgi?order=Importance;classification=Other;op_sys=All;query_format=advanced;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;bug_status=NEEDINFO;product=GIMP">List of open GIMP bugs, failing on all platforms</a></li>
 </ul>
 
+<ul>
+  <li><a href="http://bugzilla.gnome.org/enter_bug.cgi?product=GIMP">Submit a new GIMP bug report</a></li>
+</ul>
+
 <h2>GIMP Help bugs</h2>
 <ul>
   <li><a href="http://bugzilla.gnome.org/buglist.cgi?product=GIMP-manual&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED">List of open bugs (all)</a></li>
@@ -103,6 +104,10 @@
   <li><a href="https://bugzilla.gnome.org/buglist.cgi?chfieldto=Now;query_format=advanced;order=Importance;chfieldfrom=2013-11-28;bug_status=RESOLVED;resolution=FIXED;product=GIMP-manual;classification=Other">List of fixed bugs since last release</a></li>
 </ul>
 
+<ul>
+  <li><a href="http://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual">Submit a new GIMP Help bug report</a></li>
+</ul>
+
 <h2>GIMP Website bugs</h2>
 <ul>
   <li><a href="http://bugzilla.gnome.org/buglist.cgi?product=gimp-web&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED">List of open bugs (all)</a></li>
@@ -115,6 +120,10 @@
 
 <ul>
   <li><a href="http://bugzilla.gnome.org/buglist.cgi?product=gimp-web&amp;bug_status=RESOLVED&amp;bug_status=CLOSED&amp;changedin=7">List of closed bugs (The past week)</a></li>
+</ul>
+
+<ul>
+  <li><a href="http://bugzilla.gnome.org/enter_bug.cgi?product=gimp-web">Submit a new GIMP Website bug report</a></li>
 </ul>
 
 <h1>Security bugs</h1>
