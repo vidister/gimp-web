@@ -1,5 +1,4 @@
 <p>
-  <a href="http://bugs.gimp.org">bugs.gimp.org</a><br />
   <a href="http://bugzilla.gnome.org">bugzilla.gnome.org</a><br />
   Take your bugs here.
 </p>

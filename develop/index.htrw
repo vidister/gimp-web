@@ -85,7 +85,7 @@ installed at the moment then there are some files you should look at
 in the source code that might help you a little.</p>
 
 <ul>
-  <li><a href="wgo:dev-hacking">INSTALL</a><br />
+  <li><a href="wgo:dev-install">INSTALL</a><br />
   <i>(Contains most up-to-date information on building GIMP from source code)</i></li>
   <li><a href="wgo:dev-hacking">HACKING</a><br />
   <i>(Contains a lot of information that you need to know if you want to start coding)</i></li>
