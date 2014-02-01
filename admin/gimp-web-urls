@@ -189,7 +189,7 @@
 ["href", "wgo:about-ancient_history",          { "href": "/about/ancient_history.html"}]
 ["href", "wgo:about-authors",                  { "href": "/about/authors.html"}]
 ["href", "wgo:about-introduction",             { "href": "/about/introduction.html"}]
-["href", "wgo:license",                        { "href": "https://git.gnome.org/browse/gimp/plain/LICENSE"}]
+["href", "wgo:license",                        { "href": "/about/COPYING"}]
 ["href", "wgo:donating",                       { "href": "/donating/"}]
 ["href", "wgo:about-merchandise",              { "href": "/about/merchandise.html"}]
 ["href", "wgo:about-selling",                  { "href": "/about/selling.html"}]
