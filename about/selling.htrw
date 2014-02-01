@@ -20,8 +20,8 @@ suggestions for those who would like to sell GIMP.</p>
 <h2>Is it legal to sell copies of GIMP?</h2>
 
 <p>Yes.  The terms and conditions for copying, distribution and
-modification of GIMP are clearly listed in the <a
-href="wgo:license">GNU General Public License</a>.  Redistribution for
+modification of GIMP are clearly listed in the <a 
+href="wgo:license">LICENSE</a> file.  Redistribution for
 free or for profit is specifically allowed, as long as the license is
 included and the source code is made available.  See also <a
 href="http://www.gnu.org/philosophy/selling.html">Selling Free
