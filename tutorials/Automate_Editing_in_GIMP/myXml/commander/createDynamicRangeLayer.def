@@ -1,0 +1,9 @@
+commander>Create Dynamic Range Layer
+   macro>
+      comment>Create a Dynamic Range Layer and add it at the top of the stack
+      comment>Run autostretch_hsv leave mode Normal and at 100% opacity
+      >>>original = theImage.layers[0]
+      >>>DynRange = original.copy()
+      >>>DynRange.name = "DynRange"
+      >>>theImage.add_layer(DynRange, 0)
+      >>>pdb.plug_in_autostretch_hsv(theImage, DynRange)

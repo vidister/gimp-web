@@ -1,0 +1,10 @@
+commander>Centered Grid
+   comment>** Set up the grid for Rotate and or Perspective Transform
+   comment>*    Set values from python-fu image object
+   >>>centerX = theImage.width/2
+   >>>centerY = theImage.height/2
+   >>>gridSpacing = max(theImage.width, theImage.height)/24
+   comment>*    configure grid with PDB functions
+   >>>pdb.gimp_image_grid_set_offset(theImage, centerX, centerY)
+   >>>pdb.gimp_image_grid_set_spacing(theImage, gridSpacing, gridSpacing)
+   >>>pdb.gimp_image_grid_set_style(theImage, GRID_ON_OFF_DASH)

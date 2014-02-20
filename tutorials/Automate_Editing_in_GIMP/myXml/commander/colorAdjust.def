@@ -1,0 +1,26 @@
+commander>Color Adjust
+   macro>
+    comment>Merge the work layers together and raise the color layer to the top
+    comment>First the Retinex layer
+    >>> RetinexLayer = pdb.gimp_image_get_layer_by_name(theImage, 'Retinex')
+    >>> tempLayer = pdb.gimp_image_merge_down(theImage, RetinexLayer, EXPAND_AS_NECESSARY)
+
+    comment>Then the Sharpen Layer
+    >>> SharpenLayer = pdb.gimp_image_get_layer_by_name(theImage, 'Sharpen')
+    >>> newLayer = pdb.gimp_image_merge_down(theImage, SharpenLayer, EXPAND_AS_NECESSARY)
+    >>> newLayer.name = 'Contrast'
+    comment>Desaturate the resultant layer
+    >>> pdb.gimp_desaturate_full(newLayer, DESATURATE_LUMINOSITY)
+
+   comment>Move the Color Layer to the top of the stack, name it ColorBase, set opacity to 80%
+    >>> ColorLayer = pdb.gimp_image_get_layer_by_name(theImage, 'ColorLayer')
+    >>> ColorLayer.name = 'ColorBase'
+    >>> pdb.gimp_image_raise_item_to_top(theImage, ColorLayer)
+    >>> ColorLayer.opacity = 80.0
+
+    comment>Copy the Color Layer, call it ColorAdd, set opacity to 20%.  Adjust by hand as needed.
+    >>> ColorAdd = pdb.gimp_layer_copy(ColorLayer, FALSE)
+    >>> theImage.add_layer(ColorAdd, 0)
+    >>> ColorAdd.name = 'ColorAdd'
+    >>> ColorAdd.opacity = 20.0
+

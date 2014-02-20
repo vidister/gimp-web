@@ -1,0 +1,5 @@
+commander>Rename Base Layer
+   macro>
+      comment>Rename the base layer to 'Original'
+      >>>theLayer = theImage.layers[0]
+      >>>theLayer.name = 'Original'

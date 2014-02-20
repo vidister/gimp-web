@@ -1,0 +1,34 @@
+flags>Control Properties
+property>UpdateFlag
+    comment>Initial value set on import to Xcf
+    comment>Set by user on Image from Automation Menu
+    comment>Read by autoAutoUpdate (updateImage function)
+    comment>Updates Image (executes Next Step in Flow) if YES
+    comment>Reset to NO by updateImage
+    default>YES
+    option>NO
+    option>YES
+
+property>EnhanceColorLevel
+    default>NORMAL
+    option>EXTRA
+    option>NORMAL
+    option>MID
+    option>NONE
+
+property>EnhanceContrastLevel
+    default>NORMAL
+    option>EXTRA
+    option>NORMAL
+    option>MID
+    option>NONE
+
+property>OverwriteXcf
+    default>NO
+    option>YES
+    option>NO
+
+property>OverwriteJpg
+    default>NO
+    option>YES
+    option>NO
