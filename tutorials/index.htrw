@@ -187,6 +187,9 @@
 <p>
   <a href="AutomatedJpgToXcf/">Automated Jpg to Xcf</a> Import Xcf Images a Directory at a Time.
 </p>
+<p>
+<a href="Automate_Editing_in_GIMP/">Automate Editing in GIMP</a> Using GIMP Python to automate a workflow.
+</p>
 
 <p class="navindex">[<a href="#Beginner">Beginner</a>
 | <a href="#Intermediate">Intermediate</a>
