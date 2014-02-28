@@ -227,7 +227,7 @@ You’ll then be presented with options about how to initialize the mask. You’
 <div class="caption"><img src="AddLayerMask.png" alt="AddLayerMask" /><br/><span></span></div>
 
 <h4>Adjust the Layer</h4>
-<img style="float: right;" src="Dark-Active.png"/>
+<img style="float: right;" src="Dark-Active.png" alt="Dark Active" />
 <p>
 Now you’ll have a Dark layer with a DD mask that will restrict any modification you do to this layer to only apply to the darker tones.
 </p>
@@ -285,7 +285,7 @@ The real power here comes from experimentation. I encourage you to try using a d
 The mid-tone masks were very interesting to me. In Tony's original article, he mentioned how much he loved using them to provide a nice boost to contrast and saturation in the image. Well, he&rsquo;s right. It certainly does do that! (He also feels that it’s similar to shooting the image on Velvia).
 </p>
 
-<img style="float:right; margin-left: 1em;" src="Mid-Layer.png"/>
+<img style="float:right; margin-left: 1em;" src="Mid-Layer.png" alt="Mid Layer" />
 <p>
 Let’s have a look.
 </p>
@@ -354,7 +354,7 @@ As always, I encourage you to experiment and play!
         <li><a href="../Selective_Color">Selective Colorization</a></li>
         <li><a href="../Layer_Masks">Layer Masks</a></li>
         <li><a href="http://blog.patdavid.net/2011/10/getting-around-in-gimp-layer-masks.html">Getting Around in GIMP - Layer Masks</a></li>
-        <li><a href="http://blog.patdavid.net/2011/10/getting-around-in-gimp-luminosity-masks.html">Getting Around in GIMP - Luminosity Masks & Split Toning</a></li>
+        <li><a href="http://blog.patdavid.net/2011/10/getting-around-in-gimp-luminosity-masks.html">Getting Around in GIMP - Luminosity Masks &amp; Split Toning</a></li>
         <li><a href="http://blog.patdavid.net/2013/11/getting-around-in-gimp-luminosity-masks.html">Getting Around in GIMP - Luminosity Masks Revisited</a></li>
 </ul>
 <p>
