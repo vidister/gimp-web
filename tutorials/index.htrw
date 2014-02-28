@@ -184,11 +184,12 @@
 </p>
 <p>
   <a href="Basic_Scheme2/">GIMP Script-Fu 2</a> Write More Scheme for GIMP.
+</p>
 <p>
   <a href="AutomatedJpgToXcf/">Automated Jpg to Xcf</a> Import Xcf Images a Directory at a Time.
 </p>
 <p>
-<a href="Automate_Editing_in_GIMP/">Automate Editing in GIMP</a> Using GIMP Python to automate a workflow.
+  <a href="Automate_Editing_in_GIMP/">Automate Editing in GIMP</a> Using GIMP Python to automate a workflow.
 </p>
 
 <p class="navindex">[<a href="#Beginner">Beginner</a>
