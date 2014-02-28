@@ -1,6 +1,6 @@
 <!--#include virtual="/includes/wgo-xhtml-init.xhtml" -->
 <title>GIMP - Luminosity Masks</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="styles.css" />
 <!--#include virtual="/includes/wgo-look-feel.xhtml" -->
 <!--#include virtual="/includes/wgo-page-init.xhtml" -->
 
@@ -22,12 +22,12 @@ This tutorial will assume you are already familiar with layer masks.  If not (or
 <p>
 For this tutorial I'll be using this image by the West Arctic National Parklands:
 </p>
-<div class="caption"><a href="Mountains-Full-Size.jpg"><img src="Mountains.jpg" /></a><br/><span><a style="font-style: italic;" href="http://www.flickr.com/photos/nps_wear/8517263428/">Mountains as Far as the Eye Can See</a> (<a href="http://creativecommons.org/licenses/by/2.0/">cc-by</a>)</span></div>
+<div class="caption"><a href="Mountains-Full-Size.jpg"><img src="Mountains.jpg" alt="Mountains" /></a><br/><span><a style="font-style: italic;" href="http://www.flickr.com/photos/nps_wear/8517263428/">Mountains as Far as the Eye Can See</a> (<a href="http://creativecommons.org/licenses/by/2.0/">cc-by</a>)</span></div>
 <p>
 After going through this tutorial, we will generate channels in GIMP corresponding to these six different luminosity regions in the image:
 </p>
 
-<div class="caption"><img src="All-Masks.jpg" /><br/><span >Example luminosity masks.  Lights (left), Mids (center), and Darks (right)</span></div>
+<div class="caption"><img src="All-Masks.jpg" alt="All-Masks" /><br/><span >Example luminosity masks.  Lights (left), Mids (center), and Darks (right)</span></div>
 
 <h2>Creating the Masks</h2>
 <p>
@@ -37,15 +37,15 @@ To begin creating the masks we will need to first get a luminosity representatio
 <p>
 Either through the menus, or by Right-Clicking on the base layer in the <b>Layer Dialog</b>:
 </p>
-<div class="MenuCmd"><span><u>L</u>ayer &rarr; D<u>u</u>plicate Layer</span></div>
-<div class="caption"><img src="Layer-Duplicate.png" /><br/><span></span></div>
+<div class="MenuCmd"><span><span style="text-decoration: underline;">L</span>ayer &rarr; D<span style="text-decoration: underline;">u</span>plicate Layer</span></div>
+<div class="caption"><img src="Layer-Duplicate.png" alt="Layer-Duplicate" /><br/><span></span></div>
 
 <h3>Desaturate the Duplicated Layer</h3>
 <p>
 Now desaturate the duplicated layer using <b>Luminosity</b> as the method:
 </p>
 <div class="MenuCmd"><span>Colors &rarr; Desaturate&hellip;</span></div>
-<div class="caption"><img src="Layer-Desaturate.png" /><br/><span></span></div>
+<div class="caption"><img src="Layer-Desaturate.png" alt="Layer-Desaturate" /><br/><span></span></div>
 <p>
 This desaturate copy of your color image represents the &ldquo;Lights&rdquo; channel.  Now we want to create a new channel based on thsi layer.
 </p>
@@ -56,7 +56,7 @@ This desaturate copy of your color image represents the &ldquo;Lights&rdquo; cha
 The easiest way to do this is through the <b>Channels</b> Dialog. If you don't see it, you can open it by going to:
 </p>
 <div class="MenuCmd"><span>Windows &rarr; Dockable Dialogs &rarr; Channels</span></div>
-<div class="caption"><img src="Channels-Dialog.png" /><br/><span>The <b>Channels</b> Dialog</span></div>
+<div class="caption"><img src="Channels-Dialog.png" alt="Channels-Dialog" /><br/><span>The <b>Channels</b> Dialog</span></div>
 <p>
 On the <span style="color: #ff5500;">top half</span> of this window you&rsquo;ll see the an entry for each channel in your image (Red, Green, Blue, and Alpha). On <span style="color: #00aaff;">the bottom</span> will be a list of any channels you have previously defined.
 </p>
@@ -69,7 +69,7 @@ Now rename this channel to something meaningful (like &ldquo;<b>L</b>&rdquo; for
 <p>
 This now gives us our &ldquo;<b>Lights</b>&rdquo; channel, <b>L </b>:
 </p>
-<div class="caption"><img src="L-Channel.png" /><br/><span></span></div>
+<div class="caption"><img src="L-Channel.png" alt="L-Channel" /><br/><span></span></div>
 <p>
 With the &ldquo;Lights&rdquo; channel created, we can use it to create the inverse, the &ldquo;Darks&rdquo; channel.
 </p>
@@ -96,7 +96,7 @@ Remember that you should be seeing the &ldquo;marching ants&rdquo; around your s
 <p>
 With the entire image selected, we just have to subtract the &ldquo;Lights&rdquo; channel.  In the <b>Channels</b> dialog, just Right-Click on the &ldquo;Lights&rdquo; channel, and choose &ldquo;<b>Subtract from Selection</b>&rdquo;:
 </p>
-<div class="caption"><img src="L-Channel-Subtract.png" /><br/><span>Subtracting the <b>L</b> channel</span></div>
+<div class="caption"><img src="L-Channel-Subtract.png" alt="L-Channel-Subtract" /><br/><span>Subtracting the <b>L</b> channel</span></div>
 <p>
 You’ll now see a new selection on your image. This selection represents the inverse of the “Lights” channel&hellip;
 </p>
@@ -120,11 +120,11 @@ Once you’ve subtracted the “Lights” channel again, don’t forget to save 
 <p>
 I&rsquo;ll usually make 3 levels of &ldquo;Darks&rdquo; channels: <b>D</b>, <b>DD</b>, and <b>DDD</b>:
 </p>
-<div class="caption"><img src="D-Channels.png" /><br/><span>Three levels of Dark masks created</span></div>
+<div class="caption"><img src="D-Channels.png" alt="D-Channels" /><br/><span>Three levels of Dark masks created</span></div>
 <p>
 Here is what the three different channels of Darks look like:
 </p>
-<div class="caption"><img src="Darks-All.jpg" /><br/><span>The <b>D</b>, <b>DD</b>, and <b>DDD</b> channels, respectively</span></div>
+<div class="caption"><img src="Darks-All.jpg" alt="Darks-All" /><br/><span>The <b>D</b>, <b>DD</b>, and <b>DDD</b> channels, respectively</span></div>
 
 <h3>Create the Lighter Masks</h3>
 <p>
@@ -138,25 +138,25 @@ The process is identical to creating the darker channels, just in reverse.
 <p>
 To get started, activate the &ldquo;Lights&rdquo; channel as a selection (Right-Click on the &ldquo;Lights&rdquo; Channel):
 </p>
-<div class="caption"><img src="L-Channel-Activate.png" /><br/><span></span></div>
+<div class="caption"><img src="L-Channel-Activate.png" alt="L-Channel-Activate" /><br/><span></span></div>
 <p>
 With the “Lights” channel as a selection, now all we have to do is <b>Subtract</b> the “Darks” channel from it. Then save that selection as a new channel (which will become our “LL” channel, and so on…):
 </p>
-<div class="caption"><img src="D-Subtract.png" /><br/><span>Subtracting the <b>D</b> channel from the <b>L</b> selection</span></div>
+<div class="caption"><img src="D-Subtract.png" alt="D-Subtract" /><br/><span>Subtracting the <b>D</b> channel from the <b>L</b> selection</span></div>
 <p>
 To get an even lighter channel, you can subtract <b>D</b> one more time from the selection so far as well.
 </p>
 <p>
 Here are what the three channels look like, starting with <b>L</b> up to <b>LLL</b>:
 </p>
-<div class="caption"><img src="Lights-All.jpg" /><br/><span>The <b>L</b>, <b>LL</b>, and <b>LLL</b> channels, respectively</span></div>
+<div class="caption"><img src="Lights-All.jpg" alt="Lights-All" /><br/><span>The <b>L</b>, <b>LL</b>, and <b>LLL</b> channels, respectively</span></div>
 
 
 <h3>Mid Tones Channels</h3>
 <p>
 By this point, we&rsquo;ve got 6 new channels, three each for light and dark tones:
 </p>
-<div class="caption"><img src="L+D.png" /><br/><span></span></div>
+<div class="caption"><img src="L+D.png" alt="L+D" /><br/><span></span></div>
 <p>
 Now we can generate our mid-tone channels from these.
 </p>
@@ -184,7 +184,7 @@ You can repeat for each of the other levels, creating an MM and MMM if you'd lik
 <p>
 Now remember, the mid-tones channels are intended to isolate mid values as a mask, so they can look a little strange at first glance. Here's what the basic mid-tones mask looks like:
 </p>
-<div class="caption"><img src="Mid.jpg" /><br/><span>Basic Mid-Tones channel</span></div>
+<div class="caption"><img src="Mid.jpg" alt="Mid" /><br/><span>Basic Mid-Tones channel</span></div>
 <p>
 Remember, black tones in this mask represent full transparency to the layer below, while white represents full opacity, from the associated layer.
 </p>
@@ -197,14 +197,14 @@ Remember, black tones in this mask represent full transparency to the layer belo
 The basic idea behind creating these channels is that you can now mask particular tonal ranges in your images, and the mask will be self-feathering (due to how we created them). So we can now isolate specific tones in the image for manipulation.
 </p>
 <p>
-<a href="http://blog.patdavid.net/2011/10/getting-around-in-gimp-luminosity-masks.html">Previously</a>, I had shown how this could be used to do some simple split-toning of an image. In that case I worked on a B&W image, and tinted it. Here I'll do the same with our image we’ve been working on so far...
-<p>
+<a href="http://blog.patdavid.net/2011/10/getting-around-in-gimp-luminosity-masks.html">Previously</a>, I had shown how this could be used to do some simple split-toning of an image. In that case I worked on a B&amp;W image, and tinted it. Here I'll do the same with our image we’ve been working on so far...
+</p>
 
 <h3>Split Toning</h3>
 <p>
 Using the image I've been working through so far, we have the base layer to start with:
 </p>
-<div class="caption"><img src="Split-Base.png" /><br/><span></span></div>
+<div class="caption"><img src="Split-Base.png" alt="Split-Base" /><br/><span></span></div>
 
 <h4>Create Duplicates</h4>
 <p>
@@ -214,7 +214,7 @@ We are going to want two duplicates of this base layer. One to tone the lighter 
 <p>
 Then rename the copy something descriptive. In my example, I'll call this layer “Dark” (original, I know):
 </p>
-<div class="caption"><img src="Split-Dark.png" /><br/><span></span></div>
+<div class="caption"><img src="Split-Dark.png" alt="Split-Dark" /><br/><span></span></div>
 
 <h4>Add a Mask</h4>
 <p>
@@ -224,7 +224,7 @@ Now we can add a layer mask to this layer. You can either Right-Click the layer,
 <p>
 You’ll then be presented with options about how to initialize the mask. You’ll want to <b>Initialize Layer Mask to:</b> “Channel”, then choose one of your luminosity masks from the drop-down. In my case, I’ll use the <b>DD</b> mask we previously made:
 </p>
-<div class="caption"><img src="AddLayerMask.png" /><br/><span></span></div>
+<div class="caption"><img src="AddLayerMask.png" alt="AddLayerMask" /><br/><span></span></div>
 
 <h4>Adjust the Layer</h4>
 <img style="float: right;" src="Dark-Active.png"/>
@@ -245,18 +245,18 @@ So I’ll use the <b>Colorize</b> option to tone the entire layer a new color:
 <p>
 To get a Teal-ish color, I'll pull the Hue slider over to about 200:
 </p>
-<div class="caption"><img src="Colorize-200.png" /><br/><span></span></div>
+<div class="caption"><img src="Colorize-200.png" alt="Colorize-200" /><br/><span></span></div>
 <p>
 Now, pay attention to what’s happening on your image canvas at this point. Drag the Hue slider around and see how it changes the colors in your image. Especially note that the color shifts will be restricted to the darker tones thanks to the DD mask being used!
 </p>
 <p>
 To illustrate, here are four images where the <b>Hue</b> has been changed in each one.  Notice how the color shifts are constrained to darker tones due to the <b>DD</b> mask being active:
 </p>
-<div class="caption"><img src="All-Hues.jpg" /><br/><span></span></div>
+<div class="caption"><img src="All-Hues.jpg" alt="All-Hues" /><br/><span></span></div>
 <p>
 So after I choose a new Hue of 200 for my layer, I should be seeing this:
 </p>
-<div class="caption"><img src="Dark-Tinted.png" /><br/><span></span></div>
+<div class="caption"><img src="Dark-Tinted.png" alt="Dark-Tinted" /><br/><span></span></div>
 
 <h4>Repeat for Light Tones</h4>
 <p>
@@ -265,15 +265,15 @@ Now just repeat the above steps, but this time for the light tones. So duplicate
 <p>
 For the lighter tones, I chose a Hue of around 25 instead (more orange-ish than blue):
 </p>
-<div class="caption"><img src="Light-Tinted.png" /><br/><span></span></div>
+<div class="caption"><img src="Light-Tinted.png" alt="Light-Tinted" /><br/><span></span></div>
 <p>
 In the end, here are the results that I achieved:
 </p>
-<div class="caption"><img src="Mountains-split.jpg" /><br/><span></span></div>
+<div class="caption"><img src="Mountains-split.jpg" alt="Mountains-split" /><br/><span></span></div>
 <p>
 Compared to the original we started with:
 </p>
-<div class="caption"><img src="Mountains.jpg" /><br/><span></span></div>
+<div class="caption"><img src="Mountains.jpg" alt="Mountains" /><br/><span></span></div>
 <p>
 The real power here comes from experimentation. I encourage you to try using a different mask to restrict the changes to different areas (try the LLL for instance). You can also adjust the opacity of the layers now to modify how strongly the color tones will effect those areas as well. Play!
 </p>
@@ -309,35 +309,35 @@ To illustrate, I’m going to apply a fairly aggressive compression to the curve
 <p>
 When I say aggressive, here is what I’m referring to:
 </p>
-<div class="caption"><img src="Mid-Curve.png" /><br/><span></span></div>
+<div class="caption"><img src="Mid-Curve.png" alt="Mid-Curve" /><br/><span></span></div>
 <p>
 Here is the effect it has on the image when using the <b>M</b> mid-tones mask:
 </p>
 
-<div class="caption"><img src="Mid-Boost.jpg" /><br/><span></span></div>
+<div class="caption"><img src="Mid-Boost.jpg" alt="Mid-Boost" /><br/><span></span></div>
 <p>
 Compared to the original we started with:
 </p>
-<div class="caption"><img src="Mountains.jpg" /><br/><span></span></div>
+<div class="caption"><img src="Mountains.jpg" alt="Mountains" /><br/><span></span></div>
 <p>
 As you can see, there is an increase in contrast across the image, as well a nice little boost to saturation. You don't need to worry about blowing out highlights or losing shadow detail, because the mask will not allow you to modify those values.
 </p>
 
 <h4>More Samples of the Mid-Tones Mask in use</h4>
-<div class="caption"><img src="stignygaard-3654106828-original.jpg" /><br/><span>Original<br/><a href="http://www.flickr.com/photos/stignygaard/3654106828/">Brorfelde landscape</a> by <a href="http://www.flickr.com/photos/stignygaard">Stig Nygaard</a> (<a href="http://creativecommons.org/licenses/by/2.0/">cc-by</a>)</span></div>
-<div class="caption"><img src="stignygaard-3654106828.png" /><br/><span>After an aggressive curve + Mid-Tone mask</span></div>
+<div class="caption"><img src="stignygaard-3654106828-original.jpg" alt="stignygaard-3654106828-original" /><br/><span>Original<br/><a href="http://www.flickr.com/photos/stignygaard/3654106828/">Brorfelde landscape</a> by <a href="http://www.flickr.com/photos/stignygaard">Stig Nygaard</a> (<a href="http://creativecommons.org/licenses/by/2.0/">cc-by</a>)</span></div>
+<div class="caption"><img src="stignygaard-3654106828.png" alt="stignygaard-3654106828" /><br/><span>After an aggressive curve + Mid-Tone mask</span></div>
 
 <br/>
 <br/>
 
-<div class="caption"><img src="Landscapes.jpg" /><br/><span>Original<br/><a href="http://www.flickr.com/photos/thomasjhannigan/8387450301/">Landscapes</a> by <a href="http://www.flickr.com/photos/thomasjhannigan/">Tom Hannigan</a>  (<a href="http://creativecommons.org/licenses/by/2.0/">cc-by</a>)</span></div>
-<div class="caption"><img src="Landscapes-Mid-Mask.jpg" /><br/><span>After an aggressive curve + Mid-Tone mask</span></div>
+<div class="caption"><img src="Landscapes.jpg" alt="Landscapes" /><br/><span>Original<br/><a href="http://www.flickr.com/photos/thomasjhannigan/8387450301/">Landscapes</a> by <a href="http://www.flickr.com/photos/thomasjhannigan/">Tom Hannigan</a>  (<a href="http://creativecommons.org/licenses/by/2.0/">cc-by</a>)</span></div>
+<div class="caption"><img src="Landscapes-Mid-Mask.jpg" alt="Landscapes-Mid-Mask" /><br/><span>After an aggressive curve + Mid-Tone mask</span></div>
 
 <br/>
 <br/>
 
-<div class="caption"><img src="Craters-of-the-Moon.jpg" /><br/><span>Original<br/><a href="http://www.flickr.com/photos/72213316@N00/3725266971/">Stitched photos of the Idaho landscape near Craters of the Moon National Monument</a><br>by <a href="http://www.flickr.com/photos/72213316@N00/">Frank Kovalchek</a> (<a href="http://creativecommons.org/licenses/by/2.0/">cc-by</a>)</a></span></div>
-<div class="caption"><img src="Craters-of-the-Moon-Mid-Mask.jpg" /><br/><span>After an aggressive curve + Mid-Tone mask</span></div>
+<div class="caption"><img src="Craters-of-the-Moon.jpg" alt="Craters-of-the-Moon" /><br/><span>Original<br/><a href="http://www.flickr.com/photos/72213316@N00/3725266971/">Stitched photos of the Idaho landscape near Craters of the Moon National Monument</a><br/>by <a href="http://www.flickr.com/photos/72213316@N00/">Frank Kovalchek</a> (<a href="http://creativecommons.org/licenses/by/2.0/">cc-by</a>)</span></div>
+<div class="caption"><img src="Craters-of-the-Moon-Mid-Mask.jpg" alt="Craters-of-the-Moon-Mid-Mask" /><br/><span>After an aggressive curve + Mid-Tone mask</span></div>
 
 <h2>In Conclusion</h2>
 <p>

@@ -25,7 +25,7 @@ The concepts are ones that you&rsquo;ll likely come across multiple times while 
 <p>
 Create a new image of appropriate size for your logo:
 </p>
-<div class="MenuCmd"><span><u>F</u>ile &rarr; <u>N</u>ew&hellip;</span></div>
+<div class="MenuCmd"><span><span style="text-decoration: underline;">F</span>ile &rarr; <span style="text-decoration: underline;">N</span>ew&hellip;</span></div>
 <p>
 This will open the &ldquo;Create a New Image&rdquo; dialog, with options for you to specify:
 </p>
@@ -55,7 +55,7 @@ The &ldquo;Change Foreground Color&rdquo; dialog allows you to now set the foreg
 <p>
 With the foreground color set, we can now use the <b>Bucket Fill Tool</b> to fill in our image:
 </p>
-<div class="MenuCmd"><span><u>T</u>ools &rarr; <u>P</u>aint Tools &rarr; <u>B</u>ucket Fill</span></div>
+<div class="MenuCmd"><span><span style="text-decoration: underline;">T</span>ools &rarr; <span style="text-decoration: underline;">P</span>aint Tools &rarr; <span style="text-decoration: underline;">B</span>ucket Fill</span></div>
 <div class="centerImg"><img alt="GIMP bucket fill tool" src="Bucket-Fill-Tool.png" /><br />
 		<span class="caption">Activating the <b style="color: #00FF00;">Bucket Fill</b> tool.</span>
 </div>
@@ -80,7 +80,7 @@ You can also use they keyboard shortcut &ldquo;<b>X</b>&rdquo; to swap the color
 <p>
 With the foreground color set to white, we can now use the <b>Text Tool</b> to add some text to our image:
 </p>
-<div class="MenuCmd"><span><u>T</u>ools &rarr; Te<u>x</u>t</span></div>
+<div class="MenuCmd"><span><span style="text-decoration: underline;">T</span>ools &rarr; Te<span style="text-decoration: underline;">x</span>t</span></div>
 <div class="centerImg"><img alt="GIMP text tool" src="Text-Tool.png" /><br />
 		<span class="caption">Activating the <b style="color: #00FF00;">Text Tool</b>.</span>
 </div>
@@ -127,7 +127,7 @@ Once we&rsquo;ve gotten the text how we want it, we can now create a new layer f
 <p>
 Alternatively, you can also create a new layer from visible using the menu:
 </p>
-<div class="MenuCmd"><span><u>L</u>ayer &rarr; New from <u>V</u>isible</span></div>
+<div class="MenuCmd"><span><span style="text-decoration: underline;">L</span>ayer &rarr; New from <span style="text-decoration: underline;">V</span>isible</span></div>
 <p>
 At this point, our layer palette will have three layers on it, the background, the text (&ldquo;PAT&rdquo;), and our new layer &ldquo;Visible&rdquo;:
 </p>
@@ -143,7 +143,7 @@ Which is good, because we are about to blur this new layer a bit!
 <p>
 To apply a slight Gaussian blur to this layer, we simply invoke the command through the menu:
 </p>
-<div class="MenuCmd"><span>Filte<u>r</u>s &rarr; <u>B</u>lur &rarr; <u>G</u>aussian Blur&hellip;</span></div>
+<div class="MenuCmd"><span>Filte<span style="text-decoration: underline;">r</span>s &rarr; <span style="text-decoration: underline;">B</span>lur &rarr; <span style="text-decoration: underline;">G</span>aussian Blur&hellip;</span></div>
 <p>
 This will invoke the <b>Gaussian Blur</b> dialog, where we can specify how much blur we want to apply:
 </p>
@@ -151,7 +151,7 @@ This will invoke the <b>Gaussian Blur</b> dialog, where we can specify how much 
         <span class="caption"></span>
 </div>
 <p>
-The defaults were pretty good, but I wanted just a tad more blur, so I increased the <b>Blur Radius</b> to 7.  When you&rsquo;re done, just hit &ldquo;<u>O</u>K&rdquo;.
+The defaults were pretty good, but I wanted just a tad more blur, so I increased the <b>Blur Radius</b> to 7.  When you&rsquo;re done, just hit &ldquo;<span style="text-decoration: underline;">O</span>K&rdquo;.
 </p>
 <h2 id="addcolor" class="hilite">Adding Some Color</h2>
 <p>
@@ -160,7 +160,7 @@ Now that we have our text done, it&rsquo;s time to add a splash of color!
 <p>
 We are going to add a new layer to our image first:
 </p>
-<div class="MenuCmd"><span><u>L</u>ayer &rarr; <u>N</u>ew Layer&hellip;</span></div>
+<div class="MenuCmd"><span><span style="text-decoration: underline;">L</span>ayer &rarr; <span style="text-decoration: underline;">N</span>ew Layer&hellip;</span></div>
 <p>
 Or by Right-Clicking on the &ldquo;Visible&rdquo; layer in the layer palette, and choosing &ldquo;<b>New Layer&hellip;</b>&rdquo; from the context menu:
 </p>
@@ -168,14 +168,14 @@ Or by Right-Clicking on the &ldquo;Visible&rdquo; layer in the layer palette, an
         <span class="caption">New Layer using the Right-Click context menu.</span>
 </div>
 <p>
-The &ldquo;<b>Create a New Layer</b>&rdquo; dialog will appear - it doesn&rsquo;t matter what it gets filled with, so you can leave it at whatever <b>Layer Fill Type</b> it&rsquo;s set at (White by default I believe).  Hit <b><u>O</u>K</b> to create the new layer.
+The &ldquo;<b>Create a New Layer</b>&rdquo; dialog will appear - it doesn&rsquo;t matter what it gets filled with, so you can leave it at whatever <b>Layer Fill Type</b> it&rsquo;s set at (White by default I believe).  Hit <b><span style="text-decoration: underline;">O</span>K</b> to create the new layer.
 </p>
 <p>
 We are now going to fill this new layer with some color to add some interest.  To do this we will use the <b>Plasma</b> plugin:
 </p>
-<div class="MenuCmd"><span>Filte<u>r</u>s &rarr; <u>R</u>ender &rarr; <u>C</u>louds &rarr; <u>P</u>lasma&hellip;</span></div>
+<div class="MenuCmd"><span>Filte<span style="text-decoration: underline;">r</span>s &rarr; <span style="text-decoration: underline;">R</span>ender &rarr; <span style="text-decoration: underline;">C</span>louds &rarr; <span style="text-decoration: underline;">P</span>lasma&hellip;</span></div>
 <p>
-I just left the default values and hit <b><u>O</u>K</b>, but feel free to fiddle with the values.  Our layers now look like this:
+I just left the default values and hit <b><span style="text-decoration: underline;">O</span>K</b>, but feel free to fiddle with the values.  Our layers now look like this:
 </p>
 <div class="centerImg"><img alt="GIMP plasma layer" src="Layer-Plasma.png" /><br />
         <span class="caption"></span>
@@ -191,7 +191,7 @@ Here is what my canvas looks like right now (with the plasma layer on top and vi
 <p>
 Now we&rsquo;re going to use the text we created earlier to generate a fake 3D shape on this plasma layer.  The process is known as &ldquo;bump mapping&rdquo;.  I won&rsquo;t get into the technical details of how this works, as it is best seen rather than explained.  Open the <b>Bump Map</b> dialog through the menu:
 </p>
-<div class="MenuCmd"><span>Filte<u>r</u>s &rarr; <u>M</u>ap &rarr; <u>B</u>ump Map&hellip;</span></div>
+<div class="MenuCmd"><span>Filte<span style="text-decoration: underline;">r</span>s &rarr; <span style="text-decoration: underline;">M</span>ap &rarr; <span style="text-decoration: underline;">B</span>ump Map&hellip;</span></div>
 <p>
 The <b>Bump Map</b> dialog gives a good preview of what the plugin does:
 </p>
@@ -205,15 +205,15 @@ So we&rsquo;ll click on the spinner for the <span style="color: #00FF00;">Bump m
 </p>
 <p>
 As before, feel free to play with the options.  
-The only one that I changed was the <b style="color: red;"><u>D</u>epth</b> to increase the illustion of depth (I finally set the value to 6 in my example). 
-Once it looks good, we&rsquo;ll hit the <b><u>O</u>K</b> button to apply it to the layer.
+The only one that I changed was the <b style="color: red;"><span style="text-decoration: underline;">D</span>epth</b> to increase the illustion of depth (I finally set the value to 6 in my example). 
+Once it looks good, we&rsquo;ll hit the <b><span style="text-decoration: underline;">O</span>K</b> button to apply it to the layer.
 </p>
 
 <h2 class="hilite">Apply a Layer Mask</h2>
 <p>
 Now we are going to use a <b>Layer Mask</b> to isolate our bump mapped text.  First we need to add a <b>Layer Mask</b> to the plasma layer:
 </p>
-<div class="MenuCmd"><span><u>L</u>ayer &rarr; <u>M</u>ask &rarr; Add Layer Mask&hellip;</span></div>
+<div class="MenuCmd"><span><span style="text-decoration: underline;">L</span>ayer &rarr; <span style="text-decoration: underline;">M</span>ask &rarr; Add Layer Mask&hellip;</span></div>
 <p>
 Or Right-Click on the plasma layer and choose &ldquo;<span style="color:#00FF00;">Add Layer Mask&hellip;</span>&rdquo; from the context menu:
 </p>
@@ -221,7 +221,7 @@ Or Right-Click on the plasma layer and choose &ldquo;<span style="color:#00FF00;
         <span class="caption"></span>
 </div>
 <p>
-When the &ldquo;Add a Mask to the Layer&rdquo; dialog comes up, set the <b>Initialize Layer Mask to:</b> <u>W</u>hite (full opacity).
+When the &ldquo;Add a Mask to the Layer&rdquo; dialog comes up, set the <b>Initialize Layer Mask to:</b> <span style="text-decoration: underline;">W</span>hite (full opacity).
 </p>
 <p>
 Once you&rsquo;ve added a mask to the plasma layer, your layers should now look like this:
@@ -241,7 +241,7 @@ We are going to copy the &ldquo;Visible&rdquo; layer, and paste it into the laye
 <p>
 With the layer active, we want to now copy it:
 </p>
-<div class="MenuCmd"><span><u>E</u>dit &rarr; <u>C</u>opy</span></div>
+<div class="MenuCmd"><span><span style="text-decoration: underline;">E</span>dit &rarr; <span style="text-decoration: underline;">C</span>opy</span></div>
 <p>
 Then we want to make the plasma layer mask active by Left-Clicking on the <b>mask</b>:
 </p>
@@ -251,7 +251,7 @@ Then we want to make the plasma layer mask active by Left-Clicking on the <b>mas
 <p>
 With the mask active again, we now want to paste the &ldquo;Visible&rdquo; layer back into the image:
 </p>
-<div class="MenuCmd"><span><u>E</u>dit &rarr; <u>P</u>aste</span></div>
+<div class="MenuCmd"><span><span style="text-decoration: underline;">E</span>dit &rarr; <span style="text-decoration: underline;">P</span>aste</span></div>
 <p>
 This will now insert a <i>Floating Selection (Pasted Layer)</i> into your image:
 </p>
@@ -261,7 +261,7 @@ This will now insert a <i>Floating Selection (Pasted Layer)</i> into your image:
 <p>
 To get this <i>Floating Selection </i> into the mask, we need to <b>Anchor</b> it:
 </p>
-<div class="MenuCmd"><span><u>L</u>ayer &rarr; <u>A</u>nchor Layer</span></div>
+<div class="MenuCmd"><span><span style="text-decoration: underline;">L</span>ayer &rarr; <span style="text-decoration: underline;">A</span>nchor Layer</span></div>
 <p>
 This will <b>Anchor</b> the selection down onto the mask.  Our image and layers should now look something like this:
 </p>
@@ -294,7 +294,7 @@ To make it sharper, we are going to adjust the levels on the mask for that layer
 To do this, we first make sure the layer mask is active by clicking on it.
 Then we can open the <b>Adjust Color Levels</b> dialog through the menu:
 </p>
-<div class="MenuCmd"><span><u>C</u>olors &rarr; <u>L</u>evels&hellip;</span></div>
+<div class="MenuCmd"><span><span style="text-decoration: underline;">C</span>olors &rarr; <span style="text-decoration: underline;">L</span>evels&hellip;</span></div>
 <p>
 With the <b>Adjust Color Levels</b> dialog, we now want to sharpen up the edges of the mask a little bit:
 </p>
@@ -317,9 +317,9 @@ Now we may want to get a little fancier and add an effect of a drop shadow behin
 <p>
 Make a copy of your &ldquo;Visible&rdquo; layer that had your original blurred text on it.  Select the layer first to activate it, then you can do:
 </p>
-<div class="MenuCmd"><span><u>L</u>ayer &rarr; D<u>u</u>plicate Layer</span></div>
+<div class="MenuCmd"><span><span style="text-decoration: underline;">L</span>ayer &rarr; D<span style="text-decoration: underline;">u</span>plicate Layer</span></div>
 <p>
-Or Right-Click on the &ldquo;Visible&rdquo; layer, and choose &ldquo;<span style="color: #00FF00;">D<u>u</u>plicate Layer</span>&rdquo;:
+Or Right-Click on the &ldquo;Visible&rdquo; layer, and choose &ldquo;<span style="color: #00FF00;">D<span style="text-decoration: underline;">u</span>plicate Layer</span>&rdquo;:
 </p>
 <div class="centerImg"><img alt="GIMP context duplicate layer" src="Duplicate-Layer.png" /><br />
         <span class="caption"></span>
@@ -334,15 +334,15 @@ This will create a new layer called &ldquo;Visible copy&rdquo;. Move this layer 
 <p>
 This layer will become our shadow, but we need to modify a couple of things first.  We&rsquo;ll first invert the colors of the layer to make the text black using:
 </p>
-<div class="MenuCmd"><span><u>C</u>olors &rarr; In<u>v</u>ert</span></div>
+<div class="MenuCmd"><span><span style="text-decoration: underline;">C</span>olors &rarr; In<span style="text-decoration: underline;">v</span>ert</span></div>
 <p>
 Then we need to change the layer so that all of the white areas will be transparent.  This can be found in the menu:
 </p>
-<div class="MenuCmd"><span><u>L</u>ayer &rarr; Tr<u>a</u>nsparency &rarr; Color to <u>A</u>lpha&hellip;</span></div>
+<div class="MenuCmd"><span><span style="text-decoration: underline;">L</span>ayer &rarr; Tr<span style="text-decoration: underline;">a</span>nsparency &rarr; Color to <span style="text-decoration: underline;">A</span>lpha&hellip;</span></div>
 <p>
 The layer should now have black text over a transparent background.  We&rsquo;ll now just want to shift this layer a bit to simulate a height by offseting it down and to the right a bit. To do this we can use the <b>Move Tool</b>:
 </p>
-<div class="MenuCmd"><span><u>T</u>ools &rarr; <u>T</u>ransfom Tools &rarr; <u>M</u>ove</span></div>
+<div class="MenuCmd"><span><span style="text-decoration: underline;">T</span>ools &rarr; <span style="text-decoration: underline;">T</span>ransfom Tools &rarr; <span style="text-decoration: underline;">M</span>ove</span></div>
 <div class="centerImg"><img alt="GIMP move tool" src="Move-Tool.png" /><br />
         <span class="caption">Activate the <b>Move Tool</b>.</span>
 </div>
