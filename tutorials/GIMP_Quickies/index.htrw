@@ -1,12 +1,12 @@
 <!--#include virtual="/includes/wgo-xhtml-init.xhtml" -->
 <title>GIMP - GIMP Quickies</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="styles.css" />
 <!--#include virtual="/includes/wgo-look-feel.xhtml" -->
 <!--#include virtual="/includes/wgo-page-init.xhtml" -->
 
 <h1>GIMP Quickies</h1>
 
-<a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US" rel="license"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" style="border-width:0"></a><br/>
+<a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US" rel="license"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" style="border-width:0" /></a><br/>
 <span property="dct:title" xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - GIMP Quickies (text &amp; images)</span> 
 by <a href="http://blog.patdavid.net" property="cc:attributionName" rel="cc:attributionURL" xmlns:cc="http://creativecommons.org/ns#">Pat David</a> <br/> 
 is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US" rel="license">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
@@ -258,7 +258,7 @@ The original tutorial this was adapted from can be found <a href="../Lite_Quicki
 
 
 <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US" rel="license">
-        <img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" style="border-width:0"></a><br/>
+        <img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" style="border-width:0" /></a><br/>
 <span property="dct:title" xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - GIMP Quickies (text &amp; images)</span>
 by <a href="http://blog.patdavid.net" property="cc:attributionName" rel="cc:attributionURL" xmlns:cc="http://creativecommons.org/ns#">Pat David</a><br/>
 Licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US" rel="license">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
