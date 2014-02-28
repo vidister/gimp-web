@@ -1,12 +1,12 @@
 <!--#include virtual="/includes/wgo-xhtml-init.xhtml" -->
 <title>GIMP - Simple Floating Logo</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="styles.css" />
 <!--#include virtual="/includes/wgo-look-feel.xhtml" -->
 <!--#include virtual="/includes/wgo-page-init.xhtml" -->
 
 <h1>Simple Floating Logo</h1>
 
-<a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US" rel="license"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" style="border-width:0"></a><br/>
+<a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US" rel="license"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" style="border-width:0" /></a><br/>
 <span property="dct:title" xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - GIMP Quickies (text &amp; images)</span> 
 by <a href="http://blog.patdavid.net" property="cc:attributionName" rel="cc:attributionURL" xmlns:cc="http://creativecommons.org/ns#">Pat David</a> <br/> 
 is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US" rel="license">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
@@ -60,7 +60,7 @@ With the foreground color set, we can now use the <b>Bucket Fill Tool</b> to fil
 		<span class="caption">Activating the <b style="color: #00FF00;">Bucket Fill</b> tool.</span>
 </div>
 <p>
-<img src="Bucket-Fill-Cursor.png" style="float:left; margin-right: 0.5em;">
+<img src="Bucket-Fill-Cursor.png" alt="Bucket Fill Cursor" style="float:left; margin-right: 0.5em;" />
 Once the tool is activated, your cursor should appear as to the left.  To fill the layer you need only click on the image area at this point.  Your image should now fill with black.
 </p>
 
