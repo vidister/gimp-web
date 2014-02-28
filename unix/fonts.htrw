@@ -95,7 +95,7 @@ course you will not be able to use the text tool then.</dd>
 <dd>
 GIMP does not use the X server or any X font server, so don't be
 surprised if GIMP doesn't see the fonts you configured in your X11
-setup. If you wish to add fonts, see the instructions above.
+setup. If you wish to add fonts, see the instructions above.</dd>
 </dl>
 
 
