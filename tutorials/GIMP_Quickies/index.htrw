@@ -35,7 +35,7 @@ In keeping with the spirit of the predecessor to this page, I will be using imag
 All you need to know how to do to follow these quick examples is to be able to find your image and open it:
 </p>
 
-<div class="MenuCmd"><span><u>F</u>ile &rarr; <u>O</u>pen</span></div>
+<div class="MenuCmd"><span><span style="text-decoration: underline;">F</span>ile &rarr; <span style="text-decoration: underline;">O</span>pen</span></div>
 
 <h2 id="scale" class="hilite">Changing the Size (Dimensions) of an Image (Scale)</h2>
 <p>
@@ -57,7 +57,7 @@ Notice that the information at the top of the window shows the <span style="colo
 <p>
 To resize the image to new dimensions, we need only invoke the <b>Scale Image</b> dialog:
 </p>
-<div class="MenuCmd"><span><u>I</u>mage &rarr; <u>S</u>cale Image&hellip;</span></div>
+<div class="MenuCmd"><span><span style="text-decoration: underline;">I</span>mage &rarr; <span style="text-decoration: underline;">S</span>cale Image&hellip;</span></div>
 <p>
 This will then open the <b>Scale Image</b> dialog:
 </p>
@@ -120,7 +120,7 @@ As you can see, even at a quality setting of 80, the image is significantly smal
 <p>
 When you&rsquo;ve finished any image modifications you are doing, and are ready to export, simply invoke the export dialog with:
 </p>
-<div class="MenuCmd"><span><u>F</u>ile &rarr; Export&hellip;</span></div>
+<div class="MenuCmd"><span><span style="text-decoration: underline;">F</span>ile &rarr; Export&hellip;</span></div>
 <p>
 This will invoke the <b>Export Image</b> dialog:
 </p>
@@ -144,7 +144,7 @@ This will then bring up the <b>Export Image as JPEG</b> dialog, where you can ch
 From this dialog you can now <span style="color: #00FF00;">change the quality of the export</span>.  If you also have the &ldquo;Show preview in image window&rdquo; option checked, the image on the canvas will update to reflect the quality value you input.  This will also enable the &ldquo;File size:&rdquo; information to tell you what the resulting file size will be. (You may need to move some windows around to view the preview on the canvas in the background).
 </p>
 <p>
-When you are happy with the results, hit the <b><u>E</u>xport</b> button to export.
+When you are happy with the results, hit the <b><span style="text-decoration: underline;">E</span>xport</b> button to export.
 </p>
 <p>
 To see more details about exporting different image formats, see <a href="http://docs.gimp.org/2.8/en/gimp-images-out.html">Getting Images out of GIMP</a> in the manual.
@@ -173,7 +173,7 @@ The procedure to crop an image is straightforward.  You can either get to <span 
 <p>
 Or you can access the crop tool through the menus:
 </p>
-<div class="MenuCmd"><span><u>T</u>ools &rarr; <u>T</u>ransform Tools &rarr; <u>C</u>rop</span></div>
+<div class="MenuCmd"><span><span style="text-decoration: underline;">T</span>ools &rarr; <span style="text-decoration: underline;">T</span>ransform Tools &rarr; <span style="text-decoration: underline;">C</span>rop</span></div>
 <p>
 <img src="Crop-Cursor.png" style="float: left; margin-right: 0.5em;" alt="GIMP Crop Tool cursor" />
 Once the tool is activated, you&rsquo;ll notice that your mouse cursor on the canvas will change to indicate the <b>Crop Tool</b> is being used. 
@@ -209,11 +209,11 @@ Another way to crop an image is to make a selection first, using the <b>Rectangl
 <p>
 Or through the menus:
 </p>
-<div class="MenuCmd"><span><u>T</u>ools &rarr; <u>S</u>election Tools &rarr; <u>R</u>ectangle Select</span></div>
+<div class="MenuCmd"><span><span style="text-decoration: underline;">T</span>ools &rarr; <span style="text-decoration: underline;">S</span>election Tools &rarr; <span style="text-decoration: underline;">R</span>ectangle Select</span></div>
 <p>
 You can then highlight a selection the same way as the <b>Crop Tool</b>, and adjust the selection as well.  Once you have a selection you like, you can crop the image to fit that selection through:
 </p>
-<div class="MenuCmd"><span><u>I</u>mage &rarr; <u>C</u>rop to Selection</span></div>
+<div class="MenuCmd"><span><span style="text-decoration: underline;">I</span>mage &rarr; <span style="text-decoration: underline;">C</span>rop to Selection</span></div>
 
 
 <h2 id="transform" class="hilite">Rotate and/or Flip an Image</h2>
@@ -223,10 +223,10 @@ There may be a time that you would need to rotate an image.  For instance, you m
 <p>
 There may also be a time that you&rsquo;d like to flip an image as well.  These commands are grouped together under the same menu item:
 </p>
-<div class="MenuCmd"><span><u>I</u>mage &rarr; <u>T</u>ransform</span></div>
+<div class="MenuCmd"><span><span style="text-decoration: underline;">I</span>mage &rarr; <span style="text-decoration: underline;">T</span>ransform</span></div>
 <h3>Flip an Image</h3>
 <p>
-If you want to flip your image, the <b>Transform</b> menu offers two options, <b>Flip <u>H</u>orizontally</b>, or <b>Flip <u>V</u>ertically</b>.  This operation will mirror your image along the specified axis.  For example, here are all of the flip operations shown in a single image:
+If you want to flip your image, the <b>Transform</b> menu offers two options, <b>Flip <span style="text-decoration: underline;">H</span>orizontally</b>, or <b>Flip <span style="text-decoration: underline;">V</span>ertically</b>.  This operation will mirror your image along the specified axis.  For example, here are all of the flip operations shown in a single image:
 </p>
 <div class="centerImg"><img src="Flip-Sample-Arrow.jpg" alt="GIMP flip image samples" />
 		<br/>
