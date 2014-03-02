@@ -94,7 +94,7 @@
 </p>
 <ol>
   <li>Test the patch locally on your own machine and look if it closes the bug there.</li>
-  <li>Find the bug it is closing in the <a href="http://bugzilla.gnome.org/buglist.cgi?product=GIMP&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED">Open bugs</a> list.</li>
+  <li>Find the bug it is closing in the <a href="https://bugzilla.gnome.org/buglist.cgi?product=GIMP&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED">Open bugs</a> list.</li>
   <li>Attach the patch to the bug report.</li>
   <li>Explain what the patch is doing and if there might be any problems with the patch.</li>
   <li>If you want to send a mail to the gimp-developer list and explain it there also. 
@@ -115,7 +115,7 @@
   report is that it is an enhancement and explain the patch a little bit. A simple way to this is to:
 </p>
 <ol>
-  <li>Go to <a href="http://bugzilla.gnome.org/enter_bug.cgi?product=GIMP">Submit a new bug report</a>.</li>
+  <li>Go to <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP">Submit a new bug report</a>.</li>
   <li>Fire up a new report and select enhancement instead of the others used by normal bug reporting.</li>
   <li>Attach the patch and explain what you wanted to get going with the help of this patch.</li>
   <li>Remember to explain the purpose of the patch and who might want to use this enhancement.</li>

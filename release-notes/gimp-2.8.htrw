@@ -522,10 +522,10 @@ bug-report. Here are some interesting Bugzilla queries:
 
 <ul>
   <li>
-    <a href="http://bugzilla.gnome.org/buglist.cgi?product=GIMP&amp;target_milestone=2.8&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED">Open bugs with milestone 2.8</a>
+    <a href="https://bugzilla.gnome.org/buglist.cgi?product=GIMP&amp;target_milestone=2.8&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED">Open bugs with milestone 2.8</a>
   </li>
   <li>
-    <a href="http://bugzilla.gnome.org/buglist.cgi?product=GIMP&amp;target_milestone=2.8&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED">Resolved bugs with milestone 2.8</a>
+    <a href="https://bugzilla.gnome.org/buglist.cgi?product=GIMP&amp;target_milestone=2.8&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED">Resolved bugs with milestone 2.8</a>
   </li>
 </ul>
 

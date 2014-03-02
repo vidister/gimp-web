@@ -235,7 +235,7 @@
 <p>
   Script-Fu has undergone some clean up and includes several bug
   fixes. One important bug fix,
-  for <a href="http://bugzilla.gnome.org/show_bug.cgi?id=512105">bug&nbsp;#508020</a>,
+  for <a href="https://bugzilla.gnome.org/show_bug.cgi?id=512105">bug&nbsp;#508020</a>,
   prevents a possible crash of Script-Fu. A side effect of the fix
   will break any script which does not provide an initial value for a
   variable in the binding portion of a <i>let</i>, <i>let*</i>,

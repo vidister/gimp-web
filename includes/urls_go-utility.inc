@@ -1,5 +1,5 @@
 <p>
-  <a href="http://bugzilla.gnome.org">bugzilla.gnome.org</a><br />
+  <a href="https://bugzilla.gnome.org">bugzilla.gnome.org</a><br />
   Take your bugs here.
 </p>
 <p>
