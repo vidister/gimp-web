@@ -124,8 +124,8 @@ United States
      rsync://mirror.umd.edu/gimp/ (rsync access)
      http://mirrors.zerg.biz/gimp/ (web access)
 #     http://classivox.com/pub/gimp/ (web access)
-     ftp://ftp.spectralcoding.com/gimp/
-     http://ftp.spectralcoding.com/gimp/ (web access)
+#     ftp://ftp.spectralcoding.com/gimp/
+#     http://ftp.spectralcoding.com/gimp/ (web access)
      ftp://mirrors.xmission.com/gimp/
      http://mirrors.xmission.com/gimp/ (web access)
      rsync://mirrors.xmission.com/gimp/ (rsync access)
