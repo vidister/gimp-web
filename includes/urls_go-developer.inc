@@ -12,6 +12,6 @@
   An image processing library based on GObjects.
 </p>
 <p>
-  <a href="http://git.gnome.org/">GNOME GIT</a><br />
+  <a href="https://git.gnome.org/">GNOME GIT</a><br />
   GNOME GIT source code repository
 </p>
