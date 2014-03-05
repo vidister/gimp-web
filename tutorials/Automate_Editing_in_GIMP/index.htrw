@@ -445,13 +445,13 @@ elif (UpdateFlag == 'NO'):
 <p>All of the example scripts begin with “auto”, e.g. autoAutoUpdate.py, autoBase.py, ... If you try them but then decide you don't like them they should be pretty easy to find and remove.  The following example scripts should be loaded into your gimp/plug-ins directory. Something like /home/stephen/.gimp-2.8/plug-ins if your user name is stephen and you were using gimp 2.8. Click on the filename to download.</p>
 
 <ol>
-<li><a href="plug-ins/autoAutoUpdate.py">autoAutoUpdate.py</a> - Runs the auto update function on a directory of images.</li>
-<li><a href="plug-ins/autoBase.py">autoBase.py</a> - Contains the classes that read and write the XML files that affect how the update works.</li>
-<li><a href="plug-ins/autoCommander.py">autoCommander.py</a> - Runs the 'Commander' macros.</li>
-<li><a href="plug-ins/autoJpegToXcf.py">autoJpegToXcf.py</a> - Imports the images into xcf format and assigns properties to image.</li>
-<li><a href="plug-ins/autoRWparasites.py">autoRWparasites.py</a> - User Interface functions to read and write image parasites from the menu.</li>
-<li><a href="plug-ins/autoWriteXml.py">autoWriteXml.py</a> - Reads *.def files and generates XML for commander macros, workflows, and properties.</li>
-<li><a href="plug-ins/autoXcfToJpg.py">autoXcfToJpg.py</a> – Exports the finished images back to jpeg format.</li>
+<li><a href="autoAutoUpdate.py">autoAutoUpdate.py</a> - Runs the auto update function on a directory of images.</li>
+<li><a href="autoBase.py">autoBase.py</a> - Contains the classes that read and write the XML files that affect how the update works.</li>
+<li><a href="autoCommander.py">autoCommander.py</a> - Runs the 'Commander' macros.</li>
+<li><a href="autoJpegToXcf.py">autoJpegToXcf.py</a> - Imports the images into xcf format and assigns properties to image.</li>
+<li><a href="autoRWparasites.py">autoRWparasites.py</a> - User Interface functions to read and write image parasites from the menu.</li>
+<li><a href="autoWriteXml.py">autoWriteXml.py</a> - Reads *.def files and generates XML for commander macros, workflows, and properties.</li>
+<li><a href="autoXcfToJpg.py">autoXcfToJpg.py</a> – Exports the finished images back to jpeg format.</li>
 </ol>
 
 <h3 id="appendixsetuppseudo">Setting up the Example Pseudo Code</h3>
