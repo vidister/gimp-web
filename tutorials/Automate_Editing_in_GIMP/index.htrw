@@ -445,13 +445,13 @@ elif (UpdateFlag == 'NO'):
 <p>All of the example scripts begin with “auto”, e.g. autoAutoUpdate.py, autoBase.py, ... If you try them but then decide you don't like them they should be pretty easy to find and remove.  The following example scripts should be loaded into your gimp/plug-ins directory. Something like /home/stephen/.gimp-2.8/plug-ins if your user name is stephen and you were using gimp 2.8. Click on the filename to download.</p>
 
 <ol>
-<li><a href="autoAutoUpdate.py">autoAutoUpdate.py</a> - Runs the auto update function on a directory of images.</li>
-<li><a href="autoBase.py">autoBase.py</a> - Contains the classes that read and write the XML files that affect how the update works.</li>
-<li><a href="autoCommander.py">autoCommander.py</a> - Runs the 'Commander' macros.</li>
-<li><a href="autoJpegToXcf.py">autoJpegToXcf.py</a> - Imports the images into xcf format and assigns properties to image.</li>
-<li><a href="autoRWparasites.py">autoRWparasites.py</a> - User Interface functions to read and write image parasites from the menu.</li>
-<li><a href="autoWriteXml.py">autoWriteXml.py</a> - Reads *.def files and generates XML for commander macros, workflows, and properties.</li>
-<li><a href="autoXcfToJpg.py">autoXcfToJpg.py</a> – Exports the finished images back to jpeg format.</li>
+<li><a href="plug-ins/autoAutoUpdate.py">autoAutoUpdate.py</a> - Runs the auto update function on a directory of images.</li>
+<li><a href="plug-ins/autoBase.py">autoBase.py</a> - Contains the classes that read and write the XML files that affect how the update works.</li>
+<li><a href="plug-ins/autoCommander.py">autoCommander.py</a> - Runs the 'Commander' macros.</li>
+<li><a href="plug-ins/autoJpegToXcf.py">autoJpegToXcf.py</a> - Imports the images into xcf format and assigns properties to image.</li>
+<li><a href="plug-ins/autoRWparasites.py">autoRWparasites.py</a> - User Interface functions to read and write image parasites from the menu.</li>
+<li><a href="plug-ins/autoWriteXml.py">autoWriteXml.py</a> - Reads *.def files and generates XML for commander macros, workflows, and properties.</li>
+<li><a href="plug-ins/autoXcfToJpg.py">autoXcfToJpg.py</a> – Exports the finished images back to jpeg format.</li>
 </ol>
 
 <h3 id="appendixsetuppseudo">Setting up the Example Pseudo Code</h3>
@@ -461,15 +461,15 @@ elif (UpdateFlag == 'NO'):
 <p>Copy the following example *.def files into the “commander” directory (/home/stephen/.gimp-2.8/myXml/commander – assuming a home directory of /user/stephen and a gimp version 2.8).  They are example Commander Macros pseudo code files. Click on the filename to download.</p>
 
 <ol>
-<li><a href="centeredgrid.def">centeredgrid.def</a></li>
-<li><a href="colorAdjust.def">colorAdjust.def</a></li>
-<li><a href="createColorLayer.def">createColorLayer.def</a></li>
-<li><a href="createDynamicRangeLayer.def">createDynamicRangeLayer.def</a></li>
-<li><a href="expandCanvas.def">expandCanvas.def</a></li>
-<li><a href="normalGridCanvas.def">normalGridCanvas.def</a></li>
-<li><a href="renameBaseLayer.def">renameBaseLayer.def</a></li>
-<li><a href="retinexLayer.def">retinexLayer.def</a></li>
-<li><a href="sharpenLayer.def">sharpenLayer.def</a></li>
+<li><a href="myXml/commander/centeredgrid.def">centeredgrid.def</a></li>
+<li><a href="myXml/commander/colorAdjust.def">colorAdjust.def</a></li>
+<li><a href="myXml/commander/createColorLayer.def">createColorLayer.def</a></li>
+<li><a href="myXml/commander/createDynamicRangeLayer.def">createDynamicRangeLayer.def</a></li>
+<li><a href="myXml/commander/expandCanvas.def">expandCanvas.def</a></li>
+<li><a href="myXml/commander/normalGridCanvas.def">normalGridCanvas.def</a></li>
+<li><a href="myXml/commander/renameBaseLayer.def">renameBaseLayer.def</a></li>
+<li><a href="myXml/commander/retinexLayer.def">retinexLayer.def</a></li>
+<li><a href="myXml/commander/sharpenLayer.def">sharpenLayer.def</a></li>
 </ol>
 
 <p>Hopefully with the comments and by running them, their function will be apparent.  They should be enough to get you started writing some macros of your own.</p>
@@ -479,9 +479,9 @@ elif (UpdateFlag == 'NO'):
 <p>Copy the following *.def files into the “flow” directory (/home/stephen/.gimp-2.8/myXml/flow).  They are example Workflow pseudo code files.</p>
 
 <ol>
-<li><a href="fullauto.def">fullauto.def</a></li>
-<li><a href="semiauto.def">semiauto.def</a></li>
-<li><a href="standard.def">standard.def</a></li>
+<li><a href="myXml/flow/fullauto.def">fullauto.def</a></li>
+<li><a href="myXml/flow/semiauto.def">semiauto.def</a></li>
+<li><a href="myXml/flow/standard.def">standard.def</a></li>
 </ol>
 
 <p>These three workflows all follow the same basicsteps of the standard workflow.  The semiauto and fullauto workflows combine some of the steps.  The idea is to give you a couple of different workflows to play with.  The fullauto illustrates that you really can pack a lot of editing into a “step” but is probably too automatic to be of practical use.</p>
@@ -491,7 +491,7 @@ elif (UpdateFlag == 'NO'):
 <p>Copy the following *.def file into the “property” directory (/home/stephen/.gimp-2.8/myXml/property).  It is an example Property pseudo code file (for Flag Properties / Parasites).</p>
 
 <ol>
-        <li><a href="flagProperties.def">flagProperties.def</a></li>
+        <li><a href="myXml/property/flagProperties.def">flagProperties.def</a></li>
 </ol>
 
 <p>When you run the “Pseudocode to XML” Utility function, it will read *.def file in this directory and write an XML file in this directory called “flagProperties.xml”.</p>
