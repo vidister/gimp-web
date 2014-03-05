@@ -461,15 +461,15 @@ elif (UpdateFlag == 'NO'):
 <p>Copy the following example *.def files into the “commander” directory (/home/stephen/.gimp-2.8/myXml/commander – assuming a home directory of /user/stephen and a gimp version 2.8).  They are example Commander Macros pseudo code files. Click on the filename to download.</p>
 
 <ol>
-<li><a href="myXml/commander/centeredgrid.def">centeredgrid.def</a></li>
-<li><a href="myXml/commander/colorAdjust.def">colorAdjust.def</a></li>
-<li><a href="myXml/commander/createColorLayer.def">createColorLayer.def</a></li>
-<li><a href="myXml/commander/createDynamicRangeLayer.def">createDynamicRangeLayer.def</a></li>
-<li><a href="myXml/commander/expandCanvas.def">expandCanvas.def</a></li>
-<li><a href="myXml/commander/normalGridCanvas.def">normalGridCanvas.def</a></li>
-<li><a href="myXml/commander/renameBaseLayer.def">renameBaseLayer.def</a></li>
-<li><a href="myXml/commander/retinexLayer.def">retinexLayer.def</a></li>
-<li><a href="myXml/commander/sharpenLayer.def">sharpenLayer.def</a></li>
+<li><a href="centeredgrid.def">centeredgrid.def</a></li>
+<li><a href="colorAdjust.def">colorAdjust.def</a></li>
+<li><a href="createColorLayer.def">createColorLayer.def</a></li>
+<li><a href="createDynamicRangeLayer.def">createDynamicRangeLayer.def</a></li>
+<li><a href="expandCanvas.def">expandCanvas.def</a></li>
+<li><a href="normalGridCanvas.def">normalGridCanvas.def</a></li>
+<li><a href="renameBaseLayer.def">renameBaseLayer.def</a></li>
+<li><a href="retinexLayer.def">retinexLayer.def</a></li>
+<li><a href="sharpenLayer.def">sharpenLayer.def</a></li>
 </ol>
 
 <p>Hopefully with the comments and by running them, their function will be apparent.  They should be enough to get you started writing some macros of your own.</p>
@@ -479,9 +479,9 @@ elif (UpdateFlag == 'NO'):
 <p>Copy the following *.def files into the “flow” directory (/home/stephen/.gimp-2.8/myXml/flow).  They are example Workflow pseudo code files.</p>
 
 <ol>
-<li><a href="myXml/flow/fullauto.def">fullauto.def</a></li>
-<li><a href="myXml/flow/semiauto.def">semiauto.def</a></li>
-<li><a href="myXml/flow/standard.def">standard.def</a></li>
+<li><a href="fullauto.def">fullauto.def</a></li>
+<li><a href="semiauto.def">semiauto.def</a></li>
+<li><a href="standard.def">standard.def</a></li>
 </ol>
 
 <p>These three workflows all follow the same basicsteps of the standard workflow.  The semiauto and fullauto workflows combine some of the steps.  The idea is to give you a couple of different workflows to play with.  The fullauto illustrates that you really can pack a lot of editing into a “step” but is probably too automatic to be of practical use.</p>
@@ -491,7 +491,7 @@ elif (UpdateFlag == 'NO'):
 <p>Copy the following *.def file into the “property” directory (/home/stephen/.gimp-2.8/myXml/property).  It is an example Property pseudo code file (for Flag Properties / Parasites).</p>
 
 <ol>
-        <li><a href="myXml/property/flagProperties.def">flagProperties.def</a></li>
+        <li><a href="flagProperties.def">flagProperties.def</a></li>
 </ol>
 
 <p>When you run the “Pseudocode to XML” Utility function, it will read *.def file in this directory and write an XML file in this directory called “flagProperties.xml”.</p>
