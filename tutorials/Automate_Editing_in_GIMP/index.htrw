@@ -332,7 +332,7 @@ main()</pre>
 <p>There are two special types of data for the automated flow:</p>
 
 <ol>
-<li>Trees and XML data for the similar ti the “Commander Macros”.</li>
+<li>Trees and XML data are similar to the “Commander Macros”.</li>
 <li>Parasite (or Property) data to keep track of the particular workflow that is being used to edit an image, the next step that is to be used, and whether an image is ready to be incremented to the next step.</li>
 </ol>
 
