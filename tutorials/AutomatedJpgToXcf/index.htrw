@@ -4,9 +4,9 @@
 <!--#include virtual="/includes/wgo-page-init.xhtml" -->
 <h1>Automate Creation of XCF from JPG</h1>
 <p>
-  <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US" rel="license"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" style="border-width:0"></a><br/>
-  <span property="dct:title" xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - Automated Jpeg to XCF (text &amp; images)</span>
-  by <a property="cc:attributionName" rel="cc:attributionURL" xmlns:cc="http://creativecommons.org/ns#">Stephen Kiel</a> <br/>
+  <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US" rel="license"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" style="border-width:0" /></a><br/>
+  <span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - Automated Jpeg to XCF (text &amp; images)</span>
+  by <a  rel="cc:attributionURL" xmlns:cc="http://creativecommons.org/ns#">Stephen Kiel</a> <br/>
   is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US" rel="license">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
   The code sources in this tutorial are licensed by Stephen Kiel under the conditions of the <a href="http://www.gnu.org/">GNU</a> Public License GPL V3.
 </p>
@@ -205,7 +205,7 @@
 			id="script-fu-example-jpg-to-xcf.scm"> 
 			script-fu-example-jpg-to-xcf.scm
 		</a> 
-
+    </li>
 	<li>
 		<a href="example-jpeg-to-xcf.py" 
 			id="example-jpeg-to-xcf.py">
@@ -282,7 +282,7 @@
       ;
       ; Run if images closed, message if not.
       ( if ( &lt; 0 ( car ( gimp-image-list ) ) )
-         ( gimp-message "Close open Images & Rerun" )
+         ( gimp-message "Close open Images &amp; Rerun" )
          ( begin
             ;
             ; Run within scope of let* and local variables
@@ -401,23 +401,23 @@ def exampleJpgToXcf(srcPath, tgtPath):
     ###
     open_images, image_ids = pdb.gimp_image_list()
     if open_images &gt; 0:
-        pdb.gimp_message ("Close open Images & Rerun")
+        pdb.gimp_message ("Close open Images &amp; Rerun")
     else:
-        # list all of the files in source & target directories
+        # list all of the files in source &amp; target directories
         allFileList = os.listdir(srcPath)
         existingList = os.listdir(tgtPath)
         srcFileList = []
         tgtFileList = []
         xform = re.compile('\.jpg', re.IGNORECASE)
-        # Find all of the jpeg files in the list & make xcf file names
+        # Find all of the jpeg files in the list &amp; make xcf file names
         for fname in allFileList:
             fnameLow = fname.lower()
             if fnameLow.count('.jpg') &gt; 0:
                 srcFileList.append(fname)
                 tgtFileList.append(xform.sub('.xcf',fname))
-        # Dictionary - source & target file names
+        # Dictionary - source &amp; target file names
         tgtFileDict = dict(zip(srcFileList, tgtFileList))
-        # Loop on jpegs, open each & save as xcf
+        # Loop on jpegs, open each &amp; save as xcf
         for srcFile in srcFileList:
             # Don't overwrite existing, might be work in Progress
             if tgtFileDict[srcFile] not in existingList:
