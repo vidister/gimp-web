@@ -1,70 +1,70 @@
 <!--#include virtual="/includes/wgo-xhtml-init.xhtml" -->
 <title>GIMP - Automate Editing</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="styles.css" />
 <!--#include virtual="/includes/wgo-look-feel.xhtml" -->
 <!--#include virtual="/includes/wgo-page-init.xhtml" -->
 
 <h1>Automate Editing</h1>
 <p>
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">GIMP Tutorial - Luminosity Masks (text)</span> by <a xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName" rel="cc:attributionURL">Stephen Kiel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. The code sources in this tutorial are licensed by Stephen Kiel under the conditions of the <a href="https://www.gnu.org/copyleft/gpl.html">GNU Public License GPL V3</a>. 
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - Luminosity Masks (text)</span> by <a xmlns:cc="http://creativecommons.org/ns#" rel="cc:attributionURL">Stephen Kiel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. The code sources in this tutorial are licensed by Stephen Kiel under the conditions of the <a href="https://www.gnu.org/copyleft/gpl.html">GNU Public License GPL V3</a>. 
 </p>
 
 <h2>Table of Contents</h2>
 <ol>
 <li><a href="#motivation">Motivation</a></li>
 <li><a href="#intro">An introduction to Macros</a></li>
-<li><a href="#broad">Macro Implementation – in Broad Strokes</a></li>
+<li><a href="#broad">Macro Implementation – in Broad Strokes</a>
     <ol>
             <li><a href="#architecture">Architecture</a></li>
             <li><a href="#execmodel">Execution Model</a></li>
             <li><a href="#datamodel">Data Model</a></li>
             <li><a href="#trees">Trees and XML Data</a></li>
-    </ol>
-<li><a href="#revisited">Macro Implementation – Revisited</a></li>
+    </ol></li>
+<li><a href="#revisited">Macro Implementation – Revisited</a>
     <ol>
             <li><a href="#pseudotoxml">Pseudo Code to XML</a></li>
             <li><a href="#macroinmenu">Displaying the Macro Names in a Menu</a></li>
             <li><a href="#runspecific">Running a Specific Macro</a></li>
             <li><a href="#macrosummary">Commander Macros – Summary</a></li>
-    </ol>
+    </ol></li>
 <li><a href="#autointro">An Introduction to Automated Editing</a></li>
-<li><a href="#autobroad">Automation Tool Implementation – In Broad Strokes</a></li>
+<li><a href="#autobroad">Automation Tool Implementation – In Broad Strokes</a>
     <ol>
             <li><a href="#broadarchitecture">Architecture</a></li>
             <li><a href="#broadexecution">Execution Model</a></li>
             <li><a href="#broaddatamodel">Data Model</a></li>
             <li><a href="#broadimage">The Image and Parasites (or Property) Data</a></li>
             <li><a href="#broadrunning">Running the Automation Tools on a Workflow</a></li>
-    </ol>
-<li><a href="#autodetails">Automation Tool Implementation – Details</a></li>
+    </ol></li>
+<li><a href="#autodetails">Automation Tool Implementation – Details</a>
     <ol>
-            <li><a href="#pcode">Pseudo Code</a></li>
+            <li><a href="#pcode">Pseudo Code</a>
             <ol>
                     <li><a href="#psworkflow">Workflow Pseudo Code</a></li>
                     <li><a href="#psparasite">Property / Parasite Pseudo Code</a></li>
-            </ol>
+            </ol></li>
             <li><a href="#flowcontrolparasites">Properties and Image State – Flow Control Parasites</a></li>
             <li><a href="#statsflagparasites">Status Flag Parasites</a></li>
             <li><a href="#autoworksummary">Automation Workflow - Summary</a></li>
-    </ol>
+    </ol></li>
 <li><a href="#conclusion">Conclusion</a></li>
-<li><a href="#appendix">Appendix – Notes</a></li>
+<li><a href="#appendix">Appendix – Notes</a>
     <ol>
             <li><a href="#appendixsetupscripts">Setting up the Example Scripts</a></li>
-            <li><a href="#appendixsetuppseudo">Setting up the Example Pseudo Code</a></li>
+            <li><a href="#appendixsetuppseudo">Setting up the Example Pseudo Code</a>
             <ol>
                     <li><a href="#appendixpseudocommander">Pseudo Code for Commander Macros</a></li>
                     <li><a href="#appendixpseudoworkflow">Pseudo Code for Automation Workflows</a></li>
                     <li><a href="#pseudocodeproperties">Pseudo Code for Properties</a></li>
-            </ol>
-            <li><a href="#PCS">Pseudo Code Syntax</a></li>
+            </ol></li>
+            <li><a href="#PCS">Pseudo Code Syntax</a>
             <ol>
                     <li><a href="#CPC">Commander Pseudo Code</a></li>
                     <li><a href="#PPC">Property Pseudo Code</a></li>
                     <li><a href="#FPC">Flow Pseudo Code</a></li>
-            </ol>
+            </ol></li>
             <li><a href="#runninginconsole">Running code in the Gimp Python Console</a></li>
-    </ol>
+    </ol></li>
 </ol>
 
 <h2 id="motivation">Motivation</h2>
@@ -92,7 +92,7 @@
 </div>
 
 <div class="caption">
-        <img src="CommandsPythonConsole.jpg" style="width: 450px;" /><br/>
+        <img src="CommandsPythonConsole.jpg" alt="CommandsPythonConsole.jpg" style="width: 450px;" /><br/>
         <span>Commands in the Python Console</span>
 </div>
 <p>If you watch the image as you enter the commands and have the Grid turned “ON” you will see the grid spacing on the active image change as we execute these commands.</p>
@@ -115,7 +115,7 @@
         exec(Cmd)</pre>
 </div>
 <div class="caption">
-        <img src="CommanderMacroSubMenu.jpg" style="width: 400px;" /><br/>
+        <img src="CommanderMacroSubMenu.jpg" alt="CommanderMacroSubMenu.jpg" style="width: 400px;" /><br/>
         <span>Commander Macro Sub-Menu</span>
 </div>
 
@@ -186,7 +186,7 @@ main()</pre>
 <li>The input / output format is XML, which is not only hierarchical, but it is text so it is human readable and portable to any platform (computer / OS). </li>
 </ol>
 <div class="caption">
-        <img src="XmlHierarchyContainers.jpg" style="" /><br/>
+        <img src="XmlHierarchyContainers.jpg" alt="XmlHierarchyContainers.jpg" style="" /><br/>
         <span>XML Hierarchy - Containers</span>
 </div>
 <p>The examples use ElementTree to read and write the data between trees and XML.  ElementTree is included with Python and described in the Python documentation, so we will not go into detail about the mechanics of tree structures here.</p>
@@ -250,14 +250,14 @@ main()</pre>
 </div>
 
 <div class="caption">
-        <img src="PseudoCodetoXmlFunction.jpg" style="width: 450px;" /><br/>
+        <img src="PseudoCodetoXmlFunction.jpg" alt="PseudoCodetoXmlFunction.jpg" style="width: 450px;" /><br/>
         <span>Creating XML from *.def files</span>
 </div>
 
 <p>The Xml generator can be called from a GUI menu.</p>
 
 <div class="caption">
-        <img src="PseudoCodeImported.jpg" style="width: 300px;" /><br/>
+        <img src="PseudoCodeImported.jpg" alt="PseudoCodeImported.jpg" style="width: 300px;" /><br/>
         <span>Xml files built</span>
 </div>
 
@@ -266,7 +266,7 @@ main()</pre>
 
 <ul>
 <li>The list of Macro Command Names is created by loading the XML file combinedCommander.xml into an ElementTree.</li>
-<li>The tree is traversed at the branch level (the tag <commander>), and the branches text which are the names of the macros are built into a list.  The list is essentially built with a “for loop”.</li>
+<li>The tree is traversed at the branch level (the tag &lt;commander&gt;), and the branches text which are the names of the macros are built into a list.  The list is essentially built with a “for loop”.</li>
 <li>The list is passed to the widget and used to select the macro you want to use.</li>
 </ul>
 
@@ -288,7 +288,7 @@ main()</pre>
 <p>The text files that you write for your macro definition need to be put in a directory ~/.gimp-2.x/myXml/commander and have an extension of '.def'.  Create a separate *.def file for each macro.</p>
 
 <h2 id="autointro">An Introduction to Automated Editing</h2>
-</p>Macros are a terrific way to make the editing process faster and more repeatable, they do though have some limitations.</p>
+<p>Macros are a terrific way to make the editing process faster and more repeatable, they do though have some limitations.</p>
 
 <ol>
 <li>There are times when the order of the editing steps are important.</li>
@@ -375,7 +375,7 @@ elif (UpdateFlag == 'NO'):
 <p>The export XCF to JPG function in the “Automation” menu opens each xcf file in the source / work directory and looks at the properties of the image. If the image is “Finished”, at the end of the flow, it is exported.  The images that are still being work on are left alone.</p>
 
 <div class="caption">
-        <img src="RunningAutoUpdate.jpg" style="width: 400px;" /><br/>
+        <img src="RunningAutoUpdate.jpg" alt="RunningAutoUpdate.jpg" style="width: 400px;" /><br/>
         <span>Running AutoUpdate</span>
 </div>
 
@@ -394,7 +394,7 @@ elif (UpdateFlag == 'NO'):
 <p>You can see all of the properties and current assigned values for a particular image using the menu function “Automation” -> “A1) Display Assigned Parasites (File)”.</p>
 
 <div class="caption">
-        <img src="ParasitesImage.jpg" style="width: 400px;" /><br/>
+        <img src="ParasitesImage.jpg" alt="ParasitesImage.jpg" style="width: 400px;" /><br/>
         <span>Assigned Parasites</span>
 </div>
 
@@ -504,9 +504,9 @@ elif (UpdateFlag == 'NO'):
 <p>There are three keywords used for writing commander pseudo code:</p>
 
 <ol>
-        <li><b>commander></b> - The text following this keyword is the Macro Name.  This keyword must be the first keyword in the file. This is the “container” or the root of the tree for the following comments and commands.</a></li>
-<li><b>comment></b> - The text following this keyword is for descriptive comments. The comments will be represented in the pseudo code *.def file and in the resulting XML.  When the XML is read for processing, comments will be ignored.</a></li>
-<li><b>>>></b> - The text following this keyword is taken as a python statement.  Then the resulting XML is read, the command statements will be passed to the commander script to be processed in order.</a></li>
+        <li><b>commander></b> - The text following this keyword is the Macro Name.  This keyword must be the first keyword in the file. This is the “container” or the root of the tree for the following comments and commands.</li>
+<li><b>comment></b> - The text following this keyword is for descriptive comments. The comments will be represented in the pseudo code *.def file and in the resulting XML.  When the XML is read for processing, comments will be ignored.</li>
+<li><b>>>></b> - The text following this keyword is taken as a python statement.  Then the resulting XML is read, the command statements will be passed to the commander script to be processed in order.</li>
 </ol>
 
 <p>Note that lines beginning with “#” are ignored. You may indent if you like for readability. Leading white space is stripped off.</p>
@@ -606,7 +606,7 @@ property>EnhanceColorLevel
 <p>The screen shot below illustrates the process on the Windows version of Gimp / Python Console (TestXmlGen is pictured, TestXmlRead produces several pages of output):</p>
 
 <div class="caption">
-        <img src="Appendix-testing-in-python-console.JPG" style="width: 450px;" /><br/>
+        <img src="Appendix-testing-in-python-console.JPG" alt="Appendix-testing-in-python-console.JPG" style="width: 450px;" /><br/>
         <span>Image - Running your code in the Gimp Python Console</span>
 </div>
 
@@ -616,7 +616,7 @@ property>EnhanceColorLevel
         <li><a href="../AutomatedJpgToXcf">Automated JPG to XCF</a></li>
 </ul>
 <div style='text-align: left;'>
-        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">GIMP Tutorial - Luminosity Masks (text)</span> by <a xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName" rel="cc:attributionURL">Stephen Kiel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. The code sources in this tutorial are licensed by Stephen Kiel under the conditions of the <a href="https://www.gnu.org/copyleft/gpl.html">GNU Public License GPL V3</a>.
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" >GIMP Tutorial - Luminosity Masks (text)</span> by <a xmlns:cc="http://creativecommons.org/ns#" rel="cc:attributionURL">Stephen Kiel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. The code sources in this tutorial are licensed by Stephen Kiel under the conditions of the <a href="https://www.gnu.org/copyleft/gpl.html">GNU Public License GPL V3</a>.
 </div>
 
 
