@@ -17,7 +17,7 @@ $(document).ready(function() {
 	<noscript>
 		<!--#include virtual="/downloads/Linux.xhtml"   -->
 		<!--#include virtual="/downloads/Mac.xhtml"     -->
-		<!--#include virtual="/downloads/Windows.xhtml" -->
+		<!--#include virtual="/downloads/Windows.html" -->
 	</noscript>
 		<!--#include virtual="/downloads/source.xhtml" -->
 </div>
