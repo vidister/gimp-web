@@ -29,22 +29,22 @@ function renderDownload(platform) {
     $("#downloads").html("<div id=\"os\">&nbsp;</div>\n<div id=\"moreos\"></div>\n<hr />\n<div id=\"source\">&nbsp;</div>\n");
 
     if (platform == undefined) {
-	$("#os").load($.browser.OS + ".xhtml"); // OS specific (autodetected)
+	$("#os").load($.browser.OS + ".html"); // OS specific (autodetected)
 	$("#moreos").html("<a href=\"javascript:renderDownload('all');\">Show other downloads</a>");
     }
     else if (platform == "all") {
 	$("#os").html("<div id=\"oslinux\"></div>\n<div id=\"osmac\"></div>\n<div id=\"oswindows\"></div>\n");
-	$("#oslinux").load("Linux.xhtml");
-	$("#osmac").load("Mac.xhtml");
-	$("#oswindows").load("Windows.xhtml");
+	$("#oslinux").load("Linux.html");
+	$("#osmac").load("Mac.html");
+	$("#oswindows").load("Windows.html");
     }
     else
     {
-	$("#os").load(platform + ".xhtml"); // OS specific (manual)
+	$("#os").load(platform + ".html"); // OS specific (manual)
 	$("#moreos").html("<a href=\"javascript:renderDownload('all');\">Show other downloads</a>");
     }
 
-    $("#source").load("source.xhtml"); //sources for all
+    $("#source").load("source.html"); //sources for all
 }
 
 var usertyped = ""; //for the easteregg
