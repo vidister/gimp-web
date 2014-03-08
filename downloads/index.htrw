@@ -15,11 +15,11 @@ $(document).ready(function() {
 
 <div id="downloads">
 	<noscript>
-		<!--#include virtual="/downloads/Linux.xhtml"   -->
-		<!--#include virtual="/downloads/Mac.xhtml"     -->
+		<!--#include virtual="/downloads/Linux.html"   -->
+		<!--#include virtual="/downloads/Mac.html"     -->
 		<!--#include virtual="/downloads/Windows.html" -->
 	</noscript>
-		<!--#include virtual="/downloads/source.xhtml" -->
+		<!--#include virtual="/downloads/source.html" -->
 </div>
 
 <!--#include virtual="/includes/wgo-page-fini.xhtml" -->
