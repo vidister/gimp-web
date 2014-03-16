@@ -1,10 +1,10 @@
 ## Mirror Sites
 ##-------------
 
-#Australia
-#     ftp://mirrors-au.go-parts.com/gimp/
-#     http://mirrors-au.go-parts.com/gimp/ (web access)
-#     rsync://mirrors-au.go-parts.com/mirrors/gimp/ (rsync access)
+Australia
+     ftp://mirrors-au.go-parts.com/gimp/
+     http://mirrors-au.go-parts.com/gimp/ (web access)
+     rsync://mirrors-au.go-parts.com/mirrors/gimp/ (rsync access)
 
 #Austria
 #     ftp://gd.tuwien.ac.at/graphics/gimp/
@@ -15,9 +15,9 @@ Brazil
      rsync://mirrors-br.go-parts.com/mirrors/gimp/ (rsync access)
 
 Canada
-     http://gimp.parentingamerica.com/ (web access)
-     http://gimp.raffsoftware.com/ (web access)
-     http://gimp.skazkaforyou.com/ (web access)
+     http://gimp.parentingamerica.com/gimp/ (web access)
+     http://gimp.raffsoftware.com/gimp/ (web access)
+     http://gimp.skazkaforyou.com/gimp/ (web access)
 
 #China
 #     http://mirror.bjtu.edu.cn/gimp (web access, outdated)
@@ -32,14 +32,14 @@ Estonia
      http://servingzone.com/mirrors/gimp/ (web access)
 
 Germany
-     ftp://artfiles.org/gimp.org/
-     http://artfiles.org/gimp.org/ (web access)
+     ftp://artfiles.org/gimp.org/gimp/
+     http://artfiles.org/gimp.org/gimp/ (web access)
      http://gimp.cybermirror.org/ (web access)
      ftp://ftp.fernuni-hagen.de/pub/mirrors/www.gimp.org/
      http://ftp.fernuni-hagen.de/ftp-dir/pub/mirrors/www.gimp.org/ (web access)
      rsync://ftp.fernuni-hagen.de/gimp/ (rsync access)
-     ftp://ftp.gwdg.de/pub/misc/grafik/gimp/
-     http://ftp.gwdg.de/pub/misc/grafik/gimp/ (web access)
+     ftp://ftp.gwdg.de/pub/misc/grafik/gimp/gimp/
+     http://ftp.gwdg.de/pub/misc/grafik/gimp/gimp/ (web access)
      rsync://ftp.gwdg.de/pub/misc/grafik/gimp/ (rsync access)
      http://mirrors.zerg.biz/gimp/ (web access)
 
@@ -59,17 +59,17 @@ Japan
      ftp://ftp.u-aizu.ac.jp/pub/graphics/tools/gimp/
      ftp://ftp.ring.gr.jp/pub/graphics/gimp/
      http://www.ring.gr.jp/pub/graphics/gimp/ (web access)
-#     ftp://mirrors.go-parts.com/gimp/
-#     http://mirrors.go-parts.com/gimp/ (web access)
-#     rsync://mirrors.go-parts.com/mirrors/gimp/ (rsync access)
+     ftp://mirrors.go-parts.com/gimp/
+     http://mirrors.go-parts.com/gimp/ (web access)
+     rsync://mirrors.go-parts.com/mirrors/gimp/ (rsync access)
 
 Netherlands
      ftp://ftp.snt.utwente.nl/pub/software/gimp/gimp/
      http://ftp.snt.utwente.nl/pub/software/gimp/gimp/ (web access)
 #     http://mirrors-eu.spyrush.com/gimp/ (web access)
-     ftp://ftp.nluug.nl/pub/graphics/gimp/
-     http://ftp.nluug.nl/graphics/gimp/ (web access)
-     rsync://ftp.nluug.nl/gimp/ (rsync access)
+#     ftp://ftp.nluug.nl/pub/graphics/gimp/
+#     http://ftp.nluug.nl/graphics/gimp/ (web access)
+#     rsync://ftp.nluug.nl/gimp/ (rsync access)
 
 Poland
      ftp://ftp.piotrkosoft.net/pub/mirrors/ftp.gimp.org/
@@ -81,10 +81,10 @@ Poland
 #     ftp://ftp.tuniv.szczecin.pl/pub/Linux/gimp/
 
 Portugal
-     ftp://mirrors.dominios.pt/pub/ftp.gimp.org
-     http://mirrors.dominios.pt/gimp (web access)
-     ftp://mirrors.fe.up.pt/mirrors/ftp.gimp.org/
-     http://mirrors.fe.up.pt/mirrors/ftp.gimp.org/ (web access)
+     ftp://mirrors.dominios.pt/pub/ftp.gimp.org/
+     http://mirrors.dominios.pt/gimp/ (web access)
+     ftp://mirrors.fe.up.pt/mirrors/ftp.gimp.org/pub/gimp/
+     http://mirrors.fe.up.pt/mirrors/ftp.gimp.org/pub/gimp/ (web access)
      rsync://mirrors.fe.up.pt/mirrors/ftp.gimp.org/ (rsync access)
 
 Romania
@@ -115,7 +115,7 @@ United Kingdom
      rsync://anorien.csc.warwick.ac.uk/ftp.gimp.org/ (rsync access)
 
 United States
-     http://gimp.cp-dev.com/ (web access)
+     http://gimp.cp-dev.com/gimp/ (web access)
      http://mirror.hessmo.com/gimp/ (web access)
      http://gimp.mirrors.hoobly.com/gimp/ (web access)
 #     http://gimp.promotionalpromos.com/ (web access)
@@ -126,6 +126,6 @@ United States
 #     http://classivox.com/pub/gimp/ (web access)
 #     ftp://ftp.spectralcoding.com/gimp/
 #     http://ftp.spectralcoding.com/gimp/ (web access)
-     ftp://mirrors.xmission.com/gimp/
-     http://mirrors.xmission.com/gimp/ (web access)
+     ftp://mirrors.xmission.com/gimp/gimp/
+     http://mirrors.xmission.com/gimp/gimp/ (web access)
      rsync://mirrors.xmission.com/gimp/ (rsync access)
