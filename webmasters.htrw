@@ -43,7 +43,7 @@ list.</p>
 
 <p>You can also use Bugzilla to <a
 href="home:gimp-bugzilla-wgo-ftp-submit">notify us</a> if a mirror of
-ftp.gimp.org is gone or if a new one has recently been added. If you
+download.gimp.org is gone or if a new one has recently been added. If you
 want to set up a new mirror, you may want to use one of the existing 
 rsync mirrors to update your server. Please include the country of
 your server in the summary of the bug.</p>
@@ -57,7 +57,7 @@ your server in the summary of the bug.</p>
 </ul>
 
 <p>The size of the data as seen on <a
-href="ftp://ftp.gimp.org/pub/">ftp://ftp.gimp.org/pub/</a> is
+href="http://download.gimp.org/pub/">http://download.gimp.org/pub/</a> is
 currently around 4.1 GiB, with gimp and gtk subdirectories amounting
 to about 3.4 GiB. New releases are uploaded some time before the
 announcement is made, so syncing every few days should be sufficient.</p>

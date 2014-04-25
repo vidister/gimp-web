@@ -44,7 +44,6 @@ to changes in font handling and PDB API.</em></p>
 </ol>
 <p>
   Perl and all its associated modules are available in source form from the Perl Comprehensive Archive Network, CPAN.
-  It is also possible to download them in RPM format from the ftp.gimp.org website.
 </p>
 
 <h2>2. The Gimp module</h2>

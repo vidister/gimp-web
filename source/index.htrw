@@ -124,7 +124,7 @@
 <tr>
 <td>babl</td>
 <td>0.1.10 or newer</td>
-<td><a href="ftp://ftp.gimp.org/pub/babl/">Download</a></td>
+<td><a href="http://download.gimp.org/pub/babl/">Download</a></td>
 <td>-</td>
 <td>Pixel format translation library</td>
 </tr>
@@ -132,7 +132,7 @@
 <tr>
 <td>GEGL</td>
 <td>0.2.0 or newer</td>
-<td><a href="ftp://ftp.gimp.org/pub/gegl/">Download</a></td>
+<td><a href="http://download.gimp.org/pub/gegl/">Download</a></td>
 <td>-</td>
 <td>Generic Graphics Library</td>
 </tr>
@@ -198,7 +198,7 @@
 
 <tr>
 <td>libpng</td>
-<td><a href="ftp://ftp.gimp.org/pub/gimp/libs/">Download</a></td>
+<td>-</td>
 <td><a href="http://www.libpng.org/">Download</a></td>
 <td>PNG support</td>
 <td>Optional (explicit disable)</td>
@@ -206,7 +206,7 @@
 
 <tr>
 <td>libtiff</td>
-<td><a href="ftp://ftp.gimp.org/pub/gimp/libs/">Download</a></td>
+<td>-</td>
 <td><a href="http://www.remotesensing.org/libtiff/">Download</a></td>
 <td>TIFF support</td>
 <td>Optional (explicit disable)</td>
@@ -254,7 +254,7 @@
 
 <tr>
 <td>zlib</td>
-<td><a href="ftp://ftp.gimp.org/pub/gimp/libs/">Download</a></td>
+<td>-</td>
 <td><a href="http://www.gzip.org/zlib/">Download</a></td>
 <td>Compression routines</td>
 <td>Optional</td>

@@ -7,7 +7,7 @@
 	<p>For instructions, how to build GIMP from source code, please see <a href="/source/">this page</a>.</p>
 	
 	<p>GIMP 2.8.10 is now available
-	at <a href="ftp://ftp.gimp.org/pub/gimp/v2.8/">ftp://ftp.gimp.org/pub/gimp/v2.8/</a>.
+	at <a href="http://download.gimp.org/pub/gimp/v2.8/">http://download.gimp.org/pub/gimp/v2.8/</a>.
 	You may want to read the <a href="/release-notes/gimp-2.8.html">Release
 	Notes for GIMP 2.8</a>.
 	</p>
@@ -48,12 +48,12 @@
 
 	<!--
 	<p>GAP (the GIMP Animation Package) for GIMP 2.6 and above is available at
-	<a href="ftp://ftp.gimp.org/pub/gimp/plug-ins/v2.6/gap">ftp://ftp.gimp.org/pub/gimp/plug-ins/v2.6/gap</a>.
+	<a href="http://download.gimp.org/pub/gimp/plug-ins/v2.6/gap">http://download.gimp.org/pub/gimp/plug-ins/v2.6/gap</a>.
 	</p>
 	-->
 
 	<p>GIMP help files are available at
-	<a href="ftp://ftp.gimp.org/pub/gimp/help/">ftp://ftp.gimp.org/pub/gimp/help/</a>.
+	<a href="http://download.gimp.org/pub/gimp/help/">http://download.gimp.org/pub/gimp/help/</a>.
 	</p>
 
 	<p>Please consider using one of the mirrors listed below.</p>
@@ -62,7 +62,7 @@
 	<h2>Development snapshots</h2>
 
 <!-- 	<p>GIMP 2.9.0 is a snapshot of current development towards GIMP 2.10. The
-	source code will be available from <a href="ftp://ftp.gimp.org/pub/gimp/v2.9/">ftp://ftp.gimp.org/pub/gimp/v2.9/</a>. Please make sure you read the <a href="/release-notes/gimp-2.9.html">Release Notes for GIMP 2.9</a>.
+	source code will be available from <a href="http://download.gimp.org/pub/gimp/v2.9/">http://download.gimp.org/pub/gimp/v2.9/</a>. Please make sure you read the <a href="/release-notes/gimp-2.9.html">Release Notes for GIMP 2.9</a>.
 	</p> -->
 
 	<p>There are no releases of the 2.9 development version yet.</p>

@@ -5,7 +5,7 @@
 { "http:Package-gettext"   : "ftp://alpha.gnu.org/gnu"}
 { "http:Package-libtool"   : "http://www.gnu.org/software/libtool/libtool.html"}
 { "http:Package-Gnome"                      : "http://www.gnome.org"}
-{ "http:Package-GIMP-stable-tarball" : "ftp://ftp.gimp.org/pub/gimp/stable"}
+{ "http:Package-GIMP-stable-tarball" : "http://download.gimp.org/pub/gimp/stable"}
 
 { "mail:People-Spears_Carol"       : "mailto:carol@gimp.org"}
 { "mail:People-Walter_Rebecca_J"   : "mailto:bex@gimp.org"}

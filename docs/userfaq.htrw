@@ -909,8 +909,8 @@ the sharefont package.</p>
 
 <p>Net-fu is a web-based interface to a script-fu server. The work is
 done at a remote site. To see Net-fu, point your web browser at <a
-href="ftp://ftp.gimp.org/">ftp://ftp.gimp.org/</a> or one of the miiror
-sites, and then go to "gimp/net-fu/". Any web browser can read net-fu
+href="http://download.gimp.org/">http://download.gimp.org/</a> or one of the miiror
+sites, and then go to "pub/gimp/net-fu/". Any web browser can read net-fu
 pages; the browser must be Java-enabled to actually run Script-fu.
 Fonts</p>
 
@@ -1105,10 +1105,7 @@ have to make sure that LD_LIBRARY_PATH=/usr/local/lib or put
 /usr/local/lib in your ld.so configuration file. In addition, you also
 have to remove libgif.* and libjpeg.* from your /usr/lib directory, as
 these will be found first (and even if you finagle ld.so to find the
-other libs first, they're still broken so remove them anyway). I think
-that if you go to ftp.gimp.org there's a "support" type subdirectory
-that has the gif, jpeg, png, and mpeg libraries, though I've never
-gotten the mpeg stuff to compile.</p> </li> </ul>
+other libs first, they're still broken so remove them anyway).</p> </li> </ul>
 
 <h3 id="Make">I get make errors on {Solaris, HP/UX, whatever}.</h3>
 
