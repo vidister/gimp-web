@@ -77,7 +77,7 @@ compile.  That's what 300,000+ lines of code get you.</p>
 
 <p>After grabbing the GIMP distribution, you are ready to compile and
 install.  The main site for the latest offical GIMP distribution is <a
-href="ftp://ftp.gimp.org/pub/gimp/">ftp://ftp.gimp.org/pub/gimp/</a>
+href="http://download.gimp.org/pub/gimp/">http://download.gimp.org/pub/gimp/</a>
 but you should consider using one of the mirrors listed on the <a
 href="./">download page</a>.</p>
 
@@ -116,8 +116,7 @@ libgimpprint 4.2.6 separately from the Gimp-Print site:</p>
 installed or you have a very old version, then you need to get a
 recent jpeg library.  The places to look are:</p>
 
-<p><a href="ftp://ftp.uu.net/graphics/jpeg/">ftp://ftp.uu.net/graphics/jpeg/</a><br />
-<a href="ftp://ftp.gimp.org/pub/gimp/libs/">ftp://ftp.gimp.org/pub/gimp/libs/</a></p>
+<p><a href="ftp://ftp.uu.net/graphics/jpeg/">ftp://ftp.uu.net/graphics/jpeg/</a></p>
 
 <p>Once the lib is compiled and installed, run <kbd>ldconfig</kbd> as
 root and the jpeg plug-in should compile.</p>
@@ -128,8 +127,7 @@ root and the jpeg plug-in should compile.</p>
 mentioned above.  Same deal, different lib.  The places to look are
 at:</p>
 
-<p><a href="ftp://ftp.sgi.com/graphics/tiff/">ftp://ftp.sgi.com/graphics/tiff/</a><br />
-<a href="ftp://ftp.gimp.org/pub/gimp/libs/">ftp://ftp.gimp.org/pub/gimp/libs/</a></p>
+<p><a href="ftp://ftp.sgi.com/graphics/tiff/">ftp://ftp.sgi.com/graphics/tiff/</a></p>
 
 <p>Once the lib is compiled and installed, run <kbd>ldconfig</kbd> as
 root and the tiff plug-in should compile.</p>
@@ -140,8 +138,7 @@ root and the tiff plug-in should compile.</p>
 problem mentioned above.  Same deal, different lib.  The places to
 look are at:</p>
 
-<p><a href="ftp://ftp.uu.net/graphics/png/src/">ftp://ftp.uu.net/graphics/png/src/</a><br />
-<a href="ftp://ftp.gimp.org/pub/gimp/libs/">ftp://ftp.gimp.org/pub/gimp/libs/</a></p>
+<p><a href="ftp://ftp.uu.net/graphics/png/src/">ftp://ftp.uu.net/graphics/png/src/</a></p>
 
 <p>Once the lib is compiled and installed, run <kbd>ldconfig</kbd> as
 root and the png plug-in should compile.</p>
