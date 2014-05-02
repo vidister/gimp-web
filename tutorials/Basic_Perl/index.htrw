@@ -475,10 +475,10 @@ Choosing the default values results in the image:
   <table>
     <tr><th bgcolor=#E0E0E0>procedural syntax
 	<th bgcolor=#E0E0E0>object oriented syntax
-    <tr><td bgcolor=#FFE0E0>gimp_image_insert_layer($drw,0,0);
-        <td bgcolor=#FFE0E0>$img-&gt;insert_layer($drw,0,0);
-    <tr><td bgcolor=#FFE0E0>gimp_drawable_width($drw);
-        <td bgcolor=#FFE0E0>$drw-&gt;width;
+    <tr><td bgcolor=#202020>gimp_image_insert_layer($drw,0,0);
+        <td bgcolor=#202020>$img-&gt;insert_layer($drw,0,0);
+    <tr><td bgcolor=#202020>gimp_drawable_width($drw);
+        <td bgcolor=#202020>$drw-&gt;width;
   </table>
   <p>
   The substitution rule for converting a PDB turning into a method is
