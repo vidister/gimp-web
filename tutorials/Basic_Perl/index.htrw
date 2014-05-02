@@ -151,7 +151,7 @@ parameters. E.g. the DB Browser entry for
 <tt>gimp-image-new</tt>, which will be used in the example below
 looks like this:
 <p>
-<p><table><tr><td bgcolor=#e0e0e0>
+<p><table><tr><td bgcolor=#101010>
 <table>
 <tr><th valign=top align=right>Name:</th><td bgcolor=#e0e0ff colspan=3>plug-in-gauss-iir</td></tr>
 <tr><th valign=top align=right>Blurb:</th><td valign=top colspan=3>Apply a gaussian blur</td></tr>
@@ -501,7 +501,7 @@ Choosing the default values results in the image:
 In the <tt>uni</tt> script the function <tt>gimp_edit_fill</tt> was called
 to fill the whole image. Looking at the info for
 <tt>gimp_edit_fill</tt> in the DB browser we find the following:
-<p><table><tr><td bgcolor=#e0e0e0>
+<p><table><tr><td bgcolor=#101010>
 <table>
 <tr><th valign=top align=right>Name:</th><td bgcolor=#e0e0ff colspan=3>gimp_edit_fill</td></tr>
 <tr><th valign=top align=right>Blurb:</th><td valign=top colspan=3>Fill selected area of drawable</td></tr>
@@ -523,7 +523,7 @@ substitute "_" for "-" in the names.
 <p>There are lots of ways of choosing a selection as can be seen
 when searching for a ``select'' in the PDB. The example below uses
 <tt>gimp_image_select_rectangle</tt>, whose entry in the PDB looks as follows:
-<p><table><tr><td bgcolor=#e0e0e0>
+<p><table><tr><td bgcolor=#101010>
 <table>
 <tr><th valign=top align=right>Name:</th><td bgcolor=#e0e0ff colspan=3>gimp-image-select-rectangle</td></tr>
 <tr><th valign=top align=right>Blurb:</th><td valign=top colspan=3>Create a rectangular selection over the specified image</td></tr>
