@@ -46,7 +46,7 @@ be accessed through scripting. Available scripting environments include
 Scheme through Script-Fu, and Python. Scheme can be a little difficult
 to use if one does not already know the language.
 <p>
-Perl as a language is far more capable than Scheme, and also has CPAN,
+Perl as a language is far more capable than Tinyscheme, and also has CPAN,
 giving access to vast numbers of modules to get things done.  Now, GIMP
 may also be scripted in Perl. This tutorial will describe how to write
 such plug-ins and scripts for Gimp.<p>
