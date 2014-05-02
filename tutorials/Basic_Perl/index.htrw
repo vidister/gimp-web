@@ -33,12 +33,14 @@
 
 <h2><a name="SEC1">1. Version notes</a></h2>
 
+<p>
 This work is a slightly modified version of Dov Grobgeld's excellent
-tutorial. It has been updated to Gimp-Perl 2.3.
+tutorial. It has been updated to Gimp-Perl 2.3 and GIMP 2.8.
 <p>
 
 <h2><a name="SEC2">2. Background</a></h2>
 
+<p>
 One of the wonderful features of GIMP is that it all its functionality may
 be accessed through scripting. Available scripting environments include
 Scheme through Script-Fu, and Python. Scheme can be a little difficult
@@ -56,6 +58,7 @@ perl modules Gimp and Gimp::Fu.
 
 <h2><a name="SEC3">3. What you need</a></h2>
 
+<p>
   The tutorial scripts have been tested on Linux (a Windows version is
   in the works) with the following versions:
   <OL>
@@ -68,11 +71,13 @@ perl modules Gimp and Gimp::Fu.
     <LI> The Gimp-Perl module, version 2.3 or later, available from
     <a href="http://search.cpan.org/dist/Gimp/">http://search.cpan.org/dist/Gimp/</a></LI>
   </OL>
+<p>
   Perl and all its associated modules are available in source form from
   the Comprehensive Perl Archive network, CPAN.
 
 <h2><a name="SEC4">4. The Gimp module</a></h2>
 
+<p>
 Most scripts make use of the simplified interface Gimp::Fu provided
 with the Gimp module. Gimp::Fu provides a framework for entering
 parameters to the script in a dialog-box interface, just like Script-Fu,
@@ -115,6 +120,7 @@ of such a script.<p>
 <font size=-1 color=red> 32:  </font> 
 <font size=-1 color=red> 33:  </font>The licensing terms. </pre></table><br>
 
+<p>
 The key points to note in the script are:
 <ul>
 <li>the use of the two
@@ -127,6 +133,7 @@ handed over to <tt>Gimp</tt> module on line 8, and
 
 <h2><a name="SEC5">5. The GIMP PDB</a></h2>
 
+<p>
 Before going into the details of the Gimp::Fu script, we will
 describe how to access the functionality of GIMP.  All
 functions known to GIMP are available through the procedural database
@@ -169,7 +176,7 @@ looks like this:
 <tr><th valign=top valign=top>Help:</th><td colspan=3>Applies a gaussian blur to the drawable, with specified radius of affect.  The standard deviation of the normal distribution used to modify pixel values is calculated based on the supplied radius.  Horizontal and vertical blurring can be independently invoked by specifying only one to run.  The IIR gaussian blurring works best for large radius values and for images which are not computer-generated.</td></tr></table>
 </table></p>
 
-
+<p>
 All the the constants mentioned in the PDB Explorer have been defined
 within Gimp::Fu and may be used within perl. E.g. a call to
 blur an image looks as follows:
@@ -177,6 +184,7 @@ blur an image looks as follows:
 <pre>
    Gimp::Plugin-&gt;gauss_iir($image, $drawable, 50, 6, 6);</pre>
 
+<p>
 Note that Perl is using underline characters where the DB browser
 uses hyphens! The PDB entry above shows that <tt>plug-in-gauss-iir</tt>
 is called with various parameters, of various types. These will be
@@ -198,6 +206,7 @@ script_fu_basic1_logo("Hello", 72,
 
 <h3><a name="SEC5.1">5.1. Gimp::Fu and the podregister function</a></h3>
 
+<p>
   Gimp::Fu is Perl's answer to Script-Fu. It provides a simplified method
   for accepting parameters for a script through a Gtk2 interface,
   just like script-fu, but as we shall see below, it has some additional
@@ -347,6 +356,7 @@ script_fu_basic1_logo("Hello", 72,
 
 <h3><a name="SEC5.2">5.2. A commented script</a></h3>
 
+<p>
 The following Gimp::Fu script example shows the steps described in the
 previous section. It registers a script that takes two values, the size
 of the image and a color, and then produces an image of the requested
@@ -404,6 +414,7 @@ to access some PDB functions.<p>
 <font size=-1 color=red> 48:  </font> 
 <font size=-1 color=red> 49:  </font>Dov Grobgeld (c) </pre></table><br>
 
+<p>
 Most of these commands are directly copied out the PDB. <p>
 
 This script shows the essential steps of producing a stand-alone
@@ -419,12 +430,14 @@ script:
   <tr><td>16</td><td> Return the image to the caller</td></tr>
 </table>
 
+<p>
 To test the script, save it in the directory <tt>$HOME/.gimp-2.8/plug-ins</tt>.
 It must then be made executable through the command:
 <pre>
      chmod +x $HOME/.gimp-2.8/plug-ins/uni
 </pre>
 
+<p>
 Then start GIMP.  It is generally a good idea to test the
 syntax of the script with <tt>perl -c</tt> before starting GIMP.
 (A more official way to add scripts is to use the <tt>gimptool-2.0
@@ -454,6 +467,7 @@ Choosing the default values results in the image:
 
 <h2><a name="SEC6">6. Object oriented syntax</a></h2>
 
+<p>
   Gimp-Perl provides an alternative object-oriented syntax for the
   image and the drawable commands. Here is a table showing the procedural
   vs the object oriented syntax for a few commands:<p>
@@ -483,6 +497,7 @@ Choosing the default values results in the image:
 
 <h2><a name="SEC7">7. Painting areas with selections</a></h2>
 
+<p>
 In the <tt>uni</tt> script the function <tt>gimp_edit_fill</tt> was called
 to fill the whole image. Looking at the info for
 <tt>gimp_edit_fill</tt> in the DB browser we find the following:
@@ -607,6 +622,7 @@ before:
 <font size=-1 color=red> 54:  </font> 
 <font size=-1 color=red> 55:  </font>Dov Grobgeld </pre></table><br>
 
+<p>
 The result when run on our previous image:
 <center>
 <img src="paint-select.png">
@@ -614,6 +630,7 @@ The result when run on our previous image:
 
 <h3><a name="SEC7.1">7.1. Complex selections</a></h3>
 
+<p>
   Besides rectangular selections elliptical selections may also be
   created through the PDB functions <tt>gimp_image_select_ellipse</tt>
   and <tt>gimp_image_select_polygon</tt> which allows the selection of
@@ -632,6 +649,7 @@ The result when run on our previous image:
 
 <h3><a name="SEC7.2">7.2. Loops</a></h3>
 
+<p>
 In perl it is trivial to write loops that together with the various
 selection tools gives powerful creative possibilities. Here is
 an example that mixes colors in circles. There is nothing really new
@@ -706,7 +724,7 @@ The result:
 
 <h3><a name="SEC8.1">8.1. Hello World - writing text in an image</a></h3>
 
-
+<p>
 To create text the PDB function <tt>gimp_text_fontname()</tt> may be used.
 
 <p> Here is an example of a script that creates an image containing
@@ -764,6 +782,7 @@ To create text the PDB function <tt>gimp_text_fontname()</tt> may be used.
 <font size=-1 color=red> 51:  </font> 
 <font size=-1 color=red> 52:  </font>Dov </pre></table><br>
 
+<p>
 The result:
 <center>
 <img src="hello-world1.png">
@@ -784,6 +803,7 @@ script:
        <tt>gimp_text_fontname</tt>.
   <LI> Resizing the image and the background to the size of the text layer. </LI>
 </UL>
+<p>
 The result is an image composed of two layers; a transparent text layer
 on top of a uniform background.
 <p>
@@ -868,6 +888,7 @@ on top of a uniform background.
 
 <h2><a name="SEC9">9. Floating selections</a></h2>
 
+<p>
   When a region has been selected through one of the selection routines,
   the area outlined by the selection may be copied to the cut-buffer
   through the <tt>gimp_edit_copy</tt> command. The cut-buffer may
@@ -946,6 +967,7 @@ on top of a uniform background.
 <font size=-1 color=red> 60:  </font> 
 <font size=-1 color=red> 61:  </font>Dov Grobgeld </pre></table><br>
 
+<p>
   You might notice something very important on lines 7 and 8: we
   "know" that we'll always pass a layer as the first drawable,
   but we're checking that anyway. Then we're telling Gimp-Perl the
@@ -957,6 +979,7 @@ on top of a uniform background.
 
 <h2><a name="SEC10">10. The Perl Server and stand-alone scripts</a></h2>
 
+<p>
   So far the scripts have all been started from the menu structure
   within GIMP. But using <tt>Gimp::Fu</tt> there is another possibility,
   and that is to run the scripts from the command line, as a normal
@@ -985,11 +1008,13 @@ on top of a uniform background.
   <table border><tr><th bgcolor=#E0E0FF><a href="perl-gimp-from-shell">perl-gimp-from-shell</a><tr><td bgcolor=#FFE0E0><pre><font size=-1 color=red>  1:  </font>uni -o /tmp/uni.png --size 100 --color purple 
 <font size=-1 color=red>  2:  </font>basic-logo --font 'utopia 100' -o /tmp/bl.ppm --size 20 --text "Perl rules" </pre></table><br>
 
+<p>
   Another important use of this interface is that it enables running
   the Perl debugger on the perl-fu scripts.<p>
 
 <h3><a name="SEC10.1">10.1. A shell for Gimp-Perl</a></h3>
 
+<p>
   When using the Perl-Server it is not necessary to use <tt>Gimp::Fu</tt>
   and the <tt>podregister</tt> function. Instead you may call
   <tt>Gimp::on_net</tt>, which takes as a parameter a reference to a
@@ -1029,6 +1054,7 @@ on top of a uniform background.
 
 <h2><a name="SEC11">11. End notes</a></h2>
 
+<p>
   This tutorial has covered only a small part of the possibilities
   available to a script writer. In particular the following issues
   available to Gimp::Perl scripts have not been covered:
