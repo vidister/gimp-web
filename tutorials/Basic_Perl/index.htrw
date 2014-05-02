@@ -245,7 +245,7 @@ script_fu_basic1_logo("Hello", 72,
 	 section - a string. This list contains
          a list of image types acceptable. This field is only used
          for scripts that are in the "&lt;Image&gt;" hieararchy.
-	 Possible values are listed in the table below:
+	 Some possible values are listed in the table below:
 	     
 	     <table>
 	       <tr><th bgcolor=#dfdfdf>value</th><th bgcolor=#dfdfdf>meaning</th></tr>
@@ -1078,7 +1078,8 @@ on top of a uniform background.
 <h2><a name="SEC12">12. Links and references</a></h2>
 
   <UL>
-    <LI> <a href="http://search.cpan.org/dist/Gimp/">The Gimp-Perl module</a></LI>
+    <LI> <a href="http://search.cpan.org/dist/Gimp/Gimp/Fu.pm"><tt>Gimp::Fu</tt> documentation</a></LI>
+    <LI> <a href="http://search.cpan.org/dist/Gimp/">The rest of the Gimp-Perl module docs</a></LI>
     <LI> <a href="http://www.gimp.org">The GIMP home page</a> </LI>
     
     <LI> <A HREF="http://registry.gimp.org/">GIMP Registry with Perl plug-ins</A> </LI>
