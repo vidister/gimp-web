@@ -253,6 +253,11 @@ script_fu_basic1_logo("Hello", 72,
                <tr><td bgcolor=#101010 valign=top>RGB <td bgcolor=#101010 valign=top>RGB images</tr>
                <tr><td bgcolor=#101010 valign=top>RGBA <td bgcolor=#101010 valign=top>RGB images with alpha channels</tr>
                <tr><td bgcolor=#101010 valign=top>GREY <td bgcolor=#101010 valign=top>Grey level images</tr>
+               <tr><td bgcolor=#101010 valign=top> <td bgcolor=#101010
+               valign=top>(left empty or no such section) Does
+               not take image as input, <b>does</b> return an
+               image. <tt>Gimp::Fu</tt> will automatically add that
+               return value.</tr>
 	     </table>
     </LI><p>
     <LI> Parameters, from the <tt>PARAMETERS</tt> section. This will be
