@@ -251,10 +251,10 @@ script_fu_basic1_logo("Hello", 72,
 	     
 	     <table>
 	       <tr><th bgcolor=#dfdfdf>value</th><th bgcolor=#dfdfdf>meaning</th></tr>
-	       <tr><td bgcolor=#dfdfee valign=top>*<td bgcolor=#dfdfee valign=top>Any images are accepted</tr>
-               <tr><td bgcolor=#dfdfee valign=top>RGB <td bgcolor=#dfdfee valign=top>RGB images</tr>
-               <tr><td bgcolor=#dfdfee valign=top>RGBA <td bgcolor=#dfdfee valign=top>RGB images with alpha channels</tr>
-               <tr><td bgcolor=#dfdfee valign=top>GREY <td bgcolor=#dfdfee valign=top>Grey level images</tr>
+	       <tr><td bgcolor=#101010 valign=top>*<td bgcolor=#101010 valign=top>Any images are accepted</tr>
+               <tr><td bgcolor=#101010 valign=top>RGB <td bgcolor=#101010 valign=top>RGB images</tr>
+               <tr><td bgcolor=#101010 valign=top>RGBA <td bgcolor=#101010 valign=top>RGB images with alpha channels</tr>
+               <tr><td bgcolor=#101010 valign=top>GREY <td bgcolor=#101010 valign=top>Grey level images</tr>
 	     </table>
     </LI><p>
     <LI> Parameters, from the <tt>PARAMETERS</tt> section. This will be
@@ -270,30 +270,30 @@ script_fu_basic1_logo("Hello", 72,
 	     <table>
 	       <tr><th bgcolor=#dfdfdf>Type</th><th bgcolor=#dfdfdf width=30%>Possible forms</th>
                    <th bgcolor=#dfdfdf width=50%>Comment</tr>
-	       <tr><td bgcolor=#dfdfee valign=top>PF_INT32<br>
+	       <tr><td bgcolor=#101010 valign=top>PF_INT32<br>
 		           PF_INT16<br>
-			   PF_INT8<br><td bgcolor=#dfdfee valign=top>42<td bgcolor=#dfdfee valign=top>An integer.</tr>
-	       <tr><td bgcolor=#dfdfee valign=top>PF_FLOAT<br><td bgcolor=#dfdfee valign=top>3.141<td bgcolor=#dfdfee valign=top>A floating point number.
-               <tr><td bgcolor=#dfdfee valign=top>PF_TOGGLE
-		           <td bgcolor=#dfdfee valign=top>0<br>1<td bgcolor=#dfdfee valign=top>A boolean value.
-               <tr><td bgcolor=#dfdfee valign=top>PF_SLIDER<br>
+			   PF_INT8<br><td bgcolor=#101010 valign=top>42<td bgcolor=#101010 valign=top>An integer.</tr>
+	       <tr><td bgcolor=#101010 valign=top>PF_FLOAT<br><td bgcolor=#101010 valign=top>3.141<td bgcolor=#101010 valign=top>A floating point number.
+               <tr><td bgcolor=#101010 valign=top>PF_TOGGLE
+		           <td bgcolor=#101010 valign=top>0<br>1<td bgcolor=#101010 valign=top>A boolean value.
+               <tr><td bgcolor=#101010 valign=top>PF_SLIDER<br>
 		           PF_SPINNER
-	           <td bgcolor=#dfdfee valign=top>An integer value through a slider and a spinner interface. The range parameter should be specified and is interpreted as minimum, maximum, and step, e.g. [0,100,1].
-		   <td bgcolor=#dfdfee valign=top><img src="tpix.gif" width=0>
-               <tr><td bgcolor=#dfdfee valign=top>PF_FONT<td bgcolor=#dfdfee valign=top>"Arial"<td bgcolor=#dfdfee valign=top>A font name.
-               <tr><td bgcolor=#dfdfee valign=top>PF_STRING<td bgcolor=#dfdfee valign=top>"A string"<td bgcolor=#dfdfee valign=top>A string</tr>
-	       <tr><td bgcolor=#dfdfee valign=top>PF_COLOR<br>
-		           PF_COLOUR<td bgcolor=#dfdfee valign=top>[255,127,0]<br>
+	           <td bgcolor=#101010 valign=top>An integer value through a slider and a spinner interface. The range parameter should be specified and is interpreted as minimum, maximum, and step, e.g. [0,100,1].
+		   <td bgcolor=#101010 valign=top><img src="tpix.gif" width=0>
+               <tr><td bgcolor=#101010 valign=top>PF_FONT<td bgcolor=#101010 valign=top>"Arial"<td bgcolor=#101010 valign=top>A font name.
+               <tr><td bgcolor=#101010 valign=top>PF_STRING<td bgcolor=#101010 valign=top>"A string"<td bgcolor=#101010 valign=top>A string</tr>
+	       <tr><td bgcolor=#101010 valign=top>PF_COLOR<br>
+		           PF_COLOUR<td bgcolor=#101010 valign=top>[255,127,0]<br>
 				          <tt>#ff7f00</tt>
-	       <td bgcolor=#dfdfee valign=top>A color may either be expressed as a reference
+	       <td bgcolor=#101010 valign=top>A color may either be expressed as a reference
 	              to an array of three components, or as a hexadecimal
 	              triple, proceeded by the hash sign.</tr>
-	       <tr><td bgcolor=#dfdfee valign=top>PF_TOGGLE<td bgcolor=#dfdfee valign=top>0<br>1<td bgcolor=#dfdfee valign=top>A boolean toggle
-	       <tr><td bgcolor=#dfdfee valign=top>PF_IMAGE<td bgcolor=#dfdfee valign=top>-<td bgcolor=#dfdfee valign=top>An image
-	       <tr><td bgcolor=#dfdfee valign=top>PF_DRAWABLE<td bgcolor=#dfdfee valign=top>-<td bgcolor=#dfdfee valign=top>A drawable.
-	       <tr><td bgcolor=#dfdfee valign=top>PF_BRUSH<td bgcolor=#dfdfee valign=top><img src="tpix.gif" width=0><td bgcolor=#dfdfee valign=top>A brush
-	       <tr><td bgcolor=#dfdfee valign=top>PF_GRADIENT<td bgcolor=#dfdfee valign=top><img src="tpix.gif" width=0><td bgcolor=#dfdfee valign=top>A gradient
-	       <tr><td bgcolor=#dfdfee valign=top>PF_PATTERN<td bgcolor=#dfdfee valign=top><img src="tpix.gif" width=0><td bgcolor=#dfdfee valign=top>A pattern
+	       <tr><td bgcolor=#101010 valign=top>PF_TOGGLE<td bgcolor=#101010 valign=top>0<br>1<td bgcolor=#101010 valign=top>A boolean toggle
+	       <tr><td bgcolor=#101010 valign=top>PF_IMAGE<td bgcolor=#101010 valign=top>-<td bgcolor=#101010 valign=top>An image
+	       <tr><td bgcolor=#101010 valign=top>PF_DRAWABLE<td bgcolor=#101010 valign=top>-<td bgcolor=#101010 valign=top>A drawable.
+	       <tr><td bgcolor=#101010 valign=top>PF_BRUSH<td bgcolor=#101010 valign=top><img src="tpix.gif" width=0><td bgcolor=#101010 valign=top>A brush
+	       <tr><td bgcolor=#101010 valign=top>PF_GRADIENT<td bgcolor=#101010 valign=top><img src="tpix.gif" width=0><td bgcolor=#101010 valign=top>A gradient
+	       <tr><td bgcolor=#101010 valign=top>PF_PATTERN<td bgcolor=#101010 valign=top><img src="tpix.gif" width=0><td bgcolor=#101010 valign=top>A pattern
 	     </table>
 	</LI>
 	<LI> The name of the parameter - a string. </LI>
