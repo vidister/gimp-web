@@ -86,7 +86,7 @@ This tutorial will go into detailed descriptions of the construction of
 a Gimp::Fu script, but before we do this, here is the general framework
 of such a script.<p>
 
-<table border><tr><th bgcolor=#E0E0FF><a href="basic">basic</a><tr><td bgcolor=#FFE0E0><pre><font size=-1 color=red>  1:  </font>#!/usr/bin/perl -w 
+<table border><tr><th bgcolor=#E0E0FF><font color=black><a href="basic">basic</a><tr><td bgcolor=#FFE0E0><pre><font size=-1 color=red>  1:  </font>#!/usr/bin/perl -w 
 <font size=-1 color=red>  2:  </font> 
 <font size=-1 color=red>  3:  </font>use Gimp; 
 <font size=-1 color=red>  4:  </font>use Gimp::Fu; 
@@ -364,7 +364,7 @@ size with the requested color. Quite useless, but it shows the important steps
 of how to register a script, how to create a new image, and how
 to access some PDB functions.<p>
 
-<table border><tr><th bgcolor=#E0E0FF><a href="uni">uni</a><tr><td bgcolor=#FFE0E0><pre><font size=-1 color=red>  1:  </font>#!/usr/bin/perl -w 
+<table border><tr><th bgcolor=#E0E0FF><font color=black><a href="uni">uni</a><tr><td bgcolor=#FFE0E0><pre><font size=-1 color=red>  1:  </font>#!/usr/bin/perl -w 
 <font size=-1 color=red>  2:  </font> 
 <font size=-1 color=red>  3:  </font>use strict; 
 <font size=-1 color=red>  4:  </font>use Gimp; 
@@ -566,7 +566,7 @@ before:
        the undo start and the undo end calls will be undone at once.</LI>
 </UL>
 
-<table border><tr><th bgcolor=#E0E0FF><a href="paint-select">paint-select</a><tr><td bgcolor=#FFE0E0><pre><font size=-1 color=red>  1:  </font>#!/usr/bin/perl -w 
+<table border><tr><th bgcolor=#E0E0FF><font color=black><a href="paint-select">paint-select</a><tr><td bgcolor=#FFE0E0><pre><font size=-1 color=red>  1:  </font>#!/usr/bin/perl -w 
 <font size=-1 color=red>  2:  </font> 
 <font size=-1 color=red>  3:  </font>use Gimp; 
 <font size=-1 color=red>  4:  </font>use Gimp::Fu; 
@@ -654,7 +654,7 @@ In perl it is trivial to write loops that together with the various
 selection tools gives powerful creative possibilities. Here is
 an example that mixes colors in circles. There is nothing really new
 here, but it shows the power of what we have described above.
-<table border><tr><th bgcolor=#E0E0FF><a href="circles">circles</a><tr><td bgcolor=#FFE0E0><pre><font size=-1 color=red>  1:  </font>#!/usr/bin/perl 
+<table border><tr><th bgcolor=#E0E0FF><font color=black><a href="circles">circles</a><tr><td bgcolor=#FFE0E0><pre><font size=-1 color=red>  1:  </font>#!/usr/bin/perl 
 <font size=-1 color=red>  2:  </font> 
 <font size=-1 color=red>  3:  </font>use Gimp; 
 <font size=-1 color=red>  4:  </font>use Gimp::Fu; 
@@ -729,7 +729,7 @@ To create text the PDB function <tt>gimp_text_fontname()</tt> may be used.
 
 <p> Here is an example of a script that creates an image containing
 "Hello world".
-<table border><tr><th bgcolor=#E0E0FF><a href="hello-world1">hello-world1</a><tr><td bgcolor=#FFE0E0><pre><font size=-1 color=red>  1:  </font>#!/usr/bin/perl 
+<table border><tr><th bgcolor=#E0E0FF><font color=black><a href="hello-world1">hello-world1</a><tr><td bgcolor=#FFE0E0><pre><font size=-1 color=red>  1:  </font>#!/usr/bin/perl 
 <font size=-1 color=red>  2:  </font> 
 <font size=-1 color=red>  3:  </font>use Gimp; 
 <font size=-1 color=red>  4:  </font>use Gimp::Fu; 
@@ -808,7 +808,7 @@ The result is an image composed of two layers; a transparent text layer
 on top of a uniform background.
 <p>
 
-<table border><tr><th bgcolor=#E0E0FF><a href="basic-logo">basic-logo</a><tr><td bgcolor=#FFE0E0><pre><font size=-1 color=red>  1:  </font>#!/usr/bin/perl 
+<table border><tr><th bgcolor=#E0E0FF><font color=black><a href="basic-logo">basic-logo</a><tr><td bgcolor=#FFE0E0><pre><font size=-1 color=red>  1:  </font>#!/usr/bin/perl 
 <font size=-1 color=red>  2:  </font> 
 <font size=-1 color=red>  3:  </font>use Gimp; 
 <font size=-1 color=red>  4:  </font>use Gimp::Fu; 
@@ -905,7 +905,7 @@ on top of a uniform background.
   and takes as a parameter another image, which it concatenates to
   the right of the first image. The lines 28-38 shows how the second
   image is copied and glued into the first image.<p>
-  <table border><tr><th bgcolor=#E0E0FF><a href="horiz-cat">horiz-cat</a><tr><td bgcolor=#FFE0E0><pre><font size=-1 color=red>  1:  </font>#!/usr/bin/perl 
+  <table border><tr><th bgcolor=#E0E0FF><font color=black><a href="horiz-cat">horiz-cat</a><tr><td bgcolor=#FFE0E0><pre><font size=-1 color=red>  1:  </font>#!/usr/bin/perl 
 <font size=-1 color=red>  2:  </font> 
 <font size=-1 color=red>  3:  </font>use Gimp; 
 <font size=-1 color=red>  4:  </font>use Gimp::Fu; 
@@ -1005,7 +1005,7 @@ on top of a uniform background.
   Here are two invocations of the scripts declared above, but with output
   written to a jpg file and a png file.<p>
 
-  <table border><tr><th bgcolor=#E0E0FF><a href="perl-gimp-from-shell">perl-gimp-from-shell</a><tr><td bgcolor=#FFE0E0><pre><font size=-1 color=red>  1:  </font>uni -o /tmp/uni.png --size 100 --color purple 
+  <table border><tr><th bgcolor=#E0E0FF><font color=black><a href="perl-gimp-from-shell">perl-gimp-from-shell</a><tr><td bgcolor=#FFE0E0><pre><font size=-1 color=red>  1:  </font>uni -o /tmp/uni.png --size 100 --color purple 
 <font size=-1 color=red>  2:  </font>basic-logo --font 'utopia 100' -o /tmp/bl.ppm --size 20 --text "Perl rules" </pre></table><br>
 
 <p>
@@ -1025,7 +1025,7 @@ on top of a uniform background.
   Fu, here is a an interactive Gimp-Perl shell that may be run from
   the command line:
   <p>
-  <table border><tr><th bgcolor=#E0E0FF><a href="pg-shell">pg-shell</a><tr><td bgcolor=#FFE0E0><pre><font size=-1 color=red>  1:  </font>#!/usr/bin/perl 
+  <table border><tr><th bgcolor=#E0E0FF><font color=black><a href="pg-shell">pg-shell</a><tr><td bgcolor=#FFE0E0><pre><font size=-1 color=red>  1:  </font>#!/usr/bin/perl 
 <font size=-1 color=red>  2:  </font> 
 <font size=-1 color=red>  3:  </font>#  An interactive command line shell to GIMP. 
 <font size=-1 color=red>  4:  </font>use Gimp; 
@@ -1044,7 +1044,7 @@ on top of a uniform background.
 <font size=-1 color=red> 17:  </font>exit Gimp::main; </pre></table><br>
     <p>
   Here is an example of an interactive session with this shell:
-  <table border><tr><th bgcolor=#E0E0FF><a href="interact">interact</a><tr><td bgcolor=#FFE0E0><pre><font size=-1 color=red>  1:  </font>Gimp&gt; $img = Gimp::Image-&gt;new(100,100,RGB) 
+  <table border><tr><th bgcolor=#E0E0FF><font color=black><a href="interact">interact</a><tr><td bgcolor=#FFE0E0><pre><font size=-1 color=red>  1:  </font>Gimp&gt; $img = Gimp::Image-&gt;new(100,100,RGB) 
 <font size=-1 color=red>  2:  </font>Gimp&gt; $drw = $img-&gt;layer_new(100,100,RGB_IMAGE, "bg", 100, NORMAL_MODE) 
 <font size=-1 color=red>  3:  </font>Gimp&gt; $img-&gt;insert_layer($drw,-1, 0) 
 <font size=-1 color=red>  4:  </font>Gimp&gt; Gimp::Display-&gt;new($img) 
