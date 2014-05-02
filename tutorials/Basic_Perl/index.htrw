@@ -230,16 +230,16 @@ script_fu_basic1_logo("Hello", 72,
       The path can take these forms, though there are other options:
       <OL>
 	<LI> "&lt;Toolbox&gt;/Xtns/Perl/Script Name" </LI>
-	<LI> "&lt;Image&gt;/Perl-Fu/Script Name" </LI>
+	<LI> "&lt;Image&gt;/Filters/Menu/Script Name" </LI>
       </OL>
       If form 1. is given, then the script is a standalone script
-      that appears in the menu hierarchy under Xtns/Perl-Fu and
-      takes all its inputs through the Gimp::Fu interface dialog.
-      If form 2. is given on the other hand, then the script
-      is tied to the image menu popped up through the right hand
-      button over any image. In this case Gimp::Fu will add as
-      the first two parameters to the script the image and the
-      drawable active when the script was invoked.
+      that appears in the menu hierarchy under Xtns/Perl (actually under
+      Filters - this is a historical thing) and takes all its inputs
+      through the Gimp::Fu interface dialog.  If form 2. is given on
+      the other hand, then the script is tied to the image menu popped
+      up through the right hand button over any image. In this case
+      Gimp::Fu will add as the first two parameters to the script the
+      image and the drawable active when the script was invoked.
     </LI><p>
     <LI> The acceptable image types, from the <tt>IMAGE TYPES</tt>
 	 section - a string. This list contains
@@ -1013,7 +1013,7 @@ on top of a uniform background.
 
 <p>
   Another important use of this interface is that it enables running
-  the Perl debugger on the perl-fu scripts.<p>
+  the Perl debugger on the perl scripts.<p>
 
 <h3><a name="SEC10.1">10.1. A shell for Gimp-Perl</a></h3>
 
