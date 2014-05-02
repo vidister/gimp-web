@@ -153,7 +153,7 @@ looks like this:
 <p>
 <p><table><tr><td bgcolor=#101010>
 <table>
-<tr><th valign=top align=right>Name:</th><td bgcolor=#e0e0ff colspan=3>plug-in-gauss-iir</td></tr>
+<tr><th valign=top align=right>Name:</th><td bgcolor=#101010 colspan=3>plug-in-gauss-iir</td></tr>
 <tr><th valign=top align=right>Blurb:</th><td valign=top colspan=3>Apply a gaussian blur</td></tr>
 <tr>
 <th valign=top align=right valign=top>In:</th><td valign=top>INT32</td><td valign=top>run-mode</td><td valign=top>The run mode { RUN-INTERACTIVE (0), RUN-NONINTERACTIVE (1) }</td>
@@ -503,7 +503,7 @@ to fill the whole image. Looking at the info for
 <tt>gimp_edit_fill</tt> in the DB browser we find the following:
 <p><table><tr><td bgcolor=#101010>
 <table>
-<tr><th valign=top align=right>Name:</th><td bgcolor=#e0e0ff colspan=3>gimp_edit_fill</td></tr>
+<tr><th valign=top align=right>Name:</th><td bgcolor=#101010 colspan=3>gimp_edit_fill</td></tr>
 <tr><th valign=top align=right>Blurb:</th><td valign=top colspan=3>Fill selected area of drawable</td></tr>
 <tr>
 <th valign=top align=right valign=top>In:</th><td valign=top>DRAWABLE</td><td valign=top>drawable</td><td valign=top>The drawable to fill from</td>
@@ -525,7 +525,7 @@ when searching for a ``select'' in the PDB. The example below uses
 <tt>gimp_image_select_rectangle</tt>, whose entry in the PDB looks as follows:
 <p><table><tr><td bgcolor=#101010>
 <table>
-<tr><th valign=top align=right>Name:</th><td bgcolor=#e0e0ff colspan=3>gimp-image-select-rectangle</td></tr>
+<tr><th valign=top align=right>Name:</th><td bgcolor=#101010 colspan=3>gimp-image-select-rectangle</td></tr>
 <tr><th valign=top align=right>Blurb:</th><td valign=top colspan=3>Create a rectangular selection over the specified image</td></tr>
 <tr>
 <th valign=top align=right valign=top>In:</th><td valign=top>IMAGE</td><td valign=top>image</td><td valign=top>The image</td>
