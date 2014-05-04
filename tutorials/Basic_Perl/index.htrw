@@ -90,34 +90,36 @@ of such a script.<p>
 <font size=-1 color=red>  3:  </font>use Gimp; 
 <font size=-1 color=red>  4:  </font>use Gimp::Fu; 
 <font size=-1 color=red>  5:  </font> 
-<font size=-1 color=red>  6:  </font>podregister { die "I DIED\n" }; 
-<font size=-1 color=red>  7:  </font> 
-<font size=-1 color=red>  8:  </font>exit main; 
-<font size=-1 color=red>  9:  </font>__END__ 
-<font size=-1 color=red> 10:  </font> 
-<font size=-1 color=red> 11:  </font>=head1 NAME 
+<font size=-1 color=red>  6:  </font>podregister {
+<font size=-1 color=red>  7:  </font>  # code...
+<font size=-1 color=red>  8:  </font>}; 
+<font size=-1 color=red>  9:  </font> 
+<font size=-1 color=red> 10:  </font>exit main; 
+<font size=-1 color=red> 11:  </font>__END__ 
 <font size=-1 color=red> 12:  </font> 
-<font size=-1 color=red> 13:  </font>test_exception - exercise gimp-perl filter testing exceptions 
+<font size=-1 color=red> 13:  </font>=head1 NAME 
 <font size=-1 color=red> 14:  </font> 
-<font size=-1 color=red> 15:  </font>=head1 SYNOPSIS 
+<font size=-1 color=red> 15:  </font>test_exception - exercise gimp-perl filter testing exceptions 
 <font size=-1 color=red> 16:  </font> 
-<font size=-1 color=red> 17:  </font>&lt;Image&gt;/Filters/Languages/_Perl/_Test/Exception 
+<font size=-1 color=red> 17:  </font>=head1 SYNOPSIS 
 <font size=-1 color=red> 18:  </font> 
-<font size=-1 color=red> 19:  </font>=head1 DESCRIPTION 
+<font size=-1 color=red> 19:  </font>&lt;Image&gt;/Filters/Languages/_Perl/_Test/Exception 
 <font size=-1 color=red> 20:  </font> 
-<font size=-1 color=red> 21:  </font>Exercise Gimp-Perl exceptions. 
+<font size=-1 color=red> 21:  </font>=head1 DESCRIPTION 
 <font size=-1 color=red> 22:  </font> 
-<font size=-1 color=red> 23:  </font>=head1 AUTHOR 
+<font size=-1 color=red> 23:  </font>Exercise Gimp-Perl exceptions. 
 <font size=-1 color=red> 24:  </font> 
-<font size=-1 color=red> 25:  </font>The Author. 
+<font size=-1 color=red> 25:  </font>=head1 AUTHOR 
 <font size=-1 color=red> 26:  </font> 
-<font size=-1 color=red> 27:  </font>=head1 DATE 
+<font size=-1 color=red> 27:  </font>The Author. 
 <font size=-1 color=red> 28:  </font> 
-<font size=-1 color=red> 29:  </font>20140310 
+<font size=-1 color=red> 29:  </font>=head1 DATE 
 <font size=-1 color=red> 30:  </font> 
-<font size=-1 color=red> 31:  </font>=head1 LICENSE 
-<font size=-1 color=red> 32:  </font> 
-<font size=-1 color=red> 33:  </font>The licensing terms. </pre></table><br>
+<font size=-1 color=red> 31:  </font>20140310 
+<font size=-1 color=red> 33:  </font> 
+<font size=-1 color=red> 34:  </font>=head1 LICENSE 
+<font size=-1 color=red> 35:  </font> 
+<font size=-1 color=red> 36:  </font>The licensing terms. </pre></table><br>
 
 <p>
 The key points to note in the script are:
