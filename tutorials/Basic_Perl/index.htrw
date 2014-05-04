@@ -17,7 +17,8 @@
 <li> <a href="#SEC4">4. The Gimp module</a></li>
 <li> <a href="#SEC5">5. The GIMP PDB</a></li>
 <li> <a href="#SEC5.1">5.1. Gimp::Fu and the podregister function</a></li>
-<li> <a href="#SEC5.2">5.2. A commented script</a></li>
+<li> <a href="#SEC5.2">5.2. podregister parameters</a></li>
+<li> <a href="#SEC5.3">5.3. A commented script</a></li>
 <li> <a href="#SEC6">6. Object oriented syntax</a></li>
 <li> <a href="#SEC7">7. Painting areas with selections</a></li>
 <li> <a href="#SEC7.1">7.1. Complex selections</a></li>
@@ -354,7 +355,16 @@ script_fu_basic1_logo("Hello", 72,
       </OL>
     </LI>
 
-<h3><a name="SEC5.2">5.2. A commented script</a></h3>
+<h3><a name="SEC5.2">5.2. podregister parameters</a></h3>
+
+You will have noticed above that the parameters to the function given
+to <tt>podregister</tt> used parameters named in the POD such as
+<tt>$drawable</tt>. This is because <tt>podregister</tt> automatically
+makes available to your function all the variables declared either in the
+POD documentation (the "PARAMETERS" section) or added depending on your
+"image types".
+
+<h3><a name="SEC5.3">5.3. A commented script</a></h3>
 
 <p>
 The following Gimp::Fu script example shows the steps described in the
