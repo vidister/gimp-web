@@ -360,11 +360,11 @@ script_fu_basic1_logo("Hello", 72,
 <h3><a name="SEC5.2">5.2. podregister parameters</a></h3>
 
 You will have noticed above that the parameters to the function given
-to <tt>podregister</tt> used parameters named in the POD such as
-<tt>$drawable</tt>. This is because <tt>podregister</tt> automatically
-makes available to your function all the variables declared either in the
-POD documentation (the "PARAMETERS" section) or added depending on your
-"image types".
+to <tt>podregister</tt> used parameters either named in the POD, or
+supplied by <tt>Gimp::Fu</tt>, such as <tt>$drawable</tt>. This is because
+<tt>podregister</tt> automatically makes available to your function all
+the variables declared either in the POD documentation (the "PARAMETERS"
+section) or added depending on your "image types".
 
 <h3><a name="SEC5.3">5.3. A commented script</a></h3>
 
