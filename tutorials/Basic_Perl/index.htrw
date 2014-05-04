@@ -229,17 +229,21 @@ script_fu_basic1_logo("Hello", 72,
     <LI> Menu path - a string, from the <tt>SYNOPSIS</tt> section.
       The path can take these forms, though there are other options:
       <OL>
-	<LI> "&lt;Toolbox&gt;/Xtns/Perl/Script Name" </LI>
 	<LI> "&lt;Image&gt;/Filters/Menu/Script Name" </LI>
+	<LI> "&lt;Toolbox&gt;/Xtns/Perl/Script Name" </LI>
       </OL>
-      If form 1. is given, then the script is a standalone script
-      that appears in the menu hierarchy under Xtns/Perl (actually under
-      Filters - this is a historical thing) and takes all its inputs
-      through the Gimp::Fu interface dialog.  If form 2. is given on
-      the other hand, then the script is tied to the image menu popped
-      up through the right hand button over any image. In this case
-      Gimp::Fu will add as the first two parameters to the script the
-      image and the drawable active when the script was invoked.
+      If you specify "&lt;Image&gt;", then the script is expecting
+      to operate on, or create, an image.  In this case Gimp::Fu will
+      add as the first two parameters to the script the image and the
+      drawable active when the script was invoked. If, however, the
+      "image types" is left as blank or not specified, the plugin is
+      expected to create and therefore return an image (and it will
+      normally be placed under the <tt>File/Create</tt> menu).
+      <p>
+      If you specify "&lt;Toolbox&gt;", then the script is a standalone
+      script that appears in the menu hierarchy under Filters (this is
+      a historical thing) and takes all its inputs through the Gimp::Fu
+      interface dialog.
     </LI><p>
     <LI> The acceptable image types, from the <tt>IMAGE TYPES</tt>
 	 section - a string. This list contains
@@ -312,15 +316,16 @@ script_fu_basic1_logo("Hello", 72,
 	same way as the Parameters above. There is no default or extra
 	argument required. <p>
       </LI>
-      <LI> The perl code implementing the function. This
-	will be called when the associated menu entry
-	declared through the <i>Menu path</i> described above.
-	When the sub is called it is passed a list
-	of parameters as declared in field 9. In
-	the case of a "&lt;Image&gt;..." script, the active image
-	and drawable (layer or channel) as first and second parameters.
-	Thanks to the magic of Perl source filtering, you do not need
-	to declare your variables but may simply use them:
+      <LI><p>The perl code implementing the function - most commonly with
+      a sub-reference, surrounded by "{" and "};", as below - thanks to
+      Perl's prototyping, you don't need to specify "sub".
+      This will be called when the associated menu entry declared
+      through the <i>Menu path</i> described above.  When the sub is
+      called it is passed a list of parameters as declared in field
+      9. In the case of a "&lt;Image&gt;..." script, the active image
+      and drawable (layer or channel) will be passed as first and second
+      parameters.  Thanks to the magic of Perl source filtering, you do
+      not need to declare your variables but may simply use them:
 	<pre>
     podregister {
       $drawable->gauss_iir($radius, $horizontal, $vertical);
@@ -339,14 +344,6 @@ script_fu_basic1_logo("Hello", 72,
 	  searches various prefixes for the underlying function including
 	  the plug-in related ones (including <tt>script_fu_</tt>).
 	<p>
-	  A reference to a sub in perl may be declared in two ways.
-	  Either by declaring a subroutine at a different place in the
-	  source file, e.g. <tt>sub run</tt> and reference it by
-	  writing <tt>\&amp;run</tt>. An alternative way is to write it
-	  inline by simply writing (since with Perl's prototyping,
-	  you need not supply the "sub" keyword):
-	  <pre>
-    podregister { ... };</pre>
 	  The code will normally display a new image if it creates one,
 	  and also return the new image, in accordance with the return
 	  types declared in parameter 10 of the <tt>podregister</tt>
@@ -435,6 +432,8 @@ script:
 
 <p>
 To test the script, save it in the directory <tt>$HOME/.gimp-2.8/plug-ins</tt>.
+(A more official way to add scripts is to use the <tt>gimptool-2.0
+--install-bin</tt> command).
 It must then be made executable through the command:
 <pre>
      chmod +x $HOME/.gimp-2.8/plug-ins/uni
@@ -443,8 +442,6 @@ It must then be made executable through the command:
 <p>
 Then start GIMP.  It is generally a good idea to test the
 syntax of the script with <tt>perl -c</tt> before starting GIMP.
-(A more official way to add scripts is to use the <tt>gimptool-2.0
---install-bin</tt> command).
 <p>
 <b>Note:</b> Due to the way GIMP works,
 it is not possible to add scripts once GIMP is running. On the other hand,
