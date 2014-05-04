@@ -493,7 +493,7 @@ Choosing the default values results in the image:
         <td bgcolor=#202020>$drw-&gt;width;
   </table>
   <p>
-  The substitution rule for converting a PDB turning into a method is
+  The substitution rule for converting a PDB into a method is
   as simple as erasing ``<tt>gimp_image_</tt>'' (or sometimes
   ``<tt>gimp_</tt>'') from the beginning of the function call and
   calling this method through the image object.  Similarly for the
@@ -529,8 +529,8 @@ to fill the whole image. Looking at the info for
 
 <p>
 Thus, if a selection is active when <tt>gimp_edit_fill</tt>
-is called, only the selection is painted. Note also that you must
-substitute "_" for "-" in the names.
+is called, only the selected region of the drawable is painted. Note also
+that you must substitute "_" for "-" in the names.
 
 <p>There are lots of ways of choosing a selection as can be seen
 when searching for a ``select'' in the PDB. The example below uses
