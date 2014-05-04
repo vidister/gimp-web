@@ -432,6 +432,8 @@ script:
 
 <p>
 To test the script, save it in the directory <tt>$HOME/.gimp-2.8/plug-ins</tt>.
+(A more official way to add scripts is to use the <tt>gimptool-2.0
+--install-bin</tt> command).
 It must then be made executable through the command:
 <pre>
      chmod +x $HOME/.gimp-2.8/plug-ins/uni
@@ -440,8 +442,6 @@ It must then be made executable through the command:
 <p>
 Then start GIMP.  It is generally a good idea to test the
 syntax of the script with <tt>perl -c</tt> before starting GIMP.
-(A more official way to add scripts is to use the <tt>gimptool-2.0
---install-bin</tt> command).
 <p>
 <b>Note:</b> Due to the way GIMP works,
 it is not possible to add scripts once GIMP is running. On the other hand,
