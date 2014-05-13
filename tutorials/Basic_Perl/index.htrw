@@ -149,7 +149,7 @@ function, it will appear in the PDB as well.
 in <b>Help/Procedure Browser</b>. This browser provides a way of seeing
 all the functions in the PDB, as well as their input and output
 parameters. E.g. the DB Browser entry for
-<tt>gimp-image-new</tt>, which will be used in the example below
+<tt>plug-in-gauss-iir</tt>, which will be used in the example below
 looks like this:
 <p>
 <p><table><tr><td bgcolor=#101010>
