@@ -49,7 +49,7 @@ The layer mask has now been added to the &ldquo;Teal&rdquo; layer.  It is also a
 </p>
 <h2>Modifying a Layers Transparency with the Mask</h2>
 <p>
-At this point, any operations performed on the canvas will apply to the mask, and not to any layers themselves.  To illustrate how masks can affect its layers transparency, let&rsquo;s paint!
+At this point any operations performed on the canvas will apply to the mask and not to any layers themselves.  To illustrate how masks can affect its layers transparency, let&rsquo;s paint!
 </p>
 <p>
 I am going to use the <b>Rectangle Select</b> tool to select roughly the top third of the image, and I&rsquo;ll fill this selection with black.
