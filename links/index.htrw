@@ -35,7 +35,7 @@ href="/about/linking.html">this other page</a>.</p>
 
 <p><a href="http://blog.patdavid.net/p/getting-around-in-gimp.html">Getting Around in GIMP</a><br />
 A collection of tutorials aimed at photography and retouching.</p>
-        
+
 <p><a href="http://www.pixel2life.com/tutorials/gimp/">Search GIMP tutorials</a><br />
 This site lets you find and rate GIMP tutorials hosted on other sites (note: with advertisements).</p>
 
@@ -67,7 +67,7 @@ Essentially the same as the one above, but this time in English.</p>
 This OpenDirectoryProject-category holds links to GIMP-sites (like this page).</p>
 
 <p><a href="http://meetthegimp.org">Meet the GIMP!</a><br />
-A videopodcast about the free graphics program GIMP</p>
+A video podcast about the free graphics program GIMP</p>
 
 <p><a href="http://www.deviantart.com/resources/applications/">DeviantArt</a><br />
 Resources (brushes, scripts, plug-ins) for GIMP and other applications</p>
@@ -87,7 +87,7 @@ Resources (brushes, scripts, plug-ins) for GIMP and other applications</p>
 </p>
 <p>
   <a href="http://www.gimpforum.de/">gimpforum.de</a><br />
-  German-spoken forum focussing on GIMP. News, tutorials, user-to-user
+  German-spoken forum focusing on GIMP. News, tutorials, user-to-user
   help and galleries.
 </p>
 <p>
@@ -126,7 +126,11 @@ Resources (brushes, scripts, plug-ins) for GIMP and other applications</p>
 </p>
 <p>
   <a href="http://gimpchat.com/">GimpChat.com</a><br />
-  Forum, tutorials, galleries.
+  Forum, tutorials, galleries and resources.
+</p>
+<p>
+  <a href="http://gimper.net/">Gimper</a><br />
+  Forum, tutorials, galleries and resources.
 </p>
 
 <h2><a name="created"></a>Created with GIMP</h2>
@@ -147,12 +151,12 @@ Resources (brushes, scripts, plug-ins) for GIMP and other applications</p>
 </p>
 <p>
   <a href="http://www.krita.org/">Krita</a><br />
-  Krita is a KDE program for sketching and painting, offering an end–to–end 
+  Krita is a KDE program for sketching and painting, offering an end–to–end
   solution for creating digital painting files from scratch by masters.
 </p>
 <p>
   <a href="http://www.trilon.com/xv/">XV</a><br />
-  One of the original unix graphics applications.
+  One of the original Unix graphics applications.
 </p>
 <p>
   <a href="http://www.skencil.org/">Skencil</a> (formerly known as Sketch)<br />
