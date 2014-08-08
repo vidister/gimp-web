@@ -94,7 +94,7 @@
 	
 	<p>Due to our server move in April (physical to virtual, into an environment that doesn't allow FTP access), there are no current mirrors out there at this time. But we are now able to offer rsync access to download.gimp.org</p>
 	
-	<p>If you are running one of the existing GIMP mirrors, or want to create a new none, please <a href="/webmasters.html">contact us</a> to get your rsync credentials.</pA>
+	<p>If you are running one of the existing GIMP mirrors, or want to create a new none, please <a href="/webmasters.html">contact us</a> to get your rsync credentials.</p>
 	<!-#include virtual="/downloads/mirrors.xhtml" ->
   
 	<!-- <p>If you want to add a new mirror, please <a href="/webmasters.html">contact us</a>.</p> -->
