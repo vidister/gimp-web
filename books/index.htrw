@@ -23,6 +23,21 @@
 </p>
 -->
 
+<p>
+  <img class="icon" src="gimp-2-8-kay-richter.jpg" 
+       alt="Das GIMP 2.8-Buch"
+       width="100px"
+       height="75px"/>
+  <strong>Author:</strong> Kay Richter<br/>
+  <strong>Format:</strong> eBook, 256pp.<br/>
+  <!-- <strong>ISBN-10:</strong> 0-12345-678-9<br/> -->
+  <strong>ISBN-13:</strong> ISBN 978-3-86899-857-3<br/>
+  <strong>Publisher/Date:</strong> O'Reilly/2013<br/>
+  <strong>Website:</strong> <a href="http://www.oreilly.de/catalog/gimpbuchger/">www.oreilly.de/catalog/gimpbuchger/</a><br/>
+  <br/>
+  <strong>Description:</strong> the book (in German) introduces readers to th basics of using GIMP, from importing to editing to printing.
+</p>
+
 <h2>Niveles y Curvas con GIMP</h2>
 <p>
   <img class="icon" src="niveles-y-curvas-con-gimp.jpg" 
