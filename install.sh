@@ -39,8 +39,9 @@ if [ -z "${PYTHON}" ]; then
 fi
 
 #variable clean up
-#remove trailing slash from HTDOCS_DIR if it exists
+#remove trailing slash from HTDOCS_DIR and DOWNLOAD_DIR if it exists
 HTDOCS_DIR="${HTDOCS_DIR%/}"
+DOWNLOAD_DIR="${DOWNLOAD_DIR%/}"
 
 ######################################################################
 # functions
@@ -71,7 +72,7 @@ function preflight(){
 #main function is where all the magic happens.  Building the site
 function main(){
   STATUS=0
-  ${MAKE} PYTHON="${PYTHON}" DocumentRoot="${HTDOCS_DIR}" clean all programmatic install 2>&1 | tee "${MAKEOUT}"
+  ${MAKE} PYTHON="${PYTHON}" DocumentRoot="${HTDOCS_DIR}" DownloadRoot="${DOWNLOAD_DIR}" clean all programmatic install 2>&1 | tee "${MAKEOUT}"
   #capture the exit status of the make command
   if [ ! "${PIPESTATUS[0]}" -eq "0" ];then
     STATUS=1
