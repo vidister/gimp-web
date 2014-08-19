@@ -81,7 +81,7 @@ install-contest: contest
 	$(MAKE) -C contest install
 
 install-downloads: downloads
-	$(MAKE) -C downloads install
+	$(MAKE) -C downloads install install-download
 
 dirs: wgo_config.py
 	$(MAKE) -C admin dirs
