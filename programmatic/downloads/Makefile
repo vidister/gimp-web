@@ -20,5 +20,5 @@ install: mirrors.xhtml
 	install -m 644 mirrors.xhtml `${PYTHON} -c 'import wgo_config; print wgo_config.DocumentRoot_path'`/downloads/mirrors.xhtml
 
 install-download: MIRRORS
-	@if [ ${DownloadRoot}x != "x" ]; then -mkdir -p `${PYTHON} -c 'import wgo_config; print wgo_config.DownloadRoot_path'`/gimp; \
+	@if [ ${DownloadRoot}x != "x" ]; then mkdir -p `${PYTHON} -c 'import wgo_config; print wgo_config.DownloadRoot_path'`/gimp; \
 	install -m 644 MIRRORS `${PYTHON} -c 'import wgo_config; print wgo_config.DownloadRoot_path'`/gimp/MIRRORS; fi;
