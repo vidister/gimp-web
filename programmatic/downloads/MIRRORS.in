@@ -32,7 +32,7 @@
 #     http://servingzone.com/mirrors/gimp/ (web access)
 
 Germany
-     http://de-mirror.gimper.net/
+     http://de-mirror.gimper.net/pub/gimp/ (web access)
 #     ftp://artfiles.org/gimp.org/gimp/
 #     http://artfiles.org/gimp.org/gimp/ (web access)
 #     http://gimp.cybermirror.org/ (web access)
@@ -94,7 +94,7 @@ Germany
 #     http://mirrors.serverhost.ro/gimp/ (web access)
 
 South Africa
-     http://gimp.afri.cc/
+     http://gimp.afri.cc/pub/gimp/ (web access)
 #     ftp://ftp.is.co.za/mirror/ftp.gimp.org/gimp/
 
 #Spain
@@ -117,7 +117,7 @@ South Africa
 #     rsync://anorien.csc.warwick.ac.uk/ftp.gimp.org/ (rsync access)
 
 United States
-     http://gimper.net/downloads/
+     http://gimper.net/downloads/pub/gimp/ (web access)
 #     http://gimp.cp-dev.com/gimp/ (web access)
 #     http://mirror.hessmo.com/gimp/ (web access)
 #     http://gimp.mirrors.hoobly.com/gimp/ (web access)

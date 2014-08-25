@@ -26,6 +26,7 @@ wgo_config.py: Makefile Makefile.defs
 	 echo "# user_gid=''"                                  ; \
 		echo                                                  ; \
 	 echo "DocumentRoot_path='${DocumentRoot}'"            ; \
+	 echo "DownloadRoot_path='${DownloadRoot}'"            ; \
 	 echo "admin_dir='/admin/'"                            ; \
 	 echo "admin_path=DocumentRoot_path + admin_dir"       ; \
 	 echo "includes_dir='/includes/'"                      ; \
@@ -81,7 +82,7 @@ install-contest: contest
 	$(MAKE) -C contest install
 
 install-downloads: downloads
-	$(MAKE) -C downloads install
+	$(MAKE) -C downloads install install-download
 
 dirs: wgo_config.py
 	$(MAKE) -C admin dirs
