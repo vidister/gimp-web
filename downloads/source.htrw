@@ -98,3 +98,4 @@
 	  
 	<!-- <p>If you want to add a new mirror, please <a href="/webmasters.html">contact us</a>.</p> -->
 	 
+	<!--#include virtual="/downloads/mirrors.xhtml" -->
