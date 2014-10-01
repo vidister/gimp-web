@@ -10,7 +10,8 @@ Since the 2.8.2 version GIMP runs on OSX natively. No X11 environment is require
 
 <p>
   A GIMP 2.8 DMG installer by Sven Claussner, stock GIMP build without any add-ons. 
-  Just open the downloaded DMG and drag and drop "GIMP.app" into your "Applications" folder.
+  It works on OS X 10.6 Snow Leopard and later. 
+  Just open the downloaded DMG and drag and drop GIMP into your "Applications" folder.
 </p>
 
 <ul>
