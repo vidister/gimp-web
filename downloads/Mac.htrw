@@ -15,7 +15,14 @@ Since the 2.8.2 version GIMP runs on OSX natively. No X11 environment is require
 </p>
 
 <ul>
-<li><a href="http://download.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.14.dmg">Download GIMP 2.8 from gimp.org</a>. Also available via <a href="http://download.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.14.dmg.torrent">torrent</a></li>
+  <li>
+    <a style="font-size: 1.4em;" href="http://download.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.14.dmg.torrent">
+    Download GIMP 2.8 from gimp.org
+    </a>.
+    If the torrent download doesn't work, you can also follow 
+    <a href="http://download.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.14.dmg">
+    this link</a>.
+  </li>
 </ul>
 
 <p>
