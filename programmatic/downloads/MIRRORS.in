@@ -9,10 +9,12 @@
 #Austria
 #     ftp://gd.tuwien.ac.at/graphics/gimp/
 
-#Brazil
+Brazil
 #     ftp://mirrors-br.go-parts.com/gimp/
 #     http://mirrors-br.go-parts.com/gimp/ (web access)
 #     rsync://mirrors-br.go-parts.com/mirrors/gimp/ (rsync access)
+      http://mirror.nbtelecom.com.br/gimp/ (web access)
+      rsync://mirror.nbtelecom.com.br::gimp (rsync access)
 
 #Canada
 #     http://gimp.parentingamerica.com/gimp/ (web access)
@@ -33,8 +35,8 @@
 
 Germany
      http://de-mirror.gimper.net/pub/gimp/ (web access)
-#     ftp://artfiles.org/gimp.org/gimp/
-#     http://artfiles.org/gimp.org/gimp/ (web access)
+     ftp://artfiles.org/gimp.org/gimp/
+     http://artfiles.org/gimp.org/gimp/ (web access)
 #     http://gimp.cybermirror.org/ (web access)
 #     ftp://ftp.fernuni-hagen.de/pub/mirrors/www.gimp.org/
 #     http://ftp.fernuni-hagen.de/ftp-dir/pub/mirrors/www.gimp.org/ (web access)
