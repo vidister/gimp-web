@@ -451,20 +451,17 @@
   size in 2.8.
 </p>
 
-<h2>Download</h2>
+<h2>Download and install pre-made packages</h2>
 <p>
-  The development snapshots of GIMP can be downloaded as source code
-  from ftp.gimp.org or from one of the mirrors listed in
-  the <a href="wgo:downloads-mirrors">Downloads</a> section.
+  GIMP can be downloaded directly from our <a href="wgo:downloads">Downloads</a> section.
 </p>
 <p>
-  Distribution of binary packages of the development version is
-  discouraged unless it is made clear that this is an early development
-  snapshot. Users should be referred to these release notes or similar
-  information.
+  Please be very cautious when downloading from anywhere else - some 
+  sites use GIMP's popularity to lure unwary users into their traps 
+  by shipping modified installer packages.
 </p>
 
-<h2>Installation</h2>
+<h2>Building GIMP yourself from source</h2>
 <p>
 GIMP 2.8 must <strong>not</strong> be installed in the same prefix as
 other GIMP 2.x versions. If you want to keep your GIMP 2.6
