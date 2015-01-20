@@ -119,8 +119,13 @@
 </p>
 
 <h2><a name="Photo"></a>Photo Editing</h2>
+<!--
 <p>
-  <a href="Color2BW/">Color2BW</a> Converting Color Images to B&amp;W.
+  <a href="Color2BW/">Color2BW</a> Converting color images to B&amp;W.
+</p>
+-->
+<p>
+    <a href="Digital_Black_and_White_Conversion/">Digital B&amp;W Conversion</a> Detailed conversion tutorial to black and white.
 </p>
 <p>
   <a href="Selective_Color/">Selective Colorization</a> Convert images to black and white and restore color selectively.
