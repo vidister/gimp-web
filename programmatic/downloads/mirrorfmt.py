@@ -32,11 +32,11 @@ def do_file(filename):
                     print xhtml.dd(xhtml.hyperlink(l[0:idx], {"href" : l[0:idx]})
                                    + l[idx:len(l)])
                     if l.startswith("http"):
-                        print >>fj, l[0:idx] + ",\n"
+                        print >>fj, '"' + l[0:idx] + '",'
                 else:
                     print xhtml.dd(xhtml.hyperlink(l, {"href" : l}))
                     if l.startswith("http"):
-                        print >>fj, l[0:idx] + ",\n"
+                        print >>fj, '"' + l[0:idx] + '",'
                 pass
             pass
         pass
