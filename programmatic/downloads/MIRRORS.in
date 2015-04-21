@@ -62,9 +62,9 @@ Germany
 #     ftp://ftp.u-aizu.ac.jp/pub/graphics/tools/gimp/
 #     ftp://ftp.ring.gr.jp/pub/graphics/gimp/
 #     http://www.ring.gr.jp/pub/graphics/gimp/ (web access)
-#     ftp://mirrors.go-parts.com/gimp/
-#     http://mirrors.go-parts.com/gimp/ (web access)
-#     rsync://mirrors.go-parts.com/mirrors/gimp/ (rsync access)
+     ftp://mirrors.go-parts.com/gimp/
+     http://mirrors.go-parts.com/gimp/ (web access)
+     rsync://mirrors.go-parts.com/mirrors/gimp/ (rsync access)
 
 #Netherlands
 #     ftp://ftp.snt.utwente.nl/pub/software/gimp/gimp/
@@ -95,6 +95,11 @@ Germany
 #     http://ftp.iasi.roedu.net/mirrors/ftp.gimp.org/ (web access)
 #     http://mirrors.serverhost.ro/gimp/ (web access)
 
+Russia
+     ftp://mirrors-ru.go-parts.com/gimp/
+     http://mirrors-ru.go-parts.com/gimp/ (web access)
+     rsync://mirrors-ru.go-parts.com/mirrors/gimp/ (rsync access)
+
 South Africa
      http://gimp.afri.cc/pub/gimp/ (web access)
 #     ftp://ftp.is.co.za/mirror/ftp.gimp.org/gimp/
@@ -117,6 +122,10 @@ South Africa
 #     ftp://anorien.csc.warwick.ac.uk/ftp.gimp.org/
 #     https://anorien.csc.warwick.ac.uk/ftp.gimp.org/ (web access)
 #     rsync://anorien.csc.warwick.ac.uk/ftp.gimp.org/ (rsync access)
+     ftp://mirrors-uk.go-parts.com/gimp/
+     http://mirrors-uk.go-parts.com/gimp/ (web access)
+     rsync://mirrors-uk.go-parts.com/mirrors/gimp/ (rsync access)
+
 
 United States
      http://gimp.galaxyverge.com/ (web access)
@@ -135,3 +144,6 @@ United States
 #     ftp://mirrors.xmission.com/gimp/gimp/
 #     http://mirrors.xmission.com/gimp/gimp/ (web access)
 #     rsync://mirrors.xmission.com/gimp/ (rsync access)
+     ftp://mirrors-usa.go-parts.com/gimp/
+     http://mirrors-usa.go-parts.com/gimp/ (web access)
+     rsync://mirrors-usa.go-parts.com/mirrors/gimp/ (rsync access)
