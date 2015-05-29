@@ -96,8 +96,8 @@ Japan
 #     http://mirrors.serverhost.ro/gimp/ (web access)
 
 Russia
-     ftp://mirrors-ru.go-parts.com/gimp/
-     http://mirrors-ru.go-parts.com/gimp/ (web access)
+     ftp://mirrors-ru.go-parts.com/gimp/gimp/
+     http://go-parts.com/mirrors-ru/gimp/gimp/ (web access)
      rsync://mirrors-ru.go-parts.com/mirrors/gimp/ (rsync access)
 
 South Africa
@@ -144,6 +144,6 @@ United States
 #     ftp://mirrors.xmission.com/gimp/gimp/
 #     http://mirrors.xmission.com/gimp/gimp/ (web access)
 #     rsync://mirrors.xmission.com/gimp/ (rsync access)
-     ftp://mirrors-usa.go-parts.com/gimp/
-     http://mirrors-usa.go-parts.com/gimp/ (web access)
+     ftp://mirrors-usa.go-parts.com/gimp/gimp/
+     http://go-parts.com/mirrors-usa/gimp/gimp/ (web access)
      rsync://mirrors-usa.go-parts.com/mirrors/gimp/ (rsync access)
