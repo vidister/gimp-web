@@ -1,12 +1,6 @@
 <a name="windows" id="windows"> </a>
 <h2>GIMP for Windows</h2>
 
-<p>The Windows installer packages by Jernej Simončič are distributed from the GIMP HTTP server (<a href="http://download.gimp.org">download.gimp.org</a>) and its <a href="#mirrors">mirror servers</a>.</p>
-
-<p>
-The installer contains both 32 bit and 64 bit versions of GIMP, and will install the appropriate one.
-</p>
-
 <table style="width:100%;padding: 15px; border:0;border-spacing: 10px;border-collapse: separate">
 <tr>
 <td>
@@ -23,7 +17,7 @@ The installer contains both 32 bit and 64 bit versions of GIMP, and will install
 </td>
 <td>
 <p>
-This link downloads the GIMP installer for Windows via gimp.org</p>
+This link downloads the GIMP installer for Windows by Jernej Simončič via download.gimp.org. The installer contains both 32 bit and 64 bit versions of GIMP, and will install the appropriate one.</p>
 </td>
 </tr>
 <tr>
