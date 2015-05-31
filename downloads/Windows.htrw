@@ -6,28 +6,46 @@
 The installer contains both 32 bit and 64 bit versions of GIMP, and will install the appropriate one.
 </p>
 
-<ul>
-        <li><a style="font-size: 1.4em;" href="http:Package-GIMP-windows-stable-jernej-torrent">Download GIMP 2.8.14</a><br/>
-	Have a look at <a href="https://en.wikipedia.org/wiki/Comparison_of_BitTorrent_clients">Wikipedia's BitTorrent client list</a> (and steer clear of the adware-laden ones).<br/>
-    If the torrent download doesn't work, you can also follow <a href="http:Package-GIMP-windows-stable-jernej">this link</a>.</li>
-  <li>This installer package is known to run on:
-    <ul>
-      <li>Windows XP SP3 and XP x64 SP2</li>
-      <li>Windows Vista</li>
-      <li>Windows 7</li>
-      <li>Windows 8 and Windows 8.1</li>
-      <li>Windows Server 2003 SP2 and 2003 R2</li>
-      <li>Windows Server 2008 and 2008 R2</li>
-      <li>Windows Server 2012 and 2012 R2</li>
-    </ul>
-  </li>
-  <li>It <strong>does not run</strong> on:
-    <ul>
-      <li>Anything that came before Windows XP</li>
-      <li>Windows RT</li>
-    </ul>
-  </li>
-</ul>
+<table style="width:100%;padding: 15px; border:0;border-spacing: 10px;border-collapse: separate">
+<tr>
+<td>
+	<a href="http:Package-GIMP-windows-stable-jernej" title="Download GIMP via http">
+	<div class="button_container" style="float:none;">
+		<div class="button_bottom gimp_orange_dark">
+			<div class="button_subtitle">Via HTTP (.exe)</div>
+		</div>
+		<div class="button_top gimp_orange">
+			<div class="button_headline">Download GIMP 2.8.14</div>
+		</div>
+	</div>
+	</a>
+</td>
+<td>
+<p>
+This link downloads the GIMP installer for Windows via gimp.org</p>
+</td>
+</tr>
+<tr>
+<td>
+	<a href="http:Package-GIMP-windows-stable-jernej-torrent" title="Download GIMP via BitTorrent">
+	<div class="button_container" style="float:none;">
+		<div class="button_bottom gimp_teal_dark">
+			<div class="button_subtitle">Via BitTorrent (.torrent)</div>
+		</div>
+		<div class="button_top gimp_teal">
+			<div class="button_headline">Download GIMP 2.8.14 </div>
+		</div>
+	</div>
+	</a>
+</td>
+<td>
+<p>
+BitTorrent is a peer-to-peer file sharing system. BitTorrent works by downloading GIMP from a distributed network of BitTorrent users called "seeders". Choosing this option will download the torrent link file for GIMP. You may need to install a torrent client to make use of this link. <a href="http://en.wikipedia.org/wiki/BitTorrent" target="Learn More About BitTorrent">Learn more...</a>
+</p>
+</td>
+</tr>
+
+</table>
 
 <h3>GIMP User Manual</h3>
 
@@ -53,4 +71,3 @@ The installer contains both 32 bit and 64 bit versions of GIMP, and will install
 <li><a href="http://download.gimp.org/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-es-setup.exe">Spanish</a> (24.9 MB)</li>
 <li><a href="http://download.gimp.org/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-sv-setup.exe">Swedish</a> (24.7 MB)</li>
 </ul>
-
