@@ -6,11 +6,9 @@
 <td>
 	<a href="http:Package-GIMP-windows-stable-jernej" title="Download GIMP via http">
 	<div class="button_container" style="float:none;">
-		<div class="button_bottom gimp_orange_dark">
-			<div class="button_subtitle">Via HTTP (.exe)</div>
-		</div>
 		<div class="button_top gimp_orange">
-			<div class="button_headline">Download GIMP 2.8.14</div>
+			<div class="button_headline">Download GIMP 2.8.14<br />
+			directly</div>
 		</div>
 	</div>
 	</a>
@@ -24,11 +22,9 @@ This link downloads the official GIMP installer for Windows directly from downlo
 <td>
 	<a href="http:Package-GIMP-windows-stable-jernej-torrent" title="Download GIMP via BitTorrent">
 	<div class="button_container" style="float:none;">
-		<div class="button_bottom gimp_teal_dark">
-			<div class="button_subtitle">Via BitTorrent (.torrent)</div>
-		</div>
 		<div class="button_top gimp_teal">
-			<div class="button_headline">Download GIMP 2.8.14 </div>
+			<div class="button_headline">Download GIMP 2.8.14<br />
+			via BitTorrent</div>
 		</div>
 	</div>
 	</a>
