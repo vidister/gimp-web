@@ -17,7 +17,7 @@
 </td>
 <td>
 <p>
-This link downloads the GIMP installer for Windows by Jernej Simončič via download.gimp.org. The installer contains both 32 bit and 64 bit versions of GIMP, and will install the appropriate one.</p>
+This link downloads the official GIMP installer for Windows directly from download.gimp.org. The installer contains both 32-bit and 64-bit versions of GIMP, and will install the appropriate one.</p>
 </td>
 </tr>
 <tr>
@@ -35,7 +35,7 @@ This link downloads the GIMP installer for Windows by Jernej Simončič via down
 </td>
 <td>
 <p>
-BitTorrent is a peer-to-peer file sharing system. BitTorrent works by downloading GIMP from a distributed network of BitTorrent users called "seeders". Choosing this option will download the torrent link file for GIMP. You may need to install a torrent client to make use of this link. <a href="http://en.wikipedia.org/wiki/BitTorrent" target="Learn More About BitTorrent">Learn more...</a>
+BitTorrent is a peer-to-peer file sharing system. It works by downloading GIMP from a distributed network of BitTorrent users, and may improve download speed dramatically. Choosing this option will download the torrent file for the GIMP installer. You may need to install a torrent client to make use of this file. <a href="http://en.wikipedia.org/wiki/BitTorrent" target="Learn More About BitTorrent">Learn more...</a>
 </p>
 </td>
 </tr>
