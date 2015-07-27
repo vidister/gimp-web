@@ -74,6 +74,8 @@ If all three channels have a value of 0 - then the resulting color will be pure 
 
 <p>As you can see, there is more blue than anything else (it is a blue-ish pixel after all), followed by green, then a dash of red.
 If we were to change the values of each channel, but kept ratio the same between Red, Green, and Blue, then we would keep the same color and just lighten or darken the pixel by some amount.</p>
+
+
 <h2 id="curves-value">Curves: Value<a class="header-link" href="#curves-value"><i class="fa fa-link"></i></a></h2>
 <p>So let’s leave your pixel alone for the time being, and actually have a look at the <strong>Curves</strong> dialog.
 I’ll be using this wonderful image by <a href="http://www.flickr.com/photos/qsimple/">Eric</a> from <a href="http://www.flickr.com">Flickr</a>.</p>
@@ -85,6 +87,11 @@ I’ll be using this wonderful image by <a href="http://www.flickr.com/photos/qs
 </div>
 
 <p>Opening up my <strong>Curves</strong> dialog shows me the following:</p>
+<div class="MenuCmd">
+    <span>
+        Colors &rarr; Curves&hellip;
+    </span>
+</div>
 <div class="figure">
 <img alt="GIMP Base Curves Dialog" height="524" src="curves-dialog-original.png" width="378" />
 </div>
