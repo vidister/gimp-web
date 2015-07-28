@@ -61,8 +61,8 @@ function renderDownload(platform) {
     }
     else
     {
-	$('#os').each(function() {
-	    if ($(this).attr('id') != 'os' && $(this).attr('id') != platform) {
+	$('#os').children().each(function() {
+	    if ($(this).attr('id') != platform) {
 		$(this).hide();
 	    } else {
 		$(this).show();
