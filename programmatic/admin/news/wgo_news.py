@@ -154,10 +154,13 @@ class news:
     iso_date = time.strftime(config.datetime_format,
                              time.gmtime(calendar.timegm(email.Utils.parsedate(xhtml.unescape(self["date"])))))
 
-    s = str(xhtml.comment("$Id$")) + str(xhtml.span(xhtml.quote(self["subject"]), {"class" : "newstitle"})
+    # message-id
+    s = xhtml.hyperlink('', {"id" : self["message-id"]})
+
+    title = str(xhtml.comment("$Id$")) + str(xhtml.span(xhtml.quote(self["subject"]), {"class" : "newstitle"})
                       + xhtml.span(xhtml.quote(iso_date), {"class" : "newsdate"}))
 
-    s = xhtml.h1(s + "&nbsp;", {"class" : "newsheading"})
+    s += xhtml.h1(title + "&nbsp;", {"class" : "newsheading"})
 
     img = ""
     if icon_by_name(self["image"]) != "":
