@@ -26,22 +26,50 @@ function mangleforOpera() {
 //provide download page depending on OS
 function renderDownload(platform) {
 
-    $("#downloads").html("<div id=\"os\">&nbsp;</div>\n<div id=\"moreos\"></div>\n<hr />\n<div id=\"source\">&nbsp;</div>\n");
+    $("#downloads").html("<div id=\"moreos\"></div>\n<div id=\"os\">&nbsp;</div>\n<hr />\n<div id=\"source\">&nbsp;</div>\n");
+    $("#moreos").html("Show downloads for   <a href=\"javascript:renderDownload('oslinux');\">GNU/Linux</a>
+                                          | <a href=\"javascript:renderDownload('osmac');\">OS X</a>
+                                          | <a href=\"javascript:renderDownload('oswindows');\">Microsoft Windows</a>
+                                          | <a href=\"javascript:renderDownload('all');\">All</a>");
 
+    // always have all the divs
+    $("#os").html("<div id=\"oslinux\"></div>\n<div id=\"osmac\"></div>\n<div id=\"oswindows\"></div>\n");
+
+    // decide which one to show
     if (platform == undefined) {
-	$("#os").load($.browser.OS + ".html"); // OS specific (autodetected)
-	$("#moreos").html("<a href=\"javascript:renderDownload('all');\">Show other downloads</a>");
+	platform    = "os" + $.browser.OS.toLowerCase();
+	platformdiv = "#" + platform;
     }
-    else if (platform == "all") {
-	$("#os").html("<div id=\"oslinux\"></div>\n<div id=\"osmac\"></div>\n<div id=\"oswindows\"></div>\n");
+
+    // load contents if necessary
+    if ( $("#oslinux").is(':empty') ) {
 	$("#oslinux").load("Linux.html");
+    }
+
+    if ( $("#osmac").is(':empty') ) {
 	$("#osmac").load("Mac.html");
+    }
+
+    if ( $("#oswindows").is(':empty') ) {
 	$("#oswindows").load("Windows.html");
+    }
+
+    if (platform == "all") {
+	$("#oslinux").show();
+	$("#osmac").show();
+	$("#oswindows").show();
     }
     else
     {
-	$("#os").load(platform + ".html"); // OS specific (manual)
-	$("#moreos").html("<a href=\"javascript:renderDownload('all');\">Show other downloads</a>");
+	$('#os').each(function() {
+	    if ($(this).attr('id') != 'os' && $(this).attr('id') != platform) {
+		$(this.hide();
+	    } else {
+		$(this).show();
+	    };
+	});
+
+
     }
 
     $("#source").load("source.html"); //sources for all

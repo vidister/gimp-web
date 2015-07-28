@@ -15,6 +15,7 @@ $(document).ready(function() {
 
 <div id="downloads">
 	<noscript>
+		Go to the downloads for <a href=#linux">GNU/Linux</a> <a href="#mac">OS X</a> <a href="#windows">Microsoft Windows</a></br>
 		<!--#include virtual="/downloads/Linux.html"   -->
 		<!--#include virtual="/downloads/Mac.html"     -->
 		<!--#include virtual="/downloads/Windows.html" -->
