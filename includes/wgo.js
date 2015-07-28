@@ -26,15 +26,17 @@ function mangleforOpera() {
 //provide download page depending on OS
 function renderDownload(platform) {
 
-    $("#downloads").html("<div id=\"moreos\"></div>\n<div id=\"os\">&nbsp;</div>\n<hr />\n<div id=\"source\">&nbsp;</div>\n");
-    $("#moreos").html("Show downloads for <a href=\"javascript:renderDownload('oslinux');\">GNU/Linux</a>" +
+    if ( $("#downloads").is(':empty') ) {
+	$("#downloads").html("<div id=\"moreos\"></div>\n<div id=\"os\">&nbsp;</div>\n<hr />\n<div id=\"source\">&nbsp;</div>\n");
+	$("#moreos").html("Show downloads for <a href=\"javascript:renderDownload('oslinux');\">GNU/Linux</a>" +
                                       " | <a href=\"javascript:renderDownload('osmac');\">OS X</a>" +
                                       " | <a href=\"javascript:renderDownload('oswindows');\">Microsoft Windows</a>" +
                                       " | <a href=\"javascript:renderDownload('all');\">All</a>");
 
-    // always have all the divs
-    $("#os").html("<div id=\"oslinux\"></div>\n<div id=\"osmac\"></div>\n<div id=\"oswindows\"></div>\n");
-
+	// always have all the divs
+	$("#os").html("<div id=\"oslinux\"></div>\n<div id=\"osmac\"></div>\n<div id=\"oswindows\"></div>\n");
+    }
+	
     // decide which one to show
     if (platform == undefined) {
 	platform    = "os" + $.browser.OS.toLowerCase();
