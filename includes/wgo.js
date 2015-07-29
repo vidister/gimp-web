@@ -38,7 +38,7 @@ function renderDownload(platform) {
 	platform    = "os" + $.browser.OS.toLowerCase();
     }
 
-    if ( $("#os").is(':empty') ) {
+    if ( ! $("#os").length ) {
 	$("#downloads").html("<div id=\"moreos\"></div>\n<div id=\"os\"></div>\n<hr />\n<div id=\"source\"></div>\n");
 	$("#moreos").html("Our site thinks that you are using: " + platforms[platform] + "</br>" +
 			  "Show downloads for <a href=\"javascript:renderDownload('oslinux');\">"   + platforms['oslinux']   + "</a>" +
