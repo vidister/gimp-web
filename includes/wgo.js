@@ -26,21 +26,28 @@ function mangleforOpera() {
 //provide download page depending on OS
 function renderDownload(platform) {
 
+    platforms = {
+	"oslinux"   : "GNU/Linux",
+	"osmac"     : "OS X",
+	"oswindows" : "Microsoft Windows",
+	"osall"     : "All",
+    };
+
+    // decide which platform to show
+    if (platform == undefined) {
+	platform    = "os" + $.browser.OS.toLowerCase();
+    }
+
     if ( $("#os").is(':empty') ) {
 	$("#downloads").html("<div id=\"moreos\"></div>\n<div id=\"os\"></div>\n<hr />\n<div id=\"source\"></div>\n");
-	$("#moreos").html("Show downloads for <a href=\"javascript:renderDownload('oslinux');\">GNU/Linux</a>" +
-                                      " | <a href=\"javascript:renderDownload('osmac');\">OS X</a>" +
-                                      " | <a href=\"javascript:renderDownload('oswindows');\">Microsoft Windows</a>" +
-                                      " | <a href=\"javascript:renderDownload('all');\">All</a>");
+	$("#moreos").html("Our site thinks that you are using: " + platforms[platform] + "</br>" +
+			  "Show downloads for <a href=\"javascript:renderDownload('oslinux');\">"   + platforms['oslinux']   + "</a>" +
+                                          " | <a href=\"javascript:renderDownload('osmac');\">"     + platforms['osmac']     + "</a>" +
+                                          " | <a href=\"javascript:renderDownload('oswindows');\">" + platforms['oswindows'] + "</a>" +
+                                          " | <a href=\"javascript:renderDownload('osall');\">"     + platforms['osall']     + "</a>");
 
 	// always have all the divs
 	$("#os").html("<div id=\"oslinux\"></div>\n<div id=\"osmac\"></div>\n<div id=\"oswindows\"></div>\n");
-    }
-	
-    // decide which one to show
-    if (platform == undefined) {
-	platform    = "os" + $.browser.OS.toLowerCase();
-	platformdiv = "#" + platform;
     }
 
     // load contents if necessary
@@ -56,7 +63,7 @@ function renderDownload(platform) {
 	$("#oswindows").load("Windows.html");
     }
 
-    if (platform == "all") {
+    if (platform == "osall") {
 	$("#oslinux").show();
 	$("#osmac").show();
 	$("#oswindows").show();
