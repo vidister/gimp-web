@@ -26,8 +26,8 @@ function mangleforOpera() {
 //provide download page depending on OS
 function renderDownload(platform) {
 
-    if ( $("#downloads").is(':empty') ) {
-	$("#downloads").html("<div id=\"moreos\"></div>\n<div id=\"os\">&nbsp;</div>\n<hr />\n<div id=\"source\">&nbsp;</div>\n");
+    if ( $("#os").is(':empty') ) {
+	$("#downloads").html("<div id=\"moreos\"></div>\n<div id=\"os\"></div>\n<hr />\n<div id=\"source\"></div>\n");
 	$("#moreos").html("Show downloads for <a href=\"javascript:renderDownload('oslinux');\">GNU/Linux</a>" +
                                       " | <a href=\"javascript:renderDownload('osmac');\">OS X</a>" +
                                       " | <a href=\"javascript:renderDownload('oswindows');\">Microsoft Windows</a>" +
@@ -74,7 +74,9 @@ function renderDownload(platform) {
 
     }
 
-    $("#source").load("source.html"); //sources for all
+    if ( $("#source").is(':empty') ) {
+	$("#source").load("source.html"); //sources for all
+    }
 }
 
 var usertyped = ""; //for the easteregg
