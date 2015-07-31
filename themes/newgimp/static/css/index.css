@@ -1,0 +1,101 @@
+#banner {
+    min-height: 350px;
+    background-image: linear-gradient(rgba(44,52,80,0.5), rgba(44,62,80,0.5)), url('/theme/images/cotton.jpg');
+    background-position: 0;
+    background-size: cover;
+}
+
+#banner h1 {
+    font-size: 11rem;
+    font-family: "League Gothic", sans;
+    font-weight: 400;
+    margin-right: 1rem;
+}
+
+#banner .intro {
+    margin: 2rem 0;
+}
+
+#banner .intro img {
+    display: inline;
+    margin: 0;
+    height: 150px;
+    width: 200px;
+}
+
+#banner .intro a {
+    text-decoration: none;
+    color: white;
+}
+
+#banner .introInfo {
+    display: inline-block;
+    color: white;
+    font-family: Ostrich Sans Rounded, sans;
+    margin-top: -2rem;
+}
+
+.introInfo span {
+    display: table-row;
+}
+
+span#gFirst {
+    font-size: 4rem;
+    line-height: 0;
+    line-height: 1rem;
+}
+
+span#gSecond {
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+span#gThird span {
+    display: inline;
+}
+
+#DLButton {
+    font-family: League Gothic, sans;
+    font-size: 1.5rem;
+    /* border: solid 2px white; */
+    background-color: #e74c3c;
+    padding: 0 0.7rem;
+    float: left;
+    color: white;
+}
+
+#ReleaseButton {
+    font-size: 1.5rem;
+    /* border: solid 1px white; */
+    background-color: #2c3e50;
+    padding:0 0.7rem;
+    float: right;
+    margin-left: 1rem;
+}
+
+#introduction{
+    text-align: left;
+    background-image: linear-gradient( rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url('/theme/images/oldfrontsplash.jpg');
+    background-size: cover;
+    background-position: 100%;
+}
+
+#introduction h1,
+#introduction h2,
+#introduction h3,
+#introduction h4,
+#introduction h5,
+#introduction h6 {
+    max-width: 30rem;
+    margin: 0 auto;
+}
+
+#introduction div.column.two-thirds {
+    background-color: white;
+    padding: 1rem;
+    box-shadow: rgba(127,127,127,1) 2px 2px,
+                rgba(127,127,127,1) 3px 3px,
+                rgba(127,127,127,1) 4px 4px,
+                rgba(127,127,127,1) 5px 5px,
+                rgba(127,127,127,1) 6px 6px;
+}
