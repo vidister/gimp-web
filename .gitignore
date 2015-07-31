@@ -1,6 +1,9 @@
 # Pelican site cache
 cache/
 
+# Pelican output directory
+output/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
