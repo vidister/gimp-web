@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+
 {% block head %}
   {{ super() }}
   {% for keyword in article.keywords %}
@@ -13,7 +14,7 @@
     <meta name="tags" content="{{tag}}" />
   {% endfor %}
 
-{% endblock %}
+{% endblock head %}
 
 {% block content %}
 <section id="content" class="body">

@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+
+/* Ostrich Sans Rounded */
+@font-face {
+	font-family: 'Ostrich Sans Rounded';
+	src: url('/theme/fonts/ostrich-sans-rounded.eot');
+	src: local('☺'), url('/theme/fonts/ostrich-sans-rounded.woff') format('woff'), url('/theme/fonts/ostrich-sans-rounded.ttf') format('truetype'), url('/theme/fonts/ostrich-sans-rounded.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Junction';
+    src: url('/theme/fonts/Junction-webfont.eot');
+	src: local('☺'), url('/theme/fonts/Junction-webfont.woff') format('woff'), url('/theme/fonts/Junction-webfont.ttf') format('truetype'), url('/theme/fonts/Junction-webfont.svg') format('svg');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Questrial';
+    src: url('/theme/fonts/Questrial-Regular.ttf');
+}
+
+
+html {
+    font-family: Junction Light, "Open Sans", sans;
+    font-family: "Open Sans", sans;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Lato, sans;
+    font-weight: 400;
+    font-family: Questrial, sans;
+}
+
+p {
+    font-weight: 300;
+}
+
+nav#menu {
+    background-color: #0e2426;
+    text-align: center;
+    padding: 0.2rem 0;
+    font-weight: 200;
+    font-family: Lato;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-size: 0.85rem;
+}
+
+nav#menu ul, nav#menu ul li {
+    padding: 0;
+    display: inline;
+}
+
+nav#menu ul > li {
+    margin-left: 1.5rem;
+}
+
+nav#menu ul > li:first-of-type {
+    margin-left: 0;
+}
+
+nav#menu ul > li a{
+    color: #ecf0f1;
+}
+
+header a {
+    color: #497bad;
+}
