@@ -1,9 +1,0 @@
-/* fix the ohloh widget formatting */
-/* hack the ohloh iframe ;) */
-iframe[src*=ohloh] {
-    background-color: #fff;
-    border-radius: 10px;
-    border: thin solid #000;
-    width: 333px ! important;
-    height: 189px ! important;
-}

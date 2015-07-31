@@ -1,9 +1,0 @@
-commander>Normal Grid and Canvas
-   macro>
-
-      comment>Shrink the Canvas back to fit the layer
-      >>>theImage.resize_to_layers()
-
-      comment>Set grid to origin and size = image
-      >>>pdb.gimp_image_grid_set_offset(theImage, 0, 0)
-      >>>pdb.gimp_image_grid_set_spacing(theImage, theImage.width, theImage.height)
