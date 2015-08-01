@@ -16,10 +16,12 @@
     max-width: 33rem;
     margin: 0 auto;
     display: block;
+    color: #666;
 }
 
 .page_content p {
     max-width: 34rem;
     margin-bottom: 1rem;
+    color: #666;
 }
 
