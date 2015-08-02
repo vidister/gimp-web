@@ -42,6 +42,8 @@ In particular, the main ways to accomplish this include:
 1. Writing new content in a simplified format, such as [Markdown] or [reStructuredText][] (*the official documentation was hosted on sourceforge as part of docutils... so this link is to the Sphinx project*).  
 Contributors who may be able to write quality material may *not* be comfortable writing in pure HTML.
 
+2. Ease the requirements to build and test the site locally.
+
 
 [WGO Redesign]: http://wiki.gimp.org/index.php?title=WGO_Redesign
 [Markdown]: http://daringfireball.net/projects/markdown/ 
