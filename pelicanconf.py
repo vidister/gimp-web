@@ -42,4 +42,4 @@ PAGE_SAVE_AS = "{slug}/index.html"
 ARTICLE_URL = "news/{date:%Y}/{date:%m}/{date:%d}/{slug}/"
 ARTICLE_SAVE_AS = "news/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html"
 
-TYPOGRIFY = False
+TYPOGRIFY = True

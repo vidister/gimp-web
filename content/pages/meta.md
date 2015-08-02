@@ -42,9 +42,33 @@ In particular, the main ways to accomplish this include:
 1. Writing new content in a simplified format, such as [Markdown] or [reStructuredText][] (*the official documentation was hosted on sourceforge as part of docutils... so this link is to the Sphinx project*).  
 Contributors who may be able to write quality material may *not* be comfortable writing in pure HTML.
 
-2. Ease the requirements to build and test the site locally.
+2. Ease the requirements to build and test the site locally.  
+We want the contributor to be able to test changes and submissions locally for both their own work as well as to make sure nothing is going to break horribly when pushed up to [WGO].
+
+Taking a look at the proposed static site workflow...
+
+
+
+### Python & Pelican
+
+After talking with schumaml, I learned that the server environment already has Python (it's what was used on the old website).
+So after some research I found the most ubiquitous Python Static Site Generator (SSG) to be [Pelican].
+Leveraging the existing language and infrastructure makes the most sense.
+
+For detailed information refer to [the documentation](http://docs.getpelican.com/en/3.6.2/) for Pelican.
+
+
+*Pelican webserver*:  
+`python -m pelican.server`  
+`localhost:8000`
+
+
+
+
 
 
 [WGO Redesign]: http://wiki.gimp.org/index.php?title=WGO_Redesign
 [Markdown]: http://daringfireball.net/projects/markdown/ 
 [reStructuredText]: http://sphinx-doc.org/rest.html
+[WGO]: http://www.gimp.org "The GIMP Website"
+[Pelican]: http://blog.getpelican.com/ 

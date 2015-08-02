@@ -16,7 +16,7 @@
     max-width: 33rem;
     margin: 0 auto;
     display: block;
-    color: #666;
+    color: #555;
     margin-bottom: 1.5rem;
     font-weight: 300;
 }
@@ -24,7 +24,7 @@
 .page_content p {
     max-width: 34rem;
     margin-bottom: 1rem;
-    color: #666;
+    color: #555;
 }
 
 .page_content blockquote {
