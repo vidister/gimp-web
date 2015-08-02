@@ -55,6 +55,22 @@ After talking with schumaml, I learned that the server environment already has P
 So after some research I found the most ubiquitous Python Static Site Generator (SSG) to be [Pelican].
 Leveraging the existing language and infrastructure makes the most sense.
 
+
+
+#### Getting a build environment
+
+1. Install [Python].  
+2.7.x is best, earlier versions are not supported.  
+Only provisional support for 3.3+.
+2. Install [Pelican].  
+Simplest method is simply: `pip install pelican`
+3. Install some extra components:
+    * For [Markdown] support:  
+    pip install Markdown
+    * For fancy typography elements with [typogrify]:  
+    pip install typogrify
+
+
 For detailed information refer to [the documentation](http://docs.getpelican.com/en/3.6.2/) for Pelican.
 
 
@@ -72,3 +88,6 @@ For detailed information refer to [the documentation](http://docs.getpelican.com
 [reStructuredText]: http://sphinx-doc.org/rest.html
 [WGO]: http://www.gimp.org "The GIMP Website"
 [Pelican]: http://blog.getpelican.com/ 
+[Python]:https://www.python.org/ 
+[smartypants]:http://pythonhosted.org/smartypants/ 
+[typogrify]: https://github.com/mintchaos/typogrify
