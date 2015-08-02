@@ -12,11 +12,13 @@
     margin: 0 auto;
 }
 
-.page_content ul {
+.page_content ul, .page_content ol {
     max-width: 33rem;
     margin: 0 auto;
     display: block;
     color: #666;
+    margin-bottom: 1.5rem;
+    font-weight: 300;
 }
 
 .page_content p {
@@ -25,3 +27,15 @@
     color: #666;
 }
 
+.page_content blockquote {
+    border: solid 1px #ccc;
+    margin: 0 auto;
+    max-width: 34rem;
+    padding: 0.6rem;
+    border-left: solid 3px #666;
+    margin-bottom: 1rem;
+}
+
+.page_content blockquote p {
+    margin-bottom: 0;
+}

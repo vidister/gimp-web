@@ -24,4 +24,25 @@ Working directly on the website required a possible committer to:
 * Be comfortable writing everything in plain HTML.
 * Understand how SSI works in Apache.
 
+An argument could be made that perhaps having these requirements in place helps to weed out the less commited from collaborating... :)
 
+
+
+### Barriers to Collaboration
+
+As noted on the [WGO Redesign] page on the wiki:
+
+>We (the royal 'We') could benefit from having more content on WGO, in particular tutorials.  
+Lowering the barrier-to-entry can help entice users to generate new content.  
+A new facelift can't hurt from a PR standpoint.
+
+This redesign is an attempt to make the barrier to collaboration lower.
+In particular, the main ways to accomplish this include:
+
+1. Writing new content in a simplified format, such as [Markdown] or [reStructuredText][] (*the official documentation was hosted on sourceforge as part of docutils... so this link is to the Sphinx project*).  
+Contributors who may be able to write quality material may *not* be comfortable writing in pure HTML.
+
+
+[WGO Redesign]: http://wiki.gimp.org/index.php?title=WGO_Redesign
+[Markdown]: http://daringfireball.net/projects/markdown/ 
+[reStructuredText]: http://sphinx-doc.org/rest.html
