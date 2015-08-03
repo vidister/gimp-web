@@ -39,7 +39,7 @@ A new facelift can't hurt from a PR standpoint.
 This redesign is an attempt to make the barrier to collaboration lower.
 In particular, the main ways to accomplish this include:
 
-1. Writing new content in a simplified format, such as [Markdown] or [reStructuredText][] (*the official documentation was hosted on sourceforge as part of docutils... so this link is to the Sphinx project*).  
+1. Writing content in a simplified format, such as [Markdown] or [reStructuredText][] (*the official documentation was hosted on sourceforge as part of docutils... so this link is to the Sphinx project*).  
 Contributors who may be able to write quality material may *not* be comfortable writing in pure HTML.
 
 2. Ease the requirements to build and test the site locally.  
@@ -100,8 +100,7 @@ For Python 3:
 `cd output`  
 `pythong m http.server`
 
-*Pelican webserver*:  
-`python -m pelican.server`  
+The site can then be accessed locally at:  
 `localhost:8000`
 
 

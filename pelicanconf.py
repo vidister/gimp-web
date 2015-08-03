@@ -37,6 +37,7 @@ DEFAULT_PAGINATION = False
 
 # Pat David changes while building/testing
 
+# This will copy over these folders w/o modification
 STATIC_PATHS = ['images']
 
 THEME = "./themes/newgimp"
