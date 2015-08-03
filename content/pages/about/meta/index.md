@@ -1,12 +1,18 @@
-Title: Meta
+Title: Meta 
 Date: 2015-07-29T14:40:35-05:00
 Modified: 2015-07-29T14:40:43-05:00
 Authors: Pat David
 Summary: A page about the new site.
+url: about/meta/
+save_as: about/meta/index.html
 
 
 
 I (Pat David) am creating this page to keep notes and information for building/maintaining the new site.
+
+<figure>
+<img src="{attach}fluffle-puff.jpg" alt='Fluffle Puff'>
+</figure>
 
 
 ## A Static Site

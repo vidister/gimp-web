@@ -1,12 +1,14 @@
-Title: About
+Title: Tutorials
 Date: 2015-07-29T14:40:35-05:00
 Modified: 2015-07-29T14:40:43-05:00
 Authors: Pat David
-Summary: About the folks behind this project.
+Summary: The tutorials page.
 
-Content area of the *About* page markdown
+Going to have a list of tutorials here.
 
-## Original Navigation Links
+This text may not be visible once the scripting is done to handle listing all of the tutorials.
+
+## Beginner
 
 WGO was using these links in the navigation area originally:
 
@@ -26,5 +28,6 @@ WGO was using these links in the navigation area originally:
 
 Just filling out some information on an _About_ page to have something to style against.
 
-### Heading Three
+
+## Intermediate
 Text just under heading three (3).

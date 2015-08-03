@@ -38,9 +38,20 @@ DEFAULT_PAGINATION = False
 # Pat David changes while building/testing
 
 # This will copy over these folders w/o modification
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'pages']
+
 
 THEME = "./themes/newgimp"
+
+# Trying to properly nest sub-folders here
+#PATH_METADATA = r".*?\\(?P<test>.*?\\)" #old test
+
+#see: https://github.com/getpelican/pelican/issues/1128#issuecomment-63251758
+PATH_METADATA = r'.*?\\(?P<test>(.+\\)?).*' 
+
+# Still working on this...
+#PAGE_URL = "{test}{slug}/"
+#PAGE_SAVE_AS = "{test}{slug}/index.html"
 
 PAGE_URL = "{slug}/"
 PAGE_SAVE_AS = "{slug}/index.html"
@@ -49,3 +60,6 @@ ARTICLE_URL = "news/{date:%Y}/{date:%m}/{date:%d}/{slug}/"
 ARTICLE_SAVE_AS = "news/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html"
 
 TYPOGRIFY = True
+TYPOGRIFY_IGNORE_TAGS = ['title']
+
+DELETE_OUTPUT_DIRECTORY = True
