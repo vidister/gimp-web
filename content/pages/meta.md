@@ -79,10 +79,26 @@ For detailed information refer to the [Pelican documentation](http://docs.getpel
 
 Building the site is relatively straightforward:
 
-`pelican -t ./themes/newgimp`
+From the project directory, simply invoke pelican:
 
-The `-t ./themes/newgimp` option is to specify a particular theme and is only temporary (it will be incorporated into the build system through the `pelicanconf.py` later at some point).
+`pelican`
 
+If you are writing content or developing other parts of the site, there is an option to watch the directory of files for changes and to automatically re-compile the site as needed:
+
+`pelican -r`
+
+
+#### Viewing the site
+
+Python has a simple web server available to preview the site.
+
+For Python 2:  
+`cd output`  
+`python -m SimpleHTTPServer`
+
+For Python 3:  
+`cd output`  
+`pythong m http.server`
 
 *Pelican webserver*:  
 `python -m pelican.server`  
