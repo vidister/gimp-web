@@ -66,19 +66,27 @@ Only provisional support for 3.3+.
 Simplest method is simply: `pip install pelican`
 3. Install some extra components:
     * For [Markdown] support:  
-    pip install Markdown
+    `pip install Markdown`
     * For fancy typography elements with [typogrify]:  
-    pip install typogrify
+    `pip install typogrify`
 
 
-For detailed information refer to [the documentation](http://docs.getpelican.com/en/3.6.2/) for Pelican.
+For detailed information refer to the [Pelican documentation](http://docs.getpelican.com/en/3.6.2/).
+
+
+
+#### Building the site
+
+Building the site is relatively straightforward:
+
+`pelican -t ./themes/newgimp`
+
+The `-t ./themes/newgimp` option is to specify a particular theme and is only temporary (it will be incorporated into the build system through the `pelicanconf.py` later at some point).
 
 
 *Pelican webserver*:  
 `python -m pelican.server`  
 `localhost:8000`
-
-
 
 
 
