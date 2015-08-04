@@ -12,6 +12,9 @@ MIRRORS: MIRRORS.in
 mirrors.xhtml: MIRRORS
 	${PYTHON} mirrorfmt.py MIRRORS > mirrors.xhtml
 
+mirrors.json:
+	${PYTHON} mirrorfmt_json.py MIRRORS > mirrors.json
+
 clean:
 	/bin/rm -f mirrors.xhtml
 
