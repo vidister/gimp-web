@@ -6,10 +6,10 @@ Summary: A quick look at some easy features.
 url: tutorials/GIMP_Quickies/
 save_as: tutorials/GIMP_Quickies/index.html
 
-
-[![Creative Commons License](http://i.creativecommons.org/l/by-sa/3.0/80x15.png)](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US)  
+<small><a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US" rel="license"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" style="border-width:0; width: initial; display: inline; margin: 0;" /></a>
 <span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - GIMP Quickies (text & images)</span> by [Pat David](http://blog.patdavid.net)   
 is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US).
+</small>
 
 ## Intention
 

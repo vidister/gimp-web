@@ -104,7 +104,7 @@ For Python 2:
 
 For Python 3:  
 `cd output`  
-`pythong m http.server`
+`python m http.server`
 
 The site can then be accessed locally at:  
 `localhost:8000`
