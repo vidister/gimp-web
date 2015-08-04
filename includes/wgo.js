@@ -26,25 +26,64 @@ function mangleforOpera() {
 //provide download page depending on OS
 function renderDownload(platform) {
 
-    $("#downloads").html("<div id=\"os\">&nbsp;</div>\n<div id=\"moreos\"></div>\n<hr />\n<div id=\"source\">&nbsp;</div>\n");
+    platforms = {
+	"oslinux"   : "GNU/Linux",
+	"osmac"     : "OS X",
+	"oswindows" : "Microsoft Windows",
+	"osall"     : "All",
+    };
 
+    // decide which platform to show
     if (platform == undefined) {
-	$("#os").load($.browser.OS + ".html"); // OS specific (autodetected)
-	$("#moreos").html("<a href=\"javascript:renderDownload('all');\">Show other downloads</a>");
+	platform    = "os" + $.browser.OS.toLowerCase();
     }
-    else if (platform == "all") {
+
+    if ( ! $("#os").length ) {
+	$("#downloads").html("<div id=\"moreos\"></div>\n<div id=\"os\"></div>\n<hr />\n<div id=\"source\"></div>\n");
+	$("#moreos").html("Our site thinks that you are using: " + platforms[platform] + "</br>" +
+			  "Show downloads for <a href=\"javascript:renderDownload('oslinux');\">"   + platforms['oslinux']   + "</a>" +
+                                          " | <a href=\"javascript:renderDownload('osmac');\">"     + platforms['osmac']     + "</a>" +
+                                          " | <a href=\"javascript:renderDownload('oswindows');\">" + platforms['oswindows'] + "</a>" +
+                                          " | <a href=\"javascript:renderDownload('osall');\">"     + platforms['osall']     + "</a>");
+
+	// always have all the divs
 	$("#os").html("<div id=\"oslinux\"></div>\n<div id=\"osmac\"></div>\n<div id=\"oswindows\"></div>\n");
+    }
+
+    // load contents if necessary
+    if ( $("#oslinux").is(':empty') ) {
 	$("#oslinux").load("Linux.html");
+    }
+
+    if ( $("#osmac").is(':empty') ) {
 	$("#osmac").load("Mac.html");
+    }
+
+    if ( $("#oswindows").is(':empty') ) {
 	$("#oswindows").load("Windows.html");
+    }
+
+    if (platform == "osall") {
+	$("#oslinux").show();
+	$("#osmac").show();
+	$("#oswindows").show();
     }
     else
     {
-	$("#os").load(platform + ".html"); // OS specific (manual)
-	$("#moreos").html("<a href=\"javascript:renderDownload('all');\">Show other downloads</a>");
+	$('#os').children().each(function() {
+	    if ($(this).attr('id') != platform) {
+		$(this).hide();
+	    } else {
+		$(this).show();
+	    };
+	});
+
+
     }
 
-    $("#source").load("source.html"); //sources for all
+    if ( $("#source").is(':empty') ) {
+	$("#source").load("source.html"); //sources for all
+    }
 }
 
 var usertyped = ""; //for the easteregg
