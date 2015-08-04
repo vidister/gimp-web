@@ -41,11 +41,12 @@ The image we’ll be using to illustrate this with is [The Horsehead Nebula in I
 When you first open your image in GIMP, chances are that the image will be zoomed so that the entire image fits in your canvas. The thing to notice for this example is that by default the window decoration at the top of GIMP will show you some information about the image.
 
 <figure>
-<img src="{attach}Scale-View-Pixel-Size-Original.png" alt="Test">
+<img src="{attach}Scale-View-Pixel-Size-Original.png" alt="Test" width='595' height='455'>
+<figcaption>
+View of the GIMP canvas, with information at the top of the window.
+</figcaption>
 </figure>
 
-<div class="centerImg">![GIMP Scale Image Tutorial Nebula]({attach}Scale-View-Pixel-Size-Original.png)  
-<span class="caption">View of the GIMP canvas, with information at the top of the window.</span></div>
 
 Notice that the information at the top of the window shows the <span style="color: #00FF00;">current pixel dimensions</span> of the image (in this case, the pixel size is 1225×1280).
 
@@ -55,8 +56,12 @@ To resize the image to new dimensions, we need only invoke the **Scale Image** d
 
 This will then open the **Scale Image** dialog:
 
-<div class="centerImg">![GIMP Scale Image Tutorial Dialog](Scale-Image-Dialog.png)  
-<span class="caption">The **Scale Image** dialog.</span></div>
+<figure>
+<img src="{attach}Scale-Image-Dialog.png" alt="GIMP Scale Image Tutorial Dialog" width='376' height='336'>
+<figcaption>
+The **Scale Image** dialog.
+</figcaption>
+</figure>
 
 In the **Scale Image** dialog, you’ll find a <span style="color: #00FF00;">place to enter new values</span> for **Width** and **Height**. If you know one of the new dimensions you’d like for the image, fill in the appropriate one here.
 

@@ -39,3 +39,23 @@
 .page_content blockquote p {
     margin-bottom: 0;
 }
+
+figure {
+    display: table;
+    margin: 1rem auto;
+}
+
+figure img {
+    width: initial;
+    max-width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+figure figcaption {
+    font-size: 0.85rem;
+    text-align: center;
+    line-height: 1.3rem;
+    display: table-caption;
+    caption-side: bottom;
+    font-weight: 300;
+}
