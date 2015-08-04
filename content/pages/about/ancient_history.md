@@ -6,8 +6,6 @@ Summary: About the folks behind this project.
 url: about/ancient_history.html
 save_as: about/ancient_history.html
 
-#status: hidden (to hide from the nav menu)
-
 ## A Brief History of GIMP
 
 > _Editor's note:_ This history was written around the release of GIMP 1.0 in 1998 and has actually become a historical document all on its own. Some of the dates are not accurate (due to internet technology limitation (Google hadn't indexed Usenet yet). Yet still a good document with many of the details perfectly intact.

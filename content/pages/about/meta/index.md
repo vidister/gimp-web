@@ -110,6 +110,12 @@ The site can then be accessed locally at:
 `localhost:8000`
 
 
+### Some Pelican Notes
+
+To hide a page from being included on the navigation elements, add to the pages metadata:
+
+`status: hidden`
+
 
 
 [WGO Redesign]: http://wiki.gimp.org/index.php?title=WGO_Redesign
