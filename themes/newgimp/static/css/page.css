@@ -21,6 +21,10 @@
     font-weight: 300;
 }
 
+li {
+    margin-bottom: 1rem;
+}
+
 .page_content p {
     max-width: 34rem;
     margin-bottom: 1rem;
