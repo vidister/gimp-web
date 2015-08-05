@@ -37,18 +37,23 @@ DEFAULT_PAGINATION = False
 
 # Pat David changes while building/testing
 
+# We can probably remove 'pages' if nothing ends up there
 # This will copy over these folders w/o modification
-STATIC_PATHS = ['images', 'pages', 'tutorials']
+STATIC_PATHS = ['images', 'pages', 'tutorials', 'about']
 
-PAGE_PATHS = ['pages', 'tutorials']
+PAGE_PATHS = ['pages', 'tutorials', 'about']
 
 THEME = "./themes/newgimp"
 
 # Trying to properly nest sub-folders here
 #PATH_METADATA = r".*?\\(?P<test>.*?\\)" #old test
-
 #see: https://github.com/getpelican/pelican/issues/1128#issuecomment-63251758
-PATH_METADATA = r'.*?\\(?P<test>(.+\\)?).*' 
+#PATH_METADATA = r'.*?\\(?P<test>(.+\\)?).*' 
+PATH_METADATA = r'(?P<test>.*/)'
+#########
+# the way to do this correctly was to simply create the folders
+# and point STATIC_PATHS and PAGE_PATHS to pick them up.
+#########
 
 # Still working on this...
 #PAGE_URL = "{test}{slug}/"
