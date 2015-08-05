@@ -1,5 +1,6 @@
 from pelican import signals, contents
 import os.path
+from os.path import basename
 from copy import copy
 from itertools import chain
 
@@ -34,12 +35,12 @@ def override_metadata(content_object):
     if type(content_object) is not contents.Page:
         return
     page = content_object
-    print( "page.get_relative_source_path():" )
     print( "####################" )
+    print( "page.get_relative_source_path():" )
     print( page.get_relative_source_path() )
     print( "####################" )
-    print( "manual path:" )
-    print( os.path.split(page.get_relative_source_path())[0] )
+    print( "manual path [1]:" )
+    print( os.path.split(page.get_relative_source_path())[1] )
     #path = get_path(page, page.settings)
     path = os.path.split(page.get_relative_source_path())[0]
     path = path.replace( os.path.sep, '/' )
@@ -54,8 +55,11 @@ def override_metadata(content_object):
         print( page.slug )
         print( "_override_value, metadata['slug']:")
         print( metadata['slug'] )
-        print( "_override_value, metadata['slug'] (2):")
-        print( metadata['slug'] )
+
+        metadata['filename'] = os.path.split(page.get_relative_source_path())[1]
+        metadata['filename'] = os.path.splitext( metadata['filename'])[0] + '.html'
+        print( "metadata['filename']:" )
+        print( metadata['filename'] )
 
         # PLD: this is my doing, sorry...
         # ok, if path is empty, use page.slug
@@ -70,6 +74,9 @@ def override_metadata(content_object):
             print( page.slug )
             metadata['slug'] = page.slug
 
+        if metadata['filename'] != 'index.html':
+            setattr(page, 'override_url', metadata['slug'] +'/'+ metadata['filename'] )
+
         # We have to account for non-default language and format either,
         # e.g., PAGE_SAVE_AS or PAGE_LANG_SAVE_AS
         infix = '' if in_default_lang(page) else 'LANG_'
@@ -78,6 +85,9 @@ def override_metadata(content_object):
     for key in ('save_as', 'url'):
         if not hasattr(page, 'override_' + key):
             setattr(page, 'override_' + key, _override_value(page, key))
+        print( "## page.url ##" )
+        print( page.url )
+        
 
 def set_relationships(generator):
     def _all_pages():

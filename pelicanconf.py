@@ -46,7 +46,7 @@ DEFAULT_PAGINATION = False
 STATIC_PATHS = ['images', 'pages', 'tutorials', 'about']
 
 #PAGE_PATHS = ['pages', 'tutorials', 'about']
-PAGE_PATHS = ['tutorials', 'about']
+PAGE_PATHS = ['about', 'tutorials']
 
 THEME = "./themes/newgimp"
 
@@ -54,8 +54,8 @@ THEME = "./themes/newgimp"
 #PATH_METADATA = r".*?\\(?P<test>.*?\\)" #old test
 #see: https://github.com/getpelican/pelican/issues/1128#issuecomment-63251758
 #PATH_METADATA = r'.*?\\(?P<test>(.+\\)?).*' 
-PATH_METADATA = r'(?P<test>.*/)'
-PATH_METADATA = r'(?P<test>.*\\)'
+#PATH_METADATA = r'(?P<test>.*/)'
+#PATH_METADATA = r'(?P<test>.*\\)'
 
 
 # Still working on this...
@@ -63,7 +63,8 @@ PATH_METADATA = r'(?P<test>.*\\)'
 #PAGE_SAVE_AS = "{test}{slug}/index.html"
 
 PAGE_URL = "{slug}/"
-PAGE_SAVE_AS = "{slug}/index.html"
+#PAGE_SAVE_AS = "{slug}/index.html"
+PAGE_SAVE_AS = "{slug}/{filename}"
 
 ARTICLE_URL = "news/{date:%Y}/{date:%m}/{date:%d}/{slug}/"
 ARTICLE_SAVE_AS = "news/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html"

@@ -38,9 +38,11 @@
                 url: {{ page.url }} <br/>
                 metadata regex test: {{ page.test }}<br/>
                 slug: {{ page.slug }}<br/>
+                {% if page.parent %}
                 page parent: {{ page.parent }}<br/>
                 page parent url: {{ page.parent.url }} <br/>
                 page parent title: {{ page.parent.title }}
+                {% endif %}
             </p>
         
             <p>page parents</p>
