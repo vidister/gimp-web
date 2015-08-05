@@ -26,6 +26,7 @@
 
 	{% if page.modified %}
 		<p>
+            <small>Created: {{ page.locale_date }}</small>,  
             <small>Last updated: {{ page.locale_modified }}</small>
 		</p>
 	{% endif %}
