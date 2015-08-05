@@ -2,6 +2,10 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+#Plugins
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ["page_hierarchy_gimp"]
+
 AUTHOR = u'Pat David'
 SITENAME = u'GIMP'
 SITEURL = ''
@@ -41,7 +45,8 @@ DEFAULT_PAGINATION = False
 # This will copy over these folders w/o modification
 STATIC_PATHS = ['images', 'pages', 'tutorials', 'about']
 
-PAGE_PATHS = ['pages', 'tutorials', 'about']
+#PAGE_PATHS = ['pages', 'tutorials', 'about']
+PAGE_PATHS = ['tutorials', 'about']
 
 THEME = "./themes/newgimp"
 
@@ -50,10 +55,8 @@ THEME = "./themes/newgimp"
 #see: https://github.com/getpelican/pelican/issues/1128#issuecomment-63251758
 #PATH_METADATA = r'.*?\\(?P<test>(.+\\)?).*' 
 PATH_METADATA = r'(?P<test>.*/)'
-#########
-# the way to do this correctly was to simply create the folders
-# and point STATIC_PATHS and PAGE_PATHS to pick them up.
-#########
+PATH_METADATA = r'(?P<test>.*\\)'
+
 
 # Still working on this...
 #PAGE_URL = "{test}{slug}/"

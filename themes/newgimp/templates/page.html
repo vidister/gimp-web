@@ -31,9 +31,34 @@
 	{% endif %}
 
 
-    <div>
-        <p>url: {{ page.url }} </p>
-        <p>metadata regex test: {{ page.test }}</p>
+    <div style="border: dotted 1px #ccc; ;" class='page_content'>
+        <p>Debug stuff.  Ignore</p>
+        <small>
+            <p>
+                url: {{ page.url }} <br/>
+                metadata regex test: {{ page.test }}<br/>
+                slug: {{ page.slug }}<br/>
+                page parent: {{ page.parent }}<br/>
+                page parent url: {{ page.parent.url }} <br/>
+                page parent title: {{ page.parent.title }}
+            </p>
+        
+            <p>page parents</p>
+        <ul>
+            {% for parent in page.parents %}
+            <li>url: {{ parent.url }} - title: {{ parent.title }}<br/>
+                <a href="{{ SITEURL }}/{{ parent.url }}">{{ parent.title }}</a></li>
+            {% endfor %}
+        </ul>
+        <p>page children</p>
+        <ul>
+            {% for child in page.children %}
+            <li>url: {{ child.url }} - title: {{ child.title }}<br/>
+                <a href="{{ SITEURL }}/{{ child.url }}">{{ child.title }}</a></li>
+            {% endfor %}
+        </ul>
+        </p>
+        </small>
     </div>
 
 
