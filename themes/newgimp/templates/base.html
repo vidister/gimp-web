@@ -78,7 +78,9 @@
             {% endfor %}
             {% if DISPLAY_PAGES_ON_MENU %}
               {% for p in PAGES %}
-                <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+                  {% if not p.parent %}
+                    <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+                  {% endif %}
               {% endfor %}
             {% else %}
               {% if DISPLAY_CATEGORIES_ON_MENU %}
