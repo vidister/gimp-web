@@ -100,3 +100,15 @@ figure {
 .codehilite pre {
     margin: 0;
 }
+
+.MenuCmd {
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.MenuCmd > span {
+    padding: 0.25rem 1rem;
+    border: solid 1px #ddd;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+}
