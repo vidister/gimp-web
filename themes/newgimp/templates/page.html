@@ -11,9 +11,15 @@
 
 {% block content %}
 
-    <h1>{{ page.title }}</h1>
-    {% import 'translations.html' as translations with context %}
-    {{ translations.translations_for(page) }}
+    <div class="container title">
+        <div class="row clearfix">
+            <div class="column full">
+                <h1>{{ page.title }}</h1>
+                {% import 'translations.html' as translations with context %}
+                {{ translations.translations_for(page) }}
+            </div>
+        </div>
+    </div>
 
     <section class='page_content'>
         <div class='container'>

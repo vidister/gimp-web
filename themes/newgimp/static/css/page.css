@@ -1,5 +1,6 @@
 .page_content {
     text-align: left;
+    padding-top: 0;
 }
 
 .page_content h1,
@@ -70,4 +71,15 @@ figure figcaption {
     display: inline;
     margin: 0;
     vertical-align: middle;
+}
+
+.container.title {
+    box-shadow: 0 8px 6px -7px #ddd;
+    margin: 1.5rem auto;
+    max-width: 37rem;
+    text-align: center;
+}
+
+.container.title h1 {
+    margin-bottom: 0;
 }
