@@ -63,3 +63,11 @@ figure figcaption {
     caption-side: bottom;
     font-weight: 300;
 }
+
+.cc-badge {
+    border-width: 0;
+    width: initial;
+    display: inline;
+    margin: 0;
+    vertical-align: middle;
+}

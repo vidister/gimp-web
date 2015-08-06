@@ -112,3 +112,10 @@ figure {
     background-color: #f8f8f8;
     border-radius: 3px;
 }
+
+img {
+    display: initial;
+    height: initial;
+    margin: 0;
+    width: initial;
+}
