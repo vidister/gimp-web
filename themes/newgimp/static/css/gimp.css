@@ -9,13 +9,6 @@
 	font-style: normal;
 }
 
-@font-face {
-    font-family: 'Junction';
-    src: url('/theme/fonts/Junction-webfont.eot');
-	src: local('☺'), url('/theme/fonts/Junction-webfont.woff') format('woff'), url('/theme/fonts/Junction-webfont.ttf') format('truetype'), url('/theme/fonts/Junction-webfont.svg') format('svg');
-	font-weight: 200;
-	font-style: normal;
-}
 
 @font-face {
     font-family: 'Questrial';
@@ -24,7 +17,6 @@
 
 
 html {
-    font-family: Junction Light, "Open Sans", sans;
     font-family: "Open Sans", sans;
 }
 
@@ -32,6 +24,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Lato, sans;
     font-weight: 400;
     font-family: Questrial, sans;
+}
+
+h1 {
+    font-size: 1.7rem;
 }
 
 p {
