@@ -115,6 +115,29 @@ To hide a page from being included on the navigation elements, add to the pages 
 `status: hidden`
 
 
+#### Python SimpleHTTPServer & SVG
+
+Apparently the python (2.7.x) built-in http server doesn't serve .svg files correctly for use as images in html.
+To fix this, either run a different http server to test with, or from [this blog post](http://gotmetoo.blogspot.com/2013/07/python-simple-http-server-with-svg.html) you can do this:
+
+    :::python
+    #!/usr/bin/python 
+    import SimpleHTTPServer
+    import SocketServer
+    import mimetypes
+    
+    PORT = 8000
+    
+    Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
+    
+    Handler.extensions_map['.svg']='image/svg+xml'
+    httpd = SocketServer.TCPServer(("", PORT), Handler)
+    
+    print "serving at port", PORT
+    httpd.serve_forever()
+
+Or just be aware that any SVG elements used as images will not display correctly on the page (but *should* display fine when being served from wgo).
+
 
 [WGO Redesign]: http://wiki.gimp.org/index.php?title=WGO_Redesign
 [Markdown]: http://daringfireball.net/projects/markdown/ 

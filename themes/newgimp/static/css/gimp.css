@@ -80,3 +80,23 @@ figure {
     display: inline;
     vertical-align: text-top;
 }
+
+.codehilitetable {
+    margin: 1rem auto;
+    font-size: 0.8rem;
+    max-width: 34rem;
+    width: 34rem;
+}
+
+.codehilite {
+    font-size: 0.8rem;
+    max-width: 34rem;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    border: solid 1px #ddd;
+    border-radius: 3px;
+}
+
+.codehilite pre {
+    margin: 0;
+}
