@@ -99,3 +99,7 @@ span#gThird span {
                 rgba(127,127,127,1) 5px 5px,
                 rgba(127,127,127,1) 6px 6px;
 }
+
+nav#menu li#gimp-home {
+    display: none;
+}

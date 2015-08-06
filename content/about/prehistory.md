@@ -280,4 +280,7 @@ precise details on how it can be reproduced.
 
 </pre>
 
+For historical interest, the Internet Archive has a copy of the link in Peter's email above:  
+[http://www.xcf.berkeley.edu/~gimp](https://web.archive.org/web/19970711112615/http://www.xcf.berkeley.edu/~gimp/)
+
 The story continues in "[A Brief (and ancient) History of GIMP](ancient_history.html)".

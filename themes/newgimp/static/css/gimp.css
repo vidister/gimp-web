@@ -73,3 +73,10 @@ header a {
 figure {
     margin: 1rem 0;
 }
+
+#gimp-home img {
+    width: initial; 
+    margin: 0;
+    display: inline;
+    vertical-align: text-top;
+}
