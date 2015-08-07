@@ -10,7 +10,7 @@ I (Pat David) am creating this page to keep notes and information for building/m
 
 The work I am doing here is based on a couple of suggestions over the past year to refresh the design of WGO.
 In particular, I had created a brief mockup to show and have been using that as a sort of visual guide for approaching the main page.
-You can view that [mockup .PNG here](/images/mockup3.png).
+You can view that [mockup .PNG here](/images/mockup3.png) (~1.8MB).
 
 <figure>
 <img src="{attach}fluffle-puff.jpg" alt='Fluffle Puff'>
