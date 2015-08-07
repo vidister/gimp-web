@@ -8,7 +8,7 @@ PLUGINS = ["page_hierarchy_gimp"]
 
 AUTHOR = u'Pat David'
 SITENAME = u'GIMP'
-SITEURL = ''
+SITEURL = 'http://static.gimp.org'
 
 PATH = 'content'
 
