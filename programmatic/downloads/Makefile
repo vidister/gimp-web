@@ -20,9 +20,8 @@ clean:
 
 install: mirrors.xhtml mirrors.json
 	-mkdir -p `${PYTHON} -c 'import wgo_config; print wgo_config.DocumentRoot_path'`/downloads
-	install -m 644 mirrors.xhtml
-	install -m 644 `${PYTHON} -c 'import wgo_config; print wgo_config.DocumentRoot_path'`/downloads/mirrors.xhtml
-	install -m 644 `${PYTHON} -c 'import wgo_config; print wgo_config.DocumentRoot_path'`/downloads/mirrors.json
+	install -m 644 mirrors.xhtml `${PYTHON} -c 'import wgo_config; print wgo_config.DocumentRoot_path'`/downloads/mirrors.xhtml
+	install -m 644 mirrors.json  `${PYTHON} -c 'import wgo_config; print wgo_config.DocumentRoot_path'`/downloads/mirrors.json
 
 install-download: MIRRORS
 	@if [ ${DownloadRoot}x != "x" ]; then mkdir -p `${PYTHON} -c 'import wgo_config; print wgo_config.DownloadRoot_path'`/gimp; \
