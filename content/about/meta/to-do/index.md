@@ -21,6 +21,11 @@ Consider Google Fonts as an option for font hosting?
 Check with the others to see what the general consensus would be.
 
 
+## Combine and minimize assets
+
+Probably run a grunt task (or whatever the equivalent is in Python) to combine and minimize assets like CSS and JS.
+
+
 ## <strike>Test Nested Folders</strike>
 
 <strike>This To-Do page actually represents a test of nested content folders being created as expected for output.
