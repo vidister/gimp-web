@@ -1,14 +1,31 @@
 /* @import url(http://fonts.googleapis.com/css?family=Lato:300,400);
  */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic);
+/* @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic);
+ */
 
+
+/*
+ * Used as the navigation font
 @font-face {
     font-family: "Lato";
     src: url('/theme/fonts/Lato-Light.ttf');
     font-weight: 300;
     font-style: normal;
 }
+
+/* Questrial
+Used as Heading font 
+ */
+/*
+@font-face {
+    font-family: 'Questrial';
+    src: url('/theme/fonts/Questrial-Regular.ttf');
+}
+*/
+
+/* Using Google Fonts for now */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300|Lato:300|Questrial);
 
 /* League Gothic Regular */
 /* Also only used on the main page
@@ -34,13 +51,6 @@
 	src: local('☺'), url('/theme/fonts/ostrich-sans-rounded.woff') format('woff'), url('/theme/fonts/ostrich-sans-rounded.ttf') format('truetype'), url('/theme/fonts/ostrich-sans-rounded.svg') format('svg');
 	font-weight: 300;
 	font-style: normal;
-}
-
-/* Questrial */
-/* Used as Heading font */
-@font-face {
-    font-family: 'Questrial';
-    src: url('/theme/fonts/Questrial-Regular.ttf');
 }
 
 
