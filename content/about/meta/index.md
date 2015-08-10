@@ -1,6 +1,6 @@
 Title: Meta 
 Date: 2015-07-29T14:40:35-05:00
-Modified: 2015-07-29T14:40:43-05:00
+Modified: 2015-08-10T14:53:46-05:00
 Authors: Pat David
 Summary: A page about the new site.
 
@@ -8,62 +8,85 @@ Summary: A page about the new site.
 
 I (Pat David) am creating this page to keep notes and information for building/maintaining the new site.
 
-The work I am doing here is based on a couple of suggestions over the past year to refresh the design of WGO.
+The work I am doing here is based on a couple of suggestions over the past year (or more, I'm sure) to refresh the design of WGO.
 In particular, I had created a brief mockup to show and have been using that as a sort of visual guide for approaching the main page.
-You can view that [mockup .PNG here](/images/mockup3.png) (~1.8MB).
+You can view that [mockup .PNG here](/images/mockup3.png) (~1.8MB), or a smaller preview:
 
 <figure>
-<img src="{attach}fluffle-puff.jpg" alt='Fluffle Puff'>
+<a href="/images/mockup3.png"><img src="/images/mockup3_600.png" alt="GIMP Mockup Pat David"/></a>
 </figure>
 
 
-## A Static Site
 
-Technically, the previous site could be considered "static".
-There was some simple templating that was occuring using server side includes (SSI) in Apache.
-The previous site infrastructure was fast and worked very well.
+## Why
 
-*Unless* you consider it in the context of ease-of-use and collaboration.
+There are two main reasons for **Why** we might want to revamp the site: Modernization and Collaboration.
 
-Working directly on the website required a possible committer to:
 
-* Get a working Apache instance up and running (including SSI)
-* Get familiar with GIT
-* Be comfortable writing everything in plain HTML.
-* Understand how SSI works in Apache.
+### Modernization
 
-An argument could be made that perhaps having these requirements in place helps to weed out the less commited from collaborating... :)
+A new facelift for the website can't hurt from a PR standpoint.
+We can also leverage more modern design ideas around responsiveness for various screen sizes.
+
+There was no good method previously of writing news/blog-type postings that would easily maintain a post history that could be referred to.
+A modernization effort can take that into account and allow for a means to post news items that will be archived and maintained for posterity.
+For example, you can read about a [GIMP Perl release candidate from June, 2014](/news/2014/06/12/gimp-perl-release-candidate-ready-for-testing/), as well as have a permalink to that particular news item in the future.
 
 
 
-### Barriers to Collaboration
+### Collaboration
 
-As noted on the [WGO Redesign] page on the wiki:
+I have *no* data to back this up, but can't help feel that some of the lack of new tutorials or content for the site could be attributed to the convoluted ways to submit information 
+(plus it is generally more lucrative for folks to host their own tutorials and content in an effort to monetize them vs. sharing them openly here).
 
->We (the royal 'We') could benefit from having more content on WGO, in particular tutorials.  
-Lowering the barrier-to-entry can help entice users to generate new content.  
-A new facelift can't hurt from a PR standpoint.
+If someone *does* want to submit new content, it can only be helpful to make the barrier to collaboration as low as possible.
 
-This redesign is an attempt to make the barrier to collaboration lower.
-In particular, the main ways to accomplish this include:
+Currently, if someone wants to contribute content, and test it before attempting to push it, they need to:
 
-1. Writing content in a simplified format, such as [Markdown] or [reStructuredText][] (*the official documentation was hosted on sourceforge as part of docutils... so this link is to the Sphinx project*).  
-Contributors who may be able to write quality material may *not* be comfortable writing in pure HTML.
+* Get a working instance of Apache httpd running (with SSI)
+* Get familiar with git to pull down the current site
+* Write everything in plain html
 
-2. Ease the requirements to build and test the site locally.  
-We want the contributor to be able to test changes and submissions locally for both their own work as well as to make sure nothing is going to break horribly when pushed up to [WGO].
+Some of these things are non-trivial.
+Especially for someone who may be good at writing quality content but not technically inclined enough to stand up the build environment.
 
-Taking a look at the proposed static site workflow...
+The [How](#how) section below covers the means to making things easier to test and contribute.
+
+
+
+## What
+
+I thought a bit about the main reasons a person would be visiting the site.
+*What* is someone looking to do when coming to WGO?
+
+These are what I thought would be the main reasons for visiting the site (in order):
+
+1. Download/Get GIMP
+2. Learn *about* GIMP
+3. Learn *how to use* GIMP (tutorials + documentation)
+4. Help the project (financially or manpower)
+5. News
+
+It seems like #2 would probably cease being a reason after someone has learned about the project.
+
+
+
+## How
+
+After talking with schumaml, it was decided to leverage the existing Python on the server to build the site.
+Some research revealed that the most ubiquitous (read: maintained) static site generator for Python is [Pelican].
+
+The basic workflow for just about any SSG (static site generator) is to take a directory full of content (writing, images, and other assets), then process them in some fashion before finally writing a new directory containing the site ready for upload.
+
+The build systems will often help to abstract away portions of the underlying html.
+For instance, many will take files written as [Markdown] or [reStructuredText], which are simpler format for writing content that can easily be parsed into html (or other formats).
 
 
 
 ### Python & Pelican
 
-After talking with schumaml, I learned that the server environment already has Python (it's what was used on the old website).
-So after some research I found the most ubiquitous Python Static Site Generator (SSG) to be [Pelican].
-Leveraging the existing language and infrastructure makes the most sense.
-
-
+For anyone who wants to build and view the site, they will need only Python, and a couple of extra components (Pelican, Markdown, typogrify).
+This is the same procedure anyone can use to test new content they would like to propose or push.
 
 #### Getting a build environment
 
@@ -79,7 +102,7 @@ Simplest method is simply: `pip install pelican`
     `pip install typogrify`
 
 
-For detailed information refer to the [Pelican documentation](http://docs.getpelican.com/en/3.6.2/).
+For detailed information refer to the [Pelican documentation](http://docs.getpelican.com/en/stable/).
 
 
 
@@ -94,6 +117,11 @@ From the project directory, simply invoke pelican:
 If you are writing content or developing other parts of the site, there is an option to watch the directory of files for changes and to automatically re-compile the site as needed:
 
 `pelican -r`
+
+In some cases, it can be beneficial to avoid using the cache that Pelican creates internally (to help speed up the build).
+To avoid using the cache, *and* to watch for changes and rebuild as necessary:
+
+`pelican -r --ignore-cache`
 
 
 #### Viewing the site
@@ -111,36 +139,16 @@ For Python 3:
 The site can then be accessed locally at:  
 `localhost:8000`
 
+Further notes on using Pelican can be found on the page [Using Pelican](./using-pelican).
 
-### Some Pelican Notes
+## Who
 
-To hide a page from being included on the navigation elements, add to the pages metadata:
-
-`status: hidden`
-
-
-#### Python SimpleHTTPServer & SVG
-
-Apparently the python (2.7.x) built-in http server doesn't serve .svg files correctly for use as images in html.
-To fix this, either run a different http server to test with, or from [this blog post](http://gotmetoo.blogspot.com/2013/07/python-simple-http-server-with-svg.html) you can do this:
-
-    :::python
-    #!/usr/bin/python 
-    import SimpleHTTPServer
-    import SocketServer
-    import mimetypes
-    
-    PORT = 8000
-    
-    Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
-    
-    Handler.extensions_map['.svg']='image/svg+xml'
-    httpd = SocketServer.TCPServer(("", PORT), Handler)
-    
-    print "serving at port", PORT
-    httpd.serve_forever()
-
-Or just be aware that any SVG elements used as images will not display correctly on the page (but *should* display fine when being served from wgo).
+<figure>
+<img src="{attach}fluffle-puff.jpg" alt='Fluffle Puff'>
+<figcaption>
+This is not superfluous, it's a test of local image linking from this directory.
+</figcaption>
+</figure>
 
 
 [WGO Redesign]: http://wiki.gimp.org/index.php?title=WGO_Redesign
