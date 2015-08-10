@@ -16,10 +16,12 @@ The terms of usage and rules about copying are clearly listed in the [GNU Genera
 
 ## GIMP History
 
-* Prehistory - until GIMP 0.54 in 1996
-* Ancient History - until GIMP 1.0 in 1998
+* [Prehistory][] - until GIMP 0.54 in 1996
+* [Ancient History][] - until GIMP 1.0 in 1998
 * History - from 1.0 to the current GIMP
 
+[Prehistory]: {filename}prehistory.md
+[Ancient History]: {filename}ancient_history.md
 
 
 ## GIMP Stuff
