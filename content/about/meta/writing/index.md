@@ -11,6 +11,9 @@ This is so you can check to make sure that what you write is correct, looks good
 
 Instructions can be found on the [Building WGO page]({filename}../building/index.md).
 
+Second, you may want to check with us on IRC to make sure that we can use what you want to submit.
+I would imagine this is almost always going to be: "Go for it!" but it can't hurt to check before you get too far
+into writing content.
 
 
 ## A Tutorial

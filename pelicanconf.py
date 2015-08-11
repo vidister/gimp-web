@@ -45,6 +45,7 @@ RELATIVE_URLS = True
 # This will copy over these folders w/o modification
 STATIC_PATHS = ['images', 'pages', 'tutorials', 'about']
 
+
 #PAGE_PATHS = ['pages', 'tutorials', 'about']
 PAGE_PATHS = ['about', 'tutorials']
 
