@@ -1,6 +1,6 @@
 Title: Markdown Cheatsheet
 Date: 2015-08-10T15:41:15-05:00
-Modified: 2015-08-10T15:41:21-05:00
+Modified: 2015-08-11T11:43:00-05:00
 Authors: Pat David
 
 This is a simple cheatsheet for writing in [Markdown].
@@ -61,19 +61,19 @@ Blockquotes use a familiar email-style ">" character for quoting:
 
 Alternatively you can be lazy and only use the ">" character before the first line of a hard-wrapped paragraph:
 
-    > This is a blockquote with some infomration.  If you
+    > This is a blockquote with some information.  If you
     think this needs to be quoted, here it is.
 
-> This is a blockquote with some infomration.  If you
+> This is a blockquote with some information.  If you
 think this needs to be quoted, here it is.
 
 
-    > This is a blockquote with some infomration.  If you
+    > This is a blockquote with some information.  If you
     think this needs to be quoted, here it is. Here is 
     a nested quote inside this blockquote:
     > > A nested quote inside a previosu blockquote!
 
-> This is a blockquote with some infomration.  If you
+> This is a blockquote with some information.  If you
 think this needs to be quoted, here it is. Here is 
 a nested quote inside this blockquote:
 > > A nested quote inside a previous blockquote!
@@ -178,7 +178,7 @@ Which will yield:
 
 ## Horizontal Rule
 
-A horizontal rule tag `<hr />` can be inserted by simply using three or more hyphens, asterisks, or underscores on a line by themshelves:
+A horizontal rule tag `<hr />` can be inserted by simply using three or more hyphens, asterisks, or underscores on a line by themselves:
 
     * * *
     ***
