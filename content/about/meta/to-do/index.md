@@ -20,6 +20,17 @@ Also link them with @font-face correctly in the css for the site.
 Consider Google Fonts as an option for font hosting?
 Check with the others to see what the general consensus would be.
 
+<small>2015-08-11T11:46:08-05:00</small>  
+Temporarily set to using Google fonts to hopefully leverage any caching for clients.
+Current font faces include:
+
+* League Gothic<sup>1</sup>
+* Ostrich Sans<sup>1</sup>
+* Open Sans (body fonts)
+* Lato (navigation font)
+* Questrial (body headings)
+
+<small>1: These are only used on the front page currently (in the header).</small>
 
 ## Combine and minimize assets
 
@@ -34,11 +45,6 @@ That is, folder nested with an `index.md` file for the contents will work correc
 If you're reading this in a browser, and the url looks like: `/about/meta/to-do/`, then it works! :)
 </strike>  
 2015-08-06T16:24:26-05:00
-
-# First Heading
-## Second Heading
-### Third heading
-#### Fourth heading
 
 
 [FontAwesome]: http://fortawesome.github.io/Font-Awesome/

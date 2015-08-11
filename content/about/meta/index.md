@@ -8,6 +8,12 @@ Summary: A page about the new site.
 
 I (Pat David) am creating this page to keep notes and information for building/maintaining the new site.
 
+(Meta) pages of interest:
+
+* [To Do](./to-do/)
+* [Using Pelican](./using-pelican/)
+* [Markdown Cheatsheet](./markdown.html)
+
 The work I am doing here is based on a couple of suggestions over the past year (or more, I'm sure) to refresh the design of WGO.
 In particular, I had created a brief mockup to show and have been using that as a sort of visual guide for approaching the main page.
 You can view that [mockup .PNG here](/images/mockup3.png) (~1.8MB), or a smaller preview:
