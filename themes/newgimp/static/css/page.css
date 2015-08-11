@@ -85,3 +85,11 @@ figure figcaption {
 .container.title h1 {
     margin-bottom: 0;
 }
+
+.toc li {
+    margin-bottom: 0;
+}
+
+.toc li ul {
+    margin-bottom: 0;
+}

@@ -11,7 +11,9 @@ Here are the steps to follow to get your very own copy of the website!
 
 [TOC]
 
-## git
+## Building the Site
+
+### Get git
 
 You will need to get git: <https://git-scm.com/>
 
@@ -27,7 +29,7 @@ We'll cover those steps a little later.
 
 
 
-## Get the Source
+### Get the Source
 
 The source for the GIMP websites can be found here: <https://git.gnome.org/browse/gimp-web/>
 
@@ -79,7 +81,7 @@ Now we just need to get the rest of the tools in place for you to make use of it
 
 
 
-## Get Python
+### Get Python
 
 You will need to download and install Python 2.7.x.
 
@@ -89,7 +91,7 @@ You will need to download and install Python 2.7.x.
 
 
 
-## Get Pelican
+### Get Pelican
 
 Install [Pelican](http://blog.getpelican.com/):
 
@@ -101,7 +103,7 @@ The easiest way to get it after installing Python is to use pip:
 
 
 
-### Some Extras
+#### Some Extras
 
 Some extra components that we use on the site are [Markdown][] and [typogrify][]:
 
@@ -113,7 +115,7 @@ Some extra components that we use on the site are [Markdown][] and [typogrify][]
 
 
 
-## Build the Site
+### Build the Site
 
 Once the requirements are installed building the site is straightforward.
 Enter the project directory and issue the `Pelican` command to build:
@@ -124,7 +126,7 @@ Enter the project directory and issue the `Pelican` command to build:
 After a few moments, the command will finish, and the site files will be in the `output` directory.
 
 
-### Auto Rebuild
+#### Auto Rebuild
 
 If you are developing the site or content and want pelican to automatically regenerate the site when files change then you can run the command with the `-r` switch to reload automatically (and will possibly want to ignore any caches as well):
 
@@ -132,7 +134,7 @@ If you are developing the site or content and want pelican to automatically rege
 
 
 
-## View the Site
+### View the Site
 
 To accurately see the site it is best to access it through a web server.
 Python has one built in that can be used.
@@ -149,3 +151,56 @@ Do note that the SimpleHTTPServer won't serve SVG elements as images correctly.
 See [this section][] for a solution
 
 [this section]: ../using-pelican/#python-simplehttpserver-svg
+
+
+
+## Writing for the Site
+
+This section will cover writing something for the site.
+In particular it will focus on writing page content (a tutorial, or page like this).
+News items are similar, but will be covered in a different place (not all users will be allowed
+to publish news items).
+
+The actual structure of the site and directory hierarchies are covered in the [Using Pelican][] page.
+For this page, we will stick to writing a tutorial for the site.
+[Using Pelican]: ../using-pelican/
+
+The directories of page sections will be nested just as they are in the source directories now.
+This means that new tutorials will be located in their own directories under the `content/tutorials/` directory.
+They will then be accessible on a url like `www.gimp.org/tutorials/NEW_TUTORIAL_NAME/`
+
+For this example, we will create a new tutorial called `GIMP-Test`.
+Create this new directory under the tutorials directory:
+
+    cd content/tutorials/
+    mkdir GIMP-Test
+
+Inside that directory, create a new `index.md` file.
+This will be the page content.
+
+
+### Markdown File
+
+The `index.md` [Markdown][] file requires that any metadata be located first in the file.
+To finish describing metadata, follow it with a blank line and then start the actual file contents.
+The minimum metadata for files should at least be *Title*, *Date*, and *Author*.
+A sample leading section of an `index.md` file might look like this:
+
+    :::Markdown
+    Title: GIMP Test Tutorial
+    Date: 2015-08-11T14:11:02-05:00
+    Author: Pat David
+
+    Welcome to a quick test of writing new content!
+
+The rest of the file will contain the actual tutorial content.
+There is a Markdown cheatsheet available [here]({filename}../markdown.md) for reference.
+There will also be a more detailed article for writing a tutorial coming soon...
+
+When finished, save the file.
+If the webserver is running, and pelican was run with the `-r` option, refreshing the browser page should reflect the changes.
+Otherwise run pelican in the base directory again to rebuild the site and show the latest changes.
+
+Due to the way the directories are nested, the above example can be found at:
+
+    localhost:8000/tutorials/GIMP-Test/
