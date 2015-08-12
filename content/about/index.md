@@ -1,9 +1,7 @@
 Title: About GIMP
 Date: 2015-07-29T14:40:35-05:00
 Modified: 2015-07-29T14:40:43-05:00
-Authors: Pat David
-Summary: About the project.
-slug: about
+Author: Pat David
 
 
 ## Introduction

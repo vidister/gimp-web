@@ -35,46 +35,62 @@ def override_metadata(content_object):
     if type(content_object) is not contents.Page:
         return
     page = content_object
-    print( "####################" )
-    print( "page.get_relative_source_path():" )
-    print( page.get_relative_source_path() )
-    print( "####################" )
-    print( "$$$ METADATA $$$" )
-    print( page.metadata )
-    print( "$$$$$$$$$$$$$$$$" )
-    print( "manual path [1]:" )
-    print( os.path.split(page.get_relative_source_path())[1] )
+
+    #print( "####################" )
+    #print( "page.get_relative_source_path():" )
+    #print( page.get_relative_source_path() )
+    #print( "####################" )
+    #print( "$$$ METADATA $$$" )
+    #print( page.metadata )
+    #print( "$$$$$$$$$$$$$$$$" )
+
+    # IF page slug and filename is already set
+    # just return?
+    # Yes - just return - as long as both the slug AND filename
+    # are already set.
+
+    #if 'slug' in page.metadata and 'filename' in page.metadata:
+    if 'url' in page.metadata and 'save_as' in page.metadata: 
+        #print( "page.metadata['url'] TEST: " + page.metadata['url'] )
+        #setattr(page, 'override_url', page.metadata['url'] )
+        #page.metadata['slug'] = ''
+        ##setattr(page, 'override_url', page.metadata['slug'] + '/' + page.metadata['filename'] )
+        return
+
+    #print( "manual path [1]:" )
+    #print( os.path.split(page.get_relative_source_path())[1] )
+
     #path = get_path(page, page.settings)
     path = os.path.split(page.get_relative_source_path())[0]
     path = path.replace( os.path.sep, '/' )
-    print( "override_metadata, path:" )
-    print( path )
+
+    #print( "override_metadata, path:" )
+    #print( path )
 
     def _override_value(page, key):
         metadata = copy(page.metadata)
+
+        if 'slug' in metadata:
+            print( "metadata['slug']: " + metadata['slug'])
+
         # We override the slug to include the path up to the filename
         metadata['slug'] = os.path.join(path, page.slug)
-        print( "_override_value, page.slug:" )
-        print( page.slug )
-        print( "_override_value, metadata['slug']:")
-        print( metadata['slug'] )
+        print( "_override_value, page.slug: " + page.slug )
+        print( "_override_value, metadata['slug']: " + metadata['slug'])
 
         metadata['filename'] = os.path.split(page.get_relative_source_path())[1]
         metadata['filename'] = os.path.splitext( metadata['filename'])[0] + '.html'
-        print( "metadata['filename']:" )
-        print( metadata['filename'] )
+        print( "metadata['filename']: " + metadata['filename'] )
 
         # PLD: this is my doing, sorry...
         # ok, if path is empty, use page.slug
         # if path is not empty, use path
         # still need to test if lang works properly after this
         if path:
-            print( "got path" )
-            print( path )
+            print( "got path" + path )
             metadata['slug'] = path
         else:
-            print( "path empty!" )
-            print( page.slug )
+            print( "path empty! " + page.slug )
             metadata['slug'] = page.slug
 
         if metadata['filename'] != 'index.html':
@@ -88,8 +104,7 @@ def override_metadata(content_object):
     for key in ('save_as', 'url'):
         if not hasattr(page, 'override_' + key):
             setattr(page, 'override_' + key, _override_value(page, key))
-        print( "## page.url ##" )
-        print( page.url )
+        print( "key: " + key + " , page.url: " + page.url )
         
 
 def set_relationships(generator):
