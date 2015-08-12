@@ -1,7 +1,7 @@
 Title: WTF Pelican?
 Date: 2015-08-05T17:07:40-05:00
 Modified: 2015-08-05T17:07:46-05:00
-Authors: Pat David
+Author: Pat David
 
 
 
@@ -92,3 +92,42 @@ All I did was continue that line of thought and brute-forced the index.md under 
 So far, so good?  Nothing seems to explode, so I'm taking that as a positive sign.
 The only thing I haven't checked yet (and that I think will be awesome) is the ability to provide translated versions of all pages.
 I may have to wrangle someone to translate a page for me to test with (or just use gibberish to test, I guess).
+
+
+
+### Slugs and Filenames
+
+In migrating some of the old pages from the previous site, I found that a few of them existed off of the base URL for the site.
+This was slightly problematic, as the nested folders all assumed content would exist at least under a single directory from the URL root (except for the index.html page of course).
+
+The page I tested this on is www.gimp.org/irc.html.
+
+To fix it we override the *url* and *save_as* metadata in the file to force a particular file:
+
+    :::markdown
+    Title: IRC Page Example
+    Author: Pat David
+    Date: 2015-08-12T14:03:57-05:00
+    url: irc.html
+    save_as: irc.html
+
+Which will then force the file to be saved as (and referred to by url):
+
+    www.gimp.org/irc.html
+
+This is not a thing that should normally have to happen that often.
+I am only doing it this way to support a few legacy pages that will exist directly on the root URL.
+
+Those pages currently are:
+
+* [archive.html](http://www.gimp.org/archive.html)  
+    An archive of news items that were on the front page.
+    Likely deprecated for the "News" section now?
+* [index.html](http://www.gimp.org/index.html)  
+    The main page (still).
+* [irc.html](http://www.gimp.org/irc.html)
+* [mail_lists.html](http://www.gimp.org/mail_lists.html)
+* [team.html](http://www.gimp.org/team.html)
+* [template.html](http://www.gimp.org/template.html)  
+    This seems to be a simple test page.
+* [webmasters.html](http://www.gimp.org/webmasters.html)

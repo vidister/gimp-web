@@ -1,7 +1,7 @@
 Title: Markdown Cheatsheet
 Date: 2015-08-10T15:41:15-05:00
 Modified: 2015-08-11T11:43:00-05:00
-Authors: Pat David
+Author: Pat David
 
 This is a simple cheatsheet for writing in [Markdown].
 For a more complete reference, the Python-Markdown package refers one to the [Markdown Syntax] from John Gruber.

@@ -1,7 +1,7 @@
 Title: Using Pelican
 Date: 2015-08-10T14:43:06-05:00
 Modified: 2015-08-10T14:43:11-05:00
-Authors: Pat David
+Author: Pat David
 Summary: Using Pelican
 
 These are some meta notes about using the Pelican build system, including any idiosyncrasies I come across while testing it.

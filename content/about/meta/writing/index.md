@@ -1,7 +1,7 @@
 Title: Writing for WGO
 Date: 2015-08-11T14:41:26-05:00
 Modified: 2015-08-11T14:41:33-05:00
-Authors: Pat David
+Author: Pat David
 
 
 Oh good, you want to help us write content for the website!
