@@ -125,3 +125,49 @@ Which will render as:
 </figure>
 
 The `<figure>` tag makes more semantic sense in describing a figure element that will usually be referred to by 
+
+
+##### Internal Linking
+
+This is not so much an issue for writing pages, as the content directory structure _should_ match the URL structure of the compiled site.
+
+It's helpful to note that Pelican does allow internal linking to the **source** files as opposed to the compiled file location.
+For instance, the main *Meta* page can be found in the source at this location:
+
+    content/about/meta/index.md
+
+When compiled, because the URL structure will mimic the source structure, the file can be found here:
+
+    www.gimp.org/about/meta/index.html
+
+When linking to this page, you can use a fully qualified URL, or a URL from base, or a relative URL:
+
+    [Full Link to Meta](http://www.gimp.org/about/meta/)
+    [Less Full Link to Meta](/about/meta/)
+    [Relative Link to Meta](../) (from this page)
+
+[Full Link to Meta](http://www.gimp.org/about/meta/)  
+[Less Full Link to Meta](/about/meta/)  
+[Relative Link to Meta](../) (from this page)  
+
+You may not know where the compiled file will end up in a URL necessarily.
+Pelican allows you to define a link to a page in the *source directory location*, and will
+automatically track where it ends up for you.
+
+You would write the link using `{filename}` and a relative path to the source location:
+
+    [Link to Meta/index.html]({filename}../index.md)
+
+[Link to Meta/index.html]({filename}../index.md)
+
+This may seem redundant, but it makes sense in the context of Pelican running without our plugin modification and
+for a few pages of our own.
+For instance, we have a page called [**IRC**]({filename}../../irc.md) that exists on the root of the site:
+
+    www.gimp.org/irc.html
+
+The actual source file is located in a different place:
+
+    content/about/irc.md
+
+Using the `{filename}/path/to/source/file` syntax makes sure that links won't break in the future if anything were to change.
