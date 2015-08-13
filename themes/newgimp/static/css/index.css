@@ -44,6 +44,7 @@ span#gFirst {
     line-height: 0;
     line-height: 1rem;
     font-size: 4.5rem;
+    text-align: left;
 }
 
 span#gSecond {
@@ -103,4 +104,8 @@ span#gThird span {
 
 nav#menu li#gimp-home {
     display: none;
+}
+
+#cap-photos p {
+    text-align: left;
 }
