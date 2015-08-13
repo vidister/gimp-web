@@ -47,7 +47,7 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 <http://www.gimp.org/bugs/index.html>  
 <http://www.gimp.org/bugs/why_bugzilla.html>  
 <http://www.gimp.org/bugs/howtos/bugzilla.html>  
-<http://www.gimp.org/bugs/howtos/howto-template.html>  
+<del><http://www.gimp.org/bugs/howtos/howto-template.html></del> (skipping - test/placeholder data)  
 <http://www.gimp.org/bugs/howtos/submit-patch.html>  
 
 <http://www.gimp.org/contest/index.html>  
