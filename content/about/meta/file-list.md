@@ -26,8 +26,8 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 <del><http://www.gimp.org/about/introduction.html></del> [<i class="fa fa-link"></i>](/about/introduction.html)  
 <del><http://www.gimp.org/about/linking.html></del> [<i class="fa fa-link"></i>](/about/linking.html)  
 <http://www.gimp.org/about/merchandise.html>  
-<http://www.gimp.org/about/prehistory.html>  
-<http://www.gimp.org/about/selling.html>  
+<del><http://www.gimp.org/about/prehistory.html></del> [<i class="fa fa-link"></i>](/about/prehistory.html)  
+<del><http://www.gimp.org/about/selling.html></del> [<i class="fa fa-link"></i>]({filename}../selling.md)  
 <http://www.gimp.org/about/splash/index.html>  
 <http://www.gimp.org/about/splash/stable.html>  
 <http://www.gimp.org/about/splash/unstable-1.1.html>  
