@@ -4,7 +4,8 @@ from __future__ import unicode_literals
 
 #Plugins
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ["page_hierarchy_gimp"]
+#PLUGINS = ["page_hierarchy_gimp"]
+PLUGINS = ["mimic_hierarchy"]
 
 AUTHOR = u'Pat David'
 SITENAME = u'GIMP'

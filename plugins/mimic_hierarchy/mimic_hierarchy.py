@@ -31,61 +31,36 @@ def in_default_lang(page):
     # page.in_default_lang property is undocumented (=unstable) interface
     return page.lang == page.settings['DEFAULT_LANG']
 
-def override_metadata(content_object):
+def mimic_page_hierarchy(content_object):
     if type(content_object) is not contents.Page:
         return
     page = content_object
 
-    print( " " )
-    print( page )
+    #print( " " )
+    #print( page )
 
-    #print( "####################" )
-    #print( "page.get_relative_source_path():" )
-    #print( page.get_relative_source_path() )
-    #print( "####################" )
-    #print( "$$$ METADATA $$$" )
-    #print( page.metadata )
-    #print( "$$$$$$$$$$$$$$$$" )
-
-    # IF page slug and filename is already set
-    # just return?
-    # Yes - just return - as long as both the slug AND filename
-    # are already set.
-
-    # if 'url' in page.metadata and 'save_as' in page.metadata
-    # then skip doing anything and keep the overrides
-    if 'url' in page.metadata and 'save_as' in page.metadata: 
-        #print( "page.metadata['url'] TEST: " + page.metadata['url'] )
-        #setattr(page, 'override_url', page.metadata['url'] )
-        #page.metadata['slug'] = ''
-        ##setattr(page, 'override_url', page.metadata['slug'] + '/' + page.metadata['filename'] )
-        return
-
-    #print( "manual path [1]:" )
-    #print( os.path.split(page.get_relative_source_path())[1] )
-
-    #path = get_path(page, page.settings)
     path = os.path.split(page.get_relative_source_path())[0]
     path = path.replace( os.path.sep, '/' )
-    print( "path: " + path )
-
-    #print( "override_metadata, path:" )
-    #print( path )
+    #print( "path: " + path )
 
     def _override_value(page, key):
         metadata = copy(page.metadata)
 
-        #if 'slug' in metadata:
-        #    #print( "metadata['slug']: " + metadata['slug'])
-        
+        #if hasattr(page, key):
+        #    print("*_override_value, key: " + key +" - "+ getattr(page, key ) )
+        #else:
+        #    print("*_override_value, key: " + key +" - NONE" )
+
+        #if hasattr(page, 'save_as') and key == 'save_as':
+        #    print("HAS SAVE_AS..................................")
+        #    metadata['SAVE_AS'] = page.url
+        #    #setattr( page, 'override_save_as', page.override_url )
+
         # We override the slug to include the path up to the filename
         metadata['slug'] = os.path.join(path, page.slug)
-        #print( "_override_value, page.slug: " + page.slug )
-        #print( "_override_value, metadata['slug']: " + metadata['slug'])
 
         metadata['filename'] = os.path.split(page.get_relative_source_path())[1]
         metadata['filename'] = os.path.splitext( metadata['filename'])[0] + '.html'
-        #print( "metadata['filename']: " + metadata['filename'] )
 
         # PLD: this is my doing, sorry...
         # ok, if path is empty, use page.slug
@@ -100,24 +75,33 @@ def override_metadata(content_object):
 
         if metadata['filename'] != 'index.html':
             setattr(page, 'override_url', metadata['slug'] +'/'+ metadata['filename'] )
+            if hasattr( page, 'save_as' ) and key == 'save_as':
+                #setattr(page, 'override_save_as', page.override_url )
+                #metadata['override_save_as'] = page.override_url
+                return page.override_url
+        
+        #if hasattr(page, 'override_url'):
+        #    print( "page.override_url: " + page.override_url )
+        #if hasattr(page, 'override_save_as'):
+        #    print( "page.override_save_as: " + page.override_save_as )
+
+        #print("***** PAGE.SETTINGS *****")
+        #for setting in page.settings:
+        #    print( setting )
 
         # We have to account for non-default language and format either,
         # e.g., PAGE_SAVE_AS or PAGE_LANG_SAVE_AS
         infix = '' if in_default_lang(page) else 'LANG_'
+        #print( "RETURNING: " + page.settings['PAGE_' + infix + key.upper()].format(**metadata) )
         return page.settings['PAGE_' + infix + key.upper()].format(**metadata)
 
+
+
     for key in ('save_as', 'url'):
-        #if 'about/meta' in path:
-        if hasattr(page, key):
-            print( "FOR LOOP: key: " + key + " , page['"+ key +"']: " + getattr(page, key) )
-        if hasattr(page, 'save_as') and hasattr(page, 'url'):
-            print("GOT BOTH SAVE_AS AND URL")
-            print("save_as: " + getattr( page, 'save_as' ))
-            print("url: " + getattr( page, 'url' ) )
-            print("filename" + getattr( page, 'filename' ) )
-            if not in_default_lang(page):
-                print("NOT IN DEFAULT LANG")
-                page.metadata['save_as'] = page.url
+        #if hasattr(page, 'override_save_as'):
+        #    print("FOR (override_save_as): " + getattr(page, 'override_save_as'))
+        #if hasattr(page, 'override_url'):
+        #    print("FOR (override_url): " + getattr(page, 'override_url'))
         if not hasattr(page, 'override_' + key):
             setattr(page, 'override_' + key, _override_value(page, key))
         
@@ -159,5 +143,6 @@ def set_relationships(generator):
 
 
 def register():
-    signals.content_object_init.connect(override_metadata)
+    signals.content_object_init.connect(mimic_page_hierarchy)
     signals.page_generator_finalized.connect(set_relationships)
+
