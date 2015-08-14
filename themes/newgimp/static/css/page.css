@@ -81,6 +81,7 @@ figure figcaption {
 
 .container.title {
     box-shadow: 0 8px 6px -7px #ddd;
+    box-shadow: 0 8px 8px -8px #ccc;
     margin: 1.5rem auto;
     max-width: 37rem;
     text-align: center;
