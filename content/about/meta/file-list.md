@@ -30,19 +30,19 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 <del><http://www.gimp.org/about/selling.html></del> [<i class="fa fa-link"></i>]({filename}../selling.md)  
 <del><http://www.gimp.org/about/splash/index.html></del> [<i class="fa fa-link"></i>]({filename}../splash/index.md)  
 <del><http://www.gimp.org/about/splash/stable.html></del> [<i class="fa fa-link"></i>]({filename}../splash/stable.md)  
-<http://www.gimp.org/about/splash/unstable-1.1.html>  
-<http://www.gimp.org/about/splash/unstable-1.3.html>  
-<http://www.gimp.org/about/splash/unstable-2.1.html>  
-<http://www.gimp.org/about/splash/unstable-2.3.html>  
-<http://www.gimp.org/about/splash/unstable-2.5.html>  
-<http://www.gimp.org/about/splash/unstable-2.7.html>  
-<http://www.gimp.org/about/splash/contest/index.html>  
+<del><http://www.gimp.org/about/splash/unstable-1.1.html></del> [<i class="fa fa-link"></i>]({filename}../splash/unstable-1.1.md)   
+<del><http://www.gimp.org/about/splash/unstable-1.3.html></del> [<i class="fa fa-link"></i>]({filename}../splash/unstable-1.3.md)   
+<del><http://www.gimp.org/about/splash/unstable-2.1.html></del> [<i class="fa fa-link"></i>]({filename}../splash/unstable-2.1.md)   
+<del><http://www.gimp.org/about/splash/unstable-2.3.html></del> [<i class="fa fa-link"></i>]({filename}../splash/unstable-2.3.md)   
+<del><http://www.gimp.org/about/splash/unstable-2.5.html></del> [<i class="fa fa-link"></i>]({filename}../splash/unstable-2.5.md)   
+<del><http://www.gimp.org/about/splash/unstable-2.7.html></del> [<i class="fa fa-link"></i>]({filename}../splash/unstable-2.7.md)   
+<http://www.gimp.org/about/splash/contest/index.html> (Seems deprecated - any reason to keep this URI?)
 
 <http://www.gimp.org/admin/index.html>  
 
-<http://www.gimp.org/announcements/open-usability-gimp.html>  
+<del><http://www.gimp.org/announcements/open-usability-gimp.html></del> [<i class="fa fa-link"></i>]({filename}../../news/2006-08-11 Open Usability.md) (moved to a news item - not sure if we need to keep this URI)   
 
-<http://www.gimp.org/books/index.html>  
+<del><http://www.gimp.org/books/index.html>  </del> [<i class="fa fa-link"></i>]({filename}../../books/index.md)
 
 <http://www.gimp.org/bugs/index.html>  
 <http://www.gimp.org/bugs/why_bugzilla.html>  
@@ -50,24 +50,70 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 <del><http://www.gimp.org/bugs/howtos/howto-template.html></del> (skipping - test/placeholder data)  
 <http://www.gimp.org/bugs/howtos/submit-patch.html>  
 
-<http://www.gimp.org/contest/index.html>  
+<http://www.gimp.org/contest/index.html>  (deprecated - not keeping this URI?)
 
-<http://www.gimp.org/develop/index.html>  
+<del><http://www.gimp.org/develop/index.html>  </del> [<i class="fa fa-link"></i>]({filename}../../develop/index.md)  
 
-<http://www.gimp.org/docs/index.html>  
-<http://www.gimp.org/docs/script-fu-update.html>  
-<http://www.gimp.org/docs/userfaq.html>  
+<del><http://www.gimp.org/docs/index.html>  </del> [<i class="fa fa-link"></i>]({filename}../../docs/index.md)  
+<del><http://www.gimp.org/docs/script-fu-update.html>  </del> [<i class="fa fa-link"></i>]({filename}../../docs/script-fu-update.md)  
+<del><http://www.gimp.org/docs/userfaq.html>  </del> [<i class="fa fa-link"></i>]({filename}../../docs/userfaq.md)  
+<del><http://www.gimp.org/docs/gimp-print/print.html></del> [<i class="fa fa-link"></i>]({filename}../../docs/gimp-print/print.md) (I have to admit to having lost interest in updating this page to format properly...)  
+<http://www.gimp.org/docs/plug-in/appendix-alpha.html>
+<http://www.gimp.org/docs/plug-in/appendix-threading.html>
+<http://www.gimp.org/docs/plug-in/chapt-intro.html>
+<http://www.gimp.org/docs/plug-in/colophon.html>
+<http://www.gimp.org/docs/plug-in/genindex.html>
+<http://www.gimp.org/docs/plug-in/gloss.html>
+<http://www.gimp.org/docs/plug-in/legalese.html>
+<http://www.gimp.org/docs/plug-in/ln13.html>
+<http://www.gimp.org/docs/plug-in/ln15.html>
+<http://www.gimp.org/docs/plug-in/plug-in.html>
+<http://www.gimp.org/docs/plug-in/sect-essentials.html>
+<http://www.gimp.org/docs/plug-in/sect-image.html>
+<http://www.gimp.org/docs/plug-in/sect-tiles.html>
+<http://www.gimp.org/docs/plug-in/sect-ui.html>
+<http://www.gimp.org/docs/python/index.html>
+<http://www.gimp.org/docs/python/pygimp.html>
+<http://www.gimp.org/docs/python/xhtml11.css>
+<http://www.gimp.org/docs/python/xhtml11-quirks.css>
+<http://www.gimp.org/docs/scheme_plugin/efficientaccess.html>
+<http://www.gimp.org/docs/scheme_plugin/imagedata.html>
+<http://www.gimp.org/docs/scheme_plugin/index.html>
+<http://www.gimp.org/docs/scheme_plugin/links.html>
+<http://www.gimp.org/docs/scheme_plugin/sample_plugin.html>
+<http://www.gimp.org/docs/scheme_plugin/scheme-overview.html>
+<http://www.gimp.org/docs/scheme_plugin/scheme-sample.html>
+<http://www.gimp.org/docs/scheme_plugin/script-fu-gimp.html>
 
-<http://www.gimp.org/donating/index.html>  
-<http://www.gimp.org/donating/sponsors.html>  
+
+<del><http://www.gimp.org/donating/index.html></del> [<i class="fa fa-link"></i>]({filename}../../donating/index.md)  
+<del><http://www.gimp.org/donating/sponsors.html></del> [<i class="fa fa-link"></i>]({filename}../../donating/sponsors.md)  
 
 <http://www.gimp.org/downloads/index.html>  
-<http://www.gimp.org/downloads/index2.html>  
+<http://www.gimp.org/downloads/index2.html> (this was an example page of mine - deprecated)  
 <http://www.gimp.org/downloads/install_help.html>  
 <http://www.gimp.org/downloads/Linux.html>  
 <http://www.gimp.org/downloads/Mac.html>  
 <http://www.gimp.org/downloads/source.html>  
 <http://www.gimp.org/downloads/Windows.html>  
+
+<http://www.gimp.org/error/HTTP_400.html.var>
+<http://www.gimp.org/error/HTTP_401.html.var>
+<http://www.gimp.org/error/HTTP_403.html.var>
+<http://www.gimp.org/error/HTTP_404.html.var>
+<http://www.gimp.org/error/HTTP_405.html.var>
+<http://www.gimp.org/error/HTTP_408.html.var>
+<http://www.gimp.org/error/HTTP_410.html.var>
+<http://www.gimp.org/error/HTTP_411.html.var>
+<http://www.gimp.org/error/HTTP_412.html.var>
+<http://www.gimp.org/error/HTTP_413.html.var>
+<http://www.gimp.org/error/HTTP_414.html.var>
+<http://www.gimp.org/error/HTTP_501.html.var>
+<http://www.gimp.org/error/HTTP_502.html.var>
+<http://www.gimp.org/error/HTTP_503.html.var>
+<http://www.gimp.org/error/HTTP_506.html.var>
+
+
 
 <http://www.gimp.org/features/index.html>  
 
@@ -76,6 +122,12 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 
 <http://www.gimp.org/macintosh/index.html>  
 
+<http://www.gimp.org/man/gimp.html>  
+<http://www.gimp.org/man/gimprc.html>  
+<http://www.gimp.org/man/gimp-remote.html>  
+<http://www.gimp.org/man/gimptool.html>  
+
+<http://www.gimp.org/programmatic/xhtml.py>
 <http://www.gimp.org/programmatic/admin/howto.html>  
 <http://www.gimp.org/programmatic/admin/news/howto-news.html>  
 <http://www.gimp.org/programmatic/contest/index.html>  
@@ -130,6 +182,11 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 <del><http://www.gimp.org/tutorials/GIMP_Quickies/index.html></del> [<i class="fa fa-link"></i>](/tutorials/GIMP_Quickies/)   
 <http://www.gimp.org/tutorials/Golden_Text/index.html>  
 <http://www.gimp.org/tutorials/Image_Map/index.html>  
+<http://www.gimp.org/tutorials/Image_Map/bexcolored.html>
+<http://www.gimp.org/tutorials/Image_Map/bexcolorpicker-tuthtml.html>
+<http://www.gimp.org/tutorials/Image_Map/bexcolorpicker-tutpop.html>
+<http://www.gimp.org/tutorials/Image_Map/imap1.html>
+<http://www.gimp.org/tutorials/Image_Map/visibone.html>
 <http://www.gimp.org/tutorials/Image_Pipes/index.html>  
 <http://www.gimp.org/tutorials/Image_Pipes2/index.html>  
 <http://www.gimp.org/tutorials/Layer_Masks/index.html>  
@@ -159,7 +216,13 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 <http://www.gimp.org/tutorials/Using_GAP/index.html>  
 
 <http://www.gimp.org/unix/fonts.html>  
+<http://www.gimp.org/unix/gimprc.html>
+<http://www.gimp.org/unix/gtkrc.html>
 <http://www.gimp.org/unix/index.html>  
+<http://www.gimp.org/unix/man-gimp-2.0.html>
+<http://www.gimp.org/unix/man-gimprc-2.0.html>
+<http://www.gimp.org/unix/man-gimp-remote-2.0.html>
+<http://www.gimp.org/unix/man-gimptool-2.0.html>
 <http://www.gimp.org/unix/user_install.html>  
 <http://www.gimp.org/unix/howtos/bugzilla.html>  
 <http://www.gimp.org/unix/howtos/gimp-midi.html>  

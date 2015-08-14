@@ -25,6 +25,7 @@
 li {
     margin-bottom: 1rem;
     margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
 }
 
 li > ul {
@@ -97,4 +98,8 @@ figure figcaption {
 
 .toc li ul {
     margin-bottom: 0;
+}
+
+.toc > ul > li {
+    margin-top: 1rem;
 }

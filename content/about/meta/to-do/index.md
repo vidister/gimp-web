@@ -32,6 +32,12 @@ Current font faces include:
 
 <small>1: These are only used on the front page currently (in the header).</small>
 
+<small>2015-08-14T13:11:17-05:00</small>  
+drc has reported some issues with hinting the navigation bar font (Lato) at its current size.
+I cannot reproduce his results exactly.
+Looking into either increasing the weight of that font to 400 (from 300), or to swap it for a different typeface.
+Possibly Roboto, Ostrich Sans (GNU Image Manipulation Program)?
+
 ## Combine and minimize assets
 
 Probably run a grunt task (or whatever the equivalent is in Python) to combine and minimize assets like CSS and JS.

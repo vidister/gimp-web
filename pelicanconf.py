@@ -44,11 +44,10 @@ RELATIVE_URLS = True
 
 # We can probably remove 'pages' if nothing ends up there
 # This will copy over these folders w/o modification
-STATIC_PATHS = ['images', 'pages', 'tutorials', 'about']
+STATIC_PATHS = ['images', 'pages', 'tutorials', 'about', 'books', 'develop', 'docs', 'donating', 'downloads']
 
 
-#PAGE_PATHS = ['pages', 'tutorials', 'about']
-PAGE_PATHS = ['about', 'tutorials']
+PAGE_PATHS = ['about', 'tutorials', 'books', 'develop', 'docs', 'donating', 'downloads']
 
 THEME = "./themes/newgimp"
 
