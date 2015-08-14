@@ -110,6 +110,8 @@ Some extra components that we use on the site are [Markdown][] and [typogrify][]
 `pip install Markdown`  
 `pip install typogrify`
 
+Markdown support let's us write posts using Markdown, and typogrify adds some nice typographic effects to the output.
+
 [Markdown]: http://daringfireball.net/projects/markdown/
 [typogrify]: https://github.com/mintchaos/typogrify
 

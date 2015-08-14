@@ -43,7 +43,7 @@ For example, you can read about a [GIMP Perl release candidate from June, 2014](
 ### Collaboration
 
 I have *no* data to back this up, but can't help feel that some of the lack of new tutorials or content for the site could be attributed to the convoluted ways to submit information 
-(plus it is generally more lucrative for folks to host their own tutorials and content in an effort to monetize them vs. sharing them openly here).
+(plus it is generally more lucrative for folks to host their own tutorials and content in an effort to monetize them vs. sharing them openly here -- that's a different issue).
 
 If someone *does* want to submit new content, it can only be helpful to make the barrier to collaboration as low as possible.
 
@@ -70,10 +70,10 @@ These are what I thought would be the main reasons for visiting the site (in ord
 1. Download/Get GIMP
 2. Learn *about* GIMP
 3. Learn *how to use* GIMP (tutorials + documentation)
-4. Help the project (financially or manpower)
-5. News
+4. News
+5. Help the project (financially or manpower)
 
-It seems like #2 would probably cease being a reason after someone has learned about the project.
+It seems like #2 could probably cease being a reason after someone has learned about the project.
 
 
 
