@@ -91,7 +91,7 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 
 <http://www.gimp.org/downloads/index.html>  
 <http://www.gimp.org/downloads/index2.html> (this was an example page of mine - deprecated)  
-<http://www.gimp.org/downloads/install_help.html>  
+<del><http://www.gimp.org/downloads/install_help.html></del> [<i class="fa fa-link"></i>]({filename}../../downloads/install_help.md)   
 <http://www.gimp.org/downloads/Linux.html>  
 <http://www.gimp.org/downloads/Mac.html>  
 <http://www.gimp.org/downloads/source.html>  
