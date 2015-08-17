@@ -1,0 +1,17 @@
+commander>Add Color Layer
+macro>
+    comment>Make the top layer active & assign to currentLayer
+    >>>theImage.active_layer = theImage.layers[0]
+    >>>currentLayer = theImage.active_layer
+    comment>Copy to tempLayer, desaturate it, & set mode to GRAIN_EXTRACT
+    >>>tempLayer = currentLayer.copy()
+    >>>theImage.add_layer(tempLayer, 0)
+    >>>pdb.gimp_desaturate_full(tempLayer, DESATURATE_LUMINOSITY)
+    >>>tempLayer.mode = GRAIN_EXTRACT_MODE
+    comment>Copy visible to the layer we will keep - same image now in NORMAL mode
+    >>>colorLayer = pdb.gimp_layer_new_from_visible(theImage, theImage, 'ColorLayer')
+    >>>theImage.add_layer(colorLayer, len(theImage.layers))
+    comment>Set Color Layer mode to GRAIN_MERGE & get ride of temp layer
+    >>>colorLayer.mode = GRAIN_MERGE_MODE
+    >>>theImage.remove_layer(tempLayer)
+    >>>theImage.active_layer = theImage.layers[0]

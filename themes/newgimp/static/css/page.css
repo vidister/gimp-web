@@ -61,6 +61,7 @@ figure img {
     max-width: 100%;
     /* margin-bottom: 0.5rem;
      */
+    max-width: 35rem;
 }
 
 figure figcaption {

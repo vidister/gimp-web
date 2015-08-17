@@ -1,0 +1,5 @@
+commander>Expand Canvas
+   macro>
+      comment>Expand the canvas by 25 percent -easier to rotate / perspective
+      >>>adjust = max(theImage.height, theImage.width)/4
+      >>>theImage.resize(theImage.width + adjust, theImage.height+ adjust, adjust/2, adjust/2)

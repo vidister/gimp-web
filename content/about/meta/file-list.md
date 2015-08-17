@@ -44,11 +44,11 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 
 <del><http://www.gimp.org/books/index.html>  </del> [<i class="fa fa-link"></i>]({filename}../../books/index.md)
 
-<http://www.gimp.org/bugs/index.html>  
-<http://www.gimp.org/bugs/why_bugzilla.html>  
-<http://www.gimp.org/bugs/howtos/bugzilla.html>  
+<del><http://www.gimp.org/bugs/index.html></del> [<i class="fa fa-link"></i>]({filename}../../bugs/index.md)    
+<del><http://www.gimp.org/bugs/why_bugzilla.html></del> [<i class="fa fa-link"></i>]({filename}../../bugs/why_bugzilla.md)  
+<del><http://www.gimp.org/bugs/howtos/bugzilla.html></del> [<i class="fa fa-link"></i>]({filename}../../bugs/howtos/bugzilla.md)  
 <del><http://www.gimp.org/bugs/howtos/howto-template.html></del> (skipping - test/placeholder data)  
-<http://www.gimp.org/bugs/howtos/submit-patch.html>  
+<del><http://www.gimp.org/bugs/howtos/submit-patch.html></del> [<i class="fa fa-link"></i>]({filename}../../bugs/howtos/submit-patch.md)  
 
 <http://www.gimp.org/contest/index.html>  (deprecated - not keeping this URI?)
 
@@ -115,45 +115,47 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 
 
 
-<http://www.gimp.org/features/index.html>  
+<del><http://www.gimp.org/features/index.html></del> [<i class="fa fa-link"></i>]({filename}../../features/index.md)    
 
-<http://www.gimp.org/links/index.html>  
-<http://www.gimp.org/links/org.html>  
+<del><http://www.gimp.org/links/index.html></del> [<i class="fa fa-link"></i>]({filename}../../links/index.md)  
+<del><http://www.gimp.org/links/org.html></del> [<i class="fa fa-link"></i>]({filename}../../links/org.md)  
 
-<http://www.gimp.org/macintosh/index.html>  
+<del><http://www.gimp.org/macintosh/index.html></del> (Obsoleted already - directs folks to the downloads page instead)  
 
-<http://www.gimp.org/man/gimp.html>  
-<http://www.gimp.org/man/gimprc.html>  
-<http://www.gimp.org/man/gimp-remote.html>  
-<http://www.gimp.org/man/gimptool.html>  
+<del><http://www.gimp.org/man/gimp.html></del> [<i class="fa fa-link"></i>]({filename}../../man/gimp.md)  
+<del><http://www.gimp.org/man/gimprc.html></del> [<i class="fa fa-link"></i>]({filename}../../man/gimprc.md)  
+<del><http://www.gimp.org/man/gimp-remote.html></del> [<i class="fa fa-link"></i>]({filename}../../man/gimprc.md)  
+<del><http://www.gimp.org/man/gimptool.html></del> [<i class="fa fa-link"></i>]({filename}../../man/gimptool.md)  
 
-<http://www.gimp.org/programmatic/xhtml.py>
+<del><http://www.gimp.org/programmatic/xhtml.py>
 <http://www.gimp.org/programmatic/admin/howto.html>  
 <http://www.gimp.org/programmatic/admin/news/howto-news.html>  
 <http://www.gimp.org/programmatic/contest/index.html>  
+</del>
+(These links all appear non-functional.  Deprecated?)
 
-<http://www.gimp.org/release-notes/gimp-2.2.html>  
+<del><http://www.gimp.org/release-notes/gimp-2.2.html></del> [<i class="fa fa-link"></i>]({filename}../../release-notes/gimp-2.2.md)  
 <http://www.gimp.org/release-notes/gimp-2.3.3.de.html>  
-<http://www.gimp.org/release-notes/gimp-2.3.3.html>  
-<http://www.gimp.org/release-notes/gimp-2.3.html>  
-<http://www.gimp.org/release-notes/gimp-2.4.html>  
-<http://www.gimp.org/release-notes/gimp-2.4-cm.html>  
-<http://www.gimp.org/release-notes/gimp-2.4-videos.html>  
-<http://www.gimp.org/release-notes/gimp-2.5.html>  
-<http://www.gimp.org/release-notes/gimp-2.6.html>  
-<http://www.gimp.org/release-notes/gimp-2.7.html>  
-<http://www.gimp.org/release-notes/gimp-2.8.html>  
-<http://www.gimp.org/release-notes/index.html>  
+<del><http://www.gimp.org/release-notes/gimp-2.3.3.html></del> [<i class="fa fa-link"></i>]({filename}../../release-notes/gimp-2.3.3.md)  
+<del><http://www.gimp.org/release-notes/gimp-2.3.html></del> [<i class="fa fa-link"></i>]({filename}../../release-notes/gimp-2.3.md)  
+<del><http://www.gimp.org/release-notes/gimp-2.4.html></del> [<i class="fa fa-link"></i>]({filename}../../release-notes/gimp-2.4.md)  
+<del><http://www.gimp.org/release-notes/gimp-2.4-cm.html></del> [<i class="fa fa-link"></i>]({filename}../../release-notes/gimp-2.4-cm.md)  
+<del><http://www.gimp.org/release-notes/gimp-2.4-videos.html></del> [<i class="fa fa-link"></i>]({filename}../../release-notes/gimp-2.4-videos.md)  
+<del><http://www.gimp.org/release-notes/gimp-2.5.html></del> [<i class="fa fa-link"></i>]({filename}../../release-notes/gimp-2.5.md)  
+<del><http://www.gimp.org/release-notes/gimp-2.6.html></del> [<i class="fa fa-link"></i>]({filename}../../release-notes/gimp-2.6.md)  
+<del><http://www.gimp.org/release-notes/gimp-2.7.html></del> [<i class="fa fa-link"></i>]({filename}../../release-notes/gimp-2.7.md)  
+<del><http://www.gimp.org/release-notes/gimp-2.8.html></del> [<i class="fa fa-link"></i>]({filename}../../release-notes/gimp-2.8.md)  
+<del><http://www.gimp.org/release-notes/index.html></del> [<i class="fa fa-link"></i>]({filename}../../release-notes/index.md)  
 
-<http://www.gimp.org/screenshots/index.html>  
+<del><http://www.gimp.org/screenshots/index.html></del> [<i class="fa fa-link"></i>]({filename}../../screenshots/index.md)  
 
-<http://www.gimp.org/source/index.html>  
-<http://www.gimp.org/source/howtos/gimp-git-build.html>  
+<del><http://www.gimp.org/source/index.html></del> [<i class="fa fa-link"></i>]({filename}../../source/index.md)  
+<del><http://www.gimp.org/source/howtos/gimp-git-build.html></del> [<i class="fa fa-link"></i>]({filename}../../source/howtos/gimp-git-build.md)  
 
 <http://www.gimp.org/tutorials/index.html>  
-<http://www.gimp.org/tutorials/3d_Logo/index.html>  
-<http://www.gimp.org/tutorials/Advanced_Animations/index.html>  
-<http://www.gimp.org/tutorials/Anti-Aliased_Threshold/index.html>  
+<del><http://www.gimp.org/tutorials/3d_Logo/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/3D_Logo/index.md)    
+<del><http://www.gimp.org/tutorials/Advanced_Animations/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Advanced_Animations/index.md)  
+<del><http://www.gimp.org/tutorials/Anti-Aliased_Threshold/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Anti-Aliased_Threshold/index.md)  
 <http://www.gimp.org/tutorials/Automate_Editing_in_GIMP/index.html>  
 <http://www.gimp.org/tutorials/AutomatedJpgToXcf/index.html>  
 <http://www.gimp.org/tutorials/Basic_Batch/index.html>  
@@ -215,10 +217,10 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 <http://www.gimp.org/tutorials/Tileable_Textures/index.html>  
 <http://www.gimp.org/tutorials/Using_GAP/index.html>  
 
-<http://www.gimp.org/unix/fonts.html>  
-<http://www.gimp.org/unix/gimprc.html>
-<http://www.gimp.org/unix/gtkrc.html>
-<http://www.gimp.org/unix/index.html>  
+<del><http://www.gimp.org/unix/fonts.html></del> [<i class="fa fa-link"></i>]({filename}../../unix/fonts.md)  
+<del><http://www.gimp.org/unix/gimprc.html></del> [<i class="fa fa-link"></i>]({filename}../../unix/fonts.md)  
+<http://www.gimp.org/unix/gtkrc.html>  
+<http://www.gimp.org/unix/index.html> (Obsoleted? Directs to downloads page...)  
 <http://www.gimp.org/unix/man-gimp-2.0.html>
 <http://www.gimp.org/unix/man-gimprc-2.0.html>
 <http://www.gimp.org/unix/man-gimp-remote-2.0.html>
@@ -229,4 +231,4 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 <http://www.gimp.org/unix/howtos/howto-template.html>  
 <http://www.gimp.org/unix/howtos/tile_cache.html>  
 
-<http://www.gimp.org/windows/index.html>  
+<http://www.gimp.org/windows/index.html> (Obsoleted? Directs to downloads page...)  
