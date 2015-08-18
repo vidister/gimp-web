@@ -159,12 +159,12 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 <del><http://www.gimp.org/tutorials/Automate_Editing_in_GIMP/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Automate_Editing_in_GIMP/index.md)  
 <del><http://www.gimp.org/tutorials/AutomatedJpgToXcf/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/AutomatedJpgToXcf/index.md)  
 <del><http://www.gimp.org/tutorials/Basic_Batch/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Basic_Batch/index.md)  
-<http://www.gimp.org/tutorials/Basic_Color_Curves/index.html>  
-<http://www.gimp.org/tutorials/Basic_Perl/index.html>  
-<http://www.gimp.org/tutorials/Basic_Scheme/index.html>  
-<http://www.gimp.org/tutorials/Basic_Scheme2/index.html>  
-<http://www.gimp.org/tutorials/Bezier_Selections/index.html>  
-<http://www.gimp.org/tutorials/Blending_Exposures/index.html>  
+<del><http://www.gimp.org/tutorials/Basic_Color_Curves/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Basic_Color_Curves/index.md)  
+<del><http://www.gimp.org/tutorials/Basic_Perl/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Basic_Perl/index.md)  
+<del><http://www.gimp.org/tutorials/Basic_Scheme/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Basic_Scheme/index.md)  
+<del><http://www.gimp.org/tutorials/Basic_Scheme2/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Basic_Scheme2/index.md)  
+<del><http://www.gimp.org/tutorials/Bezier_Selections/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Bezier_Selections/index.md)  
+<del><http://www.gimp.org/tutorials/Blending_Exposures/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Blending_Exposures/index.md)  
 <http://www.gimp.org/tutorials/Blown_Out_Highlights/index.html>  
 <http://www.gimp.org/tutorials/Blur_Overlays/index.html>  
 <http://www.gimp.org/tutorials/Borders_On_Selections/index.html>  

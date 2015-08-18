@@ -99,8 +99,10 @@ figure figcaption {
 
 .toc li ul {
     margin-bottom: 0;
+    margin-top: 0 !important;
 }
 
 .toc > ul > li {
-    margin-top: 1rem;
+    /* margin-top: 1rem;
+     */
 }

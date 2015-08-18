@@ -1,0 +1,55 @@
+#!/usr/bin/perl -w
+
+use Gimp;
+use Gimp::Fu;
+
+podregister {
+  my ($width, $height) = ($image->width, $image->height);
+  # Select a rectangle inside the image and paint it with color
+  $image->undo_group_start;
+  $image->select_rectangle(
+    CHANNEL_OP_REPLACE, $width/4, $height/4, $width/2, $height/2,
+  );
+  Gimp::Context->set_background($color);
+  $drawable->edit_fill(BACKGROUND_FILL);
+  $image->selection_none;
+  $image->undo_group_end;
+  ();
+};
+
+exit main;
+__END__
+
+=head1 NAME
+
+img_paint_select - Paints the selection
+
+=head1 SYNOPSIS
+
+<Image>/Filters/Tutorial/Paint Select
+
+=head1 DESCRIPTION
+
+Paints the selection
+
+=head1 PARAMETERS
+
+ [PF_COLOR, "color", "Rectangle color", [0,0,255]],
+
+=head1 RETURN VALUES
+
+=head1 IMAGE TYPES
+
+*
+
+=head1 AUTHOR
+
+Dov Grobgeld
+
+=head1 DATE
+
+1999-05-14
+
+=head1 LICENSE
+
+Dov Grobgeld
