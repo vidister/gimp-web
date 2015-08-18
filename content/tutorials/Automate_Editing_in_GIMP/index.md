@@ -5,7 +5,7 @@ Author: Stephen Kiel
 
 
 [![Creative Commons License](http://i.creativecommons.org/l/by-sa/3.0/80x15.png)](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US)  
-<span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - Luminosity Masks (text)</span> by <a rel="cc:attributionURL" xmlns:cc="http://creativecommons.org/ns#">Stephen Kiel</a> is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US). The code sources in this tutorial are licensed by Stephen Kiel under the conditions of the [GNU Public License GPL V3](https://www.gnu.org/copyleft/gpl.html).
+<span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - Automate Editing</span> by <a rel="cc:attributionURL" xmlns:cc="http://creativecommons.org/ns#">Stephen Kiel</a> is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US). The code sources in this tutorial are licensed by Stephen Kiel under the conditions of the [GNU Public License GPL V3](https://www.gnu.org/copyleft/gpl.html).
 
 ## Table of Contents
 
@@ -62,8 +62,12 @@ Suppose we wanted to set up the grid spacing so that it is centered on the image
     >>> pdb.gimp_image_grid_set_style(theImage, GRID_ON_OFF_DASH)
 
 
-<div class="caption">![CommandsPythonConsole.jpg](CommandsPythonConsole.jpg)  
-<span>Commands in the Python Console</span></div>
+<figure>
+<img src="CommandsPythonConsole.jpg" alt="CommandsPythonConsole.jpg" />
+<figcaption> 
+Commands in the Python Console
+</figcaption> 
+</figure>
 
 If you watch the image as you enter the commands and have the Grid turned “ON” you will see the grid spacing on the active image change as we execute these commands.
 
@@ -80,15 +84,19 @@ Let's touch upon the main ideas that we are going to use to implement the macro 
 3.  From the named Macro, the data structure will return a list of commands.
 4.  The list of commands will be run in an 'exec' loop:
 
-<div class="caption"><span style="font-style: italic">Example - “Exec” Loop</span>
+Example "Exec" Loop:
 
-<pre class="code" style="text-align: left;">    for Cmd in commandList:
-        exec(Cmd)</pre>
+    for Cmd in commandList:
+        exec(Cmd)
 
-</div>
 
-<div class="caption">![CommanderMacroSubMenu.jpg](CommanderMacroSubMenu.jpg)  
-<span>Commander Macro Sub-Menu</span></div>
+
+<figure>
+<img src="CommanderMacroSubMenu.jpg" alt="CommanderMacroSubMenu.jpg" />
+<figcaption> 
+Commander Macro Sub-Menu
+</figcaption> 
+</figure>
 
 ### Architecture
 
@@ -124,25 +132,24 @@ A final thing that we need to talk about that is not a 'category' of execution b
 *   An architectural advantage is we create this list with a function that reads a configuration file. We only have to define and maintain this configuration list in one place within our system and use the resulting list in as many places as we want by calling a reading function. This is how we will get new macros to show up in the menus when we add them.
 *   The following skeletal code fragments illustrate defining a list 'cmdList' at the top level – 'main', and using it within the registration block and function. Because it is defined at the ‘main’ level, we can reference it within the function and registration block. We can recover the argument from the index (passed by the widget) because we are using the same list in both places:
 
-<div class="caption"><span style="font-style: italic">Example - Lists and Scope in Functions</span>
+<span style="font-style: italic">Example - Lists and Scope in Functions</span>
 
-<pre class="code" style="text-align: left;">cmdList = cmdrReadObj.CommanderMacros()
-#
-def autoCommander(theImage, cmdListIndex):
-    ...
-    commanderName = cmdList[cmdListIndex]
-    ...     
-#
-register (
-    "autoCommander",         # Name registered in Procedure Browser
-    ...
-    [
-    ...
-    ( PF_OPTION, "cmdSet", "Select a command", 0, cmdList ),
-    ],
-main()</pre>
+    cmdList = cmdrReadObj.CommanderMacros()
+    #
+    def autoCommander(theImage, cmdListIndex):
+        ...
+        commanderName = cmdList[cmdListIndex]
+        ...     
+    #
+    register (
+        "autoCommander",         # Name registered in Procedure Browser
+        ...
+        [
+        ...
+        ( PF_OPTION, "cmdSet", "Select a command", 0, cmdList ),
+        ],
+    main()
 
-</div>
 
 ### Data Model
 
@@ -156,18 +163,22 @@ Python has several built in data structures such as dictionaries, lists to name 
 2.  A branch can hold an indefinite number of elements, and those elements can be either a leaf with attributes or a sub-branch to another level. This lends a lot of flexibility with the way we structure of the data.
 3.  The input / output format is XML, which is not only hierarchical, but it is text so it is human readable and portable to any platform (computer / OS).
 
-<div class="caption">![XmlHierarchyContainers.jpg](XmlHierarchyContainers.jpg)  
-<span>XML Hierarchy - Containers</span></div>
+<figure>
+<img src="XmlHierarchyContainers.jpg" alt="XmlHierarchyContainers.jpg" />
+<figcaption> 
+XML Hierarchy - Containers
+</figcaption> 
+</figure>
 
 The examples use ElementTree to read and write the data between trees and XML. ElementTree is included with Python and described in the Python documentation, so we will not go into detail about the mechanics of tree structures here.
 
 You might be wondering at this point where these XML file will be located. The functions that read and write the XML files are expecting to find the XML under a directory named ‘myXml’ which you will have to create under you user gimp directory. If you are using Linux and your home directory is ‘stephen’ the path would look something like:
 
-<pre class="code">/home/stephen/.gimp-2.8/myXml</pre>
+    /home/stephen/.gimp-2.8/myXml
 
 If you are using Windows the path would look something like:
 
-<pre class="code">C:\Users\stephen\.gimp-2.8\myXml</pre>
+    C:\Users\stephen\.gimp-2.8\myXml
 
 We will be dealing with a couple of types of pseudo code and xml files, and those will be keep in separate directories under myXml, but we will get to that in a bit.
 
@@ -183,60 +194,66 @@ We can begin writing a pseudo code file by copying and pasting a set of commands
 
 The pseudo code will be in a file, in this example it is named NormalGridCanvas.def. Each line begins with a keyword. Keyword choices are: “commander>”, “macro>”, “comment>”, or “>>>”.
 
-The class XmlGenerator() in autoBase.py contains a function GenCommanderXml() which reads all of the *.def files in ~/.gimp-2.8/myXml/commander, inserts the lines into a tree (after removing the keyword), and then writes the tree out to a file named combinedCommander.xml.
+The class XmlGenerator() in autoBase.py contains a function GenCommanderXml() which reads all of the \*.def files in ~/.gimp-2.8/myXml/commander, inserts the lines into a tree (after removing the keyword), and then writes the tree out to a file named combinedCommander.xml.
 
 The keyword will determine both the “tag” associated with the line of pseudo code, and whether it is a “branch” element (macro name) or a “leaf” element (command or comment). We are assigning both a definition and a level in the hierarchy for each line of pseudo code text as we read it into the tree.
 
-<div class="caption"><span style="font-style: italic">Example - Pseudo Code Example - NormalGridCanvas.def</span>
+*Example - Pseudo Code Example - NormalGridCanvas.def*
 
-<pre class="code" style="text-align: left; margin-right: 1em;">commander>Normal Grid and Canvas
-   macro>
-      comment>Shrink the Canvas back to fit the layer
-      >>>theImage.resize_to_layers()
-      comment>Set grid to origin and size = image
-      >>>pdb.gimp_image_grid_set_offset(theImage, 0, 0)
-      >>>pdb.gimp_image_grid_set_spacing(theImage, theImage.width, theImage.height)</pre>
+    commander>Normal Grid and Canvas
+       macro>
+          comment>Shrink the Canvas back to fit the layer
+          >>>theImage.resize_to_layers()
+          comment>Set grid to origin and size = image
+          >>>pdb.gimp_image_grid_set_offset(theImage, 0, 0)
+          >>>pdb.gimp_image_grid_set_spacing(theImage, theImage.width, theImage.height)
 
-</div>
 
-After all of the *.def files are read into the tree and written back out in the form of an XML file, the formatting is done. Writing out a tree automatically generates all of the containing enclosures, essentially making properly formatting the XML a trivial task. The fragment from combinedCommander.xml illustrates the XML from the pseudo code in NormalGridCanvas.def.
+After all of the \*.def files are read into the tree and written back out in the form of an XML file, the formatting is done. Writing out a tree automatically generates all of the containing enclosures, essentially making properly formatting the XML a trivial task. The fragment from combinedCommander.xml illustrates the XML from the pseudo code in NormalGridCanvas.def.
 
-<div class="caption"><span style="font-style: italic">Example - combinedCommander.xml (fragment)</span>
+<span style="font-style: italic">Example - combinedCommander.xml (fragment)</span>
 
-<pre class="code" style="text-align: left; margin-right: 1em;"><combined>
-  Definition
- ...
-  <commander>
-    Normal Grid and Canvas
-    <comment>
-      Shrink the Canvas back to fit the layer
-    </comment>
-    <command>
-      theImage.resize_to_layers()
-    </command>
-    <comment>
-      Set grid to origin and size = image
-    </comment>
-    <command>
-      pdb.gimp_image_grid_set_offset(theImage, 0, 0)
-    </command>
-    <command>
-      pdb.gimp_image_grid_set_spacing(theImage, theImage.width, theImage.height)
-    </command>
-  </commander>
-  ...
-</combined>
-        </pre>
+    <combined>
+      Definition
+     ...
+      <commander>
+        Normal Grid and Canvas
+        <comment>
+          Shrink the Canvas back to fit the layer
+        </comment>
+        <command>
+          theImage.resize_to_layers()
+        </command>
+        <comment>
+          Set grid to origin and size = image
+        </comment>
+        <command>
+          pdb.gimp_image_grid_set_offset(theImage, 0, 0)
+        </command>
+        <command>
+          pdb.gimp_image_grid_set_spacing(theImage, theImage.width, theImage.height)
+        </command>
+      </commander>
+      ...
+    </combined>
 
-<span style="font-style: italic;">* The XML above was run through an online XML pretty printer for readability. The XML from ElementTree is functional, but hard to read.</span></div>
+_\* The XML above was run through an online XML pretty printer for readability. The XML from ElementTree is functional, but hard to read._
 
-<div class="caption">![PseudoCodetoXmlFunction.jpg](PseudoCodetoXmlFunction.jpg)  
-<span>Creating XML from *.def files</span></div>
+<figure markdown="span">
+<img src="PseudoCodetoXmlFunction.jpg" alt="PseudoCodetoXmlFunction.jpg" />
+<figcaption>
+Creating XML from \*.def files
+</figcaption>
+</figure>
 
 The Xml generator can be called from a GUI menu.
 
-<div class="caption">![PseudoCodeImported.jpg](PseudoCodeImported.jpg)  
-<span>Xml files built</span></div>
+<figure>
+<img src="PseudoCodeImported.jpg" alt="PseudoCodeImported.jpg" />
+<figcaption> 
+Xml files built
+</figcaption> 
+</figure>
 
 ### Displaying the Macro Names in a Menu
 
@@ -263,7 +280,7 @@ The discussion above has described how we can generate a macro by running a set 
 
 The code for transforming the pseudo code into a macro is in autoWriteXml.py. The code to display the menu of Macros you have written and execute them is in autoCommander.py. The Classes referenced by these two scripts are in autoBase.py.
 
-The text files that you write for your macro definition need to be put in a directory ~/.gimp-2.x/myXml/commander and have an extension of '.def'. Create a separate *.def file for each macro.
+The text files that you write for your macro definition need to be put in a directory ~/.gimp-2.x/myXml/commander and have an extension of '.def'. Create a separate \*.def file for each macro.
 
 ## An Introduction to Automated Editing
 
@@ -318,29 +335,28 @@ There are two special types of data for the automated flow:
 
 ### The Image and Parasites (or Property) Data
 
-The Image type that we will be using for all of our work is the native Gimp *.xcf format. This image format saves all of the layers and modes that we might set while editing and also saves a type of data called Parasites, which are similar to Properties on many other systems.
+The Image type that we will be using for all of our work is the native Gimp \*.xcf format. This image format saves all of the layers and modes that we might set while editing and also saves a type of data called Parasites, which are similar to Properties on many other systems.
 
 Parasites are like variable can be referenced by name in order to access their value. Like variables they can be assigned and read. Unlike variables, parasites are persistent, very persistent. A parasite, when assigned to an image, becomes part of the image and is saved with the image file. A parasite that is assigned and saved with an image can be read after gimp is closed and reopened, it is just like any other file data in that respect.
 
-Parasites are also very portable, you can read and write parasites using either the scheme based or python based scripts. They are also independent of the operating system, so you can write a parasite to an image on your Linux Desktop machine, and read it a week later on your windows based laptop assuming that you saved the images in the native gimp *.xcf file format. Parasites can also be written to specific layers, but for our present needs, the image parasites are all we are using.
+Parasites are also very portable, you can read and write parasites using either the scheme based or python based scripts. They are also independent of the operating system, so you can write a parasite to an image on your Linux Desktop machine, and read it a week later on your windows based laptop assuming that you saved the images in the native gimp \*.xcf file format. Parasites can also be written to specific layers, but for our present needs, the image parasites are all we are using.
 
 Because the parasite is associated with the image, and it is persistent until it is overwritten or removed, it is an ideal tool for keeping track of the state of the image's progress in the editing process. Beyond being able to just take notes, the values of the parasites can be used like a property to make decisions and influence the execution of the script that has read the parasite data.
 
 If for example we opened an image that had two parasites (properties), named 'UpdateFlag' and 'Flow', we could use the values from those parasites to make decisions:
 
-<div class="caption"><span style="font-style: italic">Example – Decisions based on Parasite / Property Values</span>
+_Example – Decisions based on Parasite / Property Values_
 
-<pre class="code" style="text-align: left;">UpdateFlag = str(theImage.parasite_find('UpdateFlag'))
-Flow = str(theImage.parasite_find('Flow'))
-if (UpdateFlag == 'YES'):
-	if (Flow == 'Standard'):
-		{ run commands for Standard flow }
-	elif (Flow == 'SemiAuto'):
-		{ run commands for SemiAuto Flow }
-elif (UpdateFlag == 'NO'):
-	{ do nothing }</pre>
+    UpdateFlag = str(theImage.parasite_find('UpdateFlag'))
+    Flow = str(theImage.parasite_find('Flow'))
+    if (UpdateFlag == 'YES'):
+        if (Flow == 'Standard'):
+            { run commands for Standard flow }
+        elif (Flow == 'SemiAuto'):
+            { run commands for SemiAuto Flow }
+    elif (UpdateFlag == 'NO'):
+        { do nothing }
 
-</div>
 
 Reading and writing parasites to an image does have one idiosyncrasy worth comment on which is the format of the data being written. You must express the parasite as an ordered set of 'Name', 'Index', and 'Value'. Name and Value are both strings, and the Index is a small integer, (stay between 1 and 254). If you have not used parasites before you might be wondering how you determine a 'correct' value for the index. You may:
 
@@ -365,8 +381,12 @@ The mechanics for creating XML from pseudo code for the workflows, properties, a
 
 The export XCF to JPG function in the “Automation” menu opens each xcf file in the source / work directory and looks at the properties of the image. If the image is “Finished”, at the end of the flow, it is exported. The images that are still being work on are left alone.
 
-<div class="caption">![RunningAutoUpdate.jpg](RunningAutoUpdate.jpg)  
-<span>Running AutoUpdate</span></div>
+<figure>
+<img src="RunningAutoUpdate.jpg" alt="RunningAutoUpdate.jpg" />
+<figcaption>
+Running AutoUpdate
+</figcaption>
+</figure>
 
 ## Automation Tool Implementation – Details
 
@@ -374,11 +394,11 @@ The export XCF to JPG function in the “Automation” menu opens each xcf file 
 
 #### Workflow Pseudo Code
 
-You can generate the list of commands that we wish to perform on an image in the python console and when you have it working just right for the step you would like to perform you can copy and paste them into a pseudo code text file. The “Pseudocode to XML” function will be looking for files that have the file extension “.def” so it will convert all of the *.def files in the flow directory into XML.
+You can generate the list of commands that we wish to perform on an image in the python console and when you have it working just right for the step you would like to perform you can copy and paste them into a pseudo code text file. The “Pseudocode to XML” function will be looking for files that have the file extension “.def” so it will convert all of the \*.def files in the flow directory into XML.
 
 As in the case of the macros, you can put in comment lines beginning with “comment>” and blank lines to make the code fragments more readable and easier to understand when you come back to make enhancements in a couple of months.
 
-Each set of commands is contained by a “Step” which uses the key “step>”. The top level container is the Workflow which uses the key “flow>”. Each workflow can be specified in its own “.def” file. The “Pseudocode to XML” function will read all of the *.def files and create a single XML file named combinedFlow.xml in the myXml/flow directory.
+Each set of commands is contained by a “Step” which uses the key “step>”. The top level container is the Workflow which uses the key “flow>”. Each workflow can be specified in its own “.def” file. The “Pseudocode to XML” function will read all of the \*.def files and create a single XML file named combinedFlow.xml in the myXml/flow directory.
 
 #### Property / Parasite Pseudo Code
 
@@ -388,8 +408,12 @@ There are three properties that are assigned by the automation scripts and are n
 
 You can see all of the properties and current assigned values for a particular image using the menu function “Automation” -> “A1) Display Assigned Parasites (File)”.
 
-<div class="caption">![ParasitesImage.jpg](ParasitesImage.jpg)  
-<span>Assigned Parasites</span></div>
+<figure>
+<img src="ParasitesImage.jpg" alt="ParasitesImage.jpg" />
+<figcaption>
+Assigned Parasites
+</figcaption>
+</figure>
 
 ### Properties and Image State – Flow Control Parasites
 
@@ -399,95 +423,66 @@ The Flow Control Parasites provide a method to make each image “self aware” 
 
 Let's examine the steps of the “Standard” flow example that is included with this tutorial. The steps the image will go through are:
 
-<div class="caption"><span style="font-style: italic">Example – States or Steps in the Standard Flow Example</span>
+<span style="font-style: italic">Example – States or Steps in the Standard Flow Example</span>
+
+<style>
+table {
+max-width: 40rem;
+font-size: 0.85rem;
+margin: 1rem auto;
+}
+table td {
+    padding: 0.25rem;
+    border: solid 1px #eee;
+}
+
+</style>
 
 <table>
-
 <tbody>
-
 <tr>
-
+<th></th>
 <td class="emphesize">CurrentStep</td>
-
 <td class="emphesize">NextStep</td>
-
 </tr>
-
 <tr>
-
 <th>1.</th>
-
 <td>First</td>
-
 <td>Alignment</td>
-
 </tr>
-
 <tr>
-
 <th>2.</th>
-
 <td>Alignment</td>
-
 <td>DynamicRange</td>
-
 </tr>
-
 <tr>
-
 <th>3.</th>
-
 <td>DynamicRange</td>
-
 <td>Retinex-Filter</td>
-
 </tr>
-
 <tr>
-
 <th>4.</th>
-
 <td>Retinex-Filter</td>
-
 <td>Sharpen</td>
-
 </tr>
-
 <tr>
-
 <th>5.</th>
-
 <td>Sharpen</td>
-
 <td>ColorAdjust</td>
-
 </tr>
-
 <tr>
-
 <th>6.</th>
-
 <td>ColorAdjust</td>
-
 <td>FINISHED</td>
-
 </tr>
-
 <tr>
-
 <th>7.</th>
-
 <td>FINISHED</td>
-
 <td>FINISHED</td>
-
 </tr>
-
 </tbody>
-
 </table>
 
-</div>
 
 The state “First” is assigned by the Jpeg to Xcf function. This step is assigned automatically regardless of the flow. The steps following the “First” step, “Alignment”, “DynamicRange”, “Retinex-Filter”, “Sharpen”, and “ColorAdjust” are assigned through the Xml representation of the flow. The Step “FINISHED” is assigned automatically when the end of the list of steps is reached.
 
@@ -513,19 +508,26 @@ Using an automated workflow has changed the way that I use Gimp for editing my p
 
 ## Appendix – Notes
 
-The following Appendices contain notes which are more specific to setting up the example scripts, the example *.def files, and comments on debugging.
+The following Appendices contain notes which are more specific to setting up the example scripts, the example \*.def files, and comments on debugging.
 
 ### Setting up the Example Scripts
 
 All of the example scripts begin with “auto”, e.g. autoAutoUpdate.py, autoBase.py, ... If you try them but then decide you don't like them they should be pretty easy to find and remove. The following example scripts should be loaded into your gimp/plug-ins directory. Something like /home/stephen/.gimp-2.8/plug-ins if your user name is stephen and you were using gimp 2.8\. Click on the filename to download.
 
-1.  [autoAutoUpdate.py](plug-ins/autoAutoUpdate.py) - Runs the auto update function on a directory of images.
-2.  [autoBase.py](plug-ins/autoBase.py) - Contains the classes that read and write the XML files that affect how the update works.
-3.  [autoCommander.py](plug-ins/autoCommander.py) - Runs the 'Commander' macros.
-4.  [autoJpegToXcf.py](plug-ins/autoJpegToXcf.py) - Imports the images into xcf format and assigns properties to image.
-5.  [autoRWparasites.py](plug-ins/autoRWparasites.py) - User Interface functions to read and write image parasites from the menu.
-6.  [autoWriteXml.py](plug-ins/autoWriteXml.py) - Reads *.def files and generates XML for commander macros, workflows, and properties.
-7.  [autoXcfToJpg.py](plug-ins/autoXcfToJpg.py) – Exports the finished images back to jpeg format.
+1.  [autoAutoUpdate.py](plug-ins/autoAutoUpdate.py)  
+    Runs the auto update function on a directory of images.
+2.  [autoBase.py](plug-ins/autoBase.py)  
+    Contains the classes that read and write the XML files that affect how the update works.
+3.  [autoCommander.py](plug-ins/autoCommander.py)  
+    Runs the 'Commander' macros.
+4.  [autoJpegToXcf.py](plug-ins/autoJpegToXcf.py)  
+    Imports the images into xcf format and assigns properties to image.
+5.  [autoRWparasites.py](plug-ins/autoRWparasites.py)  
+    User Interface functions to read and write image parasites from the menu.
+6.  [autoWriteXml.py](plug-ins/autoWriteXml.py)  
+    Reads \*.def files and generates XML for commander macros, workflows, and properties.
+7.  [autoXcfToJpg.py](plug-ins/autoXcfToJpg.py)  
+    Exports the finished images back to jpeg format.
 
 ### Setting up the Example Pseudo Code
 
@@ -533,7 +535,7 @@ Underneath your gimp directory (something like /home/stephen/.gimp-2.8) you need
 
 #### Pseudo Code for Commander Macros
 
-Copy the following example *.def files into the “commander” directory (/home/stephen/.gimp-2.8/myXml/commander – assuming a home directory of /user/stephen and a gimp version 2.8). They are example Commander Macros pseudo code files. Click on the filename to download.
+Copy the following example \*.def files into the “commander” directory (/home/stephen/.gimp-2.8/myXml/commander – assuming a home directory of /user/stephen and a gimp version 2.8). They are example Commander Macros pseudo code files. Click on the filename to download.
 
 1.  [centeredgrid.def](myXml/commander/centeredgrid.def)
 2.  [colorAdjust.def](myXml/commander/colorAdjust.def)
@@ -547,11 +549,11 @@ Copy the following example *.def files into the “commander” directory (/home
 
 Hopefully with the comments and by running them, their function will be apparent. They should be enough to get you started writing some macros of your own.
 
-When you run the “Pseudocode to XML” Utility function, it will read all of the *.def files in this directory and write an XML file in this directory called “combinedCommander.xml”. “combinedCommander.xml” is the file that is accessed to list and run all of your macros.
+When you run the “Pseudocode to XML” Utility function, it will read all of the \*.def files in this directory and write an XML file in this directory called “combinedCommander.xml”. “combinedCommander.xml” is the file that is accessed to list and run all of your macros.
 
 #### Pseudo Code for Automation Workflows
 
-Copy the following *.def files into the “flow” directory (/home/stephen/.gimp-2.8/myXml/flow). They are example Workflow pseudo code files.
+Copy the following \*.def files into the “flow” directory (/home/stephen/.gimp-2.8/myXml/flow). They are example Workflow pseudo code files.
 
 1.  [fullauto.def](myXml/flow/fullauto.def)
 2.  [semiauto.def](myXml/flow/semiauto.def)
@@ -559,15 +561,15 @@ Copy the following *.def files into the “flow” directory (/home/stephen/.gim
 
 These three workflows all follow the same basicsteps of the standard workflow. The semiauto and fullauto workflows combine some of the steps. The idea is to give you a couple of different workflows to play with. The fullauto illustrates that you really can pack a lot of editing into a “step” but is probably too automatic to be of practical use.
 
-When you run the “Pseudocode to XML” Utility function, it will read all of the *.def files in this directory and write an XML file in this directory called “combinedFlow.xml”.
+When you run the “Pseudocode to XML” Utility function, it will read all of the \*.def files in this directory and write an XML file in this directory called “combinedFlow.xml”.
 
 #### Pseudo Code for Properties
 
-Copy the following *.def file into the “property” directory (/home/stephen/.gimp-2.8/myXml/property). It is an example Property pseudo code file (for Flag Properties / Parasites).
+Copy the following \*.def file into the “property” directory (/home/stephen/.gimp-2.8/myXml/property). It is an example Property pseudo code file (for Flag Properties / Parasites).
 
 1.  [flagProperties.def](myXml/property/flagProperties.def)
 
-When you run the “Pseudocode to XML” Utility function, it will read *.def file in this directory and write an XML file in this directory called “flagProperties.xml”.
+When you run the “Pseudocode to XML” Utility function, it will read \*.def file in this directory and write an XML file in this directory called “flagProperties.xml”.
 
 ### Pseudo Code Syntax
 
@@ -575,26 +577,25 @@ When you run the “Pseudocode to XML” Utility function, it will read *.def fi
 
 There are three keywords used for writing commander pseudo code:
 
-1.  **commander>** - The text following this keyword is the Macro Name. This keyword must be the first keyword in the file. This is the “container” or the root of the tree for the following comments and commands.
-2.  **comment>** - The text following this keyword is for descriptive comments. The comments will be represented in the pseudo code *.def file and in the resulting XML. When the XML is read for processing, comments will be ignored.
-3.  **>>>** - The text following this keyword is taken as a python statement. Then the resulting XML is read, the command statements will be passed to the commander script to be processed in order.
+1.  `commander>` - The text following this keyword is the Macro Name. This keyword must be the first keyword in the file. This is the “container” or the root of the tree for the following comments and commands.
+2.  `comment>` - The text following this keyword is for descriptive comments. The comments will be represented in the pseudo code \*.def file and in the resulting XML. When the XML is read for processing, comments will be ignored.
+3.  `>>>` - The text following this keyword is taken as a python statement. Then the resulting XML is read, the command statements will be passed to the commander script to be processed in order.
 
 Note that lines beginning with “#” are ignored. You may indent if you like for readability. Leading white space is stripped off.
 
-<div class="caption"><span style="font-style: italic">Example - Commander Pseudo Code Example</span>
+_Example - Commander Pseudo Code Example_
 
-<pre class="code" style="text-align: left; margin-right: 1em;">commander>Centered Grid
-   comment>** Set up the grid for Rotate and or Perspective Transform
-   comment>*    Set values from python-fu image object
-   >>>centerX = theImage.width/2
-   >>>centerY = theImage.height/2
-   >>>gridSpacing = max(theImage.width, theImage.height)/24
-   comment>*    configure grid with PDB functions
-   >>>pdb.gimp_image_grid_set_offset(theImage, centerX, centerY)
-   >>>pdb.gimp_image_grid_set_spacing(theImage, gridSpacing, gridSpacing)
-   >>>pdb.gimp_image_grid_set_style(theImage, GRID_ON_OFF_DASH)</pre>
+    commander>Centered Grid
+       comment>** Set up the grid for Rotate and or Perspective Transform
+       comment>*    Set values from python-fu image object
+       >>>centerX = theImage.width/2
+       >>>centerY = theImage.height/2
+       >>>gridSpacing = max(theImage.width, theImage.height)/24
+       comment>*    configure grid with PDB functions
+       >>>pdb.gimp_image_grid_set_offset(theImage, centerX, centerY)
+       >>>pdb.gimp_image_grid_set_spacing(theImage, gridSpacing, gridSpacing)
+       >>>pdb.gimp_image_grid_set_style(theImage, GRID_ON_OFF_DASH)
 
-</div>
 
 #### Property Pseudo Code
 
@@ -602,40 +603,39 @@ There are five keywords used for writing property pseudo code:
 
 1.  **flags** - The text following this keyword is the top level container, or in other words, the root of the tree.
 2.  **property** - The text following the keyword is the name of the property / parasite. This is a second level container or a branch of the tree. It will contain all of the following leaf keywords (comment, default, and option) until the next property statement.
-3.  **comment** - The text following this keyword is for descriptive comments. The comments will be represented in the pseudo code *.def file and in the resulting XML. When the XML is read for processing, comments will be ignored. The comments are leafs of the tree.
+3.  **comment** - The text following this keyword is for descriptive comments. The comments will be represented in the pseudo code \*.def file and in the resulting XML. When the XML is read for processing, comments will be ignored. The comments are leafs of the tree.
 4.  **default** - The text following this keyword is the default property value. The default value is a leaf of the tree.
 5.  **option** - The text following this keyword is one of the possible property values. There can be several option values for any given property. The option values are leafs of the tree.
 
-<div class="caption"><span style="font-style: italic">Example - Property Pseudo Code Example</span>
+_Example - Property Pseudo Code Example_
 
-<pre class="code" style="text-align: left; margin-right: 1em;">flags>Control Properties
-property>UpdateFlag
-    comment>Initial value set on import to Xcf
-    comment>Set by user on Image from Automation Menu
-    comment>Read by autoAutoUpdate (updateImage function)
-    comment>Updates Image (executes Next Step in Flow) if YES
-    comment>Reset to NO by updateImage
-    default>YES
-    option>NO
-    option>YES
+    flags>Control Properties
+    property>UpdateFlag
+        comment>Initial value set on import to Xcf
+        comment>Set by user on Image from Automation Menu
+        comment>Read by autoAutoUpdate (updateImage function)
+        comment>Updates Image (executes Next Step in Flow) if YES
+        comment>Reset to NO by updateImage
+        default>YES
+        option>NO
+        option>YES
 
-property>EnhanceColorLevel
-    default>NORMAL
-    option>EXTRA
-    option>NORMAL
-    option>MID
-    option>NONE</pre>
+    property>EnhanceColorLevel
+        default>NORMAL
+        option>EXTRA
+        option>NORMAL
+        option>MID
+        option>NONE
 
-</div>
 
 #### Flow Pseudo Code
 
 There are four keywords used for writing flow pseudo code:
 
-1.  **flow** The text following this keyword is the top level container, or in other words, the root of the tree. This is the name of the flow.
-2.  **step** The text following this keyword is the first level branch from the root. The step contains comments and commands. The steps select groups of commands for execution.
-3.  **comment** Comments are leafs of the tree.
-4.  **>>>** Commands are leafs of the tree. When the Xml is read the commands will be processed in the order in which they appear in the step.
+1.  `flow` The text following this keyword is the top level container, or in other words, the root of the tree. This is the name of the flow.
+2.  `step` The text following this keyword is the first level branch from the root. The step contains comments and commands. The steps select groups of commands for execution.
+3.  `comment` Comments are leafs of the tree.
+4.  `>>>` Commands are leafs of the tree. When the Xml is read the commands will be processed in the order in which they appear in the step.
 
 Lines beginning with a “#” are ignored. Leading white space before the keywords is stripped out. White space after the keyword is stripped out.
 
@@ -645,13 +645,13 @@ The Python-Fu console is a python shell in which you can run not only the gimp p
 
 First, set up and verify Python Path to include your user plug-ins directory:
 
-<div class="caption"><span style="font-style: italic;">Example – Setting the Python path in the Python-Fu Console</span>
+_Example – Setting the Python path in the Python-Fu Console_
 
-<pre class="code" style="text-align: left; margin-right: 1em;">>>> import sys
->>> sys.path.append('/home/stephen/.gimp-2.8/plug-ins/')
->>> sys.path</pre>
+    >>> import sys
+    >>> sys.path.append('/home/stephen/.gimp-2.8/plug-ins/')
+    >>> sys.path
 
-<span style="font-style: italic;">echos back a list of paths that include path added above</span></div>
+_echos back a list of paths that include path added above_
 
 Next, run your python functions in the Gimp Python-Console . This example uses the 'TestBench' class to run functions in the other classes in the autoBase.py module. Object instances of the TestBench class echo back results to the screen.
 
@@ -660,26 +660,27 @@ Next, run your python functions in the Gimp Python-Console . This example uses t
 3.  Create and instance of the TestBench class
 4.  Run the TestXmlGen and TestXmlRead functions
 
-<div class="caption"><span style="font-style: italic;">Example – Running your own Functions in the Python-Fu Console</span>
+_Example – Running your own Functions in the Python-Fu Console_
 
-<pre class="code" style="text-align: left; margin-right: 1em;">>>> import os
->>> os.chdir('/home/stephen/.gimp-2.8/plug-ins')
->>> from autoBase import *
->>> testola = TestBench()
->>> testola.TestXmlGen()
->>> testola.TestXmlRead()</pre>
+    >>> import os
+    >>> os.chdir('/home/stephen/.gimp-2.8/plug-ins')
+    >>> from autoBase import *
+    >>> testola = TestBench()
+    >>> testola.TestXmlGen()
+    >>> testola.TestXmlRead()
 
-</div>
 
 The screen shot below illustrates the process on the Windows version of Gimp / Python Console (TestXmlGen is pictured, TestXmlRead produces several pages of output):
 
-<div class="caption">![Appendix-testing-in-python-console.JPG](Appendix-testing-in-python-console.JPG)  
-<span>Image - Running your code in the Gimp Python Console</span></div>
+<figure>
+<img src="Appendix-testing-in-python-console.JPG" alt="Appendix-testing-in-python-console.JPG" />
+<figcaption>
+Image - Running your code in the Gimp Python Console
+</figcaption>
+</figure>
 
 ## Further Reading
 
 *   [Automated JPG to XCF](../AutomatedJpgToXcf)
 
-<div style="text-align: left;">[![Creative Commons License](http://i.creativecommons.org/l/by-sa/3.0/80x15.png)](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US)  
-<span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - Luminosity Masks (text)</span> by <a rel="cc:attributionURL" xmlns:cc="http://creativecommons.org/ns#">Stephen Kiel</a> is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US). The code sources in this tutorial are licensed by Stephen Kiel under the conditions of the [GNU Public License GPL V3](https://www.gnu.org/copyleft/gpl.html).</div>
-
+<a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US" rel="license"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" style="border-width:0"></a><br><span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - Automate Editing</span> by <a rel="cc:attributionURL" xmlns:cc="http://creativecommons.org/ns#">Stephen Kiel</a> is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US" rel="license">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. The code sources in this tutorial are licensed by Stephen Kiel under the conditions of the <a href="https://www.gnu.org/copyleft/gpl.html">GNU Public License GPL V3</a>.
