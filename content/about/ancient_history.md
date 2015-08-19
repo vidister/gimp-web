@@ -84,7 +84,7 @@ In the new system, there are designated team members; Manish Singh (yosh), for e
 
 In the past year or so, several very specific sites have sprung up that are meant to cater to a particular crowd of the GIMP user and developer base.
 
-On April 13th, 1997, <http://xach.dorknet.com/gimp/news/>GIMP News was born. Zach headed this effort. This site aimed to become a site to check daily if you wanted to stay on the bleeding edge of GIMP development. If you made a plug-in, Zach found out and told the world about it. If a new release was made, it often beat the mailing list in getting the news to you. His tutorials and a bug report form (added later) were linked off of the news page.
+On April 13th, 1997, <http://xach.dorknet.com/gimp/news/>, GIMP News was born. Zach headed this effort. This site aimed to become a site to check daily if you wanted to stay on the bleeding edge of GIMP development. If you made a plug-in, Zach found out and told the world about it. If a new release was made, it often beat the mailing list in getting the news to you. His tutorials and a bug report form (added later) were linked off of the news page.
 
 At about the same time, a huge help in keeping track of the large quantity of plug-ins and planned plug-ins appeared on the horizon. The [GIMP Plug-In Registry](http://registry.gimp.org/) allows authors to update their plug-ins, and people to register their plans for future plug-ins. If you are a plug-in author, you register it here; it stays up-to-date this way, and as a user you can download and compile the newest plug-ins that are not included in the distribution selectively. There's even a 'shopping list' that will tar up the ones you want and send them all at once.
 
