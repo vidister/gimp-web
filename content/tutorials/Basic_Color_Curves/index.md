@@ -136,7 +136,7 @@ A slight “S” curve
 This will now cause dark values to become even darker, while the light values get a small boost. The curve still passes through the midpoint, so middle tones will stay closer to what they were.
 
 <figure>
-<noscript><img alt="" class="comp" src="flickr-qsimple-5636649561-original.jpg" alt="Hollow Moon Example" /></noscript>
+<noscript><img class="comp" src="flickr-qsimple-5636649561-original.jpg" alt="Hollow Moon Example" /></noscript>
 <img src="flickr-qsimple-5636649561-slight-s.jpg" alt="Hollow Moon Example S curve applied" data-swap-src="flickr-qsimple-5636649561-original.jpg" class="comp" />
 <figcaption>Slight “S” curve increases global contrast (click for original).
 <noscript><br /> (Original on left)</noscript>
@@ -158,7 +158,7 @@ So how does this apply to other channels? Let’s have a look.
 The exact same theory applies in the RGB channels as it did with values. The relative positions of the darks, midtones, and lights are still the same in the curve dialog. The primary difference now is that you can control the contribution of color in specific tonal regions of your image.
 
 <figure>
-<img src="curves-dialog-value-rgb-select.png" alt="" >
+<img src="curves-dialog-value-rgb-select.png" alt="RGB Select" >
 <figcaption>
 Value, Red, Green, Blue channel picker.
 </figcaption>
@@ -173,14 +173,14 @@ For example, perhaps we wanted to “cool” down the shadows of our image. “C
 To try this, let’s adjust the **Blue** channel to be a little more prominent in the darker tones of our image, but to get back to normal around the midtones and lighter.
 
 <figure>
-<img src="curves-dialog-darks-blue-boost.png" alt="" >
+<img src="curves-dialog-darks-blue-boost.png" alt="Darks Blue Boost" >
 <figcaption>
 Boosting blues in darker tones
 </figcaption>
 </figure>
 
 <figure>
-<noscript><img alt="" class="comp" src="flickr-qsimple-5636649561-original.jpg" /></noscript>
+<noscript><img alt="Original" class="comp" src="flickr-qsimple-5636649561-original.jpg" /></noscript>
 <img src="flickr-qsimple-5636649561-dark-blue-boost.jpg" alt="Dark Blue Boost" class="comp" data-swap-src="flickr-qsimple-5636649561-original.jpg" />
 <figcaption>Pushing up blues in darker tones (click for original).
 <noscript><br /> (Original on left)</noscript>
@@ -218,7 +218,7 @@ So to boost the blues in the dark tones, but increase the yellow in the lighter 
 In the green channel for instance, you can begin to introduce more magenta into the tones by decreasing the curve. So dropping the green curve in the dark tones, and letting it settle back to normal towards the high tones will produce results like this:
 
 <figure>
-<img src="curves-dialog-darks-green-suppress.png" alt="" />
+<img src="curves-dialog-darks-green-suppress.png" alt="Darks Green Suppress" />
 </figure>
 
 <figure markdown='span'>
@@ -243,7 +243,7 @@ _Grading_ is a term for color toning on film, and Todd’s post is a funny look 
 The general thought here is that caucasian skin tones trend towards orange, and if you have a look at a complementary color on the color wheel, you’ll notice that directly opposite orange is a teal color.
 
 <figure markdown='span'>
-<img src="Kuler_orange_teal.jpg" alt="" >
+<img src="Kuler_orange_teal.jpg" alt="Kuler Example" >
 <figcaption>
 Screenshot from [Kuler](https://color.adobe.com) borrowed from Todd.
 </figcaption>

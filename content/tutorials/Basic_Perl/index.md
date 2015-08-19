@@ -220,7 +220,7 @@ This field is only used for scripts that are in the "&lt;Image&gt;" hieararchy. 
         <td  valign="top">PF_SLIDER  
          PF_SPINNER</td>
         <td  valign="top">An integer value through a slider and a spinner interface. The range parameter should be specified and is interpreted as minimum, maximum, and step, e.g. [0,100,1].</td>
-        <td  valign="top">![](tpix.gif)</td>
+        <td  valign="top">![tpix](tpix.gif)</td>
         </tr>
         <tr>
         <td  valign="top">PF_FONT</td>
@@ -257,17 +257,17 @@ This field is only used for scripts that are in the "&lt;Image&gt;" hieararchy. 
         </tr>
         <tr>
         <td  valign="top">PF_BRUSH</td>
-        <td  valign="top">![](tpix.gif)</td>
+        <td  valign="top">![tpix](tpix.gif)</td>
         <td  valign="top">A brush</td>
         </tr>
         <tr>
         <td  valign="top">PF_GRADIENT</td>
-        <td  valign="top">![](tpix.gif)</td>
+        <td  valign="top">![tpix](tpix.gif)</td>
         <td  valign="top">A gradient</td>
         </tr>
         <tr>
         <td  valign="top">PF_PATTERN</td>
-        <td  valign="top">![](tpix.gif)</td>
+        <td  valign="top">![tpix](tpix.gif)</td>
         <td  valign="top">A pattern</td>
         </tr>
         </tbody>
