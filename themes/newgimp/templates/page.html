@@ -55,6 +55,7 @@
         
             <p>page parents</p>
         <ul>
+            <li>page.parents.length: {{ page.parents|length }}</li>
             {% for parent in page.parents %}
             <li>url: {{ parent.url }} - title: {{ parent.title }}<br/>
                 <a href="{{ SITEURL }}/{{ parent.url }}">{{ parent.title }}</a></li>

@@ -42,12 +42,13 @@ RELATIVE_URLS = True
 
 # Pat David changes while building/testing
 
-# We can probably remove 'pages' if nothing ends up there
 # This will copy over these folders w/o modification
 STATIC_PATHS = ['images', 'pages', 'tutorials', 'about', 'books', 'develop', 'docs', 'donating', 'downloads', 'features', 'bugs', 'links', 'man', 'release-notes', 'screenshots', 'source', 'unix']
 
-
+# This sets which directories will be parsed as pages (vs. news/articles)
 PAGE_PATHS = ['about', 'pages', 'tutorials', 'books', 'develop', 'docs', 'donating', 'downloads', 'features', 'bugs', 'links', 'man', 'release-notes', 'screenshots', 'source', 'unix']
+
+ARTICLE_PATHS = ['news']
 
 THEME = "./themes/newgimp"
 
@@ -73,6 +74,9 @@ ARTICLE_SAVE_AS = "news/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html"
 # This redirects the old standard output of blog/news/articles post
 # summaries on the front page.  It will now appear at the location
 # below instead.
+# The _actual_ index.html page is located at:
+# content/pages/index.md -> which simply calls the home.html template
+# See: http://docs.getpelican.com/en/3.6.3/faq.html#how-can-i-use-a-static-page-as-my-home-page
 INDEX_SAVE_AS = "/news/index.html"
 
 TYPOGRIFY = True
