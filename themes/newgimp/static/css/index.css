@@ -109,3 +109,35 @@ nav#menu li#gimp-home {
 #cap-photos p {
     text-align: left;
 }
+
+#banner h1 {
+    margin-right: 0;
+    margin-top: -2rem;
+    font-size: 10rem;
+}
+
+#banner .introInfo {
+    margin-top: -3rem;
+}
+
+span#gFirst {
+    text-align: center;
+}
+
+@media (min-width: 40rem) {
+    #banner h1 {
+        margin-right: 1rem;
+        margin-top: 0;
+        font-size: 11rem;
+    }
+
+    span#gFirst {
+        text-align: left;
+    }
+    #banner .introInfo {
+        margin-top: -3rem;
+    }
+}
+
+@media (min-width: 64rem) {
+}
