@@ -1,11 +1,15 @@
 {% extends "base.html" %}
 
+{% block title %}{{ SITENAME }} - News{%endblock%}
+
 {% block head %}
 {{ super() }}
-<link rel='stylesheet' type='text/css' href="{{ SITEURL }}/theme/css/index.css" />
+<link rel='stylesheet' type='text/css' href="{{ SITEURL }}/theme/css/page.css" />
+<link rel='stylesheet' type='text/css' href="{{ SITEURL }}/theme/css/news-index.css" />
 {% endblock head %}
 
 
+{#
 {% block header %}
 <header id="banner" class="body clearfix">
             <div class="container">
@@ -16,6 +20,8 @@
                         <a href="{{ SITEURL }}/">GIMP</a>
                         {#<a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a> #}
                         {# <a href="{{ SITEURL }}/"><img src="{{ SITEURL }}/theme/images/wilber-big.png" alt="GIMP Wilber"/>{{ SITENAME }}</a> #}
+
+{#
                     </h1>
                     <div class='introInfo'>
                         <span id='gFirst'>GNU IMAGE</span>
@@ -31,16 +37,17 @@
         </header><!-- /#banner -->
 
 {% endblock header %}
-
+#}
     
 {% block content %}
-
+{#
     <section id='introduction'>
         <div class='container'>
             <div class='row clearfix'>
                 <div class='column two-thirds'>
                     <h2>The Free &amp; Open Source Image Editor</h2>
                     {# <h2>This is the official GIMP website</h2> #}
+{#
                     <p>
                         This is the official GIMP website.
                         It contains information about downloading, installing, using, and enhancing it. 
@@ -99,6 +106,7 @@
         </div>
     </section>
 
+#}
     <section id="articles">
         {% block content_title %}
             <h2>Recent News</h2>
@@ -107,22 +115,24 @@
         <div class="container">
             {% for article in articles_page.object_list %}
                 <div class='row clearfix'>
-                    <h3 class="entry-title">
-                        <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">
-                            {{ article.title }}
-                        </a>
-                    </h3>
+                    <div class="column full">
+                        <h3 class="entry-title">
+                            <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">
+                                {{ article.title }}
+                            </a>
+                        </h3>
 
-                    <div class='post-info'>
-                        <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr>
-                        <address class="vcard author">by
-                            {% for author in article.authors %}
-                                <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
-                            {% endfor %}
-                        </address>
+                        <div class='post-info'>
+                            <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr>
+                            <address class="vcard author">by
+                                {% for author in article.authors %}
+                                    <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
+                                {% endfor %}
+                            </address>
+                        </div>
+
+                        <div class='entry-content'> {{ article.summary }} </div>
                     </div>
-
-                    <div class='entry-content'> {{ article.summary }} </div>
                 </div>
                 <hr/>
             {% endfor %}
@@ -131,7 +141,6 @@
             {% endif %}
         </div>
 
-        #}
 
         {# original stuff ...
         <ol id="post-list">

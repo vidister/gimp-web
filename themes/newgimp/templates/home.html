@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% block title %}{{ SITENAME }} - The GNU Image Manipulation Program{% endblock %}
+
 {% block head %}
 {{ super() }}
 <link rel='stylesheet' type='text/css' href="{{ SITEURL }}/theme/css/index.css" />
@@ -127,6 +129,20 @@
             {% include 'pagination.html' %}
         {% endif %}
         #}
+
+        <h3>Articles Object</h3>
+        <div>
+            <a href="{{ articles[0].url }}">{{ articles[0].title }}</a>
+        </div>
+        <div>
+            {{ articles[0].summary }}
+        </div>
+        <div>
+            {{ articles[0].author }}
+        </div>
+        <div>
+            {{ articles[0].date }}
+        </div>
 
     </section><!-- /#content -->
 

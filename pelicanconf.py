@@ -65,6 +65,7 @@ ARTICLE_SAVE_AS = "news/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html"
 # The _actual_ index.html page is located at:
 # content/pages/index.md -> which simply calls the home.html template
 # See: http://docs.getpelican.com/en/3.6.3/faq.html#how-can-i-use-a-static-page-as-my-home-page
+# This sets the "old" index.html page to be saved to /news/index.html.
 INDEX_SAVE_AS = "/news/index.html"
 
 TYPOGRIFY = True
@@ -78,5 +79,4 @@ MD_EXTENSIONS = ['fenced_code', 'codehilite(css_class=codehilite)', 'extra', 'he
 # Pagination testing stuff
 
 DEFAULT_ORPHANS = 0
-DEFAULT_PAGINATION = 5
-
+DEFAULT_PAGINATION = 10
