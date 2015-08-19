@@ -47,7 +47,7 @@ RELATIVE_URLS = True
 STATIC_PATHS = ['images', 'pages', 'tutorials', 'about', 'books', 'develop', 'docs', 'donating', 'downloads', 'features', 'bugs', 'links', 'man', 'release-notes', 'screenshots', 'source', 'unix']
 
 
-PAGE_PATHS = ['about', 'tutorials', 'books', 'develop', 'docs', 'donating', 'downloads', 'features', 'bugs', 'links', 'man', 'release-notes', 'screenshots', 'source', 'unix']
+PAGE_PATHS = ['about', 'pages', 'tutorials', 'books', 'develop', 'docs', 'donating', 'downloads', 'features', 'bugs', 'links', 'man', 'release-notes', 'screenshots', 'source', 'unix']
 
 THEME = "./themes/newgimp"
 
@@ -70,9 +70,21 @@ PAGE_SAVE_AS = "{slug}/{filename}"
 ARTICLE_URL = "news/{date:%Y}/{date:%m}/{date:%d}/{slug}/"
 ARTICLE_SAVE_AS = "news/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html"
 
+# This redirects the old standard output of blog/news/articles post
+# summaries on the front page.  It will now appear at the location
+# below instead.
+INDEX_SAVE_AS = "/news/index.html"
+
 TYPOGRIFY = True
 TYPOGRIFY_IGNORE_TAGS = ['title']
 
 DELETE_OUTPUT_DIRECTORY = True
 
 MD_EXTENSIONS = ['fenced_code', 'codehilite(css_class=codehilite)', 'extra', 'headerid', 'toc']
+
+
+# Pagination testing stuff
+
+DEFAULT_ORPHANS = 0
+DEFAULT_PAGINATION = 5
+
