@@ -4,6 +4,16 @@ Modified: 2015-08-06T16:01:12-05:00
 Author: Pat David
 Summary: Stuff to fix still.
 
+## Test/Port News Items
+
+2015-08-19T14:25:29-05:00
+
+Test that news items are permalinked and generated correctly.
+Also test that they are properly aggregated on an index page, and that the 
+pagination is working correctly.
+
+The actual number of news posts over the years makes me think it shouldn't be too much of a problem,
+but I'd rather have it all working for a ton of posts and not need it (vs. the other way around...).
 
 ## SVG Spritesheet
 

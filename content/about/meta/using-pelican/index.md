@@ -49,7 +49,7 @@ Don't play with this file unless you're feeling comfortable about what things do
 
 ## Content
 
-There are two main types of content as far as Pelican is concerned: pages and articles.
+There are two main types of content as far as Pelican is concerned: **pages** and **articles**.
 
 
 ### Pages
@@ -92,9 +92,14 @@ The most natural fit for this type of content would be *News* posts and similarl
 There's really no difference, the posts are all *Articles* as far as Pelican is concerned.
 The nice difference from the past is that each post now gets it's own permalinked page.
 
-Any content *not* explicitly inside of a `PAGE_PATHS` location will be parsed as an *Article* by Pelican.
-For keeping things tidy, I've created a sub-directory called *News* to keep those posts organized.
+<del>Any content *not* explicitly inside of a `PAGE_PATHS` location will be parsed as an *Article* by Pelican.</del>
+For keeping things tidy, I've created a sub-directory called *news* to keep those posts organized.
 
+The `pelicanconf.py` file has a setting for explicitly setting the location of *Articles*:
+
+    ARTICLES_PATHS = ['news']
+
+This will tell Pelican to look for articles only under the listed path(s).
 
 ---
 ## Pelican Notes
@@ -104,6 +109,23 @@ For keeping things tidy, I've created a sub-directory called *News* to keep thos
 To hide a page from being included on the navigation elements, add to the pages metadata:
 
 `status: hidden`
+
+At the moment, with the addition of the *Page Hierarchy* plugin, each page also gets extra metadata
+that describes the pages parents and children.
+While testing, I assumed I would *not* want sub-pages to be listed in the navigation (ie: only top-level pages should be listed).
+
+So, in the `themes/newgimp/templates/base.html` base template file, I did this to the navigation element:
+
+    {% for p in PAGES %}
+        {% if p.parents|length == 1 %}
+          <li{% if p == page %} class="active"{% endif %}>
+            <a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
+          </li>
+        {% endif %}
+    {% endfor %}
+
+That is, if page.parents length is "1", then it must be a top-level page, and list it in the navigation.
+Note that the `status: hidden` metadata on the page will override this behavior if desired.
 
 
 ### Python SimpleHTTPServer & SVG
