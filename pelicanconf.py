@@ -52,18 +52,6 @@ ARTICLE_PATHS = ['news']
 
 THEME = "./themes/newgimp"
 
-# Trying to properly nest sub-folders here
-#PATH_METADATA = r".*?\\(?P<test>.*?\\)" #old test
-#see: https://github.com/getpelican/pelican/issues/1128#issuecomment-63251758
-#PATH_METADATA = r'.*?\\(?P<test>(.+\\)?).*' 
-#PATH_METADATA = r'(?P<test>.*/)'
-#PATH_METADATA = r'(?P<test>.*\\)'
-
-
-# Still working on this...
-#PAGE_URL = "{test}{slug}/"
-#PAGE_SAVE_AS = "{test}{slug}/index.html"
-
 PAGE_URL = "{slug}/"
 #PAGE_SAVE_AS = "{slug}/index.html"
 PAGE_SAVE_AS = "{slug}/{filename}"
