@@ -4,4 +4,4 @@ URL:
 save_as: index.html
 Template: home
 
-Test.
+I'm just a placeholder.  Refer to /about/meta/frontpage.(md|html) for more information.

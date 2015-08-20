@@ -46,7 +46,7 @@ RELATIVE_URLS = True
 STATIC_PATHS = ['images', 'pages', 'tutorials', 'about', 'books', 'develop', 'docs', 'donating', 'downloads', 'features', 'bugs', 'links', 'man', 'release-notes', 'screenshots', 'source', 'unix']
 
 # This sets which directories will be parsed as pages (vs. news/articles)
-PAGE_PATHS = ['about', 'pages', 'tutorials', 'books', 'develop', 'docs', 'donating', 'downloads', 'features', 'bugs', 'links', 'man', 'release-notes', 'screenshots', 'source', 'unix']
+PAGE_PATHS = ['about', 'frontpage', 'tutorials', 'books', 'develop', 'docs', 'donating', 'downloads', 'features', 'bugs', 'links', 'man', 'release-notes', 'screenshots', 'source', 'unix']
 
 ARTICLE_PATHS = ['news']
 

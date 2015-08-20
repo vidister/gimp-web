@@ -13,6 +13,7 @@ I (Pat David) am creating this page to keep notes and information for building/m
 * [To Do](./to-do/)
 * [Using Pelican](./using-pelican/)
 * [Markdown Cheatsheet](./markdown.html)
+* [Edit the Front Page]({filename}./frontpage.md)
 
 The work I am doing here is based on a couple of suggestions over the past year (or more, I'm sure) to refresh the design of WGO.
 In particular, I had created a brief mockup to show and have been using that as a sort of visual guide for approaching the main page.
