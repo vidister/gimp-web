@@ -210,3 +210,73 @@ ol > li > ol {
 ol > li > ol > li > ol {
     list-style-type: lower-roman;
 }
+
+
+footer {
+    padding: 3rem 0;
+    background-color: #0e2426;
+    color: silver;
+    box-shadow: inset 0 7px 15px -5px black;
+}
+
+footer .nav-bottom a {
+    font-family: Lato;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.nav-bottom {
+    list-style-type: none;
+}
+
+.row.bottom {
+    text-align: center;
+    color: silver;
+    margin-top: 2rem;
+    font-size: 0.85rem;
+}
+
+#nav-btm-gimp-home {
+    margin-left: -1.65rem;
+}
+
+#nav-btm-downloads {
+    margin-left: -1.2rem;
+}
+
+#nav-btm-news {
+    margin-left: -1.4rem;
+}
+
+@media ( max-width: 40rem ){
+
+    ul.nav-bottom {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    ul.nav-bottom li {
+        border-top: dotted 1px #333;
+    }
+
+    ul.nav-bottom li:first-of-type {
+        border-top: none;
+    }
+
+    ul.nav-bottom a {
+        display: block;
+        padding: 1rem 0;
+    }
+
+    #nav-btm-gimp-home {
+        margin-left: 0;
+    }
+
+    #nav-btm-downloads {
+        margin-left: 0;
+    }
+
+    #nav-btm-news {
+        margin-left: 0;
+    }
+}

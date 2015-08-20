@@ -105,13 +105,43 @@
         <footer id="contentinfo" class="body">
             <div class="container">
                 <div class="row clearfix">
-                    <div class='column full'>
-                        <address id="about" class="vcard body">
-                        Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
-                        which takes great advantage of <a href="http://python.org">Python</a>.
-                        </address><!-- /#about -->
+                    <div class="column third">
+                        <ul class="nav-bottom">
+                            <li id='nav-btm-gimp-home'><a href="/"><img src='/images/wilber-tiny.png'> GIMP</a></li>
+                            <li id="nav-btm-downloads"><a href="/downloads/"><i class="fa fa-download"></i> Download</a></li>
+                            <li id="nav-btm-news"><a href="/news/"><i class="fa fa-newspaper-o"></i> News</a></li>
+                        {% for title, link in MENUITEMS %}
+                            <li><a href="{{ link }}">{{ title }}</a></li>
+                        {% endfor %}
+                        {% if DISPLAY_PAGES_ON_MENU %}
+                          {% for p in PAGES %}
+                            {% if p.parents|length == 1 %}
+                              <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+                            {% endif %}
+                            {# The old way...
+                              {% if not p.parent %}
+                                <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+                              {% endif %}
+                            #}
+                          {% endfor %}
+                        {% else %}
+                          {% if DISPLAY_CATEGORIES_ON_MENU %}
+                            {% for cat, null in categories %}
+                              <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+                            {% endfor %}
+                          {% endif %}
+                        {% endif %}
+                        </ul>
                     </div>
-                </div> 
+                    </div> 
+                <div class="row clearfix bottom">
+                    <div class="column half flow-opposite">
+                        <a href="/news.rdf">GIMP News Feed</a> | <a href="/webmasters.html">Contacting Us</a>
+                    </div>
+                    <div class="column half">
+                        &copy; 2001-2014 <a href="/team.html">The GIMP Team</a>
+                    </div>
+                </div>
             </div>
         </footer><!-- /#contentinfo -->
 
