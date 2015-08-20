@@ -122,6 +122,12 @@ nav#menu li#gimp-home {
     height: 300px;
 }
 
+#cap-photos .column.two-thirds h3 {
+    display: inline-block;
+    border-bottom: solid 1px #aaa;
+    margin-bottom: 1rem;
+}
+
 #cap-photos .column.two-thirds {
     /* background-color: rgba(0, 0, 0, 0.33);
      */
