@@ -134,7 +134,7 @@ nav#menu li#gimp-home {
     height: 300px;
 }
 
-#cap-photos .column.two-thirds h3 {
+#cap-photos .column.two-thirds h3, #cap-painting .column.two-thirds h3 {
     display: inline-block;
     border-bottom: solid 1px #aaa;
     margin-bottom: 1rem;
@@ -145,10 +145,27 @@ nav#menu li#gimp-home {
      */
 }
 
-#cap-photos p {
+#cap-photos p, #cap-painting p {
     text-align: left;
     color: whitesmoke;
 }
+
+#cap-painting {
+    background-color: #0e2426;
+    background-image:linear-gradient(
+                        rgba(0,0,0,0.9),
+                        rgba(0,0,0,0.4),
+                        rgba(0,0,0,0)), 
+                        url('/images/frontpage/2010-01-dragon-revoy.jpg');
+    background-size: cover;
+    background-position: 82% 100%;
+    color: white;
+}
+
+#cap-painting .column.third {
+    height: 300px;
+}
+
 
 #banner h1 {
     margin-right: 0;
@@ -173,6 +190,10 @@ span#gFirst {
 
     #cap-photos {
         background-image: url('/images/frontpage/dot.jpg');
+    }
+    
+    #cap-painting {
+        background-image: url('/images/frontpage/2010-01-dragon-revoy.jpg');
     }
 
     span#gFirst {
