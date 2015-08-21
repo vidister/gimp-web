@@ -39,36 +39,6 @@
 </head>
 
 <body id="index" class="home">
-        {% block header %}
-        {#
-
-        <header id="banner" class="body clearfix">
-            <div class="container">
-                <div class="intro row">
-
-                    <img id='WilberLogo' src="{{ SITEURL }}/theme/images/wilber-big.png" alt="GIMP Wilber" width='200' height='150'/>
-                    <h1>
-                        <a href="{{ SITEURL }}/">GIMP</a>
-                        {#<a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a> #}
-                        {# <a href="{{ SITEURL }}/"><img src="{{ SITEURL }}/theme/images/wilber-big.png" alt="GIMP Wilber"/>{{ SITENAME }}</a> #}
-
-         {#
-                    </h1>
-                    <div class='introInfo'>
-                        <span id='gFirst'>THE GNU IMAGE</span>
-                        <span id='gSecond'>MANIPULATION PROGRAM</span>
-                        <span id='gThird'>
-                            <a href="/downloads/">
-                                <span id="DLButton"><i class="fa fa-download"></i> DOWNLOAD</span>
-                            </a>
-                            <span id="ReleaseButton">RELEASE NOTES</span></span>
-                    </div>
-                </div>
-            </div>
-        </header><!-- /#banner -->
-        #}
-
-        {% endblock header %}
 
         <nav id="menu">
             <ul>
@@ -98,6 +68,42 @@
             {% endif %}
             </ul>
         </nav><!-- /#menu -->
+
+
+        {% block header %}
+        {% endblock header %}
+
+        {#
+        <nav id="menu">
+            <ul>
+                <li id='gimp-home'><a href="/"><img src='/images/wilber-tiny.png'> GIMP</a></li>
+                <li><a href="/downloads/"><i class="fa fa-download"></i> Download</a></li>
+                <li><a href="/news/"><i class="fa fa-newspaper-o"></i> News</a></li>
+            {% for title, link in MENUITEMS %}
+                <li><a href="{{ link }}">{{ title }}</a></li>
+            {% endfor %}
+            {% if DISPLAY_PAGES_ON_MENU %}
+              {% for p in PAGES %}
+                {% if p.parents|length == 1 %}
+                  <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+                {% endif %}
+                {# The old way...
+                  {% if not p.parent %}
+                    <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+                  {% endif %}
+                #}
+                {#
+              {% endfor %}
+            {% else %}
+              {% if DISPLAY_CATEGORIES_ON_MENU %}
+                {% for cat, null in categories %}
+                  <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+                {% endfor %}
+              {% endif %}
+            {% endif %}
+            </ul>
+        </nav><!-- /#menu -->
+        #}
 
         {% block content %}
         {% endblock %}
