@@ -71,9 +71,9 @@ def mimic_page_hierarchy(content_object):
         metadata['filename'] = fn.replace('fr.', '')
 
 
-        print("#### filename: " + metadata['filename'] )
-        if 'index' in metadata['filename'] and 'about/meta' in metadata['slug']:
-            print('slug: ' + metadata['slug'] + '  filename: ' + metadata['filename'] )
+        #print("#### filename: " + metadata['filename'] )
+        #if 'index' in metadata['filename'] and 'about/meta' in metadata['slug']:
+            #print('slug: ' + metadata['slug'] + '  filename: ' + metadata['filename'] )
 
         # PLD: this is my doing, sorry...
         # ok, if path is empty, use page.slug
@@ -106,9 +106,9 @@ def mimic_page_hierarchy(content_object):
         # We have to account for non-default language and format either,
         # e.g., PAGE_SAVE_AS or PAGE_LANG_SAVE_AS
         infix = '' if in_default_lang(page) else 'LANG_'
-        if 'index' in metadata['filename'] and 'about/meta' in metadata['slug']:
-            print( "infix: " + infix + " key: " + key.upper() )
-            print( "RETURNING: " + page.settings['PAGE_' + infix + key.upper()].format(**metadata) )
+        #if 'index' in metadata['filename'] and 'about/meta' in metadata['slug']:
+            #print( "infix: " + infix + " key: " + key.upper() )
+            #print( "RETURNING: " + page.settings['PAGE_' + infix + key.upper()].format(**metadata) )
         return page.settings['PAGE_' + infix + key.upper()].format(**metadata)
 
 
