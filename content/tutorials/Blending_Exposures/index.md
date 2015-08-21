@@ -59,7 +59,7 @@ Here are the two exposures, loaded into GIMP. I am going to sandwich these on di
 
 The first decision is which one goes on top. In this case I have decided to put the lighter image on top and the darker one on the bottom. The reason is because I hand-held the shots, and they are far from aligned. I'm going to have to move the bottom image until the arch is aligned as best I can get it. Also, the top image is the composition I want anyway, and I'll have less painting to do that way.
 
-Go the image that is going to be on the bottom. Open the Layers dialog (<kbd>Ctrl+L</kbd>) and click on the new layer button (![](newlayer.jpg)) to create a new layer.
+Go the image that is going to be on the bottom. Open the Layers dialog (<kbd>Ctrl+L</kbd>) and click on the new layer button (![New Layer](newlayer.jpg)) to create a new layer.
 
 ## Step 3
 
@@ -71,7 +71,7 @@ Go the image that is going to be on the bottom. Open the Layers dialog (<kbd>Ctr
 </figure>
 
 
-Go to the image that is going to be on top. Select all and copy (<kbd>Ctrl+A</kbd> then <kbd>Ctrl+C</kbd>). In the Layers dialog, make sure the new layer is selected, then go to the bottom image window and paste (<kbd>Ctrl+V</kbd>). In the Layers dialog, click on the anchor button (![](anchor.jpg)) to anchor the floating image.
+Go to the image that is going to be on top. Select all and copy (<kbd>Ctrl+A</kbd> then <kbd>Ctrl+C</kbd>). In the Layers dialog, make sure the new layer is selected, then go to the bottom image window and paste (<kbd>Ctrl+V</kbd>). In the Layers dialog, click on the anchor button (![anchor](anchor.jpg)) to anchor the floating image.
 
 ## Step 4
 
@@ -110,7 +110,7 @@ When you get close to alignment, zoom in to get a good close-up view and get the
 
 ## Step 6
 
-![](addmaskoptions.jpg)![](layers7.jpg)
+![Add mask options](addmaskoptions.jpg)![Layers](layers7.jpg)
 
 In the Layers dialog, right-click on the upper layer and select Add Layer Mask. In the Add Mask Options dialog, select White (Full Opacity) and click OK.
 
@@ -126,7 +126,7 @@ In the Layers dialog, right-click on the upper layer and select Add Layer Mask. 
 
 Now I want to paint black (transparency) onto the layer mask wherever I want the lower image to show through.
 
-To minimize painting time, use the hand-select ("lasso"![](lasso.jpg) ) tool to select a large, hand-drawn region just inside all the borders of the area you want to paint, as shown at right. Then using the fill tool (![](fill.jpg)) fill the selection with black.
+To minimize painting time, use the hand-select ("lasso"![Lasso](lasso.jpg) ) tool to select a large, hand-drawn region just inside all the borders of the area you want to paint, as shown at right. Then using the fill tool (![Fill](fill.jpg)) fill the selection with black.
 
 ## Step 8
 
@@ -138,7 +138,7 @@ To minimize painting time, use the hand-select ("lasso"![](lasso.jpg) ) tool to 
 </figure>
 
 
-Next, I select a large opaque brush from the Brushes dialog (Dialogs/Brushes), select the Paint tool (![](paint.jpg)) and begin painting into the mask close to the boundaries of the blend.
+Next, I select a large opaque brush from the Brushes dialog (Dialogs/Brushes), select the Paint tool (![Paint](paint.jpg)) and begin painting into the mask close to the boundaries of the blend.
 
 Notice that I still have the opacity cranked down on the upper layer so that I can see both layers.
 
@@ -173,7 +173,7 @@ While I'm painting, I'll zoom in and out frequently ("=" key to zoom in, "-" key
 
 Now the most painstaking part: blending the seams. This is a little tricky due to the different tonalities of the two exposures.
 
-For blending work, the Clone (![](clone.jpg)), Smudge (![](smudge.jpg)), Airbrush (![](airbrush.jpg)) and Blur (![](convolve.jpg)) are my tools of choice.
+For blending work, the Clone (![Clone](clone.jpg)), Smudge (![Smudge](smudge.jpg)), Airbrush (![Airbrush](airbrush.jpg)) and Blur (![Blur](convolve.jpg)) are my tools of choice.
 
 Since I'm not sure if these tools have the ability to work across layers (as they do in Photoshop), I duplicate the image (<kbd>Ctrl+D</kbd>) and flatten the duplicate (<span class="filter"><Image> Layers -> Flatten Image</span>) and work on it. This has the additional benefit that if I ever mess up the blending job too badly I can always easily start over at this step.
 
