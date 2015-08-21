@@ -10,6 +10,7 @@ p {
             */
 }
 
+
 #banner {
     min-height: 350px;
     background-image: linear-gradient(rgba(44,52,80,0.5), rgba(44,62,80,0.5)), url('/theme/images/cotton.jpg');
@@ -26,6 +27,7 @@ p {
 
 #banner .intro {
     margin: 2rem 0;
+    margin: 0.5rem 0;
 }
 
 #banner .intro img {
@@ -205,4 +207,12 @@ span#gFirst {
 }
 
 @media (min-width: 64rem) {
+}
+
+@media (max-width: 40rem) {
+    #banner .intro img {
+        height: 120px;
+        width: auto;
+    }
+
 }

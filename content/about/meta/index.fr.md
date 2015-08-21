@@ -4,6 +4,7 @@ Modified: 2015-08-10T14:53:46-05:00
 Author: Pat David
 Summary: A page about the new site.
 lang: fr
+url: about/meta/
 
 
 I (Pat David) am creating this page to keep notes and information for building/maintaining the new site.
@@ -13,6 +14,8 @@ I (Pat David) am creating this page to keep notes and information for building/m
 * [To Do](./to-do/)
 * [Using Pelican](./using-pelican/)
 * [Markdown Cheatsheet](./markdown.html)
+* [Edit the Front Page]({filename}./frontpage.md)
+* [Translations]({filename}./translating.fr.md)
 
 Le travail que je fais ici est basée sur un couple de suggestions de la dernière année (ou plus, je suis sûr) pour actualiser la conception de WGO. En particulier, je l'avais créé une brève maquette pour montrer et ai été d'utiliser cela comme une sorte de guide visuel pour approcher la page principale. Vous pouvez voir que maquette .PNG ici (~ 1.8MB), ou un petit aperçu:
 
@@ -148,7 +151,7 @@ Further notes on using Pelican can be found on the page [Using Pelican](./using-
 ## Who
 
 <figure>
-<img src="{attach}fluffle-puff.jpg" alt='Fluffle Puff'>
+<img src="{filename}fluffle-puff.jpg" alt='Fluffle Puff'>
 <figcaption>
 This is not superfluous, it's a test of local image linking from this directory.
 </figcaption>

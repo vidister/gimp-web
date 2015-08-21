@@ -236,6 +236,10 @@ footer .nav-bottom a {
     font-size: 0.85rem;
 }
 
+.row.bottom a {
+    color: #f57900;
+}
+
 #nav-btm-gimp-home {
     margin-left: -1.65rem;
 }

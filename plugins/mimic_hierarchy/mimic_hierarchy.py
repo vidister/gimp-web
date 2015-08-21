@@ -59,19 +59,33 @@ def mimic_page_hierarchy(content_object):
         # We override the slug to include the path up to the filename
         metadata['slug'] = os.path.join(path, page.slug)
 
+
         metadata['filename'] = os.path.split(page.get_relative_source_path())[1]
         metadata['filename'] = os.path.splitext( metadata['filename'])[0] + '.html'
+
+        # PLD: This is a stupid hack.
+        # I'm basically stripping the 'fr.' off of
+        # translation files, and letting the i18n_subsite engine
+        # take care of things from here.  I hope nobody reads this...
+        fn = metadata['filename']
+        metadata['filename'] = fn.replace('fr.', '')
+
+
+        print("#### filename: " + metadata['filename'] )
+        if 'index' in metadata['filename'] and 'about/meta' in metadata['slug']:
+            print('slug: ' + metadata['slug'] + '  filename: ' + metadata['filename'] )
 
         # PLD: this is my doing, sorry...
         # ok, if path is empty, use page.slug
         # if path is not empty, use path
         # still need to test if lang works properly after this
         if path:
-            #print( "got path: " + path )
+            #print( "path: " + path )
             metadata['slug'] = path
         else:
             #print( "path empty! " + page.slug )
             metadata['slug'] = page.slug
+
 
         if metadata['filename'] != 'index.html':
             setattr(page, 'override_url', metadata['slug'] +'/'+ metadata['filename'] )
@@ -92,7 +106,9 @@ def mimic_page_hierarchy(content_object):
         # We have to account for non-default language and format either,
         # e.g., PAGE_SAVE_AS or PAGE_LANG_SAVE_AS
         infix = '' if in_default_lang(page) else 'LANG_'
-        #print( "RETURNING: " + page.settings['PAGE_' + infix + key.upper()].format(**metadata) )
+        if 'index' in metadata['filename'] and 'about/meta' in metadata['slug']:
+            print( "infix: " + infix + " key: " + key.upper() )
+            print( "RETURNING: " + page.settings['PAGE_' + infix + key.upper()].format(**metadata) )
         return page.settings['PAGE_' + infix + key.upper()].format(**metadata)
 
 
