@@ -5,7 +5,17 @@ from __future__ import unicode_literals
 #Plugins
 PLUGIN_PATHS = ["plugins"]
 #PLUGINS = ["page_hierarchy_gimp"]
-PLUGINS = ["mimic_hierarchy"]
+PLUGINS = ["mimic_hierarchy", "i18n_subsites"]
+
+# mapping: language_code -> settings_overrides_dict
+I18N_SUBSITES = {
+        'fr': {
+            'SITENAME': 'GIMP FR',
+            },
+        'de': {
+            'SITENAME': 'GIMP DE',
+            }
+        }
 
 AUTHOR = u'Pat David'
 SITENAME = u'GIMP'

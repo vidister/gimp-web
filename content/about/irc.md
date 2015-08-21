@@ -4,6 +4,7 @@ Author: Pat David
 url: irc.html
 save_as: irc.html
 status: hidden
+lang: en
 
 
 Several IRC channels and [mailing lists](/mail_lists.html) are available for discussing GIMP-related topics. IRC offers real-time communication, but be aware that there may be long periods of silence in the channels when other users are busy or away from their keyboards. When you join the GIMP IRC channels, please do not ask if somebody can help you. If you have a question, ask directly and then wait patiently to see if someone answers. Other recommendations can be found [at the bottom of this page](#rules).

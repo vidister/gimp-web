@@ -9,14 +9,14 @@ Status: hidden
 ## GNU/Linux Screenshots
 
 <figure>
-<img src="linux_fullscreen.jpg" alt="" />
+<img src="linux_fullscreen.jpg" alt="Linux Fullscreen" />
 <figcaption>
 GIMP running fullscreen, side by side with F-Spot.
 </figcaption>
 </figure>
 
 <figure>
-<img src="linux_mixer.jpg" alt="" />
+<img src="linux_mixer.jpg" alt="Linux Mixer" />
 <figcaption>
 Full control over B/W process using the channel mixer.
 </figcaption>

@@ -3,6 +3,7 @@ Date: 2015-07-29T14:40:35-05:00
 Modified: 2015-08-10T14:53:46-05:00
 Author: Pat David
 Summary: A page about the new site.
+lang: en
 
 
 I (Pat David) am creating this page to keep notes and information for building/maintaining the new site.

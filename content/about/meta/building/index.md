@@ -3,6 +3,7 @@ Date: 2015-08-11T11:56:58-05:00
 Modified: 2015-08-11T11:57:04-05:00
 Author: Pat David
 Summary: A page about the new site.
+lang: en
 
 
 So you want to contribute?
