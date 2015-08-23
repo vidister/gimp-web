@@ -65,13 +65,13 @@ Et ainsi de suite pour chaque traduction.
 Une fonctionnalité intéressante du plugin i18n_subsites est que les pages qui sont liées, mais le manque d'une traduction, seront toujours montrer la version **en** comme solution de repli.
 
 
-* [A better link to meta](/about/meta/) `[A better link to meta](/about/meta/)`  
+* [A link to meta](/about/meta/) `[A link to meta](/about/meta/)`  
     Leads back to english version of the site from everywhere.
-* [<del>A better link to meta</del>](./about/meta/) `[A better link to meta](./about/meta/)`  
+* [<del>A link to meta</del>](./about/meta/) `[A link to meta](./about/meta/)`  
     Doesn't work right (as expected).
-* [A better link to meta](../../about/meta/) `[A better link to meta](../../about/meta/)`  
+* [A link to meta](../../about/meta/) `[A link to meta](../../about/meta/)`  
     Leads to the translated version of the page correctly!
-* [A better link to meta](../meta/) `[A better link to meta](../meta/)`  
+* [A link to meta](../meta/) `[A link to meta](../meta/)`  
     Also leads back to translated version of the page correctly.
-* [A better link to meta](./) `[A better link to meta](./)`  
+* [A link to meta](./) `[A link to meta](./)`  
     Also leads back to translated version of the page correctly.

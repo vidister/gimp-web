@@ -101,15 +101,15 @@ The problem with using this link is that if it is called from a translated page,
 A better solution would be to allow internal links to simply point to locations directly without having to worry about the sub-site.
 Some different link types to test:
 
-* [A better link to meta](/about/meta/) `[A better link to meta](/about/meta/)`  
+* [A link to meta](/about/meta/) `[A link to meta](/about/meta/)`  
     Leads back to english version of the site from everywhere.
-* [<del>A better link to meta</del>](./about/meta/) `[A better link to meta](./about/meta/)`  
+* [<del>A link to meta</del>](./about/meta/) `[A link to meta](./about/meta/)`  
     Doesn't work right (as expected).
-* [A better link to meta](../../about/meta/) `[A better link to meta](../../about/meta/)`  
+* [A link to meta](../../about/meta/) `[A link to meta](../../about/meta/)`  
     Leads to the translated version of the page correctly!
-* [A better link to meta](../meta/) `[A better link to meta](../meta/)`  
+* [A link to meta](../meta/) `[A link to meta](../meta/)`  
     Also leads back to translated version of the page correctly.
-* [A better link to meta](./) `[A better link to meta](./)`  
+* [A link to meta](./) `[A link to meta](./)`  
     Also leads back to translated version of the page correctly.
 
 At the moment, we basically need to use relative links to the output files, which will then work no matter what the translation is it's used from.

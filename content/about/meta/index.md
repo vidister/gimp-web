@@ -16,14 +16,15 @@ I (Pat David) am creating this page to keep notes and information for building/m
 * [Edit the Front Page]({filename}./frontpage.md)
 * [Translations]({filename}./translating.md)
 
-[en &rarr; fr Test Link](./translating.html)
 
 The work I am doing here is based on a couple of suggestions over the past year (or more, I'm sure) to refresh the design of WGO.
 In particular, I had created a brief mockup to show and have been using that as a sort of visual guide for approaching the main page.
 You can view that [mockup .PNG here](/images/mockup3.png) (~1.8MB), or a smaller preview:
 
 <figure>
-<a href="/images/mockup3.png"><img src="/images/mockup3_600.png" alt="GIMP Mockup Pat David"/></a>
+<a href="/images/mockup3.png">
+    <img src="/images/mockup3_600.png" alt="GIMP Mockup Pat David" width="600" height="960"/>
+</a>
 </figure>
 
 
@@ -78,7 +79,6 @@ These are what I thought would be the main reasons for visiting the site (in ord
 5. Help the project (financially or manpower)
 
 It seems like #2 could probably cease being a reason after someone has learned about the project.
-
 
 
 ## How

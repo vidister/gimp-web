@@ -153,7 +153,7 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 <del><http://www.gimp.org/source/howtos/gimp-git-build.html></del> [<i class="fa fa-link"></i>]({filename}../../source/howtos/gimp-git-build.md)  
 
 <http://www.gimp.org/tutorials/index.html>  
-<del><http://www.gimp.org/tutorials/3d_Logo/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/3D_Logo/index.md)    
+<del><http://www.gimp.org/tutorials/3d_Logo/index.html></del> [<i class="fa fa-link"></i>](/tutorials/3D_Logo/)    
 <del><http://www.gimp.org/tutorials/Advanced_Animations/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Advanced_Animations/index.md)  
 <del><http://www.gimp.org/tutorials/Anti-Aliased_Threshold/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Anti-Aliased_Threshold/index.md)  
 <del><http://www.gimp.org/tutorials/Automate_Editing_in_GIMP/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Automate_Editing_in_GIMP/index.md)  
