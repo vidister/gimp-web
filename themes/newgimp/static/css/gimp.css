@@ -246,11 +246,11 @@ footer .nav-bottom a {
 }
 
 #nav-btm-downloads {
-    margin-left: -1.2rem;
+    margin-left: -1.5rem;
 }
 
 #nav-btm-news {
-    margin-left: -1.4rem;
+    margin-left: -1.5rem;
 }
 
 @media ( max-width: 40rem ){
