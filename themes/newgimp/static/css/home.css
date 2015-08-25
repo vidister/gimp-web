@@ -136,14 +136,21 @@ nav#menu li#gimp-home {
     height: 300px;
 }
 
+.cap {
+    max-height: 100vh;
+}
+
 .cap h3 {
     display: inline-block;
     border-bottom: solid 1px #aaa;
     margin-bottom: 1rem;
 }
 
-#cap-photos p, #cap-painting p {
+.cap p {
     text-align: left;
+}
+
+#cap-photos p, #cap-painting p {
     color: whitesmoke;
 }
 
@@ -179,6 +186,10 @@ nav#menu li#gimp-home {
 
 #cap-painting .column.third {
     height: 300px;
+}
+
+#cap-graphics .column.third {
+    height: 250px;
 }
 
 
