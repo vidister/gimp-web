@@ -192,6 +192,9 @@ nav#menu li#gimp-home {
     height: 250px;
 }
 
+#component img {
+    width: 200px;
+}
 
 #banner h1 {
     margin-right: 0;
@@ -206,6 +209,7 @@ nav#menu li#gimp-home {
 span#gFirst {
     text-align: center;
 }
+
 
 @media (min-width: 40rem) {
     #banner h1 {

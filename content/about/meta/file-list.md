@@ -218,7 +218,7 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 <http://www.gimp.org/tutorials/Using_GAP/index.html>  
 
 <del><http://www.gimp.org/unix/fonts.html></del> [<i class="fa fa-link"></i>]({filename}../../unix/fonts.md)  
-<del><http://www.gimp.org/unix/gimprc.html></del> [<i class="fa fa-link"></i>]({filename}../../unix/fonts.md)  
+<del><http://www.gimp.org/unix/gimprc.html></del> [<i class="fa fa-link"></i>]({filename}../../unix/gimprc.md)  
 <http://www.gimp.org/unix/gtkrc.html>  
 <http://www.gimp.org/unix/index.html> (Obsoleted? Directs to downloads page...)  
 <http://www.gimp.org/unix/man-gimp-2.0.html>
