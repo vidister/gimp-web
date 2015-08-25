@@ -50,7 +50,8 @@ RELATIVE_URLS = True
 # Pat David changes while building/testing
 
 # This will copy over these folders w/o modification
-STATIC_PATHS = ['images', 'pages', 'tutorials', 'about', 'books', 'develop', 'docs', 'donating', 'downloads', 'features', 'bugs', 'links', 'man', 'release-notes', 'screenshots', 'source', 'unix']
+STATIC_PATHS = ['images', 'pages', 'tutorials', 'about', 'books', 'develop', 'docs', 'donating', 'downloads', 'features', 'bugs', 'links', 'man', 'release-notes', 'screenshots', 'source', 'unix', 'robots.txt']
+
 
 # This sets which directories will be parsed as pages (vs. news/articles)
 PAGE_PATHS = ['about', 'frontpage', 'tutorials', 'books', 'develop', 'docs', 'donating', 'downloads', 'features', 'bugs', 'links', 'man', 'release-notes', 'screenshots', 'source', 'unix']
@@ -75,13 +76,14 @@ ARTICLE_SAVE_AS = "news/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html"
 # This sets the "old" index.html page to be saved to /news/index.html.
 INDEX_SAVE_AS = "/news/index.html"
 
+
+
 TYPOGRIFY = True
 TYPOGRIFY_IGNORE_TAGS = ['title']
 
 DELETE_OUTPUT_DIRECTORY = True
 
 MD_EXTENSIONS = ['fenced_code', 'codehilite(css_class=codehilite)', 'extra', 'headerid', 'toc']
-
 
 # Pagination testing stuff
 
