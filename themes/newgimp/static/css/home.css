@@ -136,20 +136,33 @@ nav#menu li#gimp-home {
     height: 300px;
 }
 
-#cap-photos .column.two-thirds h3, #cap-painting .column.two-thirds h3 {
+.cap h3 {
     display: inline-block;
     border-bottom: solid 1px #aaa;
     margin-bottom: 1rem;
 }
 
-#cap-photos .column.two-thirds {
-    /* background-color: rgba(0, 0, 0, 0.33);
-     */
-}
-
 #cap-photos p, #cap-painting p {
     text-align: left;
     color: whitesmoke;
+}
+
+#cap-algorithms p {
+    text-align: left;
+}
+
+#cap-algorithms {
+    background-image: linear-gradient(
+                    rgba( 255, 255, 255, 1 ),
+                    rgba( 255,255,255,1),
+                    rgba( 255,255,255,0.5 ) ),
+                    url('/images/frontpage/wavelet.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+#cap-algorithms .column.third {
+    height: 100px;
 }
 
 #cap-painting {
@@ -196,6 +209,16 @@ span#gFirst {
     
     #cap-painting {
         background-image: url('/images/frontpage/2010-01-dragon-revoy.jpg');
+    }
+
+    #cap-algorithms {
+        background-image: linear-gradient(
+                    to right,
+                    rgba( 255, 255, 255, 1 ),
+                    rgba( 255,255,255,1),
+                    rgba( 255,255,255,0.5 ) ),
+                    url('/images/frontpage/wavelet.png');
+        background-position: 100% 0;
     }
 
     span#gFirst {
