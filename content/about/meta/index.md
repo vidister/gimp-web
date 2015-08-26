@@ -10,10 +10,10 @@ I (Pat David) am creating this page to keep notes and information for building/m
 
 (Meta) pages of interest:
 
+* [Editing the Front Page]({filename}./frontpage.md)
 * [To Do](./to-do/)
 * [Using Pelican](./using-pelican/)
 * [Markdown Cheatsheet](./markdown.html)
-* [Edit the Front Page]({filename}./frontpage.md)
 * [Translations]({filename}./translating.md)
 
 

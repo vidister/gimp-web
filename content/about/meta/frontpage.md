@@ -11,7 +11,11 @@ Seriously.  Get on [irc]({filename}../../about/irc.md), and get someone to get s
 The reason I say this is that it's likely going to be a bit of work, and I'd hate for you
 to get too far down the rabbit hole before finding out it may not be something that will be implemented.
 
-Ok, still on track to fiddle with the front page?  Read on! Or just jump straight to the [TL;DR](#tldr).
+Ok, still on track to fiddle with the front page?  Read on! Or just jump straight to the [tl;dr](#tldr).
+
+If you're in a rush or just need a reminder, to edit the front page modify this file:
+
+    /themes/newgimp/templates/home.html
 
 
 
