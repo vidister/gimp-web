@@ -22,7 +22,7 @@ Creating a new translation of an existing article is fairly straightforward:
 
 4. To have different titles (translated title as well):
     * Add the same `slug` metadata to both files:  
-        add `slug: unique-slug-name` to both original and translation file
+        add `slug: some-slug-name` to both original and translation file.
     * Then each file can have different titles.
 
 ## Locate the Article You'll Translate
@@ -34,7 +34,7 @@ It can be found in the source at this location:
     /content/about/meta/translating.md
 
 Now create a new file in the same location, with a slightly different filename to indicate the new language.
-A handy convention to follow is to use the ISO 639-1 two-letter code for the new language in the filename.
+A handy convention to follow is to use the two-letter code for the new language in the filename.
 So to include a French version of this page, we will create a new file:
 
     /content/about/meta/translating.fr.md
