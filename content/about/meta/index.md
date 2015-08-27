@@ -1,6 +1,6 @@
 Title: Meta 
 Date: 2015-07-29T14:40:35-05:00
-Modified: 2015-08-10T14:53:46-05:00
+Modified: 2015-08-27T12:06:35-05:00
 Author: Pat David
 Summary: A page about the new site.
 lang: en
@@ -10,11 +10,12 @@ I (Pat David) am creating this page to keep notes and information for building/m
 
 (Meta) pages of interest:
 
-* [Editing the Front Page]({filename}./frontpage.md)
+* [Editing the Front Page](./frontpage.html)
+* [Creating a Translation](./translating.html)
 * [To Do](./to-do/)
 * [Using Pelican](./using-pelican/)
 * [Markdown Cheatsheet](./markdown.html)
-* [Translations]({filename}./translating.md)
+* [Translations (more info)](./translations.html)
 
 
 The work I am doing here is based on a couple of suggestions over the past year (or more, I'm sure) to refresh the design of WGO.

@@ -11,11 +11,12 @@ I (Pat David) am creating this page to keep notes and information for building/m
 
 (Meta) pages of interest:
 
+* [Editing the Front Page](./frontpage.html)
+* [Creating a Translation](./translating.html)
 * [To Do](./to-do/)
 * [Using Pelican](./using-pelican/)
 * [Markdown Cheatsheet](./markdown.html)
-* [Edit the Front Page]({filename}./frontpage.md)
-* [Translations]({filename}./translating.fr.md) 
+* [Translations (more info)](./translations.html)
 
 
 Le travail que je fais ici est basée sur un couple de suggestions de la dernière année (ou plus, je suis sûr) pour actualiser la conception de WGO. En particulier, je l'avais créé une brève maquette pour montrer et ai été d'utiliser cela comme une sorte de guide visuel pour approcher la page principale. Vous pouvez voir que maquette .PNG ici (~ 1.8MB), ou un petit aperçu:
