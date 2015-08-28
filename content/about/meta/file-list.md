@@ -165,13 +165,14 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 <del><http://www.gimp.org/tutorials/Basic_Scheme2/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Basic_Scheme2/index.md)  
 <del><http://www.gimp.org/tutorials/Bezier_Selections/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Bezier_Selections/index.md)  
 <del><http://www.gimp.org/tutorials/Blending_Exposures/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Blending_Exposures/index.md)  
-<http://www.gimp.org/tutorials/Blown_Out_Highlights/index.html>  
-<http://www.gimp.org/tutorials/Blur_Overlays/index.html>  
-<http://www.gimp.org/tutorials/Borders_On_Selections/index.html>  
-<http://www.gimp.org/tutorials/Changing_Background_Color_1/index.html>  
-<http://www.gimp.org/tutorials/Changing_Background_Color_2/index.html>  
-<http://www.gimp.org/tutorials/Color2BW/index.html>  
-<http://www.gimp.org/tutorials/Coloring_A_BW_Sketch/index.html>  
+<del><http://www.gimp.org/tutorials/Blown_Out_Highlights/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Blown_Out_Highlights/index.md)  
+<del><http://www.gimp.org/tutorials/Blur_Overlays/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Blur_Overlays/index.md)  
+<del><http://www.gimp.org/tutorials/Borders_On_Selections/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Borders_On_Selections/index.md)  
+<del><http://www.gimp.org/tutorials/Changing_Background_Color_1/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Changing_Background_Color_1/index.md)  
+<del><http://www.gimp.org/tutorials/Changing_Background_Color_2/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Changing_Background_Color_2/index.md)  
+<del><http://www.gimp.org/tutorials/Color2BW/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Color2BW/index.md)  
+<del><http://www.gimp.org/tutorials/Coloring_A_BW_Sketch/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Coloring_A_BW_Sketch/index.md)  
+
 <http://www.gimp.org/tutorials/ContrastMask/index.html>  
 <http://www.gimp.org/tutorials/Creating_Icons/index.html>  
 <http://www.gimp.org/tutorials/Custom_Brushes/index.html>  
