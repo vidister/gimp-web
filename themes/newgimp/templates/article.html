@@ -34,7 +34,7 @@
 
                  {# </header> #}
 
-                  <footer class="post-info">
+                  <div class="post-info">
                     <abbr class="published" title="{{ article.date.isoformat() }}">
                       {{ article.locale_date }}
                     </abbr>
@@ -50,7 +50,7 @@
                         {% endfor %}
                     </address>
                     {% endif %}
-                  </footer><!-- /.post-info -->
+                  </div><!-- /.post-info -->
 
                   <div class="entry-content">
                     {{ article.content }}
