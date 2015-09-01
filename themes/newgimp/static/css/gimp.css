@@ -25,7 +25,7 @@ Used as Heading font
 */
 
 /* Using Google Fonts for now */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,400,300|Lato:300|Questrial);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,400,300|Lato:300|Questrial|Josefin+Sans:300,400);
 
 /* League Gothic Regular */
 /* Also only used on the main page
@@ -98,6 +98,7 @@ nav#menu {
     font-size: 1rem;
     font-size: 0.85rem;
     padding: 0.2rem 0.5rem;
+    font-family: "Josefin Sans", Lato, sans-serif;
 }
 
 nav#menu ul, nav#menu ul li {
@@ -224,6 +225,7 @@ footer .nav-bottom a {
     font-family: Lato;
     text-transform: uppercase;
     color: whitesmoke;
+    font-family: "Josefin Sans", Lato, sans-serif;
 }
 
 .nav-bottom {

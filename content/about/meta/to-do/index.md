@@ -4,6 +4,20 @@ Modified: 2015-08-06T16:01:12-05:00
 Author: Pat David
 Summary: Stuff to fix still.
 
+## Link Order in Nav bar
+
+Sort these items by *importance*.
+Not sure *what* is most important, so check with the team to clarify the best order of items here.
+
+A general feeling is around possibly having screenshots be first/more prominent, then a little bit about the page, then download.
+
+## Fix Fonts!
+
+There are still rendering issues for akk and drc for the navigation item font, Lato.
+
+I'm switching it to Josefin Sans for the time being to see if it renders nicer.
+Don't forget to host the font files from wgo before going live (or asap after).
+
 ## <del>Test/Port News Items</del>
 
 <del>2015-08-19T14:25:29-05:00</del>
