@@ -89,6 +89,7 @@ span#gThird span {
     padding:0 0.7rem;
     float: right;
     margin-left: 1rem;
+    letter-spacing: 0.03rem;
 }
 
 #introduction{
@@ -214,6 +215,12 @@ nav#menu li#gimp-home {
 
 #component p {
     text-align: left;
+}
+
+#component h2 {
+    display: inline-block;
+    border-bottom: solid 1px #ccc;
+    margin-bottom: 1rem;
 }
 
 #banner h1 {
