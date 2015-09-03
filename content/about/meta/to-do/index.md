@@ -18,6 +18,40 @@ I'll have a deeper look at a good way to do this (hopefully without having to li
 
 I'm going to start by styling the page assuming no scripts at all, then progressively enhance it to auto-detect and display.
 
+I'm using [platform.js](https://github.com/bestiejs/platform.js/) to do the detecting.
+It currently provides more than we likely need but we'll roll with it (it's much less than pulling in jquery).
+
+At the moment, the OS will be detected as one of the following:
+
+    var os = getOS([
+      'Windows Phone ',
+      'Android',
+      'CentOS',
+      'Debian',
+      'Fedora',
+      'FreeBSD',
+      'Gentoo',
+      'Haiku',
+      'Kubuntu',
+      'Linux Mint',
+      'Red Hat',
+      'SuSE',
+      'Ubuntu',
+      'Xubuntu',
+      'Cygwin',
+      'Symbian OS',
+      'hpwOS',
+      'webOS ',
+      'webOS',
+      'Tablet OS',
+      'Linux',
+      'Mac OS X',
+      'Macintosh',
+      'Mac',
+      'Windows 98;',
+      'Windows '
+    ]);
+
 
 ## Link Order in Nav bar
 

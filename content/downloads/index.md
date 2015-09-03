@@ -9,7 +9,9 @@ Status: hidden
 
 <div class="OSTEST" markdown="1">
 <h3>Testing OS Detection...</h3>
-<p id="pOSTEST">
+<p id="pOSTEST" style="color: red;">
+Either Javascript is disabled, or I am not working quite right...  
+You'll have to choose your OS manually please.
 </p>
 
 If this is wrong, please let Pat David (patdavid@gmail.com) know.
