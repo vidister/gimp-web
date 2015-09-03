@@ -7,6 +7,16 @@ Status: hidden
 <img src="downloadsplash.jpg" alt="Download Splash Image" />
 </figure>
 
+<div class="OSTEST" markdown="1">
+<h3>Testing OS Detection...</h3>
+<p id="pOSTEST">
+</p>
+
+If this is wrong, please let Pat David (patdavid@gmail.com) know.
+Please include the string returned above, and what your actual OS is.
+Thank you!
+</div>
+
 <div class='OS linux' markdown='1'>
 ## GIMP for Unix-like systems
 
@@ -95,85 +105,30 @@ GIMP 2.8.14 is now available at [http://download.gimp.org/pub/gimp/v2.8/](http:/
 
 To allow you to check the integrity of the tarballs, here are the MD5 sums of the latest releases:
 
-<table>
+**gimp-2.8.14.tar.bz2**  
+<kbd>233c948203383fa078434cc3f8f925cb</kbd>
 
-<tbody>
+**gimp-2.8.12.tar.bz2**  
+<kbd>47fefa240c38cfb1016b57ad6324378d</kbd>
 
-<tr>
+**gimp-2.8.10.tar.bz2**  
+<kbd>84c964aab7044489af69f7319bb59b47</kbd>
 
-<th>File</th>
+**gimp-2.8.8.tar.bz2**  
+<kbd>ef2547c3514a1096931637bd6250635a</kbd>
 
-<th>MD5 sum</th>
+**gimp-2.8.6.tar.bz2**  
+<kbd>12b3fdf33d1f07ae79b412a9e38b9693</kbd>
 
-</tr>
+**gimp-2.8.4.tar.bz2**  
+<kbd>392592e8755d046317878d226145900f</kbd>
 
-<tr>
+**gimp-2.8.2.tar.bz2**  
+<kbd>b542138820ca3a41cbd63fc331907955</kbd>
 
-<td>gimp-2.8.14.tar.bz2</td>
+**gimp-2.8.0.tar.bz2**  
+<kbd>28997d14055f15db063eb92e1c8a7ebb</kbd>
 
-<td><kbd>233c948203383fa078434cc3f8f925cb</kbd></td>
-
-</tr>
-
-<tr>
-
-<td>gimp-2.8.12.tar.bz2</td>
-
-<td><kbd>47fefa240c38cfb1016b57ad6324378d</kbd></td>
-
-</tr>
-
-<tr>
-
-<td>gimp-2.8.10.tar.bz2</td>
-
-<td><kbd>84c964aab7044489af69f7319bb59b47</kbd></td>
-
-</tr>
-
-<tr>
-
-<td>gimp-2.8.8.tar.bz2</td>
-
-<td><kbd>ef2547c3514a1096931637bd6250635a</kbd></td>
-
-</tr>
-
-<tr>
-
-<td>gimp-2.8.6.tar.bz2</td>
-
-<td><kbd>12b3fdf33d1f07ae79b412a9e38b9693</kbd></td>
-
-</tr>
-
-<tr>
-
-<td>gimp-2.8.4.tar.bz2</td>
-
-<td><kbd>392592e8755d046317878d226145900f</kbd></td>
-
-</tr>
-
-<tr>
-
-<td>gimp-2.8.2.tar.bz2</td>
-
-<td><kbd>b542138820ca3a41cbd63fc331907955</kbd></td>
-
-</tr>
-
-<tr>
-
-<td>gimp-2.8.0.tar.bz2</td>
-
-<td><kbd>28997d14055f15db063eb92e1c8a7ebb</kbd></td>
-
-</tr>
-
-</tbody>
-
-</table>
 
 GIMP help files are available at [http://download.gimp.org/pub/gimp/help/](http://download.gimp.org/pub/gimp/help/).
 
@@ -243,4 +198,20 @@ table {
 td, th {
     padding: 0 1rem;
 }
+
+.download-mirror{
+    word-wrap: break-word;
+}
+
+@media ( max-width: 40rem ){
+    .download-mirror dd {
+        margin-left: 0.5rem;
+    }
+}
 </style>
+
+<script src="/js/platform.js"></script>
+
+<script>
+document.getElementById('pOSTEST').innerHTML = platform.os;
+</script>
