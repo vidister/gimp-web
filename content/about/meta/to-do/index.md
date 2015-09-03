@@ -14,7 +14,7 @@ Possibly expand news/articles posts to include interviews and other outreach to 
 ## Download Page Auto-Detect OS
 
 The general consensus is that everyone likes the auto-detection of OS.
-I'll have a deeper look at a good way to do this (hopefully without having to link in all of jquery as dependency).
+I'll have a deeper look at a good way to do this (hopefully without having to link in all of jquery as a dependency).
 
 I'm going to start by styling the page assuming no scripts at all, then progressively enhance it to auto-detect and display.
 
