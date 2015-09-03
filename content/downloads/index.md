@@ -52,7 +52,7 @@ GIMP can run on Solaris.
 
 ## GIMP for Mac OS X
 
-Since the 2.8.2 version GIMP runs on OSX natively. No X11 environment is required.
+Since the 2.8.2 version, GIMP runs on OSX natively. No X11 environment is required.
 
 ### Native builds
 
