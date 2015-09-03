@@ -4,6 +4,21 @@ Modified: 2015-08-06T16:01:12-05:00
 Author: Pat David
 Summary: Stuff to fix still.
 
+In no particular order, just general notes on stuff that should be addressed...
+
+## Showcase pages
+
+Per Americo's suggestion - consider some pages that we can use to showcase artwork and contributions from the community.
+Possibly expand news/articles posts to include interviews and other outreach to the community at large?  I like it!
+
+## Download Page Auto-Detect OS
+
+The general consensus is that everyone likes the auto-detection of OS.
+I'll have a deeper look at a good way to do this (hopefully without having to link in all of jquery as dependency).
+
+I'm going to start by styling the page assuming no scripts at all, then progressively enhance it to auto-detect and display.
+
+
 ## Link Order in Nav bar
 
 Sort these items by *importance*.
@@ -11,15 +26,16 @@ Not sure *what* is most important, so check with the team to clarify the best or
 
 A general feeling is around possibly having screenshots be first/more prominent, then a little bit about the page, then download.
 
-## Fix Fonts!
-
-There are still rendering issues for akk and drc for the navigation item font, Lato.
-
-I'm switching it to Josefin Sans for the time being to see if it renders nicer.
-Don't forget to host the font files from wgo before going live (or asap after).
+Should screenshots be integrated into the main front page in some way as opposed to a separate page?  I'm going to ping the ML on this.
 
 
-##
+## Check/Add Support for Other Input Filetypes
+
+I used Markdown by default, but per Marco's suggestions, get support for asciidoc working!
+
+We already have restructuredtext (rest) by default with Pelican, but having other types can help further lower the 
+barrier to entry/contributions.  I'll have to see what it'll take to get asciidoc working.
+
 
 ## <del>Test/Port News Items</del>
 
@@ -69,6 +85,13 @@ drc has reported some issues with hinting the navigation bar font (Lato) at its 
 I cannot reproduce his results exactly.
 Looking into either increasing the weight of that font to 400 (from 300), or to swap it for a different typeface.
 Possibly Roboto, Ostrich Sans (GNU Image Manipulation Program)?
+
+<small>2015-09-03T09:05:44-05:00</small>  
+There are still rendering issues for akk and drc for the navigation item font, Lato.
+
+I'm switching it to Josefin Sans for the time being to see if it renders nicer.
+Don't forget to host the font files from wgo before going live (or asap after).
+
 
 ## Combine and minimize assets
 
