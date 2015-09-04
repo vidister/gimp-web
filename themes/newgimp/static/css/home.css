@@ -113,6 +113,10 @@ section#introduction h2 {
     margin-bottom: 1rem;
 }
 
+section#introduction p {
+    margin-bottom: 0.3rem;
+}
+
 nav#menu li#gimp-home {
     display: none;
 }
