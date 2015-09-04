@@ -293,3 +293,16 @@ span#gFirst {
     }
 
 }
+
+/* Testing reflowing sections to use wider screens better */
+/* Originally tried this at 1650px, now trying at 1366px wide */
+@media (min-width: 1367px){
+    .cap {
+        width: 50%;
+        float: left;
+    }
+    
+    #component {
+        clear: both;
+    }
+}
