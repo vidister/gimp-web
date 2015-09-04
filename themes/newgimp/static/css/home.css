@@ -109,6 +109,9 @@ span#gThird span {
     margin: 0 auto;
 }
 
+section#introduction h2 {
+    margin-bottom: 1rem;
+}
 
 nav#menu li#gimp-home {
     display: none;
