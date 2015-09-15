@@ -96,6 +96,11 @@ A good example of the application of layer masks is doing selective colorization
 Start the process by duplicating the base image (Shift+Ctrl+D, or Right-Click layer &rarr; Duplicate Layer). From the menu:
 </p>
 <div class="MenuCmd"><span><u>L</u>ayer &rarr; D<u>u</u>plicate Layer</span></div>
+
+<p>
+    Then desaturate the upper layer using:
+</p>
+<div class="MenuCmd"><span>Colors &rarr; Desaturate</span></div>
 <p>
 Following the steps above, add a layer mask to the desaturated layer and initialize it to White (full opacity). At this point, the Layers dialog should look like this:
 </p>
