@@ -3,23 +3,72 @@ Date: 2015-08-14T14:18:56-05:00
 Author: Pat David
 Status: hidden
 
+<style>
+table {
+    max-width: 35rem;
+    margin: 1rem auto;
+}
+td, th {
+    padding: 0 1rem;
+}
+
+.download-mirror{
+    word-wrap: break-word;
+}
+
+@media ( max-width: 40rem ){
+    .download-mirror dd {
+        margin-left: 0.5rem;
+    }
+}
+
+.os {
+    display: none;
+}
+
+#pOSTEST {
+    font-style: italic;
+}
+
+#letmeknow { display: none; }
+</style>
+
+<noscript>
+<style>
+.os { display: block; }
+#others { display: none; }
+#letmeknow { display: none; }
+#pOSTEST { display: block; }
+</style>
+</noscript>
+
 <figure>
 <img src="downloadsplash.jpg" alt="Download Splash Image" />
 </figure>
 
 <div class="OSTEST" markdown="1">
-<h3>Testing OS Detection...</h3>
-<p id="pOSTEST" style="color: red;">
+We think your OS is 
+<span id="pOSTEST" >
+Well, we don't actually know.  
 Either Javascript is disabled, or I am not working quite right...  
-You'll have to choose your OS manually please.
-</p>
-
-If this is wrong, please let Pat David (patdavid@gmail.com) know.
+So I am showing you all the options.  That should cover it.
+</span>  
+<small id='letmeknow'>If this is wrong, please let Pat David (patdavid@gmail.com) know.
 Please include the string returned above, and what your actual OS is.
 Thank you!
+</small>
+
+<p id='others'>
+Show downloads for 
+<a href="javscript:void(0)" id='os_linux'>GNU/Linux</a>&nbsp;| 
+<a href="javscript:void(0)" id='os_mac'>OS&nbsp;X</a>&nbsp;| 
+<a href="javscript:void(0)" id='os_win'>Microsoft&nbsp;Windows</a>&nbsp;| 
+<a href="javascript:void(0)" id='os_all' href="">All</a>
+</p>
+
 </div>
 
-<div class='OS linux' markdown='1'>
+<div id='linux' class="os linux" markdown='1'>
 ## GIMP for Unix-like systems
 
 It's very likely your Unix-like system such as a GNU/Linux distribution already comes with a GIMP package. It is a preferred method of installing GIMP, as the distribution maintainers take care of all the dependencies and bug fix updates. Please note that many distros decide to pin a specific version of GIMP to their releases.
@@ -50,7 +99,7 @@ GIMP can run on Solaris.
 </div>
 
 
-<div class="OS mac" markdown="1">
+<div id='mac' class="os mac" markdown="1">
 
 ## GIMP for Mac OS X
 
@@ -66,7 +115,7 @@ A GIMP 2.8 DMG installer by Sven Claussner, stock GIMP build without any add-ons
 </div>
 
 
-<div class="OS win" markdown="1">
+<div id='win' class="os win" markdown="1">
 ## GIMP for Windows
 
 <a href="http://download.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.14-setup-1.exe" title="Download GIMP via HTTP" >Download GIMP 2.8.14  directly</a>
@@ -96,7 +145,7 @@ BitTorrent is a peer-to-peer file sharing system. It works by downloading GIMP f
 </div>
 
 
-<div class="OS source" markdown="1">
+<div id='source'  markdown="1">
 ## Source for version 2.8 (Stable)
 
 GIMP releases available from gimp.org and its [mirrors](#mirrors) contain the source code and have to be compiled in order to be installed on your system.
@@ -191,29 +240,48 @@ If you are running one of the existing GIMP mirrors, or want to create a new one
 
 </div>
 
-
-<style>
-table {
-    max-width: 35rem;
-    margin: 1rem auto;
-}
-td, th {
-    padding: 0 1rem;
-}
-
-.download-mirror{
-    word-wrap: break-word;
-}
-
-@media ( max-width: 40rem ){
-    .download-mirror dd {
-        margin-left: 0.5rem;
-    }
-}
-</style>
-
 <script src="/js/platform.js"></script>
 
 <script>
-document.getElementById('pOSTEST').innerHTML = platform.os;
+
+if ( platform.os.family.indexOf('Win') !== -1 && platform.os.family.indexOf('Phone') == -1 ){
+    document.getElementById('win').style.display = 'block';
+    document.getElementById('pOSTEST').innerHTML = 'Microsoft Windows.';
+}else if ( platform.os.family.indexOf('OS X') !== -1 ){
+    document.getElementById('mac').style.display = 'block';
+    document.getElementById('pOSTEST').innerHTML = 'OS X.';
+}else {
+    document.getElementById('pOSTEST').innerHTML = platform.os.family + '.';
+}
+
+function render( os ){
+    switch( this.id ) {
+        case 'os_linux':
+            document.getElementById('linux').style.display = 'block';
+            document.getElementById('win').style.display = 'none';
+            document.getElementById('mac').style.display = 'none';
+            break;
+        case 'os_win':
+            document.getElementById('linux').style.display = 'none';
+            document.getElementById('win').style.display = 'block';
+            document.getElementById('mac').style.display = 'none';
+            break;
+        case 'os_mac':
+            document.getElementById('linux').style.display = 'none';
+            document.getElementById('win').style.display = 'none';
+            document.getElementById('mac').style.display = 'block';
+            break;
+        default:
+            document.getElementById('linux').style.display = 'block';
+            document.getElementById('win').style.display = 'block';
+            document.getElementById('mac').style.display = 'block';
+            break;
+    }
+    return false;
+}
+
+document.getElementById('os_all').addEventListener("click", render );
+document.getElementById('os_linux').addEventListener("click", render );
+document.getElementById('os_win').addEventListener("click", render );
+document.getElementById('os_mac').addEventListener("click", render );
 </script>
