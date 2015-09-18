@@ -52,6 +52,8 @@ At the moment, the OS will be detected as one of the following:
       'Windows '
     ]);
 
+<small>2015-09-18T17:10:50-05:00</small>  
+This _may_ be done now - needs more testing to be sure.
 
 ## Link Order in Nav bar
 
