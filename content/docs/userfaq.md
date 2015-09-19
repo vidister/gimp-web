@@ -170,10 +170,10 @@ changing the way we mean GIMP to work. Hence we respectfully disagree to make
 extra behaviour switches.
 
 At the same time, if you don't wish to abandon GIMP completely, we recommend
-having a look at the [Saver and Save/export clean plug-ins]
-(http://www.shallowsky.com/software/gimp-save/) by Akkana Peck, as well as
-at various GIMP forks on GitHub, although typically they aren't maintained up
-to date with regards to bugfixes.
+having a look at the 
+[Saver and Save/export clean plug-ins](http://www.shallowsky.com/software/gimp-save/) 
+by Akkana Peck, as well as at various GIMP forks on GitHub, although typically 
+they aren't maintained up to date with regards to bugfixes.
 
 ## Tips
 
@@ -232,5 +232,5 @@ Absolutely! Here are some of the ways you can help us:
 online or submit to [GIMP Magazine](http://gimpmagazine.org/).
 * Do a GIMP workshop in your local community.
 * Improve translation of [GIMP](https://l10n.gnome.org/module/gimp/) and/or its 
-[user manual](http://docs.gimp.org/) into your native language (read [this page]
-(https://wiki.gnome.org/TranslationProject) to find out, how).
+[user manual](http://docs.gimp.org/) into your native language (read 
+[this page](https://wiki.gnome.org/TranslationProject) to find out, how).
