@@ -309,3 +309,74 @@ footer .nav-bottom a {
         margin-left: 0;
     }
 }
+
+
+
+/* Working on responsive/mobile styling here
+ */
+@media ( max-width: 40rem ){
+
+    nav#menu {
+        visibility: hidden;
+        position: fixed;
+        top: 0;
+        padding: 0;
+        width: 100%;
+        z-index: 5;
+        -webkit-transition: -webkit-transform 0.25s ease-in-out;
+        -moz-transition: -moz-transform 0.25s ease-in-out;
+        -o-transition: -o-transform 0.25s ease-in-out;
+        transition: transform 0.25s ease-in-out;
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        transform: translateY(-100%);
+    }
+
+    nav#menu.show {
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    nav#menu.hide {
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        transform: translateY(-100%);
+    }
+
+    #menu ul {
+        text-align: center;
+        background-color: #0e2426;
+    }
+
+    nav#menu ul li {
+        display: block;
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+        padding-bottom: 0.75rem;
+        padding-top: 0.75rem;
+    }
+
+    #menu ul a#navel {
+        font-size: 2rem;
+        color: gray;
+        display: block;
+        padding-left: 1rem;
+        padding-top: 0.5rem;
+        background-color: transparent;
+        position: absolute;
+    }
+}
+
+
+@media ( min-width: 40rem ){
+    #menu ul a#navel {
+        display: none;
+    }
+}

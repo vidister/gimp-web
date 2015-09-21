@@ -17,6 +17,7 @@
         <link rel="stylesheet" type="text/css" href="/theme/css/gimp.css" />
         <link rel="stylesheet" type="text/css" href="/theme/css/font-awesome-4.4.0/css/font-awesome.min.css" />
 
+
         {% if FEED_ALL_ATOM %}
         <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
         {% endif %}
@@ -46,7 +47,7 @@
 
 <body id="index" class="home">
 
-        <nav id="menu">
+        <nav id="menu" >
             <ul>
                 <li id='gimp-home'><a href="/"><img src='/images/wilber-tiny.png'> GIMP</a></li>
                 <li><a href="/downloads/"><i class="fa fa-download"></i> Download</a></li>
@@ -72,45 +73,17 @@
                 {% endfor %}
               {% endif %}
             {% endif %}
+
+            <a id="navel" href="#bottom-nav" ><i class="fa fa-bars"></i></a>
             </ul>
         </nav><!-- /#menu -->
 
+    <div id="pushPage">
 
         {% block header %}
         {% endblock header %}
 
-        {#
-        <nav id="menu">
-            <ul>
-                <li id='gimp-home'><a href="/"><img src='/images/wilber-tiny.png'> GIMP</a></li>
-                <li><a href="/downloads/"><i class="fa fa-download"></i> Download</a></li>
-                <li><a href="/news/"><i class="fa fa-newspaper-o"></i> News</a></li>
-            {% for title, link in MENUITEMS %}
-                <li><a href="{{ link }}">{{ title }}</a></li>
-            {% endfor %}
-            {% if DISPLAY_PAGES_ON_MENU %}
-              {% for p in PAGES %}
-                {% if p.parents|length == 1 %}
-                  <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
-                {% endif %}
-                {# The old way...
-                  {% if not p.parent %}
-                    <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
-                  {% endif %}
-                #}
-                {#
-              {% endfor %}
-            {% else %}
-              {% if DISPLAY_CATEGORIES_ON_MENU %}
-                {% for cat, null in categories %}
-                  <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
-                {% endfor %}
-              {% endif %}
-            {% endif %}
-            </ul>
-        </nav><!-- /#menu -->
-        #}
-
+        
         {% block content %}
         {% endblock %}
 
@@ -118,7 +91,7 @@
             <div class="container">
                 <div class="row clearfix">
                     <div class="column third">
-                        <ul class="nav-bottom">
+                        <ul class="nav-bottom" id='bottom-nav'>
                             <li id='nav-btm-gimp-home'><a href="/"><img src='/images/wilber-tiny.png'> GIMP</a></li>
                             <li id="nav-btm-downloads"><a href="/downloads/"><i class="fa fa-download fa-fw"></i> Download</a></li>
                             <li id="nav-btm-news"><a href="/news/"><i class="fa fa-newspaper-o fa-fw"></i> News</a></li>
@@ -151,11 +124,15 @@
                         <a href="/news.rdf">GIMP News Feed</a> | <a href="/webmasters.html">Contacting Us</a>
                     </div>
                     <div class="column half">
-                        &copy; 2001-2014 <a href="/team.html">The GIMP Team</a>
+                        &copy; 2001-2015 <a href="/team.html">The GIMP Team</a>
                     </div>
                 </div>
             </div>
         </footer><!-- /#contentinfo -->
+
+    </div>
+
+    <script src="/js/push-menu.js"></script>
 
 </body>
 </html>
