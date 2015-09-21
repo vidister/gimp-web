@@ -30,6 +30,11 @@ td, th {
     font-style: italic;
 }
 
+.show_links {
+    color: #497bad;
+    cursor: pointer;
+}
+
 #letmeknow { display: none; }
 </style>
 
@@ -60,10 +65,10 @@ Thank you!
 
 <p id='others'>
 Show downloads for 
-<a href="javscript:void(0)" id='os_linux'>GNU/Linux</a>&nbsp;| 
-<a href="javscript:void(0)" id='os_mac'>OS&nbsp;X</a>&nbsp;| 
-<a href="javscript:void(0)" id='os_win'>Microsoft&nbsp;Windows</a>&nbsp;| 
-<a href="javascript:void(0)" id='os_all' href="">All</a>
+<span class="show_links" id='os_linux'>GNU/Linux</span>&nbsp;| 
+<span class="show_links" id='os_mac'>OS&nbsp;X</span>&nbsp;| 
+<span class="show_links" id='os_win'>Microsoft&nbsp;Windows</span>&nbsp;| 
+<span class="show_links" id='os_all' href="">All</span>
 </p>
 
 </div>
