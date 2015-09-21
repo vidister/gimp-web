@@ -340,6 +340,7 @@ footer .nav-bottom a {
         -o-transform: translateY(0);
         -ms-transform: translateY(0);
         transform: translateY(0);
+        box-shadow: 0 -10px 10px 10px rgba(0,0,0,0.85);
     }
 
     nav#menu.hide {
@@ -348,6 +349,7 @@ footer .nav-bottom a {
         -o-transform: translateY(-100%);
         -ms-transform: translateY(-100%);
         transform: translateY(-100%);
+        box-shadow: none;
     }
 
     #menu ul {
@@ -358,9 +360,19 @@ footer .nav-bottom a {
     nav#menu ul li {
         display: block;
         font-size: 1rem;
+        margin-left: 0;
+        /*
         letter-spacing: 0.1rem;
         padding-bottom: 0.75rem;
         padding-top: 0.75rem;
+        */
+    }
+
+    nav#menu ul li a {
+        display: block;
+        letter-spacing: 0.1rem;
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
     }
 
     #menu ul a#navel {
@@ -371,6 +383,11 @@ footer .nav-bottom a {
         padding-top: 0.5rem;
         background-color: transparent;
         position: absolute;
+        color: white;
+        text-shadow: 1px 1px black, 
+                        1px -1px black, 
+                        -1px -1px black, 
+                        -1px 1px black;
     }
 }
 
