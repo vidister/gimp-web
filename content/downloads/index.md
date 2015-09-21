@@ -252,6 +252,7 @@ if ( platform.os.family.indexOf('Win') !== -1 && platform.os.family.indexOf('Pho
     document.getElementById('pOSTEST').innerHTML = 'OS X.';
 }else {
     document.getElementById('pOSTEST').innerHTML = platform.os.family + '.';
+    document.getElementById('linux').style.display = 'block';
 }
 
 function render( os ){
