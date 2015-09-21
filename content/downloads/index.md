@@ -90,6 +90,10 @@ SUSE users can install GIMP by running `yast -i gimp` or `zypper in gimp`, depen
 
 Similarly to the above, Fedora users can install GIMP by running `yum install gimp`.
 
+### Gentoo
+
+Gentoo users can install GIMP by running `emerge gimp` for the latest stable version.
+
 ### Mandriva
 
 Mandriva Linux users can install GIMP by running `urpmi gimp`.
