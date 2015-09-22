@@ -375,7 +375,7 @@ footer .nav-bottom a {
         padding-top: 0.5rem;
     }
 
-    a#navel {
+    a#navel-old {
         top: 0;
         z-index: 2;
         font-size: 2rem;
@@ -390,19 +390,51 @@ footer .nav-bottom a {
                         1px -1px black, 
                         -1px -1px black, 
                         -1px 1px black;
-
+        display: none;
     }
 
-    a#navel.bottom {
+    a#navel-old.bottom {
         top: initial;
         bottom: 0;
     }
 
-    a#navel.initial {
+    a#navel-old.initial {
         top: 0;
         bottom: initial;
     }
+
+    #navstrip {
+        top: 0;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        background-color: #333;
+        padding: 5px 0;
+        font-size: 0.8rem;
+    }
     
+    #navstrip .navfive {
+        display: inline-block;
+        width: 19%;
+    }
+
+    .navfive a {
+        color: white;
+    }
+
+    #pushPage .container.title {
+        margin-top: 65px;
+    }
+
+    #pushPage #banner {
+        padding-top: 55px;
+    }
+    
+    .container.title .column.full {
+        margin-bottom: 0;
+    }
+
     #nav-up {
         font-size: 1rem;
         color: #888;
@@ -411,9 +443,14 @@ footer .nav-bottom a {
 
 
 @media ( min-width: 40rem ){
-    a#navel {
+    #navstrip {
         display: none;
     }
+
+    a#navel-old {
+        display: none;
+    }
+
     #nav-up {
         display: none;
     }
