@@ -389,6 +389,14 @@ footer .nav-bottom a {
                         -1px -1px black, 
                         -1px 1px black;
     }
+
+    a#navel.bottom {
+        bottom: 0;
+    }
+
+    a#navel.initial {
+        bottom: initial;
+    }
 }
 
 

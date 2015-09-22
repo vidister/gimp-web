@@ -17,10 +17,12 @@ var toggle = function(e){
 
     if( menu.className.indexOf('show') !== -1 ){
         menu.className = "hide";
+        navel.className = "initial";
         page.removeEventListener('click', toggle, false);
         page.removeEventListener('touchstart', toggle, false);
     }else{
         menu.className = "show";
+        navel.className = "bottom";
         page.addEventListener('click', toggle, false);
         page.addEventListener('touchstart', toggle, false);
     }
