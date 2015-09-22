@@ -376,6 +376,7 @@ footer .nav-bottom a {
     }
 
     a#navel {
+        top: 0;
         font-size: 2rem;
         color: gray;
         display: block;
@@ -388,13 +389,16 @@ footer .nav-bottom a {
                         1px -1px black, 
                         -1px -1px black, 
                         -1px 1px black;
+
     }
 
     a#navel.bottom {
+        top: initial;
         bottom: 0;
     }
 
     a#navel.initial {
+        top: 0;
         bottom: initial;
     }
 }
