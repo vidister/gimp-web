@@ -135,6 +135,7 @@ nav#menu li#gimp-home {
 
 #cap-photos .column.third {
     height: 300px;
+    max-height: 30vh;
 }
 
 .cap {
@@ -187,6 +188,7 @@ nav#menu li#gimp-home {
 
 #cap-painting .column.third {
     height: 300px;
+    max-height: 30vh;
 }
 
 #cap-graphics {
@@ -200,6 +202,7 @@ nav#menu li#gimp-home {
 
 #cap-graphics .column.third {
     height: 250px;
+    max-height: 30vh;
 }
 
 #component {
