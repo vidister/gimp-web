@@ -402,11 +402,19 @@ footer .nav-bottom a {
         top: 0;
         bottom: initial;
     }
+    
+    #nav-up {
+        font-size: 1rem;
+        color: #888;
+    }
 }
 
 
 @media ( min-width: 40rem ){
     a#navel {
+        display: none;
+    }
+    #nav-up {
         display: none;
     }
 }
