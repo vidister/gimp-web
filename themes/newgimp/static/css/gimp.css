@@ -375,14 +375,14 @@ footer .nav-bottom a {
         padding-top: 0.5rem;
     }
 
-    #menu ul a#navel {
+    a#navel {
         font-size: 2rem;
         color: gray;
         display: block;
         padding-left: 1rem;
         padding-top: 0.5rem;
         background-color: transparent;
-        position: absolute;
+        position: fixed;
         color: white;
         text-shadow: 1px 1px black, 
                         1px -1px black, 
@@ -393,7 +393,7 @@ footer .nav-bottom a {
 
 
 @media ( min-width: 40rem ){
-    #menu ul a#navel {
+    a#navel {
         display: none;
     }
 }
