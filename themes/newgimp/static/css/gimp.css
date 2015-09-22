@@ -413,6 +413,8 @@ footer .nav-bottom a {
         background-color: #333;
         padding: 5px 0;
         font-size: 0.8rem;
+        transition: top 0.2s ease-in-out;
+        position: fixed;
     }
     
     #navstrip .navfive {
@@ -440,10 +442,20 @@ footer .nav-bottom a {
         margin-bottom: 0;
     }
 
+    .nav-down {
+        top: 0;
+    }
+
+    .nav-up {
+        top: -60px !important;
+    }
+
+    /*
     #nav-up {
         font-size: 1rem;
         color: #888;
     }
+    */
 }
 
 
