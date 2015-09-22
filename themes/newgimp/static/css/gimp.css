@@ -157,6 +157,7 @@ figure {
     font-size: 0.8rem;
     max-width: 34rem;
     width: 34rem;
+    width: 100%;
 }
 
 .codehilite {
@@ -424,7 +425,11 @@ footer .nav-bottom a {
     }
 
     #pushPage .container.title {
-        margin-top: 65px;
+        padding-top: 60px;
+    }
+
+    #pushPage #articles {
+        padding-top: 65px;
     }
 
     #pushPage #banner {
