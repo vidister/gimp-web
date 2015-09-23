@@ -78,5 +78,5 @@ setInterval( function() {
     }
 }, 250);
 
-menu.style.display = 'initial';
+menu.style.display = 'block';
 menu.style.zIndex = '1';
