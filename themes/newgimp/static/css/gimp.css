@@ -411,7 +411,6 @@ footer .nav-bottom a {
         width: 100%;
         text-align: center;
         background-color: #333;
-        padding: 5px 0;
         font-size: 0.8rem;
         transition: top 0.2s ease-in-out;
         position: fixed;
@@ -420,10 +419,15 @@ footer .nav-bottom a {
     #navstrip .navfive {
         display: inline-block;
         width: 19%;
+        color: white;
+        font-size: 0.75rem;
+        padding: 0.1rem 0;
     }
 
-    .navfive a {
-        color: white;
+    .navfive i.fa, .navfive #wilber-tiny {
+        font-size: 1.25rem;
+        position: relative;
+        bottom: -2px;
     }
 
     #pushPage .container.title {
@@ -449,13 +453,7 @@ footer .nav-bottom a {
     .nav-up {
         top: -60px !important;
     }
-
-    /*
-    #nav-up {
-        font-size: 1rem;
-        color: #888;
-    }
-    */
+    
 }
 
 
