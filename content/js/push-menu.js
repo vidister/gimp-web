@@ -8,6 +8,7 @@ var page = document.getElementById('pushPage');
 var menu = document.getElementById('menu');
 
 menu.style.visibility = 'visible';
+menu.style.zIndex = 1;
 
 var toggle = function(e){
     e.preventDefault();
@@ -62,8 +63,10 @@ setInterval( function() {
         if(Math.abs(lastScrollTop - st) <= delta)
             return;
 
+        console.log( st );
+
         // If scroll past navbar, add class .nav-up
-        if ( st > lastScrollTop ){
+        if ( st > lastScrollTop && st > 30){
             //scroll down
             navbar.className = navbar.className.replace('nav-down','nav-up');
 			//b.backgroundPositionY = parseInt( b.backgroundPositionY ) + 4 + '%';
