@@ -173,8 +173,8 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 <del><http://www.gimp.org/tutorials/Color2BW/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Color2BW/index.md)  
 <del><http://www.gimp.org/tutorials/Coloring_A_BW_Sketch/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Coloring_A_BW_Sketch/index.md)  
 
-<http://www.gimp.org/tutorials/ContrastMask/index.html>  
-<http://www.gimp.org/tutorials/Creating_Icons/index.html>  
+<del><http://www.gimp.org/tutorials/ContrastMask/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/ContrastMask/index.md)  
+<del><http://www.gimp.org/tutorials/Creating_Icons/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Creating_Icons/index.md)  
 <http://www.gimp.org/tutorials/Custom_Brushes/index.html>  
 <http://www.gimp.org/tutorials/Digital_Black_and_White_Conversion/index.html>  
 <http://www.gimp.org/tutorials/Draw_A_Paint_Brush/index.html>  
