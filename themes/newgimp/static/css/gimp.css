@@ -185,6 +185,15 @@ figure {
     border-radius: 3px;
 }
 
+.Cmd {
+    text-align: center;
+}
+
+.aside {
+    border: dashed 1px #aaa;
+    padding: 0.5rem;
+}
+
 img {
     display: initial;
     height: initial;
