@@ -8,7 +8,6 @@ var page = document.getElementById('pushPage');
 var menu = document.getElementById('menu');
 
 menu.style.visibility = 'visible';
-menu.style.zIndex = 1;
 
 var toggle = function(e){
     e.preventDefault();
@@ -79,7 +78,5 @@ setInterval( function() {
     }
 }, 250);
 
-
-
-
-
+menu.style.display = 'initial';
+menu.style.zIndex = '1';
