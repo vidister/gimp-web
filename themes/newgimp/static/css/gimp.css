@@ -463,6 +463,10 @@ footer .nav-bottom a {
         display: none;
     }
 
+    #menu {
+        display: block;
+    }
+
     a#navel-old {
         display: none;
     }
