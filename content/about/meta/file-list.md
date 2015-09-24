@@ -181,7 +181,8 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 <del><http://www.gimp.org/tutorials/Draw_A_Paint_Brush/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Draw_A_Paint_Brush/index.md)  
 
 <http://www.gimp.org/tutorials/Drawables/index.html>  
-<http://www.gimp.org/tutorials/Drawing_Shapes/index.html>  
+<del><http://www.gimp.org/tutorials/Drawing_Shapes/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Draw_A_Paint_Brush/index.md)  
+
 <http://www.gimp.org/tutorials/Film_Grain/index.html>  
 <http://www.gimp.org/tutorials/Floating_Logo/index.html>  
 <del><http://www.gimp.org/tutorials/GIMP_Quickies/index.html></del> [<i class="fa fa-link"></i>](/tutorials/GIMP_Quickies/)   
