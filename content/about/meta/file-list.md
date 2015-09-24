@@ -202,8 +202,8 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 <del><http://www.gimp.org/tutorials/Lite_Quickies/jpegrace.html></del>  
 <del><http://www.gimp.org/tutorials/Luminosity_Masks/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Luminosity_Masks/index.md)  
 <http://www.gimp.org/tutorials/Perl-Debugged/index.html>  
-<http://www.gimp.org/tutorials/Perlotine/index.html>  
-<http://www.gimp.org/tutorials/Perlotine/nested.html>  
+<del><http://www.gimp.org/tutorials/Perlotine/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Luminosity_Masks/index.md)  
+<del><http://www.gimp.org/tutorials/Perlotine/nested.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Luminosity_Masks/index.md)  
 <http://www.gimp.org/tutorials/Photo_To_Sketch/index.html>  
 <http://www.gimp.org/tutorials/Quickmask/index.html>  
 <http://www.gimp.org/tutorials/Red_Eye_Removal/index.html>  
