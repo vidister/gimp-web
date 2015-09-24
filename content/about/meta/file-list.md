@@ -181,25 +181,26 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 <del><http://www.gimp.org/tutorials/Draw_A_Paint_Brush/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Draw_A_Paint_Brush/index.md)  
 
 <http://www.gimp.org/tutorials/Drawables/index.html>  
-<del><http://www.gimp.org/tutorials/Drawing_Shapes/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Draw_A_Paint_Brush/index.md)  
+<del><http://www.gimp.org/tutorials/Drawing_Shapes/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Drawing_Shapes/index.md)  
 
-<del><http://www.gimp.org/tutorials/Film_Grain/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Draw_A_Paint_Brush/index.md)  
-<http://www.gimp.org/tutorials/Floating_Logo/index.html>  
+<del><http://www.gimp.org/tutorials/Film_Grain/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Film_Grain/index.md)  
+<del><http://www.gimp.org/tutorials/Floating_Logo/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Floating_Logo/index.md)  
+
 <del><http://www.gimp.org/tutorials/GIMP_Quickies/index.html></del> [<i class="fa fa-link"></i>](/tutorials/GIMP_Quickies/)   
-<http://www.gimp.org/tutorials/Golden_Text/index.html>  
-<http://www.gimp.org/tutorials/Image_Map/index.html>  
+<del><http://www.gimp.org/tutorials/Golden_Text/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Golden_Text/index.md)  
+<del><http://www.gimp.org/tutorials/Image_Map/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Golden_Text/index.md)  
 <http://www.gimp.org/tutorials/Image_Map/bexcolored.html>
 <http://www.gimp.org/tutorials/Image_Map/bexcolorpicker-tuthtml.html>
 <http://www.gimp.org/tutorials/Image_Map/bexcolorpicker-tutpop.html>
 <http://www.gimp.org/tutorials/Image_Map/imap1.html>
 <http://www.gimp.org/tutorials/Image_Map/visibone.html>
-<http://www.gimp.org/tutorials/Image_Pipes/index.html>  
-<http://www.gimp.org/tutorials/Image_Pipes2/index.html>  
-<http://www.gimp.org/tutorials/Layer_Masks/index.html>  
-<http://www.gimp.org/tutorials/Lite_Quickies/flips.html>  
-<http://www.gimp.org/tutorials/Lite_Quickies/index.html>  
-<http://www.gimp.org/tutorials/Lite_Quickies/jpegrace.html>  
-<http://www.gimp.org/tutorials/Luminosity_Masks/index.html>  
+<del><http://www.gimp.org/tutorials/Image_Pipes/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Image_Pipes/index.md)  
+<del><http://www.gimp.org/tutorials/Image_Pipes2/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Image_Pipes2/index.md)  
+<del><http://www.gimp.org/tutorials/Layer_Masks/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Layer_Masks/index.md)  
+<del><http://www.gimp.org/tutorials/Lite_Quickies/flips.html></del>  
+<del><http://www.gimp.org/tutorials/Lite_Quickies/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Layer_Masks/index.md)  
+<del><http://www.gimp.org/tutorials/Lite_Quickies/jpegrace.html></del>  
+<del><http://www.gimp.org/tutorials/Luminosity_Masks/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Luminosity_Masks/index.md)  
 <http://www.gimp.org/tutorials/Perl-Debugged/index.html>  
 <http://www.gimp.org/tutorials/Perlotine/index.html>  
 <http://www.gimp.org/tutorials/Perlotine/nested.html>  
