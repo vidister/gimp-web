@@ -16,6 +16,7 @@ I (Pat David) am creating this page to keep notes and information for building/m
 * [Using Pelican](./using-pelican/)
 * [Markdown Cheatsheet](./markdown.html)
 * [Translations (more info)](./translations.html)
+* [Old URL List](./file-list.html)
 
 
 The work I am doing here is based on a couple of suggestions over the past year (or more, I'm sure) to refresh the design of WGO.

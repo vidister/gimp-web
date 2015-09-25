@@ -177,15 +177,11 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 <del><http://www.gimp.org/tutorials/Creating_Icons/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Creating_Icons/index.md)  
 <del><http://www.gimp.org/tutorials/Custom_Brushes/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Custom_Brushes/index.md)  
 <del><http://www.gimp.org/tutorials/Digital_Black_and_White_Conversion/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Digital_Black_and_White_Conversion/index.md)  
-
 <del><http://www.gimp.org/tutorials/Draw_A_Paint_Brush/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Draw_A_Paint_Brush/index.md)  
-
 <http://www.gimp.org/tutorials/Drawables/index.html>  
 <del><http://www.gimp.org/tutorials/Drawing_Shapes/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Drawing_Shapes/index.md)  
-
 <del><http://www.gimp.org/tutorials/Film_Grain/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Film_Grain/index.md)  
 <del><http://www.gimp.org/tutorials/Floating_Logo/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Floating_Logo/index.md)  
-
 <del><http://www.gimp.org/tutorials/GIMP_Quickies/index.html></del> [<i class="fa fa-link"></i>](/tutorials/GIMP_Quickies/)   
 <del><http://www.gimp.org/tutorials/Golden_Text/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Golden_Text/index.md)  
 <del><http://www.gimp.org/tutorials/Image_Map/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Golden_Text/index.md)  
@@ -201,13 +197,13 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 <del><http://www.gimp.org/tutorials/Lite_Quickies/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Layer_Masks/index.md)  
 <del><http://www.gimp.org/tutorials/Lite_Quickies/jpegrace.html></del>  
 <del><http://www.gimp.org/tutorials/Luminosity_Masks/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Luminosity_Masks/index.md)  
-<http://www.gimp.org/tutorials/Perl-Debugged/index.html>  
-<del><http://www.gimp.org/tutorials/Perlotine/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Luminosity_Masks/index.md)  
-<del><http://www.gimp.org/tutorials/Perlotine/nested.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Luminosity_Masks/index.md)  
-<http://www.gimp.org/tutorials/Photo_To_Sketch/index.html>  
-<http://www.gimp.org/tutorials/Quickmask/index.html>  
-<http://www.gimp.org/tutorials/Red_Eye_Removal/index.html>  
-<http://www.gimp.org/tutorials/Reducing_CCD_Noise/index.html>  
+<del><http://www.gimp.org/tutorials/Perl-Debugged/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Perl-Debugged/index.md)  
+<del><http://www.gimp.org/tutorials/Perlotine/index.html></del>  
+<del><http://www.gimp.org/tutorials/Perlotine/nested.html></del>  
+<del><http://www.gimp.org/tutorials/Photo_To_Sketch/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Photo_To_Sketch/index.md)  
+<del><http://www.gimp.org/tutorials/Quickmask/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Quickmask/index.md)  
+<del><http://www.gimp.org/tutorials/Red_Eye_Removal/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Red_Eye_Removal/index.md)  
+<del><http://www.gimp.org/tutorials/Reducing_CCD_Noise/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Reducing_CCD_Noise/index.md)  
 <http://www.gimp.org/tutorials/Selective_Color/index.html>  
 <http://www.gimp.org/tutorials/Selective_Gaussian_Blur/index.html>  
 <http://www.gimp.org/tutorials/Sepia_Toning/index.html>  
