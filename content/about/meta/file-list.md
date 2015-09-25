@@ -205,7 +205,7 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 <del><http://www.gimp.org/tutorials/Red_Eye_Removal/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Red_Eye_Removal/index.md)  
 <del><http://www.gimp.org/tutorials/Reducing_CCD_Noise/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Reducing_CCD_Noise/index.md)  
 <del><http://www.gimp.org/tutorials/Selective_Color/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Selective_Color/index.md)  
-<http://www.gimp.org/tutorials/Selective_Gaussian_Blur/index.html>  
+<del><http://www.gimp.org/tutorials/Selective_Gaussian_Blur/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Selective_Color/index.md)  
 <http://www.gimp.org/tutorials/Sepia_Toning/index.html>  
 <http://www.gimp.org/tutorials/Simple_Animations/index.html>  
 <http://www.gimp.org/tutorials/Sketch_Effect/index.html>  
