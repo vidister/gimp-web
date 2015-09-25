@@ -50,7 +50,7 @@ Normally I find that both settings should be between 5 and 10, where low numbers
 <img src="15.png" alt="15.png"/> <img src="00.jpg" alt="00.jpg"/>
 </figure>
 
-For a more in depth explanation of what the settings do see [http://www.ftgimp.com/help/C/filters/sel_gauss.html](http://www.ftgimp.com/help/C/filters/sel_gauss.html).
+For a more in depth explanation of what the settings do see [http://docs.gimp.org/2.8/en/plug-in-sel-gauss.html](http://docs.gimp.org/2.8/en/plug-in-sel-gauss.html).
 
 After playing with the settings a bit I liked the clean look of a blur radius of 10 and maximum delta of 10\. Then I checked what those settings looked like on another crop (which is always a good idea to do), I decided that it was on the very edge, and maybe even too much. There was too much loss of detail in the hair.
 
