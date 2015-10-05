@@ -49,6 +49,8 @@ RELATIVE_URLS = True
 
 # Pat David changes while building/testing
 
+READERS = {'html': None}
+
 # This will copy over these folders w/o modification
 STATIC_PATHS = ['images', 'js', 'pages', 'tutorials', 'about', 'books', 'develop', 'docs', 'donating', 'downloads', 'features', 'bugs', 'links', 'man', 'release-notes', 'screenshots', 'source', 'unix', 'robots.txt', 'COPYING', 'GNUGPLv2', 'GNUGPLv3']
 
