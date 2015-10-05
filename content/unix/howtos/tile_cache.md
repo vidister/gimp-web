@@ -1,7 +1,7 @@
 Title: How To Set Your Tile Cache
 Date: 2004
 Modified: 2015-10-05T10:19:55-05:00
-Author: Pat David
+Author: Wilber Gimp 
 
 
 ## or Tile Cache Recommendations

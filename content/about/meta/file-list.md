@@ -10,7 +10,7 @@ or should be combined with some other page, please let me know!
 I am striking through pages that I've already ported (though you may want to check them behind me just in case).
 The main page links go to legacy WGO, the link icon (if there) will go to the ported page to SGO.
 
-<http://www.gimp.org/archive.html> (skipping - deprecated?) 
+<http://www.gimp.org/archive.html> (skipping - deprecated?)   
 <del><http://www.gimp.org/index.html></del> [<i class="fa fa-link"></i>](/index.html)  
 <del><http://www.gimp.org/irc.html></del> [<i class="fa fa-link"></i>](/irc.html)   
 <del><http://www.gimp.org/mail_lists.html></del> [<i class="fa fa-link"></i>](/mail_lists.html)   
@@ -42,7 +42,7 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 
 <del><http://www.gimp.org/announcements/open-usability-gimp.html></del> [<i class="fa fa-link"></i>]({filename}../../news/2006-08-11 Open Usability.md) (moved to a news item - not sure if we need to keep this URI)   
 
-<del><http://www.gimp.org/books/index.html>  </del> [<i class="fa fa-link"></i>]({filename}../../books/index.md)
+<del><http://www.gimp.org/books/index.html>  </del> [<i class="fa fa-link"></i>]({filename}../../books/index.md)  
 
 <del><http://www.gimp.org/bugs/index.html></del> [<i class="fa fa-link"></i>]({filename}../../bugs/index.md)    
 <del><http://www.gimp.org/bugs/why_bugzilla.html></del> [<i class="fa fa-link"></i>]({filename}../../bugs/why_bugzilla.md)  
@@ -50,68 +50,68 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 <del><http://www.gimp.org/bugs/howtos/howto-template.html></del> (skipping - test/placeholder data)  
 <del><http://www.gimp.org/bugs/howtos/submit-patch.html></del> [<i class="fa fa-link"></i>]({filename}../../bugs/howtos/submit-patch.md)  
 
-<http://www.gimp.org/contest/index.html>  (deprecated - not keeping this URI?)
+<http://www.gimp.org/contest/index.html>  (deprecated - not keeping this URI?)  
 
 <del><http://www.gimp.org/develop/index.html>  </del> [<i class="fa fa-link"></i>]({filename}../../develop/index.md)  
 
 <del><http://www.gimp.org/docs/index.html>  </del> [<i class="fa fa-link"></i>]({filename}../../docs/index.md)  
 <del><http://www.gimp.org/docs/script-fu-update.html>  </del> [<i class="fa fa-link"></i>]({filename}../../docs/script-fu-update.md)  
-<del><http://www.gimp.org/docs/userfaq.html>  </del> [<i class="fa fa-link"></i>]({filename}../../docs/userfaq.md)  
+<del><http://www.gimp.org/docs/userfaq.html></del> [<i class="fa fa-link"></i>]({filename}../../docs/userfaq.md)  
 <del><http://www.gimp.org/docs/gimp-print/print.html></del> [<i class="fa fa-link"></i>]({filename}../../docs/gimp-print/print.md) (I have to admit to having lost interest in updating this page to format properly...)  
-<http://www.gimp.org/docs/plug-in/appendix-alpha.html>
-<http://www.gimp.org/docs/plug-in/appendix-threading.html>
-<http://www.gimp.org/docs/plug-in/chapt-intro.html>
-<http://www.gimp.org/docs/plug-in/colophon.html>
-<http://www.gimp.org/docs/plug-in/genindex.html>
-<http://www.gimp.org/docs/plug-in/gloss.html>
-<http://www.gimp.org/docs/plug-in/legalese.html>
-<http://www.gimp.org/docs/plug-in/ln13.html>
-<http://www.gimp.org/docs/plug-in/ln15.html>
-<http://www.gimp.org/docs/plug-in/plug-in.html>
-<http://www.gimp.org/docs/plug-in/sect-essentials.html>
-<http://www.gimp.org/docs/plug-in/sect-image.html>
-<http://www.gimp.org/docs/plug-in/sect-tiles.html>
-<http://www.gimp.org/docs/plug-in/sect-ui.html>
-<http://www.gimp.org/docs/python/index.html>
-<http://www.gimp.org/docs/python/pygimp.html>
-<http://www.gimp.org/docs/python/xhtml11.css>
-<http://www.gimp.org/docs/python/xhtml11-quirks.css>
-<http://www.gimp.org/docs/scheme_plugin/efficientaccess.html>
-<http://www.gimp.org/docs/scheme_plugin/imagedata.html>
-<http://www.gimp.org/docs/scheme_plugin/index.html>
-<http://www.gimp.org/docs/scheme_plugin/links.html>
-<http://www.gimp.org/docs/scheme_plugin/sample_plugin.html>
-<http://www.gimp.org/docs/scheme_plugin/scheme-overview.html>
-<http://www.gimp.org/docs/scheme_plugin/scheme-sample.html>
-<http://www.gimp.org/docs/scheme_plugin/script-fu-gimp.html>
+<http://www.gimp.org/docs/plug-in/appendix-alpha.html>  
+<http://www.gimp.org/docs/plug-in/appendix-threading.html>  
+<http://www.gimp.org/docs/plug-in/chapt-intro.html>  
+<http://www.gimp.org/docs/plug-in/colophon.html>  
+<http://www.gimp.org/docs/plug-in/genindex.html>  
+<http://www.gimp.org/docs/plug-in/gloss.html>  
+<http://www.gimp.org/docs/plug-in/legalese.html>  
+<http://www.gimp.org/docs/plug-in/ln13.html>  
+<http://www.gimp.org/docs/plug-in/ln15.html>  
+<http://www.gimp.org/docs/plug-in/plug-in.html>  
+<http://www.gimp.org/docs/plug-in/sect-essentials.html>  
+<http://www.gimp.org/docs/plug-in/sect-image.html>  
+<http://www.gimp.org/docs/plug-in/sect-tiles.html>  
+<http://www.gimp.org/docs/plug-in/sect-ui.html>  
+<http://www.gimp.org/docs/python/index.html>  
+<http://www.gimp.org/docs/python/pygimp.html>  
+<http://www.gimp.org/docs/python/xhtml11.css>  
+<http://www.gimp.org/docs/python/xhtml11-quirks.css>  
+<http://www.gimp.org/docs/scheme_plugin/efficientaccess.html>  
+<http://www.gimp.org/docs/scheme_plugin/imagedata.html>  
+<http://www.gimp.org/docs/scheme_plugin/index.html>  
+<http://www.gimp.org/docs/scheme_plugin/links.html>  
+<http://www.gimp.org/docs/scheme_plugin/sample_plugin.html>  
+<http://www.gimp.org/docs/scheme_plugin/scheme-overview.html>  
+<http://www.gimp.org/docs/scheme_plugin/scheme-sample.html>  
+<http://www.gimp.org/docs/scheme_plugin/script-fu-gimp.html>  
 
 
 <del><http://www.gimp.org/donating/index.html></del> [<i class="fa fa-link"></i>]({filename}../../donating/index.md)  
 <del><http://www.gimp.org/donating/sponsors.html></del> [<i class="fa fa-link"></i>]({filename}../../donating/sponsors.md)  
 
-<http://www.gimp.org/downloads/index.html>  
+<del><http://www.gimp.org/downloads/index.html></del> [<i class="fa fa-link"></i>]({filename}../../downloads/index.md)  
 <http://www.gimp.org/downloads/index2.html> (this was an example page of mine - deprecated)  
 <del><http://www.gimp.org/downloads/install_help.html></del> [<i class="fa fa-link"></i>]({filename}../../downloads/install_help.md)   
-<http://www.gimp.org/downloads/Linux.html>  
-<http://www.gimp.org/downloads/Mac.html>  
-<http://www.gimp.org/downloads/source.html>  
-<http://www.gimp.org/downloads/Windows.html>  
+<del><http://www.gimp.org/downloads/Linux.html></del>  
+<del><http://www.gimp.org/downloads/Mac.html></del>  
+<del><http://www.gimp.org/downloads/source.html></del>  
+<del><http://www.gimp.org/downloads/Windows.html></del>  
 
-<http://www.gimp.org/error/HTTP_400.html.var>
-<http://www.gimp.org/error/HTTP_401.html.var>
-<http://www.gimp.org/error/HTTP_403.html.var>
-<http://www.gimp.org/error/HTTP_404.html.var>
-<http://www.gimp.org/error/HTTP_405.html.var>
-<http://www.gimp.org/error/HTTP_408.html.var>
-<http://www.gimp.org/error/HTTP_410.html.var>
-<http://www.gimp.org/error/HTTP_411.html.var>
-<http://www.gimp.org/error/HTTP_412.html.var>
-<http://www.gimp.org/error/HTTP_413.html.var>
-<http://www.gimp.org/error/HTTP_414.html.var>
-<http://www.gimp.org/error/HTTP_501.html.var>
-<http://www.gimp.org/error/HTTP_502.html.var>
-<http://www.gimp.org/error/HTTP_503.html.var>
-<http://www.gimp.org/error/HTTP_506.html.var>
+<http://www.gimp.org/error/HTTP_400.html.var>  
+<http://www.gimp.org/error/HTTP_401.html.var>  
+<http://www.gimp.org/error/HTTP_403.html.var>  
+<http://www.gimp.org/error/HTTP_404.html.var>  
+<http://www.gimp.org/error/HTTP_405.html.var>  
+<http://www.gimp.org/error/HTTP_408.html.var>  
+<http://www.gimp.org/error/HTTP_410.html.var>  
+<http://www.gimp.org/error/HTTP_411.html.var>  
+<http://www.gimp.org/error/HTTP_412.html.var>  
+<http://www.gimp.org/error/HTTP_413.html.var>  
+<http://www.gimp.org/error/HTTP_414.html.var>  
+<http://www.gimp.org/error/HTTP_501.html.var>  
+<http://www.gimp.org/error/HTTP_502.html.var>  
+<http://www.gimp.org/error/HTTP_503.html.var>  
+<http://www.gimp.org/error/HTTP_506.html.var>  
 
 
 
@@ -127,12 +127,12 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 <del><http://www.gimp.org/man/gimp-remote.html></del> [<i class="fa fa-link"></i>]({filename}../../man/gimprc.md)  
 <del><http://www.gimp.org/man/gimptool.html></del> [<i class="fa fa-link"></i>]({filename}../../man/gimptool.md)  
 
-<del><http://www.gimp.org/programmatic/xhtml.py>
+<del><http://www.gimp.org/programmatic/xhtml.py>  
 <http://www.gimp.org/programmatic/admin/howto.html>  
 <http://www.gimp.org/programmatic/admin/news/howto-news.html>  
 <http://www.gimp.org/programmatic/contest/index.html>  
 </del>
-(These links all appear non-functional.  Deprecated?)
+(These links all appear non-functional.  Deprecated?)  
 
 <del><http://www.gimp.org/release-notes/gimp-2.2.html></del> [<i class="fa fa-link"></i>]({filename}../../release-notes/gimp-2.2.md)  
 <http://www.gimp.org/release-notes/gimp-2.3.3.de.html>  
@@ -185,11 +185,11 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 <del><http://www.gimp.org/tutorials/GIMP_Quickies/index.html></del> [<i class="fa fa-link"></i>](/tutorials/GIMP_Quickies/)   
 <del><http://www.gimp.org/tutorials/Golden_Text/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Golden_Text/index.md)  
 <del><http://www.gimp.org/tutorials/Image_Map/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Golden_Text/index.md)  
-<http://www.gimp.org/tutorials/Image_Map/bexcolored.html>
-<http://www.gimp.org/tutorials/Image_Map/bexcolorpicker-tuthtml.html>
-<http://www.gimp.org/tutorials/Image_Map/bexcolorpicker-tutpop.html>
-<http://www.gimp.org/tutorials/Image_Map/imap1.html>
-<http://www.gimp.org/tutorials/Image_Map/visibone.html>
+<http://www.gimp.org/tutorials/Image_Map/bexcolored.html>  
+<http://www.gimp.org/tutorials/Image_Map/bexcolorpicker-tuthtml.html>  
+<http://www.gimp.org/tutorials/Image_Map/bexcolorpicker-tutpop.html>  
+<http://www.gimp.org/tutorials/Image_Map/imap1.html>  
+<http://www.gimp.org/tutorials/Image_Map/visibone.html>  
 <del><http://www.gimp.org/tutorials/Image_Pipes/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Image_Pipes/index.md)  
 <del><http://www.gimp.org/tutorials/Image_Pipes2/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Image_Pipes2/index.md)  
 <del><http://www.gimp.org/tutorials/Layer_Masks/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Layer_Masks/index.md)  
@@ -233,3 +233,9 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 <del><http://www.gimp.org/unix/howtos/tile_cache.html>  </del> [<i class="fa fa-link"></i>]({filename}../../unix/howtos/tile_cache.md)  
 
 <http://www.gimp.org/windows/index.html> (Obsoleted? Directs to downloads page...)  
+
+<style>
+a {
+    word-break: break-all;
+}
+</style>
