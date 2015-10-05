@@ -222,14 +222,14 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 <del><http://www.gimp.org/unix/gimprc.html></del> [<i class="fa fa-link"></i>]({filename}../../unix/gimprc.md)  
 <http://www.gimp.org/unix/gtkrc.html>  
 <http://www.gimp.org/unix/index.html> (Obsoleted? Directs to downloads page...)  
-<http://www.gimp.org/unix/man-gimp-2.0.html>
-<http://www.gimp.org/unix/man-gimprc-2.0.html>
-<http://www.gimp.org/unix/man-gimp-remote-2.0.html>
-<http://www.gimp.org/unix/man-gimptool-2.0.html>
+<del><http://www.gimp.org/unix/man-gimp-2.0.html></del> [<i class="fa fa-link"></i>]({filename}../../unix/man-gimp-2.0.html)  
+<del><http://www.gimp.org/unix/man-gimprc-2.0.html></del> [<i class="fa fa-link"></i>]({filename}../../unix/man-gimprc-2.0.html)  
+<del><http://www.gimp.org/unix/man-gimp-remote-2.0.html></del> [<i class="fa fa-link"></i>]({filename}../../unix/man-gimp-remote-2.0.html)  
+<del><http://www.gimp.org/unix/man-gimptool-2.0.html></del> [<i class="fa fa-link"></i>]({filename}../../unix/man-gimptool-2.0.html)  
 <http://www.gimp.org/unix/user_install.html>  
-<http://www.gimp.org/unix/howtos/bugzilla.html>  
-<http://www.gimp.org/unix/howtos/gimp-midi.html>  
-<http://www.gimp.org/unix/howtos/howto-template.html>  
-<http://www.gimp.org/unix/howtos/tile_cache.html>  
+<del><http://www.gimp.org/unix/howtos/bugzilla.html></del> [<i class="fa fa-link"></i>]({filename}../../unix/howtos/bugzilla.md)  
+<del><http://www.gimp.org/unix/howtos/gimp-midi.html>  </del> [<i class="fa fa-link"></i>]({filename}../../unix/howtos/gimp-midi.md)  
+<del><http://www.gimp.org/unix/howtos/howto-template.html>  </del> [<i class="fa fa-link"></i>]({filename}../../unix/fonts.md)  
+<del><http://www.gimp.org/unix/howtos/tile_cache.html>  </del> [<i class="fa fa-link"></i>]({filename}../../unix/howtos/tile_cache.md)  
 
 <http://www.gimp.org/windows/index.html> (Obsoleted? Directs to downloads page...)  

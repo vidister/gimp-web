@@ -24,7 +24,7 @@ This is a subject for another, longer tutorial. But here are the basic steps:
 5.  Flatten the image.
 6.  Choose an interesting area of the noise, and make it into a tileable pattern.
 
-![](film-grain-vertical.jpg)([GIMP pattern file](film-grain-vertical.pat))
+![film-grain-vertical](film-grain-vertical.jpg)([GIMP pattern file](film-grain-vertical.pat))
 
 Some good ways of making tileable patterns include **Make Seamless**, the [Resynthesizer and Homogenizer](http://www.logarithmic.net/pfh/resynthesizer/), mirroring, and hand-editing. You'll have to experiment a bit. In the following example, we'll use a weird, vertically-striped noise pattern. It looks like some kind of scanner noise, or perhaps an artifact of old newsprint.
 

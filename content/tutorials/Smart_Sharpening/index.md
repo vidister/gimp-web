@@ -142,7 +142,7 @@ Select the Layers tab in the Layers dialog and click on the anchor button (![anc
 
 Click on the Channels tab in the Layers dialog. You should see a tiny version of the sharpening mask in the channel icon, indicating that you properly pasted the sharpening mask into the new channel. At this point you may wish to click on the eye icon to make the sharpening mask invisible.
 
-Select the Sharpening Mask channel and click the "Channel to Selection" button (![](channeltoselection.jpg)). You should see "marching ants".
+Select the Sharpening Mask channel and click the "Channel to Selection" button (![channel-to-selection](channeltoselection.jpg)). You should see "marching ants".
 
 You can experiment with feathering the selection here if you want; I usually don't.
 
