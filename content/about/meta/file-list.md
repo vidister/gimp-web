@@ -206,17 +206,17 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 <del><http://www.gimp.org/tutorials/Reducing_CCD_Noise/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Reducing_CCD_Noise/index.md)  
 <del><http://www.gimp.org/tutorials/Selective_Color/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Selective_Color/index.md)  
 <del><http://www.gimp.org/tutorials/Selective_Gaussian_Blur/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Selective_Color/index.md)  
-<http://www.gimp.org/tutorials/Sepia_Toning/index.html>  
-<http://www.gimp.org/tutorials/Simple_Animations/index.html>  
-<http://www.gimp.org/tutorials/Sketch_Effect/index.html>  
-<http://www.gimp.org/tutorials/Smart_Sharpening/index.html>  
-<http://www.gimp.org/tutorials/Smart_Sharpening/shortcuts.html>  
-<http://www.gimp.org/tutorials/Smart_Sharpening/warp-sharp.html>  
-<http://www.gimp.org/tutorials/Straight_Line/index.html>  
-<http://www.gimp.org/tutorials/template/index.html>  
-<http://www.gimp.org/tutorials/The_Basics/index.html>  
-<http://www.gimp.org/tutorials/Tileable_Textures/index.html>  
-<http://www.gimp.org/tutorials/Using_GAP/index.html>  
+<del><http://www.gimp.org/tutorials/Sepia_Toning/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Sepia_Toning/index.md)  
+<del><http://www.gimp.org/tutorials/Simple_Animations/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Simple_Animations/index.md)  
+<del><http://www.gimp.org/tutorials/Sketch_Effect/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Sketch_Effect/index.md)  
+<del><http://www.gimp.org/tutorials/Smart_Sharpening/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Smart_Sharpening/index.md)  
+<del><http://www.gimp.org/tutorials/Smart_Sharpening/shortcuts.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Smart_Sharpening/shortcuts.md)  
+<del><http://www.gimp.org/tutorials/Smart_Sharpening/warp-sharp.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Smart_Sharpening/warp-sharp.md)  
+<del><http://www.gimp.org/tutorials/Straight_Line/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/Straight_Line/index.md)  
+<del><http://www.gimp.org/tutorials/template/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/template/index.md)  
+<del><http://www.gimp.org/tutorials/The_Basics/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/template/index.md)  
+<del><http://www.gimp.org/tutorials/Tileable_Textures/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/template/index.md)  
+<del><http://www.gimp.org/tutorials/Using_GAP/index.html></del> [<i class="fa fa-link"></i>]({filename}../../tutorials/template/index.md)  
 
 <del><http://www.gimp.org/unix/fonts.html></del> [<i class="fa fa-link"></i>]({filename}../../unix/fonts.md)  
 <del><http://www.gimp.org/unix/gimprc.html></del> [<i class="fa fa-link"></i>]({filename}../../unix/gimprc.md)  
