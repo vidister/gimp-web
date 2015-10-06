@@ -37,7 +37,7 @@ td, th {
 
 .win-button {
     display: inline-block;
-    border: solid 1px #333;
+    border: solid 1px #666;
     background-color: #f57900;
     margin: 0.5rem 0;
     border-radius: 10px;
