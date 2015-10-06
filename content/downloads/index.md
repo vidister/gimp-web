@@ -153,6 +153,7 @@ BitTorrent is a peer-to-peer file sharing system. It works by downloading GIMP f
 *   [Swedish](http://download.gimp.org/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-sv-setup.exe) (24.7 MB)
 </div>
 
+---
 
 <div id='source'  markdown="1">
 ## Source for version 2.8 (Stable)
