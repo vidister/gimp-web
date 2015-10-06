@@ -143,8 +143,8 @@ Currently there are two main installers:
 A GIMP 2.8 DMG installer by Sven Claussner, stock GIMP build without any add-ons. It works on OS X 10.6 Snow Leopard and later. Just open the downloaded DMG and drag and drop GIMP into your "Applications" folder.
 
 *   [Download GIMP 2.8 from gimp.org](http://download.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.14.dmg.torrent) <small>[.torrent]</small>  
-If the torrent download doesn't work, you can also follow [this link](http://download.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.14.dmg).
-
+If the torrent download doesn't work, you can also follow [this link](http://download.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.14.dmg).  
+The MD5 hash sum for `gimp-2.8.14.dmg` is: <kbd>3392eb2cfe67258e7a3f8fc8807f00c0</kbd>.
 
 A build by [Simone Karin Lehmann](http://gimp.lisanet.de/), with some extra plug-ins and changes:
 
@@ -195,6 +195,9 @@ This link downloads the official GIMP installer for Windows directly from downlo
 BitTorrent is a peer-to-peer file sharing system. It works by downloading GIMP from a distributed network of BitTorrent users, and may improve download speed dramatically. 
 Choosing this option will download the torrent file for the GIMP installer. 
 You may need to install a torrent client to make use of this file. <a href="http://en.wikipedia.org/wiki/BitTorrent" title="BitTorrent on Wikipedia">Learn more...</a>
+
+### MD5 Hash Sum
+The MD5 hash sum for `gimp-2.8.14-setup-1.exe` is: <kbd>9a6f7af81b4ea15b89089a723fc25ec3</kbd>.
 
 ### GIMP User Manual
 
