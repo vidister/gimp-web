@@ -35,6 +35,28 @@ td, th {
     cursor: pointer;
 }
 
+.win-button {
+    display: inline-block;
+    border: solid 1px #333;
+    background-color: #f57900;
+    margin: 0.5rem 0;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px;
+    text-align: center;
+    max-width: 300px;
+}
+
+#win-torrent {
+    background-color: #008080;
+}
+
+.win-button a {
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding: 1rem;
+}
+
 #letmeknow { display: none; }
 </style>
 
@@ -120,18 +142,59 @@ Currently there are two main installers:
 
 A GIMP 2.8 DMG installer by Sven Claussner, stock GIMP build without any add-ons. It works on OS X 10.6 Snow Leopard and later. Just open the downloaded DMG and drag and drop GIMP into your "Applications" folder.
 
-*   [Download GIMP 2.8 from gimp.org](http://download.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.14.dmg.torrent)
+*   [Download GIMP 2.8 from gimp.org](http://download.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.14.dmg.torrent) <small>[.torrent]</small>  
+If the torrent download doesn't work, you can also follow [this link](http://download.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.14.dmg).
+
+
+A build by [Simone Karin Lehmann](http://gimp.lisanet.de/), with some extra plug-ins and changes:
+
+* [Download GIMP 2.8 from lisanet.de](http://gimp.lisanet.de/Website/Download.html)
+
+
+
+### Macports
+A (easy?) way to compile and install GIMP and other great [Free software](http://www.gnu.org/philosophy/free-sw.html) on your Mac is by using [Macports](http://www.macports.org/). The installer allows you to choose from a large directory of packages. To install gimp using Macports, you simply do `sudo port install gimp` once you have Macports installed.
+
+Disclaimer: we have not investigated if it's feasible to build GIMP 2.8 from Macports. The [GIMP port file](https://trac.macports.org/browser/trunk/dports/graphics/gimp/Portfile) mentions 2.8.10, and appears to be maintained, however.
+
+* [Download Macports](http://macports.org/)
+
+
+
+### Homebrew
+Homebrew is similar to Macports and provides packages (aka formulas) to install, either by compiling them from source or by using pre-made binaries. While there appears to be no formula for GIMP itself, there are reports that all dependencies are available. This may help to build GIMP from source.
+
+* [Download Homebrew](http://brew.sh/)
+
+
+
+### Fink
+Fink is a package repository that offer mostly precompiled binaries. It provides the apt-get command known to e.g. Debian and Ubuntu users, and installing GIMP is as easy as `sudo apt-get install gimp` once you have installed the [Fink installer](http://www.finkproject.org/download/index.php).  
+If there's no binary package, then `fink install gimp` will compile GIMP from source.
+
+Disclaimer: we haven't been able to determine if it is possible to install or build GIMP 2.8 from Fink. GIMP 2.6.12 appears to be the most recent [GIMP package](http://pdb.finkproject.org/pdb/browse.php?summary=gimp) that is [offered there](http://pdb.finkproject.org/pdb/package.php/gimp2).
+
+* [Download Fink](http://www.finkproject.org/)
+
 </div>
 
 
 <div id='win' class="os win" markdown="1">
 ## GIMP for Windows
 
-<a href="http://download.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.14-setup-1.exe" title="Download GIMP via HTTP" >Download GIMP 2.8.14  directly</a>
+<span class='win-button'>
+<a href="http://download.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.14-setup-1.exe" title="Download GIMP via HTTP" id='win-download-link' >Download GIMP 2.8.14  directly</a>
+</span>
+<br/>
 This link downloads the official GIMP installer for Windows directly from download.gimp.org. The installer contains both 32-bit and 64-bit versions of GIMP, and will install the appropriate one.
 
-[Download GIMP 2.8.14 via BitTorrent](http://download.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.14-setup-1.exe.torrent "Download GIMP via BitTorrent")
-BitTorrent is a peer-to-peer file sharing system. It works by downloading GIMP from a distributed network of BitTorrent users, and may improve download speed dramatically. Choosing this option will download the torrent file for the GIMP installer. You may need to install a torrent client to make use of this file. [Learn more...](http://en.wikipedia.org/wiki/BitTorrent)
+<span class='win-button' id='win-torrent'>
+<a href="http://download.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.14-setup-1.exe.torrent" title="Download GIMP via BitTorrent" id="win-torrent-link">Download GIMP 2.8.14 via BitTorrent</a>  
+</span>
+<br/>
+BitTorrent is a peer-to-peer file sharing system. It works by downloading GIMP from a distributed network of BitTorrent users, and may improve download speed dramatically. 
+Choosing this option will download the torrent file for the GIMP installer. 
+You may need to install a torrent client to make use of this file. <a href="http://en.wikipedia.org/wiki/BitTorrent" title="BitTorrent on Wikipedia">Learn more...</a>
 
 ### GIMP User Manual
 
