@@ -75,10 +75,11 @@ td, th {
 
 <div class="OSTEST" markdown="1">
 We think your OS is 
-<span id="pOSTEST" >
+<span id="pOSTEST" markdown='1'>
 Well, we don't actually know.  
 Either Javascript is disabled, or I am not working quite right...  
-So I am showing you all the options.  That should cover it.
+So I am showing you all the options.  
+That should cover it.
 </span>  
 <small id='letmeknow'>If this is wrong, please let Pat David (patdavid@gmail.com) know.
 Please include the string returned above, and what your actual OS is.
@@ -110,7 +111,7 @@ SUSE users can install GIMP by running `yast -i gimp` or `zypper in gimp`, depen
 
 ### Fedora
 
-Similarly to the above, Fedora users can install GIMP by running <del>`yum install gimp`</del> `dnf install gimp`.
+Similarly to the above, Fedora users can install GIMP by running `dnf install gimp`.
 
 ### Gentoo
 
@@ -326,6 +327,10 @@ if ( platform.os.family.indexOf('Win') !== -1 && platform.os.family.indexOf('Pho
 }else if ( platform.os.family.indexOf('OS X') !== -1 ){
     document.getElementById('mac').style.display = 'block';
     document.getElementById('pOSTEST').innerHTML = 'OS X.';
+}else if ( platform.os.family.indexOf('iOS') !== -1 || platform.os.family.indexOf('Android') !== -1 ){
+    document.getElementById('pOSTEST').innerHTML = platform.os.family + '.';
+    var nope = "<br/><strong>This platform is not currently supported.</strong>";
+    document.getElementById('pOSTEST').innerHTML += nope;
 }else {
     document.getElementById('pOSTEST').innerHTML = platform.os.family + '.';
     document.getElementById('linux').style.display = 'block';
