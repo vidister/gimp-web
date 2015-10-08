@@ -46,6 +46,13 @@ If you want to discuss features, tips, tricks or contribute to the development o
   <a href="http://www.mail-archive.com/gegl-developer%40lists.xcf.berkeley.edu/">mail-archive</a>
   </dd>
 
+  <dt><a href="https://mail.gnome.org/mailman/listinfo/gimp-gui-list">GIMP GUI</a></dt>
+  <dd>The GIMP GUI list. For discussions around UI/UX.<br>
+  Archives:
+  <a href="https://mail.gnome.org/archives/gimp-gui-list/">GNOME</a>,
+  <a href="https://mail.gnome.org/archives/gimp-gui-list/">mail-archive</a>,
+  </dd>
+
   <dt><a href="https://mail.gnome.org/mailman/listinfo/gimp-web-list">GIMP Web</a></dt>
   <dd>The GIMP web list. For discussion about the contents and
   structure of this web site.<br>
