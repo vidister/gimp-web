@@ -26,3 +26,16 @@
     max-width: 35rem;
     margin: 0 auto;
 }
+
+#articles .column.full {
+    text-align: left;
+}
+
+.entry-title, .post-info {
+    max-width: 35rem;
+    margin: 0 auto;
+}
+
+.post-info {
+    margin-bottom: 1rem;
+}
