@@ -3,7 +3,7 @@ Date: 2015-08-14T14:18:56-05:00
 Author: Pat David
 Status: hidden
 
-<style scoped='true'>
+<style scoped>
 table {
     max-width: 35rem;
     margin: 1rem auto;
@@ -61,7 +61,7 @@ td, th {
 </style>
 
 <noscript>
-<style scoped='true'>
+<style scoped>
 .os { display: block; }
 #others { display: none; }
 #letmeknow { display: none; }
@@ -75,7 +75,7 @@ td, th {
 
 <div class="OSTEST" markdown="1">
 We think your OS is 
-<span id="pOSTEST" markdown='1'>
+<span id="pOSTEST">
 Well, we don't actually know.  
 Either Javascript is disabled, or I am not working quite right...  
 So I am showing you all the options.  
@@ -91,7 +91,7 @@ Show downloads for
 <span class="show_links" id='os_linux'>GNU/Linux</span>&nbsp;| 
 <span class="show_links" id='os_mac'>OS&nbsp;X</span>&nbsp;| 
 <span class="show_links" id='os_win'>Microsoft&nbsp;Windows</span>&nbsp;| 
-<span class="show_links" id='os_all' href="">All</span>
+<span class="show_links" id='os_all'>All</span>
 </p>
 
 </div>
@@ -270,7 +270,7 @@ Nightly builds for Windows are available at [darkrefraction.com](http://nightly.
 
 A detailed list of changes in the development branch is available in [git](https://git.gnome.org/cgit/gimp/plain/NEWS).
 
-# <a name="mirrors"></a>FTP and Web Mirrors
+## FTP and Web Mirrors
 
 Due to our server move in April (physical to virtual, into an environment that doesn't allow FTP access), we lost all existing mirrors. But we are now able to offer rsync access to download.gimp.org
 
