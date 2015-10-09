@@ -121,6 +121,10 @@ section#introduction p {
     margin-bottom: 0.3rem;
 }
 
+section#introduction .container {
+    max-width: none;
+}
+
 nav#menu li#gimp-home {
     display: none;
 }
@@ -312,4 +316,29 @@ span#gFirst {
     #component {
         clear: both;
     }
+}
+
+
+/* News Items styling
+ */
+.news-item {
+    margin-bottom: 1rem;
+}
+
+.news-item abbr {
+}
+
+.news-item abbr.news-published {
+    font-size: 0.8rem;
+    display: block;
+    color: #aaa;
+    border-bottom: none;
+}
+
+h2#recent-news {
+    margin-left: 0;
+}
+
+.news-more {
+    float: right;
 }
