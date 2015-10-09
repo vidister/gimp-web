@@ -109,6 +109,10 @@ span#gThird span {
     margin: 0 auto;
 }
 
+section#extensible {
+    padding-bottom: 0;
+}
+
 section#introduction h2 {
     margin-bottom: 1rem;
 }
