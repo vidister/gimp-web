@@ -115,6 +115,7 @@
         <div class="container">
             {% for article in articles_page.object_list %}
                 <div class='row clearfix'>
+
                     <div class="column full">
                         <h3 class="entry-title">
                             <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">
@@ -124,15 +125,23 @@
 
                         <div class='post-info'>
                             <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr>
-                            <address class="vcard author">by
+
+                            {#
+                            <address class="vcard author">By
                                 {% for author in article.authors %}
                                     <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
                                 {% endfor %}
                             </address>
+                            #}
+
                         </div>
 
-                        <div class='entry-content'> {{ article.summary }} </div>
+                        <div class='entry-content'> 
+                            {{ article.summary }} 
+                        </div>
+
                     </div>
+
                 </div>
                 <hr/>
             {% endfor %}
