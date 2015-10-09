@@ -3,7 +3,7 @@ Date: 2015-08-14T14:18:56-05:00
 Author: Pat David
 Status: hidden
 
-<style>
+<style scoped='true'>
 table {
     max-width: 35rem;
     margin: 1rem auto;
@@ -61,7 +61,7 @@ td, th {
 </style>
 
 <noscript>
-<style>
+<style scoped='true'>
 .os { display: block; }
 #others { display: none; }
 #letmeknow { display: none; }
