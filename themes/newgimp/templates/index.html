@@ -126,7 +126,7 @@
                         <div class='post-info'>
                             <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr>
 
-                            {#
+                            {# Suppressing the author info - they're all Wilber for now!
                             <address class="vcard author">By
                                 {% for author in article.authors %}
                                     <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
@@ -139,6 +139,14 @@
                         <div class='entry-content'> 
                             {{ article.summary }} 
                         </div>
+
+                        {#
+                        <div class='entry-more'>
+                            <a href="{{ SITEURL }}/{{ article.url }}" rel='bookmark' title='Permalink to {{ article.title|striptags }}'>
+                                More &raquo;
+                            </a>
+                        </div>
+                        #}
 
                     </div>
 
