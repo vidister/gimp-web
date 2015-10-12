@@ -8,8 +8,8 @@ Author: Eric R. Jeschke
 ## Intention
 
 <figure>
-<img src="before-384x288.jpg" alt="before-384x288.jpg"/>
-<img src="after-384x288.jpg" alt="after-384x288.jpg"/>
+<img src="{filename}before-384x288.jpg" alt="before-384x288.jpg"/>
+<img src="{filename}after-384x288.jpg" alt="after-384x288.jpg"/>
 </figure>
 
 In this tutorial I'll show you some different ways to convert color RGB images to B&W:
@@ -26,7 +26,7 @@ We'll examine each of these in turn.
 ## The Procedure
 
 <figure>
-<img src="image-original-481x397.jpg" alt="image-original-481x397.jpg"/>
+<img src="{filename}image-original-481x397.jpg" alt="image-original-481x397.jpg"/>
 </figure>
 
 Here is an example image, loaded into GIMP. I thought it might look nice as a black and white image.
@@ -34,9 +34,9 @@ Here is an example image, loaded into GIMP. I thought it might look nice as a bl
 ## <a name="grayscale">Via Grayscale</a>
 
 <figure>
-<img src="image-grayscale-481x397.jpg" alt="image-grayscale-481x397.jpg"/>
+<img src="{filename}image-grayscale-481x397.jpg" alt="image-grayscale-481x397.jpg"/>
 </figure><figure>
-<img src="image-grayscale-zoom100-481x397.jpg" alt="image-grayscale-zoom100-481x397.jpg"/>
+<img src="{filename}image-grayscale-zoom100-481x397.jpg" alt="image-grayscale-zoom100-481x397.jpg"/>
 </figure>
 
 Here is what I get if I use the standard mode change to grayscale from RGB.
@@ -48,9 +48,9 @@ I suspect GIMP uses a similar formula. My experiments with the Channel Mixer (mo
 ## <a name="desaturate">Via Desaturate</a>
 
 <figure>
-<img src="image-desaturate-481x397.jpg" alt="image-desaturate-481x397.jpg"/>
+<img src="{filename}image-desaturate-481x397.jpg" alt="image-desaturate-481x397.jpg"/>
 </figure><figure>
-<img src="image-desaturate-zoom100-481x397.jpg" alt="image-desaturate-zoom100-481x397.jpg"/>
+<img src="{filename}image-desaturate-zoom100-481x397.jpg" alt="image-desaturate-zoom100-481x397.jpg"/>
 </figure>
 
 Here is what I get if I use desaturate instead. Duplicate the original image (<kbd>Ctrl+D</kbd>) and right-click on the copy. Select <span class="filter"><Image> Image -> Colors -> Desaturate</span>. Unlike the grayscale mode change above, the channels are not remixed in different percentages, so we should expect different results.
@@ -60,25 +60,25 @@ The result is visually different; note the increased contrast in the scales. Als
 ## <a name="decomposeRGB">Via Decompose RGB</a>
 
 <figure>
-<img src="decompose-rgb-186x265.jpg" alt="decompose-rgb-186x265.jpg"/>
+<img src="{filename}decompose-rgb-186x265.jpg" alt="decompose-rgb-186x265.jpg"/>
 </figure>
 
 <figure>
-<img src="image-red-481x397.jpg" alt="image-red-481x397.jpg"/>
+<img src="{filename}image-red-481x397.jpg" alt="image-red-481x397.jpg"/>
 </figure><figure>
-<img src="image-red-zoom100-481x397.jpg" alt="image-red-zoom100-481x397.jpg"/>
+<img src="{filename}image-red-zoom100-481x397.jpg" alt="image-red-zoom100-481x397.jpg"/>
 </figure>
 
 <figure>
-<img src="image-green-481x397.jpg" alt="image-green-481x397.jpg"/>
+<img src="{filename}image-green-481x397.jpg" alt="image-green-481x397.jpg"/>
 </figure><figure>
-<img src="image-green-zoom100-481x397.jpg" alt="image-green-zoom100-481x397.jpg"/>
+<img src="{filename}image-green-zoom100-481x397.jpg" alt="image-green-zoom100-481x397.jpg"/>
 </figure>
 
 <figure>
-<img src="image-blue-481x397.jpg" alt="image-blue-481x397.jpg"/>
+<img src="{filename}image-blue-481x397.jpg" alt="image-blue-481x397.jpg"/>
 </figure><figure>
-<img src="image-blue-zoom100-481x397.jpg" alt="image-blue-zoom100-481x397.jpg"/>
+<img src="{filename}image-blue-zoom100-481x397.jpg" alt="image-blue-zoom100-481x397.jpg"/>
 </figure>
 
 A third method is to consider the red/green/blue channels of the image. Each one can be represented as an independent grayscale image. Right-click on the original image and select <span class="filter"><Image> Image -> Mode -> Decompose</span>. Select the RGB option and click OK.
@@ -90,8 +90,8 @@ Very often the green channel contains an excellent B&W version of the image. If 
 ## <a name="decomposeHSV">Via Decompose HSV</a>
 
 <figure>
-<img src="decompose-hsv-186x265.jpg" alt="decompose-hsv-186x265.jpg"/>
-<img src="image-value-481x397.jpg" alt="image-value-481x397.jpg"/>
+<img src="{filename}decompose-hsv-186x265.jpg" alt="decompose-hsv-186x265.jpg"/>
+<img src="{filename}image-value-481x397.jpg" alt="image-value-481x397.jpg"/>
 </figure>
 
 Another possibility is to decompose to Hue/Saturation/Value components and consider the Value image (the other two are not usually useful for this purpose). Right-click on the original image and select <span class="filter"><Image> Image -> Mode -> Decompose</span>. Select the HSV option and click OK.
@@ -99,8 +99,8 @@ Another possibility is to decompose to Hue/Saturation/Value components and consi
 ## <a name="decomposeLAB">Via Decompose LAB</a>
 
 <figure>
-<img src="decompose-lab-186x265.jpg" alt="decompose-lab-186x265.jpg"/>
-<img src="image-lightness-481x397.jpg" alt="image-lightness-481x397.jpg"/>
+<img src="{filename}decompose-lab-186x265.jpg" alt="decompose-lab-186x265.jpg"/>
+<img src="{filename}image-lightness-481x397.jpg" alt="image-lightness-481x397.jpg"/>
 </figure>
 
 Yet another decompose option: LAB mode. Right-click on the original image and select Image/Mode/Decompose. Select the LAB option and click OK.
@@ -114,8 +114,8 @@ Not often useful by itself, but it can be combined with other layers for interes
 ## <a name="decomposeCMYK">Via Decompose CMYK</a>
 
 <figure>
-<img src="decompose-cmyk-186x265.jpg" alt="decompose-cmyk-186x265.jpg"/>
-<img src="image-black-481x397.jpg" alt="image-black-481x397.jpg"/>
+<img src="{filename}decompose-cmyk-186x265.jpg" alt="decompose-cmyk-186x265.jpg"/>
+<img src="{filename}image-black-481x397.jpg" alt="image-black-481x397.jpg"/>
 </figure>
 
 Just for fun I tried decomposing into CMYK. The Black channel is interesting: it resembles a negative.
@@ -123,13 +123,13 @@ Just for fun I tried decomposing into CMYK. The Black channel is interesting: it
 ## <a name="channelmixer">Via Channel Mixer</a>
 
 <figure>
-<img src="channelmixer-481x307.jpg" alt="channelmixer-481x307.jpg"/>
+<img src="{filename}channelmixer-481x307.jpg" alt="channelmixer-481x307.jpg"/>
 </figure>
 
 <figure>
-<img src="image-channelmixer-481x397.jpg" alt="image-channelmixer-481x397.jpg"/>
+<img src="{filename}image-channelmixer-481x397.jpg" alt="image-channelmixer-481x397.jpg"/>
 </figure><figure>
-<img src="image-channelmixer-zoom100-481x397.jpg" alt="image-channelmixer-zoom100-481x397.jpg"/>
+<img src="{filename}image-channelmixer-zoom100-481x397.jpg" alt="image-channelmixer-zoom100-481x397.jpg"/>
 </figure>
 
 The final technique is the Channel Mixer filter. Right-click on the original image and select <span class="filter"><Image> Filters -> Color -> Channel Mixer</span>.
@@ -158,18 +158,18 @@ The advantage of the channel mixer is (obviously) flexibility. I like to decompo
 ## Other Examples
 
 <figure>
-<img src="middlesister-384x259.jpg" alt="middlesister-384x259.jpg"/>
+<img src="{filename}middlesister-384x259.jpg" alt="middlesister-384x259.jpg"/>
 </figure><figure>
-<img src="middlesister-bw-384x259.jpg" alt="middlesister-bw-384x259.jpg"/>
+<img src="{filename}middlesister-bw-384x259.jpg" alt="middlesister-bw-384x259.jpg"/>
 </figure>
 
 **Left image**: The original image.   
 **Right image**: Converted using channel mixer (80% green, 20% red).
 
 <figure>
-<img src="example2-before-384x288.jpg" alt="example2-before-384x288.jpg"/>
+<img src="{filename}example2-before-384x288.jpg" alt="example2-before-384x288.jpg"/>
 </figure><figure>
-<img src="example2-after-384x288.jpg" alt="example2-after-384x288.jpg"/>
+<img src="{filename}example2-after-384x288.jpg" alt="example2-after-384x288.jpg"/>
 </figure>
 
 **Left image**: The original image.   

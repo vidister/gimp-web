@@ -17,11 +17,11 @@ The basic idea behind selective Gaussian blur is that areas in the photo with co
 ## Step 1
 
 <figure>
-<img src="01.png" alt="01.png"/> <img src="02.jpg" alt="02.jpg"/>
+<img src="{filename}01.png" alt="01.png"/> <img src="{filename}02.jpg" alt="02.jpg"/>
 </figure>
 
 <figure>
-<img src="03.png" alt="03.png"/> <img src="04.jpg" alt="04.jpg"/>
+<img src="{filename}03.png" alt="03.png"/> <img src="{filename}04.jpg" alt="04.jpg"/>
 </figure>
 
 Since the selective Gaussian blur filter doesn't have a preview and is quite heavy to compute (proportional with blur radius), it's easier to only work on a cropped version of you picture. Select the crop tool from the tool box, draw a selection and click "crop".
@@ -31,7 +31,7 @@ For best results, this should a part where there's some noise you want to remove
 ## Step 2
 
 <figure>
-<img src="05.jpg" alt="05.jpg"/>
+<img src="{filename}05.jpg" alt="05.jpg"/>
 </figure>
 
 The next thing is to experiment with different combinations of the settings ("blur radius" and "maximum delta") in the selective Gaussian blur filter.
@@ -39,15 +39,15 @@ The next thing is to experiment with different combinations of the settings ("bl
 Normally I find that both settings should be between 5 and 10, where low numbers has less effect and higher numbers more, but this is very depending on the camera. In short, maximum delta should be just high enough for the filter to kick in on the noise and blur radius should be just high enough to remove it (actually blend it with neighboring areas).
 
 <figure>
-<img src="06.png" alt="06.png"/> <img src="07.jpg" alt="07.jpg"/>
+<img src="{filename}06.png" alt="06.png"/> <img src="{filename}07.jpg" alt="07.jpg"/>
 </figure>
 
 <figure>
-<img src="08.png" alt="08.png"/> <img src="09.jpg" alt="09.jpg"/>
+<img src="{filename}08.png" alt="08.png"/> <img src="{filename}09.jpg" alt="09.jpg"/>
 </figure>
 
 <figure>
-<img src="15.png" alt="15.png"/> <img src="00.jpg" alt="00.jpg"/>
+<img src="{filename}15.png" alt="15.png"/> <img src="{filename}00.jpg" alt="00.jpg"/>
 </figure>
 
 For a more in depth explanation of what the settings do see [http://docs.gimp.org/2.8/en/plug-in-sel-gauss.html](http://docs.gimp.org/2.8/en/plug-in-sel-gauss.html).
@@ -55,8 +55,8 @@ For a more in depth explanation of what the settings do see [http://docs.gimp.or
 After playing with the settings a bit I liked the clean look of a blur radius of 10 and maximum delta of 10\. Then I checked what those settings looked like on another crop (which is always a good idea to do), I decided that it was on the very edge, and maybe even too much. There was too much loss of detail in the hair.
 
 <figure>
-<img src="13.jpg" alt="13.jpg"/><br/>
-<img src="15.png" alt="15.png"/> <img src="16.jpg" alt="16.jpg"/>
+<img src="{filename}13.jpg" alt="13.jpg"/><br/>
+<img src="{filename}15.png" alt="15.png"/> <img src="{filename}16.jpg" alt="16.jpg"/>
 </figure>
 
 An option would have been to back off a bit and use settings around blur radius 7 and maximum delta 6, but then again the only offending area was the hair. I finally decided to go with settings of 8/7.
@@ -66,11 +66,11 @@ You'll often find yourself in these arguments with yourself over when it's too m
 ## The result
 
 <figure>
-<img src="org_sm.jpg" alt="org_sm.jpg"/>
+<img src="{filename}org_sm.jpg" alt="org_sm.jpg"/>
 </figure>
 
 <figure>
-<img src="after_sm.jpg" alt="after_sm.jpg"/>
+<img src="{filename}after_sm.jpg" alt="after_sm.jpg"/>
 </figure>
 
 After 8 minutes my AMD-K6 300 running Linux finished the process, and I got the following (note they are resized to 640x480 from 1280x960, you can get the larger files at the bottom of this page):

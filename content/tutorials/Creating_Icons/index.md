@@ -16,7 +16,7 @@ As with any new task, it will help to have a little background information:
 ## Filenames and Structure
 
 <figure>
-<img src="files.png" alt="files.png"/>
+<img src="{filename}files.png" alt="files.png"/>
 </figure>
 GIMP enables you to save compressed files and work with them transparently, using the .xcf format. However, since we're working with very small files, compression simply doesn't save enough space to justify the effort. Especially since filemanagers like [Nautilus](http://nautilus.eazel.com/) have problems with creating thumbnails for compressed images, it's best to accompany any .xcf files you produce with a .png version. (See Image above)
 
@@ -25,7 +25,7 @@ Nautilus (gnome-vfs) can't yet handle compressed GIMP native files
 ## Choosing a Color Palette
 
 <figure>
-<img src="palette.png" alt="palette.png"/>
+<img src="{filename}palette.png" alt="palette.png"/>
 </figure>
 You may think palettes are only necessary in special cases like indexing colors of web images. However, if you're going to create more than one icon, having a pre-selected palette can give your icons a more consistent look and feel.
 
@@ -50,8 +50,8 @@ It seems at first that creating an icon is incredibly restrictive. After all, yo
 ## Antialiasing
 
 <figure>
-<img src="aa1.png" alt="aa1.png" />
-<img src="aa2.png" alt="aa2.png" />
+<img src="{filename}aa1.png" alt="aa1.png" />
+<img src="{filename}aa2.png" alt="aa2.png" />
 </figure>
 
 One of the basic aspects of bitmap images is the negative effect of Aliasing.  
@@ -80,7 +80,7 @@ In this small tutorial, Ximian artist Jakub Steiner will demonstrate most of the
 ## Basic Shape
 
 <figure>
-<img src="rectangle.png" alt="rectangle.png"/>
+<img src="{filename}rectangle.png" alt="rectangle.png"/>
 </figure>
 Normally, you'd use the bezier tool for shape editing, but a TV silhouette is simple enough that we'll just start with the rectangle selection tool.
 
@@ -91,79 +91,79 @@ Drag the black preview rectangle from the toolbox, or press <kbd>Ctrl-+</kbd> to
 ## Making it Plastic
 
 <figure>
-<img src="gradient.png" alt="gradient.png"/>
+<img src="{filename}gradient.png" alt="gradient.png"/>
 </figure>
 Next, we're going to use alpha blending of a selection to give a more three dimensional appearance to the silhouette.
 
 Select the TV silhouette by right-clicking on the layer in the layer window and choosing Alpha to Selection. Shrink the selection by _1 pixel_ and fill it with a linear gradient similar to the image above. Now you have a dark grey shape with a black outline, and slightly shiny corners.
 
 <figure>
-<img src="highlight.png" alt="highlight.png"/>
+<img src="{filename}highlight.png" alt="highlight.png"/>
 </figure>
 Now it's time to add a bit more depth, using the highlight trick from the section called "Highlights And Shadows". Use a white 1x1 pencil to create highlights, and a black one to create shadows. By setting opacity of the brush to something like 20% you can get results similar to the image above.
 
 ## Modelling the Screen
 
 <figure>
-<img src="screen.png" alt="screen.png"/>
+<img src="{filename}screen.png" alt="screen.png"/>
 </figure>
 Of course, a television isn't just a single square with an outline. You can create the screen exactly the same way you did the TV silhouette. Create a new layer, and add a smaller rectangular selection, positioned inside the television one. Fill it with black, shrink the selection by 1 pixel and finally fill it with linear gradient to form a screen like the one shown in image above.
 
 <figure>
-<img src="reflection.png" alt="reflection.png"/>
+<img src="{filename}reflection.png" alt="reflection.png"/>
 </figure>
 An important aspect of glass surfaces is the reflection. To make the television screen look shiny and reflective, shrink the selection by another pixel and create a new layer. Now, pick the airbrush tool and a mid-sized fuzzy brush. Paint a white reflection like the one in image above.
 
 If you want to create horizontal monitor lines on the screen, you can use the interlace effect. To do so, create a new layer above the current one. Render white horizontal lines with <span class="filter"><Image> Filters -> Render -> Pattern -> Grid</span>. Make sure you set the layer mode to _Overlay_.
 
 <figure>
-<img src="button.png" alt="button.png"/>
+<img src="{filename}button.png" alt="button.png"/>
 </figure>
 After that, you'll want to create buttons. This is relatively simple: just create a circular selection with the elipse tool and fill it with radial gradient (image above). Choosing a gradient instead of a solid fill provides a bit of shine to the button, so even if it's just a few pixels across, it looks distinct and three dimensional.
 
 ## Modelling the Remote Control
 
 <figure>
-<img src="remote1.png" alt="remote1.png"/>
+<img src="{filename}remote1.png" alt="remote1.png"/>
 </figure>
 This time we'll use the bezier selection tool to create the outline of an object. With a small shape, it can sometimes be difficult to use the bezier tool, it's hard to create a small shape, because the nodes snap to the pixel grid, but it's worth the effort because it makes the shape look sharp, like the one above. You can look in the GIMP manual for more information about editing bezier paths and working with the bezier tool.
 
 <figure>
-<img src="remote3.png" alt="remote3.png"/>
+<img src="{filename}remote3.png" alt="remote3.png"/>
 </figure>
 To create a shadow for the remote, copy the path window and moving just one node. The shadow in this image is done exactly this way.
 
 <figure>
-<img src="remote4.png" alt="remote4.png"/>
+<img src="{filename}remote4.png" alt="remote4.png"/>
 </figure>
 You can make almost any image, especially a small one, easier to understand by adding black object outlines to enhance contrast. To do this, you'll use the opposite of technique you used to create the television silhouette with its outline. First, right-click on the remote control layer and select <span class="filter">Layers -> Alpha to selection</span>. Create a new empty layer below the remote control layer. Increase the size of the selection by 1 pixel, and fill the selection with black.
 
 <figure>
-<img src="remote5.png" alt="remote5.png"/>
+<img src="{filename}remote5.png" alt="remote5.png"/>
 </figure>
 GIMP may not grow that selection perfectly, and you will probably have to alter the result manually. In this case, we'll use the erase tool with a 1x1 pixel brush, and opacity between 60 and 70 percent. Choose the "draw straight lines" option, and smooth the outline by drawing close to the border of the object.
 
 <figure>
-<img src="remote6.png" alt="remote6.png"/>
+<img src="{filename}remote6.png" alt="remote6.png"/>
 </figure>
 Now, to make the object a little more realistic, we'll use our highlight trick. Use the pencil tool with a 1x1 pixel brush and opacity set quite low, near 20%. The result makes the object very real.
 
 <figure>
-<img src="remote8.png" alt="remote8.png"/>
+<img src="{filename}remote8.png" alt="remote8.png"/>
 </figure>
 To create buttons on the remote control, use the same technique as you did to create the button on the TV: Make a selection with the bezeier tool, then fill it with a gradient, and apply highlights and shadows with the pencil tool as needed.
 
 ## Adding Glow
 
 <figure>
-<img src="remote9.png" alt="remote9.png"/>
+<img src="{filename}remote9.png" alt="remote9.png"/>
 </figure>
 For extra realism you can add a TV glow. Create a layer above the screen, but below the remote. Create a rectangular selection of the screen, then increase its size by 6 pixels and fill it with blue. Now, shrink that selection by 3 pixels and fill with white. Deselect the are with <kbd>Ctrl-Shift-A</kbd> and apply <span class="filter"><Image> Filter -> Blur -> Gaussian Blur RLE</span> by about 5 pixels. Now set the layer mode to _overlay_, creating the transparency effect.
 
 ## The Final Product
 
 <figure>
-<img src="finished.png" alt="finished.png"/>
+<img src="{filename}finished.png" alt="finished.png"/>
 </figure>
 Now, you've got a final product: a television, with remote.
 

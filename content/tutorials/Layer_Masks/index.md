@@ -21,7 +21,7 @@ This flexibility to define the opacity of different areas of a layer is the basi
 Layer masks need to be added to a layer before they can be used. The process for adding them is simple.
 
 <figure>
-<img src="Layers-Base.png" alt="Layers-Base"/>
+<img src="{filename}Layers-Base.png" alt="Layers-Base"/>
 <figcaption>
 Layers dialog for the image.
 </figcaption>
@@ -32,7 +32,7 @@ For this example I will use a simple image with only two layers, as shown above.
 **Right-Click** on the layer you want to add a mask to (the “Teal” layer in my example), and the Context menu will show an option to **Add Layer Mask…**:
 
 <figure>
-<img src="Layers-Add-Mask-Dialog.png" alt="Layers-Add-Mask-Dialog"/>
+<img src="{filename}Layers-Add-Mask-Dialog.png" alt="Layers-Add-Mask-Dialog"/>
 <figcaption>
 Add Layer Mask in the context menu.
 </figcaption>
@@ -45,7 +45,7 @@ You can also add a layer mask through the menus:
 This will then bring up the “**Add a Mask to the Layer**” dialog with some options:
 
 <figure>
-<img src="Add-Mask-Dialog.png" alt="Add-Mask-Dialog"/>
+<img src="{filename}Add-Mask-Dialog.png" alt="Add-Mask-Dialog"/>
 <figcaption>
 Add mask options dialog.
 </figcaption>
@@ -56,7 +56,7 @@ There are many options for initializing the Layer Mask. Notice that the first op
 For the purposes of this tutorial, we will let the mask initialize to **White** (full opacity). You should notice a change in your Layers dialog now that shows the layer mask thumbnail to the right of the layer it applies to (in this case the “Teal” layer):
 
 <figure>
-<img src="Layers-with-Mask.png" alt="Layers-with-Mask"/>
+<img src="{filename}Layers-with-Mask.png" alt="Layers-with-Mask"/>
 <figcaption>
 Layers dialog with mask applied to Teal layer.
 </figcaption>
@@ -73,7 +73,7 @@ I am going to use the **Rectangle Select** tool to select roughly the top third 
 <div class="MenuCmd"><span><u>T</u>ools → <u>S</u>election Tools → <u>R</u>ectangle Select</span></div>
 
 <figure>
-<img src="Tool-Rectangle-Select.png" alt="Tool-Rectangle-Select"/>
+<img src="{filename}Tool-Rectangle-Select.png" alt="Tool-Rectangle-Select"/>
 <figcaption>
 Activating the **Rectangle Select** tool.
 </figcaption>
@@ -82,7 +82,7 @@ Activating the **Rectangle Select** tool.
 Using the **Rectangle Select** tool, I'll select roughly the top third of the image:
 
 <figure>
-<img src="Selection-Top-Third.png" alt="Selection-Top-Third"/>
+<img src="{filename}Selection-Top-Third.png" alt="Selection-Top-Third"/>
 <figcaption>
 Top third of the image selected.
 </figcaption>
@@ -91,7 +91,7 @@ Top third of the image selected.
 I want to fill this selection with black, but before I do I need to make sure that my foreground color is black. Click on the foreground color in the **Color area** to bring up the “Change Foreground Color” dialog:
 
 <figure>
-<img src="Change-Foreground-Color.png" alt="Change-Foreground-Color"/>
+<img src="{filename}Change-Foreground-Color.png" alt="Change-Foreground-Color"/>
 <figcaption>
 Click the <span style="color: #00FF00;">foreground color</span> to change.
 </figcaption>
@@ -100,7 +100,7 @@ Click the <span style="color: #00FF00;">foreground color</span> to change.
 The “Change Foreground Color” dialog allows you to set the foreground color. For this example set the color to black, RGB(0, 0, 0):
 
 <figure>
-<img src="Change-Foreground-Dialog.png" alt="Change-Foreground-Dialog"/>
+<img src="{filename}Change-Foreground-Dialog.png" alt="Change-Foreground-Dialog"/>
 <figcaption>
 Change the color to black.
 </figcaption>
@@ -111,7 +111,7 @@ With the foreground color set, you can now use the **Bucket Fill Tool** to fill 
 <div class="MenuCmd"><span><u>T</u>ools → <u>P</u>aint Tools → <u>B</u>ucket Fill</span></div>
 
 <figure>
-<img src="Bucket-Fill-Tool.png" alt="Bucket-Fill-Tool"/>
+<img src="{filename}Bucket-Fill-Tool.png" alt="Bucket-Fill-Tool"/>
 <figcaption>
 Activating the **Bucket Fill** tool.
 </figcaption>
@@ -120,7 +120,7 @@ Activating the **Bucket Fill** tool.
 You can now click inside the selection to fill it with the foreground color (black). As soon as you do, you'll be presented with a new view of your image on the canvas:
 
 <figure>
-<img src="Masked-Top-Black.png" alt="Masked-Top-Black]"/>
+<img src="{filename}Masked-Top-Black.png" alt="Masked-Top-Black]"/>
 </figure>
 
 As you can see, filling the selected portion of the layer mask with black resulted in that area having 100% transparency, showing the layer below it.
@@ -128,7 +128,7 @@ As you can see, filling the selected portion of the layer mask with black result
 If you **Rectangle Select** a different area of the mask, you can fill it in with a different shade of gray to produce a variable opacity. For example, I will select a few different regions of the mask, and fill it with different levels of gray:
 
 <figure>
-<img src="Masked-Various.png" alt="Masked-Various]"/>
+<img src="{filename}Masked-Various.png" alt="Masked-Various]"/>
 </figure>
 
 If you examine the layer mask, you'll see that there are different levels of gray being applied (black to white, from top to bottom), and their value is what determines the opacity of the layer.
@@ -138,7 +138,7 @@ If you examine the layer mask, you'll see that there are different levels of gra
 A good example of the application of layer masks is doing selective colorization of an image (selectively allowing color to show through a mostly black and white image). I'll walk through how to easily do this with an image from Mardi Gras 2013:
 
 <figure>
-<img src="SelCol-Base.jpg" alt="SelCol-Base"/>
+<img src="{filename}SelCol-Base.jpg" alt="SelCol-Base"/>
 <figcaption>
 Mardi Gras 2013, Mobile, AL
 </figcaption>
@@ -155,7 +155,7 @@ Then desaturate the upper layer using:
 Following the steps above, add a layer mask to the desaturated layer and initialize it to White (full opacity). At this point, the Layers dialog should look like this:
 
 <figure>
-<img src="SelCol-Layers.png" alt="SelCol-Layers]"/>
+<img src="{filename}SelCol-Layers.png" alt="SelCol-Layers]"/>
 </figure>
 
 As before, set your foreground color to black. This time, rather than filling selections, we are going to use the **Paintbrush Tool** to paint areas of the image we want the color to show through from the layer below.
@@ -163,7 +163,7 @@ As before, set your foreground color to black. This time, rather than filling se
 I decided to paint the boy on the fence. Using the **Paintbrush Tool** I painted over his shirt and head. This allowed those colors to show through from the layer below. Here are the results after painting:
 
 <figure>
-<img src="SelCol-Boy.jpg" alt="SelCol-Boy"/>
+<img src="{filename}SelCol-Boy.jpg" alt="SelCol-Boy"/>
 <figcaption>
 Simple Selective Colorization Example
 </figcaption>
@@ -172,7 +172,7 @@ Simple Selective Colorization Example
 To illustrate what was done, here is the layer mask I painted to achieve the above result:
 
 <figure>
-<img src="SelCol-Boy-Mask.jpg" alt="SelCol-Boy-Mask"/>
+<img src="{filename}SelCol-Boy-Mask.jpg" alt="SelCol-Boy-Mask"/>
 <figcaption>
 Layer mask isolated to illustrate
 </figcaption>
@@ -181,7 +181,7 @@ Layer mask isolated to illustrate
 Of course, I could have chosen a different color than black to create the mask. If I wanted a slightly more muted color I could have painted with a more middle gray vs. black:
 
 <figure>
-<img src="SelCol-Boy-50.jpg" alt="SelCol-Boy-50"/>
+<img src="{filename}SelCol-Boy-50.jpg" alt="SelCol-Boy-50"/>
 <figcaption>
 Simple Selective Colorization Example (painted with gray vs. black).
 </figcaption>

@@ -9,8 +9,8 @@ Text and images Copyright (C) 2002 [Eric R. Jeschke](mailto:ericNOSPAM@redskiesa
 ## Intention
 
 <figure>
-<img src="before.jpg" alt="before.jpg"/>
-<img src="after.jpg" alt="after.jpg"/>
+<img src="{filename}before.jpg" alt="before.jpg"/>
+<img src="{filename}after.jpg" alt="after.jpg"/>
 </figure>
 
 In this tutorial I'll show you how to sepia tone a color or black and white image. This technique is modeled on the traditional darkroom method of sepia toning in that the sepia color is applied "unevenly" to areas of different tonality. It works much better than most of the simple methods I've seen for image editors and provides great control!  
@@ -20,7 +20,7 @@ Giving credit where credit is due: I did not come up with this method. I adapted
 ## The Procedure
 
 <figure>
-<img src="original.jpg" alt="original.jpg"/>
+<img src="{filename}original.jpg" alt="original.jpg"/>
 </figure>
 
 Here is the original image, loaded into GIMP. It has a bit of an old-time look, so I thought it might work well as a sepia-toned image.
@@ -28,8 +28,8 @@ Here is the original image, loaded into GIMP. It has a bit of an old-time look, 
 ## Step 1
 
 <figure>
-<img src="decor.jpg" alt="decor.jpg"/>
-<img src="image-wdecorfu.jpg" alt="image-wdecorfu.jpg"/>
+<img src="{filename}decor.jpg" alt="decor.jpg"/>
+<img src="{filename}image-wdecorfu.jpg" alt="image-wdecorfu.jpg"/>
 </figure>
 
 You can compare the result we will get below to GIMP's built-in Script-Fu for sepia toning (<span class="filter"><Image> Script-Fu -> Decor -> Old Photo</span>) as shown at right.  
@@ -38,7 +38,7 @@ Come back and compare to this when you get to the end of the tutorial.
 ## Step 2
 
 <figure>
-<img src="image2.jpg" alt="image2.jpg"/>
+<img src="{filename}image2.jpg" alt="image2.jpg"/>
 </figure>
 
 Duplicate the original image (<span class="filter"><Image> Image -> Duplicate</span> or <kbd>Ctrl+D</kbd>). You may want to minimize the original now (or close it) so you don't choose it by mistake.
@@ -51,8 +51,8 @@ In this case I simply did a mode change to grayscale, then back to RGB mode.
 ## Step 3
 
 <figure>
-<img src="colorselection.jpg" alt="colorselection.jpg"/>
-<img src="toolbox2.jpg" alt="toolbox2.jpg"/>
+<img src="{filename}colorselection.jpg" alt="colorselection.jpg"/>
+<img src="{filename}toolbox2.jpg" alt="toolbox2.jpg"/>
 </figure>
 
 Double-click on the foreground color swatch to bring up the Color Selection dialog. Dial in the color RED=162, GREEN=138 and BLUE=101 (you can experiment with this color too; this is a good starting point though.)
@@ -60,9 +60,9 @@ Double-click on the foreground color swatch to bring up the Color Selection dial
 ## Step 4
 
 <figure>
-<img src="layers1.jpg" alt="layers1.jpg"/>
-<img src="newlayeroptions.jpg" alt="newlayeroptions.jpg"/>
-<img src="layers2.jpg" alt="newlayeroptions.jpg"/>
+<img src="{filename}layers1.jpg" alt="layers1.jpg"/>
+<img src="{filename}newlayeroptions.jpg" alt="newlayeroptions.jpg"/>
+<img src="{filename}layers2.jpg" alt="newlayeroptions.jpg"/>
 </figure>
 
 Bring up the Layers dialog (<kbd>Ctrl+L</kbd>) and click on the button for a new layer. Give it the name "Sepia Mask" and choose the option to fill it with the foreground color. Click OK.  
@@ -71,8 +71,8 @@ You should see nothing but the color now in the image window, since it obscures 
 ## Step 5
 
 <figure>
-<img src="addmaskoptions.jpg" alt="addmaskoptions.jpg"/>
-<img src="layers3.jpg" alt="layers3.jpg"/>
+<img src="{filename}addmaskoptions.jpg" alt="addmaskoptions.jpg"/>
+<img src="{filename}layers3.jpg" alt="layers3.jpg"/>
 </figure>
 
 Right-click on the Sepia Mask layer and select Add Layer Mask. In the Add Mask Options dialog, choose White (Full Opacity).
@@ -80,8 +80,8 @@ Right-click on the Sepia Mask layer and select Add Layer Mask. In the Add Mask O
 ## Step 6
 
 <figure>
-<img src="layers4.jpg" alt="layers4.jpg"/>
-<img src="image3.jpg" alt="image3.jpg"/>
+<img src="{filename}layers4.jpg" alt="layers4.jpg"/>
+<img src="{filename}image3.jpg" alt="image3.jpg"/>
 </figure>
 
 In the Layers dialog, click on (select) the Background layer. Go up to the image window, select all and copy (<kbd>Ctrl+A</kbd> then <kbd>Ctrl+C</kbd>). In the Layers dialog, click on the layer mask icon in the Sepia Mask layer (the little white square). Then go back up to the image window and paste (<kbd>Ctrl+V</kbd>)
@@ -89,8 +89,8 @@ In the Layers dialog, click on (select) the Background layer. Go up to the image
 ## Step 7
 
 <figure>
-<img src="layers5.jpg" alt="layers5.jpg"/>
-<img src="image4.jpg" alt="image4.jpg"/>
+<img src="{filename}layers5.jpg" alt="layers5.jpg"/>
+<img src="{filename}image4.jpg" alt="image4.jpg"/>
 </figure>
 
 In the Layers dialog, click the Anchor button to anchor the pasted image into the layer mask.  
@@ -99,8 +99,8 @@ In the image window, invert the color (<span class="filter"><Image> Image -> Col
 ## Step 8
 
 <figure>
-<img src="layers6.jpg" alt="layers6.jpg"/>
-<img src="image5.jpg" alt="image5.jpg"/>
+<img src="{filename}layers6.jpg" alt="layers6.jpg"/>
+<img src="{filename}image5.jpg" alt="image5.jpg"/>
 </figure>
 
 In the Layers dialog, change the Mode (blending mode) of the layer to "Color". This applies the color from the Sepia Mask layer according to the layer mask to the image.  
@@ -109,8 +109,8 @@ You now have your base result. It might be a good idea to save this under a new 
 ## Step 9
 
 <figure>
-<img src="curves.jpg" alt="curves.jpg"/>
-<img src="image-curves.jpg" alt="image-curves.jpg"/>
+<img src="{filename}curves.jpg" alt="curves.jpg"/>
+<img src="{filename}image-curves.jpg" alt="image-curves.jpg"/>
 </figure>
 
 Once you've got the base image, you can duplicate it (Ctrl+D), flatten the duplicate (<span class="filter"><Image> Layers -> Flatten Image</span>) and then experiment with:
@@ -129,8 +129,8 @@ Here I decided that the image was a little flat and so I punched up the contrast
 ## Step 10
 
 <figure>
-<img src="decor2.jpg" alt="decor2.jpg"/>
-<img src="final.jpg" alt="final.jpg"/>
+<img src="{filename}decor2.jpg" alt="decor2.jpg"/>
+<img src="{filename}final.jpg" alt="final.jpg"/>
 </figure>
 
 As a final touch, I ran the "Old Photo" Script-Fu without the "sepia" and "mottle" options. Here is the final image.
@@ -144,8 +144,8 @@ As a final touch, I ran the "Old Photo" Script-Fu without the "sepia" and "mottl
 *   The method by which you get a black and white image makes a big difference in how the sepia toning comes out.
 
 <figure>
-<img src="grayscale-final-446x512.jpg" alt="grayscale-final-446x512.jpg"/>
-<img src="desaturate-final-446x512.jpg" alt="desaturate-final-446x512.jpg"/>
+<img src="{filename}grayscale-final-446x512.jpg" alt="grayscale-final-446x512.jpg"/>
+<img src="{filename}desaturate-final-446x512.jpg" alt="desaturate-final-446x512.jpg"/>
 </figure>
 
 The one on the left was from a grayscale conversion (<span class="filter"><Image> Image -> Mode -> Grayscale</span>); the one on the right started as a desaturate (<span class="filter"><Image> Image -> Colors -> Desaturate</span>). Notice that there is a lot more blue-channel noise in the right-hand one. This can add a nice "grain" effect (see tip above also) if that is what you are looking for. For this particular image, I prefer the smoother tonality and darker contrast of the left-hand image.

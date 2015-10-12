@@ -136,7 +136,7 @@ produces a new GIMP image of type RGB and size 100x150.
 All the functions of the PDB may be accessed through the Procedure Browser that is available from the main menu through <span class="filter">Xtns ->Procedure Browser</span>.... E.g. the Procedure Browser entry for uni-img, which we will define in the example below looks like this:
 
 <figure>
-<img src="pdb-uni-entry.png" alt="pdb-uni-entry.png" />
+<img src="{filename}pdb-uni-entry.png" alt="pdb-uni-entry.png" />
 </figure>
 
 For the Script-Fu programmer this information shows that uni-img may be called with three parameters of the types INT32, STRING and COLOR. The different types will be explained below.
@@ -236,19 +236,19 @@ The following script **uni.scm** receives two parameters from the user, the size
 To test the script save it in $HOME/.gimp-2.2/scripts/uni.scm and then select <span class="filter">Xtns -> Script-Fu -> Refresh</span>:
 
 <figure>
-<img src="refresh.png" alt="refresh.png" />
+<img src="{filename}refresh.png" alt="refresh.png" />
 </figure>
 
 The script **Uniform image** should now appear in the pulldown menu <span class="filter">Xtns -> Script-Fu -> Tutorials -> Uniform image</span>. Selecting this script results in the following popup:
 
 <figure>
-<img src="uni-img.png" alt="uni-img.png" />
+<img src="{filename}uni-img.png" alt="uni-img.png" />
 </figure>
 
 Accepting these default parameters through the **OK** button gives us the following new image:
 
 <figure>
-<img src="uni-result.png" alt="uni-result.png" />
+<img src="{filename}uni-result.png" alt="uni-result.png" />
 </figure>
 
 It is also possible to access this script through the Script-Fu console by typing the command

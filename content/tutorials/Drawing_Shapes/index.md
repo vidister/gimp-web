@@ -13,7 +13,7 @@ The Path Tool (replacing the old Bezier Selection tool) can be used in many crea
 ## Shapes with Paths!?
 
 <figure>
-<img src="box.png" alt="box.png"/>
+<img src="{filename}box.png" alt="box.png"/>
 </figure>
 
 This tutorial is about making simple geometrical shapes with GIMP. I will concentrate on the Path tool since I find it so useful for this purpose. I hope you get some help and new stuff to put in your GIMP Tricks Sack :) I personally use this technique for nearly all my work.
@@ -27,7 +27,7 @@ First we must **create a new image** for our creation. Make the **size 256x256**
 ## 1. Left side
 
 <figure>
-<img src="box_numb.png" alt="box_numb.png"/>
+<img src="{filename}box_numb.png" alt="box_numb.png"/>
 </figure>
 
 Now create a new transparent layer, and name it *Left_side* so you know what layer I'll talk about later on. Make sure you have the new layer active by checking the layers-dialog. If it is not selected, click the layer's name in the dialog.
@@ -35,32 +35,32 @@ Now create a new transparent layer, and name it *Left_side* so you know what lay
 Imagine the blue cube on the right side into your canvas, we'll be doing side #1 now.
 
 <figure>
-<img src="left_side.png" alt="left_side.png"/>
+<img src="{filename}left_side.png" alt="left_side.png"/>
 </figure>
 
 
-<img src="bezier_button.png" alt="bezier_button.png"/> Choose the Path tool and make something like the side #1 on the blue cube, think about the perspective. (If this causes you trouble, don't worry. You will learn by experience).
+<img src="{filename}bezier_button.png" alt="bezier_button.png"/> Choose the Path tool and make something like the side #1 on the blue cube, think about the perspective. (If this causes you trouble, don't worry. You will learn by experience).
 
 You can adjust the points' places if you can't get them right at the first try, see the [Path tutorial](/tutorials/Bezier_Selections/) for more information on that. Your path should look something like the one on the right.
 
 Once you are satisfied with your "box", convert it to a selection using the button "Create Selection from Path" (in the Path Options dialog) or using "Selection to Path" (in the Paths tab).
 
 <figure>
-<img src="gradient1.png" alt="gradient1.png"/>
+<img src="{filename}gradient1.png" alt="gradient1.png"/>
 </figure>
 
 Next we must choose some nice colors for our gradient, choose white for the foreground color and some dark-blue for the background (we are making a blue box, remember?) Something like that on the image nearby.
 
 <figure>
-<img src="colors.png" alt="colors.png"/>
+<img src="{filename}colors.png" alt="colors.png"/>
 </figure>
 
-<img src="gradient_button.png" alt="gradient_button.png"/> Select the gradient-fill tool and, starting from the top-left of the selection, 'drag' the gradient quite far down-right (see the arrow in the image. This way you get a quite light-colored face for the cube, and it is just what we want here. We also want the lighter end of the gradient to be near our imaginative light source. (The light was coming from the left)
+<img src="{filename}gradient_button.png" alt="gradient_button.png"/> Select the gradient-fill tool and, starting from the top-left of the selection, 'drag' the gradient quite far down-right (see the arrow in the image. This way you get a quite light-colored face for the cube, and it is just what we want here. We also want the lighter end of the gradient to be near our imaginative light source. (The light was coming from the left)
 
 ## 2. Right side
 
 <figure>
-<img src="gradient2.png" alt="gradient2.png"/>
+<img src="{filename}gradient2.png" alt="gradient2.png"/>
 </figure>
 
 Now on to the right side, side #2. Create a new transparent layer and name it *Right_side*. Use the Path Tool and try to make the right side of the cube and turn it into a selection.
@@ -72,7 +72,7 @@ Take the Gradient Tool again and, still with the same colors, make a gradient fr
 ## 3. Top side
 
 <figure>
-<img src="gradient3.png" alt="gradient3.png"/>
+<img src="{filename}gradient3.png" alt="gradient3.png"/>
 </figure>
 
 Our final ultimate task is to create the top, side #3. Again, create a new transparent layer and name it (who quessed? :) *Top_side*.
@@ -82,7 +82,7 @@ Now you probably know we want to make yet another path and this time the gradien
 ## 4. Finished Work
 
 <figure>
-<img src="finished_image.png" alt="finished_image.png"/>
+<img src="{filename}finished_image.png" alt="finished_image.png"/>
 </figure>
 
 Now you have a cool image of a Light-Source-Shaded Cube. You can choose <span class="filter"><Image> Image -> Flatten Image</span> to merge the layers togerher so you can save as jpeg or any other format than xcf. Or, better still, from the layers dialog, make the background invisible and choose <span class="filter"><Image> Image -> Merge Visible Layers</span> so you will have the background on a separate layer and you can work further on it if you like.

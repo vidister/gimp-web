@@ -14,7 +14,7 @@ is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported Licens
 This tutorial is intended to introduce you to a few simple commands, and some concepts in order to create a logo that appears to be floating above a background, like this:
 
 <figure>
-<img src="Floating-Logo-Final.png" alt="GIMP floating logo example"/>
+<img src="{filename}Floating-Logo-Final.png" alt="GIMP floating logo example"/>
 <figcaption>
 
 </figcaption></figure>
@@ -30,7 +30,7 @@ Create a new image of appropriate size for your logo:
 This will open the “Create a New Image” dialog, with options for you to specify:
 
 <figure>
-<img src="New-Dialog.png" alt="GIMP create new image dialog"/>
+<img src="{filename}New-Dialog.png" alt="GIMP create new image dialog"/>
 <figcaption>
 
 </figcaption></figure>
@@ -44,7 +44,7 @@ You’ll be presented with the new image on your canvas. Chances are it will be 
 The first thing we are going to do is fill our new image with black. The first step to doing so is to make sure that the **Foreground Color** is appropriately set. Click on the foreground color in the **Color area** to bring up the “Change Foreground Color” dialog (if your foreground color is already black you don’t have to do this step, but it can’t hurt to learn):
 
 <figure>
-<img src="Change-Foreground-Color.png" alt="GIMP change foreground color"/>
+<img src="{filename}Change-Foreground-Color.png" alt="GIMP change foreground color"/>
 <figcaption>
 Click the <span style="color:#00FF00;">foreground color</span> to change.
 </figcaption></figure>
@@ -52,7 +52,7 @@ Click the <span style="color:#00FF00;">foreground color</span> to change.
 The “Change Foreground Color” dialog allows you to now set the foreground color. We want to set the color to black RGB(0, 0, 0):
 
 <figure>
-<img src="Change-Foreground-Dialog.png" alt="GIMP change foreground color dialog"/>
+<img src="{filename}Change-Foreground-Dialog.png" alt="GIMP change foreground color dialog"/>
 <figcaption>
 
 </figcaption></figure>
@@ -62,12 +62,12 @@ With the foreground color set, we can now use the **Bucket Fill Tool** to fill i
 <div class="MenuCmd"><span><span style="text-decoration: underline;">T</span>ools → <span style="text-decoration: underline;">P</span>aint Tools → <span style="text-decoration: underline;">B</span>ucket Fill</span></div>
 
 <figure>
-<img src="Bucket-Fill-Tool.png" alt="GIMP bucket fill tool"/>
+<img src="{filename}Bucket-Fill-Tool.png" alt="GIMP bucket fill tool"/>
 <figcaption>
 Activating the <strong>Bucket Fill</strong> tool.
 </figcaption></figure>
 
-![Bucket Fill Cursor](Bucket-Fill-Cursor.png) Once the tool is activated, your cursor should appear as to the left. To fill the layer you need only click on the image area at this point. Your image should now fill with black.
+![Bucket Fill Cursor]({filename}Bucket-Fill-Cursor.png) Once the tool is activated, your cursor should appear as to the left. To fill the layer you need only click on the image area at this point. Your image should now fill with black.
 
 ## Adding Some Text
 
@@ -76,7 +76,7 @@ Now we want to add text to our image to create our logo with. To see what we’r
 Now, you can follow the above procedures again to set the foreground color. If your background color is already white, though, you can quickly swap foreground/background colors using the <span style="color: #00FF00;">arrows</span>:
 
 <figure>
-<img src="Color-Swap.png" alt="GIMP swap color foreground background"/>
+<img src="{filename}Color-Swap.png" alt="GIMP swap color foreground background"/>
 <figcaption>
 <strong>Swap Foreground/Background</strong> quickly.
 </figcaption></figure>
@@ -88,7 +88,7 @@ With the foreground color set to white, we can now use the **Text Tool** to add 
 <div class="MenuCmd"><span><span style="text-decoration: underline;">T</span>ools → Te<span style="text-decoration: underline;">x</span>t</span></div>
 
 <figure>
-<img src="Text-Tool.png" alt="GIMP text tool"/>
+<img src="{filename}Text-Tool.png" alt="GIMP text tool"/>
 <figcaption>
 Activating the <strong>Text Tool</strong>.
 </figcaption></figure>
@@ -98,7 +98,7 @@ We can now draw a box on our canvas (image) to hold the text. You can click on t
 This is what you should see on your canvas after clicking and dragging from the top-left to the bottom-right to define your text box:
 
 <figure>
-<img src="Text-Box.png" alt="GIMP text box canvas"/>
+<img src="{filename}Text-Box.png" alt="GIMP text box canvas"/>
 <figcaption>
 Defining the text box boundaries.
 </figcaption></figure>
@@ -106,7 +106,7 @@ Defining the text box boundaries.
 If you’d like to re-size the box for some reason, you can now click and drag in any of the <span style="color: #00AA00;">green areas</span> shown below:
 
 <figure>
-<img src="Text-Box-Resize.png" alt="GIMP resize text box"/>
+<img src="{filename}Text-Box-Resize.png" alt="GIMP resize text box"/>
 <figcaption>
 <span style="color:#00AA00;">Resize handles</span> to modify text box boundary.
 </figcaption></figure>
@@ -116,7 +116,7 @@ Your text will go into the black box inside the green areas shown above.
 Once the text boundary box is sized appropriately, we can just type some text. In my case, I’ll use my name:
 
 <figure>
-<img src="Text-Entry.png" alt="GIMP enter text canvas"/>
+<img src="{filename}Text-Entry.png" alt="GIMP enter text canvas"/>
 <figcaption>
 Text Tool Options (left), canvas view (right).
 </figcaption></figure>
@@ -128,7 +128,7 @@ If you want to make your text appear bigger, you can change the <span style="col
 You may also not like the font that is chosen by default. In that case, we can change the <span style="color: #00FF00;">**Font**</span> to something better by clicking the icon. This will open a drop-down to scroll through all the fonts that GIMP knows about on your system. You can see in my example that I’ve changed the font to “Tw Cen MT Bold”.
 
 <figure>
-<img src="Text-New-From-Visible.png" alt="GIMP context new layer from visible"/>
+<img src="{filename}Text-New-From-Visible.png" alt="GIMP context new layer from visible"/>
 <figcaption>
 Creating a new layer from all visible layers.
 </figcaption></figure>
@@ -142,7 +142,7 @@ Alternatively, you can also create a new layer from visible using the menu:
 At this point, our layer palette will have three layers on it, the background, the text (“PAT”), and our new layer “Visible”:
 
 <figure>
-<img src="Layer-Palette-Visible.png" alt="GIMP layer palette visible"/>
+<img src="{filename}Layer-Palette-Visible.png" alt="GIMP layer palette visible"/>
 <figcaption>
 
 </figcaption></figure>
@@ -158,7 +158,7 @@ To apply a slight Gaussian blur to this layer, we simply invoke the command thro
 This will invoke the **Gaussian Blur** dialog, where we can specify how much blur we want to apply:
 
 <figure>
-<img src="Gaussian-Blur.png" alt="GIMP gaussian blur dialog"/>
+<img src="{filename}Gaussian-Blur.png" alt="GIMP gaussian blur dialog"/>
 <figcaption>
 
 </figcaption></figure>
@@ -176,7 +176,7 @@ We are going to add a new layer to our image first:
 Or by Right-Clicking on the “Visible” layer in the layer palette, and choosing “**New Layer…**” from the context menu:
 
 <figure>
-<img src="Layer-New.png" alt="GIMP new layer context menu"/>
+<img src="{filename}Layer-New.png" alt="GIMP new layer context menu"/>
 <figcaption>
 New Layer using the Right-Click context menu.
 </figcaption></figure>
@@ -190,7 +190,7 @@ We are now going to fill this new layer with some color to add some interest. To
 I just left the default values and hit **<span style="text-decoration: underline;">O</span>K**, but feel free to fiddle with the values. Our layers now look like this:
 
 <figure>
-<img src="Layer-Plasma.png" alt="GIMP plasma layer"/>
+<img src="{filename}Layer-Plasma.png" alt="GIMP plasma layer"/>
 <figcaption>
 
 </figcaption></figure>
@@ -198,7 +198,7 @@ I just left the default values and hit **<span style="text-decoration: underline
 Here is what my canvas looks like right now (with the plasma layer on top and visible):
 
 <figure>
-<img src="Plasma.jpg" alt="GIMP plasma layer example"/>
+<img src="{filename}Plasma.jpg" alt="GIMP plasma layer example"/>
 <figcaption>
 
 </figcaption></figure>
@@ -212,7 +212,7 @@ Now we’re going to use the text we created earlier to generate a fake 3D shape
 The **Bump Map** dialog gives a good preview of what the plugin does:
 
 <figure>
-<img src="Bump-Map.jpg" alt="GIMP bump map dialog"/>
+<img src="{filename}Bump-Map.jpg" alt="GIMP bump map dialog"/>
 <figcaption>
 
 </figcaption></figure>
@@ -230,7 +230,7 @@ Now we are going to use a **Layer Mask** to isolate our bump mapped text. First 
 Or Right-Click on the plasma layer and choose “<span style="color:#00FF00;">Add Layer Mask…</span>” from the context menu:
 
 <figure>
-<img src="Bump-Mask.png" alt="GIMP add layer mask"/>
+<img src="{filename}Bump-Mask.png" alt="GIMP add layer mask"/>
 <figcaption>
 
 </figcaption></figure>
@@ -240,7 +240,7 @@ When the “Add a Mask to the Layer” dialog comes up, set the **Initialize Lay
 Once you’ve added a mask to the plasma layer, your layers should now look like this:
 
 <figure>
-<img src="Bump-Mask-Layers.png" alt="GIMP layer palette with mask"/>
+<img src="{filename}Bump-Mask-Layers.png" alt="GIMP layer palette with mask"/>
 <figcaption>
 
 </figcaption></figure>
@@ -250,7 +250,7 @@ Remember, you can tell which layer (or mask) is active by noticing which one has
 We are going to copy the “Visible” layer, and paste it into the layer mask for the plasma layer. So first, Left-Click on the “Visible” layer in the layers palette to activate it:
 
 <figure>
-<img src="Visible-Copy.png" alt="GIMP layer palette copy"/>
+<img src="{filename}Visible-Copy.png" alt="GIMP layer palette copy"/>
 <figcaption>
 Remember, the white border will indicate the layer is active.
 </figcaption></figure>
@@ -262,7 +262,7 @@ With the layer active, we want to now copy it:
 Then we want to make the plasma layer mask active by Left-Clicking on the **mask**:
 
 <figure>
-<img src="Bump-Mask-Layers.png" alt="GIMP bump map layer mask"/>
+<img src="{filename}Bump-Mask-Layers.png" alt="GIMP bump map layer mask"/>
 <figcaption>
 Plasma layer mask now active again.
 </figcaption></figure>
@@ -274,7 +274,7 @@ With the mask active again, we now want to paste the “Visible” layer back in
 This will now insert a _Floating Selection (Pasted Layer)_ into your image:
 
 <figure>
-<img src="Visible-Paste.png" alt="GIMP layer paste"/>
+<img src="{filename}Visible-Paste.png" alt="GIMP layer paste"/>
 <figcaption>
 
 </figcaption></figure>
@@ -286,7 +286,7 @@ To get this _Floating Selection_ into the mask, we need to **Anchor** it:
 This will **Anchor** the selection down onto the mask. Our image and layers should now look something like this:
 
 <figure>
-<img src="Masked.png" alt="GIMP layer mask example"/>
+<img src="{filename}Masked.png" alt="GIMP layer mask example"/>
 <figcaption>
 
 </figcaption></figure>
@@ -296,7 +296,7 @@ We may now want to add a different colored background to help us fine-tune the r
 Pick an interesting background color and fill the new layer with this color. The layers should now look like this:
 
 <figure>
-<img src="Add-Background.png" alt="GIMP layer mask background"/>
+<img src="{filename}Add-Background.png" alt="GIMP layer mask background"/>
 <figcaption>
 
 </figcaption></figure>
@@ -314,7 +314,7 @@ To do this, we first make sure the layer mask is active by clicking on it. Then 
 With the **Adjust Color Levels** dialog, we now want to sharpen up the edges of the mask a little bit:
 
 <figure>
-<img src="Levels.png" alt="GIMP adjust color levels dialog"/>
+<img src="{filename}Levels.png" alt="GIMP adjust color levels dialog"/>
 <figcaption>
 
 </figcaption></figure>
@@ -324,7 +324,7 @@ What we want to do is adjust the **Gamma** and **White point** sliders. I starte
 The trick is to increase the definition of the edges of the text, without going too far and causing it to look very jagged (aliased). Play with the settings to see how they affect your results. Here is what my plasma layer looks like after applying the above levels to the mask:
 
 <figure>
-<img src="Levels-After.png" alt="GIMP color levels example"/>
+<img src="{filename}Levels-After.png" alt="GIMP color levels example"/>
 <figcaption>
 
 </figcaption></figure>
@@ -340,7 +340,7 @@ Make a copy of your “Visible” layer that had your original blurred text on i
 Or Right-Click on the “Visible” layer, and choose “<span style="color: #00FF00;">D<span style="text-decoration: underline;">u</span>plicate Layer</span>”:
 
 <figure>
-<img src="Duplicate-Layer.png" alt="GIMP context duplicate layer"/>
+<img src="{filename}Duplicate-Layer.png" alt="GIMP context duplicate layer"/>
 <figcaption>
 
 </figcaption></figure>
@@ -348,7 +348,7 @@ Or Right-Click on the “Visible” layer, and choose “<span style="color: #00
 This will create a new layer called “Visible copy”. Move this layer above your background color layer to just beneath your plasma layer as shown (you can Left-Click and drag the layer in the palette):
 
 <figure>
-<img src="Shadow-Layer.png" alt="GIMP example shadow layer"/>
+<img src="{filename}Shadow-Layer.png" alt="GIMP example shadow layer"/>
 <figcaption>
 Click and drag the “Visible copy” layer to beneath the plasma layer
 </figcaption></figure>
@@ -366,7 +366,7 @@ The layer should now have black text over a transparent background. We’ll now 
 <div class="MenuCmd"><span><span style="text-decoration: underline;">T</span>ools → <span style="text-decoration: underline;">T</span>ransfom Tools → <span style="text-decoration: underline;">M</span>ove</span></div>
 
 <figure>
-<img src="Move-Tool.png" alt="GIMP move tool"/>
+<img src="{filename}Move-Tool.png" alt="GIMP move tool"/>
 <figcaption>
 Activate the <strong>Move Tool</strong>.
 </figcaption></figure>
@@ -374,7 +374,7 @@ Activate the <strong>Move Tool</strong>.
 If we hold down **Shift** and click on the canvas, we restrict the **Move Tool** to modifying only the active layer (our shadow layer). Drag the layer to the right and down a bit to simulate the shadow. I ended up with this:
 
 <figure>
-<img src="Shadow.png" alt="GIMP example drop shadow"/>
+<img src="{filename}Shadow.png" alt="GIMP example drop shadow"/>
 <figcaption>
 Shadow layer shifted to the right and down a bit.
 </figcaption></figure>
@@ -384,7 +384,7 @@ At this point we can make it a bit more fancy by adding a **Gaussian Blur** to t
 Here is the final state of my image, where I applied a **Gaussian Blur** with a 10px radius, and adjusted the shadow layer **Opacity** down to 80:
 
 <figure>
-<img src="Shadow-Final.png" alt="GIMP example drop shadow gaussian blur"/>
+<img src="{filename}Shadow-Final.png" alt="GIMP example drop shadow gaussian blur"/>
 <figcaption>
 
 </figcaption></figure>
@@ -394,7 +394,7 @@ Here is the final state of my image, where I applied a **Gaussian Blur** with a 
 Here is my final floating logo image when everything is done:
 
 <figure>
-<img src="Floating-Logo-Final.png" alt="GIMP example floating logo final"/>
+<img src="{filename}Floating-Logo-Final.png" alt="GIMP example floating logo final"/>
 <figcaption>
 
 </figcaption></figure>
@@ -402,7 +402,7 @@ Here is my final floating logo image when everything is done:
 The neat thing about our process is that we can now use any background we want behind the image, and the effects and shadow will still be there:
 
 <figure>
-<img src="Floating-Logo-Sinus.png" alt="GIMP example floating logo sinus"/>
+<img src="{filename}Floating-Logo-Sinus.png" alt="GIMP example floating logo sinus"/>
 <figcaption>
 
 </figcaption></figure>
@@ -410,7 +410,7 @@ The neat thing about our process is that we can now use any background we want b
 Or we could save it as a PNG file with no background at all, thus allowing whatever background there is to show through:
 
 <figure>
-<img src="Floating-Logo-NoBG.png" alt="GIMP example floating logo no background transparent"/>
+<img src="{filename}Floating-Logo-NoBG.png" alt="GIMP example floating logo no background transparent"/>
 <figcaption>
 
 </figcaption></figure>

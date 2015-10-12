@@ -12,7 +12,7 @@ is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported Licens
 ## Motivation
 
 <figure>
-<img src="gimp_jpg_to_xcf_popup.jpg" alt="gimp_jpg_to_xcf_popup.jpg" />
+<img src="{filename}gimp_jpg_to_xcf_popup.jpg" alt="gimp_jpg_to_xcf_popup.jpg" />
 </figure>
 
 While it is easy to do, opening a Jpeg file and saving it in the native GIMP \*.xcf format is tedious and time consuming. You may also want to perform the same operation, like setting the grid spacing as an example, on all of the images that you import as part of the process. Automating the parts of the editing process that are the same for each image saves time, produces consistent results, and allows you to focus your attention on the part of the image editing process that really needs your attention.
@@ -71,7 +71,7 @@ The image below shows menu items with and without an image loaded. The menu item
 #### Function Menus
 
 <figure>
-<img src="gimp_menu_compare.jpg" alt="Menu Compare - Image types" />
+<img src="{filename}gimp_menu_compare.jpg" alt="Menu Compare - Image types" />
 </figure>
 
 Our **second requirement**, to be able to use the GUI to browse to our Jpeg source file directory and our Xcf target file directory is handled first in the registration block by using the "**SF-DIRNAME**" widgets to label the GUI selection fields and pass the collected results as inputs to the script (above). Once we have the path names to our source and target directories we will use the "**file-glob**" (os.listdir in python-fu) function within the main program to create a list of all of the image files in those directories.

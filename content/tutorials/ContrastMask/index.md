@@ -146,22 +146,22 @@ Now that your contrast mask is created, it's time to fine tune it. Here are some
 ## Other Examples
 
 <figure>
-<img src="tree.jpg" alt="tree.jpg"/>
-<img src="treewcmask.jpg" alt="treewcmask.jpg"/>
+<img src="{filename}tree.jpg" alt="tree.jpg"/>
+<img src="{filename}treewcmask.jpg" alt="treewcmask.jpg"/>
 </figure>
 
 With a contrast mask as described above. Notice how the sky has recovered some blue, and the detail visible under the tree!
 
 <figure>
-<img src="nd-original-1.jpg" alt="nd-original-1.jpg"/>
-<img src="utsunset-wcmask.jpg" alt="utsunset-wcmask.jpg"/>
+<img src="{filename}nd-original-1.jpg" alt="nd-original-1.jpg"/>
+<img src="{filename}utsunset-wcmask.jpg" alt="utsunset-wcmask.jpg"/>
 </figure>
 
 Here's an example of how this technique overlaps with the digital split ND filter approach. Which do you prefer?
 
 <figure>
-<img src="nd-filter-1.jpg" alt="nd-filter-1.jpg"/>
-<img src="utsunset-whmask.jpg" alt="utsunset-whmask.jpg"/>
+<img src="{filename}nd-filter-1.jpg" alt="nd-filter-1.jpg"/>
+<img src="{filename}utsunset-whmask.jpg" alt="utsunset-whmask.jpg"/>
 </figure>
 
 With a digital split ND filter. (left image)  

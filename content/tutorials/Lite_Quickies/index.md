@@ -18,8 +18,8 @@ All you should need to know to start here is how to find your image and open it.
 ## <a id="scale">Change the Size of an Image (Scale)</a>
 
 <figure>
-<a href="scale-menu.png"><img src="scale-menu-t.png" alt="scale-menu"/></a>
-<a href="scale-dialog.png"><img src="scale-dialog-t.png" alt="scale-dialog"/></a>
+<a href="scale-menu.png"><img src="{filename}scale-menu-t.png" alt="scale-menu"/></a>
+<a href="scale-dialog.png"><img src="{filename}scale-dialog-t.png" alt="scale-dialog"/></a>
 </figure>
 
 
@@ -40,8 +40,8 @@ Let GIMP choose the other dimension length for you. Meaning, it will take more i
 ## <a id="reduce">Make jpegs Smaller</a>
 
 <figure>
-<a href="jpegsave-menu.png"><img src="jpegsave-menu-t.png" alt="jpegsave-menu"/></a>
-<a href="jpegsave-dialog-de.png"><img src="jpegsave-dialog-de-t.png" alt="jpegsave-dialog"/></a>
+<a href="jpegsave-menu.png"><img src="{filename}jpegsave-menu-t.png" alt="jpegsave-menu"/></a>
+<a href="jpegsave-dialog-de.png"><img src="{filename}jpegsave-dialog-de-t.png" alt="jpegsave-dialog"/></a>
 </figure>
 
 
@@ -58,12 +58,12 @@ I have not been showing the actual jpegs I created so that we could end this qui
 ## <a id="crop">Crop An Image</a>
 
 <figure>
-<a href="crop-menu.png"><img src="crop-menu-t.png" alt="crop-menu"/></a>
-<a href="crop-dialog.png"><img src="crop-dialog-t.png" alt="crop-dialog"/></a>
+<a href="crop-menu.png"><img src="{filename}crop-menu-t.png" alt="crop-menu"/></a>
+<a href="crop-dialog.png"><img src="{filename}crop-dialog-t.png" alt="crop-dialog"/></a>
 </figure>
 
 
-Many reasons to need to crop an image. Making rectangles square, or making squares into rectangles. Cutting alot of useless background to bring out the subject better. etc. To get to the crop tool, you can either push the button on the toolbox ![crop-button](crop-button.png) or right click on the image and follow the menu <span class="filter"><Image> Tools -> Transform Tools -> Crop & Resize</span>. This will change the cursor and allow you to click and drag a rectangular shape. The button in the toolbox is the nicest way to get to any of the tools. I have chosen one of the huge and beautiful [APOD](http://antwrp.gsfc.nasa.gov/apod/ap021108.html) images, [ngc6369 heritage](ngc6369_heritage_big.jpg).
+Many reasons to need to crop an image. Making rectangles square, or making squares into rectangles. Cutting alot of useless background to bring out the subject better. etc. To get to the crop tool, you can either push the button on the toolbox ![crop-button]({filename}crop-button.png) or right click on the image and follow the menu <span class="filter"><Image> Tools -> Transform Tools -> Crop & Resize</span>. This will change the cursor and allow you to click and drag a rectangular shape. The button in the toolbox is the nicest way to get to any of the tools. I have chosen one of the huge and beautiful [APOD](http://antwrp.gsfc.nasa.gov/apod/ap021108.html) images, [ngc6369 heritage](ngc6369_heritage_big.jpg).
 
 I always click on the approximate upper left corner and drag to the lower [right corner](crop-drag.png). You don't need to worry about being accurate on this first swipe with the crop tool, since a little dialog will pop up and you can make a better choice for your new borders there..
 
@@ -74,8 +74,8 @@ I decided that the image looked the best with the [X Origin at 42](crop-dialog2.
 ## <a id="info">Find Info About Your Image</a>
 
 <figure>
-<a href="info-menu.png"><img src="info-menu-t.png" alt="info-menu"/></a>
-<a href="info-dialog.png"><img src="info-dialog-t.png" alt="info-dialog"/></a>
+<a href="info-menu.png"><img src="{filename}info-menu-t.png" alt="info-menu"/></a>
+<a href="info-dialog.png"><img src="{filename}info-dialog-t.png" alt="info-dialog"/></a>
 </figure>
 
 
@@ -94,8 +94,8 @@ There is another brutal fact you should come to terms with if you are new to gra
 ## <a name="mode">Change the Mode</a>
 
 <figure>
-<a href="mode-menu.png"><img src="mode-menu-t.png" alt="mode-menu"/></a>
-<img alt="mode-dialog" src="mode-dialog.png"/>
+<a href="mode-menu.png"><img src="{filename}mode-menu-t.png" alt="mode-menu"/></a>
+<img alt="mode-dialog" src="{filename}mode-dialog.png"/>
 </figure>
 
 As with anything else, images come in different kinds and serve different purposes. Sometimes, a small size is important (for web sites) and at other times, retaining a high colour depth in all its glory (a family portrait) is what you want. GIMP can handle all of this, and more, primarily by converting between three fundamental modes, as seen in this menu. In order to switch your image to one of these modes, you open it and follow that menu and click the mode you want.
@@ -109,14 +109,14 @@ As an example to practice with images have been provided in various sizes and fo
 **Indexed -** This is the mode usually used when file size is of concern, or when you are working with images with few colours. It involves using a fixed number of colours, 256 or less, at each point to represent the colour at that point. GIMP defaults to attempting to figure out an "optimum palette" to best represent your image. Try it, you can undo it if you don't like the results, or use a custom palette or more colours.
 
 <figure>
-<a href="mode-index.png"><img src="mode-index-t.png" alt="mode-index"/></a>
+<a href="mode-index.png"><img src="{filename}mode-index-t.png" alt="mode-index"/></a>
 </figure>
 
 
 As you might expect, since the information needed to represent the colour at each pixel is less, the file size is a lot smaller. However, sometimes, there will be options in the various menus that seem to have been "greyed" out for no apparent reason. This usually means the filter or option cannot be applied when your image is in its current mode. Changing the mode to RGB as outlined above should solve this issue. If that doesn't work either, perhaps the option you're trying requires your layer to have the ability to be transparent. This can be done just as easily via (Image)->Layer->Transparency->Add Alpha Channel.
 
 <figure>
-<a href="mode-alpha.png"><img src="mode-alpha-t.png" alt="mode-alpha"/></a>
+<a href="mode-alpha.png"><img src="{filename}mode-alpha-t.png" alt="mode-alpha"/></a>
 </figure>
 
 **Grayscale -** In case you want to convert your brilliant colour image to something that's black and white (with a lot of shades of grey), this is one of the easiest ways in which to do it. Some photos do look a lot fancier when displayed in grayscale. Again, if you're interested in some detail, this is achieved by taking the RGB values at the pixels in your image, and suitably weighted averaging them to get an _intensity_ at that point.
@@ -126,11 +126,11 @@ There is no need to convert an image to a specific mode before saving it in your
 ## <a id="flip">Flip An Image</a>
 
 <figure>
-<a href="flip-menu.png"><img src="flip-menu-t.png" alt="flip-menu"/></a>
-<img alt="flip-dialog" src="flip-dialog.png"/>
+<a href="flip-menu.png"><img src="{filename}flip-menu-t.png" alt="flip-menu"/></a>
+<img alt="flip-dialog" src="{filename}flip-dialog.png"/>
 </figure>
 
-When you need the person in the photo looking in the other direction, or you need to top of the image to be the bottom. Mirroring the image (sort of). Right click on the image and follow the menus <span class="filter"><Image> Tools -> Transform Tools -> Flip</span>, or use the button on the toolbox. ![flip-button](flip-button.png)
+When you need the person in the photo looking in the other direction, or you need to top of the image to be the bottom. Mirroring the image (sort of). Right click on the image and follow the menus <span class="filter"><Image> Tools -> Transform Tools -> Flip</span>, or use the button on the toolbox. ![flip-button]({filename}flip-button.png)
 
 Using another [APOD](http://antwrp.gsfc.nasa.gov/apod/ap021114.html) image I demonstrated all of the flips on [this](sunspot_swedish_label2.jpg) image. You might get bored before it is over ....
 
@@ -145,7 +145,7 @@ The flips are all displayed on one page for you, [here](flips.html). One might a
 ## <a id="rotate">Rotate An Image</a>
 
 <figure>
-<a href="rotate-menu.png"><img src="rotate-menu-t.png" alt="rotate-menu"/></a>
+<a href="rotate-menu.png"><img src="{filename}rotate-menu-t.png" alt="rotate-menu"/></a>
 </figure>
 
 

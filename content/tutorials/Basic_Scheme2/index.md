@@ -77,7 +77,7 @@ Although each function is documented, the sheer number of them can be overwhelmi
 In the _Procedure Browser_, type the word "new" into the text input box in the bottom left corner and then click on the _Search by Name_ button. The list should be much smaller now; the first five functions happen to be especially interesting. This search is demonstrated in _Figure One below_
 
 <figure>
-<img src="power_01.jpg" alt="Figure One" />
+<img src="{filename}power_01.jpg" alt="Figure One" />
 <figcaption>
 Figure One: The five constructor functions are listed in the top left of the window.
 </figcaption>
@@ -128,7 +128,7 @@ If you wanted to affect only the "blueness" of an image, you could disable the r
 There are many, many functions in the GIMP API for manipulating drawables. On lines 16 to 22, <small>gimp-paintbrush-default</small> is used to draw a line on <small>layer</small>. Since this function needs an array of (x,y) coordinates, the <small>cons-array</small> function is used to allocate an array of doubles and the <small>aset</small> function is used to fill it with values. Before the line is drawn, we change our default foreground color to a bright red using <small>gimp-palette-set-foreground</small>. If you've typed everything in correctly, you should have something that looks like _Figure Two showed below_.
 
 <figure>
-<img src="power_02.jpg" alt="power_02.jpg" />
+<img src="{filename}power_02.jpg" alt="power_02.jpg" />
 <figcaption>
 Figure Two: A simple drawing.
 <figcaption>

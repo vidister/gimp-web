@@ -13,17 +13,17 @@ The Path tool (previously known as Bezier Selection) is a powerful tool in GIMP.
 ## What is it?
 
 <figure>
-<img src="bezier_box.png" alt="bezier_box.png" />
+<img src="{filename}bezier_box.png" alt="bezier_box.png" />
 </figure>
 
-![Bezier Button](bezier_button.png)The Path tool can make complex selections by specifying certain points that are connected together with a curve. So to make a box you would specify four points, one for each corner of the box. Example in image above. The great thing is the corners don't have to be 90 degrees.   
+![Bezier Button]({filename}bezier_button.png)The Path tool can make complex selections by specifying certain points that are connected together with a curve. So to make a box you would specify four points, one for each corner of the box. Example in image above. The great thing is the corners don't have to be 90 degrees.   
 In older GIMP versions (1.2.x), you had to close all paths by joining the last point of the path to the first one. This is not necessary anymore in 2.0 and later versions, but this is still useful to create closed shapes such as a box. So after creating the fourth point, press and hold the Ctrl key and click on the first point to close the path. Of course you can have as many points as you need.   
 Finally, click the "Stroke Path" button (in the Path Options dialog) or use the menu Edit->Stroke Path... to draw the new shape. You can also use the button "Create Selection from Path" if you want to have a selection that you can fill or stroke.
 
 ## Modifying the curves
 
 <figure>
-<img src="bezier_curve.png" alt="bezier_curve.png" />
+<img src="{filename}bezier_curve.png" alt="bezier_curve.png" />
 </figure>
 
 Straight lines alone are a useful thing, but it's not all. Actually they are not lines but curves. Cool anti-aliased smooth curves.   

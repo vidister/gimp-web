@@ -13,17 +13,17 @@ The GIMP 1.2 series have a nice new feature I refer to as gradient brushes. Esse
 ## Using Gradient Brushes
 
 <figure>
-<img src="grad_brush_dialog.png" alt="grad_brush_dialog.png"/>
+<img src="{filename}grad_brush_dialog.png" alt="grad_brush_dialog.png"/>
 </figure>
 
 Gradient brushes can be accessed from the standard paintbrush dialog. Just check the option "Use Color from Gradient" and start painting. You can also press the Gradient button to change the current gradient. Try "German flag smooth", for instance.
 
 <figure>
-<img src="grad1.jpg" alt="grad1.jpg"/>
+<img src="{filename}grad1.jpg" alt="grad1.jpg"/>
 
-<img src="grad_text1.jpg" alt="grad_text1.jpg"/>
+<img src="{filename}grad_text1.jpg" alt="grad_text1.jpg"/>
 
-<img src="grad_text2.jpg" alt="grad_text2.jpg"/>
+<img src="{filename}grad_text2.jpg" alt="grad_text2.jpg"/>
 </figure>
 
 Just filling in an image with a gradient brush is a good start for interesting textures, and you can make some nice ones that way.
@@ -37,21 +37,21 @@ For example, lets choose the "Grunge 15" brush. Set its spacing to about 70 or s
 Now for the easy part. Draw random stuff on the image. Or not random. It doesnt really matter. If you want to stick to a very set pattern, your texture might look a bit more orderly. Fill the image completely if you dont want alpha poking though. Nice eh?
 
 <figure>
-<img src="grad_example_1.jpg" alt="grad_example_1.jpg"/>
+<img src="{filename}grad_example_1.jpg" alt="grad_example_1.jpg"/>
 </figure>
 
 The hard part is making the image tilable. The easiest way to do this is to offset your image by half its height, and half its width. Select <span class="filter"><Image> Layer -> Transform -> Offset</span>. Then choose the convient "x/2, y/2" option, and hit OK. Your image will now show what used to be at its edges at the center of the image. The secret to making tileable images is to make this transition smooth.
 
 <figure>
-<img src="grad_example_2.jpg" alt="grad_example_2.jpg"/>
+<img src="{filename}grad_example_2.jpg" alt="grad_example_2.jpg"/>
 
-<img src="grad_example_3.jpg" alt="grad_example_3.jpg"/>
+<img src="{filename}grad_example_3.jpg" alt="grad_example_3.jpg"/>
 </figure>
 
 For gradient painting with grunge brushes, this typicaly just means painting along those lines. You probabaly want to give it a bit of character so it looks more natural. You will probabaly want to avoid painting at the edges of the image when you do this. But if you do, just repeat the above steps again and you should be fine.
 
 <figure>
-<img src="grad_example_4.jpg" alt="grad_example_4.jpg"/>
+<img src="{filename}grad_example_4.jpg" alt="grad_example_4.jpg"/>
 </figure>
 
 Offset that image one more time (or not,actually...), and your ready to go.
@@ -65,13 +65,13 @@ All in all, this is nice and simple, and fast way to create some colorful textur
 ## Examples
 
 <figure>
-<img src="texture1.jpg" alt="texture1.jpg"/>
+<img src="{filename}texture1.jpg" alt="texture1.jpg"/>
 
-<img src="texture2.jpg" alt="texture2.jpg"/>
+<img src="{filename}texture2.jpg" alt="texture2.jpg"/>
 
-<img src="texture3.jpg" alt="texture3.jpg"/>
+<img src="{filename}texture3.jpg" alt="texture3.jpg"/>
 
-<img src="texture4.jpg" alt="texture4.jpg"/>
+<img src="{filename}texture4.jpg" alt="texture4.jpg"/>
 </figure>
 
 Just some examples whipped up in a few minutes.

@@ -45,7 +45,7 @@ Author: Eric R. Jeschke
 </p>
 
 <p class="images">
-  <img src="image-luminosityedgesharpened-zoomed100.jpg" alt="image-luminosityedgesharpened-zoomed100.jpg" />
+  <img src="{filename}image-luminosityedgesharpened-zoomed100.jpg" alt="image-luminosityedgesharpened-zoomed100.jpg" />
 </p>
 <p>
   1. Sharpening mask (edges only), luminosity channel only (LAB decompose/compose).
@@ -54,7 +54,7 @@ Author: Eric R. Jeschke
 </p>
 
 <p class="images">
-  <img src="image-valueedgesharpened-zoomed100.jpg" alt="image-valueedgesharpened-zoomed100.jpg" />
+  <img src="{filename}image-valueedgesharpened-zoomed100.jpg" alt="image-valueedgesharpened-zoomed100.jpg" />
 </p>
 <p>
   2. Sharpening mask (edges only), value channel only (HSV decompose/compose).
@@ -63,7 +63,7 @@ Author: Eric R. Jeschke
 </p>
 
 <p class="images">
-  <img src="image-edgesharpened-zoomed100.jpg" alt="image-edgesharpened-zoomed100.jpg" />
+  <img src="{filename}image-edgesharpened-zoomed100.jpg" alt="image-edgesharpened-zoomed100.jpg" />
 </p>
 <p>
   3. Sharpening mask (edges only), all RGB channels (no decompose/compose). First of the "shortcuts".
@@ -74,7 +74,7 @@ Author: Eric R. Jeschke
 </p>
 
 <p class="images">
-  <img src="image-rededgesharpened-zoomed100.jpg" alt="image-rededgesharpened-zoomed100.jpg" />
+  <img src="{filename}image-rededgesharpened-zoomed100.jpg" alt="image-rededgesharpened-zoomed100.jpg" />
 </p>
 <p>
   4. Sharpening mask (edges only), red channel only (no decompose/compose).
@@ -85,7 +85,7 @@ Author: Eric R. Jeschke
 </p>
 
 <p class="images">
-  <img src="image-redsharpened-zoomed100.jpg" alt="image-redsharpened-zoomed100.jpg" />
+  <img src="{filename}image-redsharpened-zoomed100.jpg" alt="image-redsharpened-zoomed100.jpg" />
 </p>
 <p>
   5. No sharpening mask (entire image), red channel only (no decompose/compose).
@@ -96,7 +96,7 @@ Author: Eric R. Jeschke
 </p>
 
 <p class="images">
-  <img src="image-luminositysharpened-zoomed100.jpg" alt="image-luminositysharpened-zoomed100.jpg" />
+  <img src="{filename}image-luminositysharpened-zoomed100.jpg" alt="image-luminositysharpened-zoomed100.jpg" />
 </p>
 <p>
   6. No sharpening mask (entire image), luminosity channel only (LAB decompose/compose).
@@ -107,7 +107,7 @@ Author: Eric R. Jeschke
 </p>
 
 <p class="images">
-  <img src="image-valuesharpened-zoomed100.jpg" alt="image-valuesharpened-zoomed100.jpg" />
+  <img src="{filename}image-valuesharpened-zoomed100.jpg" alt="image-valuesharpened-zoomed100.jpg" />
 </p>
 <p>
   7. No sharpening mask (entire image), value channel only (HSV decompose/compose).
@@ -118,7 +118,7 @@ Author: Eric R. Jeschke
 </p>
 
 <p class="images">
-  <img src="image-regularsharpened-zoomed100.jpg" alt="image-regularsharpened-zoomed100.jpg" />
+  <img src="{filename}image-regularsharpened-zoomed100.jpg" alt="image-regularsharpened-zoomed100.jpg" />
 </p>
 <p>
   8. No sharpening mask (entire image), all RGB channels (no decompose/compose).
@@ -129,7 +129,7 @@ Author: Eric R. Jeschke
 </p>
 
 <p class="images">
-  <img src="image-original-zoomed100.jpg" alt="image-original-zoomed100.jpg" />
+  <img src="{filename}image-original-zoomed100.jpg" alt="image-original-zoomed100.jpg" />
 </p>
 <p>
   9. Unsharpened original.

@@ -15,7 +15,7 @@ An image pipe is a series of pixmap brushes combined into one, so that one or mo
 ## How Do You Make a New Brush?
 
 <figure>
-<img src="fig1.jpg" alt="fig1.jpg"/>
+<img src="{filename}fig1.jpg" alt="fig1.jpg"/>
 <figcaption>
 100 percent spacing
 </figcaption>
@@ -23,7 +23,7 @@ An image pipe is a series of pixmap brushes combined into one, so that one or mo
 
 
 <figure>
-<img src="fig2.jpg" alt="fig2.jpg"/>
+<img src="{filename}fig2.jpg" alt="fig2.jpg"/>
 <figcaption>
 150 percent spacing
 </figcaption>
@@ -31,7 +31,7 @@ An image pipe is a series of pixmap brushes combined into one, so that one or mo
 
 
 <figure>
-<img src="fig3.jpg" alt="fig3.jpg"/>
+<img src="{filename}fig3.jpg" alt="fig3.jpg"/>
 <figcaption>
 20 percent spacing
 </figcaption>
@@ -47,14 +47,14 @@ A pixmap brush with 100% spacing will draw a bunch of pixmaps with touching bord
 ## Image Pipe Options
 
 <figure>
-<a href="layer_example.xcf.gz"><img src="fig4.jpg" alt="fig4.jpg"/></a>
+<a href="layer_example.xcf.gz"><img src="{filename}fig4.jpg" alt="fig4.jpg"/></a>
 </figure>
 
 The options for an image pipe are a bit more complicated. Let's take a simple image with four layers. The layers look like above.  
 Click on the example above to download the GIMP file.
 
 <figure>
-<img src="fig5.jpg" alt="fig5.jpg"/>
+<img src="{filename}fig5.jpg" alt="fig5.jpg"/>
 </figure>
 
 When I try to save this image as type "GIH", I get this dialog box: (Image above)
@@ -69,19 +69,19 @@ There's a lot of options here. Here's a list of what the simple ones mean:
 The last three fields are a little harder to describe. If you want to give this image a one dimensional image pipe, you put '1' under **Dimension** and 4 under **Ranks**. This gives you four images in your image pipe, one of which will be chosen each time the brush touches. The last field, **Selection**, is about how that brush is chosen.
 
 <figure>
-<a href="random_pipe.gih"><img src="fig6.jpg" alt="fig6.jpg"/></a>
+<a href="random_pipe.gih"><img src="{filename}fig6.jpg" alt="fig6.jpg"/></a>
 </figure>
 
 Let's say we save the image above as an image pipe with one dimension, four ranks and random selection. One of the images will be chosen for the brush at random. If we paint a short line with it (spacing 150), we get something like image above.
 
 <figure>
-<a href="incremental_pipe.gih"><img src="fig7.jpg" alt="fig7.jpg"/></a>
+<a href="incremental_pipe.gih"><img src="{filename}fig7.jpg" alt="fig7.jpg"/></a>
 </figure>
 
 If instead, we chose incremental selection, the layers will be chosen in order from the top layer to the bottom, which would look like this.
 
 <figure>
-<a href="angular_pipe.gih"><img src="fig8.jpg" alt="fig8.jpg"/></a>
+<a href="angular_pipe.gih"><img src="{filename}fig8.jpg" alt="fig8.jpg"/></a>
 </figure>
 
 An angular pipe choses its layer based on the angle the brush moves. The top layer covers 0 degrees (straight up) and the angles to either side. The layers going down are assigned counter clockwise, evenly dividing the number of degrees with the layer. So with four layers, "A" will go up, "B" right, "C" down and "D" left, like this.
@@ -91,7 +91,7 @@ Angular pipes can have more or less than four layers. If it was eight layers, th
 There's a few more types of selection. One is 'velocity', and frankly I don't understand it. There's a few others that require a graphics tablet. If anyone gets me a graphics tablet, I promise I'll describe these selection options, too.
 
 <figure>
-<a href="gnome_feet.xcf.gz"><img src="fig9.jpg" alt="fig9.jpg"/></a>
+<a href="gnome_feet.xcf.gz"><img src="{filename}fig9.jpg" alt="fig9.jpg"/></a>
 </figure>
 
 So, what can you do with a two, three or four dimensional image pipe? You can combine the selections. Take the gnome foot for example. You can cut one out and make eight layers. Four layers are for the left foot going in each direction, four layers are for the right foot going in each direction. You end up with a layer dialog that looks like image above.  
@@ -100,7 +100,7 @@ Click on image above to download the GIMP image
 Now, let's save this image with two dimensions. The first has angular selection and four ranks for that selection. That means these eight layers get divided up into four ranks of two layers. Then we select incremental selection with two ranks, which will divide each of those sets of two into sets of one.
 
 <figure>
-<img src="fig10.jpg" alt="fig10.jpg"/>
+<img src="{filename}fig10.jpg" alt="fig10.jpg"/>
 </figure>
 
 So, what we have is feet which alternate left-right-left and follow the direction of the mouse. It looks a little like above.

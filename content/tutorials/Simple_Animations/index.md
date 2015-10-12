@@ -13,8 +13,8 @@ In this tutorial, you'll learn how to use GIMP's layers in a different manner. U
 ## Step 1
 
 <figure>
-<img src="flower.png" alt="flower.png"/>
-<img src="flower-layers.png" alt="flower-layers.png"/>
+<img src="{filename}flower.png" alt="flower.png"/>
+<img src="{filename}flower-layers.png" alt="flower-layers.png"/>
 </figure>
 
 We'll create a very simple web banner. Let's start with a new image **468x60 px**. Use white as the background color. Create new transparent layer. Select the whole image with <kbd>Ctrl+A</kbd> and fill it with black (<kbd>Ctrl+,</kbd>). Shrink the selection by **1 px** (`Selection → shrink`) and delete the selection with <kbd>Ctrl+K</kbd>. We created a 1 px frame around out banner.
@@ -26,7 +26,7 @@ This part of the tutorial is not the key element, so feel free to experiment. On
 ## Step 2
 
 <figure>
-<img src="flower-text.png" alt="flower-text.png"/>
+<img src="{filename}flower-text.png" alt="flower-text.png"/>
 </figure>
 
 Now we're ready for the actual animation work. We will be creating a banner consisting of, say three lines of text being animated. Each frame will consist of the flower image and accompanied by some text. I don't want to make this boring, so lets make it three frames. The first step will naturally be to copy our flattened image two times using the **duplicate layer** button in the layers window.
@@ -36,7 +36,7 @@ Then we'll use the standard text tool to put a small text note on every frame. A
 ## Step 3
 
 <figure>
-<img src="flower-anim.png" alt="flower-anim.png"/>
+<img src="{filename}flower-anim.png" alt="flower-anim.png"/>
 </figure>
 
 In every GIF animation you are allowed to specify the delay between frames. That way you can create a 12 second animation using only a few frames, because the delay does not have to be constant. In GIMP you specify the delay as a layer comment. Just double-click the layer comment in the layers' window and a delay in **ms** enclosed in brackets **()**.
@@ -46,9 +46,9 @@ To check if the timing is good, you can preview the animation using the `Filters
 ## Step 4
 
 <figure>
-<img src="selection.png" alt="selection.png"/>
-<img src="apply-var.png" alt="apply-var.png"/>
-<img src="easyanim.gif" alt="apply-var.png"/>
+<img src="{filename}selection.png" alt="selection.png"/>
+<img src="{filename}apply-var.png" alt="apply-var.png"/>
+<img src="{filename}easyanim.gif" alt="apply-var.png"/>
 </figure>
 
 In the last step, we'll use a very handy function for _applying a filter to multiple layers_. This function is provided by GAP, the GIMP Animation Package. Please go to the "[Using GAP](/tutorials/Using_GAP/)" tutorial to learn more about the tool.
@@ -60,7 +60,7 @@ We want to blur the text away in time, so for the first frame, let's specify a l
 ## Step 5
 
 <figure>
-<img src="saveas.png" alt="saveas.png"/>
+<img src="{filename}saveas.png" alt="saveas.png"/>
 </figure>
 
 Now we only need to save our animation as GIF. Before we do that, let's optimize the animation using the `Filters → Animation → Animation Optimize` function. This will create a new image using a different mode than what we have now. You can use two different modes for every frame of your animation. You can either use the **replace** mode (default), which will replace the old frame with the new one. It's like taking the frame out before adding a new one. The other is the **combine** method, in which the new frame is added to the previous frame. That way only changes need to be updated. That's what **animation optimize** basically does. The file size gets tremendously smaller. Now we need to index the image using <span class="filter"><Image>Image→ Mode → Indexed</span> function (<kbd>Alt+I</kbd>).
@@ -68,6 +68,6 @@ Now we only need to save our animation as GIF. Before we do that, let's optimize
 Try to use as little colors as possible and avoid dithering. Both number of colors and dithering tend to enlarge the filesize dramaticaly. I used no color dithering and generated 32 color pallette. The file size of the banner is about 7kB. If you now save the image as GIF, GIMP will ask whether it should save the image as an animation, which is exactly what we need. In the save as GIF dialog, you can specify the default delay (in our example it will be used for the blured frames) and disposal method. You can use your WWW browser to check the animation, or you can use the **animation playback** function in the **animation** section of the image menu.
 
 <figure>
-<img src="flower-banner.gif" alt="flower-banner.gif"/>
+<img src="{filename}flower-banner.gif" alt="flower-banner.gif"/>
 </figure>
 

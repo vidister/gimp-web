@@ -9,8 +9,8 @@ Author: Eric R. Jeschke
 ## Intention
 
 <figure>
-<img src="before.jpg" alt="before"/>
-<img src="after.jpg" alt="after"/>
+<img src="{filename}before.jpg" alt="before"/>
+<img src="{filename}after.jpg" alt="after"/>
 </figure>
 
 In this tutorial I'll show you how to do gaussian blur overlays using GIMP. This is an interesting technique that intensifies and saturates the colors in the image, increases contrast, and adds a slightly hazy, "dreamy" feel to the image.
@@ -22,7 +22,7 @@ Giving credit where credit is due: I did not come up with this method. I adapted
 ## The Procedure
 
 <figure>
-<img src="image-original.jpg" alt="image-original.jpg"/>
+<img src="{filename}image-original.jpg" alt="image-original.jpg"/>
 </figure>
 
 Here is the original example image, loaded into GIMP.
@@ -30,17 +30,17 @@ Here is the original example image, loaded into GIMP.
 ## Step 1
 
 <figure>
-<img src="layers1.jpg" alt="layers1.jpg"/>
-<img src="layers2.jpg" alt="layers2.jpg"/>
+<img src="{filename}layers1.jpg" alt="layers1.jpg"/>
+<img src="{filename}layers2.jpg" alt="layers2.jpg"/>
 </figure>
 
-Open the Layers dialog (if it is not already open, it can be accessed through: <span class="filter"><Image> Windows → Dockable Dialogs → Layers</span>). Right-click on the Background layer and select Duplicate (there is also a button for this in the bottom button bar of the Layers dialog (![layerdup](layerdup.jpg)).
+Open the Layers dialog (if it is not already open, it can be accessed through: <span class="filter"><Image> Windows → Dockable Dialogs → Layers</span>). Right-click on the Background layer and select Duplicate (there is also a button for this in the bottom button bar of the Layers dialog (![layerdup]({filename}layerdup.jpg)).
 
 ## Step 2
 
 <figure>
-<img src="editlayerattr.jpg" alt="editlayerattr.jpg"/>
-<img src="layers3.jpg" alt="layers3.jpg"/>
+<img src="{filename}editlayerattr.jpg" alt="editlayerattr.jpg"/>
+<img src="{filename}layers3.jpg" alt="layers3.jpg"/>
 </figure>
 
 Now double-click on the duplicate layer and rename the new layer "Blur Overlay". This step is not strictly necessary, but it is helpful to prevent confusion about what is on each layer, especially if you add some additional layers for other editing purposes, or more importantly, if you save the file with layers and open it six months later.
@@ -48,12 +48,12 @@ Now double-click on the duplicate layer and rename the new layer "Blur Overlay".
 ## Step 3
 
 <figure>
-<img src="layers4.jpg" alt="layers4.jpg"/>
+<img src="{filename}layers4.jpg" alt="layers4.jpg"/>
 </figure>
 
 <figure>
-<img src="levels.jpg" alt="levels.jpg"/>
-<img src="image-overlay.jpg" alt="image-overlay.jpg"/>
+<img src="{filename}levels.jpg" alt="levels.jpg"/>
+<img src="{filename}image-overlay.jpg" alt="image-overlay.jpg"/>
 </figure>
 
 In the Layers dialog, select the Blur Overlay layer. In the "Mode" drop-down box, select "Overlay".   
@@ -66,8 +66,8 @@ Now go back to the image window and apply a Levels (<span class="filter"><Image>
 ## Step 4
 
 <figure>
-<img src="gaussblur.jpg" alt="gaussblur.jpg"/>
-<img src="image-overlay-blur.jpg" alt="image-overlay-blur.jpg"/>
+<img src="{filename}gaussblur.jpg" alt="gaussblur.jpg"/>
+<img src="{filename}image-overlay-blur.jpg" alt="image-overlay-blur.jpg"/>
 </figure>
 
 Go back to the image window and right click, selecting <span class="filter"><Image> Filters -> Blur -> Gaussian Blur</span>. You will need to experiment to find the best value, but typically a value between 10 and 30 will do nicely.
@@ -85,7 +85,7 @@ You might be able to apply a contrast mask to counteract this effect, but in mos
 ## Step 5
 
 <figure>
-<img src="layers-duplicate.jpg" alt="layers-duplicate.jpg"/>
+<img src="{filename}layers-duplicate.jpg" alt="layers-duplicate.jpg"/>
 </figure>
 
 Duplicate the image (<kbd>Ctrl+D</kbd>).   
@@ -94,8 +94,8 @@ Flatten the duplicate (<span class="filter"><Image> Layers -> Flatten Image</spa
 ## Step 6
 
 <figure>
-<img src="threshold.jpg" alt="threshold.jpg"/>
-<img src="image-threshold.jpg" alt="image-threshold.jpg"/>
+<img src="{filename}threshold.jpg" alt="threshold.jpg"/>
+<img src="{filename}image-threshold.jpg" alt="image-threshold.jpg"/>
 </figure>
 
 In the duplicate, run a threshold filter (<span class="filter"><Image> Image -> Colors -> Threshold</span>).
@@ -107,24 +107,24 @@ You only need to approximate this, since we're going to clean up the mask anyway
 ## Step 7
 
 <figure>
-<img src="image-threshold-marqueeselect.jpg" alt="image-threshold-marqueeselect.jpg"/>
+<img src="{filename}image-threshold-marqueeselect.jpg" alt="image-threshold-marqueeselect.jpg"/>
 </figure>
 
 <figure>
-<img src="gaussblur2.jpg" alt="gaussblur2.jpg"/>
-<img src="image-threshold-blur.jpg" alt="image-threshold-blur.jpg"/>
+<img src="{filename}gaussblur2.jpg" alt="gaussblur2.jpg"/>
+<img src="{filename}image-threshold-blur.jpg" alt="image-threshold-blur.jpg"/>
 </figure>
 
-To clean up the mask, I switched to the paintbrush (![paint](paint.jpg)), hit "x" in the mask image to switch the foreground and background colors (Black/White to White/Black), selected a nice opaque brush in the Brushes dialog and painted the few pixels of the sky white that hadn't been turned white (the darkest parts of the clouds).
+To clean up the mask, I switched to the paintbrush (![paint]({filename}paint.jpg)), hit "x" in the mask image to switch the foreground and background colors (Black/White to White/Black), selected a nice opaque brush in the Brushes dialog and painted the few pixels of the sky white that hadn't been turned white (the darkest parts of the clouds).
 
-Now the black parts. I switched the fg/bg colors back to (Black/White). I could have painted black all over the lake, but I had a faster idea in mind. I used the marquee selection tool (![selectrect](selectrect.jpg)) to select the whole area and then using the fill tool (![fill](fill.jpg)) I just clicked in the selection to fill it black in one fell swoop.
+Now the black parts. I switched the fg/bg colors back to (Black/White). I could have painted black all over the lake, but I had a faster idea in mind. I used the marquee selection tool (![selectrect]({filename}selectrect.jpg)) to select the whole area and then using the fill tool (![fill]({filename}fill.jpg)) I just clicked in the selection to fill it black in one fell swoop.
 
 I then "feathered" the mask so that it will blend the layers without a harsh transition by applying a 6 pixel gaussian blur to the mask.
 
 ## Step 8
 
 <figure>
-<img src="image-threshold-blur-invert.jpg" alt="image-threshold-blur-invert.jpg"/>
+<img src="{filename}image-threshold-blur-invert.jpg" alt="image-threshold-blur-invert.jpg"/>
 </figure>
 
 Invert the mask (<span class="filter"><Image> Image -> Colors -> Invert</span>), so that the white parts correspond to the parts of the combined layers that you want to keep and the black parts correspond to the parts that should only reflect the original image (the highlights).
@@ -132,34 +132,34 @@ Invert the mask (<span class="filter"><Image> Image -> Colors -> Invert</span>),
 ## Step 9
 
 <figure>
-<img src="addmaskoptions.jpg" alt="addmaskoptions.jpg"/>
-<img src="layers5.jpg" alt="layers5.jpg"/>
+<img src="{filename}addmaskoptions.jpg" alt="addmaskoptions.jpg"/>
+<img src="{filename}layers5.jpg" alt="layers5.jpg"/>
 </figure>
 
 <figure>
-<img src="layers6.jpg" alt="layers6.jpg"/>
-<img src="layers7.jpg" alt="layers7.jpg"/>
+<img src="{filename}layers6.jpg" alt="layers6.jpg"/>
+<img src="{filename}layers7.jpg" alt="layers7.jpg"/>
 </figure>
 
 Go to the Layers dialog. Select the overlay blur image in the "Image" drop down box (if it is not selected already).
 
 Right-click on the Blur Overlay layer and select Add Layer Mask. In the Add Mask Options dialog, select White (Full Opacity) and click OK.
 
-Now go back to the blurred threshold image, select all and copy (<kbd>Ctrl+A</kbd> then <kbd>Ctrl+C</kbd>). Go back to the overlay blur image and paste (<kbd>Ctrl+V</kbd>). Go to the Layers dialog and click the anchor button (![anchor](anchor.jpg)) to anchor the mask.
+Now go back to the blurred threshold image, select all and copy (<kbd>Ctrl+A</kbd> then <kbd>Ctrl+C</kbd>). Go back to the overlay blur image and paste (<kbd>Ctrl+V</kbd>). Go to the Layers dialog and click the anchor button (![anchor]({filename}anchor.jpg)) to anchor the mask.
 
 **Tip:** <kbd>Ctrl-click</kbd> on the layer mask icon in the Layers dialog to toggle the effect of the layer mask to compare the image with and without the highlight mask.
 
 ## Step 10
 
 <figure>
-<img src="image-original.jpg" alt="image-original.jpg"/>
+<img src="{filename}image-original.jpg" alt="image-original.jpg"/>
 <figcaption>
 Original
 </figcaption>
 </figure>
 
 <figure>
-<img src="image-final.jpg" alt="image-final.jpg"/>
+<img src="{filename}image-final.jpg" alt="image-final.jpg"/>
 <figcaption>
 Final
 </figcaption>
@@ -176,15 +176,15 @@ Here's the result. Compare to the original image. I would flatten and apply a sm
 ## Other Examples
 
 <figure>
-<img src="example2-before.jpg" alt="example2-before.jpg"/>
-<img src="example2-after.jpg" alt="example2-after.jpg"/>
+<img src="{filename}example2-before.jpg" alt="example2-before.jpg"/>
+<img src="{filename}example2-after.jpg" alt="example2-after.jpg"/>
 </figure>
 
 Using "Multiply" for the blending mode. (Final image on the right)
 
 <figure>
-<img src="example3-before.jpg" alt="example3-before.jpg"/>
-<img src="example3-after.jpg" alt="example3-after.jpg"/>
+<img src="{filename}example3-before.jpg" alt="example3-before.jpg"/>
+<img src="{filename}example3-after.jpg" alt="example3-after.jpg"/>
 </figure>
 
 Using "Overlay" for the blending mode, plus a highlight mask for the sky and waterfall. (Final image on the right)

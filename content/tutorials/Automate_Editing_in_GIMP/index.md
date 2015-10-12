@@ -63,7 +63,7 @@ Suppose we wanted to set up the grid spacing so that it is centered on the image
 
 
 <figure>
-<img src="CommandsPythonConsole.jpg" alt="CommandsPythonConsole.jpg" />
+<img src="{filename}CommandsPythonConsole.jpg" alt="CommandsPythonConsole.jpg" />
 <figcaption> 
 Commands in the Python Console
 </figcaption> 
@@ -92,7 +92,7 @@ Example "Exec" Loop:
 
 
 <figure>
-<img src="CommanderMacroSubMenu.jpg" alt="CommanderMacroSubMenu.jpg" />
+<img src="{filename}CommanderMacroSubMenu.jpg" alt="CommanderMacroSubMenu.jpg" />
 <figcaption> 
 Commander Macro Sub-Menu
 </figcaption> 
@@ -164,7 +164,7 @@ Python has several built in data structures such as dictionaries, lists to name 
 3.  The input / output format is XML, which is not only hierarchical, but it is text so it is human readable and portable to any platform (computer / OS).
 
 <figure>
-<img src="XmlHierarchyContainers.jpg" alt="XmlHierarchyContainers.jpg" />
+<img src="{filename}XmlHierarchyContainers.jpg" alt="XmlHierarchyContainers.jpg" />
 <figcaption> 
 XML Hierarchy - Containers
 </figcaption> 
@@ -240,7 +240,7 @@ After all of the \*.def files are read into the tree and written back out in the
 _\* The XML above was run through an online XML pretty printer for readability. The XML from ElementTree is functional, but hard to read._
 
 <figure markdown="span">
-<img src="PseudoCodetoXmlFunction.jpg" alt="PseudoCodetoXmlFunction.jpg" />
+<img src="{filename}PseudoCodetoXmlFunction.jpg" alt="PseudoCodetoXmlFunction.jpg" />
 <figcaption>
 Creating XML from \*.def files
 </figcaption>
@@ -249,7 +249,7 @@ Creating XML from \*.def files
 The Xml generator can be called from a GUI menu.
 
 <figure>
-<img src="PseudoCodeImported.jpg" alt="PseudoCodeImported.jpg" />
+<img src="{filename}PseudoCodeImported.jpg" alt="PseudoCodeImported.jpg" />
 <figcaption> 
 Xml files built
 </figcaption> 
@@ -382,7 +382,7 @@ The mechanics for creating XML from pseudo code for the workflows, properties, a
 The export XCF to JPG function in the “Automation” menu opens each xcf file in the source / work directory and looks at the properties of the image. If the image is “Finished”, at the end of the flow, it is exported. The images that are still being work on are left alone.
 
 <figure>
-<img src="RunningAutoUpdate.jpg" alt="RunningAutoUpdate.jpg" />
+<img src="{filename}RunningAutoUpdate.jpg" alt="RunningAutoUpdate.jpg" />
 <figcaption>
 Running AutoUpdate
 </figcaption>
@@ -409,7 +409,7 @@ There are three properties that are assigned by the automation scripts and are n
 You can see all of the properties and current assigned values for a particular image using the menu function “Automation” -> “A1) Display Assigned Parasites (File)”.
 
 <figure>
-<img src="ParasitesImage.jpg" alt="ParasitesImage.jpg" />
+<img src="{filename}ParasitesImage.jpg" alt="ParasitesImage.jpg" />
 <figcaption>
 Assigned Parasites
 </figcaption>
@@ -673,7 +673,7 @@ _Example – Running your own Functions in the Python-Fu Console_
 The screen shot below illustrates the process on the Windows version of Gimp / Python Console (TestXmlGen is pictured, TestXmlRead produces several pages of output):
 
 <figure>
-<img src="Appendix-testing-in-python-console.JPG" alt="Appendix-testing-in-python-console.JPG" />
+<img src="{filename}Appendix-testing-in-python-console.JPG" alt="Appendix-testing-in-python-console.JPG" />
 <figcaption>
 Image - Running your code in the Gimp Python Console
 </figcaption>

@@ -16,15 +16,16 @@ The key function of the GAP is the **move path** dialog. Please go to the "[Usin
 ## Step 1
 
 <figure>
-<a href="gap-static.xcf.bz2"><img src="gap-static.png" alt="Floating Logo" /></a>
+<a href="gap-static.xcf.bz2"><img src="{filename}gap-static.png" alt="Floating Logo" /></a>
 </figure>
+
 
 To make things easier, we'll start with a ready-to-go static image. To load it into GIMP, just drag the image above to the GIMP toolbox. In case this doesn't work for you, copy the link by selecting **Copy Target** or **Copy Link Location** from the image context menu accessible by right-clicking on the image. In GIMP, choose **Open Location** from the toolbox **File** menu and paste the URL there. Gimp will download the compressed image and open it for you.
 
 ## Step 2
 
 <figure>
-<img src="gap-duplicate.png" alt="GAP Animation Tutorial" />
+<img src="{filename}gap-duplicate.png" alt="GAP Animation Tutorial" />
 </figure>
 
 Now drag the background layer from the static image to the GIMP toolbar. This will create a new white image we'll use as a base for our animation. To be able to work with GAP you need to save it in GIMP's native format, **.xcf**. Create a separate directory for the file, it will fill with many frame files soon. The file needs to be named like this:
@@ -36,11 +37,11 @@ You can only change the **name** part. The rest needs to be exactly the way show
 ## Step 3
 
 <figure>
-<img src="gap-source.png" alt="GAP Animation Tutorial" />
+<img src="{filename}gap-source.png" alt="GAP Animation Tutorial" />
 </figure>
 
 <figure>
-<img src="gap-move.png" alt="GAP Animation Tutorial" />
+<img src="{filename}gap-move.png" alt="GAP Animation Tutorial" />
 </figure>
 
 Now it's time to use the **move path** function. Make sure you have the static image open but use the function on the white background image. In the dialog, select the logo image as source and make sure you set the stepmode to **none**! Keep the mode as **normal** and choose some handle mode. I have used **center**, so use that if you're going to stick with the parameters provided here.
@@ -52,11 +53,11 @@ Adding points to your animation creates linear time segments between those. If y
 ## Step 4
 
 <figure>
-<img src="gap-navi.png" alt="GAP Animation Tutorial" />
+<img src="{filename}gap-navi.png" alt="GAP Animation Tutorial" />
 </figure>
 
 <figure>
-<img src="gap-final.gif" alt="GAP Animation Tutorial" />
+<img src="{filename}gap-final.gif" alt="GAP Animation Tutorial" />
 </figure>
 
 Now we have a rendered sequence of images. You can navigate them easily using the **video/VCR navigator**. Pressing play on the navigator will call two functions, **frames to image** and **animation playback**, so it's fast and convenient to use it to check the looks of your animation.

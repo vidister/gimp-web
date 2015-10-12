@@ -22,14 +22,14 @@ Author: Eric R. Jeschke
 
 <h2>First image</h2>
 <p class="images">
-  <img src="example1-original-zoomed100.jpg" alt="example1-original-zoomed100.jpg" />
+  <img src="{filename}example1-original-zoomed100.jpg" alt="example1-original-zoomed100.jpg" />
 </p>
 <p>
   1. Original image, zoomed 100%.
 </p>
 
 <p class="images">
-  <img src="example1-unsharpmask-zoomed100.jpg" alt="example1-unsharpmask-zoomed100.jpg" />
+  <img src="{filename}example1-unsharpmask-zoomed100.jpg" alt="example1-unsharpmask-zoomed100.jpg" />
 </p>
 <p>
   2. Standard unsharp mask filter, all RGB channels.
@@ -38,7 +38,7 @@ Author: Eric R. Jeschke
 </p>
 
 <p class="images">
-  <img src="example1-warpsharp-zoomed100.jpg" alt="example1-warpsharp-zoomed100.jpg" />
+  <img src="{filename}example1-warpsharp-zoomed100.jpg" alt="example1-warpsharp-zoomed100.jpg" />
 </p>
 <p>
   3. Warp sharp script, all RGB channels.
@@ -47,7 +47,7 @@ Author: Eric R. Jeschke
 </p>
 
 <p class="images">
-  <img src="example1-warpsharp-luminosityonly-zoomed100.jpg" alt="example1-warpsharp-luminosityonly-zoomed100.jpg" />
+  <img src="{filename}example1-warpsharp-luminosityonly-zoomed100.jpg" alt="example1-warpsharp-luminosityonly-zoomed100.jpg" />
 </p>
 <p>
   4. Warp sharp script, luminosity channel only.
@@ -61,7 +61,7 @@ Author: Eric R. Jeschke
 </p>
 
 <p class="images">
-  <img src="example1-smartsharp-zoomed100.jpg" alt="example1-smartsharp-zoomed100.jpg" />
+  <img src="{filename}example1-smartsharp-zoomed100.jpg" alt="example1-smartsharp-zoomed100.jpg" />
 </p>
 <p>
   5. Smart sharpened (edges, luminosity channel only).
@@ -71,7 +71,7 @@ Author: Eric R. Jeschke
 </p>
 
 <p class="images">
-  <img src="example1-warpsharp-luminosityonly.jpg" alt="example1-warpsharp-luminosityonly.jpg" />
+  <img src="{filename}example1-warpsharp-luminosityonly.jpg" alt="example1-warpsharp-luminosityonly.jpg" />
 </p>
 <p>
   Warp sharp script, luminosity channel only (same as #4--unzoomed).
@@ -80,7 +80,7 @@ Author: Eric R. Jeschke
 </p>
 
 <p class="images">
-  <img src="example1-smartsharp.jpg" alt="example1-smartsharp.jpg" />
+  <img src="{filename}example1-smartsharp.jpg" alt="example1-smartsharp.jpg" />
 </p>
 <p>
   Smart sharpened (edges, luminosity channel only; same as #5--unzoomed).
@@ -93,7 +93,7 @@ Author: Eric R. Jeschke
   Here's the main test image from the tutorial:
 </p>
 <p class="images">
-  <img src="image-compare-original.jpg" alt="image-compare-original.jpg" />
+  <img src="{filename}image-compare-original.jpg" alt="image-compare-original.jpg" />
 </p>
 <p>
   1. Original image.
@@ -102,7 +102,7 @@ Author: Eric R. Jeschke
 </p>
 
 <p class="images">
-  <img src="image-compare-warpsharp.jpg" alt="image-compare-warpsharp.jpg" />
+  <img src="{filename}image-compare-warpsharp.jpg" alt="image-compare-warpsharp.jpg" />
 </p>
 <p>
   2. Warp sharpened.
@@ -111,7 +111,7 @@ Author: Eric R. Jeschke
 </p>
 
 <p class="images">
-  <img src="image-compare-smartsharp.jpg" alt="image-compare-smartsharp.jpg" />
+  <img src="{filename}image-compare-smartsharp.jpg" alt="image-compare-smartsharp.jpg" />
 </p>
 <p>
   3. Smart sharpened (edges, luminosity channel only).
@@ -120,7 +120,7 @@ Author: Eric R. Jeschke
 </p>
 
 <p class="images">
-  <img src="image-compare-warpsharp-zoomed100.jpg" alt="image-compare-warpsharp-zoomed100.jpg" />
+  <img src="{filename}image-compare-warpsharp-zoomed100.jpg" alt="image-compare-warpsharp-zoomed100.jpg" />
 </p>
 <p>
   Warp sharpened, zoomed to 100%.
@@ -129,7 +129,7 @@ Author: Eric R. Jeschke
 </p>
 
 <p class="images">
-  <img src="image-compare-smartsharp-zoomed100.jpg" alt="image-compare-smartsharp-zoomed100.jpg" />
+  <img src="{filename}image-compare-smartsharp-zoomed100.jpg" alt="image-compare-smartsharp-zoomed100.jpg" />
 </p>
 <p>
   Smart sharpened, zoomed to 100%.

@@ -220,7 +220,7 @@ This field is only used for scripts that are in the "&lt;Image&gt;" hieararchy. 
         <td  valign="top">PF_SLIDER  
          PF_SPINNER</td>
         <td  valign="top">An integer value through a slider and a spinner interface. The range parameter should be specified and is interpreted as minimum, maximum, and step, e.g. [0,100,1].</td>
-        <td  valign="top">![tpix](tpix.gif)</td>
+        <td  valign="top">![tpix]({filename}tpix.gif)</td>
         </tr>
         <tr>
         <td  valign="top">PF_FONT</td>
@@ -257,17 +257,17 @@ This field is only used for scripts that are in the "&lt;Image&gt;" hieararchy. 
         </tr>
         <tr>
         <td  valign="top">PF_BRUSH</td>
-        <td  valign="top">![tpix](tpix.gif)</td>
+        <td  valign="top">![tpix]({filename}tpix.gif)</td>
         <td  valign="top">A brush</td>
         </tr>
         <tr>
         <td  valign="top">PF_GRADIENT</td>
-        <td  valign="top">![tpix](tpix.gif)</td>
+        <td  valign="top">![tpix]({filename}tpix.gif)</td>
         <td  valign="top">A gradient</td>
         </tr>
         <tr>
         <td  valign="top">PF_PATTERN</td>
-        <td  valign="top">![tpix](tpix.gif)</td>
+        <td  valign="top">![tpix]({filename}tpix.gif)</td>
         <td  valign="top">A pattern</td>
         </tr>
         </tbody>
@@ -409,19 +409,19 @@ Then start GIMP. It is generally a good idea to test the syntax of the script wi
 The script is now accessible through the menu system through the **File/Create/Tutorial** top menu:
 
 <figure>
-<img src="uni-menu.png" alt="uni-menu.png" />
+<img src="{filename}uni-menu.png" alt="uni-menu.png" />
 </figure>
 
 When choosing this menu entry the following screen is popped up:
 
 <figure>
-<img src="uni-entry.png" alt="uni-entry.png" />
+<img src="{filename}uni-entry.png" alt="uni-entry.png" />
 </figure>
 
 Choosing the default values results in the image:
 
 <figure>
-<img src="uni-result.png" alt="uni-result.png" />
+<img src="{filename}uni-result.png" alt="uni-result.png" />
 </figure>
 
 ## 6. Object oriented syntax
@@ -624,7 +624,7 @@ A simple use of this function which selects a rectangle in the middle of an imag
 The result when run on our previous image:
 
 <figure>
-<img src="paint-select.png" alt="paint-select.png" />
+<img src="{filename}paint-select.png" alt="paint-select.png" />
 </figure>
 
 ### 7.1. Complex selections
@@ -719,7 +719,7 @@ In perl it is trivial to write loops that together with the various selection to
 The result:
 
 <figure>
-<img src="circles.png" alt="circles.png" />
+<img src="{filename}circles.png" alt="circles.png" />
 </figure>
 
 ## 8. Creating text
@@ -799,7 +799,7 @@ Here is an example of a script that creates an image containing "Hello world".
 The result:
 
 <figure>
-<img src="hello-world1.png" alt="hello-world1.png" />
+<img src="{filename}hello-world1.png" alt="hello-world1.png" />
 </figure>
 
 One thing to note in this script is that the text that is created on line 15 is a _floating layer_, that needs to be anchored to its parent layer. This is done in line 16 through the call to <tt>gimp_floating_sel_anchor()</tt>.
@@ -898,7 +898,7 @@ Note the special syntax of <tt>gimp_image_text_fontname</tt> in line 14 in <tt>b
 The dialog and the resulting image:
 
 <figure>
-<img src="basic-logo-dialog.png" alt="basic-logo-dialog.png" />
+<img src="{filename}basic-logo-dialog.png" alt="basic-logo-dialog.png" />
 </figure>
 
 ## 9. Floating selections

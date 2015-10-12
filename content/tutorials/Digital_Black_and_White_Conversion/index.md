@@ -14,7 +14,7 @@ Black and White photography is a big topic that deserves entire books devoted to
 There are a few things you should focus on in regards to preparing your images for a B&W conversion. You want to keep in mind that by removing color information you are effectively left with only tonal data (and composition) to convey your intentions.
 
 <figure>
-<img src="Into the Fog.jpg" alt="Into the Fog by Pat David" />
+<img src="{filename}Into the Fog.jpg" alt="Into the Fog by Pat David" />
 <figcaption markdown='1'>
 <em>Into the Fog</em> by <a href="http://blog.patdavid.net">Pat David</a> (<a href="http://creativecommons.org/licenses/by-sa/4.0/">cc-by-sa</a>)
 </figcaption>
@@ -25,7 +25,7 @@ This can be both liberating and confining.
 By liberating yourself of color data the focus is entirely on the subjects and composition (this is often one of the primary reasons street photography is associated with B&W). Conversely, the subjects and composition need to be much stronger to carry the result.
 
 <figure>
-<img src="nautilus.jpg" alt="Chambered Nautilus by Pat David" />
+<img src="{filename}nautilus.jpg" alt="Chambered Nautilus by Pat David" />
 
 <figcaption>
 Without color, the form and tones are all that’s left.<br/>
@@ -62,7 +62,7 @@ Before heading down that path, it may help to have a closer look at the tools be
 You are working in an RGB world when you stare at your monitors. Every single pixel is composed of 3 sub-pixels of Red, Green, and Blue.
 
 <figure>
-<img src="300px-TN_display_closeup_300X.jpg" alt="TN LCD Display 300X close up" />
+<img src="{filename}300px-TN_display_closeup_300X.jpg" alt="TN LCD Display 300X close up" />
 
 <figcaption>
 300X magnification of an LCD panel.<br/>
@@ -98,7 +98,7 @@ Very quickly you should realize that a true monochromatic grayscale image can di
 There are many different paths to get to a grayscale image and almost none of them are equal. They will all produce different images based on their method of conversion, and it will be up to you to decide which ones (or portions of) to keep and build upon to create your final result.
 
 <figure class="big-vid">
-<img src="Conversation in Hayleys.jpg" alt="Conversation in Hayleys by Pat David" />
+<img src="{filename}Conversation in Hayleys.jpg" alt="Conversation in Hayleys by Pat David" />
 <figcaption>
 A combination of luminosity desaturation and GEGL C2G<br/>
 <em>Conversation in Hayleys</em> by Pat David (<a href="http://creativecommons.org/licenses/by-sa/4.0/">cc-by-sa</a>)
@@ -127,7 +127,7 @@ Perhaps the easiest and most straightforward path to a grayscale image is using 
 There are three options available from this menu:
 
 <figure>
-<img src="GIMP desaturate dialog.png" alt="GIMP Desaturate Dialog" />
+<img src="{filename}GIMP desaturate dialog.png" alt="GIMP Desaturate Dialog" />
 </figure>
 
 Each of these options (Lightness, Luminosity, Average) will generate a grayscale image for you, but the difference lies in the _way_ they interpret the image colors into values of gray.
@@ -135,12 +135,12 @@ Each of these options (Lightness, Luminosity, Average) will generate a grayscale
 To illustrate the differences, consider the following two figures. One is a gradient of red, green and blue from black to full saturation. The other are overlapping circles of color in an additive mix.
 
 <figure>
-<img src="rgb-base.png" alt="RGB Base Gradient Image" />
+<img src="{filename}rgb-base.png" alt="RGB Base Gradient Image" />
 <figcaption>Base RGB gradient of pure colors</figcaption>
 </figure>
 
 <figure>
-<img src="rgb-mix-base.png" alt="RGB Base Mix Image" />
+<img src="{filename}rgb-mix-base.png" alt="RGB Base Mix Image" />
 <figcaption>Base RGB (additive color) mix</figcaption>
 </figure>
 
@@ -159,12 +159,12 @@ So, for instance, with an RGB value of 100, 20, 210, the equation would be:
 Using the Lightness function on our test images yields the following results:
 
 <figure>
-<img src="rgb-lightness.png" alt="RGB Desaturate Lightness" />
+<img src="{filename}rgb-lightness.png" alt="RGB Desaturate Lightness" />
 <figcaption>Lightness conversion yields similar values regardless of color</figcaption>
 </figure>
 
 <figure>
-<img src="rgb-mix-lightness.png" alt="RGB Lightness Mix" />
+<img src="{filename}rgb-mix-lightness.png" alt="RGB Lightness Mix" />
 </figure>
 
 This means that one channel is actually ignored in creating the final value.
@@ -176,12 +176,12 @@ Average will use the numerical average of the RGB values in each pixel.
 <p class="Cmd aside">⅓ × ( R + G + B )</p>
 
 <figure>
-<img src="rgb-average.png" alt="RGB Desaturate Average" />
+<img src="{filename}rgb-average.png" alt="RGB Desaturate Average" />
 <figcaption>Averaging, the values will trend darker overall</figcaption>
 </figure>
 
 <figure>
-<img src="rgb-mix-average.png" alt="RGB Average Mix" />
+<img src="{filename}rgb-mix-average.png" alt="RGB Average Mix" />
 </figure>
 
 ### Luminosity
@@ -193,12 +193,12 @@ The weighted function describing relative luminance is:
 <p class="Cmd aside">(0.2126 × R) + (0.7152 × G) + (0.0722 × B)</p>
 
 <figure>
-<img src="rgb-luminosity.png" alt="RGB Desaturate Luminosity" />
+<img src="{filename}rgb-luminosity.png" alt="RGB Desaturate Luminosity" />
 <figcaption>This is closer to how our eyes will actually perceive the brightness of each color</figcaption>
 </figure>
 
 <figure style="background-color:white;">
-<img src="rgb-mix-luminosity.png" alt="RGB Luminosity Mix" />
+<img src="{filename}rgb-mix-luminosity.png" alt="RGB Luminosity Mix" />
 <figcaption>
 Notice the overwhelming contribution from green  
 </figcaption>
@@ -211,20 +211,20 @@ No one of these methods is necessarily any better than the other objectively for
 The image below, [Joseph N. Langan Park](http://www.flickr.com/photos/patdavid/3808678255), is an interesting example to see just how much green influences the conversion result using luminosity. Pay careful attention to what **Luminosity** does with the green bushes along the waters edge.
 
 <figure>
-<img src="langan.jpg" alt="Langan Park by Pat David" /> <br/>
-<img src="langan-lightness.jpg" alt="Langan Park by Pat David" /> <br/>
-<img src="langan-average.jpg" alt="Langan Park by Pat David" /> <br/>
-<img src="langan-luminosity.jpg" alt="Langan Park by Pat David" /><br/>
+<img src="{filename}langan.jpg" alt="Langan Park by Pat David" /> <br/>
+<img src="{filename}langan-lightness.jpg" alt="Langan Park by Pat David" /> <br/>
+<img src="{filename}langan-average.jpg" alt="Langan Park by Pat David" /> <br/>
+<img src="{filename}langan-luminosity.jpg" alt="Langan Park by Pat David" /><br/>
 <figcaption>Original, Lightness, Average, and Luminosity</figcaption>
 </figure>
 
 This shot of [Whitney](http://www.flickr.com/photos/patdavid/6231554301/) shows the effect on skin tones, as well as the change in her shirt color due to the heavy reds present. In just a **Lightness** conversion, the red shirt becomes relatively flat compared to her skin tones, but becomes darker and more pronounced using **Luminosity**. Her lips get a bit of a boost in tone in the **Luminosity** conversion as well.
 
 <figure>
-<img src="whitney.jpg" alt="Whitney by Pat David" /> <br/>
-<img src="whitney-lightness.jpg" alt="Whitney by Pat David" /> <br/>
-<img src="whitney-average.jpg" alt="Whitney by Pat David" /> <br/>
-<img src="whitney-luminosity.jpg" alt="Whitney by Pat David" /><br/>
+<img src="{filename}whitney.jpg" alt="Whitney by Pat David" /> <br/>
+<img src="{filename}whitney-lightness.jpg" alt="Whitney by Pat David" /> <br/>
+<img src="{filename}whitney-average.jpg" alt="Whitney by Pat David" /> <br/>
+<img src="{filename}whitney-luminosity.jpg" alt="Whitney by Pat David" /><br/>
 <figcaption>Original, Lightness, Average, and Luminosity</figcaption>
 </figure>
 
@@ -235,10 +235,10 @@ Using **Desaturate** lets you convert to grayscale based on pre-defined function
 For the examples below I’ll use a different color gradient test map going from blue to blue HSV gradient, with a gradient to black vertically. This represents the entire 8-bit colorspace.
 
 <figure>
-<img src="rgb-hsv.png" alt="RGB HSV Gradient" /> <br/>
-<img src="rgb-hsv-lightness.png" alt="RGB HSV Gradient" /> <br/>
-<img src="rgb-hsv-average.png" alt="RGB HSV Gradient" /> <br/>
-<img src="rgb-hsv-luminosity.png" alt="RGB HSV Gradient" /><br/>
+<img src="{filename}rgb-hsv.png" alt="RGB HSV Gradient" /> <br/>
+<img src="{filename}rgb-hsv-lightness.png" alt="RGB HSV Gradient" /> <br/>
+<img src="{filename}rgb-hsv-average.png" alt="RGB HSV Gradient" /> <br/>
+<img src="{filename}rgb-hsv-luminosity.png" alt="RGB HSV Gradient" /><br/>
 <figcaption>Gradient representing all the colors/shades in 8-bit sRGB colorspace.<br/>
 Original, Lightness, Average, and Luminosity</figcaption>
 </figure>
@@ -252,7 +252,7 @@ The **Channel Mixer** can be invoked through:
 The dialog will look like this with the test gradient:
 
 <figure>
-<img src="channel-mixer.png" alt="GIMP Channel Mixer Dialog" />
+<img src="{filename}channel-mixer.png" alt="GIMP Channel Mixer Dialog" />
 </figure>
 
 The **Channel Mixer** can be used to modify these channel on a full color image, but we are focusing on grayscale conversion right now. So check the box for _Monochrome_, which will disable the _Output channel_ option in the dialog (it’s no longer applicable). This will turn your preview into a grayscale image.
@@ -262,7 +262,7 @@ The **Channel Mixer** can be used to modify these channel on a full color image,
 If you checked the _Monochrome_ option, and left the Red slider at 100, then you’d be seeing a representation of your image with no Green or Blue contribution (ie: you would basically be seeing the Red channel of your image):
 
 <figure>
-<img src="channel-mixer-red.png" alt="GIMP Channel Mixer monochrome full red" />
+<img src="{filename}channel-mixer-red.png" alt="GIMP Channel Mixer monochrome full red" />
 <figcaption>Basically just the red channel</figcaption>
 </figure>
 
@@ -273,7 +273,7 @@ It’s also important to note that the sliders represent a _percent contribution
 That is, if you set the Red and Green channels to 50(%), you would see something like this:
 
 <figure>
-<img src="channel-mixer-red50-green50.png" alt="GIMP Channel mixer monochrome 50% red and green" />
+<img src="{filename}channel-mixer-red50-green50.png" alt="GIMP Channel mixer monochrome 50% red and green" />
 </figure>
 
 In this case, Red and Green would contribute 50% of their values (with nothing from Blue) to the final pixel gray value. Considering the same pixel example from above, where the RGB components are 200, 150, 100, we would get:
@@ -288,7 +288,7 @@ So the final grayscale pixel value would be: 175, 175, 175.
 ### Preserve Luminosity
 
 <figure>
-<img src="eleven.jpg" alt="Spinal Tap up to eleven" />
+<img src="{filename}eleven.jpg" alt="Spinal Tap up to eleven" />
 <figcaption>
 <em>“These go up to 11”</em> — <a href="http://en.wikipedia.org/wiki/Up_to_eleven">Nigel Tufnel</a>
 </figcaption>
@@ -327,7 +327,7 @@ Previously we talked about the function used for desaturating according to _rela
 If you wanted to replicate the same results that `Desaturate → Luminosity` produces, you can just set the RGB sliders to the same values from that function (21.3, 71.5, 7.2):
 
 <figure>
-<img src="channel-mixer-lum.png" alt="GIMP Channel mixer luminosity values" />
+<img src="{filename}channel-mixer-lum.png" alt="GIMP Channel mixer luminosity values" />
 <figcaption>Replicating the luminosity function</figcaption>
 </figure>
 
@@ -338,7 +338,7 @@ If you’re just getting started with the **Channel Mixer**, this makes a pretty
 A pretty landscape image by [Flickr](http://www.flickr.com) user [Cyndi Calhoun](http://www.flickr.com/people/cyndicalhounfineart/) serves as a nice test image for experimentation:
 
 <figure class="big-vid">
-<img src="cyndicalhounfineart-color.jpg" alt="Garden of the Gods by Cyndi Calhoun" />
+<img src="{filename}cyndicalhounfineart-color.jpg" alt="Garden of the Gods by Cyndi Calhoun" />
 <figcaption>
 <a href="http://www.flickr.com/photos/cyndicalhounfineart/7990432224">Garden of the Gods - Looking North</a><br/>
 by Cyndi Calhoun (<a href="https://creativecommons.org/licenses/by/2.0/">cc-by</a>)
@@ -352,7 +352,7 @@ Keep an eye on the individual channels from getting so bright that you lose deta
 So, using the luminosity function as a starting point…
 
 <figure class="big-vid">
-<img src="cyndicalhounfineart-CM-luminosity.jpg" alt="Garden of the Gods by Cyndi Calhoun Luminosity" />
+<img src="{filename}cyndicalhounfineart-CM-luminosity.jpg" alt="Garden of the Gods by Cyndi Calhoun Luminosity" />
 <figcaption>Straight conversion using the luminosity</figcaption>
 </figure>
 
@@ -361,7 +361,7 @@ It’s not a bad start at all, but the prominence of the red rocks in the sunlig
 With the _Preserve Luminosity_ option checked, begin bumping the Red channel to taste.
 
 <figure class="big-vid">
-<img src="cyndicalhounfineart-CM-red-66.1.jpg" alt="Garden of the Gods by Cyndi Calhoun Red Channel" />
+<img src="{filename}cyndicalhounfineart-CM-red-66.1.jpg" alt="Garden of the Gods by Cyndi Calhoun Red Channel" />
 <figcaption>
 Red channel bumped up to 66.1  
 </figcaption>
@@ -372,7 +372,7 @@ This gives a little more prominence to the red stone.
 The Green channel seems ok, but for comparison try lowering it to about half of the Red channel value. Remember — _Preserve Luminosity_ is checked so the final values will scale to give Red values twice the weight as Green.
 
 <figure class="big-vid">
-<img src="cyndicalhounfineart-CM-green-33.jpg" alt="Garden of the Gods by Cyndi Calhoun Red Channel" />
+<img src="{filename}cyndicalhounfineart-CM-green-33.jpg" alt="Garden of the Gods by Cyndi Calhoun Red Channel" />
 <figcaption>
 Green channel at ~half of Red.  
 </figcaption>
@@ -401,7 +401,7 @@ The result was divided by the influence amount to scale the way _Preserve Lumino
 It should go without saying that the Blue channel will have a heavy influence on the sky (and many areas of the image in shadow). To add a little drama to the sky, try removing the Blue channel influence by setting it to 0:
 
 <figure class="big-vid">
-<img src="cyndicalhounfineart-CM-blue-0.jpg" alt="Garden of the Gods by Cyndi Calhoun Red Channel" />
+<img src="{filename}cyndicalhounfineart-CM-blue-0.jpg" alt="Garden of the Gods by Cyndi Calhoun Red Channel" />
 <figcaption>Blue channel set to 0  
 </figcaption>
 </figure>
@@ -413,7 +413,7 @@ Pay careful attention to what these changes do to the image in closer views. In 
 The sliders also allow negative values. This will seriously crush the channel results when applied (and will quickly lead to funky results if you’re not careful). For example, to push the Blue channel even darker in the final result, try setting the Blue channel to -20:
 
 <figure class="big-vid">
-<img src="cyndicalhounfineart-CM-blue--20.jpg" alt="Garden of the Gods by Cyndi Calhoun Red Channel" />
+<img src="{filename}cyndicalhounfineart-CM-blue--20.jpg" alt="Garden of the Gods by Cyndi Calhoun Red Channel" />
 <figcaption>Red: 66.1, Green: 33, Blue: -20  
 </figcaption>
 </figure>
@@ -434,15 +434,15 @@ In skin, the Red channel is very flattering to the final result and you’ll oft
 The Red channel can be very flattering on skin and is a great tool to keep in mind when working on portraits. For instance, below is the color image of Whitney from earlier:
 
 <figure>
-<img src="whitney.jpg" alt="Whitney in color by Pat David" />
+<img src="{filename}whitney.jpg" alt="Whitney in color by Pat David" />
 <figcaption>Whitney in color</figcaption>
 </figure>
 
 The straight _Luminosity_ conversion is below. Compare it to a version where the Red channel is set equal to the Green channel (giving a greater emphasis on the Reds):
 
 <figure>
-<img src="whitney-luminosity.jpg" alt="Whitney Luminosity by Pat David" /><br/>
-<img src="whitney-bw-equal-RG.jpg" alt="Whitney Luminosity by Pat David" />
+<img src="{filename}whitney-luminosity.jpg" alt="Whitney Luminosity by Pat David" /><br/>
+<img src="{filename}whitney-bw-equal-RG.jpg" alt="Whitney Luminosity by Pat David" />
 <figcaption>Whitney in Luminosity (top)<br/>
 Whitney with Red channel = Green channel (bottom)</figcaption>
 </figure>
@@ -544,7 +544,7 @@ If you wanted to isolate each of the RGB channel contributions into its own laye
 Will bring up the **Decompose** dialog box:
 
 <figure>
-<img src="decompose-base.png" alt="GIMP Decompose color dialog" />
+<img src="{filename}decompose-base.png" alt="GIMP Decompose color dialog" />
 <figcaption>The <strong>Decompose</strong> dialog</figcaption>
 </figure>
 
@@ -555,7 +555,7 @@ The most important option is which _Color model_ to decompose to. Up to now we h
 We will be using this image graciously provided by [Dimitrios Psychogios](https://plus.google.com/u/0/+DimitriosPsychogios/about):
 
 <figure>
-<img src="dmitrios-dice.jpg" alt="Dice by Dmitrios Psychogios" />
+<img src="{filename}dmitrios-dice.jpg" alt="Dice by Dmitrios Psychogios" />
 <figcaption><em>Dice</em> by <a href="https://plus.google.com/u/0/+DimitriosPsychogios/about">Dimitrios Psychogios</a> (<a href="http://creativecommons.org/licenses/by-sa/4.0/" title="CC-BY-SA">cc-by-sa</a>)</figcaption>
 </figure>
 
@@ -564,7 +564,7 @@ We will be using this image graciously provided by [Dimitrios Psychogios](https:
 This is the _Color mode_ that we’ve been focusing on up to now, and is usually the most helpful in terms of having multiple sources to draw from. This separates out the Red, Green, and Blue Channels into individual layers for you (and Alpha if your image has it).
 
 <figure class="big-vid">
-<img src="GIMP-Decompose-RGB.jpg" alt="Dimitrios Psychogios Dice decompose RGB" />
+<img src="{filename}GIMP-Decompose-RGB.jpg" alt="Dimitrios Psychogios Dice decompose RGB" />
 <figcaption>RGB decomposed.</figcaption>
 </figure>
 
@@ -573,7 +573,7 @@ This is the _Color mode_ that we’ve been focusing on up to now, and is usually
 Hue, Saturation, and Value/Lightness is another useful decomposition, though usually only the Value or Lightness is useful for B&W conversion.
 
 <figure class="big-vid">
-<img src="GIMP-Decompose-HSV.jpg" alt="Dimitrios Psychogios Dice decompose HSV" />
+<img src="{filename}GIMP-Decompose-HSV.jpg" alt="Dimitrios Psychogios Dice decompose HSV" />
 <figcaption>Hue, Saturation, Value (HSV) Channels</figcaption>
 </figure>
 
@@ -586,7 +586,7 @@ Value, V = MAX( R, G, B )
 Which is basically just the largest value of Red, Green, or Blue.
 
 <figure class="big-vid">
-<img src="GIMP-Decompose-HSL.jpg" alt="Dimitrios Psychogios Dice decompose HSL" />
+<img src="{filename}GIMP-Decompose-HSL.jpg" alt="Dimitrios Psychogios Dice decompose HSL" />
 <figcaption>Hue, Saturation, Lightness (HSL) Channels</figcaption>
 </figure>
 
@@ -607,7 +607,7 @@ There is far too much information concerning the [LAB colorspace](http://en.wiki
 The _LAB_ colorspace is based on a perceptual model (similar to the relative luminance previously discussed). In fact, the _Lightness_ in _LAB_ is calculated using the cube root of the luminance from that function.
 
 <figure class="big-vid">
-<img src="GIMP-Decompose-LAB.jpg" alt="Dimitrios Psychogios Dice decompose LAB" />
+<img src="{filename}GIMP-Decompose-LAB.jpg" alt="Dimitrios Psychogios Dice decompose LAB" />
 <figcaption>LAB Channels</figcaption>
 </figure>
 
@@ -618,14 +618,14 @@ As you can see, the only channel of any use for a B&W conversion is really the *
 Cyan, Magenta, Yellow and (Black, K) are often discussed in terms of printing. When doing the decomposition in GIMP, you’ll have to invert the results to make them useful. Once you do, you may notice that they are, in fact, the same as RGB (for CMY decomposition):
 
 <figure class="big-vid">
-<img src="GIMP-Decompose-CMY.jpg" alt="Dimitrios Psychogios Dice decompose CMY" />
+<img src="{filename}GIMP-Decompose-CMY.jpg" alt="Dimitrios Psychogios Dice decompose CMY" />
 <figcaption>CMY conversion (inverted from direct conversion)</figcaption>
 </figure>
 
 CMYK produces a similar result, but adds another channel to control the level of black in the result. Inverting the _Black_, **K** channel yields something usable.
 
 <figure>
-<img src="GIMP-Decompose-CMYK.jpg" alt="Dimitrios Psychogios Dice decompose CMYK" />
+<img src="{filename}GIMP-Decompose-CMYK.jpg" alt="Dimitrios Psychogios Dice decompose CMYK" />
 <figcaption>CMYK conversion with the Black, <strong>K</strong> channel inverted</figcaption>
 </figure>
 
@@ -634,7 +634,7 @@ CMYK produces a similar result, but adds another channel to control the level of
 Anyone who has done video processing might recognize this colorspace representation, as it often shows up in digital video. _YCbCr_ is a means for encoding the RGB colorspace with three channels: _Luma_, **Y**, and two channels of Red (_Cr_) and Blue (_Cb_) chroma differences.
 
 <figure class="big-vid">
-<img src="GIMP-Decompose-YCbCr.jpg" alt="Dimitrios Psychogios Dice decompose YCbCr" />
+<img src="{filename}GIMP-Decompose-YCbCr.jpg" alt="Dimitrios Psychogios Dice decompose YCbCr" />
 <figcaption>YCbCr</figcaption>
 </figure>
 
@@ -653,7 +653,7 @@ Let’s summarize some of the most useful results from `Colors → Components �
 This gives a total of 9 different types of color mode conversions that may be useful for generating a B&W image. It helps to visually see all of the options at once to get a better feel for what is going on:
 
 <figure class="big-vid">
-<img src="GIMP-Decompose-All.jpg" alt="Dimitrios Psychogios Dice decompose All" />
+<img src="{filename}GIMP-Decompose-All.jpg" alt="Dimitrios Psychogios Dice decompose All" />
 <figcaption>
 All 9 useful channels from <code>Colors → Components → Decompose</code>
 </figcaption>
@@ -683,7 +683,7 @@ Likely that _some parts_ of _some conversions_ will be useful in some way. I am 
 Pseudogrey (gr**_e_**y, not gray, per the original author, [Rich Franzen](http://r0k.us/rock/index.html)) is a means for increasing the available levels of _perceived_ gray in an image using a bit-stealing technique.
 
 <figure class="big-vid">
-<img src="Randi pseudogrey.jpg" alt="Randi pseudogrey by Pat David" />
+<img src="{filename}Randi pseudogrey.jpg" alt="Randi pseudogrey by Pat David" />
 <figcaption>
 <em>Randi</em> in pseudogrey<br/>
 by Pat David (<a href="https://creativecommons.org/licenses/by-sa/4.0/">cc-by-sa</a>)</figcaption>
@@ -733,7 +733,7 @@ In practice, c2g will attempt to scale the values of pixels within its neighborh
 Let’s consider this test image:
 
 <figure class="big-vid">
-<img src="Cars-Luminosity.jpg" alt="Deerfield Beach luminosity GIMP" />
+<img src="{filename}Cars-Luminosity.jpg" alt="Deerfield Beach luminosity GIMP" />
 <figcaption>
 Straight <em>Luminosity</em> desaturation in GIMP
 </figcaption>
@@ -742,7 +742,7 @@ Straight <em>Luminosity</em> desaturation in GIMP
 At first glance, GEGL c2g will likely produce ugly results. The default settings are not conducive to producing a pretty image:
 
 <figure class="big-vid">
-<img src="Cars-c2g-default.jpg" alt="Deerfield Beach c2g default GIMP by Pat David" />
+<img src="{filename}Cars-c2g-default.jpg" alt="Deerfield Beach c2g default GIMP by Pat David" />
 <figcaption>
 c2g conversion, default settings (radius 300, samples 4, iterations 10)  
 </figcaption>
@@ -755,7 +755,7 @@ Tweaking parameters can lead to better results at the cost of processing time. G
 Haloing can be decreased by increasing the radius and graininess can be decreased by increasing the samples or iterations. Iterations seem to have a larger effect on overall noisiness in the result but (again) at the cost of increased processing time.
 
 <figure class="big-vid">
-<img src="Cars-c2g-r750-s8-i15.jpg" alt="Deerfield Beach c2g r750 s8 i15 GIMP by Pat David" />
+<img src="{filename}Cars-c2g-r750-s8-i15.jpg" alt="Deerfield Beach c2g r750 s8 i15 GIMP by Pat David" />
 <figcaption>
 Betters results after increasing some parameters (radius 750, samples 8, iterations 15)  
 </figcaption>
@@ -764,7 +764,7 @@ Betters results after increasing some parameters (radius 750, samples 8, iterati
 Increasing the radius helped to alleviate some of the halos and will allow the algorithm to spread the contrast over a larger area. The increase in samples and iterations helps to keep the noise down to a more manageable level as well. Refining even further yields slightly better results:
 
 <figure class="big-vid">
-<img src="Cars-c2g-r1500-s8-i20.jpg" alt="Deerfield Beach c2g r1500 s8 i20 GIMP by Pat David" />
+<img src="{filename}Cars-c2g-r1500-s8-i20.jpg" alt="Deerfield Beach c2g r1500 s8 i20 GIMP by Pat David" />
 <figcaption>
 Betters results after increasing some parameters (radius 1500, samples 8, iterations 20)  
 </figcaption>
@@ -777,7 +777,7 @@ If a luminosity desaturation will choose a pixel value based on the perceived co
 For example, below is an optical illusion showing the effect on perceived luminosity relative to nearby brightness:
 
 <figure>
-<img src="Same_color_illusion.png" alt="checkerboard luminosity optical illusion" />
+<img src="{filename}Same_color_illusion.png" alt="checkerboard luminosity optical illusion" />
 <figcaption>Square A and B are the same value of gray!</figcaption>
 </figure>
 
@@ -786,7 +786,7 @@ Squares A & B are the same exact shade of gray. The reason we perceive B as ligh
 The results of running the image through c2g aligns the pixel values closer to what our eyes see:
 
 <figure>
-<img src="illusion.png" alt="checkerboard luminosity optical illusion" />
+<img src="{filename}illusion.png" alt="checkerboard luminosity optical illusion" />
 <figcaption>After letting c2g do its thing</figcaption>
 </figure>
 
@@ -803,14 +803,14 @@ The overall workflow here will be to decompose the image to various grayscale la
 Do a [Creative Commons search](https://www.flickr.com/creativecommons) on Flickr, and it’s _very_ likely that photographer [Frank Kovalchek](https://www.flickr.com/photos/72213316@N00/) will show up in some fashion. He liberally licenses many photographs under [Creative Commons](http://creativecommons.org/) licenses, and we will be using one of his portraits for this first example.
 
 <figure>
-<img src="aldude-color.jpg" alt="GIMP B&W base image by Frank Kovalchek" />
+<img src="{filename}aldude-color.jpg" alt="GIMP B&W base image by Frank Kovalchek" />
 <figcaption><a href="http://www.flickr.com/photos/72213316@N00/4589410278"><em>What a sweet looking portrait</em></a> by <a href="http://www.flickr.com/people/72213316@N00/">Frank Kovalchek</a> on Flickr (<a href="https://creativecommons.org/licenses/by/2.0/ "Creative Commons - By Attribution"">cc-by</a>)</figcaption>
 </figure>
 
 Utilizing [the script from earlier](#the-script) to quickly break the image down into multiple layers using different decomposition modes produces a nice array overview to consider:
 
 <figure class="big-vid">
-<img src="aldude-array.jpg" alt="GIMP B&W Decompose Array" />
+<img src="{filename}aldude-array.jpg" alt="GIMP B&W Decompose Array" />
 </figure>
 
 These various decompositions supply a large amount of possible variations in getting to a finished product. Keep in mind that the goal in this example is to maintain good tonal density as well as imparting a sense of texture and detail.
@@ -824,7 +824,7 @@ As good a starting point as any, consider the texture and detail of the scarf. L
 Looking at the previews leads to three possible choices: _Luma Y709F_, _Luma Y470F_, and _HSL - Lightness_. Of those let’s go with _Luma Y709F_. This is very subjective, of course. The important point to take away is the choice being made due to qualities it possesses _for a particular purpose_.
 
 <figure>
-<img src="aldude-bw-y709f.jpg" alt="GIMP B&W y709f" />
+<img src="{filename}aldude-bw-y709f.jpg" alt="GIMP B&W y709f" />
 <figcaption>The Y709F - Luma channel as a “base” layer - chosen for the fabric texture</figcaption>
 </figure>
 
@@ -839,7 +839,7 @@ Keeping that in mind, look back at the various decompositions again, this time w
 So let’s try that here. Place the _RGB - Red_ channel over the _Luma - y709f_ channel and change the layer blending mode to **Overlay**.
 
 <figure>
-<img src="aldude-bw-y709f-Red-Overlay.jpg" alt="GIMP B&W y709f with Red channel Overlay" />
+<img src="{filename}aldude-bw-y709f-Red-Overlay.jpg" alt="GIMP B&W y709f with Red channel Overlay" />
 <figcaption>
 Luma Y709F base, with Red channel over (layer blend mode: Overlay)  
 </figcaption>
@@ -863,13 +863,13 @@ So we are going to use the _RGB - Green_ layer and apply it as a layer mask to t
 
 The **Layers** palette should look something like this in GIMP now:
 
-<figure><img src="aldude-bw-y709f-RoverlayMask-Layers.png" alt="GIMP Layer Palette with layer mask" /></figure>
+<figure><img src="{filename}aldude-bw-y709f-RoverlayMask-Layers.png" alt="GIMP Layer Palette with layer mask" /></figure>
 
 Keep in mind, a layer mask will be more transparent the darker the color is in it. The lighter areas will show more of the layer it is applied to. In this case, the lighter areas will allow more of the _RGB - Red_ layer to show, while darker areas will show more of the layer below, _Luma - Y709F_.
 
 The results at this point with the mask:
 
-<figure><img src="aldude-bw-y709f-Red-Overlay-Masked.jpg" alt="GIMP B&W y709f with Red channel Overlay" />
+<figure><img src="{filename}aldude-bw-y709f-Red-Overlay-Masked.jpg" alt="GIMP B&W y709f with Red channel Overlay" />
 <figcaption><em>RGB - Red</em> as overlay with <em>RGB - Green</em> as a layer mask  
 </figcaption>
 </figure>
@@ -886,11 +886,11 @@ To flip the ratios, simply invert the colors of the layer mask. Select the _mask
 
 The layers palette will now look like this:
 
-<figure><img src="aldude-bw-y709f-RoverlayMaskInvert-Layers.png" alt="GIMP Layer Palette with inverted mask" /></figure>
+<figure><img src="{filename}aldude-bw-y709f-RoverlayMaskInvert-Layers.png" alt="GIMP Layer Palette with inverted mask" /></figure>
 
 The result on the image so far:
 
-<figure><img src="aldude-bw-y709f-Red-Overlay-Masked-Inverted.jpg" alt="GIMP B&W y709f with Red channel Overlay" />
+<figure><img src="{filename}aldude-bw-y709f-Red-Overlay-Masked-Inverted.jpg" alt="GIMP B&W y709f with Red channel Overlay" />
 <figcaption>Inverted mask results  
 </figcaption>
 </figure>
@@ -900,8 +900,8 @@ At this point the results look pretty nice and would make a fine stopping point.
 A final comparison of the results against a straight color desaturation:
 
 <figure>
-<img src="aldude-desaturation.jpg" alt="GIMP B&W Desaturation" /><br/>
-<img src="aldude-bw-y709f-Red-Overlay-Masked-Inverted.jpg" alt="GIMP B&W y709f with Red channel Overlay" />
+<img src="{filename}aldude-desaturation.jpg" alt="GIMP B&W Desaturation" /><br/>
+<img src="{filename}aldude-bw-y709f-Red-Overlay-Masked-Inverted.jpg" alt="GIMP B&W y709f with Red channel Overlay" />
 <figcaption>
 Straight desaturation (top)<br/>
 Final result (bottom)
@@ -914,7 +914,7 @@ This path was a little fussier than doing a straight color desaturation but the 
 
 Well, this isn’t the _actual_ [Methuselah](http://en.wikipedia.org/wiki/Methuselah_(tree)), but it is a similar species of Bristlecone Pine. Once again, image courtesy of [Flickr](http://www.flickr.com) user [Frank Kovalchek](http://www.flickr.com/people/72213316@N00/).
 
-<figure><img src="aldude2-color.jpg" alt="GIMP B&W Base Image 2 by Frank Kovalchek" />
+<figure><img src="{filename}aldude2-color.jpg" alt="GIMP B&W Base Image 2 by Frank Kovalchek" />
 <figcaption>
 <a href="http://www.flickr.com/photos/72213316@N00/6956555116"><em>Bristlecone pine hanging on for dear life at 10,000 feet</em></a> <br/> 
 by <a href="http://www.flickr.com/people/72213316@N00/">Frank Kovalchek</a> on Flickr (<a href="https://creativecommons.org/licenses/by/2.0/">cc-by</a>)</figcaption>
@@ -924,7 +924,7 @@ As before, a first look at multiple decomposition modes originally pointed to _L
 
 The primary focus is the gnarled old tree itself and the secondary focus the lighting of the sun across the ground.
 
-<figure><img src="aldude2-bw-green.jpg" alt="GIMP B&W Base Image 2 Green Channel" />
+<figure><img src="{filename}aldude2-bw-green.jpg" alt="GIMP B&W Base Image 2 Green Channel" />
 <figcaption><em>RGB - Green</em> channel decomposition</figcaption>
 </figure>
 
@@ -932,7 +932,7 @@ While the _RGB - Green_ channel is nice for the tree texture, the sky still appe
 
 Having found a good layer for the tree texture, the other decompositions are examined for something that represents the sky and ground a little better. The _RGB - Red_ channel is a good compromise (the _RGB - Blue_ channel is a little too noisy).
 
-<figure><img src="aldude2-bw-red.jpg" alt="GIMP B&W Base Image 2 Green Channel" />
+<figure><img src="{filename}aldude2-bw-red.jpg" alt="GIMP B&W Base Image 2 Green Channel" />
 <figcaption><em>RGB - Red</em> channel decomposition  
 </figcaption>
 </figure>
@@ -941,7 +941,7 @@ _RGB - Red_ looks like a great candidate for the sky and ground, while _RGB - Gr
 
 Set the _RGB - Green_ channel above the _RGB - Red_ channel on the layer palette, and add a layer mask to the _RGB - Green_ channel layer initialized to **Black (full transparency)**. This lets all of the underlying _RGB - Red_ channel layer show through.
 
-<figure><img src="aldude2-bw-green-Layers.png" alt="GIMP B&W Green channel with mask" />
+<figure><img src="{filename}aldude2-bw-green-Layers.png" alt="GIMP B&W Green channel with mask" />
 <figcaption>Red channel layer, with Green channel over + mask</figcaption>
 </figure>
 
@@ -949,17 +949,17 @@ Now with the layer mask active (see the white outline around the layer mask, not
 
 Below is a quick mask to illustrate.
 
-<figure><img src="aldude2-bw-green-mask.jpg" alt="GIMP B&W Tree Layer Mask" />
+<figure><img src="{filename}aldude2-bw-green-mask.jpg" alt="GIMP B&W Tree Layer Mask" />
 <figcaption>It’s only a quick mask, don’t judge it too harshly…</figcaption>
 </figure>
 
 The layers at this point will look like this:
 
-<figure><img src="aldude2-bw-green-Layers-mask.png" alt="GIMP Layer Mask B&W Dialog" /></figure>
+<figure><img src="{filename}aldude2-bw-green-Layers-mask.png" alt="GIMP Layer Mask B&W Dialog" /></figure>
 
 The results from applying the mask above to the image:
 
-<figure><img src="aldude2-bw-greenred-masked.jpg" alt="GIMP B&W Tree Final" />
+<figure><img src="{filename}aldude2-bw-greenred-masked.jpg" alt="GIMP B&W Tree Final" />
 <figcaption>Final blend of <em>RGB - Red</em> and <em>RGB - Green</em> channels with mask  
 </figcaption>
 </figure>
@@ -972,7 +972,7 @@ Following some ideas from the great tutorial by Petteri Sulonen on [Digital Blac
 
 Petteri was kind enough to make available a grain field that he processed himself from scanned film. An easy way to add grain to an image using this grain field is to add it as a layer over the image, set the layer blending mode to _Overlay_, and adjust opacity to suit.
 
-<figure><img src="aldude2-100-grain.png" alt="GIMP B&W Tree Grain Comparison" />
+<figure><img src="{filename}aldude2-100-grain.png" alt="GIMP B&W Tree Grain Comparison" />
 <figcaption>100% crop with Petteri’s grain field applied as <em>Overlay</em> layer</figcaption>
 </figure>
 

@@ -13,7 +13,7 @@ GAP is an advanced tool to be able to create animations, this guide should give 
 ## Main Interface
 
 <figure>
-<img src="gap-big.png" alt="gap-big.png"/>
+<img src="{filename}gap-big.png" alt="gap-big.png"/>
 </figure>
 
 **Source Image/Layer** specifies, which layer you want to animate on top of the current image. If you select a layer from a multilayer image, make sure you don't forget to specify the **stepmode** as well.
@@ -29,7 +29,7 @@ At the bootom of the dialog you'll find some inportant sliders. The duration of 
 ## Stepmode
 
 <figure>
-<img src="gap2-big.png" alt="gap2-big.png"/>
+<img src="{filename}gap2-big.png" alt="gap2-big.png"/>
 </figure>
 
 Stepmode defines how you want the source multi-layer image to be animated withing the final animation render.
@@ -39,7 +39,7 @@ Stepmode defines how you want the source multi-layer image to be animated within
 The animation will start from the specified layer, so make sure you don't miss out some frames. If a source image is a one-layered one, stepmode will not have any effect on the result whatsoever.
 
 <figure>
-<img src="gap3-big.png" alt="gap3-big.png"/>
+<img src="{filename}gap3-big.png" alt="gap3-big.png"/>
 </figure>
 
 If you want the final rendered layer to be different mode than the default **normal** specify it in the **mode** popup.
@@ -53,7 +53,7 @@ Every animation should at least have two animation points. For every animation p
 Every animation point is shown on the image preview acording to his x,y position.
 
 <figure>
-<img src="gap4-big.png" alt="gap4-big.png"/>
+<img src="{filename}gap4-big.png" alt="gap4-big.png"/>
 </figure>
 
 At the bottom of the dialog, you can specify the segment on the animation to render the current source image animation to.

@@ -27,7 +27,7 @@ Instead, we are going to take a look at the use of the **Curves** tool in [GIMP]
 First there’s something you need to consider if you haven’t before, and that’s what goes into representing a colored pixel on your screen.
 
 <figure>
-<img src="curves-house-square-full.jpg" alt="PIXLS.US House Zoom Example" />
+<img src="{filename}curves-house-square-full.jpg" alt="PIXLS.US House Zoom Example" />
 <figcaption>
 Open up an image in GIMP.
 </figcaption>
@@ -35,21 +35,21 @@ Open up an image in GIMP.
 
 
 <figure>
-<img src="curves-house-square-zoom-1.jpg" alt="PIXLS.US House Zoom Example" />
+<img src="{filename}curves-house-square-zoom-1.jpg" alt="PIXLS.US House Zoom Example" />
 <figcaption>
 Now zoom in.
 </figcaption>
 </figure>
 
 <figure>
-<img src="curves-house-square-zoom-2.jpg" alt="PIXLS.US House Zoom Example" />
+<img src="{filename}curves-house-square-zoom-2.jpg" alt="PIXLS.US House Zoom Example" />
 <figcaption>
 Nope - don’t be shy now, zoom in more!
 </figcaption>
 </figure>
 
 <figure>
-<img src="curves-house-square-zoom-3.png" alt="PIXLS.US House Zoom Example" />
+<img src="{filename}curves-house-square-zoom-3.png" alt="PIXLS.US House Zoom Example" />
 <figcaption>
 Aaand there’s your pixel. So let’s investigate what goes into making your pixel.
 </figcaption>
@@ -65,7 +65,7 @@ If all three channels have the same value, then you will get a shade of gray (12
 So now let’s see what goes into making up your pixel:
 
 <figure>
-<img src="curves-your-pixel-info.png" alt="GIMP Color Picker Pixel View" >
+<img src="{filename}curves-your-pixel-info.png" alt="GIMP Color Picker Pixel View" >
 <figcaption>
 The RGB components that mix into your final <span style="color: #7ba3ce;">blue pixel</span>.
 </figcaption>
@@ -78,7 +78,7 @@ As you can see, there is more blue than anything else (it is a blue-ish pixel af
 So let’s leave your pixel alone for the time being, and actually have a look at the **Curves** dialog. I’ll be using this wonderful image by [Eric](http://www.flickr.com/photos/qsimple/) from [Flickr](http://www.flickr.com).
 
 <figure markdown="span">
-<img src="flickr-qsimple-5636649561-original.jpg" alt="Hollow Moon by Eric qsimple Flickr" >
+<img src="{filename}flickr-qsimple-5636649561-original.jpg" alt="Hollow Moon by Eric qsimple Flickr" >
 <figcaption>
 [Hollow Moon](http://www.flickr.com/photos/qsimple/5636649561/) by [qsimple/Eric](http://www.flickr.com/photos/qsimple/) on [Flickr](http://www.flickr.com). ([cc-by-nc-sa](http://creativecommons.org/licenses/by-nc-sa/2.0/))
 </figcaption>
@@ -89,7 +89,7 @@ Opening up my **Curves** dialog shows me the following:
 <div class="MenuCmd"><span>Colors → Curves…</span></div>
 
 <figure>
-<img src="curves-dialog-original.png" alt="GIMP Base Curves Dialog" />
+<img src="{filename}curves-dialog-original.png" alt="GIMP Base Curves Dialog" />
 </figure>
 
 We can see that I start off with the curve for the **Value** of the pixels. I could also use the drop down for **“Channel”** to change to red, green or blue curves if I wanted to. For now let’s look at **Value**, though.
@@ -97,7 +97,7 @@ We can see that I start off with the curve for the **Value** of the pixels. I co
 In the main area of the dialog I am presented with a linear curve, behind which I will see a histogram of the value data for the entire image (showing the amount of each value across my image). Notice a spike in the high values on the right, and a small gap at the brightest values.
 
 <figure>
-<img src="curves-dialog-original-IO.png" alt="GIMP Base Curves Dialog Input Output" />
+<img src="{filename}curves-dialog-original-IO.png" alt="GIMP Base Curves Dialog Input Output" />
 </figure>
 
 What we can do right now is to adjust the values of each pixel in the image using this curve. The best way to visualize it is to remember that the bottom range from black to white represents the <span style="color: #0000ff">**_current_** value of the pixels</span>, and the left range is the <span style="color: #ff6f00">value to be mapped to</span>.
@@ -105,7 +105,7 @@ What we can do right now is to adjust the values of each pixel in the image usin
 So to show an example of how this curve will affect your image, suppose I wanted to remap all the values in the image that were in the midtones, and to make them all lighter. I can do this by clicking on the curve near the midtones, and dragging the curve higher in the Y direction:
 
 <figure>
-<img src="curves-dialog-midtones.png" alt="GIMP Base Curves Dialog Push Midtones" />
+<img src="{filename}curves-dialog-midtones.png" alt="GIMP Base Curves Dialog Push Midtones" />
 </figure>
 
 What this curve does is takes the values around the midtones, and pushes their values to be much lighter than they were. In this case, values around <span style="color: #0000ff">128</span> were re-mapped to now be closer to <span style="color: #ff6f00">192</span>.
@@ -113,8 +113,8 @@ What this curve does is takes the values around the midtones, and pushes their v
 Because the curve is set **Smooth**, there will be a gradual transition for all the tones surrounding my point to be pulled in the same direction (this makes for a smoother fall-off as opposed to an abrupt change at one value). Because there is only a single point in the curve right now, this means that all values will be pulled higher.
 
 <figure>
-<noscript><img alt="Hollow Moon Example" class="comp" src="flickr-qsimple-5636649561-original.jpg" /></noscript>
-<img class="comp" src="flickr-qsimple-5636649561-mid-boostl.jpg" alt="Hollow Moon Example Pushed Midtones" data-swap-src="flickr-qsimple-5636649561-original.jpg" />
+<noscript><img alt="Hollow Moon Example" class="comp" src="{FILENAME}flickr-qsimple-5636649561-original.jpg" /></noscript>
+<img class="comp" alt="Hollow Moon Example Pushed Midtones" data-swap-src="{filename}flickr-qsimple-5636649561-original.jpg" src="{filename}flickr-qsimple-5636649561-mid-boostl.jpg" />
 <figcaption>
 The results of pushing the midtones of the value curve higher<br/>
 (click to compare to original).
@@ -127,7 +127,7 @@ Care should be taken when fiddling with these curves to not blow things out or d
 A very common curve adjustment you may hear about is to apply a slight “S” curve to your values. The effect of this curve would be to darken the dark tones, and to lighten the light tones - in effect increasing global contrast on your image. For instance, if I click on another point in the curves, and adjust the points to form a shape like so:
 
 <figure>
-<img src="curves-dialog-slight-s.png" alt="GIMP Base Curves Dialog S shaped curve" >
+<img src="{filename}curves-dialog-slight-s.png" alt="GIMP Base Curves Dialog S shaped curve" >
 <figcaption>
 A slight “S” curve
 </figcaption>
@@ -136,8 +136,8 @@ A slight “S” curve
 This will now cause dark values to become even darker, while the light values get a small boost. The curve still passes through the midpoint, so middle tones will stay closer to what they were.
 
 <figure>
-<noscript><img class="comp" src="flickr-qsimple-5636649561-original.jpg" alt="Hollow Moon Example" /></noscript>
-<img src="flickr-qsimple-5636649561-slight-s.jpg" alt="Hollow Moon Example S curve applied" data-swap-src="flickr-qsimple-5636649561-original.jpg" class="comp" />
+<noscript><img class="comp" src="{filename}flickr-qsimple-5636649561-original.jpg" alt="Hollow Moon Example" /></noscript>
+<img alt="Hollow Moon Example S curve applied" data-swap-src="{filename}flickr-qsimple-5636649561-original.jpg" class="comp" src="{filename}flickr-qsimple-5636649561-slight-s.jpg" />
 <figcaption>Slight “S” curve increases global contrast (click for original).
 <noscript><br /> (Original on left)</noscript>
 </figcaption>
@@ -146,7 +146,7 @@ This will now cause dark values to become even darker, while the light values ge
 In general, I find it easiest to visualize in terms of which regions in the curve will effect different tones in your image. Here is a quick way to visualize it (that is true for value as well as RGB curves):
 
 <figure>
-<img src="curves-dialog-darksmidslights.png" alt="GIMP Base Curves darks mids lights zones" />
+<img src="{filename}curves-dialog-darksmidslights.png" alt="GIMP Base Curves darks mids lights zones" />
 </figure>
 
 If there is one thing you take away from reading this, let it be the image above.
@@ -158,7 +158,7 @@ So how does this apply to other channels? Let’s have a look.
 The exact same theory applies in the RGB channels as it did with values. The relative positions of the darks, midtones, and lights are still the same in the curve dialog. The primary difference now is that you can control the contribution of color in specific tonal regions of your image.
 
 <figure>
-<img src="curves-dialog-value-rgb-select.png" alt="RGB Select" >
+<img src="{filename}curves-dialog-value-rgb-select.png" alt="RGB Select" >
 <figcaption>
 Value, Red, Green, Blue channel picker.
 </figcaption>
@@ -173,15 +173,15 @@ For example, perhaps we wanted to “cool” down the shadows of our image. “C
 To try this, let’s adjust the **Blue** channel to be a little more prominent in the darker tones of our image, but to get back to normal around the midtones and lighter.
 
 <figure>
-<img src="curves-dialog-darks-blue-boost.png" alt="Darks Blue Boost" >
+<img src="{filename}curves-dialog-darks-blue-boost.png" alt="Darks Blue Boost" >
 <figcaption>
 Boosting blues in darker tones
 </figcaption>
 </figure>
 
 <figure>
-<noscript><img alt="Original" class="comp" src="flickr-qsimple-5636649561-original.jpg" /></noscript>
-<img src="flickr-qsimple-5636649561-dark-blue-boost.jpg" alt="Dark Blue Boost" class="comp" data-swap-src="flickr-qsimple-5636649561-original.jpg" />
+<noscript><img alt="Original" class="comp" src="{filename}flickr-qsimple-5636649561-original.jpg" /></noscript>
+<img alt="Dark Blue Boost" class="comp" data-swap-src="{filename}flickr-qsimple-5636649561-original.jpg" src="{filename}flickr-qsimple-5636649561-dark-blue-boost.jpg" />
 <figcaption>Pushing up blues in darker tones (click for original).
 <noscript><br /> (Original on left)</noscript>
 </figcaption>
@@ -192,7 +192,7 @@ Now, here’s a question: If I wanted to “cool” the darker tones with more b
 Well, there’s no “Yellow” curve to modify, so how to approach that? Have a look at this HSV color wheel below:
 
 <figure>
-<img src="Color_circle_%2528hue-sat%2529_trans.png" alt="Color Circle Hue" />
+<img src="{filename}Color_circle.png" alt="Color Circle Hue" />
 </figure>
 
 The thing to look out for here is that opposite your blue tones on this wheel, you’ll find yellow. In fact, for each of the Red, Green, and Blue channels, the opposite colors on the color wheel will show you what an absence of that color will do to your image. So remember:
@@ -204,12 +204,12 @@ What this means to you while manipulating curves is that if you drag a curve for
 So to boost the blues in the dark tones, but increase the yellow in the lighter tones, you could create a sort of “reverse” S-curve in the blue channel:
 
 <figure>
-<img src="curves-dialog-darks-blue-boost-add-yellow.png" alt="Blue Boost add Yellow" />
+<img src="{filename}curves-dialog-darks-blue-boost-add-yellow.png" alt="Blue Boost add Yellow" />
 </figure>
 
 <figure>
-<noscript><img alt="Original" class="comp" src="flickr-qsimple-5636649561-original.jpg" /></noscript>
-<img src="flickr-qsimple-5636649561-dark-blue-boost-add-yellow.jpg" alt="Blue boost add yellow" data-swap-src="flickr-qsimple-5636649561-original.jpg" class="comp" />
+<noscript><img alt="Original" class="comp" src="{filename}flickr-qsimple-5636649561-original.jpg" /></noscript>
+<img alt="Blue boost add yellow" data-swap-src="{filename}flickr-qsimple-5636649561-original.jpg" class="comp" src="{filename}flickr-qsimple-5636649561-dark-blue-boost-add-yellow.jpg" />
 <figcaption>Boost blues in darks, boost yellow in high tones (click for original).
 <noscript><br /> (Original on left)</noscript>
 </figcaption>
@@ -218,12 +218,12 @@ So to boost the blues in the dark tones, but increase the yellow in the lighter 
 In the green channel for instance, you can begin to introduce more magenta into the tones by decreasing the curve. So dropping the green curve in the dark tones, and letting it settle back to normal towards the high tones will produce results like this:
 
 <figure>
-<img src="curves-dialog-darks-green-suppress.png" alt="Darks Green Suppress" />
+<img src="{filename}curves-dialog-darks-green-suppress.png" alt="Darks Green Suppress" />
 </figure>
 
 <figure markdown='span'>
-<noscript><img alt="Original" class="comp" src="flickr-qsimple-5636649561-original.jpg" /></noscript>
-<img src="flickr-qsimple-5636649561-dark-green-suppresst.jpg" alt="Dark green suppress" data-swap-src="flickr-qsimple-5636649561-original.jpg" class="comp" />
+<noscript><img alt="Original" class="comp" src="{filename}flickr-qsimple-5636649561-original.jpg" /></noscript>
+<img alt="Dark green suppress" data-swap-src="{filename}flickr-qsimple-5636649561-original.jpg" class="comp" src="{filename}flickr-qsimple-5636649561-dark-green-suppresst.jpg" />
 <figcaption>Suppressing the **green** channel in darks/mids adds a bit of **magenta**   
 (click for original).
 <noscript><br /> (Original on left)</noscript>
@@ -243,7 +243,7 @@ _Grading_ is a term for color toning on film, and Todd’s post is a funny look 
 The general thought here is that caucasian skin tones trend towards orange, and if you have a look at a complementary color on the color wheel, you’ll notice that directly opposite orange is a teal color.
 
 <figure markdown='span'>
-<img src="Kuler_orange_teal.jpg" alt="Kuler Example" >
+<img src="{filename}Kuler_orange_teal.jpg" alt="Kuler Example" >
 <figcaption>
 Screenshot from [Kuler](https://color.adobe.com) borrowed from Todd.
 </figcaption>
@@ -258,13 +258,13 @@ Quick disclaimer - I am purposefully exaggerating these modifications to illustr
 So I know that I want to see my skin tones head into an orange-ish color. In my image the skin tones are in the upper mids/low highs range of values, so I will start around there.
 
 <figure>
-<img src="curves-dialog-orangeteal-red-high.png" alt="orangeteal red high" />
+<img src="{filename}curves-dialog-orangeteal-red-high.png" alt="orangeteal red high" />
 </figure>
 
 What I’ve done is put a point around the low midtones to anchor the curve closer to normal for those tones. This lets me fiddle with the red channel and to isolate it roughly to the mid and high tones only. The skin tones in this image in the red channel will fall toward the upper end of the mids, so I’ve boosted the reds there. Things may look a little weird at first:
 
 <figure>
-<img src="flickr-qsimple-5636649561-orangeteal-red-highs.jpg" alt="orangeteal red highs" />
+<img src="{filename}flickr-qsimple-5636649561-orangeteal-red-highs.jpg" alt="orangeteal red highs" />
 </figure>
 
 If you look back at the color wheel again, you’ll notice that between red and green, there is a yellow, and if you go a bit closer towards red the yellow turns to more of an orange. What this means is that if we add some more green to those same tones, the overall colors will start to shift towards an orange.
@@ -272,21 +272,21 @@ If you look back at the color wheel again, you’ll notice that between red and 
 So we can switch to the green channel now, put a point in the lower midtones again to hold things around normal, and slightly boost the green. Don’t boost it all the way to the reds, but about 2/3<sup>rds</sup> or so to taste.
 
 <figure>
-<img src="curves-dialog-orangeteal-green-high.png" alt="orangeteal green high" />
+<img src="{filename}curves-dialog-orangeteal-green-high.png" alt="orangeteal green high" />
 </figure>
 
 <figure>
-<img src="flickr-qsimple-5636649561-orangeteal-green-highs.jpg" alt="orangeteal green high" />
+<img src="{filename}flickr-qsimple-5636649561-orangeteal-green-highs.jpg" alt="orangeteal green high" />
 </figure>
 
 This puts a little more red/orange-y color into the tones around the skin. You could further adjust this by perhaps including a bit more yellow as well. To do this, I would again put an anchor point in the low mid tones on the blue channel, then slightly drop the blue curve in the upper tones to introduce a bit of yellow.
 
 <figure>
-<img src="curves-dialog-orangeteal-blue-high.png" alt="orangeteal blue high" />
+<img src="{filename}curves-dialog-orangeteal-blue-high.png" alt="orangeteal blue high" />
 </figure>
 
 <figure>
-<img src="flickr-qsimple-5636649561-orangeteal-blue-highs.jpg" alt="orangeteal blue high" />
+<img src="{filename}flickr-qsimple-5636649561-orangeteal-blue-highs.jpg" alt="orangeteal blue high" />
 </figure>
 
 Remember, we’re experimenting here so feel free to try things out as we move along. I may consider the upper tones to be finished at the moment, and now I would want to look at introducing a more blue/teal color into the darker tones.
@@ -294,31 +294,31 @@ Remember, we’re experimenting here so feel free to try things out as we move a
 I can start by boosting a bit of blues in the dark tones. I’m going to use the anchor point I already created, and just push things up a bit.
 
 <figure>
-<img src="curves-dialog-orangeteal-blue-low.png" alt="orangeteal blue low" />
+<img src="{filename}curves-dialog-orangeteal-blue-low.png" alt="orangeteal blue low" />
 </figure>
 
 <figure>
-<img src="flickr-qsimple-5636649561-orangeteal-blue-lows.jpg" alt="orangeteal blue low" />
+<img src="{filename}flickr-qsimple-5636649561-orangeteal-blue-lows.jpg" alt="orangeteal blue low" />
 </figure>
 
 Now I want to make the darker tones a bit more teal in color. Remember the color wheel - **teal** is the absence of red - so we will drop down the red channel in the lower tones as well.
 
 <figure>
-<img src="curves-dialog-orangeteal-red-low.png" alt="orangeteal red low" />
+<img src="{filename}curves-dialog-orangeteal-red-low.png" alt="orangeteal red low" />
 </figure>
 
 <figure>
-<img src="flickr-qsimple-5636649561-orangeteal-red-lows.jpg" alt="orangeteal red low" />
+<img src="{filename}flickr-qsimple-5636649561-orangeteal-red-lows.jpg" alt="orangeteal red low" />
 </figure>
 
 And finally to push a very slight magenta into the dark tones as well, I’ll push down the green channel a bit.
 
 <figure>
-<img src="curves-dialog-orangeteal-green-low.png" alt="orangeteal green low" />
+<img src="{filename}curves-dialog-orangeteal-green-low.png" alt="orangeteal green low" />
 </figure>
 
 <figure>
-<img src="flickr-qsimple-5636649561-orangeteal-green-lows.jpg" alt="orangeteal green low" />
+<img src="{filename}flickr-qsimple-5636649561-orangeteal-green-lows.jpg" alt="orangeteal green low" />
 </figure>
 
 If I wanted to go a step further, I could also put an anchor point up close to the highest values to keep the brightest parts of the image closer to a white instead of carrying over a color cast from our previous operations.
@@ -326,14 +326,14 @@ If I wanted to go a step further, I could also put an anchor point up close to t
 If your previous operations also darkened the image a bit, you could also now revisit the **Value** channel, and make modifications there as well. In my case I bumped the midtones of the image just a bit to brighten things up slightly.
 
 <figure>
-<img src="curves-dialog-orangeteal-value-final.png" alt="orangeteal value final" />
+<img src="{filename}curves-dialog-orangeteal-value-final.png" alt="orangeteal value final" />
 </figure>
 
 Finally to end up at something like this.
 
 <figure>
-<noscript><img alt="Original" class="comp" src="flickr-qsimple-5636649561-original.jpg" /></noscript>
-<img src="flickr-qsimple-5636649561-orangeteal-value-final.jpg" alt="orangeteal value final" data-swap-src="flickr-qsimple-5636649561-original.jpg" class="comp" />
+<noscript><img alt="Original" class="comp" src="{filename}flickr-qsimple-5636649561-original.jpg" /></noscript>
+<img alt="orangeteal value final" data-swap-src="{filename}flickr-qsimple-5636649561-original.jpg" class="comp" src="{filename}flickr-qsimple-5636649561-orangeteal-value-final.jpg" />
 <figcaption>After fooling around a bit - disgusting, isn’t it?   
 (click for original).
 <noscript><br /> (Original on left)</noscript>
@@ -372,6 +372,18 @@ var imgs = document.querySelectorAll('[data-swap-src]');
 var images_pre = new Array();
 
 for ( var i = 0; i < imgs.length; i++ ){ 
+    var img = imgs[i];
+    var datasrc = decodeURI( img.src );
+    var dataswap = img.getAttribute('data-swap-src');
+
+    if( datasrc.toLowerCase().indexOf('{filename}') !== -1 ){
+        // {filename} is in src
+        imgs[i].src = datasrc.replace( /.*{filename}/i, dataswap.replace( /[^\/]*$/, '' ) );
+    }else if( dataswap.toLowerCase().indexOf('{filename}') !== -1 ){
+        // {filename is in data-swap-src
+        imgs[i].setAttribute( 'data-swap-src', dataswap.replace( /.*{filename}/i, datasrc.replace( /[^\/]*$/, '' ) ) );
+    }
+    
     imgs[i].setAttribute('data-swap', imgs[i].getAttribute('data-swap-src') );
     imgs[i].addEventListener('click', swap, false);
     imgs[i].style.cursor = "crosshair";

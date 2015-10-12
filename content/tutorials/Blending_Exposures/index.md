@@ -9,13 +9,13 @@ Text and images Copyright (C) 2002 [Eric R. Jeschke](mailto:ericNOSPAM@redskiesa
 ## Intention
 
 <figure>
-<img src="before-light.jpg" alt="before-light.jpg" />
+<img src="{filename}before-light.jpg" alt="before-light.jpg" />
 </figure>
 <figure>
-<img src="before-dark.jpg" alt="before-dark.jpg" />
+<img src="{filename}before-dark.jpg" alt="before-dark.jpg" />
 </figure>
 <figure>
-<img src="after.jpg" alt="after.jpg" />
+<img src="{filename}after.jpg" alt="after.jpg" />
 </figure>
 
 In this tutorial I'll show you how to do blend two different exposures of the same scene that you would like to combine to get the best parts of both images. This procedure works best if you have:
@@ -35,10 +35,10 @@ The basic technique is to create a layer above the image that contains the other
 ## Step 1
 
 <figure>
-<img src="image-original-light.jpg" alt="image-original-light.jpg" />
+<img src="{filename}image-original-light.jpg" alt="image-original-light.jpg" />
 </figure>
 <figure>
-<img src="image-original-dark.jpg" alt="image-original-dark.jpg" />
+<img src="{filename}image-original-dark.jpg" alt="image-original-dark.jpg" />
 </figure>
 
 
@@ -47,39 +47,39 @@ Here are the two exposures, loaded into GIMP. I am going to sandwich these on di
 ## Step 2
 
 <figure>
-<img src="layers1.jpg" alt="layers1.jpg" />
+<img src="{filename}layers1.jpg" alt="layers1.jpg" />
 </figure>
 <figure>
-<img src="newlayeroptions.jpg" alt="newlayeroptions.jpg" />
+<img src="{filename}newlayeroptions.jpg" alt="newlayeroptions.jpg" />
 </figure>
 <figure>
-<img src="layers2.jpg" alt="layers2.jpg" />
+<img src="{filename}layers2.jpg" alt="layers2.jpg" />
 </figure>
 
 
 The first decision is which one goes on top. In this case I have decided to put the lighter image on top and the darker one on the bottom. The reason is because I hand-held the shots, and they are far from aligned. I'm going to have to move the bottom image until the arch is aligned as best I can get it. Also, the top image is the composition I want anyway, and I'll have less painting to do that way.
 
-Go the image that is going to be on the bottom. Open the Layers dialog (<kbd>Ctrl+L</kbd>) and click on the new layer button (![New Layer](newlayer.jpg)) to create a new layer.
+Go the image that is going to be on the bottom. Open the Layers dialog (<kbd>Ctrl+L</kbd>) and click on the new layer button (![New Layer]({filename}newlayer.jpg)) to create a new layer.
 
 ## Step 3
 
 <figure>
-<img src="layers3.jpg" alt="layers3.jpg" />
+<img src="{filename}layers3.jpg" alt="layers3.jpg" />
 </figure>
 <figure>
-<img src="layers4.jpg" alt="layers4.jpg" />
+<img src="{filename}layers4.jpg" alt="layers4.jpg" />
 </figure>
 
 
-Go to the image that is going to be on top. Select all and copy (<kbd>Ctrl+A</kbd> then <kbd>Ctrl+C</kbd>). In the Layers dialog, make sure the new layer is selected, then go to the bottom image window and paste (<kbd>Ctrl+V</kbd>). In the Layers dialog, click on the anchor button (![anchor](anchor.jpg)) to anchor the floating image.
+Go to the image that is going to be on top. Select all and copy (<kbd>Ctrl+A</kbd> then <kbd>Ctrl+C</kbd>). In the Layers dialog, make sure the new layer is selected, then go to the bottom image window and paste (<kbd>Ctrl+V</kbd>). In the Layers dialog, click on the anchor button (![anchor]({filename}anchor.jpg)) to anchor the floating image.
 
 ## Step 4
 
 <figure>
-<img src="layers5.jpg" alt="layers5.jpg" />
+<img src="{filename}layers5.jpg" alt="layers5.jpg" />
 </figure>
 <figure>
-<img src="image-composite-paste.jpg" alt="image-composite-paste.jpg" />
+<img src="{filename}image-composite-paste.jpg" alt="image-composite-paste.jpg" />
 </figure>
 
 
@@ -90,15 +90,15 @@ If they are perfectly aligned you can skip the next step. Unless you used a digi
 ## Step 5
 
 <figure>
-<img src="layers6.jpg" alt="layers6.jpg" />
+<img src="{filename}layers6.jpg" alt="layers6.jpg" />
 </figure>
 
 
 <figure>
-<img src="image-composite-move.jpg" alt="image-composite-move.jpg" />
+<img src="{filename}image-composite-move.jpg" alt="image-composite-move.jpg" />
 </figure>
 <figure>
-<img src="image-composite-align.jpg" alt="image-composite-align.jpg" />
+<img src="{filename}image-composite-align.jpg" alt="image-composite-align.jpg" />
 </figure>
 
 
@@ -110,50 +110,50 @@ When you get close to alignment, zoom in to get a good close-up view and get the
 
 ## Step 6
 
-![Add mask options](addmaskoptions.jpg)![Layers](layers7.jpg)
+![Add mask options]({filename}addmaskoptions.jpg)![Layers]({filename}layers7.jpg)
 
 In the Layers dialog, right-click on the upper layer and select Add Layer Mask. In the Add Mask Options dialog, select White (Full Opacity) and click OK.
 
 ## Step 7
 
 <figure>
-<img src="image-select1.jpg" alt="image-select1.jpg" />
+<img src="{filename}image-select1.jpg" alt="image-select1.jpg" />
 </figure>
 <figure>
-<img src="image-fill.jpg" alt="image-fill.jpg" />
+<img src="{filename}image-fill.jpg" alt="image-fill.jpg" />
 </figure>
 
 
 Now I want to paint black (transparency) onto the layer mask wherever I want the lower image to show through.
 
-To minimize painting time, use the hand-select ("lasso"![Lasso](lasso.jpg) ) tool to select a large, hand-drawn region just inside all the borders of the area you want to paint, as shown at right. Then using the fill tool (![Fill](fill.jpg)) fill the selection with black.
+To minimize painting time, use the hand-select ("lasso"![Lasso]({filename}lasso.jpg) ) tool to select a large, hand-drawn region just inside all the borders of the area you want to paint, as shown at right. Then using the fill tool (![Fill]({filename}fill.jpg)) fill the selection with black.
 
 ## Step 8
 
 <figure>
-<img src="brushes1.jpg" alt="brushes1.jpg" />
+<img src="{filename}brushes1.jpg" alt="brushes1.jpg" />
 </figure>
 <figure>
-<img src="image-paint1.jpg" alt="image-paint1.jpg" />
+<img src="{filename}image-paint1.jpg" alt="image-paint1.jpg" />
 </figure>
 
 
-Next, I select a large opaque brush from the Brushes dialog (Dialogs/Brushes), select the Paint tool (![Paint](paint.jpg)) and begin painting into the mask close to the boundaries of the blend.
+Next, I select a large opaque brush from the Brushes dialog (Dialogs/Brushes), select the Paint tool (![Paint]({filename}paint.jpg)) and begin painting into the mask close to the boundaries of the blend.
 
 Notice that I still have the opacity cranked down on the upper layer so that I can see both layers.
 
 ## Step 9
 
 <figure>
-<img src="brushes2.jpg" alt="brushes2.jpg" />
+<img src="{filename}brushes2.jpg" alt="brushes2.jpg" />
 </figure>
 
 
 <figure>
-<img src="image-paint2.jpg" alt="image-paint2.jpg" />
+<img src="{filename}image-paint2.jpg" alt="image-paint2.jpg" />
 </figure>
 <figure>
-<img src="image-donepainting.jpg" alt="image-donepainting.jpg" />
+<img src="{filename}image-donepainting.jpg" alt="image-donepainting.jpg" />
 </figure>
 
 
@@ -164,16 +164,16 @@ While I'm painting, I'll zoom in and out frequently ("=" key to zoom in, "-" key
 ## Step 10
 
 <figure>
-<img src="image-preclone.jpg" alt="image-preclone.jpg" />
+<img src="{filename}image-preclone.jpg" alt="image-preclone.jpg" />
 </figure>
 <figure>
-<img src="image-postclone.jpg" alt="image-postclone.jpg" />
+<img src="{filename}image-postclone.jpg" alt="image-postclone.jpg" />
 </figure>
 
 
 Now the most painstaking part: blending the seams. This is a little tricky due to the different tonalities of the two exposures.
 
-For blending work, the Clone (![Clone](clone.jpg)), Smudge (![Smudge](smudge.jpg)), Airbrush (![Airbrush](airbrush.jpg)) and Blur (![Blur](convolve.jpg)) are my tools of choice.
+For blending work, the Clone (![Clone]({filename}clone.jpg)), Smudge (![Smudge]({filename}smudge.jpg)), Airbrush (![Airbrush]({filename}airbrush.jpg)) and Blur (![Blur]({filename}convolve.jpg)) are my tools of choice.
 
 Since I'm not sure if these tools have the ability to work across layers (as they do in Photoshop), I duplicate the image (<kbd>Ctrl+D</kbd>) and flatten the duplicate (<span class="filter"><Image> Layers -> Flatten Image</span>) and work on it. This has the additional benefit that if I ever mess up the blending job too badly I can always easily start over at this step.
 
@@ -186,7 +186,7 @@ Here I've used primarily clone and a touch of smudge to blend the seams of the t
 ## Final Step
 
 <figure>
-<img src="image-finished.jpg" alt="image-finished.jpg" />
+<img src="{filename}image-finished.jpg" alt="image-finished.jpg" />
 </figure>
 
 

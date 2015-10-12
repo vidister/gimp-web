@@ -10,8 +10,8 @@ Text and images Copyright (C) 2002 [Eric R. Jeschke](mailto:ericNOSPAM@redskiesa
 ## Intention
 
 <figure>
-<img src="before.jpg" alt="before.jpg"/>
-<img src="after.jpg" alt="after.jpg"/>
+<img src="{filename}before.jpg" alt="before.jpg"/>
+<img src="{filename}after.jpg" alt="after.jpg"/>
 </figure>
 
 Images captured by a CCD or CMOS imaging chip will often have some noise present. This noise typically can be seen as RGB "flecks", especially noticable in the in the shadow areas of an image. The red and blue channels are especially susceptible. Higher ISO settings and higher ambient temperatures increase the likelihood of acquiring this noise along with your image.
@@ -25,8 +25,8 @@ One procedure that works reasonably well is to apply the Despeckle filter. Unfor
 ## Step 1
 
 <figure>
-<img src="image-original.jpg" alt="image-original.jpg"/>
-<img src="image-original-zoom100.jpg" alt="image-original-zoom100.jpg"/>
+<img src="{filename}image-original.jpg" alt="image-original.jpg"/>
+<img src="{filename}image-original-zoom100.jpg" alt="image-original-zoom100.jpg"/>
 </figure>
 
 Here is the original image. Notice how bad the noise is, especially in the shadows of the face and in the white wall (back right).
@@ -34,8 +34,8 @@ Here is the original image. Notice how bad the noise is, especially in the shado
 ## Step 2
 
 <figure>
-<img src="despeckle.jpg" alt="despeckle.jpg"/>
-<img src="image-despeckled-zoom100.jpg" alt="image-despeckled-zoom100.jpg"/>
+<img src="{filename}despeckle.jpg" alt="despeckle.jpg"/>
+<img src="{filename}image-despeckled-zoom100.jpg" alt="image-despeckled-zoom100.jpg"/>
 </figure>
 
 Right-click in the image and select `Filters → Enhance → Despeckle`.  
@@ -48,7 +48,7 @@ Unfortunately, you may also notice that the image is softer; the despeckle filte
 ## Step 3
 
 <figure>
-<img src="image-final-zoom100.jpg" alt="image-final-zoom100.jpg"/>
+<img src="{filename}image-final-zoom100.jpg" alt="image-final-zoom100.jpg"/>
 </figure>
 
 For best results, especially with a noisy image, you'll want to use smart sharpening, explained elsewhere on this site.  
@@ -57,8 +57,8 @@ This particular image was edge sharpened on all RGB channels. If you find edge (
 ## Step 4
 
 <figure>
-<img src="image-final.jpg" alt="image-final.jpg"/>
-<img src="image-original.jpg" alt="image-original.jpg"/>
+<img src="{filename}image-final.jpg" alt="image-final.jpg"/>
+<img src="{filename}image-original.jpg" alt="image-original.jpg"/>
 </figure>
 
 Zoomed out (upper left). Compare to the original (upper right) Look at the arm and the white wall in back right. Much better.
@@ -72,8 +72,8 @@ Zoomed out (upper left). Compare to the original (upper right) Look at the arm a
 ## Other Examples
 
 <figure>
-<img src="example2-before.jpg" alt="example2-before.jpg"/>
-<img src="example2-after.jpg" alt="example2-after.jpg"/>
+<img src="{filename}example2-before.jpg" alt="example2-before.jpg"/>
+<img src="{filename}example2-after.jpg" alt="example2-after.jpg"/>
 </figure>
 
 ## Further Reading on Reducing CCD Noise

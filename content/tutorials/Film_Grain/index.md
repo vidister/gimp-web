@@ -24,15 +24,15 @@ This is a subject for another, longer tutorial. But here are the basic steps:
 5.  Flatten the image.
 6.  Choose an interesting area of the noise, and make it into a tileable pattern.
 
-![film-grain-vertical](film-grain-vertical.jpg)([GIMP pattern file](film-grain-vertical.pat))
+![film-grain-vertical]({filename}film-grain-vertical.jpg)([GIMP pattern file](film-grain-vertical.pat))
 
 Some good ways of making tileable patterns include **Make Seamless**, the [Resynthesizer and Homogenizer](http://www.logarithmic.net/pfh/resynthesizer/), mirroring, and hand-editing. You'll have to experiment a bit. In the following example, we'll use a weird, vertically-striped noise pattern. It looks like some kind of scanner noise, or perhaps an artifact of old newsprint.
 
 ## Ruining a Perfectly Good Image
 
 <figure>
-<img src="sailboat-01-original.jpg" alt="sailboat-01-original.jpg" />
-<img src="sailboat-08-grain-masked-rebalanced.jpg" alt="sailboat-08-grain-masked-rebalanced.jpg" />
+<img src="{filename}sailboat-01-original.jpg" alt="sailboat-01-original.jpg" />
+<img src="{filename}sailboat-08-grain-masked-rebalanced.jpg" alt="sailboat-08-grain-masked-rebalanced.jpg" />
 </figure> 
 
 First, desaturate the image. You can do this using 
@@ -44,8 +44,8 @@ or the **Desaturate** filter provided with the MathMap plugin.(The latter actual
 ## Step 2
 
 <figure>
-<img src="sailboat-02-luminosity.jpg" alt="sailboat-02-luminosity.jpg" />
-<img src="sailboat-03-grain.jpg" alt="sailboat-03-grain.jpg" />
+<img src="{filename}sailboat-02-luminosity.jpg" alt="sailboat-02-luminosity.jpg" />
+<img src="{filename}sailboat-03-grain.jpg" alt="sailboat-03-grain.jpg" />
 </figure>
 
 Next add a new layer to the image, and use the bucket to fill it with your tileable noise.
@@ -53,7 +53,7 @@ Next add a new layer to the image, and use the bucket to fill it with your tilea
 ## Step 3
 
 <figure>
-<img src="sailboat-04-grain-added.jpg" alt="sailboat-04-grain-added.jpg" />
+<img src="{filename}sailboat-04-grain-added.jpg" alt="sailboat-04-grain-added.jpg" />
 </figure>
 
 Position the noise layer above the image layer, and set the mode to **Grain Merge**.
@@ -61,7 +61,7 @@ Position the noise layer above the image layer, and set the mode to **Grain Merg
 ## Step 4
 
 <figure>
-<img src="sailboat-05-luminosity-blurred.jpg" alt="sailboat-05-luminosity-blurred.jpg" />
+<img src="{filename}sailboat-05-luminosity-blurred.jpg" alt="sailboat-05-luminosity-blurred.jpg" />
 </figure>
 
 So far, so good. But the noise is too strong in the shadows and highlights of the image. To demphasize it, we can use a layer mask.  
@@ -74,7 +74,7 @@ to swap bright for dark. This will cause the grain to show through strongly in t
 ## Step 5
 
 <figure>
-<img src="sailboat-08-grain-masked-rebalanced.jpg" alt="sailboat-08-grain-masked-rebalanced.jpg" />
+<img src="{filename}sailboat-08-grain-masked-rebalanced.jpg" alt="sailboat-08-grain-masked-rebalanced.jpg" />
 </figure>
 
 Next, use 

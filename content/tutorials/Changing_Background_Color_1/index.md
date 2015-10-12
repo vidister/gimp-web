@@ -7,28 +7,28 @@ Author: Seth Burgess
 
 ## Intention
 
-![pr](pr.png) to ![pr_red](pr_red.png)
+![pr]({filename}pr.png) to ![pr_red]({filename}pr_red.png)
 
 This tutorial shows you how you can efficiently replace the background of an image with another in GIMP, through the use of the color to alpha plug-in. The aim is to show the advantages of using the color to alpha plug-in over selection-based techniques. To illustrate this, this tutorial will use the above images as source and destination. This tutorial doesn't address the complexities of handling real-world photos in this manner, but does briefly discuss it at the end.
 
 ## Why Not a Selection
 
 <figure>
-<img src="problem1.png" alt="problem1.png"/>
-<img src="problem2.png" alt="problem2.png"/>
-<img src="problem3.png" alt="problem3.png"/>
+<img src="{filename}problem1.png" alt="problem1.png"/>
+<img src="{filename}problem2.png" alt="problem2.png"/>
+<img src="{filename}problem3.png" alt="problem3.png"/>
 </figure>
 
 <figure>
-<img src="problem1a.png" alt="problem1a.png"/>
-<img src="problem2a.png" alt="problem2a.png"/>
-<img src="problem3a.png" alt="problem3a.png"/>
+<img src="{filename}problem1a.png" alt="problem1a.png"/>
+<img src="{filename}problem2a.png" alt="problem2a.png"/>
+<img src="{filename}problem3a.png" alt="problem3a.png"/>
 </figure>
 
 <figure>
-<img src="pr1.png" alt="pr1.png"/>
-<img src="pr2.png" alt="pr2.png"/>
-<img src="pr3.png" alt="pr3.png"/>
+<img src="{filename}pr1.png" alt="pr1.png"/>
+<img src="{filename}pr2.png" alt="pr2.png"/>
+<img src="{filename}pr3.png" alt="pr3.png"/>
 </figure>
 
 The common approach to doing many things in GIMP is to first get a good selection. However, when removing an anti-aliased object from its background is not a good idea, as shown above.
@@ -42,7 +42,7 @@ You can spend hours trying to find something that will work perfectly, but you w
 ## Step 1
 
 <figure>
-<img src="menu.png" alt="menu.png"/>
+<img src="{filename}menu.png" alt="menu.png"/>
 </figure>
 
 The first step is to activate the color to alpha plug-in. Its menu location is <span class="filter"><image> Filters -> Colors -> Color To Alpha</span>, where <image> means to right click on the image. If its grayed-out, it means that you have an indexed image. If its not there, upgrade your gimp to 1.2.x.
@@ -50,15 +50,15 @@ The first step is to activate the color to alpha plug-in. Its menu location is <
 ## Step 2
 
 <figure>
-<img src="select_bg.png" alt="select_bg.png"/>
+<img src="{filename}select_bg.png" alt="select_bg.png"/>
 </figure>
 
-Next use the ![picker_button](picker_button.png)Color Picker Tool to select the background color.
+Next use the ![picker_button]({filename}picker_button.png)Color Picker Tool to select the background color.
 
 ## Step 3
 
 <figure>
-<img src="dnd.png" alt="dnd.png"/>
+<img src="{filename}dnd.png" alt="dnd.png"/>
 </figure>
 
 When you used the color picker to select the background, a window with the color popped up. Click, hold, and drag from the color portion of this window to the color portion of the Color To Alpha plug-in. If using Gimp for Windows, you'll have to right-click on the destination button and select the Foreground - drag n' drop doesn't work. Click OK after the color indicator on the Color To Alpha plug-in is changed to blue.
@@ -66,8 +66,8 @@ When you used the color picker to select the background, a window with the color
 ## Step 4
 
 <figure>
-<img src="pr_alpha.png" alt="pr_alpha.png"/>
-<img src="solution_zoom.png" alt="solution_zoom.png"/>
+<img src="{filename}pr_alpha.png" alt="pr_alpha.png"/>
+<img src="{filename}solution_zoom.png" alt="solution_zoom.png"/>
 </figure>
 
 There should now be a nice green and alpha image with no trace of the blue left. Next add the new background.
@@ -75,8 +75,8 @@ There should now be a nice green and alpha image with no trace of the blue left.
 ## Step 5
 
 <figure>
-<img src="layer_create.png" alt="layer_create.png"/>
-<img src="layer_move.png" alt="layer_move.png"/>
+<img src="{filename}layer_create.png" alt="layer_create.png"/>
+<img src="{filename}layer_move.png" alt="layer_move.png"/>
 </figure>
 
 Now create a New Layer (have Foreground set to Red when you do this). Lower the newly created layer.
@@ -84,7 +84,7 @@ Now create a New Layer (have Foreground set to Red when you do this). Lower the 
 ## Final
 
 <figure>
-<img src="pr_red.png" alt="pr_red.png"/>
+<img src="{filename}pr_red.png" alt="pr_red.png"/>
 </figure>
 
 The image should now be green on red, with no trace of blue!

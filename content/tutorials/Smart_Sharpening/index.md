@@ -9,8 +9,8 @@ Text and images Copyright (C) 2002 [Eric R. Jeschke](mailto:ericNOSPAM@redskiesa
 ## Intention
 
 <figure>
-<img src="before.jpg" alt="before.jpg"/>
-<img src="after.jpg" alt="after.jpg"/>
+<img src="{filename}before.jpg" alt="before.jpg"/>
+<img src="{filename}after.jpg" alt="after.jpg"/>
 </figure>
 
 In this tutorial I'll show you how to do smart sharpening of your images. Applying an unsharp mask to an entire image is not always appropriate. A really good example of this is when you have an image with a lot of high ISO noise or film grain; applying across-the-board sharpening will enhance the noise/grain and make it even more visible, especially in large prints. Often there will be large areas of the image that you know you don't want to sharpen (e.g. a blue sky--the blue channel tends to get a lot of noise).
@@ -31,7 +31,7 @@ You may want to maximize your browser window to properly see this tutorial. I di
 ## Step 1
 
 <figure>
-<img src="image-original.jpg" alt="image-original.jpg"/>
+<img src="{filename}image-original.jpg" alt="image-original.jpg"/>
 </figure>
 
 Here's the original image loaded into GIMP. It is noticeably soft, probably due to bad autofocus. It really shows up in prints.
@@ -41,9 +41,9 @@ Here's the original image loaded into GIMP. It is noticeably soft, probably due 
 ## Step 2
 
 <figure>
-<img src="decompose.jpg" alt="decompose.jpg"/>
-<img src="layers1.jpg" alt="layers1.jpg"/><br/>
-<img src="image-lab-decomposed.jpg" alt="image-lab-decomposed.jpg"/>
+<img src="{filename}decompose.jpg" alt="decompose.jpg"/>
+<img src="{filename}layers1.jpg" alt="layers1.jpg"/><br/>
+<img src="{filename}image-lab-decomposed.jpg" alt="image-lab-decomposed.jpg"/>
 </figure>
 
 Duplicate the image by pressing <kbd>Ctrl+D</kbd> or right-click and select <span class="filter"><Image> Image -> Duplicate</span>. It might be wise to minimize the original image window now. You can open it later to compare to the result.
@@ -61,8 +61,8 @@ At this point I usually turn off visibility of the A and B layers in the Layers 
 ## Step 3
 
 <figure>
-<img src="edgedetection.jpg" alt="edgedetection.jpg"/>
-<img src="image-edgedetect-grayscale.jpg" alt="image-edgedetect-grayscale.jpg"/>
+<img src="{filename}edgedetection.jpg" alt="edgedetection.jpg"/>
+<img src="{filename}image-edgedetect-grayscale.jpg" alt="image-edgedetect-grayscale.jpg"/>
 </figure>
 
 Go to the duplicate image. Right-click and select <span class="filter"><Image> Filters -> Edge Detect -> Edge</span>. In the Edge Detect dialog box, select a parameter value of the appropriate size for the edges in your image. You may need to experiment with this. For the example image I chose 6.
@@ -74,8 +74,8 @@ Now convert the edges image to grayscale by right clicking on it and selecting <
 ## Step 4
 
 <figure>
-<img src="levels1.jpg" alt="levels1.jpg"/>
-<img src="image-edgedetect-grayscale-levels1.jpg" alt="image-edgedetect-grayscale-levels1.jpg"/>
+<img src="{filename}levels1.jpg" alt="levels1.jpg"/>
+<img src="{filename}image-edgedetect-grayscale-levels1.jpg" alt="image-edgedetect-grayscale-levels1.jpg"/>
 </figure>
 
 The next step is to adjust the tonality a little so that areas that need sharpening are really white and anything that doesn't need sharpening at all is really black.
@@ -87,8 +87,8 @@ How much you'll need to tweak this really depends on the image. There wasn't a l
 ## Step 5
 
 <figure>
-<img src="iirgaussianblur.jpg" alt="iirgaussianblur.jpg"/>
-<img src="image-edgedetect-grayscale-levels-blur.jpg" alt="image-edgedetect-grayscale-levels-blur.jpg"/>
+<img src="{filename}iirgaussianblur.jpg" alt="iirgaussianblur.jpg"/>
+<img src="{filename}image-edgedetect-grayscale-levels-blur.jpg" alt="image-edgedetect-grayscale-levels-blur.jpg"/>
 </figure>
 
 Now apply a gaussian blur (<span class="filter"><Image> Filters -> Blur -> Gaussian Blur</span>) to smooth out the edges a little. A radius of between 3 and 10 pixels (horizontal and vertical) should be enough. In the example I used 7.
@@ -96,8 +96,8 @@ Now apply a gaussian blur (<span class="filter"><Image> Filters -> Blur -> Gauss
 ## Step 6
 
 <figure>
-<img src="levels2.jpg" alt="levels2.jpg"/>
-<img src="image-edgedetect-grayscale-levels2.jpg" alt="image-edgedetect-grayscale-levels2.jpg"/>
+<img src="{filename}levels2.jpg" alt="levels2.jpg"/>
+<img src="{filename}image-edgedetect-grayscale-levels2.jpg" alt="image-edgedetect-grayscale-levels2.jpg"/>
 </figure>
 
 If you want to you can use Levels again to adjust the white and black points of the mask. I find this is usually a good idea after the blur.
@@ -107,51 +107,51 @@ In this example I pulled the white point slider down a bit.
 ## Step 7
 
 <figure>
-<img src="layers2.jpg" alt="layers2.jpg"/>
-<img src="newchanneloptions.jpg" alt="newchanneloptions.jpg"/><br/>
-<img src="layers3.jpg" alt="layers3.jpg"/>
+<img src="{filename}layers2.jpg" alt="layers2.jpg"/>
+<img src="{filename}newchanneloptions.jpg" alt="newchanneloptions.jpg"/><br/>
+<img src="{filename}layers3.jpg" alt="layers3.jpg"/>
 </figure>
 
 Open the Layers dialog. Select the LAB image (if HSV, value) in the drop down box at the top and then click on the Channels tab.
 
-Click on the new channel button (![newlayer](newlayer.jpg)) at the bottom of the dialog to create a new channel. Name it "Sharpening Mask".
+Click on the new channel button (![newlayer]({filename}newlayer.jpg)) at the bottom of the dialog to create a new channel. Name it "Sharpening Mask".
 
 ## Step 8
 
 <figure>
-<img src="layers4.jpg" alt="layers4.jpg"/>
+<img src="{filename}layers4.jpg" alt="layers4.jpg"/>
 </figure>
 
 <figure>
-<img src="layers5.jpg" alt="layers5.jpg"/>
-<img src="image-lab-pastemask.jpg" alt="image-lab-pastemask.jpg"/>
+<img src="{filename}layers5.jpg" alt="layers5.jpg"/>
+<img src="{filename}image-lab-pastemask.jpg" alt="image-lab-pastemask.jpg"/>
 </figure>
 
 Right-click in the blurred/edges image window and <span class="filter"><Image> Select -> All</span>. Right-click again and select <span class="filter"><Image> Edit -> Copy</span>. (Alternatively you can use keyboard shortcuts <kbd>Ctrl+A</kbd> and <kbd>Ctrl+C</kbd> in succession).
 
 In the Layers dialog, make sure the Sharpening Mask channel is selected. Go back to the LAB (value) window and paste (<span class="filter"><Image> Edit -> Paste</span> or <kbd>Ctrl+V</kbd>).
 
-Select the Layers tab in the Layers dialog and click on the anchor button (![anchor](anchor.jpg)) to anchor the floating image.
+Select the Layers tab in the Layers dialog and click on the anchor button (![anchor]({filename}anchor.jpg)) to anchor the floating image.
 
 ## Step 9
 
 <figure>
-<img src="layers6.jpg" alt="layers6.jpg"/>
-<img src="image-lab-selection.jpg" alt="image-lab-selection.jpg"/>
+<img src="{filename}layers6.jpg" alt="layers6.jpg"/>
+<img src="{filename}image-lab-selection.jpg" alt="image-lab-selection.jpg"/>
 </figure>
 
 Click on the Channels tab in the Layers dialog. You should see a tiny version of the sharpening mask in the channel icon, indicating that you properly pasted the sharpening mask into the new channel. At this point you may wish to click on the eye icon to make the sharpening mask invisible.
 
-Select the Sharpening Mask channel and click the "Channel to Selection" button (![channel-to-selection](channeltoselection.jpg)). You should see "marching ants".
+Select the Sharpening Mask channel and click the "Channel to Selection" button (![channel-to-selection]({filename}channeltoselection.jpg)). You should see "marching ants".
 
 You can experiment with feathering the selection here if you want; I usually don't.
 
 ## Step 10
 
 <figure>
-<img src="layers7.jpg" alt="layers7.jpg"/>
-<img src="unsharpmask.jpg" alt="unsharpmask.jpg"/><br/>
-<img src="image-lab-sharpened-zoomed.jpg" alt="image-lab-sharpened-zoomed.jpg"/>
+<img src="{filename}layers7.jpg" alt="layers7.jpg"/>
+<img src="{filename}unsharpmask.jpg" alt="unsharpmask.jpg"/><br/>
+<img src="{filename}image-lab-sharpened-zoomed.jpg" alt="image-lab-sharpened-zoomed.jpg"/>
 </figure>
 
 **Important:** in the Layers dialog, click on the Layers tab and make sure the luminosity layer (if HSV, Background layer of Value window) is selected, and is the only one selected. We only want to sharpen the luminosity channel.
@@ -165,8 +165,8 @@ Now get rid of the selection (right-click and <span class="filter"><Image> Selec
 ## Step 11
 
 <figure>
-<img src="compose.jpg" alt="compose.jpg"/>
-<img src="image-lab-composed.jpg" alt="image-lab-composed.jpg"/>
+<img src="{filename}compose.jpg" alt="compose.jpg"/>
+<img src="{filename}image-lab-composed.jpg" alt="image-lab-composed.jpg"/>
 </figure>
 
 It's time to reconstruct our original image from the LAB (HSV) components.
@@ -178,9 +178,9 @@ Click OK; this should create a new composite image.
 ## Final Step
 
 <figure>
-<img src="image-original-zoomed100-crop.jpg" alt="image-original-zoomed100-crop.jpg"/>
-<img src="image-luminosityedgesharpened-zoomed100-crop.jpg" alt="image-luminosityedgesharpened-zoomed100-crop.jpg"/><br/>
-<img src="image-regularsharpened-zoomed100-crop.jpg" alt="image-regularsharpened-zoomed100-crop.jpg"/>
+<img src="{filename}image-original-zoomed100-crop.jpg" alt="image-original-zoomed100-crop.jpg"/>
+<img src="{filename}image-luminosityedgesharpened-zoomed100-crop.jpg" alt="image-luminosityedgesharpened-zoomed100-crop.jpg"/><br/>
+<img src="{filename}image-regularsharpened-zoomed100-crop.jpg" alt="image-regularsharpened-zoomed100-crop.jpg"/>
 </figure>
 
 Examine the resulting image, zooming in to examine edge detail.
@@ -214,24 +214,24 @@ Check out the shadow noise in the larger images on the [smart sharpening shortcu
 Here is what you'll see if you compare them:
 
 <figure>
-<img src="gradient.jpg" alt="gradient.jpg"/>
-<img src="gradient-composed.jpg" alt="gradient-composed.jpg"/>
+<img src="{filename}gradient.jpg" alt="gradient.jpg"/>
+<img src="{filename}gradient-composed.jpg" alt="gradient-composed.jpg"/>
 </figure>
 
 Left image: Gradient in RGB  
 Right image: RGB -> LAB -> RGB
 
 <figure>
-<img src="gradient-hist.jpg" alt="gradient-hist.jpg"/>
-<img src="gradient-composed-hist.jpg" alt="gradient-composed-hist.jpg"/>
+<img src="{filename}gradient-hist.jpg" alt="gradient-hist.jpg"/>
+<img src="{filename}gradient-composed-hist.jpg" alt="gradient-composed-hist.jpg"/>
 </figure>
 
 Left image: Histogram of the RGB image.  
 Right image: Histogram of the RGB -> LAB -> RGB image.
 
 <figure>
-<img src="gradient-zoomed400.jpg" alt="gradient-zoomed400.jpg"/>
-<img src="gradient-composed-zoomed400.jpg" alt="gradient-composed-zoomed400.jpg"/>
+<img src="{filename}gradient-zoomed400.jpg" alt="gradient-zoomed400.jpg"/>
+<img src="{filename}gradient-composed-zoomed400.jpg" alt="gradient-composed-zoomed400.jpg"/>
 </figure>
 
 Left image: Zoom 400% of the RGB image.  
@@ -244,8 +244,8 @@ You are now thinking to yourself, "Good grief! Why on earth would he suggest cha
 Look at the histograms of the original image and the one smart sharpened on the luminosity channel:
 
 <figure>
-<img src="original-hist.jpg" alt="original-hist.jpg"/>
-<img src="smartsharpened-hist.jpg" alt="smartsharpened-hist.jpg"/>
+<img src="{filename}original-hist.jpg" alt="original-hist.jpg"/>
+<img src="{filename}smartsharpened-hist.jpg" alt="smartsharpened-hist.jpg"/>
 </figure>
 
 Left image: Histogram, original image  
@@ -258,12 +258,12 @@ What should you do? I suggest trying it and look at the histogram! This is the b
 ## Other Examples
 
 <figure>
-<img src="example1-original-crop.jpg" alt="example1-original-crop.jpg"/>
+<img src="{filename}example1-original-crop.jpg" alt="example1-original-crop.jpg"/>
 </figure>
 
 <figure>
-<img src="example1-regularsharpened-crop.jpg" alt="example1-regularsharpened-crop.jpg"/>
-<img src="example1-luminosityedgesharpened-crop.jpg" alt="example1-luminosityedgesharpened-crop.jpg"/>
+<img src="{filename}example1-regularsharpened-crop.jpg" alt="example1-regularsharpened-crop.jpg"/>
+<img src="{filename}example1-luminosityedgesharpened-crop.jpg" alt="example1-luminosityedgesharpened-crop.jpg"/>
 </figure>
 
 First image: Original (pretty noisy)  
@@ -273,8 +273,8 @@ Right image: Smart sharpened
 This example is kind of contrived. It doesn't really need much sharpening in the first place, and the smart-sharpened version looks over-sharpened. I include it here mainly because it is pretty noisy, so it really shows what happens when you sharpen noise, and how the smart sharpening technique doesn't affect the noise. For details on reducing CCD noise (using this image as an example), [see this tutorial](/tutorials/Reducing_CCD_Noise/).
 
 <figure>
-<img src="example2-edgesharpened-384x384.jpg" alt="example2-edgesharpened-384x384.jpg"/>
-<img src="example2-regsharpened-384x384.jpg" alt="example2-regsharpened-384x384.jpg"/>
+<img src="{filename}example2-edgesharpened-384x384.jpg" alt="example2-edgesharpened-384x384.jpg"/>
+<img src="{filename}example2-regsharpened-384x384.jpg" alt="example2-regsharpened-384x384.jpg"/>
 </figure>
 
 Left image: Edge sharpened (Amt=1.25)  

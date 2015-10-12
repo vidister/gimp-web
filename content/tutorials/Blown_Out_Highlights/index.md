@@ -8,8 +8,8 @@ Author: Eric R. Jeschke
 ## Intention
 
 <figure>
-<img src="before.jpg" alt="Before">
-<img src="after.jpg" alt="After">
+<img src="{filename}before.jpg" alt="Before">
+<img src="{filename}after.jpg" alt="After">
 </figure>
 
 In this tutorial I'll show you how to salvage an image that has blown out highlights. This is a problem that is familiar to photographers shooting transparency film, which has an effective contrast range of about 5 stops. If you are not careful with your exposure you can easily lose all detail in your highlight areas, with no way to get it back: they "blow out" to clear (white).
@@ -23,7 +23,7 @@ The basic technique is to graft matching areas of the image into the burned out 
 ## Step 1
 
 <figure>
-<img src="original.jpg" alt="original.jpg"/>
+<img src="{filename}original.jpg" alt="original.jpg"/>
 </figure>
 
 Here is the original image.
@@ -37,7 +37,7 @@ Great image...could I rescue it?
 ## Step 2
 
 <figure>
-<img src="colorpicker1.jpg" alt="colorpicker1.jpg"/>
+<img src="{filename}colorpicker1.jpg" alt="colorpicker1.jpg"/>
 </figure>
 
 Using the color picker tool, you can see that there is no usable information left in the highlight. Pure white, of course, is 255/255/255.
@@ -47,8 +47,8 @@ If there had been some detail left here I might have tried a variation on the co
 ## Step 3
 
 <figure>
-<img src="threshold.jpg" alt="threshold.jpg"/>
-<img src="threshold-image.jpg" alt="threshold-image.jpg"/>
+<img src="{filename}threshold.jpg" alt="threshold.jpg"/>
+<img src="{filename}threshold-image.jpg" alt="threshold-image.jpg"/>
 </figure>
 
 
@@ -63,13 +63,13 @@ This causes all the pixels in the image from 250-255 to go white and all the oth
 ## Step 4
 
 <figure>
-<img src="channels1.jpg" alt="channels1.jpg"/>
-<img src="newchanneloptions.jpg" alt="newchanneloptions.jpg"/>
+<img src="{filename}channels1.jpg" alt="channels1.jpg"/>
+<img src="{filename}newchanneloptions.jpg" alt="newchanneloptions.jpg"/>
 </figure>
 
 <figure>
-<img src="channels2.jpg" alt="channels2.jpg"/>
-<img src="image-channel.jpg" alt="image-channel.jpg"/>
+<img src="{filename}channels2.jpg" alt="channels2.jpg"/>
+<img src="{filename}image-channel.jpg" alt="image-channel.jpg"/>
 </figure>
 
 Go back to the original image, and bring up the Layers and Channels dialog (<span class="filter"><Image> Layers -> Layers, Channels & Paths</span>, or <kbd>Ctrl+L</kbd>). Click on the Channels tab and add a new channel by clicking on the new channel button.
@@ -77,15 +77,15 @@ Go back to the original image, and bring up the Layers and Channels dialog (<spa
 ## Step 5
 
 <figure>
-<img src="image-channel-paste.jpg" alt="image-channel-paste.jpg"/>
+<img src="{filename}image-channel-paste.jpg" alt="image-channel-paste.jpg"/>
 </figure><figure>
-<img src="channels3.jpg" alt="channels3.jpg"/>
+<img src="{filename}channels3.jpg" alt="channels3.jpg"/>
 </figure>
 
 <figure>
-<img src="layers1.jpg" alt="layers1.jpg"/>
+<img src="{filename}layers1.jpg" alt="layers1.jpg"/>
 </figure><figure>
-<img src="layers2.jpg" alt="layers2.jpg"/>
+<img src="{filename}layers2.jpg" alt="layers2.jpg"/>
 </figure>
 
 Go back to the threshold image, <span class="filter"><Image> Select -> All</span> (<kbd>Ctrl+A</kbd>) and <span class="filter"><Image> Edit -> Copy</span> (<kbd>Ctrl+C</kbd>).
@@ -99,9 +99,9 @@ You can close the threshold image now.
 ## Step 6
 
 <figure>
-<img src="featherselection.jpg" alt="featherselection.jpg"/>
+<img src="{filename}featherselection.jpg" alt="featherselection.jpg"/>
 </figure><figure>
-<img src="image2.jpg" alt="image2.jpg"/>
+<img src="{filename}image2.jpg" alt="image2.jpg"/>
 </figure>
 
 Click on the Channels tab again, and right click on the new channel and select Channel to Selection (<kbd>Ctrl+S</kbd>). You may want to also click on the eye beside the channel to turn off visibility of the channel.
@@ -113,11 +113,11 @@ Finally (important!), click back on the Layers tab and select the Background lay
 ## Step 7
 
 <figure>
-<img src="tooloptions-clone.jpg" alt="tooloptions-clone.jpg"/>
+<img src="{filename}tooloptions-clone.jpg" alt="tooloptions-clone.jpg"/>
 </figure><figure>
-<img src="brushes1.jpg" alt="brushes1.jpg"/>
+<img src="{filename}brushes1.jpg" alt="brushes1.jpg"/>
 </figure><figure>
-<img src="image3.jpg" alt="image3.jpg"/>
+<img src="{filename}image3.jpg" alt="image3.jpg"/>
 </figure>
 
 Now the real work begins.
@@ -133,33 +133,33 @@ Zoom in and clone until you have the area filled with a realistic facimile of th
 ## Step 8
 
 <figure>
-<img src="tooloptions-colorpicker.jpg" alt="tooloptions-colorpicker.jpg"/>
-<img src="colorpicker2.jpg" alt="colorpicker2.jpg"/>
-<img src="tooloptions-airbrush.jpg" alt="tooloptions-airbrush.jpg"/>
+<img src="{filename}tooloptions-colorpicker.jpg" alt="tooloptions-colorpicker.jpg"/>
+<img src="{filename}colorpicker2.jpg" alt="colorpicker2.jpg"/>
+<img src="{filename}tooloptions-airbrush.jpg" alt="tooloptions-airbrush.jpg"/>
 </figure>
 
 <figure>
-<img src="brushes2.jpg" alt="brushes2.jpg"/>
-<img src="tooloptions-smudge.jpg" alt="tooloptions-smudge.jpg"/>
-<img src="tooloptions-convolve.jpg" alt="tooloptions-convolve.jpg"/>
+<img src="{filename}brushes2.jpg" alt="brushes2.jpg"/>
+<img src="{filename}tooloptions-smudge.jpg" alt="tooloptions-smudge.jpg"/>
+<img src="{filename}tooloptions-convolve.jpg" alt="tooloptions-convolve.jpg"/>
 </figure>
 
 <figure>
-<img src="brushes3.jpg" alt="brushes3.jpg"/>
-<img src="brushes4.jpg" alt="brushes4.jpg"/>
+<img src="{filename}brushes3.jpg" alt="brushes3.jpg"/>
+<img src="{filename}brushes4.jpg" alt="brushes4.jpg"/>
 </figure>
 
 <figure>
-<img src="image4.jpg" alt="image4.jpg"/>
-<img src="image5.jpg" alt="image5.jpg"/>
+<img src="{filename}image4.jpg" alt="image4.jpg"/>
+<img src="{filename}image5.jpg" alt="image5.jpg"/>
 </figure>
 
 This step is where the most difficult work occurs. I must by necessity abbreviate this step, since it involves iterations of applying the following tools:
 
-*   ![smudge](smudge.jpg) smudge
-*   ![clone](clone.jpg) clone
-*   ![airbrush](airbrush.jpg)![colorpicker](colorpicker.jpg) airbrush (w/color picker)
-*   ![convolve](convolve.jpg) convolve (blur)
+*   ![smudge]({filename}smudge.jpg) smudge
+*   ![clone]({filename}clone.jpg) clone
+*   ![airbrush]({filename}airbrush.jpg)![colorpicker]({filename}colorpicker.jpg) airbrush (w/color picker)
+*   ![convolve]({filename}convolve.jpg) convolve (blur)
 
 Basically, smudge is your friend after a serious cloning job like this to clean up the transitions. Smudge around all the edges of the clone. The clone tool can also be used again here and there for "mop-up" work.
 
@@ -178,14 +178,14 @@ Right Image: zoomed view after the clone (previous step) and after this step.
 ## Step 9
 
 <figure>
-<img src="before-512x384.jpg" alt="before-512x384.jpg"/>
+<img src="{filename}before-512x384.jpg" alt="before-512x384.jpg"/>
 <figcaption>
 Original
 </figcaption>
 </figure>
 
 <figure>
-<img src="after-512x384.jpg" alt="after-512x384.jpg"/>
+<img src="{filename}after-512x384.jpg" alt="after-512x384.jpg"/>
 <figcaption>
 Finished
 </figcaption>

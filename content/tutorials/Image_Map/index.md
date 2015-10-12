@@ -8,7 +8,7 @@ Author: Carol Spears
 ## Intention
 
 <figure>
-<img src="imap-table1-1-0.png" alt="imap-table1-1-0.png"/> <img src="dialog-imagemap-t.png" alt="dialog-imagemap-t.png"/>
+<img src="{filename}imap-table1-1-0.png" alt="imap-table1-1-0.png"/> <img src="{filename}dialog-imagemap-t.png" alt="dialog-imagemap-t.png"/>
 </figure>
 
 In my opinion, it is hard to come up with a good application for an image map. For many online applications, it is simply overkill. However, to emulate the behavior of a GIMP Dialog seems to be a perfect place for this powerful web tool.
@@ -20,7 +20,7 @@ Above is a screenshot of the GIMP Image Map Plug-in, it has been scaled down for
 ## 1\. Goodies->Create Guides
 
 <figure>
-<img src="dialog-createguides.png" alt="dialog-createguides.png"/> <img src="imagemap1-zoom.png" alt="imagemap1-zoom.png"/>
+<img src="{filename}dialog-createguides.png" alt="dialog-createguides.png"/> <img src="{filename}imagemap1-zoom.png" alt="imagemap1-zoom.png"/>
 </figure>
 
 This is a screenshot of the Create Guides Dialog (left image). We get to change every single option before we are done. Whee!
@@ -36,7 +36,7 @@ You can do the math or count the squares, but the Visibone2 palette has 16 color
 ## 2\. Map Image
 
 <figure>
-<img src="dialog-guides-image.png" alt="dialog-guides-image.png"/>
+<img src="{filename}dialog-guides-image.png" alt="dialog-guides-image.png"/>
 </figure>
 
 Once you hit "Apply" the guides will draw themselves on the image map preview window. You can see if you hit the right places on your image. This tutorial certainly makes it look like I got it right the first time ;)
@@ -46,7 +46,7 @@ At this point, for this project, you can jump right to "4\. File Save"as it is t
 ## 3\. Table Editor
 
 <figure>
-<img src="dialog-guides-urlset.png" alt="dialog-guides-urlset.png"/>
+<img src="{filename}dialog-guides-urlset.png" alt="dialog-guides-urlset.png"/>
 </figure>
 
 Since 256 elements is way to much to edit by hand, so I ended up using a different way to finish the information at each point. However, I played with the editor a bit. It was easy to use and figure out. Highlight the text in the pictured portion of the Image Map Dialog area by clicking on the area in the image preview. (shown above). Honestly, I don't have that much experience with html renderers, if you have the experience and would like to fill this portion of the tutorial in with something smart about editing your image map elements, feel free. I fully admit that I only used a small small part of this great plug-ins ability. 256 elements was out of the reach of my short attention span.

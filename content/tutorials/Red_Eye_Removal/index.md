@@ -17,7 +17,7 @@ It used to be that the photos with red eye weren't really worth fixing as only c
 ## Step 1
 
 <figure>
-<img src="zoom1.png" alt="zoom1.png"/>
+<img src="{filename}zoom1.png" alt="zoom1.png"/>
 </figure>
 
 I zoomed in on the image, 4:1 ratio, as this is almost pixel by pixel work. I ended up using the 5 x 5 fuzzy brush that came with the GIMP tarball. As usual, your choice depends on the resolution of your image. A fuzzy brush is highly recommended. On this web sized image, the 3 x 3 fuzzy brush didn't work fast enough. As always, you can `Edit → Undo` until you make the right selections.
@@ -25,7 +25,7 @@ I zoomed in on the image, 4:1 ratio, as this is almost pixel by pixel work. I en
 ## Step 2
 
 <figure>
-<img src="dialog-channels-sm.png" alt="dialog-channels-sm.png"/>
+<img src="{filename}dialog-channels-sm.png" alt="dialog-channels-sm.png"/>
 </figure>
 
 A long time ago, someone suggested on the gimp-user list that the Layers, Channels and Paths Dialog always remain open while you use GIMP. Some three years later, I still follow and give this advice. So, if your Layers,Channels and Paths Dialog is not open, open it and leave it open. Select the Channels Tab. Deactivate the Green and Blue Channels by clicking to the right of the thumbnails in the dialog window.  
@@ -35,19 +35,19 @@ The image should still look like the screenshot of the close up in step 1. If it
 ## Step 3
 
 <figure>
-<img src="burnopts-sm.png" alt="burnopts-sm.png"/>
+<img src="{filename}burnopts-sm.png" alt="burnopts-sm.png"/>
 </figure>
 
 Make certain you have a good brush selected (for this image I used the 5 x 5 fuzzy) Then select the Dodge and Burn Tool. 
 
-<img src="dodgeorburn.png" alt="dodgeorburn.png"/> Double click on the button to get the Tool Options dialog. My dialog defaults to dodge and midtones, for this project, choose burn and hightlights (as illustrated). Touch all of the red in the eyes with the burn tool. I think that I used the burn tool on the midtones just a little bit also. GIMP doesn't have a magic button to fix red eyes with, but it has the tools. It has been my experience that each image is slightly different and I sort of like the control that GIMP gives you...  
+<img src="{filename}dodgeorburn.png" alt="dodgeorburn.png"/> Double click on the button to get the Tool Options dialog. My dialog defaults to dodge and midtones, for this project, choose burn and hightlights (as illustrated). Touch all of the red in the eyes with the burn tool. I think that I used the burn tool on the midtones just a little bit also. GIMP doesn't have a magic button to fix red eyes with, but it has the tools. It has been my experience that each image is slightly different and I sort of like the control that GIMP gives you...  
 
 tigert warned that this method can leave the white spots in the eyes slightly green. I have found this to be true, however so far it hasn't been enough green to worry about. Given a photo where the green will make a difference, you can use the same tool combination on the green channel, just move the opacity slider to a smaller percentage. `Edit → Undo` until you get it right.
 
 ## Final
 
 <figure>
-<img src="zoom2.png" alt="zoom2.png"/>
+<img src="{filename}zoom2.png" alt="zoom2.png"/>
 </figure>
 
 ... looking so much better!  
@@ -57,7 +57,7 @@ The very best fix, of course would be to prevent it from happening. Due to the n
 Other personalities have other portrait problems. There is a small handful of people who have no problem looking into the camera lens, but anticipate the flash and blink at the wrong moment. This causes the portrait to look like the object is starting to sneeze. (this is what happens to me) If you know of a method to prevent this, please email me.
 
 <figure>
-<img src="swimming2.jpg" alt="swimming2.jpg"/>
+<img src="{filename}swimming2.jpg" alt="swimming2.jpg"/>
 </figure>
 
 What a cute baby. This is Maurits and his baby. He is one of a growing list of developers that are changing their babies while working on GIMP. I watched work on WinGIMP occuring between diaper changings and feedings also. *chuckle*

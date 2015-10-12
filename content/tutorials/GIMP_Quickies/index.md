@@ -35,7 +35,7 @@ The image we’ll be using to illustrate this with is [The Horsehead Nebula in I
 When you first open your image in GIMP, chances are that the image will be zoomed so that the entire image fits in your canvas. The thing to notice for this example is that by default the window decoration at the top of GIMP will show you some information about the image.
 
 <figure>
-<img src="Scale-View-Pixel-Size-Original.png" alt="Test">
+<img src="{filename}Scale-View-Pixel-Size-Original.png" alt="Test">
 <figcaption>
 View of the GIMP canvas, with information at the top of the window.
 </figcaption>
@@ -169,7 +169,7 @@ Or you can access the crop tool through the menus:
 
 <div class="MenuCmd"><span><span style="text-decoration: underline;">T</span>ools → <span style="text-decoration: underline;">T</span>ransform Tools → <span style="text-decoration: underline;">C</span>rop</span></div>
 
-![GIMP Crop Tool cursor](Crop-Cursor.png)Once the tool is activated, you’ll notice that your mouse cursor on the canvas will change to indicate the **Crop Tool** is being used.
+![GIMP Crop Tool cursor]({filename}Crop-Cursor.png)Once the tool is activated, you’ll notice that your mouse cursor on the canvas will change to indicate the **Crop Tool** is being used.
 
 Now you can Left-Click anywhere on your image canvas, and drag the mouse to a new location to highlight an initial selection to crop. You don’t have to worry about being exact at this point, as you will be able to modify the final selection before actually cropping.
 
