@@ -12,7 +12,7 @@ Status: hidden
 A whole new default icon theme has been created for 2.4\. The icons comply with the [Tango style guidelines](http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines) so GIMP doesn't feel out of place on any of the supported platforms. Regardless of whether you run GIMP under Microsoft Windows, Mac OS X or GNU/Linux ([GNOME](http://www.gnome.org/), [KDE](http://www.kde.org/) or [Xfce](http://www.xfce.org/)), GIMP provides a polished, consistent look.
 
 <figure>
-<img src="images/2.4-refreshed-look.png" alt="Refreshed Look"/>
+<img src="{filename}images/2.4-refreshed-look.png" alt="Refreshed Look"/>
 </figure>
 
 Additionally the icons also have enhanced usability on dark widget themes, which is a common setting among digital artists.
@@ -22,7 +22,7 @@ For artists preferring more desaturated color theme for their icons, an [alterna
 ### Scalable Brushes
 
 <figure>
-<img src="images/2.4-scalable-brushes.png" alt="Scalable Brushes"/>
+<img src="{filename}images/2.4-scalable-brushes.png" alt="Scalable Brushes"/>
 </figure>
 
 The tool options now include a brush size slider that affects both the parametric and bitmap brushes. This has been an oft-requested feature from both digital painters and photo editors.
@@ -32,7 +32,7 @@ Unlike previous versions of GIMP, regardless of whether you're using a bitmap br
 ### Selection Tools
 
 <figure>
-<img src="images/2.4-selection-tools.png" alt="Selection Tools"/>
+<img src="{filename}images/2.4-selection-tools.png" alt="Selection Tools"/>
 </figure>
 
 The selection tools have been rewritten from scratch to allow resizing of existing selections. Additionally the rectangular selection tool includes a setting for creating rounded corners as this has been identified as a very common task among web designers.
@@ -43,9 +43,9 @@ While the tools have been redesigned to make them easier to understand for the n
 
 ### Foreground Select Tool
 
-[<figure>
-<img src="images/2.4-video-fgselect.jpg" alt="Foreground Select Demo"/>
-</figure>](http://video.google.com/videoplay?docid=2540655610648907719)
+<figure>
+<img src="{filename}images/2.4-video-fgselect.jpg" alt="Foreground Select Demo"/>
+</figure>
 
 Selecting individual objects on images is easier now with a new foreground select tool. It is done in two steps. First, you make select region of interest which contains the entire object. Then you paint over selected area with a brush, not crossing object’s border. Release mouse button when you’re done and look, if there are dark blue spots on your objects. If there are some, paint with a brush over them again and release to refine selection. When there are no more blue areas inside the object, press Enter and there you have a perfectly selected object.
 
@@ -54,7 +54,7 @@ Selecting individual objects on images is easier now with a new foreground selec
 ### Align Tool
 
 <figure>
-<img src="images/2.4-align-tool.png" alt="Align Tool"/>
+<img src="{filename}images/2.4-align-tool.png" alt="Align Tool"/>
 </figure>
 
 While GIMP has provided a grid and guideline functionality, the actual alignment of objects had to be done manually. In a few clicks, the new Align Tool allows you to align or distribute a list of layers, paths or guides. You can align these objects with another object, with the selection or with the image.
@@ -68,7 +68,7 @@ In the new version of GIMP, some menu entries have changed their names and posit
 ### Improved display when zooming in or out
 
 <figure>
-<img src="images/2.4-zoom-display.png" alt="Zoomed out display"/>
+<img src="{filename}images/2.4-zoom-display.png" alt="Zoomed out display"/>
 </figure>
 
 Previous versions of GIMP used a fast but inaccurate way of displaying images at various zoom levels. When zooming out, some rows and columns of pixels where simply omitted from the display. The result was sometimes confusing, especially if the image contained many thin lines or small features. GIMP 2.4 avoids these problems and provides a better view of the zoomed-out images.
@@ -92,9 +92,9 @@ Whether painting or touching up photos, fullscreen editing keeps all the distrac
 
 ### Color Management and Soft-proofing
 
-[<figure>
-<img src="images/2.4-color-management.png" alt="Color Management"/>
-</figure>](gimp-2.4-cm.html)
+<figure>
+<img src="{filename}images/2.4-color-management.png" alt="Color Management"/>
+</figure>
 
 GIMP now provides full support for color profiles allowing precise color modification throughout the whole 'digital darkroom' process.
 
@@ -103,7 +103,7 @@ For more information, see [color management](gimp-2.4-cm.html).
 ### New Crop Tool
 
 <figure>
-<img src="images/2.4-crop-tool.png" alt="Crop Tool"/>
+<img src="{filename}images/2.4-crop-tool.png" alt="Crop Tool"/>
 </figure>
 
 Just like the selection tools, the new crop tool has been enhanced since the last release. The resize handles actually resize the crop rectangle instead of providing both resize and move functionality. The tool behaves more naturally and consistently with other GIMP tools.
@@ -113,7 +113,7 @@ To move, simply drag the rectangle clicking within the area. Resizing is possibl
 ### Improved Printing
 
 <figure>
-<img src="images/gimp-24-print-dark.png" alt="Improved Printing"/>
+<img src="{filename}images/gimp-24-print-dark.png" alt="Improved Printing"/>
 </figure>
 
 Printing has been largely improved. GIMP makes use of the advancements in the gtk+ printing API so that you can control all aspects of the printout with an easy to understand interface and immediate preview.
@@ -124,9 +124,9 @@ While numerous red-eye workflows exist already, GIMP now features a very conveni
 
 ### Perspective Clone
 
-[<figure>
-<img src="images/2.4-video-perspective.jpg" alt="Perspective Clone Demo"/>
-</figure>](http://video.google.com/videoplay?docid=-3077868802879051003)
+<figure>
+<img src="{filename}images/2.4-video-perspective.jpg" alt="Perspective Clone Demo"/>
+</figure>
 
 A common task in image editing is to copy pixels from somewhere in an image to somewhere else. Traditionally this has been done using the Clone Tool. To make it easy to perform cloning while taking the perspective of an image into account, a new Perspective Clone Tool has been added to GIMP.
 
@@ -134,9 +134,9 @@ A common task in image editing is to copy pixels from somewhere in an image to s
 
 ### Lens Distortion
 
-[<figure>
-<img src="images/2.4-video-lens.jpg" alt="Lens Distortion Demo"/>
-</figure>](http://video.google.com/videoplay?docid=1146746790574496439)
+<figure>
+<img src="{filename}images/2.4-video-lens.jpg" alt="Lens Distortion Demo"/>
+</figure>
 
 A very common problem exposing itself especially when using cheaper lenses or expensive lenses pushed to their limits, is barrel distortion and vignetting. Luckily GIMP provides a brand new filter to compensate for both problems. Saving photographer's pocket is our mission!
 
@@ -151,7 +151,7 @@ When editing photographs, it is usually better to work with a lossless image for
 In addition to all the above, GIMP has been improved in other areas. For instance, better status information and some hints have been added in the status bar of the image windows. You can easily discover new features and new shortcuts by trying the various keys and modifiers that are suggested while you are using the tools.
 
 <figure>
-<img src="images/2.4-statusbar-tips.png" alt="Hints in the status bar"/>
+<img src="{filename}images/2.4-statusbar-tips.png" alt="Hints in the status bar"/>
 </figure>
 
 A number of changes has gone into plug-ins and scripts. First of all, a new preview widget for plug-ins was introduced. Now you can zoom in and out using the mouse wheel or +/- buttons in plug-in dialogs and pan around.
@@ -161,7 +161,7 @@ Several plug-ins like Gaussian Blur, Selective Gaussian Blur and Value Invert ha
 You will also note that the new Screenshot plug-in offers more sophisticated options and is far easier to use.
 
 <figure>
-<img src="images/2.4-screenshot-plugin.png" alt="Screenshot plug-in"/>
+<img src="{filename}images/2.4-screenshot-plugin.png" alt="Screenshot plug-in"/>
 </figure>
 
 GIMP 2.4 features a brand new Scheme interpreter that provides better debugging, handles UTF-8 coded characters and strings, has regex based pattern matching and many more useful features that power users were requesting. The latter will be pleased to find out that plug-ins and scripts can register menu entries in the &lt;Brushes&gt;, &lt;Gradients&gt;, &lt;Palettes&gt;, &lt;Patterns&gt; and &lt;Fonts&gt; menus now. Also, a fair amount of new scripts were added: reversing the order of layers, sorting color palettes etc. A few scripts that were using incorrect or deprecated constructs may have to be updated. A [Script-Fu migration guide](/docs/script-fu-update.html) lists the most common errors and how to fix them.

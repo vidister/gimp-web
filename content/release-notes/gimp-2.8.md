@@ -13,7 +13,7 @@ GIMP 2.8 is the result of three years of hard work and collaborative developmen
 ### Single-Window Mode
 
 <figure>
-<img src="images/2.8-single-window-mode.png" alt="Single-window mode screenshot" />
+<img src="{filename}images/2.8-single-window-mode.png" alt="Single-window mode screenshot" />
 </figure>
 
 GIMP 2.8 introduces an optional single-window mode. You can toggle between the default multi-window mode and the new single-window mode through the _Single-window mode_ checkbox in the _Windows_ menu. In single-window mode, GIMP will put dockable dialogs and images in a single, tabbed image window. The single-window mode setting is of course preserved if you quit and start GIMP again. Single-window mode removes the necessity for users of having to deal with multiple windows.  
@@ -23,7 +23,7 @@ GIMP 2.8 introduces an optional single-window mode. You can toggle between the 
 ### Multi-Column Dock Windows
 
 <figure>
-<img src="images/2.8-multi-column-dock-windows.png" alt="Multi-column dock windows screenshot" />
+<img src="{filename}images/2.8-multi-column-dock-windows.png" alt="Multi-column dock windows screenshot" />
 </figure>
 
 GIMP 2.8 allows dockable dialogs in a dock window to be placed in multiple columns. To create a new column in a dock window, drag and drop a dockable dialog on the vertical edges of the dock window. This is an appealing feature for multi-monitor users where one screen can have a big dock window with all the dialogs and the tools, while all images are on other displays.  
@@ -33,7 +33,7 @@ GIMP 2.8 allows dockable dialogs in a dock window to be placed in multiple colu
 ### More Screen Real Estate For Dockable Dialogs
 
 <figure>
-<img src="images/2.8-removed-docking-bars.png" alt="Removed docking bars screenshot" />
+<img src="{filename}images/2.8-removed-docking-bars.png" alt="Removed docking bars screenshot" />
 </figure>
 
 The docking bars have been removed and replaced with overlaid highlights. The dockable drag handle has been removed and the dockable menu button has been moved up to the tabs. A new Automatic tab style has been added which makes dockable tabs use the available space.  
@@ -42,7 +42,7 @@ The docking bars have been removed and replaced with overlaid highlights. The do
 ### Save And Export
 
 <figure>
-<img src="images/2.8-save-and-export.png" alt="Save and export screenshot" />
+<img src="{filename}images/2.8-save-and-export.png" alt="Save and export screenshot" />
 </figure>
 
 A rather big conceptual change is that saving and exporting images now are clearly separated activities. Saving an image can only be done in the XCF format which is GIMP's native file format, able to save all kinds of information necessary for works in progress.
@@ -54,7 +54,7 @@ To export into other formats _File->Export..._ needs to be used. This distinctio
 ### Layer Groups
 
 <figure>
-<img src="images/2.8-layer-groups.png" alt="Layer groups screenshot" />
+<img src="{filename}images/2.8-layer-groups.png" alt="Layer groups screenshot" />
 </figure>
 
 For complex compositions, a flat layer structure is very limiting. GIMP 2.8 lets users organize their compositions better through the introduction of layer groups which allow layers to be organized in tree-like structures. Layer groups are fully scriptable through the GIMP plug-in API.  
@@ -63,7 +63,7 @@ For complex compositions, a flat layer structure is very limiting. GIMP 2.8 let
 ### Tools Drawn With Cairo
 
 <figure>
-<img src="images/2.8-tools-drawn-with-cairo.png" alt="Tools drawn with cairo screenshot" />
+<img src="{filename}images/2.8-tools-drawn-with-cairo.png" alt="Tools drawn with cairo screenshot" />
 </figure>
 
 All tools rendering on canvas have been ported to Cairo to provide smooth antialiased graphics and make GIMP's look and feel match modern users expectations. All but a few plug-ins have been ported over to Cairo as well. Additionally all tools now use an on-canvas progress indicator instead of the one in the statusbar.  
@@ -72,7 +72,7 @@ All tools rendering on canvas have been ported to Cairo to provide smooth antial
 ### On-Canvas Text Editing
 
 <figure>
-<img src="images/2.8-on-canvas-text-editing.png" alt="On-canvas text editing screenshot" />
+<img src="{filename}images/2.8-on-canvas-text-editing.png" alt="On-canvas text editing screenshot" />
 </figure>
 
 Text editing with the Text Tool is now performed on-canvas instead of in a separate window. The editing on-canvas is rather sophisticated: apart from the usual text formatting features like font family, style and size selectors you get numeric control over baseline offset and kerning, as well as the ability to change text color for a selection. You can also use a combination of Alt and arrow keys to change baseline offset and kerning. This feature was originally developed during Google Summer of Code 2008 and heavily improved since.  
@@ -86,7 +86,7 @@ Since the keyboard shortcuts Ctrl+E and Ctrl+Shift+E have been repurposed for th
 ### Simple Math In Size Entries
 
 <figure>
-<img src="images/2.8-math-in-size-entries.png" alt="Math in size entries screenshot" />
+<img src="{filename}images/2.8-math-in-size-entries.png" alt="Math in size entries screenshot" />
 </figure>
 
 Enhancements have also been made to the size entry widget, which is used for inputting most of the x, y, width, height parameters. For example, in the scale dialog it is now possible to write '50%' in the Width field to scale the image to 50% of the width. Expressions such as '30in + 40px' and '4 * 5.4in' work, too.  
@@ -118,7 +118,7 @@ Enhancements have also been made to the size entry widget, which is used for inp
 ### Brush System Improvements
 
 <figure>
-<img src="images/2.8-brush-system-improvements.png" alt="Brush system improvements screenshot" />
+<img src="{filename}images/2.8-brush-system-improvements.png" alt="Brush system improvements screenshot" />
 </figure>
 
 The brush dynamics engine has been expanded considerably, making almost all aspects of the brush engine drivable by a multitude of inputs, all of them configurable with their own response curve.
@@ -136,7 +136,7 @@ This new feature completely replaces the previously existing tool presets system
 ### Cage Transform Tool
 
 <figure>
-<img src="images/2.8-cage-transform-tool.png" alt="Cage transform tool screenshot" />
+<img src="{filename}images/2.8-cage-transform-tool.png" alt="Cage transform tool screenshot" />
 </figure>
 
 A completely new _Cage transform_ tool has been added thanks to the excellent work of one of our Google Summer of Code 2010 students. The tool implements an innovative approach to free transformation and makes it possible to easily warp parts of objects using an adjustable user-defined polygonal frame.  
@@ -156,7 +156,7 @@ Last, but not least, a Web-page plug-in was added to render any web page into an
 ### For Tablet Users
 
 <figure>
-<img src="images/2.8-for-stylus-users.png" alt="For stylus users screenshot" />
+<img src="{filename}images/2.8-for-stylus-users.png" alt="For stylus users screenshot" />
 </figure>
 
 A new experimental widget was added to meet the requirements of graphic tablets users. The widget combines a slider, a label and a numeric value control which simplifies adjusting a value using a stylus, better visualizes the current value and provides a more compact UI. It is now used in the Tools Options dockable dialog for opacity control and most options of brush based tools.
@@ -169,7 +169,7 @@ People with Intuos tablets and either Artpen or Airbrush styluses will be glad t
 ### Resource Tagging
 
 <figure>
-<img src="images/2.8-resource-tagging-brushes.png" alt="Resource tagging screenshot with brushes" />
+<img src="{filename}images/2.8-resource-tagging-brushes.png" alt="Resource tagging screenshot with brushes" />
 </figure>
 
 It is now possible to tag GIMP resources such as brushes and patterns to group them. The tagging is performed from the respective dockables e.g. the _Brushes_ dockable, and it is possible to filter resources based on these tags.
@@ -229,7 +229,7 @@ The GIMP developers now maintain a roadmap for GIMP development found here: [htt
 ## GIMP 2.8 Screenshots
 
 <figure>
-<img src="../screenshots/1280x800-fresh-start.jpg" alt="First GIMP 2.8 startup" />
+<img src="{filename}../screenshots/1280x800-fresh-start.jpg" alt="First GIMP 2.8 startup" />
 <figcaption>
 First startup of GIMP 2.8 on a 1280x800 desktop.
 </figcaption>

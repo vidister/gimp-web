@@ -15,7 +15,7 @@ GIMP 2.6 is an important release from a development point of view. It features 
 ### Toolbox Menubar Removed
 
 <figure>
-<img src="images/2.6-empty-image-window.png" alt="Empty Image Window screenshot"/>
+<img src="{filename}images/2.6-empty-image-window.png" alt="Empty Image Window screenshot"/>
 </figure>
 
 The toolbox menubar has been removed and merged with the image window menubar. To be able to do this a window called the _empty image window_ has been introduced. It hosts the menubar and keeps the application instance alive when no images are opened. It also acts as a drag and drop target. When opening the first image the empty image window is transformed into a normal image window, and when closing the last image, that window becomes the empty image window.
@@ -27,7 +27,7 @@ With the empty image window acting as a natural main window, the default window 
 ### Ability to Pan Beyond Image Border
 
 <figure>
-<img src="images/2.6-scroll-beyond-border.png" alt="Scroll Beyond Border illustration"/>
+<img src="{filename}images/2.6-scroll-beyond-border.png" alt="Scroll Beyond Border illustration"/>
 </figure>
 
 It is now possible to pan beyond the image border, making image window navigation much less constrained. It is no longer a problem to use the edge of a brush on the edge of an image while being zoomed in, and one can adapt the canvas to any utility windows covering parts of the image window.
@@ -46,7 +46,7 @@ It is now possible to pan beyond the image border, making image window navigatio
 ### Improved Free Select Tool
 
 <figure>
-<img src="images/2.6-new-free-select-tool.png" alt="New Free Select Tool in action"/>
+<img src="{filename}images/2.6-new-free-select-tool.png" alt="New Free Select Tool in action"/>
 </figure>
 
 The freehand select tool has been enhanced to support polygonal selections. It also allows mixing free hand segments with polygonal segments, editing of existing segments, applying angle-constraints to segments, and of course the normal selection tool operations like add and subtract. Altoghether this ends up making the Free Select Tool a very versatile, powerful and easy-to-use selection tool.
@@ -54,7 +54,7 @@ The freehand select tool has been enhanced to support polygonal selections. It a
 ### Brush Dynamics
 
 <figure>
-<img src="images/2.6-brush-dynamics.jpg" alt="Brush Dynamics illustration"/>
+<img src="{filename}images/2.6-brush-dynamics.jpg" alt="Brush Dynamics illustration"/>
 </figure>
 
 Brush dynamics let you map different brush parameters, commonly at least size and opacity, to one or more of three input dynamics: pressure, velocity and random. Velocity and random are usable with a mouse. The Ink tool, that supported velocity before, has been overhauled and now handles velocity-dependent painting much better.
@@ -64,7 +64,7 @@ Brush dynamics have enabled a new feature in stroking paths. There is now a chec
 ### Minor Changes
 
 <figure>
-<img src="images/2.6-text-tool-and-rectangle-handles.png" alt="Text Tool bounding box and outside rectangle handles screenshot"/>
+<img src="{filename}images/2.6-text-tool-and-rectangle-handles.png" alt="Text Tool bounding box and outside rectangle handles screenshot"/>
 </figure>
 
 *   Added a bounding box for the Text Tool that supports automatic wrapping of text within that bounding box.
@@ -90,7 +90,7 @@ Brush dynamics have enabled a new feature in stroking paths. There is now a chec
 Important progress towards high bit-depth and non-destructive editing in GIMP has been made. Most color operations in GIMP are now ported to the powerful graph based image processing framework [GEGL](http://www.gegl.org/), meaning that the internal processing is being done in 32bit floating point linear light RGBA. By default the legacy 8bit code paths are still used, but a curious user can turn on the use of GEGL for the color operations with _Colors / Use GEGL_.
 
 <figure>
-<img src="images/2.6-experimental-gegl-tool.png" alt="Experimental GEGL tool screenshot"/>
+<img src="{filename}images/2.6-experimental-gegl-tool.png" alt="Experimental GEGL tool screenshot"/>
 </figure>
 
 In addition to porting color operations to GEGL, an experimental _GEGL Operation_ tool has been added, found in the _Tools_ menu. It enables applying GEGL operations to an image and it gives on-canvas previews of the results. The screenshot to the right shows this for a Gaussian Blur.
@@ -144,7 +144,7 @@ For the interested, here is roughly what is planned for GIMP 2.8, the next stab
 ## GIMP 2.6 Screenshots
 
 <figure>
-<a href="../screenshots/gnome-1280x800-fresh-start.jpg"><img src="../screenshots/gnome-1280x800-fresh-start.jpg" alt="First GIMP 2.6 startup"/></a>
+<a href="../screenshots/gnome-1280x800-fresh-start.jpg"><img src="{filename}../screenshots/gnome-1280x800-fresh-start.jpg" alt="First GIMP 2.6 startup"/></a>
 <figcaption>
 First startup of GIMP 2.6 on a 1280x800 GNOME desktop.
 </figcaption>
@@ -152,7 +152,7 @@ First startup of GIMP 2.6 on a 1280x800 GNOME desktop.
 
 
 <figure>
-<a href="../screenshots/alternative-2-6-ui-layout-example-one.jpg"><img src="../screenshots/alternative-2-6-ui-layout-example-one.jpg" alt="Alternative UI example"/></a>
+<a href="../screenshots/alternative-2-6-ui-layout-example-one.jpg"><img src="{filename}../screenshots/alternative-2-6-ui-layout-example-one.jpg" alt="Alternative UI example"/></a>
 <figcaption>
 UI layout example: Tool Options moved out of the toolbox.
 </figcaption>
@@ -160,7 +160,7 @@ UI layout example: Tool Options moved out of the toolbox.
 
 
 <figure>
-<a href="../screenshots/alternative-2-6-ui-layout-example-two.jpg"><img src="../screenshots/alternative-2-6-ui-layout-example-two.jpg" alt="Another alternative UI example"/></a>
+<a href="../screenshots/alternative-2-6-ui-layout-example-two.jpg"><img src="{filename}../screenshots/alternative-2-6-ui-layout-example-two.jpg" alt="Another alternative UI example"/></a>
 <figcaption>
 UI layout example: Using the image window as a background window.
 </figcaption>
@@ -168,7 +168,7 @@ UI layout example: Using the image window as a background window.
 
 
 <figure>
-<a href="../screenshots/2.6-brush-dynamics-example.jpg"><img src="../screenshots/2.6-brush-dynamics-example.jpg" alt="Brush Dynamics at use"/></a>
+<a href="../screenshots/2.6-brush-dynamics-example.jpg"><img src="{filename}../screenshots/2.6-brush-dynamics-example.jpg" alt="Brush Dynamics at use"/></a>
 <figcaption>
 Demonstrating the kind of effects the new Brush Dynamics can create.
 </figcaption>
@@ -176,7 +176,7 @@ Demonstrating the kind of effects the new Brush Dynamics can create.
 
 
 <figure>
-<a href="../screenshots/on-canvas-preview-of-gaussian-blur-in-2-6.jpg"><img src="../screenshots/on-canvas-preview-of-gaussian-blur-in-2-6.jpg" alt="On-canvas Gaussian Blur"/></a>
+<a href="../screenshots/on-canvas-preview-of-gaussian-blur-in-2-6.jpg"><img src="{filename}../screenshots/on-canvas-preview-of-gaussian-blur-in-2-6.jpg" alt="On-canvas Gaussian Blur"/></a>
 <figcaption>
 Full screenshot of on-canvas preview of Gaussian Blur using the experimental GEGL Operation tool.
 </figcaption>
@@ -187,7 +187,7 @@ Full screenshot of on-canvas preview of Gaussian Blur using the experimental GEG
 ## We Hope You Enjoy GIMP 2.6!
 
 <figure markdown="span">
-<img src="images/2.6-lgm-2008-groupshot.jpg" alt="LGM 2008 shot of the GIMP team"/>
+<img src="{filename}images/2.6-lgm-2008-groupshot.jpg" alt="LGM 2008 shot of the GIMP team"/>
 <figcaption>
 A picture of (mostly) GIMP developers, taken by [Garrett LeSage](http://www.flickr.com/photos/garrett/2733807768/) at [Libre Graphics Meeting 2008](http://www.libregraphicsmeeting.org/2008/), licenced under [CC-By](http://creativecommons.org/licenses/by/2.0/deed.en)
 </figcaption>
