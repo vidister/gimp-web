@@ -9,8 +9,8 @@ Author: Eric R. Jeschke
 ## Intention
 
 <figure>
-<img src='before.jpg' alt='before'/>
-<img src='after.jpg' alt='after'/>
+<img src='{filename}before.jpg' alt='before'/>
+<img src='{filename}after.jpg' alt='after'/>
 </figure>
 
 In this tutorial I'll show you how to do create a contrast mask for your image in GIMP. A contrast mask allows you to reduce overall contrast, simultaneously bringing out more detail in highlights and shadows. This may be necessary to obtain a decent print, because prints on paper do not have as much dynamic range as a monitor; if you don't control the contrast, detail in the highlights may blow out and detail in the shadows can block up and become muddy or even black. You can of course modify your image directly in GIMP to decrease contrast, but the advantage of the contrast mask technique is that it allows you much more precise control, and gives better results.
@@ -24,7 +24,7 @@ The contrast mask technique does some similar things for the exposure as the dig
 ## The Procedure
 
 <figure>
-<img src='original.jpg' alt='original.jpg'/>
+<img src='{filename}original.jpg' alt='original.jpg'/>
 </figure>
 
 Here is the original example image, loaded into GIMP. The red leaves are a little too dark to make out the detail; if printed, the result would be pretty dark and muddy. At the same time, the yellow flowers have a couple of specular highlights that would probably blow out the detail if printed.
@@ -34,7 +34,7 @@ We want to brighten the dark areas a little and darken the light areas a little.
 ## Step 1
 
 <figure>
-<img src='layers2.jpg' alt='layers2.jpg'/>
+<img src='{filename}layers2.jpg' alt='layers2.jpg'/>
 </figure>
 
 Open the Layers dialog. Right-click on the Background layer and select Duplicate (there is also a button for this in the bottom button bar of the Layers dialog.
@@ -42,8 +42,8 @@ Open the Layers dialog. Right-click on the Background layer and select Duplicate
 ## Step 2
 
 <figure>
-<img src='editlayerattr.jpg' alt='editlayerattr'/>
-<img src='layers3.jpg' alt='layers3' />
+<img src='{filename}editlayerattr.jpg' alt='editlayerattr'/>
+<img src='{filename}layers3.jpg' alt='layers3' />
 </figure>
 
 Now double-click on the duplicate layer and rename the new layer "Contrast Mask". (This step is not strictly necessary, but it is helpful to prevent confusion about what is on each layer, especially if you add some additional layers for other editing purposes).
@@ -51,7 +51,7 @@ Now double-click on the duplicate layer and rename the new layer "Contrast Mask"
 ## Step 3
 
 <figure>
-<img src='image2.jpg' alt='image2.jpg'/>
+<img src='{filename}image2.jpg' alt='image2.jpg'/>
 </figure>
 
 Select the Contrast Mask layer. Go to the image window and right-click, selecting: 
@@ -62,7 +62,7 @@ The image should look B&W.
 ## Step 4
 
 <figure>
-<img src='image3.jpg' alt='image3.jpg'/>
+<img src='{filename}image3.jpg' alt='image3.jpg'/>
 </figure>
 
 Right-click and select 
@@ -73,8 +73,8 @@ You now have a B&W negative image of your original. We're going to combine this 
 ## Step 5
 
 <figure>
-<img src='layers4.jpg' alt='layers4'/>
-<img src='image4.jpg' alt='image4' />
+<img src='{filename}layers4.jpg' alt='layers4'/>
+<img src='{filename}image4.jpg' alt='image4' />
 </figure>
 
 Go back to the Layers dialog and in the "Mode" drop-down box, select "Overlay". The result may look better in terms of contrast, but degraded in terms of overall sharpness.  
@@ -84,8 +84,8 @@ Don't worry, we're not done yet.
 ## Step 6
 
 <figure>
-<img src='original.jpg' alt='original'/>
-<img src='image5.jpg' alt='image5' />
+<img src='{filename}original.jpg' alt='original'/>
+<img src='{filename}image5.jpg' alt='image5' />
 </figure>
 
 
@@ -102,8 +102,8 @@ The image at top left is the original, the top right is with the contrast mask.
 ## Step 7
 
 <figure>
-<img src='contrastdialog.jpg' alt='original'/>
-<img src='imagewtypcontrastreduction.jpg' alt='imagewtypcontrastreduction' />
+<img src='{filename}contrastdialog.jpg' alt='original'/>
+<img src='{filename}imagewtypcontrastreduction.jpg' alt='imagewtypcontrastreduction' />
 </figure>
 
 It is informative to see how this technique compares to the conventional technique of using the contrast dialog to adjust contrast. I've tried to adjust the contrast to have the leaves appear about the same. I think the image with the contrast mask has a lot more pop! This one looks kind of flat by comparison.
@@ -111,9 +111,9 @@ It is informative to see how this technique compares to the conventional techniq
 ## Step 8
 
 <figure>
-<img src='histogram-before.jpg' alt='Histogram-Before'/>
-<img src='histogram-after.jpg' alt='Histogram-After' />
-<img src='histogram-typcontrastreduction.jpg' alt='Historgram-Contrast-Reduction' />
+<img src='{filename}histogram-before.jpg' alt='Histogram-Before'/>
+<img src='{filename}histogram-after.jpg' alt='Histogram-After' />
+<img src='{filename}histogram-typcontrastreduction.jpg' alt='Historgram-Contrast-Reduction' />
 </figure>
 
 To see why this is so, compare the histograms of the images. The top one is for the original image, the middle is for the image with the contrast mask, and the bottom one is for the original image with the conventional contrast adjustment.  
@@ -123,7 +123,7 @@ Note how the typical contrast adjustment has lost a lot of values at both ends, 
 ## Step 9
 
 <figure>
-<img src='layers5.jpg' alt='layers5.jpg'/>
+<img src='{filename}layers5.jpg' alt='layers5.jpg'/>
 </figure>
 
 You'll have to flatten the image if you are saving it to a typical image format like TIFF or JPEG (but not if you are saving to GIMP's native XCF format). To do that, right-click on the image and select 
