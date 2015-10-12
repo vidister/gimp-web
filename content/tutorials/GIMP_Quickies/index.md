@@ -50,9 +50,9 @@ To resize the image to new dimensions, we need only invoke the **Scale Image** d
 This will then open the **Scale Image** dialog:
 
 <figure>
-<img src='Scale-Image-Dialog.png' alt='Scale Image'>
+<img src='{filename}Scale-Image-Dialog.png' alt='Scale Image'>
 <figcaption>
-The **Scale Image** dialog.
+The <strong>Scale Image</strong> dialog.
 </figcaption>
 </figure>  
 
@@ -63,7 +63,7 @@ You’ll also <span style="color: #0080FF;">notice a small chain</span> just to 
 For example, if you knew that you wanted your image to have a new width of 600px, you can enter that value in the **Width** input, and the **Height** will automatically change to maintain the aspect ratio of the image:
 
 <figure>
-<img src='Scale-Image-Dialog-Scaled.png' alt='Scaled Image'>
+<img src='{filename}Scale-Image-Dialog-Scaled.png' alt='Scaled Image'>
 <figcaption>
 Changing the **Width** to 600px.
 </figcaption>
@@ -76,7 +76,7 @@ Also notice I have shown a different option under **Quality** → Interpolation.
 If you want to specify a new size using a different type of value (other than Pixel size), you can change the type by clicking on the “**px**” spinner:
 
 <figure>
-<img src='Scale-Image-Dialog-Value-Types.png' alt='Value Types'>
+<img src='{filename}Scale-Image-Dialog-Value-Types.png' alt='Value Types'>
 <figcaption>
 Changing input value types.
 </figcaption>
@@ -103,7 +103,7 @@ You can also modify the filesize of an image when exporting it to a format like 
 Using the same Horsehead Nebula image from above, I have resized it to 200px wide (see above), and exported it using different levels of JPEG compression:
 
 <figure>
-<img src='JPG-Compression-Sample.png' alt='JPG Compression comparison'>
+<img src='{filename}JPG-Compression-Sample.png' alt='JPG Compression comparison'>
 <figcaption>
 Comparison of different JPEG compression levels.
 </figcaption>
@@ -118,7 +118,7 @@ When you’ve finished any image modifications you are doing, and are ready to e
 This will invoke the **Export Image** dialog:
 
 <figure>
-<img src='Export-Image-Dialog.png' alt='Export Image Dialog'>
+<img src='{filename}Export-Image-Dialog.png' alt='Export Image Dialog'>
 <figcaption>
 
 </figcaption>
@@ -131,7 +131,7 @@ You can also navigate to a new location on your computer through the **Places** 
 This will then bring up the **Export Image as JPEG** dialog, where you can change the quality of the export:
 
 <figure>
-<img src='Export-Image-as-JPEG.png' alt='Export as JPG'>
+<img src='{filename}Export-Image-as-JPEG.png' alt='Export as JPG'>
 <figcaption>
 
 </figcaption>
@@ -150,7 +150,7 @@ There are numerous reasons you may want to crop an image. You may want to remove
 In a nutshell, cropping is just an operation to trim the image down to a smaller region than what you started with:
 
 <figure>
-<img src='Crop-Example.png' alt='Cropping'>
+<img src='{filename}Crop-Example.png' alt='Cropping'>
 <figcaption>
 Original image (left), cropped image (right).
 </figcaption>
@@ -159,7 +159,7 @@ Original image (left), cropped image (right).
 The procedure to crop an image is straightforward. You can either get to <span style="color: #00FF00;">the **Crop Tool**</span> through the tools palette:
 
 <figure>
-<img src='Crop-Tool.png' alt='Crop Tool'>
+<img src='{filename}Crop-Tool.png' alt='Crop Tool'>
 <figcaption>
 Crop Tool on the Tools Palette.
 </figcaption>
@@ -174,7 +174,7 @@ Or you can access the crop tool through the menus:
 Now you can Left-Click anywhere on your image canvas, and drag the mouse to a new location to highlight an initial selection to crop. You don’t have to worry about being exact at this point, as you will be able to modify the final selection before actually cropping.
 
 <figure>
-<img src='Crop-First.png' alt='Crop First'>
+<img src='{filename}Crop-First.png' alt='Crop First'>
 <figcaption>
 Initial pass with the Crop Tool.  
 Crop Tool options (left), cropping on the canvas (right).
@@ -195,7 +195,7 @@ See [the documentation](http://docs.gimp.org/2.8/en/gimp-tool-crop.html) for mor
 Another way to crop an image is to make a selection first, using the **Rectangle Select Tool**:
 
 <figure>
-<img src='Crop-Select-Tool.png' alt='Crop Select'>
+<img src='{filename}Crop-Select-Tool.png' alt='Crop Select'>
 <figcaption>
 Rectangle Select Tool.
 </figcaption>
@@ -222,7 +222,7 @@ There may also be a time that you’d like to flip an image as well. These comma
 If you want to flip your image, the **Transform** menu offers two options, **Flip <span style="text-decoration: underline;">H</span>orizontally**, or **Flip <span style="text-decoration: underline;">V</span>ertically**. This operation will mirror your image along the specified axis. For example, here are all of the flip operations shown in a single image:
 
 <figure>
-<img src='Flip-Sample-Arrow.jpg' alt='Flipping'>
+<img src='{filename}Flip-Sample-Arrow.jpg' alt='Flipping'>
 <figcaption>
 All flips applied to base image (top left).
 </figcaption>
@@ -235,7 +235,7 @@ Image rotation from the **Transform** menu is contrained to either 90° clockwis
 Don’t mis-interpret this to mean that GIMP cannot do arbitrary rotations (any angle). Arbitrary rotations are handled on a per-layer basis, while the image rotation described here is applicable to the entire image at once.
 
 <figure>
-<img src='Rotate-Sample.jpg' alt='Rotating Sample'>
+<img src='{filename}Rotate-Sample.jpg' alt='Rotating Sample'>
 <figcaption>
 Original (top left), 90° clockwise (top right)  
 90° counter-clockwise (bottom left), 180° (bottom right)
