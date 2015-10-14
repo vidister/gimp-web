@@ -10,12 +10,13 @@ Please use only permissive licensing, such as [CC-BY](http://creativecommons.org
 
 ## Sub-heading
 
-<figure>
-<img src="{filename}src.png" alt="alt text"/>
-<figcaption>
-A caption
-</figcaption>
-</figure>
+    :::html
+    <figure>
+    <img src="src.png" alt="alt text"/>
+    <figcaption>
+    A caption
+    </figcaption>
+    </figure>
 
 Text goes here.
 
