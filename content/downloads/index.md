@@ -219,7 +219,7 @@ Disclaimer: we haven't been able to determine if it is possible to install or bu
 </a>
 </span>
 <br/>
-This link downloads the official GIMP installer for Windows. 
+These links download the official GIMP installer for Windows. 
 The installer contains both 32-bit and 64-bit versions of GIMP, and will automatically use the appropriate one.
 
 BitTorrent is a peer-to-peer file sharing system. It works by downloading GIMP from a distributed network of BitTorrent users, and may improve download speed dramatically. 
