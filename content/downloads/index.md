@@ -78,7 +78,7 @@ td, th {
 </figure>
 
 ## Current Stable Version
-The current stable release of GIMP is **2.8.14**.
+The current stable release of GIMP is **2.8.14** (2014-08-26).
 
 <div class="OSTEST" markdown="1">
 We think your OS is 
@@ -146,7 +146,7 @@ Since the 2.8.2 version, GIMP runs on OSX natively. No X11 environment is requir
 
 ### Native builds
 
-Currently there are two main installers:
+Currently there are two main installers: a stock build by Sven Claussner and a custom build from Simone Karin Lehmann.
 
 A GIMP 2.8 DMG installer by Sven Claussner, stock GIMP build without any add-ons. It works on OS X 10.6 Snow Leopard and later. Just open the downloaded DMG and drag and drop GIMP into your "Applications" folder.
 
@@ -164,15 +164,17 @@ A GIMP 2.8 DMG installer by Sven Claussner, stock GIMP build without any add-ons
 </a>
 </span>
 
-
-#### MD5 Hash Sum
 The MD5 hash sum for `gimp-2.8.14.dmg` is:
 <kbd>3392eb2cfe67258e7a3f8fc8807f00c0</kbd>.
-
 
 A build by [Simone Karin Lehmann](http://gimp.lisanet.de/), with some extra plug-ins and changes:
 
 * [Download GIMP 2.8 from lisanet.de](http://gimp.lisanet.de/Website/Download.html)
+
+
+
+### Older Downloads
+Previous installers for OSX can be found here: [download.gimp.org](//download.gimp.org/pub/gimp/v2.8/osx/).
 
 
 
@@ -228,6 +230,9 @@ You may need to install a torrent client to make use of this file. <a href="http
 
 ### MD5 Hash Sum
 The MD5 hash sum for `gimp-2.8.14-setup-1.exe` is: <kbd>9a6f7af81b4ea15b89089a723fc25ec3</kbd>.
+
+### Older Downloads
+Previous installers for Windows can be found here: [download.gimp.org](//download.gimp.org/pub/gimp/v2.8/windows/).
 
 ### GIMP User Manual
 
