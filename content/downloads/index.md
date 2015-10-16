@@ -43,10 +43,14 @@ td, th {
     border-radius: 10px;
     box-shadow: 1px 1px 2px;
     text-align: center;
-    max-width: 300px;
+    /* max-width: 300px;
+    */
+    font-family: Questrial;
+    font-weight: 400;
+    width: 49%;
 }
 
-#win-torrent {
+#win-torrent, #osx-torrent {
     background-color: #008080;
 }
 
@@ -72,6 +76,9 @@ td, th {
 <figure>
 <img src="downloadsplash.jpg" alt="Download Splash Image" />
 </figure>
+
+## Current Stable Version
+The current stable release of GIMP is **2.8.14**.
 
 <div class="OSTEST" markdown="1">
 We think your OS is 
@@ -143,9 +150,25 @@ Currently there are two main installers:
 
 A GIMP 2.8 DMG installer by Sven Claussner, stock GIMP build without any add-ons. It works on OS X 10.6 Snow Leopard and later. Just open the downloaded DMG and drag and drop GIMP into your "Applications" folder.
 
-*   [Download GIMP 2.8 from gimp.org](http://download.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.14.dmg.torrent) <small>[.torrent]</small>  
-If the torrent download doesn't work, you can also follow [this link](http://download.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.14.dmg).  
-The MD5 hash sum for `gimp-2.8.14.dmg` is: <kbd>3392eb2cfe67258e7a3f8fc8807f00c0</kbd>.
+
+<span class='win-button' id='osx-torrent'>
+<a href="http://download.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.14.dmg.torrent">
+    Download GIMP&nbsp;2.8.14<br/>
+    via BitTorrent
+</a>
+</span>
+<span class='win-button'>
+<a href="http://download.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.14.dmg">
+    Download GIMP&nbsp;2.8.14<br/>
+    directly
+</a>
+</span>
+
+
+#### MD5 Hash Sum
+The MD5 hash sum for `gimp-2.8.14.dmg` is:
+<kbd>3392eb2cfe67258e7a3f8fc8807f00c0</kbd>.
+
 
 A build by [Simone Karin Lehmann](http://gimp.lisanet.de/), with some extra plug-ins and changes:
 
@@ -183,16 +206,22 @@ Disclaimer: we haven't been able to determine if it is possible to install or bu
 <div id='win' class="os win" markdown="1">
 ## GIMP for Windows
 
-<span class='win-button'>
-<a href="http://download.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.14-setup-1.exe" title="Download GIMP via HTTP" id='win-download-link' >Download GIMP 2.8.14  directly</a>
-</span>
-<br/>
-This link downloads the official GIMP installer for Windows directly from download.gimp.org. The installer contains both 32-bit and 64-bit versions of GIMP, and will install the appropriate one.
-
 <span class='win-button' id='win-torrent'>
-<a href="http://download.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.14-setup-1.exe.torrent" title="Download GIMP via BitTorrent" id="win-torrent-link">Download GIMP 2.8.14 via BitTorrent</a>  
+<a href="http://download.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.14-setup-1.exe.torrent" title="Download GIMP via BitTorrent" id="win-torrent-link">
+    Download GIMP&nbsp;2.8.14<br/>
+    via BitTorrent
+</a>  
+</span>
+<span class='win-button'>
+<a href="http://download.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.14-setup-1.exe" title="Download GIMP via HTTP" id='win-download-link' >
+    Download GIMP&nbsp;2.8.14<br/>
+    directly
+</a>
 </span>
 <br/>
+This link downloads the official GIMP installer for Windows. 
+The installer contains both 32-bit and 64-bit versions of GIMP, and will automatically use the appropriate one.
+
 BitTorrent is a peer-to-peer file sharing system. It works by downloading GIMP from a distributed network of BitTorrent users, and may improve download speed dramatically. 
 Choosing this option will download the torrent file for the GIMP installer. 
 You may need to install a torrent client to make use of this file. <a href="http://en.wikipedia.org/wiki/BitTorrent" title="BitTorrent on Wikipedia">Learn more...</a>
