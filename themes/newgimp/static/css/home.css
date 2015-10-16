@@ -80,6 +80,7 @@ span#gThird span {
     padding: 0 0.7rem;
     float: left;
     color: white;
+    border-radius: 3px;
 }
 
 #ReleaseButton {
@@ -90,6 +91,7 @@ span#gThird span {
     float: right;
     margin-left: 1rem;
     letter-spacing: 0.03rem;
+    border-radius: 3px;
 }
 
 #introduction{
