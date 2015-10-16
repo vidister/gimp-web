@@ -83,6 +83,10 @@ span#gThird span {
     border-radius: 3px;
 }
 
+#ver {
+    font-family: Ostrich Sans Rounded, sans;
+}
+
 #ReleaseButton {
     font-size: 1.5rem;
     /* border: solid 1px white; */
@@ -284,7 +288,7 @@ span#gFirst {
                         url('/images/frontpage/graphic-elements.png');
     }
 
-    span#gFirst {
+    span#gFirst, span#gSecond {
         text-align: left;
     }
     #banner .introInfo {
