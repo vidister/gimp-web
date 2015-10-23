@@ -8,12 +8,13 @@
 /*
  * Used as the navigation font
  */
-@font-face {
-    font-family: "Lato";
-    src: url('/theme/fonts/Lato-Light.ttf');
-    font-weight: 300;
-    font-style: normal;
-}
+/*@font-face {
+/*    font-family: "Lato";
+/*    src: url('/theme/fonts/Lato-Light.ttf');
+/*    font-weight: 300;
+/*    font-style: normal;
+/*}
+ */
 
 /* Questrial
 Used as Heading font 
