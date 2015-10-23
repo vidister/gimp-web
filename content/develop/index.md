@@ -31,7 +31,7 @@ Ways in which you can help:
 
 As you can see, anyone can help.
 
-## Development Status
+### Development Status
 
 The team is currently busy working on v2.10\. This will be the first release of GIMP featuring a new, advanced image processing engine, high bit depth editing, as well as new and improved transformation and selection tools.
 
@@ -39,19 +39,34 @@ Porting internals of GIMP to GEGL is mostly done, but more plugins have to be po
 
 To get a better understanding of where the project is heading to, which features are planned etc., please visit the [Roadmap](http://wiki.gimp.org/index.php/Roadmap) page.
 
-## Bug Reports
+### Bug Reports
 
 GIMP is not a bug-free application nor is any other application so reporting the bugs that you will encounter is very important to the development, it helps the developers to make GIMP more stable and more bug free.
 
 You don't have to be a developer or a everyday user to report bugs. It can be hard to report a bug the first time you try it out but don't just quit the whole bug report if you think it is hard. Instead, look at the [bugs](/bugs/) page you will find some very good help about this.
 
-## Web Development
+### Web Development
 
 Creating websites that contain useful information is very important. It is actually just as important as doing bug reports. A website contains a lot of information that is needed for the development to move on and it also contains information that will help the public to understand what the application is all about.
 
 ## Hacking
 
-This is the part where people are always needed to help with the development, and this is also the part that is the hardest to start with. Though there are websites and files to give you a good look at how hacking is being done in GIMP.
+GIMP uses [git](https://git-scm.com/) as its revision control system, and the [GNOME Foundation](https://www.gnome.org/) hosts all of our code repositories:
+
+*   [`gimp`](https://git.gnome.org/browse/gimp/) - the GIMP application itself
+*   [`gimp-web`](https://git.gnome.org/browse/gimp-web/) - repo for this website
+*   [`gimp-web-devel`](https://git.gnome.org/browse/gimp-web-devel/) - repo for the developer site at <http://developer.gnome.org>
+*   [`gimp-help-2`](https://git.gnome.org/browse/gimp-help-2/) - the GIMP user manual
+*   [plus several others](https://git.gnome.org/browse/?q=gimp)
+
+New contributors should first introduce themselves on IRC (the #gimp channel at irc.gimp.org) and/or the relevant mailing lists:
+
+*   [GIMP Developers mailing list, for those who work on the core GIMP application and plugins](https://mail.gnome.org/mailman/listinfo/gimp-developer-lists)
+*   [GEGL Developers mailing list for developers of the GEGL library](https://mail.gnome.org/mailman/listinfo/gegl-developer-list)
+*   [GIMP Web Developers mailing list, for working on this website](https://mail.gnome.org/mailman/listinfo/gimp-web-list)
+*   [GIMP Documentation mailing list, for working on the user manual](https://mail.gnome.org/mailman/listinfo/gimp-docs-list)
+
+This way you can announce the changes you intend to make, ask questions, and discuss which changes would be best. It's generally better to focus on one thing at a time. Contributing to a software project for the first time is always the hardest part, which is why we're here to help each other. There are also websites to give you a good look at how hacking is being done in GIMP.
 
 The site you should keep updated with and the site that is updated all the time with new development help guides is located at [http://wiki.gimp.org/](http://wiki.gimp.org/). If you have GIMP installed at the moment then there are some files you should look at in the source code that might help you a little.
 
@@ -63,6 +78,12 @@ The site you should keep updated with and the site that is updated all the time 
      _(The main README for GIMP which should be read by everyone)_
 *   [README.i18n](https://git.gnome.org/browse/gimp/plain/README.i18n)  
      _(The internationalization README which should be read by translators)_
+
+Once you've figured out what to do, though, be bold and get to work!
+
+## How To Submit Your Changes
+
+When you're ready, make your edits, and [generate a patch file](https://git-scm.com/docs/git-format-patch). Send the patch file, along with a summary of what you did, to the mailing list for feedback. The GIMP community is a friendly one, but it probably is still worth saying this: Try not to take critiques personally. We all just want GIMP to be the best that it can be. Once approved, your edits will be merged into the code base, making you an official GIMP contributor. And if you keep up the good work, not only will this process get easier with practice, your administrative privileges in GIMP development will also increase too.
 
 ## Important GIMP Links
 
@@ -94,4 +115,3 @@ The site you should keep updated with and the site that is updated all the time 
 ## Latest Changes in Code
 
 The [Unstable GIMP](https://git.gnome.org/browse/gimp/log/) page lists the lastest source code commits to the unstable branch of GIMP.
-
