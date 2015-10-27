@@ -83,7 +83,10 @@ Once you've figured out what to do, though, be bold and get to work!
 
 ## How To Submit Your Changes
 
-When you're ready, make your edits, and [generate a patch file](https://git-scm.com/docs/git-format-patch). Send the patch file, along with a summary of what you did, to the mailing list for feedback. The GIMP community is a friendly one, but it probably is still worth saying this: Try not to take critiques personally. We all just want GIMP to be the best that it can be. Once approved, your edits will be merged into the code base, making you an official GIMP contributor. And if you keep up the good work, not only will this process get easier with practice, your administrative privileges in GIMP development will also increase too.
+When you're ready, make your edits and [generate a patch file](https://git-scm.com/docs/git-format-patch).  
+Send the patch file, along with a summary of what you did to a bug/enhancement request on [Bugzilla](https://bugzilla.gnome.org/enter_bug.cgi?product=gimp-web) or to the mailing list. 
+
+The GIMP community is a friendly one, but it probably is still worth saying this: Try not to take critiques personally. We all just want GIMP to be the best that it can be. Once approved, your edits will be merged into the code base, making you an official GIMP contributor. And if you keep up the good work, not only will this process get easier with practice, your administrative privileges in GIMP development will also increase too.
 
 ## Important GIMP Links
 
