@@ -106,14 +106,15 @@ The GIMP community is a friendly one, but it probably is still worth saying this
 [GIMP developers](http://wiki.gimp.org)  
  The main GIMP development website.
 
-[Martin Nordholts' GIMP Blog](http://www.chromecode.com/)  
- What happens in GIMP development.
-
 [GEGL](http://www.gegl.org/)  
  An image processing library based on GObjects.
 
 [GNOME GIT](https://git.gnome.org/)  
  GNOME GIT source code repository
+
+<del>[Martin Nordholts' GIMP Blog](http://www.chromecode.com/)</del> (out of date)  
+<del>What happens in GIMP development.</del>
+
 
 ## Latest Changes in Code
 
