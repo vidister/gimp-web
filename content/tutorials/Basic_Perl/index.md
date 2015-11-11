@@ -4,9 +4,15 @@ Modified: 2014-05-02
 Author: Ed J
 
 
- Updated for Gimp 2.8 / Gimp-Perl 2.3  
- <font size="-1">© Ed J</font>  
- <font size="-1">Last modified: 2014-05-02</font>  
+<small>
+[![Creative Commons License](http://i.creativecommons.org/l/by-sa/3.0/80x15.png)](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US)  
+<span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - A Tutorial for GIMP-Perl Users (text & images)</span> 
+by [Ed J] is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US).
+</small>
+
+[Ed J]: https://metacpan.org/author/ETJ
+
+<small>Updated for Gimp 2.8 / Gimp-Perl 2.3</small>
 
 **Table of contents**
 
@@ -1096,12 +1102,17 @@ The Gimp-Perl distribution also has over 50 more example scripts supplied. Take 
 
 *   [<tt>Gimp::Fu</tt> documentation](http://search.cpan.org/dist/Gimp/Gimp/Fu.pm)
 *   [The rest of the Gimp-Perl module docs](http://search.cpan.org/dist/Gimp/)
-*   [The GIMP home page](http://www.gimp.org)
 *   [GIMP Registry with Perl plug-ins](http://registry.gimp.org/)
 
-* * *
+---
 
-<address>Please send your comments to [dov.grobgeld@gmail.com](mailto:dovNOSPAM@imagic.weizmann.ac.il)</address>
+Please send your comments to [dov.grobgeld@gmail.com](dov.grobgeld@gmail.com).
+
+<small>
+[![Creative Commons License](http://i.creativecommons.org/l/by-sa/3.0/80x15.png)](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US)  
+<span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - A Tutorial for GIMP-Perl Users (text & images)</span> 
+by [Ed J] is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US).
+</small>
 
 <style>
 table {
