@@ -1,4 +1,4 @@
-Title: Donations
+Title: Donate
 Date: 2015-08-14T15:54:25-05:00
 Author: Pat David
 

@@ -1106,7 +1106,8 @@ The Gimp-Perl distribution also has over 50 more example scripts supplied. Take 
 
 ---
 
-Please send your comments to [dov.grobgeld@gmail.com](dov.grobgeld@gmail.com).
+
+<small>Please send your comments to [dov.grobgeld@gmail.com](mailto:dov.grobgeld@gmail.com).</small>
 
 <small>
 [![Creative Commons License](http://i.creativecommons.org/l/by-sa/3.0/80x15.png)](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US)  
