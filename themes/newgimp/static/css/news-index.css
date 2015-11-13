@@ -27,6 +27,10 @@
     margin: 0 auto;
 }
 
+#articles {
+    padding-top: 0;
+}
+
 #articles .column.full {
     text-align: left;
 }
@@ -38,4 +42,9 @@
 
 .post-info {
     margin-bottom: 1rem;
+}
+
+abbr[title] {
+    border: none;
+    color: #888;
 }
