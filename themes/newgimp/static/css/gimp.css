@@ -348,6 +348,7 @@ footer .nav-bottom a {
     color: #f57900;
 }
 
+/*
 #nav-btm-gimp-home {
     margin-left: -1.65rem;
 }
@@ -359,6 +360,7 @@ footer .nav-bottom a {
 #nav-btm-news {
     margin-left: -1.5rem;
 }
+*/
 
 @media ( max-width: 40rem ){
 
