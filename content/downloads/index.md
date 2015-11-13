@@ -142,15 +142,6 @@ GIMP can run on Solaris.
 
 ## GIMP for Mac OS X
 
-Since the 2.8.2 version, GIMP runs on OSX natively. No X11 environment is required.
-
-### Native builds
-
-Currently there are two main installers: a stock build by Sven Claussner and a custom build from Simone Karin Lehmann.
-
-A GIMP 2.8 DMG installer by Sven Claussner, stock GIMP build without any add-ons. It works on OS X 10.6 Snow Leopard and later. Just open the downloaded DMG and drag and drop GIMP into your "Applications" folder.
-
-
 <span class='win-button' id='osx-torrent'>
 <a href="http://download.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.14.dmg.torrent">
     Download GIMP&nbsp;2.8.14<br/>
@@ -163,6 +154,14 @@ A GIMP 2.8 DMG installer by Sven Claussner, stock GIMP build without any add-ons
     directly
 </a>
 </span>
+
+Since the 2.8.2 version, GIMP runs on OSX natively. No X11 environment is required.
+
+### Native builds
+
+Currently there are two main installers: a stock build by Sven Claussner and a custom build from Simone Karin Lehmann.
+
+A GIMP 2.8 DMG installer by Sven Claussner (linked above), stock GIMP build without any add-ons. It works on OS X 10.6 Snow Leopard and later. Just open the downloaded DMG and drag and drop GIMP into your "Applications" folder.
 
 The MD5 hash sum for `gimp-2.8.14.dmg` is:
 <kbd>3392eb2cfe67258e7a3f8fc8807f00c0</kbd>.
