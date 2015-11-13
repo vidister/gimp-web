@@ -152,6 +152,7 @@ h1 {
 p {
     font-weight: 300;
     font-weight: normal;
+    color: #777;
 }
 
 nav#menu {
