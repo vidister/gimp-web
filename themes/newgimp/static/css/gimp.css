@@ -319,6 +319,10 @@ footer {
     box-shadow: inset 0 7px 15px -5px black;
 }
 
+footer .nav-bottom li {
+    margin-bottom: 0;
+}
+
 footer .nav-bottom a {
     font-family: Lato;
     text-transform: uppercase;
