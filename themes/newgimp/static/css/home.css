@@ -132,7 +132,8 @@ section#introduction .container {
 }
 
 nav#menu li#gimp-home {
-    display: none;
+    /*display: none;
+     */
 }
 
 #cap-photos {
