@@ -135,6 +135,19 @@ Used as Heading font
 }
 
 
+/* Creative Commons Fonts */
+@font-face {
+    font-family: 'CC';
+    src: url('/theme/fonts/cc-icons.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cc {
+    font-family: 'CC';
+    vertical-align: text-top;
+}
+
 html {
     font-family: "Open Sans", sans;
 }

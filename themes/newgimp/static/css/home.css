@@ -350,3 +350,8 @@ h2#recent-news {
     float: right;
     font-size: 0.85rem;
 }
+
+#attribution {
+    font-size: 0.75rem;
+    padding: 1rem 0;
+}
