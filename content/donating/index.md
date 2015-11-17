@@ -1,6 +1,7 @@
 Title: Donate
 Date: 2015-08-14T15:54:25-05:00
 Author: Pat David
+Status: hidden
 
 
 Donating money to the GIMP project is easy! The [GNOME Foundation](http://www.gnome.org/) has graciously agreed to act as fiscal agents for us. Contributions to the GIMP project can be made by donating to the GNOME Foundation and specifying the GIMP project as the recipient. The GNOME Foundation is a tax-exempt, non-profit 501(c)(3) organization and all donations are tax-deductible in the USA.
