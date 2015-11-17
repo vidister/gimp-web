@@ -74,7 +74,7 @@ td, th {
 </noscript>
 
 <figure>
-<img src="downloadsplash.jpg" alt="Download Splash Image" />
+<img src="downloadsplash-aryeom.jpg" alt="Download Splash Image courtesy of Areyom" />
 </figure>
 
 ## Current Stable Version
