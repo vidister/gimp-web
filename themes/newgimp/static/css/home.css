@@ -355,3 +355,8 @@ h2#recent-news {
     font-size: 0.75rem;
     padding: 1rem 0;
 }
+
+#attribution .column {
+    margin-bottom: 0;
+    text-align: left;
+}
