@@ -108,7 +108,7 @@ Show downloads for
 
 It's very likely your Unix-like system such as a GNU/Linux distribution already comes with a GIMP package. It is a preferred method of installing GIMP, as the distribution maintainers take care of all the dependencies and bug fix updates. Please note that many distros decide to pin a specific version of GIMP to their releases.
 
-### Ubuntu, Mint, Debian
+### Debian, Mint, Ubuntu
 
 Ubuntu, Mint, or Debian users can run `apt-get install gimp` to install GIMP. Ubuntu users may also install GIMP from [Software Centre](https://apps.ubuntu.com/cat/applications/gimp/), this includes recent GIMP versions from PPAs.
 
@@ -161,7 +161,7 @@ Since the 2.8.2 version, GIMP runs on OSX natively. No X11 environment is requir
 
 Currently there are two main installers: a stock build by Sven Claussner and a custom build from Simone Karin Lehmann.
 
-A GIMP 2.8 DMG installer by Sven Claussner (linked above), stock GIMP build without any add-ons. It works on OS X 10.6 Snow Leopard and later. Just open the downloaded DMG and drag and drop GIMP into your "Applications" folder.
+A GIMP 2.8 DMG installer by Sven Claussner (linked above) is a stock GIMP build without any add-ons. It works on OS X 10.6 Snow Leopard and later. Just open the downloaded DMG and drag and drop GIMP into your "Applications" folder.
 
 The MD5 hash sum for `gimp-2.8.14.dmg` is:
 <kbd>3392eb2cfe67258e7a3f8fc8807f00c0</kbd>.
