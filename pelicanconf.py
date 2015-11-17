@@ -27,9 +27,13 @@ DEFAULT_LANG = u'en'
 DEFAULT_DATE_FORMAT = "%Y-%m-%d"
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
+FEED_DOMAIN = SITEURL
+FEED_ATOM = 'feeds/atom.xml'
+FEED_RSS = 'feeds/rss.xml'
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+TRANSLATION_FEED_ATOM = 'feeds/all-%s.atom.xml'
+TRANSLATION_FEED_RSS = 'feeds/all-%s.rss.xml'
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
@@ -50,7 +54,6 @@ RELATIVE_URLS = True
 
 
 # Pat David changes while building/testing
-
 READERS = {'html': None}
 
 # This will copy over these folders w/o modification
@@ -93,3 +96,7 @@ MD_EXTENSIONS = ['fenced_code', 'codehilite(css_class=codehilite)', 'extra', 'he
 
 DEFAULT_ORPHANS = 0
 DEFAULT_PAGINATION = 10
+
+# Debug output on pages
+# Seting to 'True' will show child/parent pages at bottom of pages
+PAGES_DEBUG = True

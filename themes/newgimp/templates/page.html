@@ -31,7 +31,7 @@
         </div>
     </section>
 
-	{% if page.modified %}
+	{% if page.modified  and PAGES_DEBUG == true %}
 		<p>
             <small>Created: {{ page.locale_date }}</small>,  
             <small>Last updated: {{ page.locale_modified }}</small>
@@ -39,8 +39,12 @@
 	{% endif %}
 
 
+    {% if PAGES_DEBUG == true %}
     <div style="border: dotted 1px #ccc; ;" class='page_content'>
         <p>Debug stuff.  Ignore</p>
+        <p>Testing PAGES_DEBUG: {% if PAGES_DEBUG %}Exists!{% else %} Doesn't exist! {% endif %} -- {{ PAGES_DEBUG }}</p>
+        <p>Testing PAGES_DEBUG == true: {% if PAGES_DEBUG == true %}true{% else %}not true?{% endif %} -- {{ PAGES_DEBUG }}</p>
+        
         <div style='font-size: 80%;'>
             <p>
                 url: {{ page.url }} <br/>
@@ -69,6 +73,7 @@
         </ul>
         </div>
     </div>
+    {% endif %}
 
 
 {% endblock %}
