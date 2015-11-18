@@ -25,25 +25,41 @@ The terms of usage and rules about copying are clearly listed in the [GNU Genera
 
 ## GIMP Stuff
 
-* Linking to us, including images of Wilber
-* Is it legal to sell copies of GIMP?
-* GIMP everywhere - where and how GIMP is used
-* GIMP authors and contributors
+* [Linking to us, including images of Wilber][1]
+* [Is it legal to sell copies of GIMP?][2]
+* [GIMP everywhere - where and how GIMP is used][3]
+* [GIMP authors and contributors][4]
+
+[1]: {filename}linking.md
+[2]: {filename}selling.md
+[3]: {filename}everywhere.md
+[4]: {filename}authors.md
 
 
 
 ## Important GIMP Links
 
-* The GNU Image Manipulation Program - www.gimp.org
-* GIMP Wiki - wiki.gimp.org
-* GIMP Bugzilla - bugzilla.gnome.org
-* The GIMP Toolkit - www.gtk.org
-* GNU Project - www.gnu.org
-* GNU General Public License - GPL
+* [The GNU Image Manipulation Program][] - www.gimp.org
+* [GIMP Wiki][] - wiki.gimp.org
+* [GIMP Bugzilla][] - bugzilla.gnome.org
+* [The GIMP Toolkit][] - www.gtk.org
+* [GNU Project][] - www.gnu.org
+* [GNU General][] Public License - GPL
 
+[The GNU Image Manipulation Program]: //www.gimp.org
+[GIMP Wiki]: //wiki.gimp.org
+[GIMP Bugzilla]: //bugzilla.gnome.org
+[The GIMP Toolkit]: //www.gtk.org
+[GNU Project]: //www.gnu.org
+[GNU General]: {filename}COPYING
 
 
 ## GIMP RSS Feeds
 
-* GIMP Active Bugs
+* [Atom Feed][]
+* [RSS Feed][]
+* [GIMP Active Bugs][]
 
+[Atom Feed]: /feeds/atom.xml
+[RSS Feed]: /feeds/rss.xml
+[GIMP Active Bugs]: https://bugzilla.gnome.org/buglist.cgi?bug_file_loc_type=substring&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=NEEDINFO&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&changedin=7&chfieldto=Now&product=GIMP&query_format=advanced&title=Bug%20List:%20GIMP%20-%20Current%20Bug%20Week&ctype=atom
