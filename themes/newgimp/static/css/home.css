@@ -310,6 +310,10 @@ span#gFirst {
     background-image: linear-gradient( to right, rgba(255,255,255,1) 50%, rgba(255,255,255,0.90)), url('/theme/images/oldfrontsplash.jpg');
     }
 
+    #twenty-banner {
+        top: 46px;
+    }
+
 }
 
 /* Testing reflowing sections to use wider screens better */
