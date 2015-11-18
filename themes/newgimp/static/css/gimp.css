@@ -341,6 +341,20 @@ footer .nav-bottom a {
     padding-left: 0;
 }
 
+.secondary-links {
+    margin-top: 1.5rem;
+    font-size: 0.75rem;
+}
+
+.secondary-links ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.secondary-links ul a {
+    color: #f57900;
+}
+
 .row.bottom {
     text-align: center;
     color: silver;
@@ -351,20 +365,6 @@ footer .nav-bottom a {
 .row.bottom a {
     color: #f57900;
 }
-
-/*
-#nav-btm-gimp-home {
-    margin-left: -1.65rem;
-}
-
-#nav-btm-downloads {
-    margin-left: -1.5rem;
-}
-
-#nav-btm-news {
-    margin-left: -1.5rem;
-}
-*/
 
 @media ( max-width: 40rem ){
 
@@ -549,6 +549,19 @@ footer .nav-bottom a {
         top: -60px !important;
     }
     
+    .secondary-links {
+        margin-top: 2rem;
+    }
+
+    .secondary-links ul {
+        text-align: center;
+    }
+
+    .secondary-links ul a {
+        display: block;
+        padding: 12px 0;
+        font-size: 1rem;
+    }
 }
 
 
