@@ -13,6 +13,14 @@
     margin: 0 auto;
 }
 
+.page_content p + h2,
+.page_content p + h3,
+.page_content p + h4,
+.page_content p + h5,
+.page_content p + h6 {
+    margin-top: 2rem;
+}
+
 .page_content ul, .page_content ol {
     max-width: 33rem;
     margin: 0 auto;
@@ -20,6 +28,7 @@
     color: #555;
     margin-bottom: 1.5rem;
     font-weight: 300;
+    font-weight: normal;
 }
 
 li {
