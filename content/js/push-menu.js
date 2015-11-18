@@ -62,7 +62,7 @@ setInterval( function() {
         if(Math.abs(lastScrollTop - st) <= delta)
             return;
 
-        console.log( st );
+        //console.log( st );
 
         // If scroll past navbar, add class .nav-up
         if ( st > lastScrollTop && st > 30){
