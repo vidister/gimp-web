@@ -7,10 +7,26 @@
     max-width: 34rem;
     margin-top: 1rem;
     color: #777;
+    color: #555;
 }
 
 .entry-content ul {
     max-width: 33rem;
     margin: 1rem auto;
     display: block;
+}
+
+.post-info {
+    border-bottom: 1px dotted;
+    display: inline-block;
+    font-size: 0.85rem;
+    color: #888;
+}
+
+abbr[title] {
+    border: none;
+}
+
+.vcard.author {
+    display: inline;
 }
