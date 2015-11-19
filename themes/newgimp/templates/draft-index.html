@@ -57,21 +57,24 @@
                   </div><!-- /.entry-content -->
 
                   <div>
-                      Drafts?<br/>
+                      <h2>Current Drafts</h2>
+                      <ul>
                       {{ drafts }}
                       {% for draft in drafts %}
-                      {{ draft.title }}<br/>
-                      {{ draft.status }}
-                      <hr/>
+                      <li><a href='{{ draft.url }}'>{{ draft.title }}</a></li>
                       {% endfor %}
-                      <br/>
+                      </ul>
                       End of the drafts?
                   </div>
                   <div>
+                      <p>
                       Testing all_articles...<br/>
-                      {% for article in all_articles %}
-                        {{ article.url }}<br/>
-                    {% endfor %}
+                          <ul>
+                          {% for article in all_articles %}
+                          <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.url }}</a></li>
+                          {% endfor %}
+                          </ul>
+                      </p>
                   </div>
               </div>
           </div>
