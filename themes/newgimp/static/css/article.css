@@ -30,3 +30,11 @@ abbr[title] {
 .vcard.author {
     display: inline;
 }
+
+body {
+    background-color: #0e2426;
+}
+
+#pushPage {
+    background-color: white;
+}
