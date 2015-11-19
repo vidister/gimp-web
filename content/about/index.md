@@ -9,8 +9,9 @@ Author: Pat David
 GIMP is an acronym for GNU Image Manipulation Program.
 It is a freely distributed program for such tasks as photo retouching, image composition and image authoring.
 The terms of usage and rules about copying are clearly listed in the [GNU General Public License](/about/COPYING.txt).
+There is a nice [Frequently Asked Questions (FAQ)][] page.
 
-
+[Frequently Asked Questions (FAQ)]: {filename}../docs/userfaq.md
 
 ## GIMP History
 
