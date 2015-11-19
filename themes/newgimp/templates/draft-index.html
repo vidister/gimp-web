@@ -59,16 +59,17 @@
                   <div>
                       <h2>Current Drafts</h2>
                       <ul>
-                      {{ drafts }}
-                      {% for draft in drafts %}
-                      <li><a href='{{ draft.url }}'>{{ draft.title }}</a></li>
-                      {% endfor %}
+                          {% for draft in drafts %}
+                          <li><a href="{{ SITEURL}}/{{ draft.url }}">{{ draft.title }}</a></li>
+                          <small>{{ draft.url }}</small>
+                          {% endfor %}
                       </ul>
-                      End of the drafts?
                   </div>
+                  <hr/>
                   <div>
+                      <h2>All News Items</h2>
                       <p>
-                      Testing all_articles...<br/>
+                          Testing all_articles...<br/>
                           <ul>
                           {% for article in all_articles %}
                           <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.url }}</a></li>
