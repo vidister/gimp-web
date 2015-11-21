@@ -78,7 +78,7 @@ td, th {
 </figure>
 
 ## Current Stable Version
-The current stable release of GIMP is **2.8.16** (2014-11-21).
+The current stable release of GIMP is **2.8.16** (2015-11-21).
 
 <div class="OSTEST" markdown="1">
 We think your OS is 
