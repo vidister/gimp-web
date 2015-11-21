@@ -6,9 +6,10 @@ Status: draft
 
 This is a placeholder to announce 20 years of GIMP!  Yay!
 
-Let's have a look at all the years of gun-barrel sequences from Bond openings:
-
 <figure>
-<img src='{filename}./images/bond.jpg' alt='Bond, James Bond'/>
+<img src='{filename}./images/201512birthday.png' alt='Wilber Birthday Strip'/>
 </figure>
 
+<figure>
+<img src='{filename}images/birthday2.png' alt='Wilber Birthday Snapshot' width='200'/>
+</figure>
