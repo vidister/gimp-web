@@ -1,0 +1,116 @@
+# Installing gimp-web
+
+These instructions are for building the GIMP website from the git repository.
+It is assumed you are already acquainted with git.
+If not, please consult https://wiki.gnome.org/Git
+
+To download a fresh copy of the site (anonymous, read-only) use the following command:
+
+`git clone git://git.gnome.org/gimp-web`
+
+
+## Meta
+
+There is a series of pages on the site that attempt to address many questions about building and using the new system (Pelican).
+Refer to these pages for extended information in addition to what is below (`about/meta/index.html`).
+
+## Short 
+
+The new site is built using the Pelican static site generator, written in Python.
+The tools to build and test the site are Python, Pelican, and a couple of modules (Markdown, typogrify).
+
+### Getting the build environment
+
+1. Install Python 2.7.x.
+2. Install Pelican (`pip install pelican`).
+    Make sure that pip is using Python 2.7.x if you have multiple versions installed.
+    There may be a pip2.7 alias on your system.
+    You can also use a virtualenv to isolate the required Python environment.
+3. Install some extra components:
+    * For Markdown support (required):
+        `pip install Markdown`
+    * For fancy typography elements with typogrify:
+        `pip install typogrify`
+
+Further information in greater detail can be found in the Pelican documentation (http://docs.getpelican.com/en/stable/).
+
+
+### Building the site
+
+Once the few prerequisites are installed, building the site is relatively straightforward.
+From the project directory, you can invoke pelican:
+
+`pelican`
+
+This will build the site into a directory called `output`.
+
+If you are writing content or developing the site, there is an option to have pelican watch the directories for file changes and to automatically recompile the site when a change is detected:
+
+`pelican -r`
+
+
+### Viewing the site
+
+Python has a built-in simple web server that can be used to serve the site.
+From the `output/` directory:
+
+`python -m SimpleHTTPServer`
+
+The site can then be accessed locally at `localhost:8000`.
+
+
+## pelicanconf.py
+
+The configuration file `pelicanconf.py` is where all of the various parameters for the site are specified.
+Further details will be added here later to explain.
+
+
+## Content
+
+The site content source files are located in the folder `content/`.
+There is a Pelican plugin that will mimic the hierarchy of the folders as urls.
+
+
+### Directories
+
+So, `content/about/index.md` will be created as `output/about/index.html`.
+
+If a new directory needs to be added, like `artists/`:
+
+    1. Create the directory, and an index.md file directly under it.
+    2. Add the new directory to the `pelicanconf.py` file in the variable `PAGE_PATHS`
+        This is to make sure that the new directory gets parsed correctly.
+
+
+### File Formats
+
+The files can be written using ReStructuredText, Markdown, or HTML.
+The latest information for using these formats can be found in the documentation:
+http://docs.getpelican.com/en/latest/content.html
+
+The majority of the files here are likely Markdown, as it's what I (Pat David) used.
+I wrote a brief cheatsheet of the Markdown format that can be found on the site here:
+`about/meta/markdown.html`
+
+
+### Writing a News post
+
+To write a News post, simply include your new post in the `news/` directory.
+I have been using `YYYY-MM-DD Topic.md` as a file naming convention.
+
+
+#### Drafts
+
+To mark a news item as a draft, include the `Status: draft` metadata in the head of the file.
+It will not appear anywhere other than in the `drafts/` folder until the `Status` metadata is removed or changed to `Status: published`.
+
+
+#### Adding images
+
+There's a subdirectory under `news/` for news post images called... `images/`.
+In your source file, you can use Pelican's internal file linking to refer to it:
+
+`<img src="{filename}/news/images/file.jpg"...>`
+
+This is just pointing to the file in the location it exists at in the source (as opposed to the output).
+This will make sure that the link works even if the image file gets output to a different location (it shouldn't right now - but who knows).
