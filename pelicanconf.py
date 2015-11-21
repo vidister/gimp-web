@@ -21,9 +21,7 @@ SITEURL = 'http://static.gimp.org'
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
-
 DEFAULT_LANG = u'en'
-
 DEFAULT_DATE_FORMAT = "%Y-%m-%d"
 
 # Feed generation is usually not desired when developing
@@ -49,8 +47,6 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = False
 
-# Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
 
 
 # Pat David changes while building/testing
@@ -58,7 +54,6 @@ READERS = {'html': None}
 
 # This will copy over these folders w/o modification
 STATIC_PATHS = ['images', 'js', 'pages', 'tutorials', 'about', 'books', 'develop', 'docs', 'donating', 'downloads', 'features', 'bugs', 'links', 'man', 'release-notes', 'screenshots', 'source', 'unix', 'robots.txt', 'COPYING', 'GNUGPLv2', 'GNUGPLv3', 'news']
-
 
 # This sets which directories will be parsed as pages (vs. news/articles)
 # If a new directory is to be added under content/, make sure it gets added hereMarkdown.
@@ -85,7 +80,6 @@ ARTICLE_SAVE_AS = "news/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html"
 INDEX_SAVE_AS = "/news/index.html"
 
 
-
 TYPOGRIFY = True
 TYPOGRIFY_IGNORE_TAGS = ['title']
 
@@ -100,4 +94,8 @@ DEFAULT_PAGINATION = 10
 
 # Debug output on pages
 # Seting to 'True' will show child/parent pages at bottom of pages
-PAGES_DEBUG = True
+PAGES_DEBUG = False
+
+# When developing, you probably want document relative URLs - so set this to True
+# When publishing, set to False
+RELATIVE_URLS = False
