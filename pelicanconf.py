@@ -61,6 +61,7 @@ STATIC_PATHS = ['images', 'js', 'pages', 'tutorials', 'about', 'books', 'develop
 
 
 # This sets which directories will be parsed as pages (vs. news/articles)
+# If a new directory is to be added under content/, make sure it gets added here.
 PAGE_PATHS = ['about', 'frontpage', 'tutorials', 'books', 'develop', 'docs', 'donating', 'downloads', 'features', 'bugs', 'links', 'man', 'release-notes', 'screenshots', 'source', 'unix']
 
 ARTICLE_PATHS = ['news']
