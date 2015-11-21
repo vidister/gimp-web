@@ -78,7 +78,7 @@ td, th {
 </figure>
 
 ## Current Stable Version
-The current stable release of GIMP is **2.8.14** (2014-08-26).
+The current stable release of GIMP is **2.8.16** (2014-11-21).
 
 <div class="OSTEST" markdown="1">
 We think your OS is 
@@ -262,9 +262,12 @@ GIMP releases available from gimp.org and its [mirrors](#mirrors) contain the so
 
 For instructions, how to build GIMP from source code, please see [this page](/source/).
 
-GIMP 2.8.14 is now available at [http://download.gimp.org/pub/gimp/v2.8/](http://download.gimp.org/pub/gimp/v2.8/). You may want to read the [Release Notes for GIMP 2.8](/release-notes/gimp-2.8.html).
+GIMP 2.8.16 is now available at [http://download.gimp.org/pub/gimp/v2.8/](http://download.gimp.org/pub/gimp/v2.8/). You may want to read the [Release Notes for GIMP 2.8](/release-notes/gimp-2.8.html).
 
 To allow you to check the integrity of the tarballs, here are the MD5 sums of the latest releases:
+
+**gimp-2.8.16.tar.bz2**
+<kbd>30e0a1b7c18b0e3415f4ac54567252ac</kbd>
 
 **gimp-2.8.14.tar.bz2**  
 <kbd>233c948203383fa078434cc3f8f925cb</kbd>
