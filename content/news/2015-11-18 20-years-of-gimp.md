@@ -7,9 +7,9 @@ Status: draft
 This is a placeholder to announce 20 years of GIMP!  Yay!
 
 <figure>
-<img src='{filename}./images/201512birthday.png' alt='Wilber Birthday Strip'/>
+<img src='{filename}./images/201512birthday_975.png' alt='Wilber Birthday Strip'/>
 </figure>
 
 <figure>
-<img src='{filename}images/birthday2.png' alt='Wilber Birthday Snapshot' style='width:500px;' />
+<img src='{filename}images/birthday2_500.png' alt='Wilber Birthday Snapshot' style='width:500px;' />
 </figure>
