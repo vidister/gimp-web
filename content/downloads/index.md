@@ -306,6 +306,9 @@ Nightly builds for Windows are available at [darkrefraction.com](http://nightly.
 
 A detailed list of changes in the development branch is available in [git](https://git.gnome.org/cgit/gimp/plain/NEWS).
 
+</div>
+
+<div id='mirrors'  markdown="1">
 ## FTP and Web Mirrors
 
 Due to our server move in April (physical to virtual, into an environment that doesn't allow FTP access), we lost all existing mirrors. But we are now able to offer rsync access to download.gimp.org
