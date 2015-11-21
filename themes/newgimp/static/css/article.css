@@ -38,3 +38,13 @@ body {
 #pushPage {
     background-color: white;
 }
+
+figure {
+    display: table;
+    margin: 1rem auto;
+}
+
+figure img {
+    width: initial;
+    max-width: 100%;
+}
