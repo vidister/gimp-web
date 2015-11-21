@@ -6,6 +6,7 @@
 
   <name xml:lang="en">gimp-web</name>
   <shortdesc xml:lang="en">GIMP website</shortdesc>
+  <description>GIMP website</description>
   <homepage rdf:resource="http://www.gimp.org/" />
   <mailing-list rdf:resource="https://mail.gnome.org/mailman/listinfo/gimp-web-list" />
   <category rdf:resource="http://api.gnome.org/doap-extensions#infrastructure" />
