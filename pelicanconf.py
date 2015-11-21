@@ -16,7 +16,7 @@ I18N_SUBSITES = {
 
 AUTHOR = u'Pat David'
 SITENAME = u'GIMP'
-SITEURL = 'http://static.gimp.org'
+SITEURL = 'http://www.gimp.org'
 
 PATH = 'content'
 
