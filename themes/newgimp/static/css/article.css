@@ -5,7 +5,7 @@
 
 .entry-content p {
     max-width: 34rem;
-    margin-top: 1rem;
+    margin-bottom: 1rem;
     color: #777;
     color: #555;
 }
@@ -21,6 +21,7 @@
     display: inline-block;
     font-size: 0.85rem;
     color: #888;
+    margin-bottom: 1.5rem;
 }
 
 abbr[title] {
@@ -48,4 +49,33 @@ figure img {
     width: initial;
     max-width: 100%;
     max-height: 100vh;
+}
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+
+    max-width: 35rem;
+    margin: 0 auto;
+}
+
+.entry-content p + h1,
+.entry-content p + h2,
+.entry-content p + h3,
+.entry-content p + h4,
+.entry-content p + h5,
+.entry-content p + h6 {
+    margin-top: 2rem;
+}
+
+figure figcaption {
+    font-size: 0.85rem;
+    text-align: center;
+    line-height: 1.3rem;
+    display: table-caption;
+    caption-side: bottom;
+    font-weight: 300;
 }
