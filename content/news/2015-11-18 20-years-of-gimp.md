@@ -11,5 +11,5 @@ This is a placeholder to announce 20 years of GIMP!  Yay!
 </figure>
 
 <figure>
-<img src='{filename}images/birthday2_500.png' alt='Wilber Birthday Snapshot' style='width:500px;' />
+<img src='{filename}images/birthday2_500.png' alt='Wilber Birthday Snapshot' />
 </figure>
