@@ -26,7 +26,7 @@ To celebrate the 20th anniversary, we released an update of the current stable v
 
 Our immediate future plans are to release first public version in the unstable 2.9.x series that will feature fully functional GEGL port, 16/32bit per channel processing, basic OpenEXR support, vastly improved color management implementation, new tools, on-canvas preview for many filters, and more. This release will encompass over three years of work and become the first milestone towards 2.10.
 
-Following v2.10 release, we shall complete the GTK+3 port that is required to bring back state of the art Wacom support for Windows users. When it's done and GIMP 2.0 is out, we shall finally be able to get started on some very exciting and much anticipated features like non-destructive editing. Please refer to [Roadmap](http://wiki.gimp.org/wiki/Roadmap) for more details.
+Following v2.10 release, we shall complete the GTK+3 port that is required to bring back state of the art Wacom support for Windows users. When it's done and GIMP 3.0 is out, we shall finally be able to get started on some very exciting and much anticipated features like non-destructive editing. Please refer to [Roadmap](http://wiki.gimp.org/wiki/Roadmap) for more details.
 
 ## New website
 
