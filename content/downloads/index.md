@@ -78,7 +78,7 @@ td, th {
 </figure>
 
 ## Current Stable Version
-The current stable release of GIMP is **2.8.16** (2014-11-21).
+The current stable release of GIMP is **2.8.16** (2015-11-21).
 
 <div class="OSTEST" markdown="1">
 We think your OS is 
@@ -123,6 +123,10 @@ Similarly to the above, Fedora users can install GIMP by running `dnf install gi
 ### Gentoo
 
 Gentoo users can install GIMP by running `emerge gimp` for the latest stable version.
+
+### Arch
+
+Arch Linux users can install GIMP by running `pacman -S gimp`.
 
 ### Mageia 
 
@@ -266,7 +270,7 @@ GIMP 2.8.16 is now available at [http://download.gimp.org/pub/gimp/v2.8/](http:/
 
 To allow you to check the integrity of the tarballs, here are the MD5 sums of the latest releases:
 
-**gimp-2.8.16.tar.bz2**
+**gimp-2.8.16.tar.bz2**  
 <kbd>30e0a1b7c18b0e3415f4ac54567252ac</kbd>
 
 **gimp-2.8.14.tar.bz2**  
@@ -306,6 +310,9 @@ Nightly builds for Windows are available at [darkrefraction.com](http://nightly.
 
 A detailed list of changes in the development branch is available in [git](https://git.gnome.org/cgit/gimp/plain/NEWS).
 
+</div>
+
+<div id='mirrors'  markdown="1">
 ## FTP and Web Mirrors
 
 Due to our server move in April (physical to virtual, into an environment that doesn't allow FTP access), we lost all existing mirrors. But we are now able to offer rsync access to download.gimp.org
