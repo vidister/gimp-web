@@ -1,7 +1,7 @@
 Title: Open Usability and GIMP
 Date: 2006-08-11
 Category: News
-Authors: Wilber Gimp
+Authors: Wilber
 
 
 
