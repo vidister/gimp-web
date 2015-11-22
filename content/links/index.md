@@ -9,7 +9,7 @@ This page contains the best links to interesting GIMP-related sites. If you want
 
 ## Important GIMP Links
 
-*   [The GNU Image Manipulation Program](http://www.gimp.org/) - www.gimp.org
+*   [The GNU Image Manipulation Program](//www.gimp.org/) - www.gimp.org
 *   [GIMP Wiki](http://wiki.gimp.org/) - wiki.gimp.org
 *   [GIMP Bugzilla](https://bugzilla.gnome.org/) - bugzilla.gnome.org
 *   [The GIMP Toolkit](http://www.gtk.org/) - www.gtk.org
@@ -126,7 +126,7 @@ This page contains the best links to interesting GIMP-related sites. If you want
 [GIMP in Lithuanian](http://gimp.akl.lt/)  
  Lithuanian site about GIMP, featuring news, tutorials, forum and galleries.
 
-[GIMP.org.es](http://www.gimp.org.es)  
+[GIMP.org.es](//www.gimp.org.es)  
  News, tutorials, forum, galleries for Spanish-speaking users.
 
 [GIMP.hu](http://www.gimp.hu)  

@@ -93,14 +93,14 @@ All requirements below must be met to be able compiling GIMP from source. This l
 <tr>
 <td>babl</td>
 <td>0.1.10 or newer</td>
-<td>[Download](http://download.gimp.org/pub/babl/)</td>
+<td>[Download](//download.gimp.org/pub/babl/)</td>
 <td>-</td>
 <td>Pixel format translation library</td>
 </tr>
 <tr>
 <td>GEGL</td>
 <td>0.2.0 or newer</td>
-<td>[Download](http://download.gimp.org/pub/gegl/)</td>
+<td>[Download](//download.gimp.org/pub/gegl/)</td>
 <td>-</td>
 <td>Generic Graphics Library</td>
 </tr>

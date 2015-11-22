@@ -20,6 +20,6 @@ Please use only permissive licensing, such as [CC-BY](http://creativecommons.org
 
 Text goes here.
 
-The original tutorial can be found [here](http://www.gimp.org/tutorials).
+The original tutorial can be found [here](//www.gimp.org/tutorials).
 
 

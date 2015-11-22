@@ -210,7 +210,7 @@ We have started overhauling the default set of resources and in this version the
 
 ### Plug-in Development
 
-GIMP 2.8 also further enhances its scripting abilities. For example, API changes to support layer groups have been made. Here is a [list of new symbols in GIMP 2.8](http://developer.gimp.org/api/2.0/libgimp/libgimp-index-new-in-2-8.html).
+GIMP 2.8 also further enhances its scripting abilities. For example, API changes to support layer groups have been made. Here is a [list of new symbols in GIMP 2.8](//developer.gimp.org/api/2.0/libgimp/libgimp-index-new-in-2-8.html).
 
 ### API Changes
 

@@ -20,7 +20,7 @@ Color has this amazing ability to evoke emotional responses from us. From the wa
 
 Volumes have been written on color and I am in no ways even remotely qualified to speak on it. So I won’t.
 
-Instead, we are going to take a look at the use of the **Curves** tool in [GIMP](http://www.gimp.org). Even though GIMP is used to demonstrate these ideas, the principles are generic to just about any RGB curve adjustments.
+Instead, we are going to take a look at the use of the **Curves** tool in [GIMP](//www.gimp.org). Even though GIMP is used to demonstrate these ideas, the principles are generic to just about any RGB curve adjustments.
 
 ## Your Pixels and You[](#your-pixels-and-you)
 

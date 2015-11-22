@@ -15,7 +15,7 @@ There were also some changes behind the scenes: Users of G4 processors will enjo
 
 A detailed list of all changes since GIMP 2.2 is available [here](https://git.gnome.org/browse/gimp/plain/NEWS?id=GIMP_2_3_3). It will take a little more time until the GIMP developers will present the next stable release. Those who do not want to wait are free to try GIMP 2.3.3\. For those who yearn for a faster release: Help is always welcome! Not only programmers are needed but also web designers, documentation authors and translators are desperately needed.
 
-[GIMP Homepage](http://www.gimp.org)  
+[GIMP Homepage](//www.gimp.org)  
 [GIMP User Manual](http://docs.gimp.org)  
 [SIOX Algorithm](http://www.siox.org)
 

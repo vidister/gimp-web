@@ -29,7 +29,7 @@ Some hints on the server setup:
 *   Check that all README files are present
 *   Check that README, MIRRORS and \*.md5 are sent as text/plain
 
-The size of the data as seen on [http://download.gimp.org/pub/](http://download.gimp.org/pub/) is currently around 4.1 GiB, with gimp and gtk subdirectories amounting to about 3.4 GiB. New releases are uploaded some time before the announcement is made, so syncing every few days should be sufficient.
+The size of the data as seen on [http://download.gimp.org/pub/](//download.gimp.org/pub/) is currently around 4.1 GiB, with gimp and gtk subdirectories amounting to about 3.4 GiB. New releases are uploaded some time before the announcement is made, so syncing every few days should be sufficient.
 
 ## Last resort
 

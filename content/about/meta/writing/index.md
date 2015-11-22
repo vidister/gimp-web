@@ -142,11 +142,11 @@ When compiled, because the URL structure will mimic the source structure, the fi
 
 When linking to this page, you can use a fully qualified URL, or a URL from base, or a relative URL:
 
-    [Full Link to Meta](http://www.gimp.org/about/meta/)
+    [Full Link to Meta](//www.gimp.org/about/meta/)
     [Less Full Link to Meta](/about/meta/)
     [Relative Link to Meta](../) (from this page)
 
-[Full Link to Meta](http://www.gimp.org/about/meta/)  
+[Full Link to Meta](//www.gimp.org/about/meta/)  
 [Less Full Link to Meta](/about/meta/)  
 [Relative Link to Meta](../) (from this page)  
 

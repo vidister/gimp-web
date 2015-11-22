@@ -455,7 +455,7 @@ Normally it means that the script is trying to use a particular font that isn't 
 
 ### What is Net-Fu? Where is it?
 
-Net-fu is a web-based interface to a script-fu server. The work is done at a remote site. To see Net-fu, point your web browser at [http://download.gimp.org/](http://download.gimp.org/) or one of the mirror sites, and then go to "pub/gimp/net-fu/". Any web browser can read net-fu pages; the browser must be Java-enabled to actually run Script-fu. Fonts
+Net-fu is a web-based interface to a script-fu server. The work is done at a remote site. To see Net-fu, point your web browser at [http://download.gimp.org/](//download.gimp.org/) or one of the mirror sites, and then go to "pub/gimp/net-fu/". Any web browser can read net-fu pages; the browser must be Java-enabled to actually run Script-fu. Fonts
 
 ### Where can I get the fonts I'm missing?
 

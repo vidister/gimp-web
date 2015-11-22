@@ -44,7 +44,7 @@ Most notable of under-the-hood changes are the first steps of [GEGL](http://gegl
 
 Peeking out from under the hood are subtle differences in the way the UI draws its elements. These changes are due to internally making use of the Cairo library to draw UI elements. This is visible for example in the drawing of Layers and Paths docks and Curves dialog.
 
-Please see the [NEWS](https://git.gnome.org/browse/gimp/plain/NEWS?id=GIMP_2_5_0) file for a more detailed list of changes. [Screenshots](http://developer.gimp.org/screenshots.html) of the development version can also be found there.
+Please see the [NEWS](https://git.gnome.org/browse/gimp/plain/NEWS?id=GIMP_2_5_0) file for a more detailed list of changes. [Screenshots](//developer.gimp.org/screenshots.html) of the development version can also be found there.
 
 ## Download
 

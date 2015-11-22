@@ -285,7 +285,7 @@ When reporting GIMP bugs, it is important to include a reliable way to reproduce
 
 ## [Other Info](#toc8)
 
-The canonical place to find GIMP info is at [http://www.gimp.org/.](http://www.gimp.org/.) Here you can find links to just about many other GIMP sites, tutorials, data sets, mailing list archives, and more.
+The canonical place to find GIMP info is at [http://www.gimp.org/.](//www.gimp.org/.) Here you can find links to just about many other GIMP sites, tutorials, data sets, mailing list archives, and more.
 
 There is also a GIMP User Manual available at [http://docs.gimp.org/](http://docs.gimp.org/) that goes into much more detail about the interactive use of GIMP.
 
