@@ -2,7 +2,6 @@ Title: 20 Years of GIMP, release of GIMP 2.8.16
 Date: 2015-11-22T09:32:24-05:00
 Category: News
 Authors: Wilber
-Status: draft
 
 This week the GIMP project celebrates its 20th anniversay.
 
