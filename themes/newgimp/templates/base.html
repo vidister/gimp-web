@@ -7,10 +7,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/wilber16.png" type="image/png" />
         {# SITEURL gets odd when using i18n, using better paths just below
-        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/normalize.css" />
-        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/grid.css" />
-        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/gimp.css" />
-        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/font-awesome-4.4.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="/theme/css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="/theme/css/grid.css" />
+        <link rel="stylesheet" type="text/css" href="/theme/css/gimp.css" />
+        <link rel="stylesheet" type="text/css" href="/theme/css/font-awesome-4.4.0/css/font-awesome.min.css" />
         #}
         <link rel="stylesheet" type="text/css" href="/theme/css/normalize.css" />
         <link rel="stylesheet" type="text/css" href="/theme/css/grid.css" />
@@ -58,18 +58,18 @@
             {% if DISPLAY_PAGES_ON_MENU %}
               {% for p in PAGES %}
                 {% if p.parents|length == 1 %}
-                  <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+                  <li{% if p == page %} class="active"{% endif %}><a href="/{{ p.url }}">{{ p.title }}</a></li>
                 {% endif %}
                 {# The old way...
                   {% if not p.parent %}
-                    <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+                    <li{% if p == page %} class="active"{% endif %}><a href="/{{ p.url }}">{{ p.title }}</a></li>
                   {% endif %}
                 #}
               {% endfor %}
             {% else %}
               {% if DISPLAY_CATEGORIES_ON_MENU %}
                 {% for cat, null in categories %}
-                  <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+                  <li{% if cat == category %} class="active"{% endif %}><a href="/{{ cat.url }}">{{ cat }}</a></li>
                 {% endfor %}
               {% endif %}
             {% endif %}
@@ -145,7 +145,7 @@
 
                           {% for p in PAGES %}
                             {% if p.parents|length == 1 %}
-                              <li{% if p == page %} class="active"{% endif %} class="page-on-menu"><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+                              <li{% if p == page %} class="active"{% endif %} class="page-on-menu"><a href="/{{ p.url }}">{{ p.title }}</a></li>
                             {% endif %}
                           {% endfor %}
 
@@ -153,7 +153,7 @@
 
                           {% if DISPLAY_CATEGORIES_ON_MENU %}
                             {% for cat, null in categories %}
-                              <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+                              <li{% if cat == category %} class="active"{% endif %}><a href="/{{ cat.url }}">{{ cat }}</a></li>
                             {% endfor %}
                           {% endif %}
 

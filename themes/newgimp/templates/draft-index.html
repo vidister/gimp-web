@@ -14,7 +14,7 @@
     <meta name="tags" content="{{tag}}" />
   {% endfor %}
 
-    <link rel='stylesheet' type='text/css' href="{{ SITEURL }}/theme/css/article.css" />
+    <link rel='stylesheet' type='text/css' href="/theme/css/article.css" />
 
 {% endblock head %}
 
@@ -27,7 +27,7 @@
                 {# <header> #}
 
                     <h2 class="entry-title">
-                      <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
+                      <a href="/{{ article.url }}" rel="bookmark"
                          title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>
                  {% import 'translations.html' as translations with context %}
                  {{ translations.translations_for(article) }}
@@ -46,7 +46,7 @@
                     {% if article.authors %}
                     <address class="vcard author">
                       by {% for author in article.authors %}
-                          <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
+                          <a class="url fn" href="/{{ author.url }}">{{ author }}</a>
                         {% endfor %}
                     </address>
                     {% endif %}
@@ -72,7 +72,7 @@
                           Testing all_articles...<br/>
                           <ul>
                           {% for article in all_articles %}
-                          <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.url }}</a></li>
+                          <li><a href="/{{ article.url }}">{{ article.url }}</a></li>
                           {% endfor %}
                           </ul>
                       </p>

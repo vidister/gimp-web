@@ -4,8 +4,8 @@
 
 {% block head %}
 {{ super() }}
-<link rel='stylesheet' type='text/css' href="{{ SITEURL }}/theme/css/page.css" />
-<link rel='stylesheet' type='text/css' href="{{ SITEURL }}/theme/css/news-index.css" />
+<link rel='stylesheet' type='text/css' href="/theme/css/page.css" />
+<link rel='stylesheet' type='text/css' href="/theme/css/news-index.css" />
 {% endblock head %}
 
 
@@ -15,11 +15,11 @@
             <div class="container">
                 <div class="intro row">
 
-                    <img id='WilberLogo' src="{{ SITEURL }}/theme/images/wilber-big.png" alt="GIMP Wilber" width='200' height='150'/>
+                    <img id='WilberLogo' src="/theme/images/wilber-big.png" alt="GIMP Wilber" width='200' height='150'/>
                     <h1>
-                        <a href="{{ SITEURL }}/">GIMP</a>
-                        {#<a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a> #}
-                        {# <a href="{{ SITEURL }}/"><img src="{{ SITEURL }}/theme/images/wilber-big.png" alt="GIMP Wilber"/>{{ SITENAME }}</a> #}
+                        <a href="/">GIMP</a>
+                        {#<a href="/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a> #}
+                        {# <a href="/"><img src="/theme/images/wilber-big.png" alt="GIMP Wilber"/>{{ SITENAME }}</a> #}
 
 {#
                     </h1>
@@ -128,7 +128,7 @@
 
                     <div class="column full">
                         <h3 class="entry-title">
-                            <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">
+                            <a href="/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">
                                 {{ article.title }}
                             </a>
                         </h3>
@@ -139,7 +139,7 @@
                             {# Suppressing the author info - they're all Wilber for now!
                             <address class="vcard author">By
                                 {% for author in article.authors %}
-                                    <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
+                                    <a class="url fn" href="/{{ author.url }}">{{ author }}</a>
                                 {% endfor %}
                             </address>
                             #}
@@ -152,7 +152,7 @@
 
                         {#
                         <div class='entry-more'>
-                            <a href="{{ SITEURL }}/{{ article.url }}" rel='bookmark' title='Permalink to {{ article.title|striptags }}'>
+                            <a href="/{{ article.url }}" rel='bookmark' title='Permalink to {{ article.title|striptags }}'>
                                 More &raquo;
                             </a>
                         </div>
@@ -173,12 +173,12 @@
         <ol id="post-list">
         {% for article in articles_page.object_list %}
                 <li><article class="hentry">
-                        <header> <h2 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2> </header>
+                        <header> <h2 class="entry-title"><a href="/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2> </header>
                         <footer class="post-info">
                             <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr>
                             <address class="vcard author">By
                             {% for author in article.authors %}
-                                <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
+                                <a class="url fn" href="/{{ author.url }}">{{ author }}</a>
                             {% endfor %}
                             </address>
                         </footer><!-- /.post-info -->

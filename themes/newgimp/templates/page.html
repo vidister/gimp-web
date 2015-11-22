@@ -59,14 +59,14 @@
             <li>page.parents.length: {{ page.parents|length }}</li>
             {% for parent in page.parents %}
             <li>url: {{ parent.url }} - title: {{ parent.title }}<br/>
-                <a href="{{ SITEURL }}/{{ parent.url }}">{{ parent.title }}</a></li>
+                <a href="/{{ parent.url }}">{{ parent.title }}</a></li>
             {% endfor %}
         </ul>
         <p>page children</p>
         <ul>
             {% for child in page.children %}
             <li>url: {{ child.url }} - title: {{ child.title }}<br/>
-                <a href="{{ SITEURL }}/{{ child.url }}">{{ child.title }}</a></li>
+                <a href="/{{ child.url }}">{{ child.title }}</a></li>
             {% endfor %}
         </ul>
         </div>
