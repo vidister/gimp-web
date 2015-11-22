@@ -124,6 +124,10 @@ Similarly to the above, Fedora users can install GIMP by running `dnf install gi
 
 Gentoo users can install GIMP by running `emerge gimp` for the latest stable version.
 
+### Arch
+
+Arch Linux users can install GIMP by running `pacman -S gimp`.
+
 ### Mageia 
 
 Mageia Linux users can install GIMP by running `urpmi gimp`.
