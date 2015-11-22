@@ -28,19 +28,12 @@ Our immediate future plans are to release first public version in the unstable 2
 
 Following v2.10 release, we shall complete the GTK+3 port that is required to bring back state of the art Wacom support for Windows users. When it's done and GIMP 2.0 is out, we shall finally be able to get started on some very exciting and much anticipated features like non-destructive editing. Please refer to [Roadmap](http://wiki.gimp.org/wiki/Roadmap) for more details.
 
-## New website (SGO)
+## New website
 
-In conjunction with the 20th anniversary we have updated and revamped the website. Vast majority of the work on the new website was done by [Pat David](http://blog.patdavid.net/).
+In conjunction with the 20th anniversary we have updated and revamped the website. 
+The vast majority of the work on the new website was done by [Pat David](http://blog.patdavid.net/).
 
-<figure>
-<img src="{filename}images/1997-GIMP-Berkeley.png" alt="GIMP 1.0 Website" />
-<figcaption>
-The GIMP website originally hosted at xcf.berkeey.edu (ca. 1997).<br/>
-<a href="https://web.archive.org/web/19970711112615/http://www.xcf.berkeley.edu/~gimp/">via archive.org</a>
-</figcaption>
-</figure>
-
-The update (finally) includes some much needed improvements such as [News items] with permalinks and [full RSS/Atom feeds][].
+The update (*finally*) includes some much needed improvements such as [news items] with permalinks and [full RSS/Atom feeds][].
 The site is also now responsive to adapt to various screen sizes.
 Try it on a mobile device or tablet!
 
@@ -51,4 +44,6 @@ Try it on a mobile device or tablet!
 <img src='{filename}images/birthday2_500.png' alt='Wilber Birthday Snapshot' />
 </figure>
 
-
+<small>
+Wilber & Co. comics courtesy of [Aryeom & Jehan](http://libreart.info/).
+</small>
