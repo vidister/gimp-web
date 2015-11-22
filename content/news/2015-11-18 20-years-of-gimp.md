@@ -3,7 +3,7 @@ Date: 2015-11-22T09:32:24-05:00
 Category: News
 Authors: Wilber
 
-This week the GIMP project celebrates its 20th anniversay.
+This week the GIMP project celebrates its 20th anniversary.
 
 Back in 1995, University of California students, Peter Mattis and Kimball Spencer, were members of the eXperimental Computing Facility, a Berkeley campus organization of undergraduate students enthusiastic about computers and programming. In June of that year, the two hinted at their intentions to write a free graphical image manipulation program as a means of giving back to the free software community.
 
