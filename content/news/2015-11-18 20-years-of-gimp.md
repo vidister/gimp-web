@@ -6,7 +6,7 @@ Status: draft
 
 This week the GIMP project celebrates its 20th anniversay.
 
-Back in 1995, University of California students, Peter Mattis and Kimball Spencer, were members of the eXperimental Computing Facility, a Berkeley campus organization of undergraduate students enthusiastic about computers and programming. In June of that year, the two hinted at their intentions to write a free graphical image manipulation program as a means of giving back to the Free Software community.. 
+Back in 1995, University of California students, Peter Mattis and Kimball Spencer, were members of the eXperimental Computing Facility, a Berkeley campus organization of undergraduate students enthusiastic about computers and programming. In June of that year, the two hinted at their intentions to write a free graphical image manipulation program as a means of giving back to the free software community.
 
 On November 21st, 20 years ago today, Peter Mattis [announced the availability](/about/prehistory.html#november-1995-an-announcement) of the "General Image Manipulation Program" on Usenet (later on, the acronym would be redefined to stand for the "GNU Image Manipulation Program"). 
 
@@ -40,15 +40,8 @@ The GIMP website originally hosted at xcf.berkeey.edu (ca. 1997).<br/>
 </figcaption>
 </figure>
 
-The update (finally) includes some much needed improvements such as [News items] with permalinks and [full RSS/Atom feeds][].
-The site is also now responsive to adapt to various screen sizes.
-Try it on a mobile device or tablet!
-
-[News items]: //www.gimp.org/news/
-[full RSS/Atom feeds]: //www.gimp.org/feeds/atom.xml
+The update finally includes much needed improvements such as [news items](/news/) with permalinks and [full RSS/Atom feeds](/feeds/atom.xml). The website is now also responsive to adapt to various screen sizes. Try it on a mobile device or a tablet!
 
 <figure>
 <img src='{filename}images/birthday2_500.png' alt='Wilber Birthday Snapshot' />
 </figure>
-
-
