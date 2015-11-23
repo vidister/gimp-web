@@ -81,7 +81,7 @@ attempt to do so.
 
 ## Releases
 
-### When do you release the next version if GIMP?
+### When do you release the next version of GIMP?
 
 We release both updates to the current stable version and development versions. 
 
