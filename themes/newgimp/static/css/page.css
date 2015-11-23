@@ -1,3 +1,12 @@
+body {
+    background-color: #0e2426;
+}
+
+#pushPage {
+    background-color: white;
+}
+
+
 .page_content {
     text-align: left;
     padding-top: 0;
@@ -94,7 +103,8 @@ figure figcaption {
 .container.title {
     box-shadow: 0 8px 6px -7px #ddd;
     box-shadow: 0 8px 8px -8px #ccc;
-    margin: 1.5rem auto;
+    margin: 0 auto 1.5rem auto;
+    padding-top: 1.5rem;
     max-width: 37rem;
     text-align: center;
 }
