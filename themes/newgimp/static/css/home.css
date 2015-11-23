@@ -121,7 +121,9 @@ section#extensible {
 
 #blocks {
     margin-top: 2rem;
-    width: 300px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section#introduction h2 {
