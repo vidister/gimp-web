@@ -12,6 +12,7 @@ I (*Pat David*) am creating this page to keep notes and information for building
 
 * [Editing the Front Page](./frontpage.html)
 * [Creating a Translation](./translating.html)
+* [Git Workflow](./git-workflow.html)
 * [To Do](./to-do/)
 * [Using Pelican](./using-pelican/)
 * [Markdown Cheatsheet](./markdown.html)
