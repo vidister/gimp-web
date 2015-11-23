@@ -6,7 +6,7 @@ Summary: A page about the new site.
 lang: en
 
 
-I (Pat David) am creating this page to keep notes and information for building/maintaining the new site.
+I (*Pat David*) am creating this page to keep notes and information for building/maintaining the new site.
 
 (Meta) pages of interest:
 
