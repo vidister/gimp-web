@@ -164,7 +164,7 @@ nav#menu li#gimp-home {
     max-height: 100vh;
 }
 
-.cap h3 {
+.cap h3, .cap h2 {
     display: inline-block;
     border-bottom: solid 1px #aaa;
     margin-bottom: 1rem;
@@ -242,7 +242,8 @@ nav#menu li#gimp-home {
     text-align: left;
 }
 
-#component h2, #extensible h2{
+#component h2, #extensible h2,
+#component h3, #extensible h3 {
     display: inline-block;
     border-bottom: solid 1px #ccc;
     margin-bottom: 1rem;
