@@ -48,7 +48,7 @@ There is a nice [Frequently Asked Questions (FAQ)][] page.
 * [GNU General][] Public License - GPL
 
 [The GNU Image Manipulation Program]: //www.gimp.org
-[GIMP Wiki]: //wiki.gimp.org
+[GIMP Wiki]: http://wiki.gimp.org
 [GIMP Bugzilla]: //bugzilla.gnome.org
 [The GIMP Toolkit]: //www.gtk.org
 [GNU Project]: //www.gnu.org
