@@ -119,6 +119,11 @@ section#extensible {
     padding-bottom: 0;
 }
 
+#blocks {
+    margin-top: 2rem;
+    width: 300px;
+}
+
 section#introduction h2 {
     margin-bottom: 1rem;
 }
