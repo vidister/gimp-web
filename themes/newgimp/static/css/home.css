@@ -164,10 +164,11 @@ nav#menu li#gimp-home {
     max-height: 100vh;
 }
 
-.cap h3, .cap h2 {
+.cap h2 {
     display: inline-block;
     border-bottom: solid 1px #aaa;
     margin-bottom: 1rem;
+    font-size: 1.4rem;
 }
 
 .cap p {
