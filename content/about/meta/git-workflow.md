@@ -117,3 +117,28 @@ You can use `format-patch` to generate one nice big patch for all of your work a
 Now attach that to a bug/enhancement report in [bugzilla][report] and wait to hear back!
 
 [report]: https://bugzilla.gnome.org/enter_bug.cgi?product=gimp-web
+
+
+
+## Applying Patches
+
+This section is for those that have access on gimp-web, or those that want to test a patch from someone else locally.
+
+Once we have a `.patch` file, we can see what it'll do:
+
+`git apply --stat some_cool_stuff.patch`
+
+If you want to see what the patch will actually do, open it in your favorite editor and look around.
+
+To see if there will be any problems, we can test the patch before applying it:
+
+`git apply --check some_cool_stuff.patch`
+
+No errors == good.
+Otherwise we'll need to deal with the errors (more on this later?).
+
+When applying the patch it's helpful to use `git am` instead of `git apply`.
+The reason is that `git am` is *signing off* on the patch, and will carry that information forward.
+This is helpful if there's a different author but we need to track down who actually committed the patch.
+
+`git am --signoff < some_cool_stuff.patch`
