@@ -19,22 +19,29 @@ To access this testing branch publicly:
 
 The general workflow is:
 
-1. Do any testing or new material in either the *testing* branch or a branch of your own.
-2. If everything works fine locally, test it on the server by pushing to *testing*.  
-        testing.gimp.org will attempt a re-build every 5 minutes (00, 05, 10, 15, ...).  
-3. If it builds and looks ok, merge the changes to master and push.
-        www.gimp.org will re-build every 20 minutes.
+1. Do your testing/new material in a branch of your own.
+2. If everything works fine locally, merge into *testing* and push.
+        [testing.gimp.org][] will attempt a re-build every 5 minutes (00, 05, 10, 15, ...).  
+3. If it builds ok on *testing*...
+    1. merge the changes to *master* and push.
+        [www.gimp.org][] will re-build every 20 minutes.
+    2. create a patch and attach it to bugzilla
+
+[testing.gimp.org]: //testing.gimp.org
+[www.gimp.org]: //www.gimp.org
+
+
 
 ## Branches
 
 There are two main branches we are working with.
 Well, mainly *one* branch that is worked with mostly and another that is actually the main site.
 
-The **master** branch will build to the full [www.gimp.org](//www.gimp.org).
-
 The **testing** branch will build to [testing.gimp.org](//testing.gimp.org).
 This is the main branch for testing things out and checking that they will build correctly on the server.
 Once a change works here ok, it can then be merged into **master** and pushed to the server.
+
+The **master** branch will build to the full [www.gimp.org](//www.gimp.org).
 
 
 
@@ -52,6 +59,59 @@ This will usually automatically setup a tracking branch to **master** for you.
 
 Get all the objects from the repository: `git fetch`
 
-You can now simply checkout the testing branch:
+You can now simply checkout the testing branch (or whichever branch you want):
 
 `git checkout testing`
+
+
+
+### Use Branches
+
+I personally advocate the use of branches for just about anything you want to play with.
+In particular using your own branches locally for trying things out or fixing stuff.
+
+The reason is that if everything works great, you can easily merge the branch into *testing*.
+If *testing* works ok, you can then easily merge the same branch into *master* without pulling extra things that may be in *testing* that is not yours (this may be due to you pulling on *testing* to make sure you're current before merging your work).
+
+So for example, perhaps I'll create a branch locally to write an article in (trivial example).
+Using the `-b` option with `git checkout` will create the branch and switch to it for you:
+
+`git checkout -b newstuff`
+
+Now I'll work on writing the article.
+When it is finished and working fine, I can test it on [testing.gimp.org][] by merging my *newstuff* branch into *testing* and pushing:
+
+    :::bash
+    git checkout testing
+    git merge newstuff
+    git push
+
+Wait for a rebuild to happen on the server, then check the site to make sure your changes propagated without breaking something.
+
+If it did and you're happy with the result, go ahead and get it into the *master* branch.
+If you're allowed, simply switch to *master* and merge your *newstuff* branch into it also.
+
+    :::
+    git checkout master
+    git merge newstuff
+    git push
+
+The reason why you would merge from *newstuff* rather than *testing* is in case some other work had already been pushed into testing (and you pulled it down from the remote).  If there was other work, and you pulled it down, you may inadvertently commit it into *master* when it wasn't ready yet.
+
+
+
+### Creating a Patch
+
+But what if you don't have rights to push to gimp-web?
+No problem!
+You can create patches instead that you can attach to bug reports in bugzilla.
+
+Again, assuming you were working in your own branch (*which you should be*).
+Say you've made a bunch of commits to your branch and are ready to have someone test it and possibly push it to *testing*.
+You can use `format-patch` to generate one nice big patch for all of your work against a specific branch (*testing* in this example):
+
+`git format-patch testing --stdout > my_awesome_work.patch`
+
+Now attach that to a bug/enhancement report in [bugzilla][report] and wait to hear back!
+
+[report]: https://bugzilla.gnome.org/enter_bug.cgi?product=gimp-web
