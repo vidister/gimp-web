@@ -86,7 +86,6 @@ We think your OS is
 Well, we don't actually know.  
 Either Javascript is disabled, or I am not working quite right...  
 So I am showing you all the options.  
-That should cover it.
 </span>  
 <small id='letmeknow'>If this is wrong, please let Pat David (patdavid@gmail.com) know.
 Please include the string returned above, and what your actual OS is.
@@ -147,7 +146,7 @@ GIMP can run on Solaris.
 ## GIMP for Mac OS X
 
 <span class='win-button' id='osx-torrent'>
-<a href="http://download.gimp.org/mirror/pub/gimp/v2.8/osx/gimp-2.8.14.dmg.torrent">
+<a href="http://download.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.14.dmg.torrent">
     Download GIMP&nbsp;2.8.14<br/>
     via BitTorrent
 </a>
@@ -158,6 +157,14 @@ GIMP can run on Solaris.
     directly
 </a>
 </span>
+
+<small markdown=1>
+The download links above will attempt to download GIMP from one of our trusted mirror servers.
+If the mirrors do not work or you would rather download directly from our server, you can get the [direct download here][osx direct].
+</small>
+
+[osx direct]: //download.gimp.org/pub/gimp/v2.8/osx/
+
 
 Since the 2.8.2 version, GIMP runs on OSX natively. No X11 environment is required.
 
@@ -212,7 +219,7 @@ Disclaimer: we haven't been able to determine if it is possible to install or bu
 ## GIMP for Windows
 
 <span class='win-button' id='win-torrent'>
-<a href="//download.gimp.org/mirror/pub/gimp/v2.8/windows/gimp-2.8.16-setup.exe.torrent" title="Download GIMP via BitTorrent" id="win-torrent-link">
+<a href="//download.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.16-setup.exe.torrent" title="Download GIMP via BitTorrent" id="win-torrent-link">
     Download GIMP&nbsp;2.8.16<br/>
     via BitTorrent
 </a>  
@@ -223,6 +230,13 @@ Disclaimer: we haven't been able to determine if it is possible to install or bu
     directly
 </a>
 </span>
+
+<small markdown=1>
+The download links above will attempt to download GIMP from one of our trusted mirror servers.
+If the mirrors do not work or you would rather download directly from our server, you can get the [direct download here][win direct].
+</small>
+
+[win direct]: //download.gimp.org/pub/gimp/v2.8/windows/
 
 These links download the official GIMP installer for Windows. 
 The installer contains both 32-bit and 64-bit versions of GIMP, and will automatically use the appropriate one.
