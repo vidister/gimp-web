@@ -17,7 +17,13 @@ To access this testing branch publicly:
 
 <https://testing.gimp.org> or <http://testing.gimp.org>
 
+The general workflow is:
 
+1. Do any testing or new material in either the *testing* branch or a branch of your own.
+2. If everything works fine locally, test it on the server by pushing to *testing*.  
+        testing.gimp.org will attempt a re-build every 5 minutes (00, 05, 10, 15, ...).  
+3. If it builds and looks ok, merge the changes to master and push.
+        www.gimp.org will re-build every 20 minutes.
 
 ## Branches
 
@@ -29,3 +35,23 @@ The **master** branch will build to the full [www.gimp.org](//www.gimp.org).
 The **testing** branch will build to [testing.gimp.org](//testing.gimp.org).
 This is the main branch for testing things out and checking that they will build correctly on the server.
 Once a change works here ok, it can then be merged into **master** and pushed to the server.
+
+
+
+## Workflow
+
+Clone the repository if you haven't already:
+
+`git clone ssh://USERNAME@git.gnome.org/git/gimp-web LOCAL_DIR`
+
+In my case, I use a local directory called `gimp-web`:
+
+`git clone ssh://USERNAME@git.gnome.org/git/gimp-web gimp-web`
+
+This will usually automatically setup a tracking branch to **master** for you.
+
+Get all the objects from the repository: `git fetch`
+
+You can now simply checkout the testing branch:
+
+`git checkout testing`
