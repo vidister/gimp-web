@@ -188,7 +188,7 @@ nav#menu li#gimp-home {
                     rgba( 255, 255, 255, 1 ),
                     rgba( 255,255,255,1),
                     rgba( 255,255,255,0.5 ) ),
-                    url('/images/frontpage/wavelet.png');
+                    url('/images/frontpage/gimplayer.png');
     background-position: 0 0;
     background-repeat: no-repeat;
 }
@@ -286,7 +286,7 @@ span#gFirst {
                     rgba( 255, 255, 255, 1 ),
                     rgba( 255,255,255,1),
                     rgba( 255,255,255,0.5 ) ),
-                    url('/images/frontpage/wavelet.png');
+                    url('/images/frontpage/gimplayer.png');
         background-position: 100% 0;
     }
 
