@@ -88,6 +88,8 @@ When it is finished and working fine, I can test it on [testing.gimp.org][] by m
 
 Wait for a rebuild to happen on the server, then check the site to make sure your changes propagated without breaking something.
 
+**If** you don't have write access to gimp-web, you can instead [create a patch against *testing*](#creating-a-patch) from your branch and submit it to [bugzilla][report].
+
 If it did and you're happy with the result, go ahead and get it into the *master* branch.
 If you're allowed, simply switch to *master* and merge your *newstuff* branch into it also.
 
@@ -104,7 +106,7 @@ The reason why you would merge from *newstuff* rather than *testing* is in case 
 
 But what if you don't have rights to push to gimp-web?
 No problem!
-You can create patches instead that you can attach to bug reports in bugzilla.
+You can create patches instead that you can attach to [bug reports][report] in bugzilla.
 
 Again, assuming you were working in your own branch (*which you should be*).
 Say you've made a bunch of commits to your branch and are ready to have someone test it and possibly push it to *testing*.
