@@ -147,13 +147,13 @@ GIMP can run on Solaris.
 ## GIMP for Mac OS X
 
 <span class='win-button' id='osx-torrent'>
-<a href="http://download.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.14.dmg.torrent">
+<a href="http://download.gimp.org/mirror/pub/gimp/v2.8/osx/gimp-2.8.14.dmg.torrent">
     Download GIMP&nbsp;2.8.14<br/>
     via BitTorrent
 </a>
 </span>
 <span class='win-button'>
-<a href="http://download.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.14.dmg">
+<a href="http://download.gimp.org/mirror/pub/gimp/v2.8/osx/gimp-2.8.14.dmg">
     Download GIMP&nbsp;2.8.14<br/>
     directly
 </a>
@@ -177,7 +177,7 @@ A build by [Simone Karin Lehmann](http://gimp.lisanet.de/), with some extra plug
 
 
 ### Older Downloads
-Previous installers for OSX can be found here: [download.gimp.org](//download.gimp.org/pub/gimp/v2.8/osx/).
+Previous installers for OSX can be found here: [download.gimp.org](//download.gimp.org/mirror/pub/gimp/v2.8/osx/).
 
 
 
@@ -212,18 +212,18 @@ Disclaimer: we haven't been able to determine if it is possible to install or bu
 ## GIMP for Windows
 
 <span class='win-button' id='win-torrent'>
-<a href="//download.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.16-setup.exe.torrent" title="Download GIMP via BitTorrent" id="win-torrent-link">
+<a href="//download.gimp.org/mirror/pub/gimp/v2.8/windows/gimp-2.8.16-setup.exe.torrent" title="Download GIMP via BitTorrent" id="win-torrent-link">
     Download GIMP&nbsp;2.8.16<br/>
     via BitTorrent
 </a>  
 </span>
 <span class='win-button'>
-<a href="//download.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.16-setup.exe" title="Download GIMP via HTTP" id='win-download-link' >
+<a href="//download.gimp.org/mirror/pub/gimp/v2.8/windows/gimp-2.8.16-setup.exe" title="Download GIMP via HTTP" id='win-download-link' >
     Download GIMP&nbsp;2.8.16<br/>
     directly
 </a>
 </span>
-<br/>
+
 These links download the official GIMP installer for Windows. 
 The installer contains both 32-bit and 64-bit versions of GIMP, and will automatically use the appropriate one.
 
@@ -235,26 +235,26 @@ You may need to install a torrent client to make use of this file. <a href="//en
 The MD5 hash sum for `gimp-2.8.16-setup.exe` is: <kbd>a2095f250fd3a776757ccddc477312d0</kbd>.
 
 ### Older Downloads
-Previous installers for Windows can be found here: [download.gimp.org](//download.gimp.org/pub/gimp/v2.8/windows/).
+Previous installers for Windows can be found here: [download.gimp.org](//download.gimp.org/mirror/pub/gimp/v2.8/windows/).
 
 ### GIMP User Manual
 
-*   [Chinese Simplified](//download.gimp.org/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-zh_CN-setup.exe) (24.3 MB)
-*   [Catalan](//download.gimp.org/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-ca-setup.exe) (24.2 MB)
-*   [Danish](//download.gimp.org/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-da-setup.exe) (24.2 MB)
-*   [Dutch](//download.gimp.org/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-nl-setup.exe) (24.3 MB)
-*   [English](//download.gimp.org/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-en-setup.exe) (24.2 MB)
-*   [English (United Kingdom)](//download.gimp.org/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-en_GB-setup.exe) (24.2 MB)
-*   [French](//download.gimp.org/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-fr-setup.exe) (25.7 MB)
-*   [German](//download.gimp.org/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-de-setup.exe) (28.0 MB)
-*   [Italian](//download.gimp.org/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-it-setup.exe) (30.2 MB)
-*   [Japanese](//download.gimp.org/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-ja-setup.exe) (23.6 MB)
-*   [Korean](//download.gimp.org/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-ko-setup.exe) (24.9 MB)
-*   [Norwegian Nynorsk](//download.gimp.org/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-nn-setup.exe) (20.9 MB)
-*   [Russian](//download.gimp.org/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-ru-setup.exe) (24.9 MB)
-*   [Slovenian](//download.gimp.org/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-sl-setup.exe) (24.3 MB)
-*   [Spanish](//download.gimp.org/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-es-setup.exe) (24.9 MB)
-*   [Swedish](//download.gimp.org/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-sv-setup.exe) (24.7 MB)
+*   [Chinese Simplified](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-zh_CN-setup.exe) (24.3 MB)
+*   [Catalan](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-ca-setup.exe) (24.2 MB)
+*   [Danish](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-da-setup.exe) (24.2 MB)
+*   [Dutch](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-nl-setup.exe) (24.3 MB)
+*   [English](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-en-setup.exe) (24.2 MB)
+*   [English (United Kingdom)](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-en_GB-setup.exe) (24.2 MB)
+*   [French](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-fr-setup.exe) (25.7 MB)
+*   [German](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-de-setup.exe) (28.0 MB)
+*   [Italian](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-it-setup.exe) (30.2 MB)
+*   [Japanese](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-ja-setup.exe) (23.6 MB)
+*   [Korean](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-ko-setup.exe) (24.9 MB)
+*   [Norwegian Nynorsk](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-nn-setup.exe) (20.9 MB)
+*   [Russian](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-ru-setup.exe) (24.9 MB)
+*   [Slovenian](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-sl-setup.exe) (24.3 MB)
+*   [Spanish](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-es-setup.exe) (24.9 MB)
+*   [Swedish](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-sv-setup.exe) (24.7 MB)
 </div>
 
 ---
@@ -266,7 +266,7 @@ GIMP releases available from gimp.org and its [mirrors](#mirrors) contain the so
 
 For instructions, how to build GIMP from source code, please see [this page](/source/).
 
-GIMP 2.8.16 is now available at [http://download.gimp.org/pub/gimp/v2.8/](//download.gimp.org/pub/gimp/v2.8/). You may want to read the [Release Notes for GIMP 2.8](/release-notes/gimp-2.8.html).
+GIMP 2.8.16 is now available at [http://download.gimp.org/mirror/pub/gimp/v2.8/](//download.gimp.org/mirror/pub/gimp/v2.8/). You may want to read the [Release Notes for GIMP 2.8](/release-notes/gimp-2.8.html).
 
 To allow you to check the integrity of the tarballs, here are the MD5 sums of the latest releases:
 
@@ -298,7 +298,7 @@ To allow you to check the integrity of the tarballs, here are the MD5 sums of th
 <kbd>28997d14055f15db063eb92e1c8a7ebb</kbd>
 
 
-GIMP help files are available at [http://download.gimp.org/pub/gimp/help/](//download.gimp.org/pub/gimp/help/).
+GIMP help files are available at [http://download.gimp.org/mirror/pub/gimp/help/](//download.gimp.org/mirror/pub/gimp/help/).
 
 Please consider using one of the mirrors listed below.
 
