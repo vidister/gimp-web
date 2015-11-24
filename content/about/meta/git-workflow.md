@@ -142,3 +142,6 @@ The reason is that `git am` is *signing off* on the patch, and will carry that i
 This is helpful if there's a different author but we need to track down who actually committed the patch.
 
 `git am --signoff < some_cool_stuff.patch`
+
+<small markdown=1>I referenced [this post][] by Ariejan de Vroom for some of this information.</small>
+[this post]: https://ariejan.net/2009/10/26/how-to-create-and-apply-a-patch-with-git/
