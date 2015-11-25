@@ -22,10 +22,6 @@ td, th {
     }
 }
 
-.os {
-    //display: none;
-}
-
 #pOSTEST {
     font-style: italic;
 }
@@ -43,8 +39,6 @@ td, th {
     border-radius: 10px;
     box-shadow: 1px 1px 2px;
     text-align: center;
-    /* max-width: 300px;
-    */
     font-family: Questrial;
     font-weight: 400;
     width: 49%;
@@ -61,19 +55,8 @@ td, th {
     padding: 1rem;
 }
 
-#letmeknow { display: none; }
 </style>
 
-<noscript>
-<!--
-<style>
-.os { display: block; }
-#others { display: none; }
-#letmeknow { display: none; }
-#pOSTEST { display: block; }
-</style>
--->
-</noscript>
 
 <figure>
 <img src="downloadsplash-aryeom.jpg" alt="Download Splash Image courtesy of Areyom" />
@@ -89,10 +72,6 @@ Well, we don't actually know.
 Either Javascript is disabled, or I am not working quite right...  
 So I am showing you all the options.  
 </span>  
-<small id='letmeknow'>If this is wrong, please let Pat David (patdavid@gmail.com) know.
-Please include the string returned above, and what your actual OS is.
-Thank you!
-</small>
 
 <p id='others'>
 Show downloads for 
@@ -144,7 +123,6 @@ GIMP can run on Solaris.
 
 
 <div id='mac' class="os mac" markdown="1">
-
 ## GIMP for Mac OS X
 
 <span class='win-button' id='osx-torrent'>
@@ -215,6 +193,7 @@ Disclaimer: we haven't been able to determine if it is possible to install or bu
 * [Download Fink](http://www.finkproject.org/)
 
 </div>
+
 
 
 <div id='win' class="os win" markdown="1">
