@@ -22,6 +22,10 @@ td, th {
     }
 }
 
+.os {
+    display: block;
+}
+
 #pOSTEST {
     font-style: italic;
 }
