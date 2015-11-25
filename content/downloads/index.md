@@ -23,7 +23,7 @@ td, th {
 }
 
 .os {
-    display: none;
+    //display: none;
 }
 
 #pOSTEST {
@@ -65,12 +65,14 @@ td, th {
 </style>
 
 <noscript>
+<!--
 <style>
 .os { display: block; }
 #others { display: none; }
 #letmeknow { display: none; }
 #pOSTEST { display: block; }
 </style>
+-->
 </noscript>
 
 <figure>
@@ -377,6 +379,10 @@ If you are running one of the existing GIMP mirrors, or want to create a new one
 <script src="/js/platform.js"></script>
 
 <script>
+
+document.getElementById('linux').style.display = 'none';
+document.getElementById('win').style.display = 'none';
+document.getElementById('mac').style.display = 'none';
 
 if ( platform.os.family.indexOf('Win') !== -1 && platform.os.family.indexOf('Phone') == -1 ){
     document.getElementById('win').style.display = 'block';
