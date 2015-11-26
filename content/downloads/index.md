@@ -303,11 +303,20 @@ Please consider using one of the mirrors listed below.
 
 ## Development snapshots
 
-There are no releases of the 2.9 development version yet.
+The current development branch is GIMP 2.9 and will finally lead to the next stable GIMP release 2.10.
+
+For instructions, how to build GIMP from source code, please see [this page](/source/).
 
 Nightly builds for Windows are available at [darkrefraction.com](http://nightly.darkrefraction.com/gimp/). This is unstable software, please use it at your own risk.
 
 A detailed list of changes in the development branch is available in [git](https://git.gnome.org/cgit/gimp/plain/NEWS).
+
+GIMP 2.9.2 is now available at [http://download.gimp.org/mirror/pub/gimp/v2.9/](//download.gimp.org/mirror/pub/gimp/v2.9/).
+
+To allow you to check the integrity of the tarballs, here are the MD5 sums of the latest development snapshots:
+
+**gimp-2.9.2.tar.bz2**  
+<kbd>aa8a846a497e3328c5b7d2fd33f5cf63</kbd>
 
 </div>
 
