@@ -1,7 +1,8 @@
-Title: Four Students to Work on GIMP During GSoC2013 Program
+Title: Four Students to Work on GIMP During GSoC2013 Program 
 Date: 2013-05-27
 Category: News
 Authors: Alexandre Prokoudine
+slug: four-students-to-work-on-gimp-during-gsoc2013-program-2
 
 Four students will be working on GIMP and GEGL this summer thanks to Google Summer of Code 2013 program.
 
