@@ -2,6 +2,7 @@ Title: Four Students to Work on GIMP During GSoC2013 Program
 Date: 2013-04-08
 Category: News
 Authors: Alexandre Prokoudine
+slug: four-students-to-work-on-gimp-during-gsoc2013-program-1
 
 GIMP will be taking part in this year's [Google Summer of Code](http://www.google-melange.com/) program as a mentoring organization. We are inviting interested students to get in touch with us and start discussing potential projects.
 

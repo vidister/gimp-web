@@ -1,4 +1,4 @@
-Title: All GSoC Students Passed Midterm Evaluation
+Title: All GSoC 2012 Students Passed Midterm Evaluation
 Date: 2012-07-20
 Category: News
 Authors: Alexandre Prokoudine
