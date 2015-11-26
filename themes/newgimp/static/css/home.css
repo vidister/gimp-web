@@ -103,6 +103,7 @@ span#gThird span {
     background-image: linear-gradient( to right, rgba(255,255,255,1) 50%, rgba(255,255,255,0.75)), url('/theme/images/oldfrontsplash.jpg');
     background-size: cover;
     background-position: 100%;
+    padding-top: 2rem;
 }
 
 #introduction h1,
