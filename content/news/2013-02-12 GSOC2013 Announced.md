@@ -2,6 +2,7 @@ Title: Four Students to Work on GIMP During GSoC2013 Program
 Date: 2013-02-12
 Category: News
 Authors: Alexandre Prokoudine
+slug: four-students-to-work-on-gimp-during-gsoc2013-program
 
 Yesterday Google announced [Summer of Code 2013](http://www.google-melange.com/gsoc/homepage/google/gsoc2013) program. Participating at GSoC has proved to be rather beneficial to us. Here are just some of the features implemented during past runs of the program: five new tools (Heal, Perspective Clone, Cage Transform, Warp Transform, Seamless Paste), resources tagging, hardware acceleration in GEGL. Needless to say, we'll try to participate this year again.
 
