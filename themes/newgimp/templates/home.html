@@ -8,6 +8,14 @@
 
         <meta itemprop='url' content='{{ SITEURL }}' />
         <meta itemprop='name' content='GIMP - GNU Image Manipulation Program' />
+        <meta itemprop='image' content='{{ SITEURL }}/images/frontpage/wilber-big.png' />
+
+        <meta property='og:url' content='{{ SITEURL }}/{{ page.url }}' />
+        <meta property='og:title' content='{{ SITENAME }}' />
+        <meta property='og:image' content='{{ SITEURL }}/images/frontpage/wilber-big.png' />
+        <meta property='og:type' content='website' />
+        <meta property='og:site_name' content='{{ SITENAME }}' />
+
 {% endblock head %}
 
 
@@ -37,17 +45,6 @@
                     </div>
                 </div>
             </div>
-
-            {#
-            <div class="container" style="background-color: white;  padding: 1rem;  background: repeating-linear-gradient(-45deg, transparent, transparent 40px, rgba(166,166,166,0.3) 40px, rgba(166,166,166,.3) 80px); width: 100%; max-width: 100%; display: none;">
-                <h2 style="color: red;">STILL WORKING</h2>
-                <p style="font-size: 0.85rem;color: red;">
-                    I am still in the process of building this site out. 
-                    Things are in a great state of flux. 
-                    For further information on the new site refer to the <a href="/about/meta">Meta</a> page.
-                </p>
-            </div>
-            #}
 
         </header><!-- /#banner -->
 
