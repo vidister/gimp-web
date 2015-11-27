@@ -54,27 +54,33 @@
                 <li id='gimp-home'><a href="/"><img src='/images/wilbericon.svg' id='menuWilber' style='width:25px;height:20px;' alt='Tiny Wilber'> GIMP</a></li>
                 <li><a href="/downloads/"><i class="fa fa-download"></i> Download</a></li>
                 <li><a href="/news/"><i class="fa fa-newspaper-o"></i> News</a></li>
-            {% for title, link in MENUITEMS %}
-                <li><a href="{{ link }}">{{ title }}</a></li>
-            {% endfor %}
-            {% if DISPLAY_PAGES_ON_MENU %}
-              {% for p in PAGES %}
-                {% if p.parents|length == 1 %}
-                  <li{% if p == page %} class="active"{% endif %}><a href="/{{ p.url }}">{{ p.title }}</a></li>
-                {% endif %}
-                {# The old way...
-                  {% if not p.parent %}
-                    <li{% if p == page %} class="active"{% endif %}><a href="/{{ p.url }}">{{ p.title }}</a></li>
-                  {% endif %}
-                #}
-              {% endfor %}
-            {% else %}
-              {% if DISPLAY_CATEGORIES_ON_MENU %}
-                {% for cat, null in categories %}
-                  <li{% if cat == category %} class="active"{% endif %}><a href="/{{ cat.url }}">{{ cat }}</a></li>
+                <li><a href="/about/"><i class="fa fa-info-circle"></i> About GIMP</a></li>
+                <li><a href="/docs/"><i class="fa fa-book"></i> Docs</a></li>
+                <li><a href="/develop/"><i class="fa fa-code"></i> Get Involved</a></li>
+                <li><a href="/tutorials/"><i class="fa fa-graduation-cap"></i> Tutorials</a></li>
+
+                {# 
+                # Manually overriding the generation of top-level pages on the navigation, so
+                # commenting out the auto-generation below
+
+                {% for title, link in MENUITEMS %}
+                    <li><a href="{{ link }}">{{ title }}</a></li>
                 {% endfor %}
-              {% endif %}
-            {% endif %}
+                {% if DISPLAY_PAGES_ON_MENU %}
+                  {% for p in PAGES %}
+                    {% if p.parents|length == 1 %}
+                      <li{% if p == page %} class="active"{% endif %}><a href="/{{ p.url }}">{{ p.title }}</a></li>
+                    {% endif %}
+                  {% endfor %}
+                {% else %}
+                  {% if DISPLAY_CATEGORIES_ON_MENU %}
+                    {% for cat, null in categories %}
+                      <li{% if cat == category %} class="active"{% endif %}><a href="/{{ cat.url }}">{{ cat }}</a></li>
+                    {% endfor %}
+                  {% endif %}
+                {% endif %}
+
+                #}
 
                 <li><a href="/donating/" style="color:#f57900;"><i class="fa fa-money"></i> Donate</a></li>
 
@@ -135,7 +141,11 @@
                     </div>
                     <div class="column third">
                         <ul class="nav-bottom">
-                            <li id="nav-btm-develop"><a href="/develop/"><i class="fa fa-code fa-fw"></i> Get Involved</a></li>
+                            <li id="nav-btm-develop">
+                                <a href="/develop/">
+                                    <i class="fa fa-code fa-fw"></i> Get Involved
+                                </a>
+                            </li>
                             <li id="nav-btm-tutorials"><a href="/tutorials/"><i class="fa fa-graduation-cap fa-fw"></i> Tutorials</a></li>
 
                         {#
