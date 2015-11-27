@@ -6,6 +6,15 @@
 {{ super() }}
 <link rel='stylesheet' type='text/css' href="/theme/css/page.css" />
 <link rel='stylesheet' type='text/css' href="/theme/css/news-index.css" />
+
+<meta itemprop='url' content='{{ SITEURL }}/{{ articles_page.url }}' />
+<meta itemprop='name' content='{{ SITENAME }} - News' />
+<meta itemprop='image' content='{{ SITEURL }}/images/frontpage/wilber-big.png' />
+
+<meta property='og:url' content='{{ SITEURL }}/{{ articles_page.url }}' />
+<meta property='og:title' content='{{ SITENAME }} - News' />
+<meta property='og:image' content='{{ SITEURL }}/images/frontpage/wilber-big.png' />
+
 {% endblock head %}
 
 
