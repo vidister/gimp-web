@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME }} - {{ page.title|striptags }}{%endblock%}
+
+{% block head %}
+{{ super() }}
+        <link rel='stylesheet' type='text/css' href="/theme/css/page.css" />
+        <link rel='stylesheet' type='text/css' href="/theme/css/pygments-default.css" />
+        
+        <meta itemprop='url' content='{{ SITEURL }}/{{ page.url }}' />
+        <meta itemprop='name' content='{{ SITENAME }} - {{ page.title|striptags }}' />
+        <meta itemprop='image' content='{{ SITEURL }}/images/frontpage/wilber-big.png' />
+
+        <meta property='og:url' content='{{ SITEURL }}/{{ page.url }}' />
+        <meta property='og:title' content='{{ SITENAME }} - {{ page.title|striptags }}' />
+        <meta property='og:image' content='{{ SITEURL }}/images/frontpage/wilber-big.png' />
+
+        {% if page.authors %}
+        {% for author in page.authors %}
+        <meta itemprop='author' content='{{ author }}' />
+        <meta property='og:author' content='{{ author }}' />
+        {% endfor %}
+        {% endif %}
+
+{% endblock head %}
+
+{% block content %}
+
+    <div class="container title">
+        <div class="row clearfix">
+            <div class="column full">
+                <h1>{{ page.title }}</h1>
+                {% import 'translations.html' as translations with context %}
+                {{ translations.translations_for(page) }}
+            </div>
+        </div>
+    </div>
+
+    <section class='page_content'>
+        <div class='container'>
+            <div class='row clearfix'>
+                <div class='column full'>
+                    {{ page.content }}
+                </div>
+            </div>
+        </div>
+    </section>
+
+	{% if page.modified  and PAGES_DEBUG == true %}
+		<p>
+            <small>Created: {{ page.locale_date }}</small>,  
+            <small>Last updated: {{ page.locale_modified }}</small>
+		</p>
+	{% endif %}
+
+
+    {% if PAGES_DEBUG == true %}
+    <div style="border: dotted 1px #ccc; ;" class='page_content'>
+        
+        <div style='font-size: 80%;'>
+            <p>Debug stuff.  Ignore</p>
+            <p>
+                url: {{ page.url }} <br/>
+                slug: {{ page.slug }}<br/>
+                {% if page.parent %}
+                page parent: {{ page.parent }}<br/>
+                page parent url: {{ page.parent.url }} <br/>
+                page parent title: {{ page.parent.title }}
+                {% endif %}
+            </p>
+        
+            <p>page parents</p>
+        <ul>
+            <li>page.parents.length: {{ page.parents|length }}</li>
+            {% for parent in page.parents %}
+            <li>url: {{ parent.url }} - title: {{ parent.title }}<br/>
+                <a href="/{{ parent.url }}">{{ parent.title }}</a></li>
+            {% endfor %}
+        </ul>
+        <p>page children</p>
+        <ul>
+            {% for child in page.children %}
+            <li>url: {{ child.url }} - title: {{ child.title }}<br/>
+                <a href="/{{ child.url }}">{{ child.title }}</a></li>
+            {% endfor %}
+        </ul>
+        </div>
+    </div>
+    {% endif %}
+
+
+{% endblock %}
