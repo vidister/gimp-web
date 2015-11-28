@@ -60,7 +60,7 @@ Now desaturate the duplicated layer using **Luminosity** as the method:
 <img src="{filename}Layer-Desaturate.png" alt="Layer-Desaturate"/>
 </figure>
 
-This desaturate copy of your color image represents the “Lights” channel. Now we want to create a new channel based on thsi layer.
+This desaturated copy of your color image represents the “Lights” channel. Now we want to create a new channel based on this layer.
 
 ### Create a New Channel “Lights”
 
