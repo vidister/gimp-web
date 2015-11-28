@@ -587,4 +587,5 @@ video {
     margin: 0.5rem auto;
     display: block;
     max-width: 100%;
+    height: auto;
 }
