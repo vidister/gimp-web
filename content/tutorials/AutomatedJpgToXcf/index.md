@@ -4,7 +4,9 @@ Modified: 2015-08-18T12:24:36-05:00
 Author: Stephen Kiel
 
 <small>
-[![Creative Commons License](http://i.creativecommons.org/l/by-sa/3.0/80x15.png)](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US)  
+<a href='http://creativecommons.org/licenses/by-sa/3.0/deed.en_US'>
+<img class='cc-badge' src='http://i.creativecommons.org/l/by-sa/3.0/80x15.png' alt='Creative Commons By Share Alike'/>
+</a>
 <span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - Automated Jpeg to XCF (text & images)</span> by <a rel="cc:attributionURL" xmlns:cc="http://creativecommons.org/ns#">Stephen Kiel</a>   
 is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US). The code sources in this tutorial are licensed by Stephen Kiel under the conditions of the [GNU](http://www.gnu.org/) Public License GPL V3.
 </small>
