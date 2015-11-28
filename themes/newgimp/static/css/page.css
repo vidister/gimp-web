@@ -75,7 +75,7 @@ figure {
 }
 
 figure img {
-    width: initial;
+    /* width: initial; */
     max-width: 100%;
     /* margin-bottom: 0.5rem;
      */
