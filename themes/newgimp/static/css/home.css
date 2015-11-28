@@ -163,6 +163,7 @@ nav#menu li#gimp-home {
 
 .cap {
     max-height: 100vh;
+    border-top: solid 1px #555;
 }
 
 .cap h2 {
@@ -306,12 +307,8 @@ span#gFirst {
     }
 
     #cap-graphics {
-        background-image: linear-gradient( to right,
-            rgba(255,255,255,0),
-            rgba(255,255,255,1) 40%,
-            white ),
-            url('/images/frontpage/graphic-elements.png');
         background-image: url('/images/frontpage/gwi_5.png');
+        background-position: 0;
     }
 
     span#gFirst, span#gSecond {
