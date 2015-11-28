@@ -216,12 +216,26 @@ nav#menu li#gimp-home {
 }
 
 #cap-graphics {
+    /*
     background-image: linear-gradient(
                         rgba(255,255,255,0),
                         rgba(255,255,255,1) 60%,
                         white ),
                         url('/images/frontpage/graphic-elements.png');
+                        */
+    background-image: linear-gradient(
+                        rgba(0,0,0,0),
+                        rgba(0,0,0,0),
+                        rgba(0,0,0,0.9)),
+                        url('/images/frontpage/gwi_5.png');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0e2426;
+    color: white;
+}
+
+#cap-graphics p {
+    color: white;
 }
 
 #cap-graphics .column.third {
@@ -283,20 +297,21 @@ span#gFirst {
 
     #cap-algorithms {
         background-image: linear-gradient(
-                    to right,
-                    rgba( 255, 255, 255, 1 ),
-                    rgba( 255,255,255,1),
-                    rgba( 255,255,255,0.5 ) ),
-                    url('/images/frontpage/gimplayer.png');
+            to right,
+            rgba( 255, 255, 255, 1 ),
+            rgba( 255,255,255,1),
+            rgba( 255,255,255,0.5 ) ),
+            url('/images/frontpage/gimplayer.png');
         background-position: 100% 0;
     }
 
     #cap-graphics {
-            background-image: linear-gradient( to right,
-                        rgba(255,255,255,0),
-                        rgba(255,255,255,1) 40%,
-                        white ),
-                        url('/images/frontpage/graphic-elements.png');
+        background-image: linear-gradient( to right,
+            rgba(255,255,255,0),
+            rgba(255,255,255,1) 40%,
+            white ),
+            url('/images/frontpage/graphic-elements.png');
+        background-image: url('/images/frontpage/gwi_5.png');
     }
 
     span#gFirst, span#gSecond {
