@@ -308,7 +308,7 @@ span#gFirst {
 
     #cap-graphics {
         background-image: url('/images/frontpage/gwi_5.png');
-        background-position: 0;
+        background-position: 0 75%;
     }
 
     span#gFirst, span#gSecond {
