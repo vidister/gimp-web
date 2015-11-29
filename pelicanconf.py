@@ -5,7 +5,22 @@ from __future__ import unicode_literals
 #Plugins
 PLUGIN_PATHS = ["plugins"]
 #PLUGINS = ["page_hierarchy_gimp"]
-PLUGINS = ["mimic_hierarchy", "i18n_subsites"]
+PLUGINS = ["mimic_hierarchy", "i18n_subsites", "sitemap"]
+
+# sitemap plugin settings
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 1,
+        'indexes': 0.5,
+        'pages': 1
+    },
+    'changefreqs': {
+        'articles': 'weekly',
+        'indexes': 'weekly',
+        'pages': 'weekly'
+    }
+}
 
 # mapping: language_code -> settings_overrides_dict
 I18N_SUBSITES = {
