@@ -2,8 +2,7 @@ Title: Open Usability and GIMP
 Date: 2006-08-11
 Category: News
 Authors: Wilber
-
-
+Summary: The GIMP team is proud to announce that the GNU Image Manipulation Program has been chosen as the first Open Source Software project for a sponsored student project on usability.
 
 The GIMP team is proud to announce that the GNU Image Manipulation Program has been chosen as the first Open Source Software project for a sponsored student project on usability.
 
@@ -11,7 +10,9 @@ The GIMP team is proud to announce that the GNU Image Manipulation Program has b
 
 OpenUsability ([www.openusability.org](http://www.openusability.org/)) is an initiative that brings Open Source Software (OSS) development and usability together. This symbiosis is beneficial for both sides: Developers can make difficult user interface (UI) decisions together with usability specialists, while usability specialists can explore and further develop their skills in real-world projects without the pressure of a commercial market.
 
-Likewise, OpenUsability's mentored student projects are an excellent way for usability, user-interface design, and interaction design students to gain experience in the interdisciplinary and collaborative development of user interface solutions in international software projects. During a three-month cooperation, you will closely work together with experienced professionals and get insights in to their way of work. An involvement of 20 hours per week is expected.
+Likewise, OpenUsability's mentored student projects are an excellent way for usability, user-interface design, and interaction design students to gain experience in the interdisciplinary and collaborative development of user interface solutions in international software projects.
+
+During a three-month cooperation, you will closely work together with experienced professionals and get insights in to their way of work. An involvement of 20 hours per week is expected.
 
 Depending on your location, you will be invited to a kickoff-meeting with the development team, the interaction architect, usability specialist and user support. Otherwise the collaboration will take place via the established channels of OSS development - email, IRC, VoIP, and etc.
 
