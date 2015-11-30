@@ -1,9 +1,10 @@
 Title: Libre Graphics Meeting 2015
 Date: 2015-02-27
 Category: News
-Authors: Wilber Gimp
+Authors: Michael Schumacher
+Summary: Two months to go till Libre Graphics Meeting 2015 happens in Toronto, Canada. This conference is a great place to meet the people who make and use free and open source graphics software.
 
-2 months to go till <a href="">Libre Graphics Meeting 2015</a> happens in Toronto, Canada. This conference is a great place to meet the people who make and use free and open source graphics software.
+Two months to go till [Libre Graphics Meeting 2015](http://libregraphicsmeeting.org/2015/) happens in Toronto, Canada. This conference is a great place to meet the people who make and use free and open source graphics software.
 
 Participation is gratis and open to all. Every year, donations from supporters make it possible for LGM to subsidize the travel costs of participants:
 
