@@ -204,6 +204,12 @@ nav#menu ul > li a{
     color: #ecf0f1;
 }
 
+nav#menu .fa {
+    font-size: 1rem;
+    vertical-align: middle;
+    vertical-align: text-top;
+}
+
 header a {
     color: #497bad;
 }
@@ -524,6 +530,7 @@ footer .nav-bottom a {
         position: relative;
         bottom: -2px;
     }
+
 
     #pushPage .container.title {
         padding-top: 60px;
