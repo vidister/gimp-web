@@ -2,6 +2,7 @@ Title: Google Summer of Code - Student Application Period Has Started
 Date: 2009-03-24
 Category: News
 Authors: Wilber
+Summary: Google has started to accept applications from students for Summer of Code.
 
 Google has started to accept applications from students for [Summer of Code](http://socghop.appspot.com/).
 

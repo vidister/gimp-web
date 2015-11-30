@@ -2,6 +2,7 @@ Title: Gimp Help Released for GIMP 2.6
 Date: 2009-10-09
 Category: News
 Authors: Wilber
+Summary: The GIMP documentation team has been working hard and is proud to announce the availability of the first release of the user manual for GIMP 2.6.
 
 The [GIMP documentation team](http://docs.gimp.org/) has been working hard and is proud to announce the availability of the first release of the user manual for GIMP 2.6.
 
