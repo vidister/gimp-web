@@ -147,6 +147,7 @@ nav#menu li#gimp-home {
 nav#menu .fa {
     font-size: 1rem;
     vertical-align: middle;
+    vertical-align: text-top;
 }
 
 nav#menu li {
