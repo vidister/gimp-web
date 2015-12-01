@@ -146,6 +146,11 @@ nav#menu li#gimp-home {
      */
 }
 
+
+nav#menu li {
+    white-space: nowrap;
+}
+
 #cap-photos {
     background-color: #0e2426;
     background-image: linear-gradient(
