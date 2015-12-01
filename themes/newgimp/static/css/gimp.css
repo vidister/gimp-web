@@ -194,6 +194,7 @@ nav#menu ul, nav#menu ul li {
 
 nav#menu ul > li {
     margin-left: 1.5rem;
+    letter-spacing: 0.15rem;
 }
 
 nav#menu ul > li:first-of-type {
@@ -208,6 +209,7 @@ nav#menu .fa {
     font-size: 1rem;
     vertical-align: middle;
     vertical-align: text-top;
+    display: none;
 }
 
 header a {
