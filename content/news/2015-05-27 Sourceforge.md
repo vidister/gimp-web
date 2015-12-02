@@ -1,7 +1,8 @@
 Title: SourceForge, What the...?
 Date: 2015-05-27
 Category: News
-Authors: Wilber Gimp
+Authors: Wilber
+Summary: We are receiving reports that people who get to SourceForge for GIMP installers for Windows receive small installers that include additional software.
 
 Some of you might remember that in November 2013, [we abandoned SourceForge](http://www.theregister.co.uk/2013/11/08/gimp_dumps_sourceforge_over_dodgy_ads_and_installer/) (SF) as the primary download site for the GIMP installers for Windows platforms and moved the files to our own download server, [download.gimp.org](//download.gimp.org)
 

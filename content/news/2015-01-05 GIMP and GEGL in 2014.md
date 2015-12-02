@@ -1,7 +1,7 @@
 Title: GIMP and GEGL in 2014
 Date: 2015-01-05
 Category: News
-Authors: Wilber Gimp
+Authors: Alexandre Prokoudine
 Summary: In 2014, we spent most of the time on improving GIMP's usability and finalizing the GEGL port of GIMP to lay the foundation for various advanced features in demand by professionals.
 
 In 2014, we spent most of the time on improving GIMP's usability and finalizing the GEGL port of GIMP to lay the foundation for various advanced features in demand by professionals. Some of the 2014 highlights are:

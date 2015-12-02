@@ -1,8 +1,8 @@
 Title: GIMP Project's Official Statement on SourceForge's Actions
 Date: 2015-05-27
 Category: News
-Authors: Wilber Gimp
-
+Authors: Wilber
+Summary: This is the GIMP project's official statement on SourceForge's actions in regard to "abandoned" projects on their service.
 
 This is the GIMP project's official statement on [SourceForge's actions](http://web.archive.org/web/20150529094757/https://sourceforge.net/blog/gimp-win-project-wasnt-hijacked-just-abandoned/) in regard to "abandoned" projects on their service.  
  It is archived in the [GIMP Developer mailing list archive](https://mail.gnome.org/archives/gimp-developer-list/2015-May/msg00144.html).

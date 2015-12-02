@@ -235,7 +235,7 @@ nav#menu li {
                         rgba(0,0,0,0),
                         rgba(0,0,0,0),
                         rgba(0,0,0,0.9)),
-                        url('/images/frontpage/gwi_5.png');
+                        url('/images/frontpage/gwi_5.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #0e2426;
@@ -314,7 +314,7 @@ span#gFirst {
     }
 
     #cap-graphics {
-        background-image: url('/images/frontpage/gwi_5.png');
+        background-image: url('/images/frontpage/gwi_5.jpg');
         background-position: 0 75%;
     }
 
