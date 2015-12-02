@@ -539,7 +539,7 @@ footer .nav-bottom a {
     }
 
     #pushPage #articles, #pushPage #content.body {
-        padding-top: 65px;
+        /* padding-top: 65px; */
     }
 
     #pushPage #banner {
