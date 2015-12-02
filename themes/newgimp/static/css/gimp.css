@@ -574,7 +574,7 @@ footer .nav-bottom a {
 }
 
 
-@media ( min-width: 40.1rem ){
+@media ( min-width: 40.01rem ){
     #navstrip {
         display: none;
     }
