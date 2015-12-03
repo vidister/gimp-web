@@ -3,7 +3,7 @@ Date: 2015-12-03
 Category: News
 Authors: Alexandre Prokoudine
 Slug: lgm-2016-call-for-participation
-Summary: On April 15—18, Libre Graphics Meeting 2016 conference is taking place in London. We invite you to attend it and meet developers of free graphics software, lead a workshop or participate in one.
+Summary: On April 15—18, Libre Graphics Meeting 2016 conference is taking place in London. We invite you to attend it and meet developers of free graphics software, lead a workshop, or participate in one.
 
 On April 15—18, the [Libre Graphics Meeting 2016](http://libregraphicsmeeting.org/2016/) conference is taking place in London. 
 We invite you to attend and meet developers of free graphics software, lead a workshop, or participate in one.
