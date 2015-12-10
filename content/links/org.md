@@ -8,7 +8,7 @@ Status: hidden
 ## The GIMP Organization
 
 [bugzilla.gnome.org](https://bugzilla.gnome.org)  
- Take your bugs here.
+ Take your bugs here
 
 [wiki.gimp.org](http://wiki.gimp.org)  
  GIMP developers wiki
@@ -23,10 +23,10 @@ Status: hidden
  Plug-ins & scripts
 
 [gimpmagazine.org](http://gimpmagazine.org)  
- GIMP Magazine by Steve Czajka.
+ GIMP Magazine by Steve Czajka
 
 [gimpfoo.de](http://gimpfoo.de)  
- Personal blog of Michael Natterer, GIMP's maintainer.
+ Personal blog of Michael Natterer, GIMP's maintainer
 
 [vidar.gimp.org](http://vidar.botfu.org)  
- Author of GIMPressionist and Fire Annimation plug-ins.
+ Author of GIMPressionist and Fire Annimation plug-ins
