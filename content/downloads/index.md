@@ -238,22 +238,22 @@ Previous installers for Windows can be found here: [download.gimp.org](//downloa
 
 ### GIMP User Manual
 
-*   [Chinese Simplified](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-zh_CN-setup.exe) (24.3 MB)
-*   [Catalan](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-ca-setup.exe) (24.2 MB)
-*   [Danish](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-da-setup.exe) (24.2 MB)
-*   [Dutch](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-nl-setup.exe) (24.3 MB)
-*   [English](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-en-setup.exe) (24.2 MB)
-*   [English (United Kingdom)](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-en_GB-setup.exe) (24.2 MB)
-*   [French](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-fr-setup.exe) (25.7 MB)
-*   [German](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-de-setup.exe) (28.0 MB)
-*   [Italian](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-it-setup.exe) (30.2 MB)
-*   [Japanese](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-ja-setup.exe) (23.6 MB)
-*   [Korean](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-ko-setup.exe) (24.9 MB)
-*   [Norwegian Nynorsk](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-nn-setup.exe) (20.9 MB)
-*   [Russian](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-ru-setup.exe) (24.9 MB)
-*   [Slovenian](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-sl-setup.exe) (24.3 MB)
-*   [Spanish](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-es-setup.exe) (24.9 MB)
-*   [Swedish](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.1/gimp-help-2-2.8.1-sv-setup.exe) (24.7 MB)
+*   [Chinese Simplified](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-zh_CN-setup.exe) (24.3 MB)
+*   [Catalan](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-ca-setup.exe) (24.2 MB)
+*   [Danish](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-da-setup.exe) (24.2 MB)
+*   [Dutch](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-nl-setup.exe) (24.3 MB)
+*   [English](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-en-setup.exe) (24.2 MB)
+*   [English (United Kingdom)](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-en_GB-setup.exe) (24.2 MB)
+*   [French](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-fr-setup.exe) (25.7 MB)
+*   [German](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-de-setup.exe) (28.0 MB)
+*   [Italian](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-it-setup.exe) (30.2 MB)
+*   [Japanese](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-ja-setup.exe) (23.6 MB)
+*   [Korean](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-ko-setup.exe) (24.9 MB)
+*   [Norwegian Nynorsk](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-nn-setup.exe) (20.9 MB)
+*   [Russian](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-ru-setup.exe) (24.9 MB)
+*   [Slovenian](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-sl-setup.exe) (24.3 MB)
+*   [Spanish](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-es-setup.exe) (24.9 MB)
+*   [Swedish](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-sv-setup.exe) (24.7 MB)
 </div>
 
 ---
