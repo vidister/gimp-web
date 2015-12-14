@@ -61,7 +61,7 @@ GIMP uses [git](https://git-scm.com/) as its revision control system, and the [G
 
 New contributors should first introduce themselves on IRC (the #gimp channel at irc.gimp.org) and/or the relevant mailing lists:
 
-*   [GIMP Developers mailing list, for those who work on the core GIMP application and plugins](https://mail.gnome.org/mailman/listinfo/gimp-developer-lists)
+*   [GIMP Developers mailing list, for those who work on the core GIMP application and plugins](https://mail.gnome.org/mailman/listinfo/gimp-developer-list)
 *   [GEGL Developers mailing list for developers of the GEGL library](https://mail.gnome.org/mailman/listinfo/gegl-developer-list)
 *   [GIMP Web Developers mailing list, for working on this website](https://mail.gnome.org/mailman/listinfo/gimp-web-list)
 *   [GIMP Documentation mailing list, for working on the user manual](https://mail.gnome.org/mailman/listinfo/gimp-docs-list)
@@ -70,7 +70,7 @@ This way you can announce the changes you intend to make, ask questions, and dis
 
 The site you should keep updated with and the site that is updated all the time with new development help guides is located at [http://wiki.gimp.org/](http://wiki.gimp.org/). If you have GIMP installed at the moment then there are some files you should look at in the source code that might help you a little.
 
-*   [INSTALL](https://git.gnome.org/browse/gimp/plain/INSTALL)  
+*   [INSTALL](https://git.gnome.org/browse/gimp/plain/INSTALL.in)  
      _(Contains most up-to-date information on building GIMP from source code)_
 *   [HACKING](https://git.gnome.org/browse/gimp/plain/HACKING)  
      _(Contains a lot of information that you need to know if you want to start coding)_
