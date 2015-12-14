@@ -6,11 +6,12 @@ Status: hidden
 ## Beginning Photo Retouching & Restoration Using GIMP
 
 ![Beginning Photo Retouching & Restoration Using GIMP](apress-photo-retouching-restoration-gimp-2014.jpg)
+
 **Author:** Phillip Whitt
-**ISBN-13:** 978-1-484204-04-7
-**Format:** Paperback (308pp.), EPUB, MOBI, PDF
-**Publisher/Date:** Apress/2014
-**Website:** [http://www.apress.com/9781484204047](http://www.apress.com/9781484204047)
+ **ISBN-13:** 978-1-484204-04-7
+ **Format:** Paperback (308pp.), EPUB, MOBI, PDF
+ **Publisher/Date:** Apress/2014
+ **Website:** [http://www.apress.com/9781484204047](http://www.apress.com/9781484204047)
 
 **Description:** _Beginning Photo Retouching & Restoration Using GIMP_ teaches readers how to digitally retouch and restore damaged photographs with GIMP 2.8-the free high end alternative to expensive image editing programs. The exercise photos in the book are available to download for the reader to follow along.
 
