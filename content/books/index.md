@@ -13,7 +13,8 @@ Status: hidden
  **Publisher/Date:** Apress/2014  
  **Website:** [http://www.apress.com/9781484204047](http://www.apress.com/9781484204047)
 
-**Description:** _Beginning Photo Retouching & Restoration Using GIMP_ teaches readers how to digitally retouch and restore damaged photographs with GIMP 2.8-the free high end alternative to expensive image editing programs. The exercise photos in the book are available to download for the reader to follow along.
+**Description:** _Beginning Photo Retouching & Restoration Using GIMP_ teaches readers how to digitally retouch and restore damaged photographs with GIMP 2.8 - the free high end alternative to expensive image editing programs.
+The exercise photos in the book are available to download for the reader to follow along.
 
 ## Das GIMP 2.8-Buch
 
