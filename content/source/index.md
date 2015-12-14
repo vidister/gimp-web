@@ -19,10 +19,10 @@ table td {
 
 The official distribution of GIMP is the source code, distributed in tar files from the GIMP FTP site and its [mirrors](/downloads/#mirrors). The same source code can be compiled to create binaries for different platforms such as [GNU/Linux](/unix/), [Microsoft Windows](/windows/), [Mac OS X](/macintosh/), [Solaris](/unix/) and many others.
 
-*   [GIMP Source Code](#source)
-*   [GIMP Requirements](#requirements)
-*   [GIMP from Git](#gimp_from_git)
-*   [Optional packages](#optional_packages)
+*   [GIMP Source Code](#gimp-source-code)
+*   [GIMP Requirements](#gimp-requirements)
+*   [GIMP from Git](#gimp-from-git)
+*   [Optional packages](#optional-packages)
 
 ### Stable releases
 
