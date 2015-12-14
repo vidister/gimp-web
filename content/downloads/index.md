@@ -92,37 +92,10 @@ Show downloads for
 
 It's very likely your Unix-like system such as a GNU/Linux distribution already comes with a GIMP package. It is a preferred method of installing GIMP, as the distribution maintainers take care of all the dependencies and bug fix updates. Please note that many distros decide to pin a specific version of GIMP to their releases.
 
-### Debian, Mint, Ubuntu
+GIMP can also run on Solaris and is available for the BSD family of systems such as FreeBSD and OpenBSD.
 
-Ubuntu, Mint, or Debian users can run `apt-get install gimp` to install GIMP. Ubuntu users may also install GIMP from [Software Centre](https://apps.ubuntu.com/cat/applications/gimp/), this includes recent GIMP versions from PPAs.
+Please refer to the documentation for your Unix-like system on the installation of software.
 
-### openSUSE
-
-SUSE users can install GIMP by running `yast -i gimp` or `zypper in gimp`, depending on the distribution version.
-
-### Fedora
-
-Similarly to the above, Fedora users can install GIMP by running `dnf install gimp`.
-
-### Gentoo
-
-Gentoo users can install GIMP by running `emerge gimp` for the latest stable version.
-
-### Arch
-
-Arch Linux users can install GIMP by running `pacman -S gimp`.
-
-### Mageia 
-
-Mageia Linux users can install GIMP by running `urpmi gimp`.
-
-### BSD
-
-GIMP is also available for the BSD family of systems such as FreeBSD and OpenBSD.
-
-### Solaris
-
-GIMP can run on Solaris.
 </div>
 
 
