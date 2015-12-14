@@ -65,21 +65,21 @@ All requirements below must be met to be able compiling GIMP from source. This l
 <tr>
 <td>GTK+</td>
 <td>2.24.10 or newer</td>
-<td>[Download](ftp://ftp.gtk.org/pub/gtk/)</td>
+<td>[Download](ftp://ftp.gnome.org/pub/GNOME/sources/gtk+/)</td>
 <td>-</td>
 <td>The GIMP toolkit</td>
 </tr>
 <tr>
 <td>GLib</td>
 <td>2.30.2 or newer</td>
-<td>[Download](ftp://ftp.gtk.org/pub/glib)</td>
+<td>[Download](ftp://ftp.gnome.org/pub/GNOME/sources/glib/)</td>
 <td>-</td>
 <td>Glib Convenience Library</td>
 </tr>
 <tr>
 <td>Pango</td>
 <td>1.29.4 or newer</td>
-<td>[Download](ftp://ftp.gtk.org/pub/pango)</td>
+<td>[Download](ftp://ftp.gnome.org/pub/GNOME/sources/pango/)</td>
 <td>-</td>
 <td>Text layout engine, GIMP also requires PangoCairo — a Pango backend using Cairo</td>
 </tr>
