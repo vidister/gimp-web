@@ -273,7 +273,7 @@ img {
     display: initial;
     height: initial;
     margin: 0;
-    /* width: initial; */
+    width: initial;
     max-width: 100%;
 }
 
