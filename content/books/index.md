@@ -3,12 +3,24 @@ Date: 2015-08-14T13:58:40-05:00
 Author: Pat David
 Status: hidden
 
+## Beginning Photo Retouching & Restoration Using GIMP
+
+![Beginning Photo Retouching & Restoration Using GIMP](apress-photo-retouching-restoration-gimp-2014.jpg)
+
+**Author:** Phillip Whitt  
+ **ISBN-13:** 978-1-484204-04-7  
+ **Format:** Paperback (308pp.), EPUB, MOBI, PDF  
+ **Publisher/Date:** Apress/2014  
+ **Website:** [http://www.apress.com/9781484204047](http://www.apress.com/9781484204047)
+
+**Description:** _Beginning Photo Retouching & Restoration Using GIMP_ teaches readers how to digitally retouch and restore damaged photographs with GIMP 2.8-the free high end alternative to expensive image editing programs. The exercise photos in the book are available to download for the reader to follow along.
+
 ## Das GIMP 2.8-Buch
 
 ![Das GIMP 2.8-Buch](gimp-2-8-kay-richter.jpg)  
 **Author:** Kay Richter  
  **Format:** eBook, 256pp.  
- **ISBN-13:** ISBN 978-3-86899-857-3  
+ **ISBN-13:** 978-3-86899-857-3  
  **Publisher/Date:** O'Reilly/2013  
  **Website:** [www.oreilly.de/catalog/gimpbuchger/](http://www.oreilly.de/catalog/gimpbuchger/)  
 
