@@ -78,7 +78,7 @@ Now you just have to wait for the developers and maintainers to look at the patc
 Start a new bug report, mark it as enhancement and put the patch in that report on Bugzilla. This will give developers a good explanation of why you did the patch and how the patch changes GIMP source or adds new things to it. The only thing you need to add to the report is that it is an enhancement and explain the patch a little bit. A simple way to this is to:
 
 1.  Go to [Submit a new bug report](https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP).
-2.  Fire up a new report and select enhancement instead of the others used by normal bug reporting.
+2.  Start a new report and select _enhancement_ as a _Severity_ option.
 3.  Attach the patch and explain what you wanted to get going with the help of this patch.
 4.  Remember to explain the purpose of the patch and who might want to use this enhancement.
 
