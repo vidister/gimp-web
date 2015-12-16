@@ -90,12 +90,12 @@ The GIMP community is a friendly one, but it probably is still worth saying this
 
 ## Important GIMP Links
 
-*   [The GNU Image Manipulation Program](//www.gimp.org/) - www.gimp.org
-*   [GIMP Wiki](http://wiki.gimp.org/) - wiki.gimp.org
-*   [GIMP Bugzilla](https://bugzilla.gnome.org/) - bugzilla.gnome.org
-*   [The GIMP Toolkit](http://www.gtk.org/) - www.gtk.org
-*   [GNU Project](http://www.gnu.org/) - www.gnu.org
-*   [GNU General Public License](/about/COPYING) - GPL
+*   [The GNU Image Manipulation Program](//www.gimp.org/) — www.gimp.org
+*   [GIMP Wiki](http://wiki.gimp.org/) — wiki.gimp.org
+*   [GIMP Bugzilla](https://bugzilla.gnome.org/) — bugzilla.gnome.org
+*   [The GIMP Toolkit](http://www.gtk.org/) — www.gtk.org
+*   [GNU Project](http://www.gnu.org/) — www.gnu.org
+*   [GNU General Public License](/about/COPYING) — GPL
 
 ## GIMP RSS feeds
 
@@ -104,17 +104,16 @@ The GIMP community is a friendly one, but it probably is still worth saying this
 ## <a name="development"></a>GIMP Development Links
 
 [GIMP developers](http://wiki.gimp.org)  
- The main GIMP development website.
+ The main GIMP development website
 
 [GEGL](http://www.gegl.org/)  
- An image processing library based on GObjects.
+ An image processing library based on GObjects
+
+[babl](http://gegl.org/babl/)
+ A dynamic, any to any, pixel format translation library
 
 [GNOME GIT](https://git.gnome.org/)  
  GNOME GIT source code repository
-
-<del>[Martin Nordholts' GIMP Blog](http://www.chromecode.com/)</del> (out of date)  
-<del>What happens in GIMP development.</del>
-
 
 ## Latest Changes in Code
 
