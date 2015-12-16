@@ -7,7 +7,7 @@ Author: Pat David
 
 GIMP comes with a built-in help system. Once you have started the program, press <kbd>F1</kbd> for context-sensitive help. You may have to install the help pages from a separate package (gimp-help), depending on how your version of GIMP was packaged.
 
-The user manual for the GIMP 2.8 release is available in several languages:
+The user manual for the GIMP 2.8 release is available in 17 languages:
 
 *   [Catalá](http://docs.gimp.org/2.8/ca)
 *   [中文 (Chinese Simplified)](http://docs.gimp.org/2.8/zh_CN)
