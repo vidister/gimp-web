@@ -63,9 +63,9 @@ To save disk space, any format can be saved with an archive extension such as ZI
 
 ## Supported Platforms
 
-*   GNU/Linux (i386, PPC)
-*   Microsoft Windows (XP, Vista)
-*   Mac OS X
+*   GNU/Linux
+*   Microsoft Windows (XP SP3, Vista, 7, 8)
+*   Mac OS X (10.6 and newer)
 *   Sun OpenSolaris
 *   FreeBSD
 
