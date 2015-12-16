@@ -219,6 +219,7 @@ Previous installers for Windows can be found here: [download.gimp.org](//downloa
 *   [English (United Kingdom)](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-en_GB-setup.exe) (24.2 MB)
 *   [French](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-fr-setup.exe) (25.7 MB)
 *   [German](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-de-setup.exe) (28.0 MB)
+*   [Greek](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-el-setup.exe) (24.0 MB)
 *   [Italian](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-it-setup.exe) (30.2 MB)
 *   [Japanese](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-ja-setup.exe) (23.6 MB)
 *   [Korean](//download.gimp.org/mirror/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-ko-setup.exe) (24.9 MB)

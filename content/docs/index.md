@@ -9,17 +9,23 @@ GIMP comes with a built-in help system. Once you have started the program, press
 
 The user manual for the GIMP 2.8 release is available in several languages:
 
+*   [Catalá](http://docs.gimp.org/2.8/ca)
+*   [中文 (Chinese Simplified)](http://docs.gimp.org/2.8/zh_CN)
+*   [Dansk](http://docs.gimp.org/2.8/da)
 *   [Deutsch](http://docs.gimp.org/2.8/de/)
+*   [Ελληνικά](http://docs.gimp.org/2.8/el/)
 *   [English](http://docs.gimp.org/2.8/en/)
+*   [Español](http://docs.gimp.org/2.8/es/)
 *   [Français](http://docs.gimp.org/2.8/fr/)
 *   [Italiano](http://docs.gimp.org/2.8/it/)
 *   [日本語(Japanese)](http://docs.gimp.org/2.8/ja/)
-*   [Nederlands](http://docs.gimp.org/2.8/nl/)
-*   [Español](http://docs.gimp.org/2.8/es/)
 *   [한국어(Korean)](http://docs.gimp.org/2.8/ko/)
-*   [Norwegian](http://docs.gimp.org/2.8/nn/)
+*   [Nederlands](http://docs.gimp.org/2.8/nl/)
+*   [Norwegian Nynorsk](http://docs.gimp.org/2.8/nn/)
+*   [Português](http://docs.gimp.org/2.8/pt_BR)
 *   [Pусский](http://docs.gimp.org/2.8/ru/)
-*   [Ελληνικά](http://docs.gimp.org/2.8/el/)
+*   [Slovenščina](http://docs.gimp.org/2.8/sl)
+*   [Svenska](http://docs.gimp.org/2.8/sv)
 
 ## Tutorials
 
