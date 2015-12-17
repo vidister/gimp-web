@@ -103,14 +103,14 @@ Please refer to the documentation for your Unix-like system on the installation 
 ## GIMP for Mac OS X
 
 <span class='win-button' id='osx-torrent'>
-<a href="http://download.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.14.dmg.torrent">
-    Download GIMP&nbsp;2.8.14<br/>
+<a href="//download.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.16-x86_64.dmg.torrent">
+    Download GIMP&nbsp;2.8.16<br/>
     via BitTorrent
 </a>
 </span>
 <span class='win-button'>
-<a href="http://download.gimp.org/mirror/pub/gimp/v2.8/osx/gimp-2.8.14.dmg">
-    Download GIMP&nbsp;2.8.14<br/>
+<a href="//download.gimp.org/mirror/pub/gimp/v2.8/osx/gimp-2.8.16-x86_64.dmg">
+    Download GIMP&nbsp;2.8.16<br/>
     directly
 </a>
 </span>
