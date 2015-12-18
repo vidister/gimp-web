@@ -1,7 +1,6 @@
 from pelican import signals, contents
 import os.path
 from os.path import basename
-#import geoip2.database
 import socket
 import json
 import pygeoip
