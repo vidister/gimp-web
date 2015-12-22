@@ -363,6 +363,10 @@ footer .nav-bottom a {
     color: #f57900;
 }
 
+.secondary-links li {
+    margin-bottom: 0.25rem;
+}
+
 .row.bottom {
     text-align: center;
     color: silver;
