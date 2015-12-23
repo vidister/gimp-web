@@ -59,7 +59,7 @@ The exercise photos in the book are available to download for the reader to foll
  **ISBN-10:** N/A  
  **ISBN-13:** N/A  
  **Publisher/Date:** Self-published/May 2013  
- **Website:** [http://how-to-gimp.com/gimp-book/](http://how-to-gimp.com/gimp-book/)  
+ **Website:** [http://howtogimp.com/gimp-book/](http://howtogimp.com/gimp-book/)  
 
 **Description:** A beginner's guide to using GIMP for photo editing, and basic graphics like using text on images. The book starts from the very beginning. You'll work through clearly written tutorials using over 30 high quality practice images to learn everything from drawing simple shapes, to using advanced tools like layers, and layer masks. You'll learn how to use tools effectively, rather than on memorizing steps in tutorials. By the end of the book, you'll be ready to follow and adapt online tutorials with ease. You'll even have the confidence to use GIMP without tutorials.
 
