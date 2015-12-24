@@ -11,6 +11,8 @@
   {% if article.description %}
       {% for description in article.description %}
         <meta name="description" content="{{description}}" />
+        <meta property='og:description' content="{{ article.description|striptags }}" />
+        <meta itemprop='description' content="{{ article.description|striptags }}" />
       {% endfor %}
   {% elif article.summary %}
     <meta name="description" content="{{ article.summary|striptags }}" />
@@ -88,9 +90,9 @@
 
             <div class='column full social'>
                 <p>
-                Share this post on: <a href="https://plus.google.com/share?url=https://www.gimp.org/{{ article.url }}" target="_blank" title="Share this post on Google+">Google+</a> |
-                <a href="https://twitter.com/intent/tweet?url=https://www.gimp.org/{{ article.url }}" target="_blank" title="Share this post on twitter">twitter</a> |
-                <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.gimp.org/{{ article.url }}" target="_blank" title="Share this post on Facebook">Facebook</a>
+                Share this on: <a href="https://plus.google.com/share?url=https://www.gimp.org/{{ article.url|urlencode }}" target="_blank" title="Share this post on Google+">Google+</a> |
+                <a href="https://twitter.com/intent/tweet?url=https://www.gimp.org/{{ article.url|urlencode }}" target="_blank" title="Share this post on twitter">twitter</a> |
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.gimp.org/{{ article.url|urlencode }}" target="_blank" title="Share this post on Facebook">Facebook</a>
                 </p>
             </div>
 
