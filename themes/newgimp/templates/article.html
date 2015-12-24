@@ -11,13 +11,9 @@
   {% if article.description %}
       {% for description in article.description %}
         <meta name="description" content="{{description}}" />
-        <meta property='og:description' content="{{ article.description|striptags }}" />
-        <meta itemprop='description' content="{{ article.description|striptags }}" />
       {% endfor %}
   {% elif article.summary %}
     <meta name="description" content="{{ article.summary|striptags }}" />
-    <meta property='og:description' content="{{ article.summary|striptags }}" />
-    <meta itemprop='description' content="{{ article.summary|striptags }}" />
   {% endif %}
 
 
