@@ -82,9 +82,6 @@ def do_mirrors(content_object):
             except:
                 print "cannot resolve record: ", record
 
-        #html_output( mirrors )
-        #print( html_output( mirrors ) )
-
         #page._content = page.content.replace(u"<!-- MIRRORS -->", u"<h2>Mirrors Test</h2>")
         page._content = page.content.replace(u"<!-- MIRRORS -->", html_output( mirrors) )
 
