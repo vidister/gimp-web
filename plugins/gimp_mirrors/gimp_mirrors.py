@@ -20,6 +20,26 @@ I am not kidding.
 
 class UnexpectedException(Exception): pass
 
+def html_output( data ):
+
+    html = u"<dl class='download-mirror'>\n"
+
+    for key, values in sorted(data.iteritems()):
+
+        html += u"<dt>{}</dt>".format( key )
+
+        for value in values:
+            if isinstance( value, unicode ):
+                tmp = value
+            else:
+                tmp = unicode( value, 'utf_8')
+            html += u"<dd><a href='{}'>{}</a></dd>\n".format( tmp, tmp )
+
+    html += u"</dl>"
+
+    return html
+
+
 def do_mirrors(content_object):
     # Not 'Page' object?  Quit.
     if type(content_object) is not contents.Page:
@@ -47,12 +67,12 @@ def do_mirrors(content_object):
             data = json.load(data_file)
 
         for record in data:
-            print "####"
-            print record
+            #print "####"
+            #print record
 
             try:
                 country = gi.country_name_by_name( record )
-                print country
+                #print country
 
                 if country in mirrors:
                     mirrors[ country ] += data[ record ]
@@ -62,11 +82,11 @@ def do_mirrors(content_object):
             except:
                 print "cannot resolve record: ", record
 
-        print( mirrors )
+        #html_output( mirrors )
+        #print( html_output( mirrors ) )
 
-        page._content = page.content.replace(u"<!-- MIRRORS -->", u"<h2>Mirrors Test</h2>")
-
-
+        #page._content = page.content.replace(u"<!-- MIRRORS -->", u"<h2>Mirrors Test</h2>")
+        page._content = page.content.replace(u"<!-- MIRRORS -->", html_output( mirrors) )
 
     
 
