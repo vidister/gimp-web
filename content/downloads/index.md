@@ -365,8 +365,8 @@ if ( platform.os.family.indexOf('Win') !== -1 && platform.os.family.indexOf('Pho
     document.getElementById('linux').style.display = 'none';
 }else {
     document.getElementById('pOSTEST').innerHTML = platform.os.family + '.';
-    document.getElementById('win').style.display = 'block';
-    document.getElementById('mac').style.display = 'block';
+    document.getElementById('win').style.display = 'none';
+    document.getElementById('mac').style.display = 'none';
     document.getElementById('linux').style.display = 'block';
 }
 
