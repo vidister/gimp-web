@@ -114,4 +114,4 @@ PAGES_DEBUG = False
 
 # When developing, you probably want document relative URLs - so set this to True
 # When publishing, set to False
-RELATIVE_URLS = False
+RELATIVE_URLS = True
