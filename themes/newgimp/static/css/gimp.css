@@ -543,9 +543,10 @@ footer .nav-bottom a {
         padding-top: 60px;
     }
 
-    #pushPage #articles, #pushPage #content.body {
-        /* padding-top: 65px; */
+    #pushPage #content.body {
+        padding-top: 65px;
     }
+
 
     #pushPage #banner {
         padding-top: 55px;
