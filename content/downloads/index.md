@@ -125,18 +125,12 @@ If the mirrors do not work or you would rather download directly from our server
 
 Since the 2.8.2 version, GIMP runs on OSX natively. No X11 environment is required.
 
-### Native builds
+### Native build
 
-Currently there are two main installers: a stock build by Sven Claussner and a custom build from Simone Karin Lehmann.
+The official GIMP 2.8 DMG installer (linked above) is a stock GIMP build without any add-ons. It works on OS X 10.6 Snow Leopard and later. Just open the downloaded DMG and drag and drop GIMP into your "Applications" folder.
 
-A GIMP 2.8 DMG installer by Sven Claussner (linked above) is a stock GIMP build without any add-ons. It works on OS X 10.6 Snow Leopard and later. Just open the downloaded DMG and drag and drop GIMP into your "Applications" folder.
-
-The MD5 hash sum for `gimp-2.8.14.dmg` is:
-<kbd>3392eb2cfe67258e7a3f8fc8807f00c0</kbd>.
-
-A build by [Simone Karin Lehmann](http://gimp.lisanet.de/), with some extra plug-ins and changes:
-
-* [Download GIMP 2.8 from lisanet.de](http://gimp.lisanet.de/Website/Download.html)
+The MD5 hash sum for `gimp-2.8.16-x86_64.dmg` is:
+<kbd>58e9843cbfd99eb07bf5204cfd9d913f</kbd>.
 
 
 
