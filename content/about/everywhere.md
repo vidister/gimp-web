@@ -22,7 +22,7 @@ GIMP and its fork FilmGIMP have been used in the making of several movies.
 
 ## GIMP In Medicine & Science
 
-*   [Particle Size Analysis](http://lists.xcf.berkeley.edu/lists/gimp-developer/2001-August/005513.html)
+*   [Particle Size Analysis](https://web.archive.org/web/20020501131604/http://lists.xcf.berkeley.edu/lists/gimp-developer/2001-August/005513.html)
 
 ## GIMP In the Computer World
 
@@ -30,5 +30,5 @@ GIMP and its fork FilmGIMP have been used in the making of several movies.
 
 ## GIMP In Commercial Art
 
-*   [GIMP makes book covers](http://lists.xcf.berkeley.edu/lists/gimp-user/2002-June/004709.html)
+*   [GIMP makes book covers](https://web.archive.org/web/20020501131604/http://lists.xcf.berkeley.edu/lists/gimp-user/2002-June/004709.html)
 
