@@ -615,6 +615,7 @@ a.headerlink {
     -moz-osx-font-smoothing: grayscale;
     transform: translate(0, 0);
     margin-left: 0.5rem;
+    text-decoration: none;
 }
 
 a.headerlink:before {
