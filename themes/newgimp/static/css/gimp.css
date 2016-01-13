@@ -604,3 +604,29 @@ video {
     max-width: 100%;
     height: auto;
 }
+
+a.headerlink {
+    visibility: hidden;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+    margin-left: 0.5rem;
+}
+
+a.headerlink:before {
+    content: "\f0c1";
+    visibility: visible;
+    opacity: 0;
+}
+
+h2:hover a.headerlink:before,
+h3:hover a.headerlink:before,
+h4:hover a.headerlink:before,
+h5:hover a.headerlink:before,
+h6:hover a.headerlink:before {
+    opacity: 1
+}
