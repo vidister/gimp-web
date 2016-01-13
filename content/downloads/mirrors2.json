@@ -1,0 +1,57 @@
+{
+    "nbtelecom.com.br" : [
+      "http://mirror.nbtelecom.com.br/gimp",
+      "rsync://mirror.nbtelecom.com.br::gimp"
+    ],
+    "de-mirror.gimper.net" : [
+      "http://de-mirror.gimper.net/pub/gimp/"
+    ],
+    "artfiles.org" : [
+      "http://artfiles.org/gimp.org/gimp/",
+      "ftp://artfiles.org/gimp.org/gimp/"
+    ],
+    "fau.de" : [
+      "https://ftp.fau.de/gimp/gimp/",
+      "ftp://ftp.fau.de/gimp/gimp/",
+      "rsync://ftp.fau.de/gimp/"
+    ],
+    "go-parts.com" : [
+      "http://mirrors.go-parts.com/gimp/",
+      "ftp://mirrors.go-parts.com/gimp/",
+      "rsync://mirrors.go-parts.com/mirrors/gimp/"
+    ],
+    "mirrors-ru.go-parts.com" : [
+      "http://go-parts.com/mirrors-ru/gimp/gimp/",
+      "ftp://mirrors-ru.go-parts.com/gimp/gimp/",
+      "rsync://mirrors-ru.go-parts.com/mirrors/gimp/"
+    ],
+    "gimp.afri.cc" : [
+      "http://gimp.afri.cc/pub/gimp/"
+    ],
+    "mirrorservice.org" : [
+      "http://www.mirrorservice.org/sites/ftp.gimp.org/pub/gimp/",
+      "ftp://ftp.mirrorservice.org/sites/ftp.gimp.org/pub/gimp/",
+      "rsync://rsync.mirrorservice.org/ftp.gimp.org/pub/gimp/"
+    ],
+    "mirrors-uk.go-parts.com" : [
+      "http://mirrors-uk.go-parts.com/gimp/",
+      "ftp://mirrors-uk.go-parts.com/gimp/",
+      "rsync://mirrors-uk.go-parts.com/mirrors/gimp/"
+    ],
+    "galaxyverge.com" : [
+      "http://gimp.galaxyverge.com/"
+    ],
+    "gimper.net" : [
+      "http://gimper.net/downloads/pub/gimp/"
+    ],
+    "hessmo.com" : [
+      "http://mirror.hessmo.com/gimp/"
+    ],
+    "hoobly.com" : [
+      "http://gimp.mirrors.hoobly.com/pub/gimp/"
+    ],
+    "mirrors-usa.go-parts.com" : [
+      "http://go-parts.com/mirrors-usa/gimp/gimp/",
+      "rsync://mirrors-usa/go-parts.com/mirrors/gimp/"
+    ]
+}
