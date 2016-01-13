@@ -16,7 +16,7 @@ Come and meet developers of free graphics software, lead or participate in a wor
 </figure>
 
 [LGM][lgm] is an amazing opportunity for developers, contributors, visual artists, and supporters of free software projects to come together to work, discuss, and learn from each other.
-Past years have had multiple days of interesting and insightful presentations, _birds of a feather_ meetings, and many types of wonderful workshops.
+Past years have had multiple days of interesting and insightful presentations, [_birds of a feather_][bof] meetings, and many types of wonderful workshops.
 There's also an opportunity to meet some of the GIMP team as well!
 
 This year the host is the [Westminster School of Media Arts and Design][westminster], University of Westminster at their Harrow Campus:
@@ -35,7 +35,7 @@ HA1 3TP
 <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.3714752197265625%2C51.550444854394286%2C-0.27611732482910156%2C51.60506465084748&amp;layer=mapnik&amp;marker=51.57776295788465%2C-0.32379627227783203" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=51.5778&amp;mlon=-0.3238#map=14/51.5778/-0.3238">View Larger Map</a></small>
 </div>
 
-If you are unable to join us at the meeting, please [consider donating something][pledgie] to help offset the costs of project participants to make the trip out to collaborate with so many other awesome project!
+If you are unable to join us at the meeting, please [consider donating something][pledgie] to help offset the costs of project participants to make the trip out to collaborate with so many other awesome projects!
 LGM has a [Pledgie campaign][pledgie] running to assist with travel costs for participants:
 
 <a style='display:block; text-align: center;' href='https://pledgie.com/campaigns/30935'><img alt='Click here to lend your support to: Libre Graphics Meeting 2016 - London and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/30935.png?skin_name=chrome' border='0' ></a>
@@ -79,3 +79,4 @@ We'll be excited to meet you in person!
 [free software]: https://www.gnu.org/philosophy/free-sw.en.html "Free Software Definition"
 [pledgie]: https://pledgie.com/campaigns/30935 "LGM Pledgie Campaign"
 [other-dim]: http://libregraphicsmeeting.org/2016/call-for-participation/
+[bof]: https://en.wikipedia.org/wiki/Birds_of_a_feather_%28computing%29
