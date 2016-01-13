@@ -101,7 +101,7 @@ TYPOGRIFY_IGNORE_TAGS = ['title']
 
 DELETE_OUTPUT_DIRECTORY = True
 
-MD_EXTENSIONS = ['fenced_code', 'codehilite(css_class=codehilite)', 'extra', 'headerid', 'toc']
+MD_EXTENSIONS = ['fenced_code', 'codehilite(css_class=codehilite)', 'extra', 'headerid', 'toc(permalink=True)']
 
 # Pagination testing stuff
 
