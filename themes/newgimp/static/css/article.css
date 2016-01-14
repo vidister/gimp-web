@@ -10,7 +10,8 @@
     color: #555;
 }
 
-.entry-content ul {
+.entry-content ul,
+.entry-content ol {
     max-width: 33rem;
     margin: 1rem auto;
     display: block;
