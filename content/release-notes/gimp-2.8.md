@@ -236,8 +236,6 @@ First startup of GIMP 2.8 on a 1280x800 desktop.
 </figure>
 
 
-</div>
-
 ## Known Regressions
 
 GIMP 2.8 relies on a newer version of GTK+2 that unfortunately has partially broken support for graphics tablets such as Wacom. If your graphic tablet doesn't work in GIMP 2.8 as it should, we recommend downgrading to 2.6 until we release GIMP 3.0 that relies on GTK+3 which has fully functional support for advanced input devices.
