@@ -41,6 +41,9 @@
     {% if article.summary %}
     <meta itemprop='description' content="{{ article.summary|striptags }}" />
     <meta property='og:description' content="{{ article.summary|striptags }}" />
+    {% else %}
+    <meta itemprop='description' content="{{ article.content|striptags|truncate() }}" />
+    <meta property='og:description' content="{{ article.content|striptags|truncate() }}" />
     {% endif %}
 
 
