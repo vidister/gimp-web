@@ -69,7 +69,7 @@ For complaints, see <a href='https://www.flickr.com/photos/patdavid/17387973489'
 </figcaption>
 </figure>
 
-If you are a GIMP user with outstanding skills in graphic design, painting, illustration, or photography, we encourage you to attend LGM 2016.
+If you'd like an opportunity to show off your work, come check out others awesome results, or are just curious what's new and interesting in the world of free software, graphics, and visual art - then we encourage you to come attend LGM2016.
 
 We'll be excited to meet you in person!
 
