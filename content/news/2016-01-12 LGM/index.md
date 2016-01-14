@@ -1,7 +1,7 @@
 Title: Libre Graphics Meeting 2016 
 Date: 2016-01-12
 Category: News
-Authors: Pat David, Alexandre Prokoudine
+Authors: Pat David
 Summary: Join us April 15-18 at the 11th annual Libre Graphics Meeting being hosted by Westminster School of Media Arts and Design in London, UK! Come and meet developers of free graphics software, lead or participate in a workshop, or collaborate with other visual artists who choose to work in free software.
 Status: draft
 
