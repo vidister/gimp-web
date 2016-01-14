@@ -22,6 +22,14 @@
         {% endfor %}
         {% endif %}
 
+        {% if page.summary %}
+        <meta itemprop='description' content="{{ page.summary|striptags }}" />
+        <meta property='og:description' content="{{ page.summary|striptags }}" />
+        {% else %}
+        <meta itemprop='description' content="{{ page.content|striptags|truncate() }}" />
+        <meta property='og:description' content="{{ page.content|striptags|truncate() }}" />
+        {% endif %}
+
 {% endblock head %}
 
 {% block content %}
