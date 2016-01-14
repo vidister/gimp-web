@@ -9,15 +9,19 @@ To download a fresh copy of the site (anonymous, read-only) use the following co
 `git clone git://git.gnome.org/gimp-web`
 
 
+
 ## Meta
 
 There is a series of pages on the site that attempt to address many questions about building and using the new system (Pelican).
 Refer to these pages for extended information in addition to what is below (`about/meta/index.html`).
 
+
+
 ## Short 
 
 The new site is built using the Pelican static site generator, written in Python.
 The tools to build and test the site are Python, Pelican, and a couple of modules (Markdown, typogrify).
+
 
 ### Getting the build environment
 
@@ -35,18 +39,32 @@ The tools to build and test the site are Python, Pelican, and a couple of module
 Further information in greater detail can be found in the Pelican documentation (http://docs.getpelican.com/en/stable/).
 
 
+###  Pelican configuration files (pelicanconf.*)
+
+The main settings file to build the site is pelicanconf.*.
+
+There are three versions in our directory for various needs.
+
+1. pelicanconf.py - this is the main settings file that coincides to WGO (www.gimp.org).
+2. pelicanconf.testing.py - this is the settings file for building testing.gimp.org.
+3. pelicanconf.local.py - this is a settings file tailored for a local build and test environment.
+
+Unless you are monkeying with site-wide build settings, you shouldn't normally have to edit these files.
+If you do, please consult schumaml or patdavid before pushing to be sure.
+
+
 ### Building the site
 
 Once the few prerequisites are installed, building the site is relatively straightforward.
 From the project directory, you can invoke pelican:
 
-`pelican`
+`pelican -s pelicanconf.local.py`
 
 This will build the site into a directory called `output`.
 
 If you are writing content or developing the site, there is an option to have pelican watch the directories for file changes and to automatically recompile the site when a change is detected:
 
-`pelican -r`
+`pelican -r -s pelicanconf.local.py`
 
 
 ### Viewing the site
@@ -58,17 +76,36 @@ From the `output/` directory:
 
 The site can then be accessed locally at `localhost:8000`.
 
+You can also run any other webserver that you want, of course.
+The site files will be available in the `output/` directory.
 
-## pelicanconf.py
+Note: the python SimpleHTTPServer doesn't serve svg images with the correct mimetype.
+To do this, you should add your own mimetype for svg files:
 
-The configuration file `pelicanconf.py` is where all of the various parameters for the site are specified.
-Further details will be added here later to explain.
+    #!/usr/bin/python 
+    import SimpleHTTPServer
+    import SocketServer
+    import mimetypes
+    
+    PORT = 8000
+    
+    Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
+    
+    Handler.extensions_map['.svg']='image/svg+xml'
+    httpd = SocketServer.TCPServer(("", PORT), Handler)
+    
+    print "serving at port", PORT
+    httpd.serve_forever()
+
+(via: http://gotmetoo.blogspot.com/2013/07/python-simple-http-server-with-svg.html)
+
 
 
 ## Content
 
 The site content source files are located in the folder `content/`.
 There is a Pelican plugin that will mimic the hierarchy of the folders as urls.
+This allows us to simply add directories to create new url hierarchy structures easily.
 
 
 ### Directories
@@ -77,9 +114,9 @@ So, `content/about/index.md` will be created as `output/about/index.html`.
 
 If a new directory needs to be added, like `artists/`:
 
-    1. Create the directory, and an index.md file directly under it.
-    2. Add the new directory to the `pelicanconf.py` file in the variable `PAGE_PATHS`
-        This is to make sure that the new directory gets parsed correctly.
+1. Create the directory, and an index.md file directly under it.
+2. Add the new directory to the `pelicanconf.py` file in the variable `PAGE_PATHS`
+    This is to make sure that the new directory gets parsed correctly.
 
 
 ### File Formats
@@ -98,19 +135,77 @@ I wrote a brief cheatsheet of the Markdown format that can be found on the site 
 To write a News post, simply include your new post in the `news/` directory.
 I have been using `YYYY-MM-DD Topic.md` as a file naming convention.
 
+If you want to keep any post assets (images, etc) with the post, you can create a sub-folder + index.md file.
+So, to create a new post about LGM:
+
+1. Create a sub-folder under `news/`: `news/2016-01-12/`
+2. Create an index.md file for the post contents `/news/2016-01-12/index.md`.
+
+You can reference these images using the Pelican internal link format ( {filename}.. ).
+So if the post has an image `gimp.png` in its directory that you want to reference in the post, you would use:
+
+`<img src='{filename}gimp.png' alt='GIMP' />`
+
+This way Pelican will resolve the actual image location no matter where it ends up.
+This is particularly helpful when the post is `Status: draft`.
+
+
+### Post metadata
+
+There are a few pieces of metadata that should be included in the front-matter of a file.
+
+
+#### Title
+
+This should be self-explanatory.
+
+#### Date
+
+Use an ISO8601 formatted date, please (https://en.wikipedia.org/wiki/ISO_8601).
+That means, YYYY-MM-DD(Thh:mm:ss-TMZ)
+
+Thats, Year (4-digit), Month (2-digit), Day (2-digit), T, hour (2-digit), minute (2-digit), seconds (2-digit), "T", Timezone (T-05:00 for me offset from UTC by 6 hours.
+2016-01-14T08:57:51-06:00
+
+The date field can parse less information, so if you'd rather ignore the time, you can simply use:
+
+`Date: 2016-01-14`
+
+
+#### Category
+
+We're not currently using the `Category` metadata field, but we might (probably will?) in the future.
+So it doesn't hurt to fill it out now.
+News posts have been filed as `Category: News`.
+Other content should be tagged as appropriate (`Content: Tutorial` for instance).
+
+
+#### Author(s)
+
+The post authors are listed here.
+If there is a single author, you can use the singular:
+
+    `Author: Pat David`
+
+If there are multiple authors, a comma-separated list will work with the plural:
+
+    `Authors: Pat David, Alexandre Prokoudine, Michael Schumacher`
+
+You can use the plural `Authors` with a single person without a problem.
+
+    `Authors: Michael Schumacher`
+
+
+#### Summary
+
+If the item is a news item, this `Summary` metadata will be what appears on the news index page that lists all the posts.
+Also possibly the front page if we decide to incldue snippets there as well.
+
 
 #### Drafts
 
 To mark a news item as a draft, include the `Status: draft` metadata in the head of the file.
 It will not appear anywhere other than in the `drafts/` folder until the `Status` metadata is removed or changed to `Status: published`.
+It will also not show up in the RSS/Atom feeds yet either.
 
 
-#### Adding images
-
-There's a subdirectory under `news/` for news post images called... `images/`.
-In your source file, you can use Pelican's internal file linking to refer to it:
-
-`<img src="{filename}/news/images/file.jpg"...>`
-
-This is just pointing to the file in the location it exists at in the source (as opposed to the output).
-This will make sure that the link works even if the image file gets output to a different location (it shouldn't right now - but who knows).
