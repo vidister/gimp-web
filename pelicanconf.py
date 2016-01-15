@@ -31,7 +31,7 @@ I18N_SUBSITES = {
 
 AUTHOR = u'Pat David'
 SITENAME = u'GIMP'
-SITEURL = 'http://www.gimp.org'
+SITEURL = '//www.gimp.org'
 GIMP_VERSION = u'2.8.16'
 
 PATH = 'content'
@@ -101,7 +101,7 @@ TYPOGRIFY_IGNORE_TAGS = ['title']
 
 DELETE_OUTPUT_DIRECTORY = True
 
-MD_EXTENSIONS = ['fenced_code', 'codehilite(css_class=codehilite)', 'extra', 'headerid', 'toc']
+MD_EXTENSIONS = ['fenced_code', 'codehilite(css_class=codehilite)', 'extra', 'headerid', 'toc(permalink=True)']
 
 # Pagination testing stuff
 
