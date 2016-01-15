@@ -44,9 +44,30 @@
         {% endif %}
 
         {% endblock head %}
-</head>
+
+
+        {# Testing Flattr js loader #}
+        <script type="text/javascript">
+        /* <![CDATA[ */
+            (function() {
+                var s = document.createElement('script');
+                var t = document.getElementsByTagName('script')[0];
+
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = '//api.flattr.com/js/0.6/load.js?'+
+                        'mode=auto&uid=707850';
+
+                t.parentNode.insertBefore(s, t);
+            })();
+        /* ]]> */
+        </script>
+
+
+    </head>
 
 <body id="index" class="home">
+
 
         {# <nav id="menu" style='display: none;'> #}
         <nav id="menu">
@@ -82,7 +103,19 @@
 
                 #}
 
-                <li><a href="/donating/" style="color:#f57900;"><i class="fa fa-money"></i> Donate</a></li>
+                <li>
+                    <a href="/donating/" style="color:#f57900;"><i class="fa fa-money"></i> Donate</a>
+                    <a class="FlattrButton" style=""
+                    title="Click to Flattr GIMP"
+                    data-flattr-uid="schumaml"
+                    data-flattr-button="compact"
+                    data-flattr-popout="1"
+                    data-flattr-description="GNU Image Manipulation Program (GIMP)"
+                    data-flattr-url="https://www.gimp.org/"
+                    href="https://flattr.com/thing/707850">
+                    <img src='/theme/images/flattr-badge-large.png' alt='Flattr GIMP'/>
+                    </a>
+                </li>
 
             </ul>
             <i class="fa fa-chevron-up" id='nav-up'></i>

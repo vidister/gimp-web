@@ -655,3 +655,17 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
+
+#menu li iframe {
+    height: 18px;
+    vertical-align: top;
+    margin-left: 0;
+}
+
+.FlattrButton {
+    display: inline;
+}
+
+.FlattrButton img {
+    vertical-align: middle;
+}
