@@ -10,7 +10,7 @@ You can choose from several options to support GIMP financially:
 
 [TOC]
 
-Financial help is needed for many different reasons. The annual Libre Graphics Meeting is one things that the money will go to. It helps us to get as many [GIMP Developers](http://wiki.gimp.org/) to the conference as possible.
+Financial help is needed for many different reasons. The annual [Libre Graphics Meeting][lgm] is one things that the money will go to. It helps us to get as many [GIMP Developers](http://wiki.gimp.org/) to the conference as possible.
 
 If applicable, please specify whether you want to remain anonymous. While we usually don't publish the names of donors, this may be considered for exceptional donations.  
 
@@ -65,3 +65,5 @@ GNOME Foundation
  USA  
 
 with a cover-letter (or a note in the "memo" field) saying it is for the GIMP project.
+
+[lgm]: http://libregraphicsmeeting.org/ 
