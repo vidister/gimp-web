@@ -199,7 +199,9 @@ You can use the plural `Authors` with a single person without a problem.
 #### Summary
 
 If the item is a news item, this `Summary` metadata will be what appears on the news index page that lists all the posts.
-Also possibly the front page if we decide to incldue snippets there as well.
+Also possibly the front page if we decide to include snippets there as well.
+
+If there is no `Summary` metadata tag, then the summayr will be auto-generated from the article contents (up to 255 characters in, auto truncate the last word, and end the contents with ellipses `...`.
 
 
 #### Drafts
