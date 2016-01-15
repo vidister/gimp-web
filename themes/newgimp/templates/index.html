@@ -156,7 +156,11 @@
                         </div>
 
                         <div class='entry-content'> 
+                            {% if article.summary %}
                             {{ article.summary }} 
+                            {% else %}
+                            {{ article.content|truncate() }}
+                            {% endif %}
                         </div>
 
                         {#
