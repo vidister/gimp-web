@@ -2,7 +2,7 @@ Title: Libre Graphics Meeting 2016
 Date: 2016-01-12
 Category: News
 Authors: Pat David
-Summary: Join us April 15-18 at the 11th annual Libre Graphics Meeting being hosted by Westminster School of Media Arts and Design in London, UK! Come and meet developers of free graphics software, lead or participate in a workshop, or collaborate with other visual artists who choose to work in free software.
+Summary: Join us April 15-18 at the 11th annual Libre Graphics Meeting being hosted by Westminster School of Media Arts and Design in London, UK! Come and meet developers of free graphics software, participate in a workshop, and collaborate with other visual artists who choose to work in free software.
 
 <a style='float: right; margin: 0 0 0.5rem 0.5rem;' href='https://pledgie.com/campaigns/30935'><img alt='Click here to lend your support to: Libre Graphics Meeting 2016 - London and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/30935.png?skin_name=chrome' border='0' ></a>
 _Join us_ **April 15-18** at the 11th annual [**Libre Graphics Meeting**][lgm] (LGM) hosted by the [Westminster School of Media Arts and Design][westminster], University of Westminster, in London, UK. 
