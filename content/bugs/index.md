@@ -4,6 +4,23 @@ Modified: 2015-08-17T11:09:40-05:00
 Authors: Pat David
 Status: hidden
 
+<a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP" title="Report a bug for GIMP!"
+style="
+    font-weight: bold;
+    font-size: 1.2rem;
+">
+Report a bug here!
+</a>
+
+<form action="https://bugzilla.gnome.org/buglist.cgi">
+<input type="hidden" name="short_desc_type" value="allwordssubstr" />
+<input type="hidden" name="query_format" value="advanced" />
+<input type="hidden" name="product" value="GIMP" />
+<input type="hidden" name="list_id" value="91665"/>
+<label>Search for an existing bug:<br/>
+<input type="text" name="short_desc" placeholder="e.g.: 'font loading'" style='width: 50%; padding-left: 0.2rem;' /></label>
+<input type="submit" value="Submit"/>
+</form>
 
 Making good bug reports is a great way to help increase the software quality of GIMP. A good bug report is a bug report that provides unambigous step-by-step instructions on how to reproduce the bug, what result that is expected, and what the actual result it. Good bug reports makes it easy for the developers to reproduce and fix the bug.
 
