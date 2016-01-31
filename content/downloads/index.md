@@ -326,7 +326,6 @@ If you are running one of the existing GIMP mirrors, or want to create a new one
 <dt>United States</dt>
 <dd><a href="http://gimp.galaxyverge.com/">http://gimp.galaxyverge.com/</a> (web access)</dd>
 <dd><a href="http://gimper.net/downloads/pub/gimp/">http://gimper.net/downloads/pub/gimp/</a> (web access)</dd>
-<dd><a href="http://mirror.hessmo.com/gimp/">http://mirror.hessmo.com/gimp/</a> (web access)</dd>
 <dd><a href="http://gimp.mirrors.hoobly.com/pub/gimp/">http://gimp.mirrors.hoobly.com/pub/gimp/</a> (web access)</dd>
 <dd><a href="ftp://mirrors-usa.go-parts.com/gimp/gimp/">ftp://mirrors-usa.go-parts.com/gimp/gimp/</a></dd>
 <dd><a href="http://go-parts.com/mirrors-usa/gimp/gimp/">http://go-parts.com/mirrors-usa/gimp/gimp/</a> (web access)</dd>
