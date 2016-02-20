@@ -114,15 +114,13 @@ community.
 
 ## Features
 
-### When will GIMP support HDR imaging and processing with 16bit per color 
-channel precision?
+### When will GIMP support HDR imaging and processing with 16bit per color channel precision?
 
 GIMP 2.10 will be the first version to feature processing with precision of
 16, 32, and 64bit per color channel. This version is currently in the works,
 and this particular feature has already been implemented.
 
-### When will GIMP support any kind of non-destructive editing like adjustment 
-layers, layer filters, and/or full-blown node-based editing?
+### When will GIMP support any kind of non-destructive editing like adjustment layers, layer filters, and/or full-blown node-based editing?
 
 Currently the plan is to introduce non-destructive editing in GIMP 3.2. This
 is a huge change that will require rethinking the workflow, designing a new 
@@ -159,8 +157,7 @@ Note that should a new developer join the team to specifically work on
 CMYK-related features, we will do our best to help him/her to complete this 
 project and get it to our users as soon as possible.
 
-### I don't like some changes you introduced in recent GIMP versions. Why can't 
-you add a checkbox to disable them?
+### I don't like some changes you introduced in recent GIMP versions. Why can't you add a checkbox to disable them?
 
 We realize that some changes are disruptive to some groups of users,
 especially those who got used to GIMP as an image editor for doing quick fixes
@@ -202,8 +199,7 @@ Edit->Stroke Path... instead of Stroke Selection...
 
 ## Troubleshooting
 
-### My graphic tablet doesn't work on  Windows/Mac. Does GIMP support advanced 
-input devices such as Wacom?
+### My graphic tablet doesn't work on  Windows/Mac. Does GIMP support advanced input devices such as Wacom?
 
 Yes, GIMP does support graphic tablets and maps pressure, stroke speed and
 other events to its advanced brush engine properties. However, the version of
