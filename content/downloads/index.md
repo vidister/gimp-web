@@ -171,13 +171,13 @@ Disclaimer: we haven't been able to determine if it is possible to install or bu
 ## GIMP for Windows
 
 <span class='win-button' id='win-torrent'>
-<a href="//download.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.16-setup.exe.torrent" title="Download GIMP via BitTorrent" id="win-torrent-link">
+<a href="//download.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.16-setup-1.exe.torrent" title="Download GIMP via BitTorrent" id="win-torrent-link">
     Download GIMP&nbsp;2.8.16<br/>
     via BitTorrent
 </a>  
 </span>
 <span class='win-button'>
-<a href="//download.gimp.org/mirror/pub/gimp/v2.8/windows/gimp-2.8.16-setup.exe" title="Download GIMP via HTTP" id='win-download-link' >
+<a href="//download.gimp.org/mirror/pub/gimp/v2.8/windows/gimp-2.8.16-setup-1.exe" title="Download GIMP via HTTP" id='win-download-link' >
     Download GIMP&nbsp;2.8.16<br/>
     directly
 </a>
@@ -198,7 +198,7 @@ Choosing this option will download the torrent file for the GIMP installer.
 You may need to install a torrent client to make use of this file. <a href="//en.wikipedia.org/wiki/BitTorrent" title="BitTorrent on Wikipedia">Learn more...</a>
 
 ### MD5 Hash Sum
-The MD5 hash sum for `gimp-2.8.16-setup.exe` is: <kbd>a2095f250fd3a776757ccddc477312d0</kbd>.
+The MD5 hash sum for `gimp-2.8.16-setup-1.exe` is: <kbd>961bba1aa7aa5346607fb76537b50647</kbd>.
 
 ### Older Downloads
 Previous installers for Windows can be found here: [download.gimp.org](//download.gimp.org/mirror/pub/gimp/v2.8/windows/).
