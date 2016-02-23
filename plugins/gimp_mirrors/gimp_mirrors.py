@@ -22,7 +22,7 @@ class UnexpectedException(Exception): pass
 
 def html_output( data ):
 
-    html = u"<dl class='download-mirror'>\n"
+    html = u"<dl class='download-mirrors'>\n"
 
     for key, values in sorted(data.iteritems()):
 

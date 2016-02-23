@@ -12,12 +12,12 @@ td, th {
     padding: 0 1rem;
 }
 
-.download-mirror{
+.download-mirrors{
     word-wrap: break-word;
 }
 
 @media ( max-width: 40rem ){
-    .download-mirror dd {
+    .download-mirrors dd {
         margin-left: 0.5rem;
     }
 }
@@ -59,6 +59,9 @@ td, th {
     padding: 1rem;
 }
 
+.mirrors {
+    display: none;
+}
 </style>
 
 
@@ -291,50 +294,15 @@ To allow you to check the integrity of the tarballs, here are the MD5 sums of th
 <div id='mirrors'  markdown="1">
 ## FTP and Web Mirrors
 
-Due to our server move in April (physical to virtual, into an environment that doesn't allow FTP access), we lost all existing mirrors. But we are now able to offer rsync access to download.gimp.org
+We had a server move a while back that caused us to lose our existing mirrors (moved from physical to virtual server and to an environment that doesn't allow FTP access).
+On the plus side, we are now able to offer rsync access to download.gimp.org.
 
 If you are running one of the existing GIMP mirrors, or want to create a new one, please [contact us](/webmasters.html) to get your rsync credentials.
 
-<dl class="download-mirror">
-<dt>Brazil</dt>
-<dd><a href="http://mirror.nbtelecom.com.br/gimp/">http://mirror.nbtelecom.com.br/gimp/</a> (web access)</dd>
-<dd><a href="rsync://mirror.nbtelecom.com.br::gimp">rsync://mirror.nbtelecom.com.br::gimp</a> (rsync access)</dd>
-<dt>Germany</dt>
-<dd><a href="http://de-mirror.gimper.net/pub/gimp/">http://de-mirror.gimper.net/pub/gimp/</a> (web access)</dd>
-<dd><a href="ftp://artfiles.org/gimp.org/gimp/">ftp://artfiles.org/gimp.org/gimp/</a></dd>
-<dd><a href="http://artfiles.org/gimp.org/gimp/">http://artfiles.org/gimp.org/gimp/</a> (web access)</dd>
-<dd><a href="ftp://ftp.fau.de/gimp/gimp/">ftp://ftp.fau.de/gimp/gimp/</a></dd>
-<dd><a href="https://ftp.fau.de/gimp/gimp/">https://ftp.fau.de/gimp/gimp/</a> (web access)</dd>
-<dd><a href="rsync://ftp.fau.de/gimp/">rsync://ftp.fau.de/gimp/</a> (rsync access)</dd>
-<dt>Japan</dt>
-<dd><a href="ftp://mirrors.go-parts.com/gimp/">ftp://mirrors.go-parts.com/gimp/</a></dd>
-<dd><a href="http://mirrors.go-parts.com/gimp/">http://mirrors.go-parts.com/gimp/</a> (web access)</dd>
-<dd><a href="rsync://mirrors.go-parts.com/mirrors/gimp/">rsync://mirrors.go-parts.com/mirrors/gimp/</a> (rsync access)</dd>
-<dt>Russia</dt>
-<dd><a href="ftp://mirrors-ru.go-parts.com/gimp/gimp/">ftp://mirrors-ru.go-parts.com/gimp/gimp/</a></dd>
-<dd><a href="http://go-parts.com/mirrors-ru/gimp/gimp/">http://go-parts.com/mirrors-ru/gimp/gimp/</a> (web access)</dd>
-<dd><a href="rsync://mirrors-ru.go-parts.com/mirrors/gimp/">rsync://mirrors-ru.go-parts.com/mirrors/gimp/</a> (rsync access)</dd>
-<dt>South Africa</dt>
-<dd><a href="http://gimp.afri.cc/pub/gimp/">http://gimp.afri.cc/pub/gimp/</a> (web access)</dd>
-<dt>United Kingdom</dt>
-<dd><a href="ftp://ftp.mirrorservice.org/sites/ftp.gimp.org/pub/gimp/">ftp://ftp.mirrorservice.org/sites/ftp.gimp.org/pub/gimp/</a></dd>
-<dd><a href="http://www.mirrorservice.org/sites/ftp.gimp.org/pub/gimp/">http://www.mirrorservice.org/sites/ftp.gimp.org/pub/gimp/</a> (web access)</dd>
-<dd><a href="rsync://rsync.mirrorservice.org/ftp.gimp.org/pub/gimp/">rsync://rsync.mirrorservice.org/ftp.gimp.org/pub/gimp/</a> (rsync access)</dd>
-<dd><a href="ftp://mirrors-uk.go-parts.com/gimp/">ftp://mirrors-uk.go-parts.com/gimp/</a></dd>
-<dd><a href="http://mirrors-uk.go-parts.com/gimp/">http://mirrors-uk.go-parts.com/gimp/</a> (web access)</dd>
-<dd><a href="rsync://mirrors-uk.go-parts.com/mirrors/gimp/">rsync://mirrors-uk.go-parts.com/mirrors/gimp/</a> (rsync access)</dd>
-<dt>United States</dt>
-<dd><a href="http://gimp.galaxyverge.com/">http://gimp.galaxyverge.com/</a> (web access)</dd>
-<dd><a href="http://gimper.net/downloads/pub/gimp/">http://gimper.net/downloads/pub/gimp/</a> (web access)</dd>
-<dd><a href="http://gimp.mirrors.hoobly.com/pub/gimp/">http://gimp.mirrors.hoobly.com/pub/gimp/</a> (web access)</dd>
-<dd><a href="ftp://mirrors-usa.go-parts.com/gimp/gimp/">ftp://mirrors-usa.go-parts.com/gimp/gimp/</a></dd>
-<dd><a href="http://go-parts.com/mirrors-usa/gimp/gimp/">http://go-parts.com/mirrors-usa/gimp/gimp/</a> (web access)</dd>
-<dd><a href="rsync://mirrors-usa.go-parts.com/mirrors/gimp/">rsync://mirrors-usa.go-parts.com/mirrors/gimp/</a> (rsync access)</dd>
-</dl>
+<!-- MIRRORS -->
 
 </div>
 
-<!-- MIRRORS -->
 
 <script src="/js/platform.js"></script>
 
