@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 #Plugins
 PLUGIN_PATHS = ["plugins"]
 #PLUGINS = ["mimic_hierarchy", "i18n_subsites", "sitemap"]
-PLUGINS = ["mimic_hierarchy", "i18n_subsites", "sitemap"]
+PLUGINS = ["mimic_hierarchy", "i18n_subsites", "sitemap", "gimp_mirrors"]
 
 # sitemap plugin settings
 SITEMAP = {
