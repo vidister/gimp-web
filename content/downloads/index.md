@@ -193,7 +193,7 @@ If the mirrors do not work or you would rather download directly from our server
 
 [win direct]: //download.gimp.org/pub/gimp/v2.8/windows/
 
-These links download the official GIMP installer for Windows. 
+These links download the official GIMP installer for Windows (~100MB). 
 The installer contains both 32-bit and 64-bit versions of GIMP, and will automatically use the appropriate one.
 
 BitTorrent is a peer-to-peer file sharing system. It works by downloading GIMP from a distributed network of BitTorrent users, and may improve download speed dramatically. 
