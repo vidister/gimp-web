@@ -35,6 +35,16 @@ Flattr is a microdonation system. Users are able to pay a small amount every mon
 <iframe frameborder="0" height="420" src="//tools.flattr.net/widgets/thing.html?thing=707850" width="292"></iframe>
 </p>
 
+<a class="FlattrButton" style=""
+title="Click to Flattr GIMP"
+data-flattr-uid="schumaml"
+data-flattr-popout="1"
+data-flattr-description="GNU Image Manipulation Program (GIMP)"
+data-flattr-url="https://www.gimp.org/"
+href="https://flattr.com/thing/707850">
+<img src='/theme/images/flattr-badge-large.png' alt='Flattr GIMP'/>
+</a>
+
 ## Bitcoin
 
 Bitcoin (BTC) is an online digital currency that is based on an open-source, peer-to-peer encryption protocol first described in 2009 by a pseudonymous developer (or developers) Satoshi Nakamoto. Bitcoin is not managed by any government or central authority. Instead, it relies on an Internet-based network (for more details see Wikipedia's [Bitcoin](http://en.wikipedia.org/wiki/Bitcoin) article).
