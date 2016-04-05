@@ -51,6 +51,7 @@ If you want to discuss features, tips, tricks or contribute to the development o
   Archives:
   <a href="https://mail.gnome.org/archives/gimp-gui-list/">GNOME</a>,
   <a href="http://www.mail-archive.com/gimp-gui-list%40gnome.org/">mail-archive</a>,
+  <a href="http://news.gmane.org/gmane.comp.video.gimp.gui/">Gmane</a><br>
   </dd>
 
   <dt><a href="https://mail.gnome.org/mailman/listinfo/gimp-web-list">GIMP Web</a></dt>
