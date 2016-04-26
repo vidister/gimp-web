@@ -209,6 +209,23 @@ nav#menu ul > li a{
     color: #ecf0f1;
 }
 
+nav#menu ul > li:last-of-type {
+    white-space: nowrap;
+}
+
+.donate-type:hover {
+    text-decoration: none;
+}
+
+.donate-type > img {
+    vertical-align: middle;
+}
+
+.donate-type > i {
+    display: inline !important;
+    color: #f57900;
+}
+
 nav#menu .fa {
     font-size: 1rem;
     vertical-align: middle;
@@ -485,6 +502,20 @@ footer .nav-bottom a {
         letter-spacing: 0.1rem;
         padding-bottom: 0.5rem;
         padding-top: 0.5rem;
+    }
+
+    nav#menu ul li:last-of-type {
+        margin-bottom: 1rem;
+    }
+
+    nav#menu ul li a.donate-type {
+        display: inline;
+        padding: 1rem;
+    }
+
+    nav#menu ul li a.donate-type > i.fa.fa-btc {
+        vertical-align: middle !important;
+        font-size: 1.25rem;
     }
 
     a#navel-old {
