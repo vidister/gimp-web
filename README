@@ -1,5 +1,4 @@
 # Installing gimp-web
-
 These instructions are for building the GIMP website from the git repository.
 It is assumed you are already acquainted with git.
 If not, please consult https://wiki.gnome.org/Git
@@ -11,20 +10,18 @@ To download a fresh copy of the site (anonymous, read-only) use the following co
 
 
 ## Meta
-
 There is a series of pages on the site that attempt to address many questions about building and using the new system (Pelican).
-Refer to these pages for extended information in addition to what is below (`about/meta/index.html`).
+Refer to these pages for extended information in addition to what is below.
+(`/about/meta/index.html`)
 
 
 
 ## Short 
-
 The new site is built using the Pelican static site generator, written in Python.
 The tools to build and test the site are Python, Pelican, and a couple of modules (Markdown, typogrify).
 
 
 ### Getting the build environment
-
 1. Install Python 2.7.x.
 2. Install Pelican (`pip install pelican`).
     Make sure that pip is using Python 2.7.x if you have multiple versions installed.
@@ -40,7 +37,6 @@ Further information in greater detail can be found in the Pelican documentation 
 
 
 ###  Pelican configuration files (pelicanconf.*)
-
 The main settings file to build the site is pelicanconf.*.
 
 There are three versions in our directory for various needs.
@@ -54,7 +50,6 @@ If you do, please consult schumaml or patdavid before pushing to be sure.
 
 
 ### Building the site
-
 Once the few prerequisites are installed, building the site is relatively straightforward.
 From the project directory, you can invoke pelican:
 
@@ -68,7 +63,6 @@ If you are writing content or developing the site, there is an option to have pe
 
 
 ### Viewing the site
-
 Python has a built-in simple web server that can be used to serve the site.
 From the `output/` directory:
 
@@ -102,14 +96,12 @@ To do this, you should add your own mimetype for svg files:
 
 
 ## Content
-
 The site content source files are located in the folder `content/`.
 There is a Pelican plugin that will mimic the hierarchy of the folders as urls.
 This allows us to simply add directories to create new url hierarchy structures easily.
 
 
 ### Directories
-
 So, `content/about/index.md` will be created as `output/about/index.html`.
 
 If a new directory needs to be added, like `artists/`:
@@ -120,7 +112,6 @@ If a new directory needs to be added, like `artists/`:
 
 
 ### File Formats
-
 The files can be written using ReStructuredText, Markdown, or HTML.
 The latest information for using these formats can be found in the documentation:
 http://docs.getpelican.com/en/latest/content.html
@@ -131,7 +122,6 @@ I wrote a brief cheatsheet of the Markdown format that can be found on the site 
 
 
 ### Writing a News post
-
 To write a News post, simply include your new post in the `news/` directory.
 I have been using `YYYY-MM-DD Topic.md` as a file naming convention.
 
@@ -151,16 +141,13 @@ This is particularly helpful when the post is `Status: draft`.
 
 
 ### Post metadata
-
 There are a few pieces of metadata that should be included in the front-matter of a file.
 
 
 #### Title
-
 This should be self-explanatory.
 
 #### Date
-
 Use an ISO8601 formatted date, please (https://en.wikipedia.org/wiki/ISO_8601).
 That means, YYYY-MM-DD(Thh:mm:ss-TMZ)
 
@@ -173,7 +160,6 @@ The date field can parse less information, so if you'd rather ignore the time, y
 
 
 #### Category
-
 We're not currently using the `Category` metadata field, but we might (probably will?) in the future.
 So it doesn't hurt to fill it out now.
 News posts have been filed as `Category: News`.
@@ -181,7 +167,6 @@ Other content should be tagged as appropriate (`Content: Tutorial` for instance)
 
 
 #### Author(s)
-
 The post authors are listed here.
 If there is a single author, you can use the singular:
 
@@ -197,7 +182,6 @@ You can use the plural `Authors` with a single person without a problem.
 
 
 #### Summary
-
 If the item is a news item, this `Summary` metadata will be what appears on the news index page that lists all the posts.
 Also possibly the front page if we decide to include snippets there as well.
 
@@ -205,9 +189,8 @@ If there is no `Summary` metadata tag, then the summayr will be auto-generated f
 
 
 #### Drafts
-
 To mark a news item as a draft, include the `Status: draft` metadata in the head of the file.
 It will not appear anywhere other than in the `drafts/` folder until the `Status` metadata is removed or changed to `Status: published`.
-It will also not show up in the RSS/Atom feeds yet either.
+It will also not show up in the RSS/Atom feeds.
 
 
