@@ -30,6 +30,10 @@
         <meta property='og:description' content="{{ page.content|striptags|truncate() }}" />
         {% endif %}
 
+        {% if page.canonical %}
+        <link rel='canonical' href='{{ page.canonical }}' />
+        {% endif %}
+
 {% endblock head %}
 
 {% block content %}
