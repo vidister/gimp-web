@@ -25,7 +25,7 @@ A very common editing problem is how to lighten the shadows and midtones of an i
 
 A very common editing problem is how to lighten the shadows and midtones of an image without blowing out the highlights, which problem is very often encountered when dealing with photographs of scenes lit by direct sunlight. Precanned algorithms for accomplishing this task are often referred to as "shadow recovery" algorithms. But really these algorithms are special-purpose tone-mapping algorithms, which sometimes work pretty well, and sometimes not so well, depending on the algorithm, the image, and your artistic intentions for the image.
 
-This step-by-step tutorial shows you how to use GIMP's unbounded floating point Levels operations to recover shadow information &mdash; that is, add one or more stops of positive exposure compensation to an image's shadows and midtones &mdash; without blowing out or unduly compressing the image highlights. The procedure is completely "hand-tunable" using masks and layers, and is as close as you can get to non-destructive image editing using high bit depth GIMP 2.9/2.10.
+This step-by-step tutorial shows you how to use GIMP's unbounded floating point Levels operations to recover shadow information&mdash;that is, add one or more stops of positive exposure compensation to an image's shadows and midtones&mdash;without blowing out or unduly compressing the image highlights. The procedure is completely "hand-tunable" using masks and layers, and is as close as you can get to non-destructive image editing using high bit depth GIMP 2.9/2.10.
 
 <figure>
 <img src='power-lines.jpg' alt='power-lines'>
@@ -87,16 +87,16 @@ This worked example provides a sample image and is broken down into five steps, 
 2. **Open tree.png and convert it to 32-bit floating point linear precision**: Go to "Image/Precision", select "32-bit floating point", and when the Dither dialog pops up, select "Linear light".
 
 <li markdown=1> 
-Make a copy of the "tree.png" layer, and label it "Levels: +1 stop exp. comp". Then **use Levels to add one stop of positive exposure compensation** &mdash; Figure 3 below shows the proper settings for the Levels dialog, and Figure 4 shows the result:
+Make a copy of the "tree.png" layer, and label it "Levels: +1 stop exp. comp". Then **use Levels to add one stop of positive exposure compensation**&mdash;Figure 3 below shows the proper settings for the Levels dialog, and Figure 4 shows the result:
 
 <figure>
 <img src="levels-add-one-stop-positive-exposure-compensation.jpg" alt="levels-add-one-stop-positive-exposure-compensation" >
 <figcaption>
-Using Levels to add one stop of positive exposure compensation &mdash; <i>make sure the "Gamma hack" box is checked!</i>
+Using Levels to add one stop of positive exposure compensation&mdash;<i>make sure the "Gamma hack" box is checked!</i>
 </figcaption>
 </figure>
 
-When using Levels to add one stop of positive exposure compensation, make sure the image really is at floating point precision, because integer precision will clip the highlights. Also make sure the "Gamma hack" box is checked &mdash; <a title="GIMP bug report: Curves and Levels should operate by default on linear RGB and present linear RGB Histograms." href="https://bugzilla.gnome.org/show_bug.cgi?id=757444">otherwise the Levels operation will operate on perceptually uniform RGB</a>, despite the fact that the image is at "Linear light" precision. Trying to add one stop of positive exposure compensation using RGB values encoded using the sRGB TRC would require moving the upper right Levels Value slider to the entirely unobvious and nonintuitive value of 73.53, and in the process the shadow and midtone tonalities would be distorted because the sRGB TRC is not a true gamma TRC. (An easier alternative might be to use the GEGL Exposure operation: "Colors/Exposure", which always operates on linearized RGB).
+When using Levels to add one stop of positive exposure compensation, make sure the image really is at floating point precision, because integer precision will clip the highlights. Also make sure the "Gamma hack" box is checked&mdash;<a title="GIMP bug report: Curves and Levels should operate by default on linear RGB and present linear RGB Histograms." href="https://bugzilla.gnome.org/show_bug.cgi?id=757444">otherwise the Levels operation will operate on perceptually uniform RGB</a>, despite the fact that the image is at "Linear light" precision. Trying to add one stop of positive exposure compensation using RGB values encoded using the sRGB TRC would require moving the upper right Levels Value slider to the entirely unobvious and nonintuitive value of 73.53, and in the process the shadow and midtone tonalities would be distorted because the sRGB TRC is not a true gamma TRC. (An easier alternative might be to use the GEGL Exposure operation: "Colors/Exposure", which always operates on linearized RGB).
 
 <figure>
 <img width="772" src="one-stop-positive-exposure-compensation-added.jpg" alt="one-stop-positive-exposure-compensation-added" >
@@ -111,13 +111,13 @@ If you had used integer precision instead of floating point, the highlights real
 </li>
 
 <li><img style='float: right;' src="add-inverse-grayscale-mask.jpg" alt="add-inverse-grayscale-mask" >
-<b>Add an inverse grayscale layer mask</b>: Right-click on the layer and select "Layer/Mask/Add Layer Mask", and when the "Add a mask to the Layer" dialog pops up, choose "Grayscale copy of layer" and check the "Invert mask" box. <p>As shown in Figure 5 below, at this point the highlights will be brought back into the display range, meaning all RGB channel values are between 0.0f and 1.0f. But the image will probably look a little odd (sort of cloudy and flat), and depending on the image, the brightest highlights might actually have dark splotches &mdash; don't worry! this is temporary.</p>
+<b>Add an inverse grayscale layer mask</b>: Right-click on the layer and select "Layer/Mask/Add Layer Mask", and when the "Add a mask to the Layer" dialog pops up, choose "Grayscale copy of layer" and check the "Invert mask" box. <p>As shown in Figure 5 below, at this point the highlights will be brought back into the display range, meaning all RGB channel values are between 0.0f and 1.0f. But the image will probably look a little odd (sort of cloudy and flat), and depending on the image, the brightest highlights might actually have dark splotches&mdash;don't worry! this is temporary.</p>
 
  
 <figure >
 <img width="772" src="inverse-grayscale-mask-added.jpg" alt="inverse-grayscale-mask-added" >
 <figcaption>Result of adding an inverse grayscale layer mask to bring the highlights back into the display range.<br>
-Adding an inverse grayscale layer mask brings the highlights back into the display range, but at this point most images will look flat and cloudy, and some images will have dark splotches in the highlights. The next step &mdash; "Auto Stretch Contrast" performed on the mask &mdash; will take care of this problem.
+Adding an inverse grayscale layer mask brings the highlights back into the display range, but at this point most images will look flat and cloudy, and some images will have dark splotches in the highlights. The next step&mdash;"Auto Stretch Contrast" performed on the mask&mdash;will take care of this problem.
 </figcaption>
 </figure>
 </li>
@@ -238,7 +238,7 @@ For the "Power lines" picture shown in Figure 8 above, after doing "Color/Auto/S
 </li>
 
 
-<li>An essential component of the procedure for using Levels to add positive exposure compensation to images with dark shadows and midtones needs to be explicitly mentioned: Not only is the high bit depth GIMP's Levels operation unbounded at floating point precision &mdash; <a title="GIMP bug report: Some filters / operations provide float values superior to 1.0." href="https://bugzilla.gnome.org/show_bug.cgi?id=737925">layer masks are also unbounded</a>. <p>If the inverted grayscale masks were summarily clipped (as is the case when editing at integer precision), then the procedure described in this tutorial wouldn't work. However, if you are trying this procedure in a floating point image editor that doesn't allow for retaining out of display range values on a layer mask, you can make an inverse grayscale mask from the base layer, auto-stretch the resulting mask, turn it into a selection, add it to the "Levels positive exposure compensation" copy of the base layer, and then delete or disable the mask on the base layer.</p></li>
+<li>An essential component of the procedure for using Levels to add positive exposure compensation to images with dark shadows and midtones needs to be explicitly mentioned: Not only is the high bit depth GIMP's Levels operation unbounded at floating point precision&mdash;<a title="GIMP bug report: Some filters / operations provide float values superior to 1.0." href="https://bugzilla.gnome.org/show_bug.cgi?id=737925">layer masks are also unbounded</a>. <p>If the inverted grayscale masks were summarily clipped (as is the case when editing at integer precision), then the procedure described in this tutorial wouldn't work. However, if you are trying this procedure in a floating point image editor that doesn't allow for retaining out of display range values on a layer mask, you can make an inverse grayscale mask from the base layer, auto-stretch the resulting mask, turn it into a selection, add it to the "Levels positive exposure compensation" copy of the base layer, and then delete or disable the mask on the base layer.</p></li>
 
 </ol>
 
@@ -253,6 +253,8 @@ For the "Power lines" picture shown in Figure 8 above, after doing "Color/Auto/S
 <p>This is a GIMP-specific tutorial. However, the same technique can be employed using the <a href="http://photoflowblog.blogspot.com/">PhotoFlow raw processor</a> and possibly other image editors that allow for 32-bit floating point processing using unbounded RGB channel values. The neat thing about using this technique in PhotoFlow is that PhotoFlow uses nodes, which allows for completely non-destructive editing of the inverted grayscale mask that's used to recover the highlight detail after applying positive exposure compensation to raise the tonality of the shadows and midtones (even if you close and reopen the image, if you save the image's PFI file).</p>
 
 <!-- END ARTICLE -->
+
+The original tutorial this was adapted from can be [found on Elle's site](http://ninedegreesbelow.com/photography/gimp-tone-map-with-levels.html).
 
 <small>
 <a href='http://creativecommons.org/licenses/by-sa/3.0/'>
