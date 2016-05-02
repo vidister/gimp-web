@@ -52,7 +52,7 @@ Hight bit depth GIMP is my primary image editor, and I've used the procedure des
 
 
 
-## A worked example showing how to recover shadow information using high bit depth GIMP's unbounded Levels
+## An example showing how to recover shadow information using high bit depth GIMP's unbounded Levels
 
 <figure>
 <img src='tree-exposed-for-sky-ground-is-dark.jpg' alt='tree-exposed-for-sky-ground-is-dark'>
@@ -82,7 +82,7 @@ This worked example provides a sample image and is broken down into five steps, 
 
 <ol style='max-width: 35rem;' markdown=1>
 
-1. **Download [tree.png](tree.png)**, which is a 16-bit integer sRGB image. High bit depth GIMP really is an "sRGB only" image editor, so it's best if you don't even try to edit in other RGB working spaces (if you prefer a larger RGB working space, my [patched version of GIMP uses the Rec.2020 color space instead of sRGB](http://ninedegreesbelow.com/photography/patch-gimp-in-prefix-for-artists.html)).
+1. **Download [tree.png](tree.png)**, which is a 16-bit integer sRGB image. High bit depth GIMP really is an "sRGB only" image editor, so it's best if you don't even try to edit in other RGB working spaces.
 
 2. **Open tree.png and convert it to 32-bit floating point linear precision**: Go to "Image/Precision", select "32-bit floating point", and when the Dither dialog pops up, select "Linear light".
 
@@ -254,7 +254,7 @@ For the "Power lines" picture shown in Figure 8 above, after doing "Color/Auto/S
 
 <!-- END ARTICLE -->
 
-The original tutorial this was adapted from can be [found on Elle's site](http://ninedegreesbelow.com/photography/gimp-tone-map-with-levels.html).
+The original tutorial this was adapted from can be [found here](http://ninedegreesbelow.com/photography/gimp-tone-map-with-levels.html). (<http://ninedegreesbelow.com>)
 
 <small>
 <a href='http://creativecommons.org/licenses/by-sa/3.0/'>
