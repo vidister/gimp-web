@@ -156,6 +156,10 @@ html {
     font-family: "Open Sans", sans;
 }
 
+html p {
+    hyphens: auto;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: Lato, sans;
     font-weight: 400;
