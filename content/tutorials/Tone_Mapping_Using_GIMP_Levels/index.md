@@ -30,7 +30,7 @@ This step-by-step tutorial shows you how to use GIMP's unbounded floating point 
 <figure>
 <img src='power-lines.jpg' alt='power-lines'>
 <figcaption>
-<cite>Power lines at noon</cite>, before and after tone mapping (aka "shadow recovery") using high bit depth GIMP's unbounded floating point Levels.<br>
+<em style='font-weight: 400;'>Power lines at noon</em>, before and after tone mapping (aka "shadow recovery") using high bit depth GIMP's unbounded floating point Levels.<br>
 <span class='toggle-swap' data-fig-swap='before-auto-stretch-contrast.jpg'>Scene-referred interpolated raw file.</span><br>
 <span class='toggle-swap' data-fig-swap='power-lines.jpg'>After tone mapping/shadow recovery using GIMP unbounded Levels.</span>
 </figcaption>
