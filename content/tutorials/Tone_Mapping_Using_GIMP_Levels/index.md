@@ -6,7 +6,7 @@ canonical: http://ninedegreesbelow.com/photography/gimp-tone-map-with-levels.htm
 
 <small>
 <a href='http://creativecommons.org/licenses/by-sa/3.0/'>
-<img class='cc-badge' src='http://i.creativecommons.org/l/by-sa/3.0/80x15.png' alt='Creative Commons By Share Alike'/>
+<img class='cc-badge' src='https://i.creativecommons.org/l/by-sa/3.0/80x15.png' alt='Creative Commons By Share Alike'/>
 </a>
 <span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - Tone Mapping Using GIMP Levels (text & images)</span> by [Elle Stone](http://ninedegreesbelow.com/) is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
 </small>
@@ -283,7 +283,7 @@ For the "Power lines" picture shown in Figure 8 above, after doing "Color/Auto/S
 
 <small>
 <a href='http://creativecommons.org/licenses/by-sa/3.0/'>
-<img class='cc-badge' src='http://i.creativecommons.org/l/by-sa/3.0/80x15.png' alt='Creative Commons By Share Alike'/>
+<img class='cc-badge' src='https://i.creativecommons.org/l/by-sa/3.0/80x15.png' alt='Creative Commons By Share Alike'/>
 </a>
 <span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - Tone Mapping Using GIMP Levels (text & images)</span> by [Elle Stone](http://ninedegreesbelow.com/) is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
 </small>
