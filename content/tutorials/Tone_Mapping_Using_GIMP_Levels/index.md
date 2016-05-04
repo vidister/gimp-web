@@ -24,8 +24,7 @@ A very common editing problem is how to lighten the shadows and midtones of an i
 
 A very common editing problem is how to lighten the shadows and midtones of an image without blowing out the highlights, which problem is very often encountered when dealing with photographs of scenes lit by direct sunlight. Precanned algorithms for accomplishing this task are often referred to as "shadow recovery" algorithms. But really these algorithms are special-purpose tone-mapping algorithms, which sometimes work pretty well, and sometimes not so well, depending on the algorithm, the image, and your artistic intentions for the image.
 
-This step-by-step tutorial shows you how to use GIMP's unbounded floating point "Colors/Exposure" operation to recover shadow information — that is, add one or more stops of positive exposure compensation to an image's shadows and midtones — without blowing out or unduly compressing the image highlights. The procedure is completely "hand-tunable" using masks and layers, and is as close as you can get to non-destructive image editing using high bit depth GIMP 2.9/2.10.
-
+This step-by-step tutorial shows you how to use GIMP's unbounded floating point "Colors/Exposure" operation to recover shadow information&mdash;that is, add one or more stops of positive exposure compensation to an image's shadows and midtones&mdash;without blowing out or unduly compressing the image highlights. The procedure is completely "hand-tunable" using masks and layers, and is as close as you can get to non-destructive image editing using high bit depth GIMP 2.9/2.10.
 
 <figure>
 <img src='power-lines.jpg' alt='power-lines'>
@@ -49,7 +48,7 @@ Scene-referred interpolated raw file.
 <!-- 
 Accepted wisdom is that Curves provides more versatility than Levels for modifying image tonality. Of course you can use Curves to accomplish somewhat similar results to the procedure described in this tutorial. But GIMP Curves is a highly destructive editing operation, immediately "baking" the resulting tonality into the layer on which Curves is done, clipping any out of gamut RGB values, and leaving you with no way to fine-tune the results without starting over. -->
 
-Hight bit depth GIMP is my primary image editor, and I've used the procedure described below for the last couple of years as my "go to" way to modify image tonality. The same general procedure can be used to darken as well as lighten portions of an image, again controlling the effect using a layer mask. This isn't exactly nondestructive editing because at some point you need to make a "New from Visible" layer. But unlike using Curves, using high bit depth GIMP's floating point "Colors/Exposure" doesn't clip RGB channel values and allows you to fine-tune the results by modifying and remodifying the layer mask until you are completely happy with the resulting tonality.
+Hight bit depth GIMP is my primary image editor, and I've used the procedure described below for the last couple of years as my "go to" way to modify image tonality. The same general procedure can be used to darken as well as lighten portions of an image, again controlling the effect using a layer mask. This isn't exactly nondestructive editing because at some point you need to make a "New from Visible" layer. But unlike using Curves, using high bit depth GIMP's floating point "Colors/Exposure" doesn't clip RGB channel values and allows you to fine-tune the results by modifying and re-modifying the layer mask until you are completely happy with the resulting tonality.
 
 
 ## A step-by-step example showing how to recover shadow information using high bit depth GIMP's floating point "Colors/Exposure"
@@ -70,23 +69,21 @@ Using high bit depth GIMP's "Colors/Exposure" to lighten the ground by one stop 
 This step-by-step example provides a sample image and is broken down into five steps, starting with downloading the image. Steps 3, 4, and 5 describe the actual procedure, so here's an overview:
 
 <ol start='3' style='padding-left: 3rem; font-style: italic;' markdown=1 >
-
 3. Duplicate the base layer and then use GIMP's unbounded Levels to add one stop of positive exposure compensation to the duplicated layer.
 4. Add an inverse grayscale layer mask to the now much brighter duplicated layer.
 5. Do "Auto/Stretch Contrast" on the layer mask and then fine-tune the mask until you are happy. Then make a "New from Visible" layer.
-
 </ol>
 
 ---
 
 <ol style='max-width: 35rem;' markdown=1>
 
-<li><b>Download <a href="http://ninedegreesbelow.com/photography/gimp-tone-map-with-unbounded-rgb/tree.png">tree.png</a></b>, which is a 16-bit integer sRGB image. High bit depth GIMP really is an "sRGB only" image editor, so it's best if you don't even try to edit in other RGB working spaces.</li>
+<li><b>Download <a href="tree.png">tree.png</a></b>, which is a 16-bit integer sRGB image. High bit depth GIMP really is an "sRGB only" image editor, so it's best if you don't even try to edit in other RGB working spaces.</li>
 
 <li><b>Open tree.png with GIMP and assign the GIMP built-in sRGB profile (the image colors won't change a bit). Then convert the image to 32-bit floating point linear precision</b>: Go to "Image/Precision", select "32-bit floating point", and when the Dither dialog pops up, select "Linear light" (this ensures that the Normal blend mode produces radiometrically correct results).</li>
 
 <li markdown=1> 
-Make a copy of the "tree.png" layer, and label it "+1 stop exposure comp". Then <b>use "Colors/Exposure" to add one stop of positive exposure compensation</b> — Figure 3 below shows the proper settings for the "Colors/Exposure" dialog, and Figure 4 shows the result:
+Make a copy of the "tree.png" layer, and label it "+1 stop exposure comp". Then <b>use "Colors/Exposure" to add one stop of positive exposure compensation</b>&mdash;Figure 3 below shows the proper settings for the "Colors/Exposure" dialog, and Figure 4 shows the result:
 
 <figure>
 <img src="gegl-exposure-add-one-stop-positive-exposure-compensation.jpg" alt="levels-add-one-stop-positive-exposure-compensation" >
@@ -113,7 +110,7 @@ When using "Colors/Exposure" to add one stop of positive exposure compensation, 
 <li>
 <img style='float: right;' src="add-inverse-grayscale-mask.jpg" alt="add-inverse-grayscale-mask" >
 <b>Add an inverse grayscale layer mask</b>: Right-click on the layer and select "Layer/Mask/Add Layer Mask", and when the "Add a mask to the Layer" dialog pops up, choose "Grayscale copy of layer" and check the "Invert mask" box. 
-<p>As shown in Figure 5 below, at this point the highlights will be brought back into the display range, meaning all RGB channel values are between 0.0f and 1.0f. But the image will probably look a little odd (sort of cloudy and flat), and depending on the image, the brightest highlights might actually have dark splotches — don't worry! this is temporary.</p>
+<p>As shown in Figure 5 below, at this point the highlights will be brought back into the display range, meaning all RGB channel values are between 0.0f and 1.0f. But the image will probably look a little odd (sort of cloudy and flat), and depending on the image, the brightest highlights might actually have dark splotches&mdash;don't worry! this is temporary.</p>
  
 <figure >
 <img  src="gegl-exposure-inverse-grayscale-mask-added.jpg" alt="gegl-exposure-inverse-grayscale-mask-added" >
@@ -159,10 +156,19 @@ That's the whole procedure for using "Colors/Exposure" to add a stop of positive
 <figcaption>Using GIMP's floating point unbounded Levels plus layer masks to add two stops of positive exposure compensation to the shadows and midtones of a photograph of an apple orchard truck that was taken in bright sunshine.<br>
 (Click to view):<br>
 <span class='toggle-swap' data-fig-swap='apple-orchard-truck-from-camera.jpg'>1. Image from the camera, underexposed to avoid blowing out highlights..</span><br>
+<noscript>
+<img src='apple-orchard-truck-from-camera.jpg' alt='apple-orchard-truck-from-camera' style='margin-bottom:1rem;'>
+</noscript>
 <span class='toggle-swap' data-fig-swap='apple-orchard-truck-tone-mapped-using-gimp-colors-exposure.jpg'>2. After tone mapping/shadow recovery using high bit depth GIMP's floating point "Colors/Exposure".</span><br>
+<noscript>
+<img src='apple-orchard-truck-tone-mapped-using-gimp-colors-exposure.jpg' alt='apple-orchard-truck-tone-mapped-using-gimp-colors-exposure' style='margin-bottom:1rem;'>
+</noscript>
 <span class='toggle-swap' data-fig-swap='apple-orchard-truck-tone-mapped-using-gegl-mantuik.jpg'>3. For comparison, Mantuik tone-mapping using the GEGL default settings.</span><br>
+<noscript>
+<img src='apple-orchard-truck-tone-mapped-using-gegl-mantuik.jpg' alt='apple-orchard-truck-tone-mapped-using-gegl-mantuik' style='margin-bottom:1rem;'>
+</noscript>
 
-<p>Using GIMP's floating point floating point "Colors/Exposure" plus layer masks to add two and a half stops of positive exposure compensation to the shadows and midtones of a "bright sun" photograph of an apple orchard truck.</p>
+<p>Using GIMP's floating point "Colors/Exposure" plus layer masks to add two and a half stops of positive exposure compensation to the shadows and midtones of a "bright sun" photograph of an apple orchard truck.</p>
 
 <p><img style='float:right;' src="orchard-truck-layer-stack.jpg" alt="orchard-truck-layer-stack" >To the right is a screenshot of the layer stack that I used to tone-map the photograph of the apple orchard truck. Tone-mapping by hand gives you complete control over the resulting image. Mantuik and other "automagic" tone-mapping algorithms are CPU-intensive, unpredictable, and often produce unnatural-looking results.</p>
 </figcaption>
@@ -185,10 +191,19 @@ Before and after doing "Colors/Auto/Stretch Contrast" on the base layer, plus th
 
 <ol style='margin-top: 1rem;'>
 <li>This scene-referred interpolated raw file from the PhotoFlow raw processor (which provides a GIMP plug-in for easy opening of raw files) has out-of-display-range RGB channel values that will be brought back into the display range by doing "Colors/Auto/Stretch Contrast".</li>
+<noscript>
+<img src='before-auto-stretch-contrast.jpg' alt='before-auto-stretch-contrast' style='margin-top:-0.5rem; margin-bottom:1rem;'>
+</noscript>
 
 <li>After doing "Colors/Auto/Stretch Contrast", shadows are lighter and highlights are darker because the dynamic range has been compressed to fit within the display range. This looks like an editing step in the wrong direction! but actually it's necessary.</li>
+<noscript>
+<img src='after-auto-stretch-contrast.jpg' alt='after-auto-stretch-contrast' style='margin-top:-0.5rem; margin-bottom:1rem;'>
+</noscript>
 
 <li>Here's the final "Power lines" image after tone mapping the scene-referred interpolated raw file using the procedure described in this tutorial.</li>
+<noscript>
+<img src='power-lines.jpg' alt='power-lines' style='margin-top:-0.5rem; margin-bottom:1rem;'>
+</noscript>
 </ol>
 
 <p>As captured by the raw file, this picture of power lines marching into the distance is a typical result of taking a photograph at noon on a bright sunny day: The sky and clouds looked pretty good right out of the camera, but the ground was far too dark. So the image could benefit from some tone mapping to raise the shadows and midtones. The first step is to do "Colors/Auto/Stretch Contrast" to bring any channel values that are less than 0.0f or greater than 1.0f back within the display range of 0.0 to 1.0 floating point.</p> 
@@ -221,21 +236,31 @@ For the "Power lines" picture shown in Figure 8 above, after doing "Color/Auto/S
 
 
 <!-- pld -->
-<li id='blur-to-restore-micro-contrast'><b>Blurring the mask to restore micro contrast:</b> Putting an inverse mask on a layer that's used to add positive exposure compensation necessarily slightly flattens micro contrast. Depending on your artistic intentions for the image, you might want to blur the mask to restore micro contrast. The trick is how to blur the mask without introducing "halos" around the edges of objects in the image. Small radius gaussian blurs produce small but distressingly obvious halos around dark edges. A large radius gaussian blur sometimes works but just as often produces a large obvious halo separating the brighter and darker portions of the image. For many images a better solution is to blur the mask use an edge-respecting filter such as the GIMP <a href="https://github.com/dtschump/gmic">G'MIC</a> bilateral smooth filter:
+<li id='blur-to-restore-micro-contrast'><b>Blurring the mask to restore micro contrast:</b> Putting an inverse mask on a layer that's used to add positive exposure compensation necessarily slightly flattens micro contrast. Depending on your artistic intentions for the image, you might want to blur the mask to restore micro contrast. The trick is how to blur the mask without introducing "halos" around the edges of objects in the image. Small radius Gaussian blurs produce small but distressingly obvious halos around dark edges. A large radius gaussian blur sometimes works but just as often produces a large obvious halo separating the brighter and darker portions of the image. For many images a better solution is to blur the mask use an edge-respecting filter such as the GIMP <a href="https://github.com/dtschump/gmic">G'MIC</a> bilateral smooth filter:
 
 <figure>
 <img src='without-bilateral-smoothing-of-mask.jpg' alt='without-bilateral-smoothing-of-mask'>
 <figcaption>Adding exposure compensation with and without bilateral smoothing of the mask.<br>  
 (Click to view):<br>
 <span class='toggle-swap' data-fig-swap='without-bilateral-smoothing-of-mask.jpg'>Without applying bilateral smoothing to the mask, micro contrast is flattened.</span><br>
+
+<noscript>
+<img src='without-bilateral-smoothing-of-mask.jpg' alt='without-bilateral-smoothing-of-mask' style='margin-bottom: 1rem;'>
+</noscript>
+
 <span class='toggle-swap' data-fig-swap='with-bilateral-smoothing-of-mask.jpg'>After applying bilateral smoothing to the mask, micro contrast is restored.</span>
+
+<noscript>
+<img src='with-bilateral-smoothing-of-mask.jpg' alt='with-bilateral-smoothing-of-mask' style='margin-bottom: 1rem;'>
+</noscript>
+
 <p>Adding exposure compensation combined with an inverse grayscale mask does flatten micro contrast, which might or might not be desireable depending on your artistic intentions for the image. To restore micro contrast, try using an edge-respecting blur such as G'MIC's bilateral smoothing filter. GIMP G'MIC doesn't work on layer masks. A workaround is to to turn the unblurred mask into a selection, save the selection as a channel, and then drag the channel to the layer stack for blurring.</p>
 </figcaption>
 </figure>
 </li>
 
 
-<li>An essential component of the procedure for using "Colors/Exposure" to add positive exposure compensation to images with dark shadows and midtones needs to be explicitly mentioned: Not only is the high bit depth GIMP's "Colors/Exposure" operation unbounded at floating point precision — <a title="GIMP bug report: Some filters / operations provide float values superior to 1.0." href="https://bugzilla.gnome.org/show_bug.cgi?id=737925">layer masks are also unbounded</a>. 
+<li>An essential component of the procedure for using "Colors/Exposure" to add positive exposure compensation to images with dark shadows and midtones needs to be explicitly mentioned: Not only is the high bit depth GIMP's "Colors/Exposure" operation unbounded at floating point precision&mdash;<a title="GIMP bug report: Some filters / operations provide float values superior to 1.0." href="https://bugzilla.gnome.org/show_bug.cgi?id=737925">layer masks are also unbounded</a>. 
 <p>If the inverted grayscale masks were summarily clipped (as is the case when editing at integer precision), then the procedure described in this tutorial wouldn't work.</p></li>
 
 </ol>
@@ -252,7 +277,9 @@ For the "Power lines" picture shown in Figure 8 above, after doing "Color/Auto/S
 
 <!-- END ARTICLE -->
 
-The original tutorial this was adapted from can be [found here](http://ninedegreesbelow.com/photography/gimp-tone-map-with-levels.html). (<http://ninedegreesbelow.com>)
+---
+
+The original tutorial this was adapted from can be [found here](http://ninedegreesbelow.com/photography/gimp-tone-map-with-levels.html) and is reproduced courtesy of Elle Stone (<http://ninedegreesbelow.com>).
 
 <small>
 <a href='http://creativecommons.org/licenses/by-sa/3.0/'>
