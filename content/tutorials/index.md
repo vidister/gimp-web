@@ -28,6 +28,10 @@ Detailed conversion tutorial for generating a B&W result from a color image.
 [Luminosity Masks][]  
 Using multiple layer masks to isolate specific tones in your image for editing.
 
+[Tone Mapping with 'Colors/Exposure'][]  
+Using high bit depth GIMP's 'Colors/Exposure' operation to add exposure compensation to shadows 
+and midtones while retaining highlight details.
+
 
 ## Programming
 
@@ -51,3 +55,4 @@ Import XCF images a directory at a time.
 [Layer Masks]: {filename}Layer_Masks/index.md
 [Luminosity Masks]: {filename}Luminosity_Masks/index.md
 [Simple Floating Logo]: {filename}Floating_Logo/index.md
+[Tone Mapping with 'Colors/Exposure']: {filename}Tone_Mapping_Using_GIMP_Levels/index.md
