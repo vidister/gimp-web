@@ -279,7 +279,7 @@ For the "Power lines" picture shown in Figure 8 above, after doing "Color/Auto/S
 
 ---
 
-The original tutorial this was adapted from can be [found here](http://ninedegreesbelow.com/photography/gimp-tone-map-with-levels.html) and is reproduced courtesy of Elle Stone (<http://ninedegreesbelow.com>).
+<small>The original tutorial this was adapted from can be [found here](http://ninedegreesbelow.com/photography/gimp-tone-map-with-levels.html) and is reproduced courtesy of Elle Stone (<http://ninedegreesbelow.com>).</small>
 
 <small>
 <a href='http://creativecommons.org/licenses/by-sa/3.0/'>
