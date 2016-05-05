@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+
+{% block head %}
+  {{ super() }}
+  {% for keyword in page.keywords %}
+    <meta name="keywords" content="{{keyword}}" />
+  {% endfor %}
+
+  {% for description in page.description %}
+    <meta name="description" content="{{description}}" />
+  {% endfor %}
+
+  {% for tag in page.tags %}
+    <meta name="tags" content="{{tag}}" />
+  {% endfor %}
+
+    <link rel='stylesheet' type='text/css' href="/theme/css/page.css" />
+
+{% endblock head %}
+
+{% block content %}
+
+<section id="content" class="body">
+    <div class='container'>
+        <div class='row clearfix'>
+            <div class='column full'>
+                {# <header> #}
+
+                    <h2 class="entry-title">
+                      <a href="/{{ page.url }}" rel="bookmark"
+                         title="Permalink to {{ page.title|striptags }}">{{ page.title }}</a></h2>
+                 {% import 'translations.html' as translations with context %}
+                 {{ translations.translations_for(page) }}
+
+                 {# </header> #}
+
+                 {#
+                  <div class="post-info">
+                    <abbr class="published" title="{{ page.date.isoformat() }}">
+                      {{ page.locale_date }}
+                    </abbr>
+                    {% if page.modified %}
+                    <abbr class="modified" title="{{ page.modified.isoformat() }}">
+                      {{ page.locale_modified }}
+                    </abbr>
+                    {% endif %}
+                    {% if page.authors %}
+                    <address class="vcard author">
+                      by {% for author in page.authors %}
+                          <a class="url fn" href="/{{ author.url }}">{{ author }}</a>
+                        {% endfor %}
+                    </address>
+                    {% endif %}
+                  </div><!-- /.post-info -->
+                  #}
+
+                  <div class="entry-content" style='text-align: left;'>
+                    {{ page.content }}
+                  </div><!-- /.entry-content -->
+
+
+                  <hr/>
+
+                  <div>
+                      <p>
+                          <ul>
+                          {# {% for page in pages if 'tutorial' in page.tags %} #}
+
+                          {% for page in pages if 'tutorials/' == page.url|truncate(10, True, '') %}
+                          <li><a href="/{{ page.url }}">{{ page.title }}</a><br>
+                              <small><a href="{{ SITEURL }}/{{ page.url }}">{{ SITEURL }}/{{ page.url }}</a></small>
+                          </li>
+                          {% endfor %}
+
+                          </ul>
+                      </p>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+</section>
+
+{% endblock content %}
