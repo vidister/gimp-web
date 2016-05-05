@@ -48,12 +48,11 @@ We do, however, acknowledge the fact that people will treat GIMP as Photoshop
 replacement no matter what we tell them, and that's all right with us. You 
 own this software, it's up to you to decide how you make use of it.
 
-### Why can't you just copy Adobe Photoshop to make GIMP usable?
+### I don't like GIMP's user interface. Why can't you just copy Adobe Photoshop?
 
 In the past, the development in the project was somewhat erratic with regards
 to taking usability into consideration, which is rather typical for free
-software projects, but inexcusable for a high-end image editor that GIMP aims to
-become.
+software projects, but inexcusable for a high-end image editor that GIMP aims to become.
 
 Between 2006 and 2013, we worked with Peter Sikking of Man+Machine Works, a
 professional usability architect, who helped us shape the project vision for
@@ -132,6 +131,8 @@ Currently you need to install [UFRaw](http://ufraw.sourceforge.net/) to open
 raw files. It's both a standalone application and a GIMP plugin for opening 
 and processing raw images.
 
+Upcoming GIMP 2.10 is featuring a plugin for using [darktable](http://www.darktable.org/) to process raw images on Linux. Additionally, users will be able to set a preferred raw processing application, when multiple GIMP plugins of that kind are available.
+
 ### I do a lot of desktop publishing related work. Will you ever support CMYK?
 
 Better support for CMYK has been on our roadmap for a long time. However 
@@ -174,6 +175,14 @@ having a look at the
 [Saver and Save/export clean plug-ins](http://www.shallowsky.com/software/gimp-save/) 
 by Akkana Peck, as well as at various GIMP forks on GitHub, although typically 
 they aren't maintained up to date with regards to bugfixes.
+
+### Why doesn't GIMP use GTK+3?
+
+We made a preliminary port of GIMP to GTK+3 a few years ago and intend to complete it once v2.10 is out. GTK+3 based GIMP will be eventually released as v3.0 (see the [roadmap](http://wiki.gimp.org/wiki/Roadmap) for reference).
+
+The reason we prioritize it that way is that users who don't make a heavy use of Wacom tablets on Windows can live with GTK+2 based GIMP another year or so. However not providing high bit depth precision for editing makes GIMP unusable in professional workflows involving color grading and retouching.
+
+The completion of the GTK+3 port will coincide with API/ABI changes: we intend to break a few things to make GIMP's architecture cleaner and prepare it for non-destructive editing (a feature currently planned for v3.2).
 
 ## Tips
 
