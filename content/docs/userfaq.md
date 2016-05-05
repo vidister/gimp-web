@@ -184,7 +184,7 @@ The reason we prioritize it that way is that users who don't make a heavy use of
 
 The completion of the GTK+3 port will lead to API/ABI changes: we intend to break a few things to make GIMP's architecture cleaner and prepare it for non-destructive editing (a feature currently planned for v3.2), and we **have** to break ABI it to make GIMP's custom widgets work with GTK+3.
 
-While completing the GTK+3 port, we shall have to break API/ABI compatibility to make GIMP's custom widgets work with GTK+3. Moreover, we intend to break a few more things to make GIMP's architecture cleaner and prepare it for non-destructive editing (a feature currently planned for v3.2).
+When completing the GTK+3 port, we will have to break API/ABI compatibility to make GIMP's custom widgets work with GTK+3. Moreover, we intend to break a few more things to make GIMP's architecture cleaner and prepare it for non-destructive editing (a feature currently planned for v3.2).
 
 ## Tips
 
