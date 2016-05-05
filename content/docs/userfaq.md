@@ -128,10 +128,10 @@ file format for GIMP projects etc.
 ### Will GIMP open raw (.NEF, .CR2 etc.) files from my camera?
 
 Currently you need to install [UFRaw](http://ufraw.sourceforge.net/) to open 
-raw files. It's both a standalone application and a GIMP plugin for opening 
+raw files. It's both a standalone application and a GIMP plug-in for opening 
 and processing raw images.
 
-Upcoming GIMP 2.10 is featuring a plugin for using [darktable](http://www.darktable.org/) to process raw images on Linux. Additionally, users will be able to set a preferred raw processing application, when multiple GIMP plugins of that kind are available.
+Upcoming GIMP 2.10 is featuring a plug-in for using [darktable](http://www.darktable.org/) to process raw images on Linux. Additionally, users will be able to set a preferred raw processing application, when multiple GIMP plug-ins of that kind are available.
 
 ### I do a lot of desktop publishing related work. Will you ever support CMYK?
 
