@@ -182,7 +182,9 @@ We made a preliminary port of GIMP to GTK+3 a few years ago and intend to comple
 
 The reason we prioritize it that way is that users who don't make a heavy use of Wacom tablets on Windows can live with GTK+2 based GIMP another year or so. However not providing high bit depth precision for editing makes GIMP unusable in professional workflows involving color grading and retouching.
 
-The completion of the GTK+3 port will coincide with API/ABI changes: we intend to break a few things to make GIMP's architecture cleaner and prepare it for non-destructive editing (a feature currently planned for v3.2).
+The completion of the GTK+3 port will lead to API/ABI changes: we intend to break a few things to make GIMP's architecture cleaner and prepare it for non-destructive editing (a feature currently planned for v3.2), and we **have** to break ABI it to make GIMP's custom widgets work with GTK+3.
+
+While completing the GTK+3 port, we shall have to break API/ABI compatibility to make GIMP's custom widgets work with GTK+3. Moreover, we intend to break a few more things to make GIMP's architecture cleaner and prepare it for non-destructive editing (a feature currently planned for v3.2).
 
 ## Tips
 
