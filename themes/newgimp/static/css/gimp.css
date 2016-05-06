@@ -285,6 +285,18 @@ figure {
     border-radius: 3px;
 }
 
+.GIMPCmd {
+    text-align: center;
+    margin: 1.5rem auto;
+    display: table;
+    padding: 0.25rem 1rem;
+    border: solid 1px #ddd;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    max-width: 34rem;
+    font-size: 0.8rem;
+}
+
 .Cmd {
     text-align: center;
 }
