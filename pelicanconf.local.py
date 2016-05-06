@@ -4,7 +4,6 @@ from __future__ import unicode_literals
 
 #Plugins
 PLUGIN_PATHS = ["plugins"]
-#PLUGINS = ["mimic_hierarchy", "i18n_subsites", "sitemap"]
 PLUGINS = ["mimic_hierarchy", "i18n_subsites", "sitemap", "gimp_mirrors"]
 
 # sitemap plugin settings
@@ -100,11 +99,6 @@ TYPOGRIFY = True
 TYPOGRIFY_IGNORE_TAGS = ['title']
 
 DELETE_OUTPUT_DIRECTORY = True
-
-# Testing output of sources
-# Will output the source files alongside the rendered content
-# OUTPUT_SOURCES = True
-# OUTPUT_SOURCES_EXTENSION = '.md' #Writes source files as this extension (default: .text)
 
 MD_EXTENSIONS = ['fenced_code', 'codehilite(css_class=codehilite)', 'extra', 'headerid', 'toc(permalink=True)']
 
