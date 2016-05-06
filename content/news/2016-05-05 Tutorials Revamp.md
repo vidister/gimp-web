@@ -12,7 +12,7 @@ As part of building a new GIMP website we had to sort through all of the legacy 
 
 ## Cool URIs don't change
 
-It [was true in 1998][cool] and is still just as true today. Possibly more so.  Great care was taken to make sure that we didn't break all of the inbound links to the old tutorials during the site update.
+It was [true in 1998][cool] and is still just as true today. Possibly more so.  Great care was taken to make sure that we didn't break all of the inbound links to the old tutorials during the site update.
 
 [cool]: https://www.w3.org/Provider/Style/URI.html
 
@@ -41,7 +41,6 @@ We have a tutorial [template][tt] and the markdown file used to generate it can 
 
 We can use tutorials of all types and skill levels so don't feel intimidated by what you might see on the current tutorials page.  Indeed many common questions we see might have solutions that are not obvious to others - the perfect opportunity to write a tutorial about it!  All proposed tutorials will absolutely be considered.
 
-Indeed many common questions we see might have solutions that are not obvious to others - the perfect opportunity to write a tutorial about it!
 
 
 ## New Tutorial - Tone Mapping with Levels
@@ -52,7 +51,7 @@ Speaking of tutorials, [Elle Stone][] has just [published a new tutorial][tut] o
 [tut]: /tutorials/Tone_Mapping_Using_GIMP_Levels/
 
 <figure>
-<img src='{filename}../../tutorials/Tone_Mapping_Using_GIMP_Levels/gegl-exposure-add-one-stop-positive-exposure-compensation.jpg' alt='GEGL Exposure'>
+<img src='{filename}../tutorials/Tone_Mapping_Using_GIMP_Levels/gegl-exposure-add-one-stop-positive-exposure-compensation.jpg' alt='GEGL Exposure'>
 <figcaption>
 The GEGL <i>Exposure</i> dialog.
 </figcaption>
