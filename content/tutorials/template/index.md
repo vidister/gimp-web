@@ -1,7 +1,7 @@
 Title: TITLE GOES HERE
-Date: 2015
+Date: 2015-10-04
 Modified: 2015-10-05T10:19:55-05:00
-Author: Pat David
+Author: YOUR NAME
 
 
 Please use only permissive licensing, such as [CC-BY](http://creativecommons.org/licenses/by/4.0/) or [CC-BY-SA](http://creativecommons.org/licenses/by-sa/4.0/).
@@ -20,6 +20,10 @@ We have a short [Markdown reference][] here on gimp.org if you want to see it wi
 
 [Markdown]: https://daringfireball.net/projects/markdown/syntax
 [Markdown reference]: /about/meta/markdown.html
+
+This page is generated from a [Markdown][] source.  The source .md file for this page can be found on GIMP-web git:
+
+<https://git.gnome.org/browse/gimp-web/plain/content/tutorials/template/index.md>
 
 Pelican makes it easy to generate a Table of Contents for your tutorial based on headings.
 Just include `[TOC]` on a line by itself where you'd like an automatic TOC list generated.
