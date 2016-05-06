@@ -34,10 +34,12 @@ Which is where you, the community, comes in! If you were looking for a way to co
 [gu-mail]: https://mail.gnome.org/mailman/listinfo/gimp-user-list
 
 There's usually helpful team members around that can help guide you with both ideas and content if needed.
-There is a [tutorial template][] that can be viewed and the the markdown file used to generate can be [found on git][].
+We have a tutorial [template][tt] that can be viewed and the the markdown file used to generate it can be [found on git][]. More information can be found on the [template tutorial page][tt].
 
-[tutorial template]: /tutorials/template/
+[tt]: /tutorials/template/
 [found on git]: https://git.gnome.org/browse/gimp-web/plain/content/tutorials/template/index.md
+
+We can use tutorials of all types and skill levels so don't feel intimidated by what you might see on the current tutorials page.  Indeed many common questions we see might be considered simplistic by some but can be brand new (and super-helpful!) to many users.  All proposed tutorials will absolutely be considered.
 
 
 
@@ -49,7 +51,7 @@ Speaking of tutorials, [Elle Stone][] has just [published a new tutorial][tut] o
 [tut]: /tutorials/Tone_Mapping_Using_GIMP_Levels/
 
 <figure>
-<img src='{attach}../../tutorials/Tone_Mapping_Using_GIMP_Levels/gegl-exposure-add-one-stop-positive-exposure-compensation.jpg' alt='GEGL Exposure'>
+<img src='{filename}../../tutorials/Tone_Mapping_Using_GIMP_Levels/gegl-exposure-add-one-stop-positive-exposure-compensation.jpg' alt='GEGL Exposure'>
 <figcaption>
 The GEGL <i>Exposure</i> dialog.
 </figcaption>
