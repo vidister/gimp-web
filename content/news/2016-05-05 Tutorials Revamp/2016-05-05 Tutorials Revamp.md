@@ -20,3 +20,10 @@ This means that if there were any links to the previous tutorials they will stil
 
 That list now includes only more current content that has been permissively licensed for use. If you need a complete list, including the deprecated tutorials, see [the complete list](/tutorials/list-all.html).
 
+An unfortunate side-effect of pruning old material is that we are now a little light on material.
+
+
+## Help Write More Tutorials
+
+
+## Tone Mapping with Levels
