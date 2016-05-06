@@ -34,7 +34,7 @@ Which is where you, the community, comes in! If you were looking for a way to co
 [gu-mail]: https://mail.gnome.org/mailman/listinfo/gimp-user-list
 
 There's usually helpful team members around that can help guide you with both ideas and content if needed.
-We have a tutorial [template][tt] that can be viewed and the the markdown file used to generate it can be [found on git][]. More information can be found on the [template tutorial page][tt].
+We have a tutorial [template][tt] and the markdown file used to generate it can be [found on git][]. More information can be found on the [template tutorial page][tt].
 
 [tt]: /tutorials/template/
 [found on git]: https://git.gnome.org/browse/gimp-web/plain/content/tutorials/template/index.md
