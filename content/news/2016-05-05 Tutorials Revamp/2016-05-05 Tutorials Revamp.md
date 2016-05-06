@@ -9,21 +9,55 @@ As part of building a new GIMP website we had to sort through all of the legacy 
 [tuts]: //www.gimp.org/tutorials/
 
 
+
 ## Cool URIs don't change
+
 It [was true in 1998][cool] and is still just as true today. Possibly more so.  Great care was taken to make sure that we didn't break all of the inbound links to the old tutorials during the site update.
 
 [cool]: https://www.w3.org/Provider/Style/URI.html
 
 This means that if there were any links to the previous tutorials they will still work.  They are still there at the same URL they always always had.  What we _did_ change was the listing of [tutorials on the index page][tuts]:  
 
-<https://www.gimp.org/tutorials/>
+[www.gimp.org/tutorials/][tuts]
 
-That list now includes only more current content that has been permissively licensed for use. If you need a complete list, including the deprecated tutorials, see [the complete list](/tutorials/list-all.html).
+That list now includes only more current content that has been permissively licensed for use. If you need a complete list, including the deprecated tutorials (for some reason), see [the complete list](/tutorials/list-all.html).
 
-An unfortunate side-effect of pruning old material is that we are now a little light on material.
+An unfortunate side-effect of pruning old material is that we are now a little light on good tutorials...
+
 
 
 ## Help Write More Tutorials
 
+Which is where you, the community, comes in! If you were looking for a way to contribute to the project, and you don't feel up to coding, this is a great way to share and help others learn GIMP. You are encouraged to come tell us about your tutorial on [the gimp-user mailing list][gu-mail] or, even better, drop by the [IRC channel][irc] and let us know what you're thinking (this is strongly encouraged to make sure there's not something already being worked on)!
 
-## Tone Mapping with Levels
+[irc]: /irc.html
+[gu-mail]: https://mail.gnome.org/mailman/listinfo/gimp-user-list
+
+There's usually helpful team members around that can help guide you with both ideas and content if needed.
+There is a [tutorial template][] that can be viewed and the the markdown file used to generate can be [found on git][].
+
+[tutorial template]: /tutorials/template/
+[found on git]: https://git.gnome.org/browse/gimp-web/plain/content/tutorials/template/index.md
+
+
+
+## New Tutorial - Tone Mapping with Levels
+
+Speaking of tutorials, [Elle Stone][] has just [published a new tutorial][tut] on doing some simple tone mapping and shadow recovery of images using high bit depth GIMP and the GEGL _Exposure_ operation.
+
+[Elle Stone]: http://ninedegreesbelow.com/
+[tut]: /tutorials/Tone_Mapping_Using_GIMP_Levels/
+
+<figure>
+<img src='{attach}../../tutorials/Tone_Mapping_Using_GIMP_Levels/gegl-exposure-add-one-stop-positive-exposure-compensation.jpg' alt='GEGL Exposure'>
+<figcaption>
+The GEGL <i>Exposure</i> dialog.
+</figcaption>
+</figure>
+
+The tutorial covers a method for adding exposure compensation to an image's shadows and midtones while retaining highlight details.  She does this using _Exposure_ and combining the results with a mask based on a grayscale version of the working image (simliar to using a [luminosity mask][]).
+This is also one of the first tutorials using the high bit depth version of GIMP.  Head over to the [tutorials][tuts] page and have a look:
+
+[luminosity mask]: /tutorials/Luminosity_Masks/
+
+[Tone Mapping and Shadow Recovery Using GIMP's 'Colors/Exposure'][tut]
