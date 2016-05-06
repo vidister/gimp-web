@@ -1,4 +1,4 @@
-Title: Tone mapping and shadow recovery using GIMP's 'Colors/Exposure'
+Title: Tone Mapping and Shadow Recovery Using GIMP's 'Colors/Exposure'
 Date: 2016-03
 Modified: 2016-03
 Author: Elle Stone
