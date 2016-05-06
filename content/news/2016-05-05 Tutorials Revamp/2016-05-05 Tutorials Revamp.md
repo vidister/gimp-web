@@ -39,8 +39,9 @@ We have a tutorial [template][tt] and the markdown file used to generate it can 
 [tt]: /tutorials/template/
 [found on git]: https://git.gnome.org/browse/gimp-web/plain/content/tutorials/template/index.md
 
-We can use tutorials of all types and skill levels so don't feel intimidated by what you might see on the current tutorials page.  Indeed many common questions we see might be considered simplistic by some but can be brand new (and super-helpful!) to many users.  All proposed tutorials will absolutely be considered.
+We can use tutorials of all types and skill levels so don't feel intimidated by what you might see on the current tutorials page.  Indeed many common questions we see might have solutions that are not obvious to others - the perfect opportunity to write a tutorial about it!  All proposed tutorials will absolutely be considered.
 
+Indeed many common questions we see might have solutions that are not obvious to others - the perfect opportunity to write a tutorial about it!
 
 
 ## New Tutorial - Tone Mapping with Levels
