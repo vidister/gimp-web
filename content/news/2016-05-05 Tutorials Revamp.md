@@ -16,7 +16,7 @@ It was [true in 1998][cool] and is still just as true today. Possibly more so.  
 
 [cool]: https://www.w3.org/Provider/Style/URI.html
 
-This means that if there were any links to the previous tutorials they will still work.  They are still there at the same URL they always always had.  What we _did_ change was the listing of [tutorials on the index page][tuts]:  
+This means that if there were any links to the previous tutorials they will still work.  They are still at the same URL they had always been.  What we _did_ change was the listing of [tutorials on the index page][tuts]:  
 
 [www.gimp.org/tutorials/][tuts]
 
