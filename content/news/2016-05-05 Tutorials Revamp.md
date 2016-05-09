@@ -38,12 +38,12 @@ Which is where you, the community, comes in! If you were looking for a way to co
 [love to hear from you too]: http://testing.gimp.org/develop/
 
 There's usually helpful team members around who can guide you with both ideas and content if needed.
-We have a tutorial [template][tt] and the markdown file used to generate it can be [found on git][]. More information can be found on the [template tutorial page][tt].
+We have a tutorial [template][tt], and you can find the markdown file used to generate it [in git][].
 
 [tt]: /tutorials/template/
-[found on git]: https://git.gnome.org/browse/gimp-web/plain/content/tutorials/template/index.md
+[in git]: https://git.gnome.org/browse/gimp-web/plain/content/tutorials/template/index.md
 
-We can use tutorials of all types and skill levels so don't feel intimidated by what you might see on the current tutorials page.  Indeed many common questions we see might have solutions that are not obvious to others - the perfect opportunity to write a tutorial about it!  All proposed tutorials will absolutely be considered.
+We can use tutorials of all types and skill levels, so don't feel intimidated by what you might see on the current tutorials page.  Indeed many common questions we see might have solutions that are not obvious to others - the perfect opportunity to write a tutorial about it!  We'll absolutely consier all proposed tutorials.
 
 
 
