@@ -43,7 +43,7 @@ We have a tutorial [template][tt], and you can find the markdown file used to ge
 [tt]: /tutorials/template/
 [in git]: https://git.gnome.org/browse/gimp-web/plain/content/tutorials/template/index.md
 
-We can use tutorials of all types and skill levels, so don't feel intimidated by what you might see on the current tutorials page.  Indeed many common questions we see might have solutions that are not obvious to others - the perfect opportunity to write a tutorial about it!  We'll absolutely consier all proposed tutorials.
+We can use tutorials of all types and skill levels, so don't feel intimidated by what you might see on the current tutorials page.  Indeed many common questions we see might have solutions that are not obvious to others - the perfect opportunity to write a tutorial about it!  We'll absolutely consider all proposed tutorials.
 
 
 
@@ -61,7 +61,7 @@ The GEGL <i>Exposure</i> dialog.
 </figcaption>
 </figure>
 
-The tutorial covers a method for adding exposure compensation to an image's shadows and midtones while retaining highlight details.  She does this using _Exposure_ and combining the results with a mask based on a grayscale version of the working image (simliar to using a [luminosity mask][]).
+The tutorial covers a method for adding exposure compensation to an image's shadows and midtones while retaining highlight details.  She does this using _Exposure_ and combining the results with a mask based on a grayscale version of the working image (similar to using a [luminosity mask][]).
 This is also one of the first tutorials using the high bit depth version of GIMP.  Head over to the [tutorials][tuts] page and have a look:
 
 [luminosity mask]: /tutorials/Luminosity_Masks/
