@@ -28,10 +28,14 @@ An unfortunate side-effect of pruning old material is that we are now a little l
 
 ## Help Write More Tutorials
 
-Which is where you, the community, comes in! If you were looking for a way to contribute to the project, and you don't feel up to coding, this is a great way to share and help others learn GIMP. You are encouraged to come tell us about your tutorial on [the gimp-user mailing list][gu-mail] or, even better, drop by the [IRC channel][irc] and let us know what you're thinking (this is strongly encouraged to make sure there's not something already being worked on)!
+Which is where you, the community, comes in! If you were looking for a way to contribute to the project, and you don't feel up to coding<sup>*</sup>, this is a great way to share and help others learn GIMP. You are encouraged to come tell us about your tutorial on [the gimp-user mailing list][gu-mail] or, even better, drop by the [IRC channel][irc] and let us know what you're thinking (this is strongly encouraged to make sure there's not something already being worked on)!
 
 [irc]: /irc.html
 [gu-mail]: https://mail.gnome.org/mailman/listinfo/gimp-user-list
+
+<small><sup>*</sup>Of course, if you _do_ feel up to coding we'd [love to hear from you too][]!</small>
+
+[love to hear from you too]: http://testing.gimp.org/develop/
 
 There's usually helpful team members around that can help guide you with both ideas and content if needed.
 We have a tutorial [template][tt] and the markdown file used to generate it can be [found on git][]. More information can be found on the [template tutorial page][tt].
