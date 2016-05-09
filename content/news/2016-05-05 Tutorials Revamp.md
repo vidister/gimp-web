@@ -2,7 +2,7 @@ Title: Revamping Tutorials
 Date: 2016-05-05
 Category: News
 Authors: Pat David
-Status: draft
+Status: published
 
 As part of building a new GIMP website we had to sort through all of the legacy pages in order to migrate content properly. A nice side effect of this sorting included addressing [tutorials][tuts] that were out of date (or in some cases, _really_ out of date).  This gave us an opportunity to re-build the tutorials index to focus on (_more_) current content as well as ensure that everything is being licensed in a permissive manner.
 
