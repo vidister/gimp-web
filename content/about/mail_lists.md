@@ -80,7 +80,7 @@ If you want to discuss features, tips, tricks or contribute to the development o
 Mailing lists are an important communication channel between contributors and users of GIMP. Therefore we urge you to follow the following common etiquette rules. Failure to observe them, or instructions from the moderators, may be grounds for reprimand, probation, or removal.
 
 *   **Be considerate and respectful**. Every email in our most popular mailing lists, gimp-user@ and gimp-developer@, will be read by ca. 1,000 subscribers and then aggregated to be seen by an even larger audience. Please make sure that you add value to the discussion, avoid repetitive arguments, flamewars, trolling, and personal attacks.
-*   **Write in English**. While GIMP community is multinational, we need a _lingua franca_ for communication which happens to be English. It's OK to have bad skills in English as long as you do your best.
+*   **Write in English**. While the GIMP community is multinational, we need a _lingua franca_ for communication which happens to be English. It's OK to have bad skills in English as long as you do your best.
 *   **Do basic research**. Chances are that your questions, feature requests, or bug reports have already been thoroughly discussed, and decisions have already been made. See the list of source for reference below.
 *   **Stick to plain text**. Please don't send emails in HTML.
 *   **Be specific**. When describing a bug you discovered, please always mention: operating system and its version, architecture (32bit or 64bit), exact version of GIMP (use <tt>File->About</tt> for reference).
