@@ -1,4 +1,4 @@
-Title: All Tutorials List
+Title: All (Legacy) Tutorials List
 Date: 2016-05-05
 Authors: Pat David
 template: tutorial-list 
