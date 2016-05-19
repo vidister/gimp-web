@@ -44,7 +44,15 @@ Using GIMP Python to automate a workflow.
 [Automatic Creation of XCF from JPG][]  
 Import XCF images a directory at a time.
 
+---
 
+The list of legacy tutorials can be found found here:
+
+[All (Legacy) Tutorials List]({filename}list-all.md)
+
+<small>
+Bear in mind that this list is being provided for legacy reasons only.  
+</small>
 
 [Basic GIMP Perl]: {filename}Basic_Perl/index.md
 [Automate Editing]: {filename}Automate_Editing_in_GIMP/index.md
