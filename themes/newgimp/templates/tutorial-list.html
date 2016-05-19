@@ -68,7 +68,8 @@
 
                           {% for page in pages if 'tutorials/' == page.url|truncate(10, True, '') %}
                           <li><a href="/{{ page.url }}">{{ page.title }}</a><br>
-                              <small><a href="{{ SITEURL }}/{{ page.url }}">{{ SITEURL }}/{{ page.url }}</a></small>
+                              {# <small><a href="{{ SITEURL }}/{{ page.url }}">{{ SITEURL }}/{{ page.url }}</a></small>
+                              #}
                           </li>
                           {% endfor %}
 
