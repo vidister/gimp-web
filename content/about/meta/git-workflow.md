@@ -145,3 +145,13 @@ This is helpful if there's a different author but we need to track down who actu
 
 <small markdown=1>I referenced [this post][] by Ariejan de Vroom for some of this information.</small>
 [this post]: https://ariejan.net/2009/10/26/how-to-create-and-apply-a-patch-with-git/
+
+
+
+## Bugzilla Logging
+If you fix something and need to reference what was fixed in a bugzilla thread, you can get consistent
+output with the rest of GIMP log messages by using:
+
+`git show --stat`
+
+and pasting the results into the bugzilla message.
