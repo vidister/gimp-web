@@ -2,7 +2,6 @@ Title: Call for GIMP 2.10 Documentation Update
 Date: 2016-05-23
 Category: News
 Authors: Alexandre Prokoudine
-Status: draft
 Slug: gimp-2-10-docs-update-call
 Summary: For the past several months we've been working on GIMP mostly in the bugfix mode. It's time to start updating the user manual for the upcoming release.
 
@@ -14,7 +13,7 @@ For the past several months we've already been working on GIMP mostly in bugfix 
 
 * **Updating the content.** There have been a lot of changes since 2.8. For quite a while, we've been maintaining a structured [list of changes in 2.10](http://wiki.gimp.org/wiki/Release:2.10_changelog) specifically to assist technical writers in updating the user manual.
 * **Translating the content.** At some point we'd like to "freeze" the documentation so that translators could start updating localized versions of the user manual. Since GIMP is [hosted at GNOME](https://git.gnome.org/browse/gimp-help-2/), you would have to contact your local [GNOME translation](https://wiki.gnome.org/TranslationProject) team to get involved.
-* **Resurrecting PDF builds.** Years ago we chose DocBook/XML as a way to build both web (HTML) and printable (PDF) copies of the user manual form a single source. Unfortunately, there appear to be some issues with building PDF files presently. Someone would have to investigate, what's causing this, and act accordingly.
+* **Resurrecting PDF builds.** Years ago we chose DocBook/XML as a way to build both web (HTML) and printable (PDF) copies of the user manual from a single source. Unfortunately, there appear to be some issues with building PDF files presently. Someone would have to investigate, what's causing this, and act accordingly.
 * **Adding Search to the Online Docs.** We've heard a number of requests to add basic search to the online docs. If you have an idea how to do that, please contact us.
 
 ## How To Contribute
