@@ -61,7 +61,7 @@ class SitemapGenerator(object):
         self.output_path = output_path
         self.context = context
         self.now = datetime.now()
-        self.siteurl = settings.get('SITEURL')
+        self.siteurl = settings.get('SITEMAP_SITEURL')
 
 
         self.default_timezone = settings.get('TIMEZONE', 'UTC')
