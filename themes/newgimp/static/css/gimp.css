@@ -223,6 +223,8 @@ nav#menu ul > li:last-of-type {
 
 .donate-type > img {
     vertical-align: middle;
+    display: inline;
+    width: 16px;
 }
 
 .donate-type > i {
