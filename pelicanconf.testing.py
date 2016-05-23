@@ -42,7 +42,7 @@ DEFAULT_LANG = u'en'
 DEFAULT_DATE_FORMAT = "%Y-%m-%d"
 
 # Feed generation is usually not desired when developing
-FEED_DOMAIN = SITEMAP_SITEURL
+FEED_DOMAIN = SITEURL
 FEED_ATOM = 'feeds/atom.xml'
 FEED_RSS = 'feeds/rss.xml'
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
