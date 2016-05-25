@@ -2,6 +2,7 @@ Title: Basic Color Curves
 Date: 2015-08-18T13:18:54-05:00
 Modified: 2015-08-18T13:19:00-05:00
 Author: Pat David
+Template: page_author
 
 <noscript>
 <style>

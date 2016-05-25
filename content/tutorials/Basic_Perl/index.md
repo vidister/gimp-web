@@ -2,6 +2,7 @@ Title: A Tutorial for GIMP-Perl Users
 Date: 2014-05-02
 Modified: 2014-05-02
 Author: Ed J
+Template: page_author
 
 
 <small>

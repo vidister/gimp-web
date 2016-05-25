@@ -2,6 +2,7 @@ Title: Digital B&W Conversion
 Date: 2002
 Modified: 2015-09-23T12:05:07-05:00
 Author: Pat David
+Template: page_author
 
 
 <small>

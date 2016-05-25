@@ -2,6 +2,7 @@ Title: Automate Editing
 Date: 2015-08-17T17:09:25-05:00
 Modified: 2015-08-17T17:09:31-05:00
 Author: Stephen Kiel
+Template: page_author
 
 
 <small>

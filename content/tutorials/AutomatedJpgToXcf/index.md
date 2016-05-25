@@ -2,6 +2,7 @@ Title: Automatic Creation of XCF from JPG
 Date: 2015-08-18T12:24:32-05:00
 Modified: 2015-08-18T12:24:36-05:00
 Author: Stephen Kiel
+Template: page_author
 
 <small>
 <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.en_US'>

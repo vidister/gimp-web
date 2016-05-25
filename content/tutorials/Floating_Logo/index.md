@@ -2,6 +2,7 @@ Title: Simple Floating Logo
 Date: 2015-09-24T11:20:59-05:00
 Modified: 2015-09-24T11:21:06-05:00
 Author: Pat David
+Template: page_author
 
 
 

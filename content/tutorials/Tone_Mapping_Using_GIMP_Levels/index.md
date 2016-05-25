@@ -2,6 +2,7 @@ Title: Tone Mapping and Shadow Recovery Using GIMP's 'Colors/Exposure'
 Date: 2016-03
 Modified: 2016-03
 Author: Elle Stone
+Template: page_author
 canonical: http://ninedegreesbelow.com/photography/gimp-tone-map-with-levels.html
 
 <small>

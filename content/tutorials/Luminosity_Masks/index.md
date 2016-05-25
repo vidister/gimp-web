@@ -2,6 +2,7 @@ Title: Luminosity Masks
 Date: 2002
 Modified: 2015-09-24T15:00:00-05:00
 Author: Pat David
+Template: page_author
 
 <small>
 <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.en_US'>
