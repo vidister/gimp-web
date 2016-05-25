@@ -126,3 +126,13 @@ figure figcaption {
     /* margin-top: 1rem;
      */
 }
+
+.post-info {
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 0.5rem;
+}
+
+address.vcard.author {
+    display: inline;
+}
