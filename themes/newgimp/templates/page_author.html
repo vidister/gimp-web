@@ -46,7 +46,10 @@
                     <div class='post-info'>
                     <address class="vcard author">
                       by {% for author in page.authors %}
+                          {# Use the below line once we've figured out the author page/article problem
                           <a class="url fn" href="/{{ author.url }}">{{ author }}</a>{% if not loop.last %}, {% endif %}
+                          #}
+                          {{ author }}{% if not loop.last %}, {% endif %}
                         {% endfor %}
                     </address>
                     </div>
