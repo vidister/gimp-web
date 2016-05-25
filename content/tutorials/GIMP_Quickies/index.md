@@ -2,6 +2,7 @@ Title: Gimp Quickies
 Date: 2015-08-03T17:11:25-05:00
 Modified: 2015-08-03T17:11:32-05:00
 Authors: Pat David
+Template: page_author
 Summary: A quick look at some easy features.
 
 <small>

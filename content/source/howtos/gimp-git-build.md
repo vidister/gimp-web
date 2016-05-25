@@ -2,9 +2,9 @@ Title: Best Way to Keep Up with GIMP from git
 Date: 2015-08-17T15:38:06-05:00
 Modified: 2015-08-17T15:38:12-05:00
 Author: Martin Nordholts
+Template: page_author
 Status: hidden
 
-Author: Martin Nordholts
 
 The more people that use the latest GIMP code from git the better. It keeps the required effort to contribute code upstreams small, which in turn increases the likelihood of upstream contributions, and it makes bugs more vulnerable to early discovery which minimizes their impact.
 
