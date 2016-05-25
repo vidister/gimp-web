@@ -120,16 +120,20 @@
     <div class="container title">
         <div class="row clearfix">
             <div class="column full">
+                {% block content_title %}
                 <h1>Recent News</h1>
                 <div style='font-size: 0.85rem;'><a href='/feeds/atom.xml'>Feed <i class='fa fa-rss'></i></a></div>
+                {% endblock %}
             </div>
         </div>
     </div>
 
     <section id="articles">
+        {#
         {% block content_title %}
-            {# <h2>Recent News</h2> #}
+            <h2>Recent News</h2> 
         {% endblock %}
+        #}
 
         <div class="container">
             {% for article in articles_page.object_list %}
@@ -145,13 +149,13 @@
                         <div class='post-info'>
                             <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr>
 
-                            {# Suppressing the author info - they're all Wilber for now!
-                            <address class="vcard author">By
+                            {# Suppressing the author info - they're all Wilber for now! #}
+                            <address class="vcard author">by
                                 {% for author in article.authors %}
                                     <a class="url fn" href="/{{ author.url }}">{{ author }}</a>
                                 {% endfor %}
                             </address>
-                            #}
+                            {# #}
 
                         </div>
 
