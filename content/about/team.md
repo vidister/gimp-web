@@ -93,4 +93,6 @@ status: hidden
 
 *   From 1997 to 2000, the webmaster's hat was worn by Jens T. Lautenbacher (jtl) and Adrian Likins (Adrian). In addition, Zach Beane (Xach) maintained the GIMP News site.
 *   From 2001 to 2004, the webmaster's hat was picked up by Raphaël Quinet. Sven Neumann contributed most news items and updated some pages.
-
+*   2004-03-23 the design by Ville Pätsi became live, Carol Spears maintained the site until about 2006.
+*   GIMP 2.4 was released on 2007-10-24 and the website switched to Jakub Steiner's design that day.
+*   GIMP celebrated it's 20th year anniversary in November 2015 - the website was switched to Pat David's design to coincide.
