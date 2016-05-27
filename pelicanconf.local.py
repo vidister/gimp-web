@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 #Plugins
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ["mimic_hierarchy", "i18n_subsites", "sitemap", "gimp_mirrors"]
+PLUGINS = ["mimic_hierarchy", "i18n_subsites", "sitemap", "gimp_mirrors", "tipue_search"]
 
 # sitemap plugin settings
 SITEMAP = {
@@ -72,8 +72,8 @@ READERS = {'html': None}
 STATIC_PATHS = ['images', 'js', 'pages', 'tutorials', 'about', 'books', 'develop', 'docs', 'donating', 'downloads', 'features', 'bugs', 'links', 'man', 'release-notes', 'screenshots', 'source', 'unix', 'robots.txt', 'COPYING', 'GNUGPLv2', 'GNUGPLv3', 'news']
 
 # This sets which directories will be parsed as pages (vs. news/articles)
-# If a new directory is to be added under content/, make sure it gets added hereMarkdown.
-PAGE_PATHS = ['about', 'frontpage', 'tutorials', 'books', 'develop', 'docs', 'donating', 'downloads', 'features', 'bugs', 'links', 'man', 'release-notes', 'screenshots', 'source', 'unix']
+# If a new directory is to be added under content/, make sure it gets added here.
+PAGE_PATHS = ['about', 'frontpage', 'tutorials', 'books', 'develop', 'docs', 'donating', 'downloads', 'features', 'bugs', 'links', 'man', 'release-notes', 'screenshots', 'source', 'unix', 'search.md']
 
 ARTICLE_PATHS = ['news']
 
