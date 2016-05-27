@@ -18,6 +18,7 @@ status: hidden
 
 *   Alexandre Prokoudine (maintainer)
 *   Michael Schumacher (maintainer)
+*   Pat David (maintainer & 2016 HTML5 redesign)
 *   Akkana Peck
 *   Alexia Death
 *   Barak Itkin
@@ -49,7 +50,6 @@ status: hidden
 *   Nathan C. Summers
 *   Niklas Mattisson
 *   Nils Philippsen
-*   Pat David (HTML5 re-design)
 *   Raphaël Quinet
 *   Rebecca J. Walter
 *   rockwlrs
