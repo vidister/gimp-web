@@ -233,8 +233,19 @@
 
                 <div class='row clearfix'>
                     <div class='column full'>
-                        <form action='/search.html'>
-                            <input type='text' name='q' id='tipue_search_input' autocomplete='off' required>
+                        <form action='https://duckduckgo.com/' id='search-form'> 
+                        {# <form action='/search.html' id='search-form'> #}
+                            {# <input type='text' name='q' id='tipue_search_input' autocomplete='off' required> #}
+                            <input type='text' name='q' id='tipue_search_input' autocomplete='off' required placeholder='Search with DuckDuckGo'>
+                            <input type='hidden' name='sites' value='www.gimp.org'>
+                            {#
+                            # These only work for js-enabled browsers...
+                            <input type='hidden' name='ia' value='web'>
+                            <input type='hidden' name='kj' value='%230e2426'>
+                            <input type='hidden' name='kx' value='%230e2426'>
+                            <input type='hidden' name='km' value='m'>
+                            <input type='hidden' name='k9' value='%23497bad'>
+                            #}
                         </form>
                     </div>
                 </div>
@@ -246,6 +257,17 @@
 
     {# We use this for the sliding menu on small responsive screen (phone/tablet) #}
     <script async src="/js/push-menu.js"></script>
+
+    <script>
+        var searchForm = document.getElementById('search-form');
+        var tipue_input = document.getElementById('tipue_search_input');
+        while( searchForm.firstChild ){
+            searchForm.removeChild( searchForm.firstChild );
+        }
+        tipue_input.placeholder = "Search GIMP.org";
+        searchForm.appendChild( tipue_input );
+        searchForm.action = "/search.html";
+    </script>
 
 </body>
 </html>
