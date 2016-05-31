@@ -1,12 +1,19 @@
 Title: Development Version Splash History 2.9
 Date: 2016-05-30T23:33:33+00:00
-Modified: 2016-05-30T23:33:33+00:00
+Modified: 2016-05-31T20:07:32+00:00
 Author: Michael Schumacher
 
 <figure>
-<img src="images/gimp-splash-git3152b6e1.png" alt="tarball: 2.9.2">
+<img src="images/gimp-splash-git10715024.png" alt="Splash for 2.9.1 &rarr; 2.9.2 release">
 <figcaption>
-tarball: 2.9.2<br>GIT: 3152b6e1<br>artist: Alexia Death
+2.9.1 &rarr; 2.9.2 release<br>GIT: 10715024<br>artist: Ville Pätsi
+</figcaption>
+</figure>
+
+<figure>
+<img src="images/gimp-splash-git3152b6e1.png" alt="Splash for 2.9.3 &rarr; ...">
+<figcaption>
+2.9.3 &rarr; ...<br>GIT: 3152b6e1<br>artist: Alexia Death
 </figcaption>
 </figure>
 
