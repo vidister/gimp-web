@@ -1,68 +1,6 @@
 Title: Downloads
 Date: 2015-08-14T14:18:56-05:00
 Author: Pat David
-Status: hidden
-
-<style>
-table {
-    max-width: 35rem;
-    margin: 1rem auto;
-}
-td, th {
-    padding: 0 1rem;
-}
-
-.download-mirrors{
-    word-wrap: break-word;
-}
-
-@media ( max-width: 40rem ){
-    .download-mirrors dd {
-        margin-left: 0.5rem;
-    }
-}
-
-.os {
-    display: block;
-}
-
-#pOSTEST {
-    font-style: italic;
-}
-
-.show_links {
-    color: #497bad;
-    cursor: pointer;
-}
-
-.win-button {
-    display: inline-block;
-    border: solid 1px #666;
-    background-color: #f57900;
-    margin: 0.5rem 0;
-    border-radius: 10px;
-    box-shadow: 1px 1px 2px;
-    text-align: center;
-    font-family: Questrial;
-    font-weight: 400;
-    width: 49%;
-}
-
-#win-torrent, #osx-torrent {
-    background-color: #008080;
-}
-
-.win-button a {
-    color: white;
-    font-weight: bold;
-    display: inline-block;
-    padding: 1rem;
-}
-
-.mirrors {
-    display: none;
-}
-</style>
 
 
 <figure>
@@ -367,3 +305,64 @@ document.getElementById('os_linux').addEventListener("click", render );
 document.getElementById('os_win').addEventListener("click", render );
 document.getElementById('os_mac').addEventListener("click", render );
 </script>
+
+<style>
+table {
+    max-width: 35rem;
+    margin: 1rem auto;
+}
+td, th {
+    padding: 0 1rem;
+}
+
+.download-mirrors{
+    word-wrap: break-word;
+}
+
+@media ( max-width: 40rem ){
+    .download-mirrors dd {
+        margin-left: 0.5rem;
+    }
+}
+
+.os {
+    display: block;
+}
+
+#pOSTEST {
+    font-style: italic;
+}
+
+.show_links {
+    color: #497bad;
+    cursor: pointer;
+}
+
+.win-button {
+    display: inline-block;
+    border: solid 1px #666;
+    background-color: #f57900;
+    margin: 0.5rem 0;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px;
+    text-align: center;
+    font-family: Questrial;
+    font-weight: 400;
+    width: 49%;
+}
+
+#win-torrent, #osx-torrent {
+    background-color: #008080;
+}
+
+.win-button a {
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding: 1rem;
+}
+
+.mirrors {
+    display: none;
+}
+</style>
