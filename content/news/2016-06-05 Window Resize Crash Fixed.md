@@ -1,4 +1,4 @@
-Title: Fixed image window resize crash on 32-bit Windows platforms
+Title: Updated 2.8.16 Installer with a Major Bugfix Released
 Date: 2016-06-05
 Category: News
 Authors: Michael Schumacher
