@@ -1,6 +1,6 @@
 Title: GIMP Splash Archive
 Date: 2015-08-13T13:34:55-05:00
-Modified: 2015-08-13T13:35:04-05:00
+Modified: 2016-05-30T23:35:01+00:00
 Author: Pat David
 
 
@@ -9,6 +9,7 @@ The splash screens archives shows us some of the history behind GIMP and how it 
 ## Splash Screen galleries (image archives)
 
 *   [Stable GIMP Splash Screens](stable.html)
+*   [GIMP 2.9 Development Splash Screens](unstable-2.9.html)
 *   [GIMP 2.7 Development Splash Screens](unstable-2.7.html)
 *   [GIMP 2.5 Development Splash Screens](unstable-2.5.html)
 *   [GIMP 2.3 Development Splash Screens](unstable-2.3.html)
