@@ -84,7 +84,7 @@ def do_mirrors(content_object):
                     except:
                         print "cannot resolve record: ", record
 
-                page._content = page._content.replace(u"<!-- MIRRORS -->", html_output( mirrors) )
+                page._content = page.content.replace(u"<!-- MIRRORS -->", html_output( mirrors) )
 
         except IOError:
             print "Cannot open /content/downloads/mirrors.json!"
