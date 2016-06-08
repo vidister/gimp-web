@@ -63,27 +63,32 @@ def do_mirrors(content_object):
         gi = pygeoip.GeoIP('./plugins/gimp_mirrors/GeoIP.dat')
 
         # load mirrors2.json file from content
-        with open('./content/downloads/mirrors2.json') as data_file:
-            data = json.load(data_file)
+        try:
+            with open('./content/downloads/mirrors2.json') as data_file:
+                data = json.load(data_file)
 
-        for record in data:
-            #print "####"
-            #print record
+                for record in data:
+                    #print "####"
+                    #print record
 
-            try:
-                country = gi.country_name_by_name( record )
-                #print country
+                    try:
+                        country = gi.country_name_by_name( record )
+                        #print country
 
-                if country in mirrors:
-                    mirrors[ country ] += data[ record ]
-                else:
-                    mirrors[ country ] = data[ record ]
+                        if country in mirrors:
+                            mirrors[ country ] += data[ record ]
+                        else:
+                            mirrors[ country ] = data[ record ]
 
-            except:
-                print "cannot resolve record: ", record
+                    except:
+                        print "cannot resolve record: ", record
 
-        #page._content = page.content.replace(u"<!-- MIRRORS -->", u"<h2>Mirrors Test</h2>")
-        page._content = page.content.replace(u"<!-- MIRRORS -->", html_output( mirrors) )
+                page._content = page.content.replace(u"<!-- MIRRORS -->", html_output( mirrors) )
+
+        except IOError:
+            print "Cannot open /content/downloads/mirrors.json!"
+            page._content = page.content.replace(u"<!-- MIRRORS -->", "<p><small>Cannot open mirrors2.json</small></p>")
+
 
     
 
