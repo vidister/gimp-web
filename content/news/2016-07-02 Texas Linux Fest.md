@@ -17,9 +17,18 @@ If you happen to be anywhere near Austin, TX next weekend (July 8-9) then mosey 
 
 Both sessions will be immediately following the photowalk, before and after lunch.  They will also be in attendance for the "Graphics Hackathon" at the end of the first day.
 
-More information can be found on the [2016 Texas Linux Fest website][txlf].
+They are both part of full open graphics track on the first day that includes [Ted Gould][] creating technical diagrams using [Inkscape][], [Brian Beck][] doing a [Blender][] tutorial, and [Jonathon Thomas][] showing off [OpenShot 2.0][]!
+
+
+More information can be found on the [2016 Texas Linux Fest website][txlf]. We look forward to seeing you there!
 
 
 [txlf]: http://2016.texaslinuxfest.org
 [akk-web]: http://www.shallowsky.com
 [pat-web]: https://pixls.us
+[Ted Gould]: http://gould.cx/ted/
+[Inkscape]: https://inkscape.org/ 
+[Brian Beck]: http://2016.texaslinuxfest.org/node/103 
+[Blender]: http://www.blender.org
+[Jonathon Thomas]: http://2016.texaslinuxfest.org/node/55
+[OpenShot 2.0]: http://www.openshot.org/
