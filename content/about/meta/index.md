@@ -113,6 +113,10 @@ Simplest method is simply: `pip install pelican`
     `pip install Markdown`
     * For fancy typography elements with [typogrify]:  
     `pip install typogrify`
+    * For some html scraping for the mirrors list [Beautifulsoup4]:  
+    `pip install bs4`
+    * For ip geolocating (for the gimp-mirrors plugin), pygeoip:
+    `pip install pygeoip`
 
 
 For detailed information refer to the [Pelican documentation](http://docs.getpelican.com/en/stable/).
@@ -172,3 +176,4 @@ This is not superfluous, it's a test of local image linking from this directory.
 [Python]:https://www.python.org/ 
 [smartypants]:http://pythonhosted.org/smartypants/ 
 [typogrify]: https://github.com/mintchaos/typogrify
+[Beautifulsoup4]: https://www.crummy.com/software/BeautifulSoup/ 
