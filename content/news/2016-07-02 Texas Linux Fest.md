@@ -13,7 +13,9 @@ If you happen to be anywhere near Austin, TX next weekend (July 8-9) then mosey 
 <img src='{filename}./images/2016-TXLF/TXLF-header-fs8.png' alt='Texas Linux Fest'>
 </figure>
 
-[Akkana Peck][akk-web] and [Pat David][pat-web] will be hosting a photowalk from 0900-1100 on Friday, July 8<sup>th</sup> (first day of the meeting) to socialize, talk photography, and capture some images for their workshop sessions later that same day. Pat will be talking about various Free Software photography tools and using them to create high quality results. Akkana will focus on using GIMP as a primary photo editing tool. Both sessions will be immediately following the photowalk, before and after lunch. 
+[Akkana Peck][akk-web] and [Pat David][pat-web] will be hosting a photowalk from 0900-1100 on Friday, July 8<sup>th</sup> (first day of the meeting) to socialize, talk photography, and capture some images for their workshop sessions later that same day. Pat will be talking about various Free Software photography tools and using them to create high quality results. Akkana will focus on using GIMP as a primary photo editing tool. 
+
+Both sessions will be immediately following the photowalk, before and after lunch.  They will also be in attendance for the "Graphics Hackathon" at the end of the first day.
 
 More information can be found on the [2016 Texas Linux Fest website][txlf].
 
