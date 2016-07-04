@@ -6,18 +6,31 @@ Slug: gimp-2-9-4-released
 Status: draft
 Summary: We have just released the second development version of GIMP in the 2.9.x series. GIMP 2.9.4 features revamped look and feel, major improvements in color management, as well as production-ready MyPaint Brush tool, symmetric painting, and split preview for GEGL-based filters.
 
-We have just released the second development version of GIMP in the 2.9.x series. GIMP 2.9.4 features revamped look and feel, major improvements in color management, as well as production-ready MyPaint Brush tool, symmetric painting, and split preview for GEGL-based filters. Additionally, XX bugs have been fixed, and numerous small improvements have been applied.
+We have just released the second development version of GIMP in the 2.9.x series. After half a year in the works, GIMP 2.9.4 delivers a massive update: revamped look and feel, major improvements in color management, as well as production-ready MyPaint Brush tool, symmetric painting, and split preview for GEGL-based filters. Additionally, XX bugs have been fixed, and numerous small improvements have been applied.
 
-## Revamped User Interface
+GIMP 2.9.4 is quite reliable for production work, but there are still loose ends to tie, which is why releasing stable v2.10 will take a while. Please refer to the [Roadmap](http://wiki.gimp.org/wiki/Roadmap#GIMP_2.10) for the list of major pending changes.
 
-* new themes (Benoit Touchette)
-* symbolic icon theme and switching icon themes (Barbara Muraus, Benoit Touchette and Klaus Staedtler)
-* vector icons for HiDPI displays (--enable-vector-icons)
-* app: enable a pulsing progress bar in the splash
-* Reordered Preferences dialog
-* Configurable undo preview size (no more manual config file editing)
+## Revamped User Interface and Usability Changes
+
+The new version features several new themes by Benoit Touchette in various shades of grey: Lighter, Light, Gray, Dark, Darker. System theme has been preserved for users who prefer completely consistent look of user interfaces across all desktop applications.
+
+Note that we still consider this feature a work in progress, as dark themes still need some fine-tuning (especially regarding the color of inactive menu items).
+
+The new UI themes are accompanied by symbolic icons created by Barbara Muraus, Benoit Touchette, and Klaus Staedtler. The existing icon theme from past releases of GIMP has also been preserved, and users can freely switch between available icon themes and easily add their own ones.
+
+Klaus Staedtler is also working on vector (SVG) icons for HiDPI displays (also commonly known as Retina). It's an experimental feature, available after using '--enable-vector-icons' build configure option.
+
+We cleaned the Preferences dialog a little and reordered option in a  more logical manner. The Color Management page was redesigned following both internal and user-visible changes in relevant parts of GIMP (see below), and _Snap Distance_ options have been moved to a dedicated _Snapping_ page.
+
+Additionally, it is now possible to configure the size of undo step previews in the Undo dialog via the Preferences dialog, which was only possible by manually editing GIMP's configuration file before, by a complete oversight on our part.
+
+The startup spalsh screen now features a pulsing progress bar to indicate that GIMP is not frozen. This, as well as initializing fontconfig in the background (also a new feature in 2.9.4), is meant to address a common issue where rebuilding fonts cache (or building it for the first time) can take a lot of time hence making an impression that GIMP freezes at startup. We acknowledge that this is a workaround. Fixing the actual reason involves hacking on fontconfig. If you are interested, there is a [bug report](https://bugs.freedesktop.org/show_bug.cgi?id=64766) on that.
 
 ## Color Management Improvements
+
+Color Management implementation got a complete overhaul in this version of GIMP. Instead of being a pluggable module, it's a core feature now. Moreover, we added an abstraction layer that makes GIMP less dependent on LittleCMS. This means that in the future GIMP could use native APIs on Windows and OS X, and/or use [OCIO](http://opencolorio.org/).
+
+Since GIMP currently relies on sRGB (this is bound to change in future versions of GIMP), we decided to expose that in the user interface.
 
 * Color-managing grayscale images
 * app: prepare the color profile dialog for doing RGB <-> GRAY conversion
@@ -57,30 +70,23 @@ We have just released the second development version of GIMP in the 2.9.x series
 
 ## GEGL
 
-* Bug 759316 * "Recently used" menu not updated with gegl filters
-* app: turn the posterize tool into an ordinary GEGL filter
-* app: turn the desaturate tool into a normal GEGL filter
-* menus: move "Desaturate" to Colors -> Desaturate
-* app: add gegl:saturation as Colors -> Saturation
-* app: add gegl:high-pass as Filters > Enhance > High Pass
-* Bug 759316 * "Recently used" menu not updated with gegl filters
-* Bug 758915 * port Tile to gegl
-* app: add a "split preview" feature to GEGL ops that can be dragged around
-* app: add gegl:gegl to Filters -> Generic
-* pagecurl: do a pretty basic port to the gegl API. Still 8 bit though.
+GIMP now keeps track of GEGL-based filters that you used within one session and allows re-running them via `Filters > Recently` used submenu, just like old GIMP plug-ins.
+
+_Posterize_ and _Desaturate_ color tools have been converted to regular GEGL-based filters, and both _Tile_ and _Pagecurl_ filters have been converted to use GEGL buffers. A quite popular "photographic" _Highpass_ filter commonly used for enhancing details was added to the `Filters > Enhance` submenu.
+
+A way more noticeable new feature, however, is split preview for GEGL-based filters. You can compare before/after versions right on canvas and move a "curtain" around to see more of "before" or "after" and swap their position. You can also switch between vertical and horizontal division.
 
 ## darktable as RAW processing plugin
 
-* plug-ins: add new plug-in file-darktable
-* plug-ins: Read comment, XMP, and Exif data from EXR files
-* plug-ins: use the right magic for Canon CR2 files
-* plug-ins: use the right magic for EXR files
-* plug-ins: add a magic for Nikon NEF files to file-darktable
-* plug-ins: Add a bunch of formats for file-darktable
+On Linux, GIMP is now capable of using darktable for pre-processing raw images from DSLRs (Canon CR2, Nikon NEF etc.). darktable is an amazing project whose developers stick around at our IRC channel and even contribute to GIMP (most recently, they added reading various metadata from EXR files).
+
+Note that the file-darktable plug-in is activated only when darktable is built with Lua support. Make sure your build of darktable for Linux is feature-complete.
+
+It is still possible to use other raw development plug-ins like UFRaw. For cases when multiple plug-ins are installed in your system, we intend to add a preference option.
 
 ## Screenshots
 
-The code for capturing screenshots has undergone a major reorganization. It's now split into a backend and several front-ends specific for Windows, OS X, Wayland and X.org (Linux and UNIX systems).
+The code for capturing screenshots has undergone a major reorganization. It's now split into a back-end and several front-ends specific for Windows, OS X, Wayland and X.org (Linux and UNIX systems).
 
 While there are no immediate user-visible changes, this reorganizations greatly simplifies improving user experience for different operating systems.
 
@@ -96,21 +102,23 @@ Additionally, it is now possible to assign a combination like **Shift + Mousewhe
 
 ## Selections
 
-* app: Add "Flood" select action
-* app: add gimpdrawable-fill.[ch]
-* app: add "style" and "antialias" setters to GimpFillOptions
-* app: add menu items and a dialog for GimpItem::fill()
-* app: Add "Border style" combo to the "Select -> Border..." dialog (Ell)
+For cases when your selection has a lot of small unselected regions, you can now use `Select > Remove Holes` command.
+
+(FIXME SCREENSHOT)
+
+The `Select > Border...` dialog now provides several border style options: hard, smooth, and feathered. _Feathered_ creates a selection that goes gradually from 1 to 0 the farther you get from the middle of the border. _Smooth_ preserves partial selection (antialiasing) along the edges of the selection. 
 
 ## Better Tools
 
-* app: Add "Diagonal neighbors" option to the fuzzy select tool
-* app: Add "Diagonal neighbors" option to the bucket fill tool
-* operations: Use input for the shapeburst distance map in Blend.
-* app: Add shapeburst handles to the blend tool.
-* app: use gegl:distance-transform in the blend tool, it has a progress now
-* Bug 755005 * Align Tool > Distribute * vertical offset is missing
-* app: IM preedit displayed as expected.
+_Fuzzy Select_ and _Bucket Fill_ tools got a new feature for selecting/filling diagonally neighboring pixels.
+
+(FIXME SCREENSHOT)
+
+The _Blend_ tool got shapeburst fills resurrected, and allows to place their handles on the canvas. Additionally the Blend tool displays progress indication now thanks to a new GEGL feature available in several GEGL operations including `gegl:distance-transform`.
+
+The _Text_ tool now fully supports advanced input methods for CJK, and preedit is displayed just as expected.
+
+(FIXME SCREENSHOT)
 
 ## Misc
 
@@ -118,7 +126,7 @@ Additionally, it is now possible to assign a combination like **Shift + Mousewhe
 
 ## What's Left To Do for GIMP 2.10
 
-FIXME ADD CONTENT
+(FIXME ADD CONTENT)
 
 ## Downloads
 

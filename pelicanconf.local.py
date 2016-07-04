@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+
 #Plugins
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = ["mimic_hierarchy", "i18n_subsites", "sitemap", "gimp_mirrors", "tipue_search"]
@@ -39,6 +40,11 @@ PATH = 'content'
 TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = u'en'
 DEFAULT_DATE_FORMAT = "%Y-%m-%d"
+
+# Allow dating news posts in the future
+# before then, they will automatically have
+# Status: draft set
+WITH_FUTURE_DATES = False
 
 # Feed generation is usually not desired when developing
 #FEED_DOMAIN = SITEURL

@@ -41,6 +41,11 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = u'en'
 DEFAULT_DATE_FORMAT = "%Y-%m-%d"
 
+# Allow dating news posts in the future
+# before then, they will automatically have
+# Status: draft set
+WITH_FUTURE_DATES = False
+
 # Feed generation is usually not desired when developing
 FEED_DOMAIN = SITEURL
 FEED_ATOM = 'feeds/atom.xml'
