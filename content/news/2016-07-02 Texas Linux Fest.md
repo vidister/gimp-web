@@ -1,11 +1,8 @@
----
 Title: GIMPers at Texas Linux Fest 2016
-Date: 2016-07-02T22:05:53-05:00
+Date: 2016-07-03T22:41:00-0500 
 Category: News
 Authors: Pat David
 Summary: If you happen to be anywhere near Austin, TX next weekend (July 8-9) then mosey on down to [Texas Linux Fest 2016][txlf] and meet some of your friendly neighborhood GIMP crew!
-Status: draft
----
 
 If you happen to be anywhere near Austin, TX next weekend (July 8-9) then mosey on down to [Texas Linux Fest 2016][txlf] and meet some of your friendly neighborhood GIMP crew!
 
@@ -17,7 +14,7 @@ If you happen to be anywhere near Austin, TX next weekend (July 8-9) then mosey 
 
 Both sessions will be immediately following the photowalk, before and after lunch.  They will also be in attendance for the "Graphics Hackathon" at the end of the first day.
 
-They are both part of full open graphics track on the first day that includes [Ted Gould][] creating technical diagrams using [Inkscape][], [Brian Beck][] doing a [Blender][] tutorial, and [Jonathon Thomas][] showing off [OpenShot 2.0][]!
+They are part of a full "open graphics" track on the first day that includes [Ted Gould][] creating technical diagrams using [Inkscape][], [Brian Beck][] doing a [Blender][] tutorial, and [Jonathon Thomas][] showing off [OpenShot 2.0][]!
 
 
 More information can be found on the [2016 Texas Linux Fest website][txlf]. We look forward to seeing you there!
