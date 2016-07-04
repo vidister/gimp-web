@@ -1,5 +1,5 @@
 Title: GIMPers at Texas Linux Fest 2016
-Date: 2016-07-03T22:46:00-0500 
+Date: 2016-07-04T08:00:00-0500 
 Category: News
 Authors: Pat David
 Summary: If you happen to be anywhere near Austin, TX next weekend (July 8-9) then mosey on down to [Texas Linux Fest 2016][txlf] and meet some of your friendly neighborhood GIMP crew!
