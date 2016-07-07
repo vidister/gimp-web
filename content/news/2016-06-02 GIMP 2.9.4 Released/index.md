@@ -104,15 +104,26 @@ Additionally, it is now possible to assign a combination like **Shift + Mousewhe
 
 For cases when your selection has a lot of small unselected regions, you can now use `Select > Remove Holes` command.
 
-(FIXME SCREENSHOT)
+<figure>
+    <img src="{filename}gimp-2-9-4-remove-holes.jpg" alt="Removing holes in selection" width='975' height='1110' />
+</a>
+</figure>
 
-The `Select > Border...` dialog now provides several border style options: hard, smooth, and feathered. _Feathered_ creates a selection that goes gradually from 1 to 0 the farther you get from the middle of the border. _Smooth_ preserves partial selection (antialiasing) along the edges of the selection. 
+The `Select > Border...` dialog now provides several border style options: hard, smooth, and feathered. _Feathered_ creates a selection that goes gradually from 1 to 0 the farther you get from the middle of the border. _Smooth_ preserves partial selection (antialiasing) along the edges of the selection.
+
+<figure>
+    <img src="{filename}gimp-2-9-4-border-style.png" alt="Border styles selection" width='975' height='648' />
+</a>
+</figure>
 
 ## Better Tools
 
 _Fuzzy Select_ and _Bucket Fill_ tools got a new feature for selecting/filling diagonally neighboring pixels.
 
-(FIXME SCREENSHOT)
+<figure>
+    <img src="{filename}gimp-2-9-4-diagonal-neighbors.png" alt="Diagonal neighbors selection" width='975' height='648' />
+</a>
+</figure>
 
 The _Blend_ tool got shapeburst fills resurrected, and allows to place their handles on the canvas. Additionally the Blend tool displays progress indication now thanks to a new GEGL feature available in several GEGL operations including `gegl:distance-transform`.
 
