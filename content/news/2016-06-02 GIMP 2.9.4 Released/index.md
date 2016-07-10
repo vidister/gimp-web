@@ -14,15 +14,19 @@ GIMP 2.9.4 is quite reliable for production work, but there are still loose ends
 
 The new version features several new themes by Benoit Touchette in various shades of grey: Lighter, Light, Gray, Dark, Darker. System theme has been preserved for users who prefer completely consistent look of user interfaces across all desktop applications.
 
+(FIXME SCREENSHOT)
+
 Note that we still consider this feature a work in progress, as dark themes still need some fine-tuning (especially regarding the color of inactive menu items).
 
 The new UI themes are accompanied by symbolic icons created by Barbara Muraus, Benoit Touchette, and Klaus Staedtler. The existing icon theme from past releases of GIMP has also been preserved, and users can freely switch between available icon themes and easily add their own ones.
 
 Klaus Staedtler is also working on vector (SVG) icons for HiDPI displays (also commonly known as Retina). It's an experimental feature, available after using '--enable-vector-icons' build configure option.
 
-We cleaned the Preferences dialog a little and reordered option in a  more logical manner. The Color Management page was redesigned following both internal and user-visible changes in relevant parts of GIMP (see below), and _Snap Distance_ options have been moved to a dedicated _Snapping_ page.
+(FIXME SCREENSHOT)
 
-Additionally, it is now possible to configure the size of undo step previews in the Undo dialog via the Preferences dialog, which was only possible by manually editing GIMP's configuration file before, by a complete oversight on our part.
+We cleaned the Preferences dialog a little and reordered option in a more logical manner. The Color Management page was redesigned following both internal and user-visible changes in relevant parts of GIMP (see below), and _Snap Distance_ options have been moved to a dedicated _Snapping_ page.
+
+Additionally, it is now possible to configure the size of undo step previews in the Undo dialog via the _Preferences_ dialog, which was only possible by manually editing GIMP's configuration file before, by a complete oversight on our part.
 
 The startup spalsh screen now features a pulsing progress bar to indicate that GIMP is not frozen. This, as well as initializing fontconfig in the background (also a new feature in 2.9.4), is meant to address a common issue where rebuilding fonts cache (or building it for the first time) can take a lot of time hence making an impression that GIMP freezes at startup. We acknowledge that this is a workaround. Fixing the actual reason involves hacking on fontconfig. If you are interested, there is a [bug report](https://bugs.freedesktop.org/show_bug.cgi?id=64766) on that.
 
@@ -33,6 +37,8 @@ Color Management implementation got a complete overhaul in this version of GIMP.
 For now, it has helped us to clean up the code a lot and introduce clean implementation of color management to various bits of GIMP such as: previews for flat and gradient swatches, patterns, various color widgets (including the drag-and-drop color widget), the Color Picker tool, layer and image preview etc. The only unmanaged bit for now is the color widget in Script-Fu and Python-Fu plugins. Moreover, GIMP will track which monitor the widget is currently on (different minotors would have different ICC profiles assigned to them) and color-correct it accordingly.
 
 Greyscale images are first class citizens in GIMP again: since v2.9.4, GIMP can color-manage them as well.
+
+(FIXME SCREENSHOT)
 
 Since GIMP currently relies on sRGB (this is bound to change in future versions of GIMP), we decided to expose that in the user interface. So currently GIMP has an option called 'Color-manage this image' in two places: the _New Image_ dialog and the `Image > Color Management` submenu. What it means is that instead of taking into consideration the ICC profile embedded into an image (whichever profile it is) it will just treat everything as sRGB. Please note that we are likely to reword the option to make it even more explicit about what it does.
 
@@ -51,6 +57,8 @@ Among smaller changes there's a new `Image > Color Management > Save Color Profi
 GIMP now keeps track of GEGL-based filters that you used within one session and allows re-running them via `Filters > Recently` used submenu, just like old GIMP plug-ins.
 
 _Posterize_ and _Desaturate_ color tools have been converted to regular GEGL-based filters, and both _Tile_ and _Pagecurl_ filters have been converted to use GEGL buffers. A quite popular "photographic" _Highpass_ filter commonly used for enhancing details was added to the `Filters > Enhance` submenu.
+
+(FIXME SCREENSHOT)
 
 A way more noticeable new feature, however, is split preview for GEGL-based filters. You can compare before/after versions right on canvas and move a "curtain" around to see more of "before" or "after" and swap their position. You can also switch between vertical and horizontal division.
 
@@ -111,6 +119,8 @@ The _Text_ tool now fully supports advanced input methods for CJK, and preedit i
 
 ## Misc
 
+(FIXME) 
+
 * Bug 109161 * Improve Histogram with Luminance Channel
 
 ## What's Left To Do for GIMP 2.10
@@ -119,4 +129,4 @@ The _Text_ tool now fully supports advanced input methods for CJK, and preedit i
 
 ## Downloads
 
-FIXME ADD CONTENT
+(FIXME ADD CONTENT)
