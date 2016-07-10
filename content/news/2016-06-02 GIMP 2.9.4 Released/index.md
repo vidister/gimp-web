@@ -30,43 +30,21 @@ The startup spalsh screen now features a pulsing progress bar to indicate that G
 
 Color Management implementation got a complete overhaul in this version of GIMP. Instead of being a pluggable module, it's a core feature now. Moreover, we added an abstraction layer that makes GIMP less dependent on LittleCMS. This means that in the future GIMP could use native APIs on Windows and OS X, and/or use [OCIO](http://opencolorio.org/).
 
-Since GIMP currently relies on sRGB (this is bound to change in future versions of GIMP), we decided to expose that in the user interface.
+For now, it has helped us to clean up the code a lot and introduce clean implementation of color management to various bits of GIMP such as: previews for flat and gradient swatches, patterns, various color widgets (including the drag-and-drop color widget), the Color Picker tool, layer and image preview etc. The only unmanaged bit for now is the color widget in Script-Fu and Python-Fu plugins. Moreover, GIMP will track which monitor the widget is currently on (different minotors would have different ICC profiles assigned to them) and color-correct it accordingly.
 
-* Color-managing grayscale images
-* app: prepare the color profile dialog for doing RGB <-> GRAY conversion
-* Bug 765176 * ICC profile conversions between grayscale and RGB images
-* Bug 478528 * Layer and Image previews are not color managed
-* app: implement GimpColorManaged in GimpDrawable
-* pygimp: add GimpColorConfig object
-* pygimp: add type definition for GimpColorManaged
-* libgimpcolor: add gimp_color_profile_save_to_file()
-* app: add Image -> Color Management -> Save Color Profile to File...
-* libgimpwidgets: update OS X code to get display profile to new API (Kris)
-* libgimpwidgets: Mac OS X: read ICC profile from the correct buffer
-* app: add a per-image "is color managed" switch
-* app: pass the right color profile around in gimp_selection_float()
-* app: show the image's "is color managed" state in the window title string
-* app: add basic support for creating images with color profiles
-* app: clean up Preferences -> Color Management
-* Bug 320447 * fast switching between "color managed display" and "softproof"
-* app: add tooltips that mention that disabling color management == sRGB
-* Bug 748749 * picked colors don't match image colors...
-* libgimpwidgets: add gimp_preview_area_set_color_config()
-* libgimpcolor: add new object GimpColorTransform: which encapsulates a cmsHTRANSFORM and does all the pixel format conversion magic. It has API to create transforms and proofing transforms, and to convert pixels arrays and GeglBuffers. Before, each place which has a transform had to keep around the transform and its input and output Babl formats, and had to implement lots of stuff itself. Now all that lives in GimpColorTransform, removing lots of logic from many places, and pretty much removing lcms from the public API entirely. This removes including <lcms2.h>, LCMS_LIBS and LCMS_CFLAGS from almost all directories and potentially allows to replace lcms by something else.
-* libgimpwidgets: set the color config on GimpColorSelection's color areas
-* libgimpwidgets: set the color config on the "GIMP" page of color selectors
-* app: color manage the color buttons of GimpColorHistory
-* app: color manage GimpFgBgEditor, as used e.g. in the toolbox
-* libgimpcolor: add CMYK formats to gimp_color_profile_get_format()
-* Bug 467930 * color selectors are not color managed
-* app: make all GimpViewRenderers color manage themselves, color manage palette and gradient previews (patterns, gradients, swatches)
-* app: set a color config on color areas created from menu actions
-* Bug 766988 * Colors applied to images are not color managed
-* app: color manage the color DND icon widget
-* app: color manage GimpColorPanel and its color dialog (gegl tool dialogs etc.)
-* app: set the color config on the color picker tool dialog's color area
-* libgimpwidgets: always ask the toplevel window for its color profile
-* libgimpwidgets, app: have all previews track the monitor they are on
+Greyscale images are first class citizens in GIMP again: since v2.9.4, GIMP can color-manage them as well.
+
+Since GIMP currently relies on sRGB (this is bound to change in future versions of GIMP), we decided to expose that in the user interface. So currently GIMP has an option called 'Color-manage this image' in two places: the _New Image_ dialog and the `Image > Color Management` submenu. What it means is that instead of taking into consideration the ICC profile embedded into an image (whichever profile it is) it will just treat everything as sRGB. Please note that we are likely to reword the option to make it even more explicit about what it does.
+
+Additionally, there's now a `View > Color Management` submenu as well where you can enable and control softproofing. 
+
+The _Color Management_ section of the _Preferences_ dialog has been reorganized to reflect recent changes and provide more consistent wording of options. 
+
+(FIXME SCREENSHOT)
+
+Since color management is always a tad too slow (at least with LittleCMS), there's a new option that enables you to choose either better color fidelity of faster processing depending on the kind of work you usually do.
+
+Among smaller changes there's a new `Image > Color Management > Save Color Profile to File...` command that does exactly what it says: it dumps an embedded ICC profile to a disk as a file. Note that copyright restrictions on ICC profiles may apply, so please be careful.
 
 ## GEGL
 
