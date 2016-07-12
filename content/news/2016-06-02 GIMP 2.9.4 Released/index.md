@@ -16,7 +16,7 @@ The new version features several new themes by Benoit Touchette in various shade
 
 Note that we still consider this feature a work in progress, as dark themes still need some fine-tuning (especially regarding the color of inactive menu items).
 
-The new UI themes are accompanied by symbolic icons created by Barbara Muraus, Benoit Touchette, and Klaus Staedtler. The existing icon theme from past releases of GIMP has also been preserved, and users can freely switch between available icon themes and easily add their own ones.
+The new UI themes are accompanied by symbolic icons created by Barbara Muraus, Jakub Steiner, and Klaus Staedtler. The existing icon theme from past releases of GIMP has also been preserved, and users can freely switch between available icon themes and easily add their own ones.
 
 Klaus Staedtler is also working on vector (SVG) icons for HiDPI displays (also commonly known as Retina). It's an experimental feature, available after using '--enable-vector-icons' build configure option.
 
