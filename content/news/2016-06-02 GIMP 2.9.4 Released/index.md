@@ -126,6 +126,15 @@ The _Text_ tool now fully supports advanced input methods for CJK and other non-
 
 A new macro `with-files` is now available in order to easily process multiple files through GIMP, on command line, which was a much awaited feature.
 
+For instance, if you wanted to invert colors of all PNG images from the current folder, then save them as JPEG, you could run from the command line:
+
+```bash
+gimp -i -b '(with-files "*.png" (gimp-invert layer) \
+             (gimp-file-save 1 image layer \
+              (string-append basename ".jpg") \
+              (string-append basename ".jpg") ))'
+```
+
 ## Email plugin back from the dead
 
 The `File > Send by email…` dialog will open your default email client with an attached copy of your current image, to share your work-in-progress in a single click. This is available only on operating systems with `xdg-email` (likely GNU/Linux, BSD only).
