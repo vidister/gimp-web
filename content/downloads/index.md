@@ -220,9 +220,12 @@ Nightly builds for Windows are available at [darkrefraction.com](http://nightly.
 
 A detailed list of changes in the development branch is available in [git](https://git.gnome.org/cgit/gimp/plain/NEWS).
 
-GIMP 2.9.2 is now available at [http://download.gimp.org/mirror/pub/gimp/v2.9/](//download.gimp.org/mirror/pub/gimp/v2.9/).
+GIMP 2.9.4 is now available at [http://download.gimp.org/mirror/pub/gimp/v2.9/](//download.gimp.org/mirror/pub/gimp/v2.9/).
 
 To allow you to check the integrity of the tarballs, here are the MD5 sums of the latest development snapshots:
+
+**gimp-2.9.4.tar.bz2**  
+<kbd>6b3d425a7949110eeb532badedf721f3</kbd>
 
 **gimp-2.9.2.tar.bz2**  
 <kbd>aa8a846a497e3328c5b7d2fd33f5cf63</kbd>
