@@ -132,6 +132,10 @@ The `File > Send by email…` dialog will open your default email client with an
 
 The original implementation using `sendmail` is also available, yet since it requires a properly configured sendmail, which is not common on desktop machines, the explicit `--with-sendmail` option has to be set at build time to replace the `xdg-email` implementation.
 
+## Debugging Facilities for Windows
+
+Windows builds can now generate backtrace logs upon a crash with Dr.MinGW's ExcHndl library, which must be available at build time. The logs will be available in `%APPDATA%\GIMP\2.9\CrashLog\`.
+
 ## Misc
 
 * Bug 109161 * Improve Histogram with Luminance Channel
