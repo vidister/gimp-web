@@ -85,7 +85,16 @@ The new MyPaint Brush tool is now enabled by default. Daniel Sabo and Michael Na
 
 Jehan Pagès collaborated with the MyPaint team: he ported libmypaint to autotools, allowing in particular standard builds on all platforms, and work is being done to turn default brushes into a separately shipped package.
 
-Another major new feature is symmetric painting mode, also developed by Jehan Pagès with financial support from the GIMP community. It can be activated through the new "Symmetry Painting" dock, and allows to use all paint tools with various symmetries (mirrors, central and rotational symmetry, tiling…).
+Another major new feature is symmetric painting mode, also developed by Jehan Pagès with financial support from the GIMP community. It can be activated through the new "Symmetry Painting" dock, and allows to use all paint tools with various symmetries (mirror, mandala, tiling…).
+
+* "Mirror" allows to paint with **horizontal, vertical (axial) and/or central symmetry**. The symmetry guides can be placed anywhere on canvas.
+* "Mandala" is a **rotational symmetry** of any order. The center can be placed anywhere on canvas.
+* "Tiling" is a **translational symmetry**, which can be finite (with a maximum of strokes) or infinite. In the latter case, it is the perfect tool to create patterns or seamless tiles, with instant rendering of what it will look like, at painting time.
+
+Quick 1-minute test by Aryeom Han:
+<figure>
+    <img src="{filename}gimp-2-9-4-symmetry.png" alt="Symmetry painting" width='975' height='1440' />
+</figure>
 
 Additionally, it is now possible to assign a combination like **Shift + Mousewheel** for changing brush size.
 
@@ -118,7 +127,9 @@ The _Blend_ tool got shapeburst fills resurrected, and allows to place their han
 
 The _Text_ tool now fully supports advanced input methods for CJK and other non-western languages. Minimal support already existed but the preedit text was displayed in a floating popup instead of inline within the text tool box, and without any preview styling. It is now displayed just as expected depending on your platform and Input Method Engine. Several input method-related bugs and crashes have also been fixed in the same time.
 
-(FIXME SCREENSHOT)
+<figure>
+    <img src="{filename}gimp-2-9-4-ime.png" alt="Input Method Engine support in text tool" width='417' height='240' />
+</figure>
 
 ## Batch processing on command line
 
