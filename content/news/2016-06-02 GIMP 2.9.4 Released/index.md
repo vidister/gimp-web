@@ -18,11 +18,11 @@ The new version features several new themes by Benoit Touchette in various shade
 
 Note that we still consider this feature a work in progress, as dark themes still need some fine-tuning (especially regarding the color of inactive menu items).
 
-The new UI themes are accompanied by symbolic icons originally created by Barbara Muraus, Jakub Steiner, and heavily updated and completed by Klaus Staedtler. The existing icon theme from past releases of GIMP has also been preserved, and users can freely switch between available icon themes and easily add their own ones.
+The new UI themes are accompanied by symbolic icons originally created by Barbara Muraus and Jakub Steiner, and heavily updated and completed by Klaus Staedtler. The existing icon theme from past releases of GIMP has also been preserved, and users can freely switch between available icon themes and easily add their own ones.
 
-Note that themes and icon themes are now separate: you can easily mix your favorite UI with various icon sets. Also since most 2.8 themes would end up broken in 2.9.x, themes are not migrated anymore. Users who want custom themes will have to install ones specifically made for GIMP 2.9.x/2.10.
+Note that themes and icon themes are now separate: you can easily mix your favorite UI with various icon sets. Also since most 2.8 themes would end up broken in 2.9.x, themes are not migrated from GIMP < 2.9. Users who want custom themes will have to install ones specifically made for GIMP 2.9.x/2.10.
 
-All work on icons by Klaus Staedtler is made on vector (SVG) images, which should allow better support for HiDPI displays (also commonly known as Retina) soon. Vector icons are an experimental feature, available after using '--enable-vector-icons' build configure option. Note that this option does not allow HiDPI support at this time.
+All work on icons by Klaus Staedtler is made on vector (SVG) images, which should allow better support for HiDPI displays (also commonly known as Retina) soon. Vector icons are an experimental feature, available after using `--enable-vector-icons` build configure option. Note that this option does not allow HiDPI support at this time.
 
 We cleaned the Preferences dialog a little and reordered options in a  more logical manner. The Color Management page was redesigned following both internal and user-visible changes in relevant parts of GIMP (see below), and _Snap Distance_ options have been moved to a dedicated _Snapping_ page.
 
@@ -42,9 +42,9 @@ Greyscale images are first class citizens in GIMP again: since v2.9.4, GIMP can 
 
 Since GIMP currently relies on sRGB (this is bound to change in future versions of GIMP), we decided to expose that in the user interface. So currently GIMP has an option called 'Color-manage this image' in two places: the _New Image_ dialog and the `Image > Color Management` submenu. What it means is that instead of taking into consideration the ICC profile embedded into an image (whichever profile it is) it will just treat everything as sRGB. Please note that we are likely to reword the option to make it even more explicit about what it does.
 
-Additionally, there's now a `View > Color Management` submenu as well where you can enable and control softproofing. 
+Additionally, there's now a `View > Color Management` submenu as well where you can enable and control softproofing.
 
-The _Color Management_ section of the _Preferences_ dialog has been reorganized to reflect recent changes and provide more consistent wording of options. 
+The _Color Management_ section of the _Preferences_ dialog has been reorganized to reflect recent changes and provide more consistent wording of options.
 
 <figure>
     <img src="{filename}gimp-2-9-4-preferences-cms.png" alt="Color Management Preferences" width='975' height='920' />
@@ -135,13 +135,13 @@ gimp -i -b '(with-files "*.png" (gimp-invert layer) \
 
 ## Email plugin back from the dead
 
-The `File > Send by email…` dialog will open your default email client with an attached copy of your current image, to share your work-in-progress in a single click. This is available only on operating systems with `xdg-email` (likely GNU/Linux, BSD only).
+The `File > Send by email…` dialog will open your default email client with an attached copy of your current image, to share your work-in-progress in a single click. This is available only on operating systems with `xdg-email` (likely **GNU/Linux, BSD only**).
 
-The original implementation using `sendmail` is also available, yet since it requires a properly configured sendmail, which is not common on desktop machines, the explicit `--with-sendmail` option has to be set at build time to replace the `xdg-email` implementation.
+The original implementation using `sendmail` is also available. Yet since it requires a properly configured sendmail, which is not common on desktop machines, the explicit `--with-sendmail` option has to be set at build time to replace the `xdg-email` implementation.
 
 ## Debugging Facilities for Windows
 
-Windows builds can now generate backtrace logs upon a crash with Dr.MinGW's ExcHndl library, which must be available at build time. The logs will be available in `%APPDATA%\GIMP\2.9\CrashLog\`.
+**Windows** builds can now generate backtrace logs upon a crash with [Dr.MinGW's ExcHndl](https://github.com/jrfonseca/drmingw) library, which must be available at build time. The logs will be stored in `%APPDATA%\GIMP\2.9\CrashLog\`.
 
 ## Misc
 
