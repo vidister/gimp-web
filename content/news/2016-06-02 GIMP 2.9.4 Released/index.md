@@ -18,17 +18,17 @@ The new version features several new themes by Benoit Touchette in various shade
 
 Note that we still consider this feature a work in progress, as dark themes still need some fine-tuning (especially regarding the color of inactive menu items).
 
-The new UI themes are accompanied by symbolic icons created by Barbara Muraus, Benoit Touchette, and Klaus Staedtler. The existing icon theme from past releases of GIMP has also been preserved, and users can freely switch between available icon themes and easily add their own ones.
+The new UI themes are accompanied by symbolic icons originally created by Barbara Muraus, Jakub Steiner, and heavily updated and completed by Klaus Staedtler. The existing icon theme from past releases of GIMP has also been preserved, and users can freely switch between available icon themes and easily add their own ones.
 
-Klaus Staedtler is also working on vector (SVG) icons for HiDPI displays (also commonly known as Retina). It's an experimental feature, available after using '--enable-vector-icons' build configure option.
+Note that themes and icon themes are now separate: you can easily mix your favorite UI with various icon sets. Also since most 2.8 themes would end up broken in 2.9.x, themes are not migrated anymore. Users who want custom themes will have to install ones specifically made for GIMP 2.9.x/2.10.
 
-(FIXME SCREENSHOT)
+All work on icons by Klaus Staedtler is made on vector (SVG) images, which should allow better support for HiDPI displays (also commonly known as Retina) soon. Vector icons are an experimental feature, available after using '--enable-vector-icons' build configure option. Note that this option does not allow HiDPI support at this time.
 
-We cleaned the Preferences dialog a little and reordered option in a more logical manner. The Color Management page was redesigned following both internal and user-visible changes in relevant parts of GIMP (see below), and _Snap Distance_ options have been moved to a dedicated _Snapping_ page.
+We cleaned the Preferences dialog a little and reordered options in a  more logical manner. The Color Management page was redesigned following both internal and user-visible changes in relevant parts of GIMP (see below), and _Snap Distance_ options have been moved to a dedicated _Snapping_ page.
 
 Additionally, it is now possible to configure the size of undo step previews in the Undo dialog via the _Preferences_ dialog, which was only possible by manually editing GIMP's configuration file before, by a complete oversight on our part.
 
-The startup spalsh screen now features a pulsing progress bar to indicate that GIMP is not frozen. This, as well as initializing fontconfig in the background (also a new feature in 2.9.4), is meant to address a common issue where rebuilding fonts cache (or building it for the first time) can take a lot of time hence making an impression that GIMP freezes at startup. We acknowledge that this is a workaround. Fixing the actual reason involves hacking on fontconfig. If you are interested, there is a [bug report](https://bugs.freedesktop.org/show_bug.cgi?id=64766) on that.
+The startup splash screen now features a pulsing progress bar to indicate that GIMP is not frozen. This, as well as initializing fontconfig in the background (also a new feature in 2.9.4), is meant to address a common issue where rebuilding fonts cache (or building it for the first time) can take a lot of time hence making an impression that GIMP freezes at startup. We acknowledge that this is a workaround. Fixing the actual reason involves hacking on fontconfig. If you are interested, there is a [bug report](https://bugs.freedesktop.org/show_bug.cgi?id=64766) on that.
 
 ## Color Management Improvements
 
@@ -83,9 +83,9 @@ While there are no immediate user-visible changes, this reorganizations greatly 
 
 The new MyPaint Brush tool is now enabled by default. Daniel Sabo and Michael Natterer improved its performance and made MyPaint brushes available via an aready familiar dockable dialog interface, with previews and tagging.
 
-Jehan Pagès collaborated with the MyPaint team: he ported libmypaint to autotools and turned default brushes into a separately shipped package.
+Jehan Pagès collaborated with the MyPaint team: he ported libmypaint to autotools, allowing in particular standard builds on all platforms, and work is being done to turn default brushes into a separately shipped package.
 
-Another major new feature is symmetric painting mode, also developed by Jehan Pagès with financial support from the GIMP community. (FIXME MORE CONTENT)
+Another major new feature is symmetric painting mode, also developed by Jehan Pagès with financial support from the GIMP community. It can be activated through the new "Symmetry Painting" dock, and allows to use all paint tools with various symmetries (mirrors, central and rotational symmetry, tiling…).
 
 Additionally, it is now possible to assign a combination like **Shift + Mousewheel** for changing brush size.
 
@@ -116,13 +116,36 @@ _Fuzzy Select_ and _Bucket Fill_ tools got a new feature for selecting/filling d
 
 The _Blend_ tool got shapeburst fills resurrected, and allows to place their handles on the canvas. Additionally the Blend tool displays progress indication now thanks to a new GEGL feature available in several GEGL operations including `gegl:distance-transform`.
 
-The _Text_ tool now fully supports advanced input methods for CJK, and preedit is displayed just as expected.
+The _Text_ tool now fully supports advanced input methods for CJK and other non-western languages. Minimal support already existed but the preedit text was displayed in a floating popup instead of inline within the text tool box, and without any preview styling. It is now displayed just as expected depending on your platform and Input Method Engine. Several input method-related bugs and crashes have also been fixed in the same time.
 
 (FIXME SCREENSHOT)
 
+## Batch processing on command line
+
+A new macro `with-files` is now available in order to easily process multiple files through GIMP, on command line, which was a much awaited feature.
+
+For instance, if you wanted to invert colors of all PNG images from the current folder, then save them as JPEG, you could run from the command line:
+
+```bash
+gimp -i -b '(with-files "*.png" (gimp-invert layer) \
+             (gimp-file-save 1 image layer \
+              (string-append basename ".jpg") \
+              (string-append basename ".jpg") ))'
+```
+
+## Email plugin back from the dead
+
+The `File > Send by email…` dialog will open your default email client with an attached copy of your current image, to share your work-in-progress in a single click. This is available only on operating systems with `xdg-email` (likely GNU/Linux, BSD only).
+
+The original implementation using `sendmail` is also available, yet since it requires a properly configured sendmail, which is not common on desktop machines, the explicit `--with-sendmail` option has to be set at build time to replace the `xdg-email` implementation.
+
+## Debugging Facilities for Windows
+
+Windows builds can now generate backtrace logs upon a crash with Dr.MinGW's ExcHndl library, which must be available at build time. The logs will be available in `%APPDATA%\GIMP\2.9\CrashLog\`.
+
 ## Misc
 
-(FIXME) 
+(FIXME)
 
 * Bug 109161 * Improve Histogram with Luminance Channel
 
