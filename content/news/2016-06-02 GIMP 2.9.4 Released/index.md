@@ -46,7 +46,10 @@ Additionally, there's now a `View > Color Management` submenu as well where you 
 
 The _Color Management_ section of the _Preferences_ dialog has been reorganized to reflect recent changes and provide more consistent wording of options. 
 
-(FIXME SCREENSHOT)
+<figure>
+    <img src="{filename}gimp-2-9-4-preferences-cms.png" alt="Color Management Preferences" width='975' height='920' />
+</a>
+</figure>
 
 Since color management is always a tad too slow (at least with LittleCMS), there's a new option that enables you to choose either better color fidelity of faster processing depending on the kind of work you usually do.
 
