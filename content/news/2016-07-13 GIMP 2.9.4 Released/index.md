@@ -5,13 +5,13 @@ Authors: Wilber
 Slug: gimp-2-9-4-released
 Summary: We have just released the second development version of GIMP in the 2.9.x series. GIMP 2.9.4 features revamped look and feel, major improvements in color management, as well as production-ready MyPaint Brush tool, symmetric painting, and split preview for GEGL-based filters.
 
-We have just released the second development version of GIMP in the 2.9.x series. After half a year in the works, GIMP 2.9.4 delivers a massive update: revamped look and feel, major improvements in color management, as well as production-ready MyPaint Brush tool, symmetric painting, and split preview for GEGL-based filters. Additionally, XX bugs have been fixed, and numerous small improvements have been applied.
+We have just released the second development version of GIMP in the 2.9.x series. After half a year in the works, GIMP 2.9.4 delivers a massive update: revamped look and feel, major improvements in color management, as well as production-ready MyPaint Brush tool, symmetric painting, and split preview for GEGL-based filters. Additionally, dozens of bugs have been fixed, and numerous small improvements have been applied.
 
 GIMP 2.9.4 is quite reliable for production work, but there are still loose ends to tie, which is why releasing stable v2.10 will take a while. Please refer to the [Roadmap](http://wiki.gimp.org/wiki/Roadmap#GIMP_2.10) for the list of major pending changes.
 
 ## Revamped User Interface and Usability Changes
 
-The new version features several new themes by Benoit Touchette in various shades of grey: Lighter, Light, Gray, Dark, Darker. System theme has been preserved for users who prefer completely consistent look of user interfaces across all desktop applications.
+The new version features several new themes by Benoit Touchette in various shades of gray: Lighter, Light, Gray, Dark, Darker. The system theme has been preserved for users who prefer a completely consistent look of user interfaces across all desktop applications.
 
 <figure>
     <img src="{filename}gimp-2-9-4-themes.jpg" alt="New User Interface Themes" width='975' height='390' />
@@ -23,25 +23,25 @@ The new UI themes are accompanied by symbolic icons originally created by Barbar
 
 Note that themes and icon themes are now separate: you can easily mix your favorite UI with various icon sets. Also since most 2.8 themes would end up broken in 2.9.x, themes are not migrated from GIMP < 2.9. Users who want custom themes will have to install ones specifically made for GIMP 2.9/2.10.
 
-All work on icons by Klaus Staedtler is made on vector (SVG) images, which should allow better support for HiDPI displays (also commonly known as Retina) soon. Vector icons are an experimental feature, available after using `--enable-vector-icons` build configure option. Note that this option does not allow HiDPI support at this time.
+All work on icons by Klaus Staedtler is made on vector (SVG) images, which should allow better support for HiDPI displays (also commonly known as Retina) soon. Vector icons are an experimental feature, available after using the `--enable-vector-icons` build configure option. Note that this option does not allow HiDPI support at this time.
 
-We cleaned the Preferences dialog a little and reordered options in a  more logical manner. The Color Management page was redesigned following both internal and user-visible changes in relevant parts of GIMP (see below), and _Snap Distance_ options have been moved to a dedicated _Snapping_ page.
+We cleaned the Preferences dialog a little and reordered options in a  more logical manner. The Color Management page was redesigned following both internal and user-visible changes in relevant parts of GIMP (see below), and the _Snap Distance_ options have been moved to a dedicated _Snapping_ page.
 
-Additionally, it is now possible to configure the size of undo step previews in the Undo dialog via the _Preferences_ dialog, which was only possible by manually editing GIMP's configuration file before, by a complete oversight on our part.
+Additionally, it is now possible to configure the size of undo step previews in the Undo dialog via the _Preferences_ dialog, which was previously only possible by manually editing GIMP’s configuration file GIMP's configuration file before, by a complete oversight on our part.
 
-The startup splash screen now features a pulsing progress bar to indicate that GIMP is not frozen. This, as well as initializing fontconfig in the background (also a new feature in 2.9.4), is meant to address a common issue where rebuilding fonts cache (or building it for the first time) can take a lot of time hence making an impression that GIMP freezes at startup. We acknowledge that this is a workaround. Fixing the actual reason involves hacking on fontconfig. If you are interested, there is a [bug report](https://bugs.freedesktop.org/show_bug.cgi?id=64766) on that.
+The startup splash screen now features a pulsing progress bar to indicate that GIMP is not frozen. This, as well as initializing fontconfig in the background (also a new feature in 2.9.4), is meant to address a common issue where rebuilding the fonts cache (or building it for the first time) can take a lot of time hence making an impression that GIMP freezes at startup. We acknowledge that this is a workaround. Fixing the actual reason involves hacking on fontconfig. If you are interested, there is a [bug report](https://bugs.freedesktop.org/show_bug.cgi?id=64766) on that.
 
 ## Color Management Improvements
 
-Color Management implementation got a complete overhaul in this version of GIMP. Instead of being a pluggable module, it's a core feature now. Moreover, we added an abstraction layer that makes GIMP less dependent on [LittleCMS](http://www.littlecms.com/). This means that in the future GIMP could use native APIs on Windows and OS X, and/or use [OCIO](http://opencolorio.org/).
+The color management implementation got a complete overhaul in this version of GIMP. Instead of being a pluggable module, it is now a core feature. Moreover, we added an abstraction layer that makes GIMP less dependent on [LittleCMS](http://www.littlecms.com/). This means that in the future GIMP could use native APIs on Windows and OS X, and/or use [OCIO](http://opencolorio.org/).
 
-For now, it has helped us to clean up the code a lot and introduce clean implementation of color management to various bits of GIMP such as: previews for flat and gradient swatches, patterns, various color widgets (including the drag-and-drop color widget), the Color Picker tool, layer and image preview etc. The only unmanaged bit for now is the color widget in Script-Fu and Python-Fu plugins. Moreover, GIMP will track which monitor the widget is currently on (different monitors would have different ICC profiles assigned to them) and color-correct it accordingly.
+For now, it has helped us to clean up the code a lot and introduce a clean implementation of color management to various bits of GIMP such as: previews for flat and gradient swatches, patterns, various color widgets (including the drag-and-drop color widget), the Color Picker tool, layer and image preview etc. The only unmanaged bit for now is the color widget in the Script-Fu and Python-Fu plug-ins. Moreover, GIMP will track which monitor the widget is currently on (different monitors would have different ICC profiles assigned to them) and color-correct it accordingly.
 
-Greyscale images are first class citizens in GIMP again: since v2.9.4, GIMP can color-manage them as well.
+Grayscale images are first class citizens in GIMP once again: since v2.9.4, GIMP can color-manage them as well.
 
 Since GIMP currently relies on sRGB (this is bound to change in future versions of GIMP), we decided to expose that in the user interface. So currently GIMP has an option called 'Color-manage this image' in two places: the _New Image_ dialog and the `Image > Color Management` submenu. What it means is that instead of taking into consideration the ICC profile embedded into an image (whichever profile it is) it will just treat everything as sRGB. Please note that we are likely to reword the option to make it even more explicit about what it does.
 
-Additionally, there's now a `View > Color Management` submenu as well where you can enable and control softproofing.
+Additionally, there's now a `View > Color Management` submenu where you can enable and control softproofing.
 
 The _Color Management_ section of the _Preferences_ dialog has been reorganized to reflect recent changes and provide more consistent wording of options.
 
@@ -49,17 +49,17 @@ The _Color Management_ section of the _Preferences_ dialog has been reorganized 
     <img src="{filename}gimp-2-9-4-preferences-cms.png" alt="Color Management Preferences" width='975' height='920' />
 </figure>
 
-Since color management is always a tad too slow (at least with LittleCMS), there's a new option that enables you to choose either better color fidelity of faster processing depending on the kind of work you usually do.
+Since color management comes with a speed penalty (at least with LittleCMS), there's a new option that enables you to choose either better color fidelity of faster processing depending on the kind of work you usually do.
 
-Among smaller changes there's a new `Image > Color Management > Save Color Profile to File...` command that does exactly what it says: it dumps an embedded ICC profile to a disk as a file. Note that copyright restrictions on ICC profiles may apply, so please be careful.
+Among smaller changes there's a new `Image > Color Management > Save Color Profile to File...` command that does exactly what it says: it dumps an embedded ICC profile to disk as a file. Note that copyright restrictions on ICC profiles may apply, so please be careful.
 
 ## GEGL
 
-GIMP now keeps track of [GEGL](http://gegl.org/)-based filters that you used within one session and allows re-running them via the `Filters > Recently Used` submenu, just like old GIMP plug-ins.
+GIMP now keeps track of all [GEGL](http://gegl.org/)-based filters that you used within one session and allows re-running them via the `Filters > Recently Used` submenu, just like old GIMP plug-ins.
 
-_Posterize_ and _Desaturate_ color tools have been converted to regular GEGL-based filters, and both _Tile_ and _Pagecurl_ filters have been converted to use GEGL buffers. A quite popular "photographic" _Highpass_ filter commonly used for enhancing details was added to the `Filters > Enhance` submenu.
+The _Posterize_ and _Desaturate_ color tools have been converted to regular GEGL-based filters, and both the _Tile_ and _Pagecurl_ filters have been converted to use GEGL buffers. A quite popular "photographic" _Highpass_ filter commonly used for enhancing details was added to the `Filters > Enhance` submenu.
 
-A way more noticeable new feature, however, is split preview for GEGL-based filters. You can compare before/after versions right on canvas and move a "curtain" around to see more of "before" or "after" and swap their position (`Shift + click` on the guide). You can also switch between vertical and horizontal division (`Ctrl + click`).
+A way more noticeable new feature, however, is split preview for GEGL-based filters. You can compare before/after versions right on canvas and move a "curtain" around to see more of "before" or "after", and swap their positions (`Shift + click` on the guide). You can also switch between vertical and horizontal division (`Ctrl + click`).
 
 <figure>
     <img src="{filename}gimp-2-9-4-gegl-curtain.jpg" alt="GEGL preview curtain - original image by Aryeom Han" width='975' height='548' />
