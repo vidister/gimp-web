@@ -81,9 +81,13 @@ While there are no immediate user-visible changes, this reorganizations greatly 
 
 ## Painting
 
+### MyPaint brush tool
+
 The new MyPaint Brush tool is now enabled by default. Daniel Sabo and Michael Natterer improved its performance and made MyPaint brushes available via an aready familiar dockable dialog interface, with previews and tagging.
 
 Jehan Pagès collaborated with the MyPaint team: he ported libmypaint to autotools, allowing in particular standard builds on all platforms, and work is being done to turn default brushes into a separately shipped package.
+
+### Symmetry painting
 
 Another major new feature is symmetric painting mode, also developed by Jehan Pagès with financial support from the GIMP community. It can be activated through the new "Symmetry Painting" dock, and allows to use all paint tools with various symmetries (mirror, mandala, tiling…).
 
@@ -96,7 +100,17 @@ Quick 1-minute test by Aryeom Han:
     <img src="{filename}gimp-2-9-4-symmetry.png" alt="Symmetry painting" width='975' height='1440' />
 </figure>
 
-Additionally, it is now possible to assign a combination like **Shift + Mousewheel** for changing brush size.
+### Tool Options
+
+Better shortcut mappings have been attributed to the mouse wheel, associated with various modifiers, in order to do useful things on the current tools options:
+
+* `Alt + Mousewheel`: opacity increase/decrease;
+* `Shift + Primary + Mousewheel`: aspect increase/decrease;
+* `Shift + Alt + Mousewheel`: angle increase/decrease;
+* `Primary + Alt + Mousewheel`: size increase/decrease;
+* `Shift + Primary + Alt + Mousewheel`: spacing increase/decrease.
+
+_Note_: the `Primary` modifier is usually `Ctrl` or `Cmd`, depending on your platform.
 
 ## Selections
 
