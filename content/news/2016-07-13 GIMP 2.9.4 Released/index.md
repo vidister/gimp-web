@@ -178,16 +178,16 @@ As usual, GIMP team is small yet as dedicated as ever: more than a third of the 
 We have prolific newcomers among developers:
 
 * Ell joined us with significant code contributions (32 commits) like the diagonal neighbours, the "Remove Hole" command, and many other fixes;
-* Tobias Ellinghaus, a darktable developer contributed with 14 commits on the darktable integration, and improving the EXR and PNM support.
+* Tobias Ellinghaus, a darktable developer, contributed 14 commits on darktable integration, and improving the EXR and PNM support.
 
-Of course, we also have our usual suspects with 10+ code commits: Alexandre Prokoudine, Daniel Sabo, Kristian Rietveld, Massimo Valentini, and Michael Henning. 
+Of course, we also have our usual suspects with 10+ code commits: Alexandre Prokoudine, Daniel Sabo, Kristian Rietveld, Massimo Valentini, and Michael Henning.
 
-And since no patch is too small, it would be completely unfair to forget all other contributors who contributed code: Adrian Likins, A S Alam, Carol Spears, Eugene Kuligin, Jasper Krijgsman, João S. O. Bueno, nmat, Richard Kreckel, saul, Shmuel H, Jonathan Tait, Michael Schumacher, Pedro Gimeno, Richard Hughes, Benoit Touchette, Hartmut Kuhse, Kevin Cozens, Elle Stone, Mukund Sivaraman, Øyvind Kolås, Sven Claussner, Thomas Manni, Alexia Death, Andrew Worsley, Simon Budig, and Piotr Drąg.
+And since no patch is too small, it would be completely unfair to forget all other code contributors: Adrian Likins, A S Alam, Carol Spears, Eugene Kuligin, Jasper Krijgsman, João S. O. Bueno, nmat, Richard Kreckel, saul, Shmuel H, Jonathan Tait, Michael Schumacher, Pedro Gimeno, Richard Hughes, Benoit Touchette, Hartmut Kuhse, Kevin Cozens, Elle Stone, Mukund Sivaraman, Øyvind Kolås, Sven Claussner, Thomas Manni, Alexia Death, Andrew Worsley, Simon Budig, and Piotr Drąg.
 
-New icons is a big work in progress, with 241 commits, mostly by Klaus Staedtler, with additional contributions from Aryeom Han, Benoit Touchette, Jehan, Kevin Payne, Michael Natterer and Øyvind Kolås.
+New icons are a big work in progress, with 241 commits, mostly by Klaus Staedtler, with additional contributions from Aryeom Han, Benoit Touchette, Jehan, Kevin Payne, Michael Natterer and Øyvind Kolås.
 We should not forget Benoit Touchette for his work in progress on themes, as well as some code contribution.
 
-We would like to thank as well every 30 contributors who contributed translations: Alexandre Prokoudine, Ask Hjorth Larsen, Balázs Meskó, Balázs Úr, Christian Kirbach, Cédric Valmary, Daniel Korostil, Daniel Mustieles, Dimitris Spingos, Dušan Kazik, Gábor Kelemen, Hartmut Kuhse, J.M. Ruetter, Jordi Mas, Khaled Hosny, Marco Ciampa, Mario Blättermann, Martin Srebotnjak, Mónica Canizo, Necdet Yücel, Pedro Albuquerque, Piotr Drąg, Rūdolfs Mazurs, Sebastian Rasmussen, Sveinn í Felli, Tiago Santos, Yolanda Álvarez Pérez, Klaus Staedtler, kolbjoern, and Милош Поповић.
+We would like to thank as well every 30 translators: Alexandre Prokoudine, Ask Hjorth Larsen, Balázs Meskó, Balázs Úr, Christian Kirbach, Cédric Valmary, Daniel Korostil, Daniel Mustieles, Dimitris Spingos, Dušan Kazik, Gábor Kelemen, Hartmut Kuhse, J.M. Ruetter, Jordi Mas, Khaled Hosny, Marco Ciampa, Mario Blättermann, Martin Srebotnjak, Mónica Canizo, Necdet Yücel, Pedro Albuquerque, Piotr Drąg, Rūdolfs Mazurs, Sebastian Rasmussen, Sveinn í Felli, Tiago Santos, Yolanda Álvarez Pérez, Klaus Staedtler, kolbjoern, and Милош Поповић.
 
 _Note_: we remind that statistics based on the number of commits is valuable information on the activity of a project, yet is not always a perfect indicator on contribution, so the goal of this section is not to have any kind of contributor rank. For instance, some commits may be one-liners, whereas others may be hundreds of lines (and even this may not be always relevant to the time spent and the difficulty of the fix).
 
