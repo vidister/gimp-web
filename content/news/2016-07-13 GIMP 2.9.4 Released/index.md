@@ -27,7 +27,7 @@ All work on icons by Klaus Staedtler is made on vector (SVG) images, which shoul
 
 We cleaned the Preferences dialog a little and reordered options in a  more logical manner. The Color Management page was redesigned following both internal and user-visible changes in relevant parts of GIMP (see below), and the _Snap Distance_ options have been moved to a dedicated _Snapping_ page.
 
-Additionally, it is now possible to configure the size of undo step previews in the Undo dialog via the _Preferences_ dialog, which was previously only possible by manually editing GIMP’s configuration file GIMP's configuration file before, by a complete oversight on our part.
+Additionally, it is now possible to configure the size of undo step previews in the Undo dialog via the _Preferences_ dialog, which was previously only possible by manually editing GIMP’s configuration file GIMP's configuration file, by a complete oversight on our part.
 
 The startup splash screen now features a pulsing progress bar to indicate that GIMP is not frozen. This, as well as initializing fontconfig in the background (also a new feature in 2.9.4), is meant to address a common issue where rebuilding the fonts cache (or building it for the first time) can take a lot of time hence making an impression that GIMP freezes at startup. We acknowledge that this is a workaround. Fixing the actual reason involves hacking on fontconfig. If you are interested, there is a [bug report](https://bugs.freedesktop.org/show_bug.cgi?id=64766) on that.
 
@@ -35,7 +35,7 @@ The startup splash screen now features a pulsing progress bar to indicate that G
 
 The color management implementation got a complete overhaul in this version of GIMP. Instead of being a pluggable module, it is now a core feature. Moreover, we added an abstraction layer that makes GIMP less dependent on [LittleCMS](http://www.littlecms.com/). This means that in the future GIMP could use native APIs on Windows and OS X, and/or use [OCIO](http://opencolorio.org/).
 
-For now, it has helped us to clean up the code a lot and introduce a clean implementation of color management to various bits of GIMP such as: previews for flat and gradient swatches, patterns, various color widgets (including the drag-and-drop color widget), the Color Picker tool, layer and image preview etc. The only unmanaged bit for now is the color widget in the Script-Fu and Python-Fu plug-ins. Moreover, GIMP will track which monitor the widget is currently on (different monitors would have different ICC profiles assigned to them) and color-correct it accordingly.
+For now, it has helped us to clean up the code a lot and introduce a clean implementation of color management to various bits of GIMP such as: previews for color swatches and gradients, patterns, various color widgets (including the drag-and-drop color widget), the Color Picker tool, layer and image preview etc. The only unmanaged bit for now is the color widget in the Script-Fu and Python-Fu plug-ins. Moreover, GIMP will track which monitor the widget is currently on (different monitors would have different ICC profiles assigned to them) and color-correct it accordingly.
 
 Grayscale images are first class citizens in GIMP once again: since v2.9.4, GIMP can color-manage them as well.
 
@@ -75,7 +75,7 @@ It is still possible to use other raw development plug-ins like `UFRaw`. For cas
 
 ## Screenshots
 
-The code for capturing screenshots has undergone a major reorganization. It's now split into a back-end and several front-ends specific for Windows, OS X, Wayland and X.org (Linux and UNIX systems).
+The code for capturing screenshots has undergone a major reorganization. It's now split into a front-end and several back-ends specific for Windows, OS X, Wayland and X.org (Linux and UNIX systems).
 
 While there are no immediate user-visible changes, this reorganization will greatly simplify further improvements, hence improving user experience on different operating systems.
 
@@ -83,9 +83,9 @@ While there are no immediate user-visible changes, this reorganization will grea
 
 ### MyPaint Brush Tool
 
-The new [MyPaint](http://mypaint.org/) Brush tool is now enabled by default. Daniel Sabo and Michael Natterer improved its performance and made MyPaint brushes available via an aready familiar dockable dialog interface, with previews and tagging.
+The new [MyPaint](http://mypaint.org/) Brush tool is now enabled by default. Daniel Sabo and Michael Natterer improved its performance and made MyPaint brushes available via an already familiar dockable dialog interface, with previews and tagging.
 
-Jehan Pagès collaborated with the MyPaint team: he [ported libmypaint to autotools](http://mypaint.org/blog/2016/05/20/libmypaint-now-uses-autotools/), allowing in particular standard builds on all platforms, and work is being done to turn default brushes into a separately shipped package.
+Jehan Pagès collaborated with the MyPaint team: he [ported libmypaint to autotools](http://mypaint.org/blog/2016/05/20/libmypaint-now-uses-autotools/), allowing, in particular, standard builds on all platforms, and work is being done to turn the default brushes into a separately shipped package.
 
 ### Symmetry Painting
 
