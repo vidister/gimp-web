@@ -57,7 +57,7 @@ Among smaller changes there's a new `Image > Color Management > Save Color Profi
 
 ## GEGL
 
-GIMP now keeps track of GEGL-based filters that you used within one session and allows re-running them via `Filters > Recently` used submenu, just like old GIMP plug-ins.
+GIMP now keeps track of GEGL-based filters that you used within one session and allows re-running them via the `Filters > Recently Used` submenu, just like old GIMP plug-ins.
 
 _Posterize_ and _Desaturate_ color tools have been converted to regular GEGL-based filters, and both _Tile_ and _Pagecurl_ filters have been converted to use GEGL buffers. A quite popular "photographic" _Highpass_ filter commonly used for enhancing details was added to the `Filters > Enhance` submenu.
 
@@ -65,19 +65,23 @@ _Posterize_ and _Desaturate_ color tools have been converted to regular GEGL-bas
 
 A way more noticeable new feature, however, is split preview for GEGL-based filters. You can compare before/after versions right on canvas and move a "curtain" around to see more of "before" or "after" and swap their position. You can also switch between vertical and horizontal division.
 
+<figure>
+    <img src="{filename}gimp-2-9-4-gegl-curtain.jpg" alt="GEGL preview curtain - original image by Aryeom Han" width='975' height='548' />
+</figure>
+
 ## darktable as RAW processing plugin
 
-On Linux, GIMP is now capable of using darktable for pre-processing raw images from DSLRs (Canon CR2, Nikon NEF etc.). darktable is an amazing project whose developers stick around at our IRC channel and even contribute to GIMP (most recently, they added reading various metadata from EXR files).
+On **Linux**, GIMP is now capable of using [darktable](http://www.darktable.org/) for pre-processing raw images from DSLRs (Canon CR2, Nikon NEF etc.). darktable is an amazing project whose developers stick around at our IRC channel and even contribute to GIMP (most recently, they added reading various metadata from EXR files).
 
-Note that the file-darktable plug-in is activated only when darktable is built with Lua support. Make sure your build of darktable for Linux is feature-complete.
+Note that the `file-darktable` plug-in is activated only when darktable is built with Lua support. Make sure your build of darktable for Linux is feature-complete.
 
-It is still possible to use other raw development plug-ins like UFRaw. For cases when multiple plug-ins are installed in your system, we intend to add a preference option.
+It is still possible to use other raw development plug-ins like `UFRaw`. For cases when multiple plug-ins are installed in your system, we intend to add a preference option.
 
 ## Screenshots
 
 The code for capturing screenshots has undergone a major reorganization. It's now split into a back-end and several front-ends specific for Windows, OS X, Wayland and X.org (Linux and UNIX systems).
 
-While there are no immediate user-visible changes, this reorganizations greatly simplifies improving user experience for different operating systems.
+While there are no immediate user-visible changes, this reorganization will greatly simplify further improvements, hence improving user experience on different operating systems.
 
 ## Painting
 
