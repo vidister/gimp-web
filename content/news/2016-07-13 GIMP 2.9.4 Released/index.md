@@ -148,7 +148,7 @@ A new macro `with-files` is now available in order to easily process multiple fi
 
 For instance, if you want to invert the colors of all PNG images in the current folder, then save them as JPEG, you could run the following from the command line:
 
-```bash
+```shell
 gimp -i -b '(with-files "*.png"
                 (gimp-invert layer)
                 (gimp-file-save 1 image layer
@@ -156,7 +156,7 @@ gimp -i -b '(with-files "*.png"
                     (string-append basename ".jpg")
                 )
             )
-	    (gimp-quit 0)'
+            (gimp-quit 0)'
 ```
 Note: the name of the macro [may change](https://bugzilla.gnome.org/show_bug.cgi?id=726947#c12) before the release of v2.10.
 
