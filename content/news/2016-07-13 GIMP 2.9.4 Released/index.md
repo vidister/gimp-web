@@ -174,6 +174,25 @@ When GIMP occasionally crashes, we need as much information as possible to find 
 
 Since the release of v2.9.2 we have been mostly fixing bugs and completing the work we had started earlier. We are not planning to add any major new features in v2.10. If you are interested to help us release v2.10 earlier, you can find the list of bugs reports in the [bugtracker](https://bugzilla.gnome.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=NEEDINFO&classification=Other&list_id=137406&order=Importance&product=GIMP&query_format=advanced&target_milestone=2.10).
 
+## Some statistics on our awesome contributors
+
+GIMP [2.9.2 was released on November 27, 2015](http://www.gimp.org/news/2015/11/27/gimp-2-9-2-released/). Since then, the work to reach GIMP 2.9.4 was done in **1348 commits**, making an average of **5.9 commits a day**, of which 894 are (mostly) code-related, 241 are icon-related and 213 are translation updates.
+
+As usually, GIMP team is small yet as dedicated as ever: more than a third of the commits have been done by Michael Natterer (514), next biggest contributors are Jehan Pagès (192) and Klaus Staedtler (187). The 3 of them represents 66% of all commits.
+
+We have prolific newcomers among developers: Ell joined us with significant code contributions (32 commits) like the diagonal neighbours, the "Remove Hole" command, and many other fixes; Tobias Ellinghaus, a Darktable developer contributed with 14 commits on the darktable integration, and improving the EXR and PNM support.
+Of course, we also have our usual suspects with 10+ code commits: Alexandre Prokoudine, Daniel Sabo, Kristian Rietveld, Massimo Valentini and Michael Henning. And since no patch is too small, it would be completely unfair to forget all other contributors who contributed code: Adrian Likins, A S Alam, Carol Spears, Eugene Kuligin, Jasper Krijgsman, João S. O. Bueno, nmat, Richard Kreckel, saul, Shmuel H, Jonathan Tait, Michael Schumacher, Pedro Gimeno, Richard Hughes, Benoit Touchette, Hartmut Kuhse, Kevin Cozens, Elle Stone, Mukund Sivaraman, Øyvind Kolås, Sven Claussner, Thomas Manni, Alexia Death, Andrew Worsley, Simon Budig and Piotr Drąg.
+
+New icons is a big work in progress, with 241 commits, mostly by Klaus Staedtler, with additional contributions from Aryeom Han, Benoit Touchette, Jehan, Kevin Payne, Michael Natterer and Øyvind Kolås.
+We should not forget Benoit Touchette for his work in progress on themes, as well as some code contribution.
+
+We would like to thank as well every 30 contributors who contributed translations: Alexandre Prokoudine, Ask Hjorth Larsen, Balázs Meskó, Balázs Úr, Christian Kirbach, Cédric Valmary, Daniel Korostil, Daniel Mustieles, Dimitris Spingos, Dušan Kazik, Gábor Kelemen, Hartmut Kuhse, J.M. Ruetter, Jordi Mas, Khaled Hosny, Marco Ciampa, Mario Blättermann, Martin Srebotnjak, Mónica Canizo, Necdet Yücel, Pedro Albuquerque, Piotr Drąg, Rūdolfs Mazurs, Sebastian Rasmussen, Sveinn í Felli, Tiago Santos, Yolanda Álvarez Pérez, Klaus Staedtler, kolbjoern and Милош Поповић.
+
+_Note_: we remind that statistics based on number of commits are valuable information on the activity of a project, yet are not always a perfect indicator on contribution, so the goal of this section is not to have any kind of contributor rank. For instance some commits may be one-liners whereas others may be hundreds of lines (and even this may not be always relevant to the time spent and the difficulty of the fix).
+Moreover we should not forget all the "shadow contributors", whose contributions cannot be counted as easily, like code review (of which Massimo Valentini should be commended for), bug dispatch and followup (Michael Schumacher here would get a price!), community, website and communication (who said Akkana Peck, Alexandre Prokoudine and Patrick David?)…
+
+So we sincerely hope we did not forget anyone and we want to say: thank you.
+
 ## Downloads
 
 Source code and Windows installer of GIMP 2.9.4 are available from the [Downloads](http://www.gimp.org/downloads/) page. A build for Mac is not available at this time.
