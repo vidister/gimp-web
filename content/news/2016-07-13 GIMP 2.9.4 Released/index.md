@@ -72,7 +72,7 @@ A way more noticeable new feature, however, is split preview for GEGL-based filt
     <img src="{filename}gimp-2-9-4-gegl-curtain.jpg" alt="GEGL preview curtain - original image by Aryeom Han" width='975' height='548' />
 </figure>
 
-## darktable as RAW processing plugin
+## darktable as RAW Processing Plug-in
 
 On **Linux**, GIMP is now capable of using [darktable](http://www.darktable.org/) for pre-processing raw images from DSLRs (Canon CR2, Nikon NEF etc.). darktable is an amazing project whose developers stick around at our IRC channel and even contribute to GIMP (most recently, they added reading various metadata from EXR files).
 
@@ -88,13 +88,13 @@ While there are no immediate user-visible changes, this reorganization will grea
 
 ## Painting
 
-### MyPaint brush tool
+### MyPaint Brush Tool
 
 The new MyPaint Brush tool is now enabled by default. Daniel Sabo and Michael Natterer improved its performance and made MyPaint brushes available via an aready familiar dockable dialog interface, with previews and tagging.
 
 Jehan Pagès collaborated with the MyPaint team: he ported libmypaint to autotools, allowing in particular standard builds on all platforms, and work is being done to turn default brushes into a separately shipped package.
 
-### Symmetry painting
+### Symmetry Painting
 
 Another major new feature is symmetric painting mode, also developed by Jehan Pagès with financial support from the GIMP community. It can be activated through the new "Symmetry Painting" dock, and allows to use all paint tools with various symmetries (mirror, mandala, tiling…).
 
@@ -152,7 +152,7 @@ The _Text_ tool now fully supports advanced input methods for CJK and other non-
     <img src="{filename}gimp-2-9-4-ime.png" alt="Input Method Engine support in text tool" width='417' height='240' />
 </figure>
 
-## Batch processing on command line
+## Batch Processing on Command Line
 
 A new macro `with-files` is now available in order to easily process multiple files through GIMP, on command line, which was a much awaited feature.
 
@@ -165,7 +165,7 @@ gimp -i -b '(with-files "*.png" (gimp-invert layer) \
               (string-append basename ".jpg") ))'
 ```
 
-## Email plugin back from the dead
+## Email Plug-in Resurrected
 
 The `File > Send by email…` dialog will open your default email client with an attached copy of your current image, to share your work-in-progress in a single click. This is available only on operating systems with `xdg-email` (likely **GNU/Linux, BSD only**).
 
@@ -173,18 +173,12 @@ The original implementation using `sendmail` is also available. Yet since it req
 
 ## Debugging Facilities for Windows
 
-**Windows** builds can now generate backtrace logs upon a crash with [Dr.MinGW's ExcHndl](https://github.com/jrfonseca/drmingw) library, which must be available at build time. The logs will be stored in `%APPDATA%\GIMP\2.9\CrashLog\`.
-
-## Misc
-
-(FIXME)
-
-* Bug 109161 * Improve Histogram with Luminance Channel
+When GIMP occasionally crashes, we need as much information as possible to find out the actual bug. Raw crash log is one of such sources of information about an issue. **Windows** builds can now generate backtrace logs upon a crash with [Dr.MinGW's ExcHndl](https://github.com/jrfonseca/drmingw) library, which must be available at build time. The logs will be stored in `%APPDATA%\GIMP\2.9\CrashLog\`.
 
 ## What's Left To Do for GIMP 2.10
 
-(FIXME ADD CONTENT)
+Since the release of v2.9.2 we have been mostly fixing bugs and completing the work we had started earlier. We are not planning to add any major new features in v2.10. If you are interested to help us release v2.10 earlier, you can find the list of bugs reports in the [bugtracker](https://bugzilla.gnome.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=NEEDINFO&classification=Other&list_id=137406&order=Importance&product=GIMP&query_format=advanced&target_milestone=2.10).
 
 ## Downloads
 
-(FIXME ADD CONTENT)
+Source code and Windows installer of GIMP 2.9.4 are available from the [Downloads](http://www.gimp.org/downloads/) page. A build for Mac is not available at this time.
