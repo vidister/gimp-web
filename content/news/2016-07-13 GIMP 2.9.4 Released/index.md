@@ -1,9 +1,8 @@
 Title: GIMP 2.9.4 Released
 Date: 2016-07-13
 Category: News
-Authors: Alexandre Prokoudine
+Authors: Wilber
 Slug: gimp-2-9-4-released
-Status: draft
 Summary: We have just released the second development version of GIMP in the 2.9.x series. GIMP 2.9.4 features revamped look and feel, major improvements in color management, as well as production-ready MyPaint Brush tool, symmetric painting, and split preview for GEGL-based filters.
 
 We have just released the second development version of GIMP in the 2.9.x series. After half a year in the works, GIMP 2.9.4 delivers a massive update: revamped look and feel, major improvements in color management, as well as production-ready MyPaint Brush tool, symmetric painting, and split preview for GEGL-based filters. Additionally, XX bugs have been fixed, and numerous small improvements have been applied.
@@ -36,11 +35,9 @@ The startup splash screen now features a pulsing progress bar to indicate that G
 
 Color Management implementation got a complete overhaul in this version of GIMP. Instead of being a pluggable module, it's a core feature now. Moreover, we added an abstraction layer that makes GIMP less dependent on [LittleCMS](http://www.littlecms.com/). This means that in the future GIMP could use native APIs on Windows and OS X, and/or use [OCIO](http://opencolorio.org/).
 
-For now, it has helped us to clean up the code a lot and introduce clean implementation of color management to various bits of GIMP such as: previews for flat and gradient swatches, patterns, various color widgets (including the drag-and-drop color widget), the Color Picker tool, layer and image preview etc. The only unmanaged bit for now is the color widget in Script-Fu and Python-Fu plugins. Moreover, GIMP will track which monitor the widget is currently on (different minotors would have different ICC profiles assigned to them) and color-correct it accordingly.
+For now, it has helped us to clean up the code a lot and introduce clean implementation of color management to various bits of GIMP such as: previews for flat and gradient swatches, patterns, various color widgets (including the drag-and-drop color widget), the Color Picker tool, layer and image preview etc. The only unmanaged bit for now is the color widget in Script-Fu and Python-Fu plugins. Moreover, GIMP will track which monitor the widget is currently on (different monitors would have different ICC profiles assigned to them) and color-correct it accordingly.
 
 Greyscale images are first class citizens in GIMP again: since v2.9.4, GIMP can color-manage them as well.
-
-(FIXME SCREENSHOT)
 
 Since GIMP currently relies on sRGB (this is bound to change in future versions of GIMP), we decided to expose that in the user interface. So currently GIMP has an option called 'Color-manage this image' in two places: the _New Image_ dialog and the `Image > Color Management` submenu. What it means is that instead of taking into consideration the ICC profile embedded into an image (whichever profile it is) it will just treat everything as sRGB. Please note that we are likely to reword the option to make it even more explicit about what it does.
 
@@ -62,19 +59,17 @@ GIMP now keeps track of [GEGL](http://gegl.org/)-based filters that you used wit
 
 _Posterize_ and _Desaturate_ color tools have been converted to regular GEGL-based filters, and both _Tile_ and _Pagecurl_ filters have been converted to use GEGL buffers. A quite popular "photographic" _Highpass_ filter commonly used for enhancing details was added to the `Filters > Enhance` submenu.
 
-(FIXME SCREENSHOT)
-
 A way more noticeable new feature, however, is split preview for GEGL-based filters. You can compare before/after versions right on canvas and move a "curtain" around to see more of "before" or "after" and swap their position (`Shift + click` on the guide). You can also switch between vertical and horizontal division (`Ctrl + click`).
 
 <figure>
     <img src="{filename}gimp-2-9-4-gegl-curtain.jpg" alt="GEGL preview curtain - original image by Aryeom Han" width='975' height='548' />
 </figure>
 
-## darktable as RAW Processing Plug-in
+## darktable as Raw Processing Plug-in
 
-On **Linux**, GIMP is now capable of using [darktable](http://www.darktable.org/) for pre-processing raw images from DSLRs (Canon CR2, Nikon NEF etc.). darktable is an amazing project whose developers stick around at our IRC channel and even contribute to GIMP (most recently, they added reading various metadata from EXR files).
+On **Linux**, GIMP is now capable of using [darktable](http://www.darktable.org) for pre-processing raw images from DSLRs (Canon CR2, Nikon NEF etc.). darktable is an amazing project whose developers stick around at our IRC channel and even contribute to GIMP (most recently, they added reading various metadata from EXR files).
 
-Note that the `file-darktable` plug-in is activated only when darktable is built with Lua support. Make sure your build of darktable for Linux is feature-complete.
+Note that the `file-darktable` plug-in is activated only when darktable is built with [Lua](https://www.lua.org) support. Make sure your build of darktable for Linux is feature-complete.
 
 It is still possible to use other raw development plug-ins like `UFRaw`. For cases when multiple plug-ins are installed in your system, we intend to add a preference option.
 
@@ -94,9 +89,9 @@ Jehan Pagès collaborated with the MyPaint team: he [ported libmypaint to autoto
 
 ### Symmetry Painting
 
-Another major new feature is symmetric painting mode, also developed by Jehan Pagès with financial support from the GIMP community. It can be activated through the new "Symmetry Painting" dock, and allows to use all paint tools with various symmetries (mirror, mandala, tiling…).
+Another major new feature is symmetric painting mode, also developed by Jehan Pagès with financial support from the GIMP community. It can be activated through the new _Symmetry Painting_ dockable dialog and allows to use all paint tools with various symmetries (mirror, mandala, tiling…).
 
-* "Mirror" allows to paint with **horizontal, vertical (axial) and/or central symmetry**. The symmetry guides can be placed anywhere on canvas.
+* "Mirror" allows to paint with **horizontal, vertical (axial), and/or central symmetry**. The symmetry guides can be placed anywhere on canvas.
 * "Mandala" is a **rotational symmetry** of any order. The center can be placed anywhere on canvas.
 * "Tiling" is a **translational symmetry**, which can be finite (with a maximum of strokes) or infinite. In the latter case, it is the perfect tool to create patterns or seamless tiles, with instant rendering of what it will look like, at painting time.
 
@@ -141,7 +136,7 @@ _Fuzzy Select_ and _Bucket Fill_ tools got a new feature for selecting/filling d
 
 The _Blend_ tool got shapeburst fills resurrected, and allows to place their handles on the canvas. Additionally the Blend tool displays progress indication now thanks to a new GEGL feature available in several GEGL operations including `gegl:distance-transform`.
 
-The _Text_ tool now fully supports advanced input methods for CJK and other non-western languages. Minimal support already existed but the preedit text was displayed in a floating popup instead of inline within the text tool box, and without any preview styling. It is now displayed just as expected depending on your platform and Input Method Engine. Several input method-related bugs and crashes have also been fixed in the same time.
+The _Text_ tool now fully supports advanced input methods for CJK and other non-western languages. Minimal support already existed but the preedit text was displayed in a floating pop-up instead of inline within the text tool box, and without any preview styling. It is now displayed just as expected depending on your platform and Input Method Engine. Several input method-related bugs and crashes have also been fixed in the same time.
 
 <figure>
     <img src="{filename}gimp-2-9-4-ime.png" alt="Input Method Engine support in text tool" width='417' height='240' />
@@ -174,25 +169,32 @@ When GIMP occasionally crashes, we need as much information as possible to find 
 
 Since the release of v2.9.2 we have been mostly fixing bugs and completing the work we had started earlier. We are not planning to add any major new features in v2.10. If you are interested to help us release v2.10 earlier, you can find the list of bugs reports in the [bugtracker](https://bugzilla.gnome.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=NEEDINFO&classification=Other&list_id=137406&order=Importance&product=GIMP&query_format=advanced&target_milestone=2.10).
 
-## Some statistics on our awesome contributors
+## Some Statistics on Our Awesome Contributors
 
-GIMP [2.9.2 was released on November 27, 2015](http://www.gimp.org/news/2015/11/27/gimp-2-9-2-released/). Since then, the work to reach GIMP 2.9.4 was done in **1348 commits**, making an average of **5.9 commits a day**, of which 894 are (mostly) code-related, 241 are icon-related and 213 are translation updates.
+GIMP [2.9.2 was released on November 27, 2015](http://www.gimp.org/news/2015/11/27/gimp-2-9-2-released/). Since then, the work to reach GIMP 2.9.4 was done in **1348 commits**, making an average of **5.9 commits a day**, of which 894 are (mostly) code-related, 241 are icon-related, and 213 are translation updates.
 
-As usually, GIMP team is small yet as dedicated as ever: more than a third of the commits have been done by Michael Natterer (514), next biggest contributors are Jehan Pagès (192) and Klaus Staedtler (187). The 3 of them represents 66% of all commits.
+As usual, GIMP team is small yet as dedicated as ever: more than a third of the commits have been done by Michael Natterer (514), next biggest contributors are Jehan Pagès (192) and Klaus Staedtler (187). The 3 of them represent 66% of all commits.
 
-We have prolific newcomers among developers: Ell joined us with significant code contributions (32 commits) like the diagonal neighbours, the "Remove Hole" command, and many other fixes; Tobias Ellinghaus, a Darktable developer contributed with 14 commits on the darktable integration, and improving the EXR and PNM support.
-Of course, we also have our usual suspects with 10+ code commits: Alexandre Prokoudine, Daniel Sabo, Kristian Rietveld, Massimo Valentini and Michael Henning. And since no patch is too small, it would be completely unfair to forget all other contributors who contributed code: Adrian Likins, A S Alam, Carol Spears, Eugene Kuligin, Jasper Krijgsman, João S. O. Bueno, nmat, Richard Kreckel, saul, Shmuel H, Jonathan Tait, Michael Schumacher, Pedro Gimeno, Richard Hughes, Benoit Touchette, Hartmut Kuhse, Kevin Cozens, Elle Stone, Mukund Sivaraman, Øyvind Kolås, Sven Claussner, Thomas Manni, Alexia Death, Andrew Worsley, Simon Budig and Piotr Drąg.
+We have prolific newcomers among developers:
+
+* Ell joined us with significant code contributions (32 commits) like the diagonal neighbours, the "Remove Hole" command, and many other fixes;
+* Tobias Ellinghaus, a darktable developer contributed with 14 commits on the darktable integration, and improving the EXR and PNM support.
+
+Of course, we also have our usual suspects with 10+ code commits: Alexandre Prokoudine, Daniel Sabo, Kristian Rietveld, Massimo Valentini, and Michael Henning. 
+
+And since no patch is too small, it would be completely unfair to forget all other contributors who contributed code: Adrian Likins, A S Alam, Carol Spears, Eugene Kuligin, Jasper Krijgsman, João S. O. Bueno, nmat, Richard Kreckel, saul, Shmuel H, Jonathan Tait, Michael Schumacher, Pedro Gimeno, Richard Hughes, Benoit Touchette, Hartmut Kuhse, Kevin Cozens, Elle Stone, Mukund Sivaraman, Øyvind Kolås, Sven Claussner, Thomas Manni, Alexia Death, Andrew Worsley, Simon Budig, and Piotr Drąg.
 
 New icons is a big work in progress, with 241 commits, mostly by Klaus Staedtler, with additional contributions from Aryeom Han, Benoit Touchette, Jehan, Kevin Payne, Michael Natterer and Øyvind Kolås.
 We should not forget Benoit Touchette for his work in progress on themes, as well as some code contribution.
 
-We would like to thank as well every 30 contributors who contributed translations: Alexandre Prokoudine, Ask Hjorth Larsen, Balázs Meskó, Balázs Úr, Christian Kirbach, Cédric Valmary, Daniel Korostil, Daniel Mustieles, Dimitris Spingos, Dušan Kazik, Gábor Kelemen, Hartmut Kuhse, J.M. Ruetter, Jordi Mas, Khaled Hosny, Marco Ciampa, Mario Blättermann, Martin Srebotnjak, Mónica Canizo, Necdet Yücel, Pedro Albuquerque, Piotr Drąg, Rūdolfs Mazurs, Sebastian Rasmussen, Sveinn í Felli, Tiago Santos, Yolanda Álvarez Pérez, Klaus Staedtler, kolbjoern and Милош Поповић.
+We would like to thank as well every 30 contributors who contributed translations: Alexandre Prokoudine, Ask Hjorth Larsen, Balázs Meskó, Balázs Úr, Christian Kirbach, Cédric Valmary, Daniel Korostil, Daniel Mustieles, Dimitris Spingos, Dušan Kazik, Gábor Kelemen, Hartmut Kuhse, J.M. Ruetter, Jordi Mas, Khaled Hosny, Marco Ciampa, Mario Blättermann, Martin Srebotnjak, Mónica Canizo, Necdet Yücel, Pedro Albuquerque, Piotr Drąg, Rūdolfs Mazurs, Sebastian Rasmussen, Sveinn í Felli, Tiago Santos, Yolanda Álvarez Pérez, Klaus Staedtler, kolbjoern, and Милош Поповић.
 
-_Note_: we remind that statistics based on number of commits are valuable information on the activity of a project, yet are not always a perfect indicator on contribution, so the goal of this section is not to have any kind of contributor rank. For instance some commits may be one-liners whereas others may be hundreds of lines (and even this may not be always relevant to the time spent and the difficulty of the fix).
-Moreover we should not forget all the "shadow contributors", whose contributions cannot be counted as easily, like code review (of which Massimo Valentini should be commended for), bug dispatch and followup (Michael Schumacher here would get a price!), community, website and communication (who said Akkana Peck, Alexandre Prokoudine and Patrick David?)…
+_Note_: we remind that statistics based on the number of commits is valuable information on the activity of a project, yet is not always a perfect indicator on contribution, so the goal of this section is not to have any kind of contributor rank. For instance, some commits may be one-liners, whereas others may be hundreds of lines (and even this may not be always relevant to the time spent and the difficulty of the fix).
+
+Moreover we should not forget all the "shadow contributors", whose contributions cannot be counted as easily, like code review (of which Massimo Valentini should be commended for), bug triaging and follow-up (Michael Schumacher here would get a price!), community, website, and communication (Akkana Peck, Patrick David, and others)…
 
 So we sincerely hope we did not forget anyone and we want to say: thank you.
 
 ## Downloads
 
-Source code and Windows installer of GIMP 2.9.4 are available from the [Downloads](http://www.gimp.org/downloads/) page. A build for Mac is not available at this time.
+Source code is available from the [Downloads](http://www.gimp.org/downloads/) page. An installer for Windows will be available shortly. A build for Mac is not available at this time.
