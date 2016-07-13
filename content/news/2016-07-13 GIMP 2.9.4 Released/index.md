@@ -16,14 +16,13 @@ The new version features several new themes by Benoit Touchette in various shade
 
 <figure>
     <img src="{filename}gimp-2-9-4-themes.jpg" alt="New User Interface Themes" width='975' height='390' />
-</a>
 </figure>
 
 Note that we still consider this feature a work in progress, as dark themes still need some fine-tuning (especially regarding the color of inactive menu items).
 
 The new UI themes are accompanied by symbolic icons originally created by Barbara Muraus and Jakub Steiner, and heavily updated and completed by Klaus Staedtler. The existing icon theme from past releases of GIMP has also been preserved, and users can freely switch between available icon themes and easily add their own ones.
 
-Note that themes and icon themes are now separate: you can easily mix your favorite UI with various icon sets. Also since most 2.8 themes would end up broken in 2.9.x, themes are not migrated from GIMP < 2.9. Users who want custom themes will have to install ones specifically made for GIMP 2.9.x/2.10.
+Note that themes and icon themes are now separate: you can easily mix your favorite UI with various icon sets. Also since most 2.8 themes would end up broken in 2.9.x, themes are not migrated from GIMP < 2.9. Users who want custom themes will have to install ones specifically made for GIMP 2.9/2.10.
 
 All work on icons by Klaus Staedtler is made on vector (SVG) images, which should allow better support for HiDPI displays (also commonly known as Retina) soon. Vector icons are an experimental feature, available after using `--enable-vector-icons` build configure option. Note that this option does not allow HiDPI support at this time.
 
@@ -35,7 +34,7 @@ The startup splash screen now features a pulsing progress bar to indicate that G
 
 ## Color Management Improvements
 
-Color Management implementation got a complete overhaul in this version of GIMP. Instead of being a pluggable module, it's a core feature now. Moreover, we added an abstraction layer that makes GIMP less dependent on LittleCMS. This means that in the future GIMP could use native APIs on Windows and OS X, and/or use [OCIO](http://opencolorio.org/).
+Color Management implementation got a complete overhaul in this version of GIMP. Instead of being a pluggable module, it's a core feature now. Moreover, we added an abstraction layer that makes GIMP less dependent on [LittleCMS](http://www.littlecms.com/). This means that in the future GIMP could use native APIs on Windows and OS X, and/or use [OCIO](http://opencolorio.org/).
 
 For now, it has helped us to clean up the code a lot and introduce clean implementation of color management to various bits of GIMP such as: previews for flat and gradient swatches, patterns, various color widgets (including the drag-and-drop color widget), the Color Picker tool, layer and image preview etc. The only unmanaged bit for now is the color widget in Script-Fu and Python-Fu plugins. Moreover, GIMP will track which monitor the widget is currently on (different minotors would have different ICC profiles assigned to them) and color-correct it accordingly.
 
@@ -51,7 +50,6 @@ The _Color Management_ section of the _Preferences_ dialog has been reorganized 
 
 <figure>
     <img src="{filename}gimp-2-9-4-preferences-cms.png" alt="Color Management Preferences" width='975' height='920' />
-</a>
 </figure>
 
 Since color management is always a tad too slow (at least with LittleCMS), there's a new option that enables you to choose either better color fidelity of faster processing depending on the kind of work you usually do.
@@ -60,13 +58,13 @@ Among smaller changes there's a new `Image > Color Management > Save Color Profi
 
 ## GEGL
 
-GIMP now keeps track of GEGL-based filters that you used within one session and allows re-running them via the `Filters > Recently Used` submenu, just like old GIMP plug-ins.
+GIMP now keeps track of [GEGL](http://gegl.org/)-based filters that you used within one session and allows re-running them via the `Filters > Recently Used` submenu, just like old GIMP plug-ins.
 
 _Posterize_ and _Desaturate_ color tools have been converted to regular GEGL-based filters, and both _Tile_ and _Pagecurl_ filters have been converted to use GEGL buffers. A quite popular "photographic" _Highpass_ filter commonly used for enhancing details was added to the `Filters > Enhance` submenu.
 
 (FIXME SCREENSHOT)
 
-A way more noticeable new feature, however, is split preview for GEGL-based filters. You can compare before/after versions right on canvas and move a "curtain" around to see more of "before" or "after" and swap their position. You can also switch between vertical and horizontal division.
+A way more noticeable new feature, however, is split preview for GEGL-based filters. You can compare before/after versions right on canvas and move a "curtain" around to see more of "before" or "after" and swap their position (`Shift + click` on the guide). You can also switch between vertical and horizontal division (`Ctrl + click`).
 
 <figure>
     <img src="{filename}gimp-2-9-4-gegl-curtain.jpg" alt="GEGL preview curtain - original image by Aryeom Han" width='975' height='548' />
@@ -90,9 +88,9 @@ While there are no immediate user-visible changes, this reorganization will grea
 
 ### MyPaint Brush Tool
 
-The new MyPaint Brush tool is now enabled by default. Daniel Sabo and Michael Natterer improved its performance and made MyPaint brushes available via an aready familiar dockable dialog interface, with previews and tagging.
+The new [MyPaint](http://mypaint.org/) Brush tool is now enabled by default. Daniel Sabo and Michael Natterer improved its performance and made MyPaint brushes available via an aready familiar dockable dialog interface, with previews and tagging.
 
-Jehan Pagès collaborated with the MyPaint team: he ported libmypaint to autotools, allowing in particular standard builds on all platforms, and work is being done to turn default brushes into a separately shipped package.
+Jehan Pagès collaborated with the MyPaint team: he [ported libmypaint to autotools](http://mypaint.org/blog/2016/05/20/libmypaint-now-uses-autotools/), allowing in particular standard builds on all platforms, and work is being done to turn default brushes into a separately shipped package.
 
 ### Symmetry Painting
 
@@ -102,7 +100,7 @@ Another major new feature is symmetric painting mode, also developed by Jehan Pa
 * "Mandala" is a **rotational symmetry** of any order. The center can be placed anywhere on canvas.
 * "Tiling" is a **translational symmetry**, which can be finite (with a maximum of strokes) or infinite. In the latter case, it is the perfect tool to create patterns or seamless tiles, with instant rendering of what it will look like, at painting time.
 
-Quick 1-minute test by Aryeom Han:
+Quick _1-minute_ test by Aryeom Han:
 <figure>
     <img src="{filename}gimp-2-9-4-symmetry.png" alt="Symmetry painting" width='975' height='1440' />
 </figure>
@@ -125,14 +123,12 @@ For cases when your selection has a lot of small unselected regions, you can now
 
 <figure>
     <img src="{filename}gimp-2-9-4-remove-holes.jpg" alt="Removing holes in selection" width='975' height='1110' />
-</a>
 </figure>
 
 The `Select > Border...` dialog now provides several border style options: hard, smooth, and feathered. _Feathered_ creates a selection that goes gradually from 1 to 0 the farther you get from the middle of the border. _Smooth_ preserves partial selection (antialiasing) along the edges of the selection.
 
 <figure>
     <img src="{filename}gimp-2-9-4-border-style.png" alt="Border styles selection" width='975' height='648' />
-</a>
 </figure>
 
 ## Better Tools
@@ -141,7 +137,6 @@ _Fuzzy Select_ and _Bucket Fill_ tools got a new feature for selecting/filling d
 
 <figure>
     <img src="{filename}gimp-2-9-4-diagonal-neighbors.png" alt="Diagonal neighbors selection" width='975' height='648' />
-</a>
 </figure>
 
 The _Blend_ tool got shapeburst fills resurrected, and allows to place their handles on the canvas. Additionally the Blend tool displays progress indication now thanks to a new GEGL feature available in several GEGL operations including `gegl:distance-transform`.
