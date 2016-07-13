@@ -1,5 +1,5 @@
 Title: GIMP 2.9.4 Released
-Date: 2016-12-31
+Date: 2016-07-13
 Category: News
 Authors: Alexandre Prokoudine
 Slug: gimp-2-9-4-released
@@ -14,7 +14,10 @@ GIMP 2.9.4 is quite reliable for production work, but there are still loose ends
 
 The new version features several new themes by Benoit Touchette in various shades of grey: Lighter, Light, Gray, Dark, Darker. System theme has been preserved for users who prefer completely consistent look of user interfaces across all desktop applications.
 
-(FIXME SCREENSHOT)
+<figure>
+    <img src="{filename}gimp-2-9-4-themes.jpg" alt="New User Interface Themes" width='975' height='390' />
+</a>
+</figure>
 
 Note that we still consider this feature a work in progress, as dark themes still need some fine-tuning (especially regarding the color of inactive menu items).
 
