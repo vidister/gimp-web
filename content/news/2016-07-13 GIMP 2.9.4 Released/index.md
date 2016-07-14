@@ -180,6 +180,8 @@ GIMP [2.9.2 was released on November 27, 2015](http://www.gimp.org/news/2015/11/
 
 As usual, the GIMP team is small yet as dedicated as ever: more than a third of the commits have been done by Michael Natterer (514), the next biggest contributors being Jehan Pagès (192) and Klaus Staedtler (187). The three of them represent 66% of all commits.
 
+_Note_: contributions by Jehan Pagès were made on behalf of [ZeMarmot](http://film.zemarmot.net) Open Movie project: symmetry painting, MyPaint library integration, email plugin, Input Methods, management of the new themes and icons contributions, and more…
+
 We have prolific newcomers among developers:
 
 * Ell joined us with significant code contributions (32 commits), such as the diagonal neighbours, the "Remove Hole" command, and many other fixes;
