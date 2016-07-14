@@ -27,7 +27,7 @@ All work on icons by Klaus Staedtler is made on vector (SVG) images, which shoul
 
 We cleaned the Preferences dialog a little and reordered options in a  more logical manner. The Color Management page was redesigned following both internal and user-visible changes in relevant parts of GIMP (see below), and the _Snap Distance_ options have been moved to a dedicated _Snapping_ page.
 
-Additionally, it is now possible to configure the size of undo step previews in the Undo dialog via the _Preferences_ dialog, which was previously only possible by manually editing GIMP’s configuration file GIMP's configuration file before, by a complete oversight on our part.
+Additionally, it is now possible to configure the size of undo step previews in the Undo dialog via the _Preferences_ dialog, which was previously only possible by manually editing GIMP’s configuration file GIMP's configuration file, by a complete oversight on our part.
 
 The startup splash screen now features a pulsing progress bar to indicate that GIMP is not frozen. This, as well as initializing fontconfig in the background (also a new feature in 2.9.4), is meant to address a common issue where rebuilding the fonts cache (or building it for the first time) can take a lot of time hence making an impression that GIMP freezes at startup. We acknowledge that this is a workaround. Fixing the actual reason involves hacking on fontconfig. If you are interested, there is a [bug report](https://bugs.freedesktop.org/show_bug.cgi?id=64766) on that.
 
@@ -35,7 +35,7 @@ The startup splash screen now features a pulsing progress bar to indicate that G
 
 The color management implementation got a complete overhaul in this version of GIMP. Instead of being a pluggable module, it is now a core feature. Moreover, we added an abstraction layer that makes GIMP less dependent on [LittleCMS](http://www.littlecms.com/). This means that in the future GIMP could use native APIs on Windows and OS X, and/or use [OCIO](http://opencolorio.org/).
 
-For now, it has helped us to clean up the code a lot and introduce a clean implementation of color management to various bits of GIMP such as: previews for flat and gradient swatches, patterns, various color widgets (including the drag-and-drop color widget), the Color Picker tool, layer and image preview etc. The only unmanaged bit for now is the color widget in the Script-Fu and Python-Fu plug-ins. Moreover, GIMP will track which monitor the widget is currently on (different monitors would have different ICC profiles assigned to them) and color-correct it accordingly.
+For now, it has helped us to clean up the code a lot and introduce a clean implementation of color management to various bits of GIMP such as: previews for color swatches and gradients, patterns, various color widgets (including the drag-and-drop color widget), the Color Picker tool, layer and image preview etc. The only unmanaged bit for now is the color widget in the Script-Fu and Python-Fu plug-ins. Moreover, GIMP will track which monitor the widget is currently on (different monitors would have different ICC profiles assigned to them) and color-correct it accordingly.
 
 Grayscale images are first class citizens in GIMP once again: since v2.9.4, GIMP can color-manage them as well.
 
@@ -75,7 +75,7 @@ It is still possible to use other raw development plug-ins like `UFRaw`. For cas
 
 ## Screenshots
 
-The code for capturing screenshots has undergone a major reorganization. It's now split into a back-end and several front-ends specific for Windows, OS X, Wayland and X.org (Linux and UNIX systems).
+The code for capturing screenshots has undergone a major reorganization. It's now split into a front-end and several back-ends specific for Windows, OS X, Wayland and X.org (Linux and UNIX systems).
 
 While there are no immediate user-visible changes, this reorganization will greatly simplify further improvements, hence improving user experience on different operating systems.
 
@@ -83,9 +83,9 @@ While there are no immediate user-visible changes, this reorganization will grea
 
 ### MyPaint Brush Tool
 
-The new [MyPaint](http://mypaint.org/) Brush tool is now enabled by default. Daniel Sabo and Michael Natterer improved its performance and made MyPaint brushes available via an aready familiar dockable dialog interface, with previews and tagging.
+The new [MyPaint](http://mypaint.org/) Brush tool is now enabled by default. Daniel Sabo and Michael Natterer improved its performance and made MyPaint brushes available via an already familiar dockable dialog interface, with previews and tagging.
 
-Jehan Pagès collaborated with the MyPaint team: he [ported libmypaint to autotools](http://mypaint.org/blog/2016/05/20/libmypaint-now-uses-autotools/), allowing in particular standard builds on all platforms, and work is being done to turn default brushes into a separately shipped package.
+Jehan Pagès collaborated with the MyPaint team: he [ported libmypaint to autotools](http://mypaint.org/blog/2016/05/20/libmypaint-now-uses-autotools/), allowing, in particular, standard builds on all platforms, and work is being done to turn the default brushes into a separately shipped package.
 
 ### Symmetry Painting
 
@@ -102,7 +102,7 @@ Quick _1-minute_ test by Aryeom Han:
 
 ### Tool Options
 
-Better shortcut mappings have been attributed to the mouse wheel, associated with various modifiers, in order to do useful things on the current tools options:
+The mouse scroll-wheel action mappings have been improved, allowing, in combination with various modifiers, to do useful things on the currently selected tool's options:
 
 * `Alt + Mousewheel`: opacity increase/decrease;
 * `Shift + Primary + Mousewheel`: aspect increase/decrease;
@@ -114,13 +114,13 @@ _Note_: the `Primary` modifier is usually `Ctrl` or `Cmd`, depending on your pla
 
 ## Selections
 
-For cases when your selection has a lot of small unselected regions, you can now use `Select > Remove Holes` command.
+For cases when your selection has a lot of small unselected regions, you can now use the `Select > Remove Holes` command.
 
 <figure>
     <img src="{filename}gimp-2-9-4-remove-holes.jpg" alt="Removing holes in selection" width='975' height='1110' />
 </figure>
 
-The `Select > Border...` dialog now provides several border style options: hard, smooth, and feathered. _Feathered_ creates a selection that goes gradually from 1 to 0 the farther you get from the middle of the border. _Smooth_ preserves partial selection (antialiasing) along the edges of the selection.
+The `Select > Border...` dialog now provides several border style options: hard, smooth, and feathered. _Feathered_ creates a selection which goes gradually from 1 to 0 the farther you get from the middle of the border. _Smooth_ preserves partial selection (antialiasing) along the edges of the selection.
 
 <figure>
     <img src="{filename}gimp-2-9-4-border-style.png" alt="Border styles selection" width='975' height='648' />
@@ -128,15 +128,15 @@ The `Select > Border...` dialog now provides several border style options: hard,
 
 ## Better Tools
 
-_Fuzzy Select_ and _Bucket Fill_ tools got a new feature for selecting/filling diagonally neighboring pixels.
+The _Fuzzy Select_ and _Bucket Fill_ tools got a new feature for selecting/filling diagonally neighboring pixels.
 
 <figure>
     <img src="{filename}gimp-2-9-4-diagonal-neighbors.png" alt="Diagonal neighbors selection" width='975' height='648' />
 </figure>
 
-The _Blend_ tool got shapeburst fills resurrected, and allows to place their handles on the canvas. Additionally the Blend tool displays progress indication now thanks to a new GEGL feature available in several GEGL operations including `gegl:distance-transform`.
+The _Blend_ tool got shapeburst fills resurrected, and allows the placement of their handles on the canvas, outside of the image area. Additionally, the Blend tool now displays its progress thanks to a new GEGL feature available in several GEGL operations including `gegl:distance-transform`.
 
-The _Text_ tool now fully supports advanced input methods for CJK and other non-western languages. Minimal support already existed but the preedit text was displayed in a floating pop-up instead of inline within the text tool box, and without any preview styling. It is now displayed just as expected depending on your platform and Input Method Engine. Several input method-related bugs and crashes have also been fixed in the same time.
+The _Text_ tool now fully supports advanced input methods for CJK and other non-western languages. Minimal support already existed, but the pre-edit text was displayed in a floating pop-up instead of inline, within the text tool box, and without any preview styling. It is now displayed just as expected, depending on your platform and Input Method Engine. Several input method-related bugs and crashes have also been fixed.
 
 <figure>
     <img src="{filename}gimp-2-9-4-ime.png" alt="Input Method Engine support in text tool" width='417' height='240' />
@@ -144,41 +144,46 @@ The _Text_ tool now fully supports advanced input methods for CJK and other non-
 
 ## Batch Processing on Command Line
 
-A new macro `with-files` is now available in order to easily process multiple files through GIMP, on command line, which was a much awaited feature.
+A new macro `with-files` is now available in order to easily process multiple files through GIMP from the command line, which was a much awaited feature.
 
-For instance, if you wanted to invert colors of all PNG images from the current folder, then save them as JPEG, you could run from the command line:
+For instance, if you want to invert the colors of all PNG images in the current folder, then save them as JPEG, you could run the following from the command line:
 
-```bash
-gimp -i -b '(with-files "*.png" (gimp-invert layer) \
-             (gimp-file-save 1 image layer \
-              (string-append basename ".jpg") \
-              (string-append basename ".jpg") ))'
+```shell
+gimp -i -b '(with-files "*.png"
+                (gimp-invert layer)
+                (gimp-file-save 1 image layer
+                    (string-append basename ".jpg")
+                    (string-append basename ".jpg")
+                )
+            )
+            (gimp-quit 0)'
 ```
+Note: the name of the macro [may change](https://bugzilla.gnome.org/show_bug.cgi?id=726947#c12) before the release of v2.10.
 
 ## Email Plug-in Resurrected
 
-The `File > Send by email…` dialog will open your default email client with an attached copy of your current image, to share your work-in-progress in a single click. This is available only on operating systems with `xdg-email` (likely **GNU/Linux, BSD only**).
+The `File > Send by email…` dialog will open your default email client with an attached copy of the current image, to share your work-in-progress with a single click. This is available only on operating systems with `xdg-email` (likely **GNU/Linux, BSD only**).
 
 The original implementation using `sendmail` is also available. Yet since it requires a properly configured sendmail, which is not common on desktop machines, the explicit `--with-sendmail` option has to be set at build time to replace the `xdg-email` implementation.
 
 ## Debugging Facilities for Windows
 
-When GIMP occasionally crashes, we need as much information as possible to find out the actual bug. Raw crash log is one of such sources of information about an issue. **Windows** builds can now generate backtrace logs upon a crash with [Dr.MinGW's ExcHndl](https://github.com/jrfonseca/drmingw) library, which must be available at build time. The logs will be stored in `%APPDATA%\GIMP\2.9\CrashLog\`.
+In the unlikely event that GIMP crashes, we need as much information as possible to find out the actual bug. The raw crash log is one such source of information. **Windows** builds can now generate backtrace logs upon a crash with [Dr.MinGW's ExcHndl](https://github.com/jrfonseca/drmingw) library, which must be available at build time. The logs will be stored in `%APPDATA%\GIMP\2.9\CrashLog\`.
 
 ## What's Left To Do for GIMP 2.10
 
-Since the release of v2.9.2 we have been mostly fixing bugs and completing the work we had started earlier. We are not planning to add any major new features in v2.10. If you are interested to help us release v2.10 earlier, you can find the list of bugs reports in the [bugtracker](https://bugzilla.gnome.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=NEEDINFO&classification=Other&list_id=137406&order=Importance&product=GIMP&query_format=advanced&target_milestone=2.10).
+Since the release of v2.9.2 we have been mostly fixing bugs and completing the work we had started earlier. We are not planning to add any major new features in v2.10. If you are interested in helping us release v2.10 earlier, you can find the list of bug reports in our [bugtracker](https://bugzilla.gnome.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=NEEDINFO&classification=Other&list_id=137406&order=Importance&product=GIMP&query_format=advanced&target_milestone=2.10).
 
 ## Some Statistics on Our Awesome Contributors
 
 GIMP [2.9.2 was released on November 27, 2015](http://www.gimp.org/news/2015/11/27/gimp-2-9-2-released/). Since then, the work to reach GIMP 2.9.4 was done in **1348 commits**, making an average of **5.9 commits a day**, of which 894 are (mostly) code-related, 241 are icon-related, and 213 are translation updates.
 
-As usual, GIMP team is small yet as dedicated as ever: more than a third of the commits have been done by Michael Natterer (514), next biggest contributors are Jehan Pagès (192) and Klaus Staedtler (187). The 3 of them represent 66% of all commits.
+As usual, the GIMP team is small yet as dedicated as ever: more than a third of the commits have been done by Michael Natterer (514), the next biggest contributors being Jehan Pagès (192) and Klaus Staedtler (187). The three of them represent 66% of all commits.
 
 We have prolific newcomers among developers:
 
-* Ell joined us with significant code contributions (32 commits) like the diagonal neighbours, the "Remove Hole" command, and many other fixes;
-* Tobias Ellinghaus, a darktable developer, contributed 14 commits on darktable integration, and improving the EXR and PNM support.
+* Ell joined us with significant code contributions (32 commits), such as the diagonal neighbours, the "Remove Hole" command, and many other fixes;
+* Tobias Ellinghaus, a darktable developer, contributed 14 commits on darktable integration and improving EXR and PNM support.
 
 Of course, we also have our usual suspects with 10+ code commits: Alexandre Prokoudine, Daniel Sabo, Kristian Rietveld, Massimo Valentini, and Michael Henning.
 
@@ -189,12 +194,12 @@ We should not forget Benoit Touchette for his work in progress on themes, as wel
 
 We would like to thank as well every 30 translators: Alexandre Prokoudine, Ask Hjorth Larsen, Balázs Meskó, Balázs Úr, Christian Kirbach, Cédric Valmary, Daniel Korostil, Daniel Mustieles, Dimitris Spingos, Dušan Kazik, Gábor Kelemen, Hartmut Kuhse, J.M. Ruetter, Jordi Mas, Khaled Hosny, Marco Ciampa, Mario Blättermann, Martin Srebotnjak, Mónica Canizo, Necdet Yücel, Pedro Albuquerque, Piotr Drąg, Rūdolfs Mazurs, Sebastian Rasmussen, Sveinn í Felli, Tiago Santos, Yolanda Álvarez Pérez, Klaus Staedtler, kolbjoern, and Милош Поповић.
 
-_Note_: we remind that statistics based on the number of commits is valuable information on the activity of a project, yet is not always a perfect indicator on contribution, so the goal of this section is not to have any kind of contributor rank. For instance, some commits may be one-liners, whereas others may be hundreds of lines (and even this may not be always relevant to the time spent and the difficulty of the fix).
+_Note_: Statistics based on the number of commits provide valuable information regarding the activity of a project, yet they are not always a perfect indicator of contribution, so the goal of this section is not to have any kind of contributor rank. For instance, one commit could be a one-liner, whereas another could contain several hundreds of lines (and even this may not always be a good indicator of the time spent on and the difficulty of the fix).
 
-Moreover we should not forget all the "shadow contributors", whose contributions cannot be counted as easily, like code review (of which Massimo Valentini should be commended for), bug triaging and follow-up (Michael Schumacher here would get a price!), community, website, and communication (Akkana Peck, Patrick David, and others)…
+Moreover we should not forget all the "shadow contributors", whose contributions cannot be counted as easily, working on things such as code review (which Massimo Valentini should be especially commended for), bug triaging and follow-up (Michael Schumacher here would get a prize!), community, website, and communication (Akkana Peck, Patrick David, and others)…
 
-So we sincerely hope we did not forget anyone and we want to say: thank you.
+We sincerely hope we did not forget anyone, and we want to say: thank you.
 
 ## Downloads
 
-Source code is available from the [Downloads](http://www.gimp.org/downloads/) page. An installer for Windows will be available shortly. A build for Mac is not available at this time.
+The source code is available from the [Downloads](http://www.gimp.org/downloads/) page. An installer for Windows will be available shortly. A build for Mac OS X is not available at this time.
