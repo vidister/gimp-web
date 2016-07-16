@@ -53,5 +53,9 @@
     "mirrors-usa.go-parts.com" : [
       "http://go-parts.com/mirrors-usa/gimp/gimp/",
       "rsync://mirrors-usa/go-parts.com/mirrors/gimp/"
+    ],
+    "acc.umu.se" : [
+      "http://ftp.acc.umu.se/pub/gimp/",
+      "ftp://ftp.acc.umu.se/pub/gimp/"
     ]
 }
