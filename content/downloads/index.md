@@ -139,7 +139,7 @@ Choosing this option will download the torrent file for the GIMP installer.
 You may need to install a torrent client to make use of this file. <a href="//en.wikipedia.org/wiki/BitTorrent" title="BitTorrent on Wikipedia">Learn more...</a>
 
 ### MD5 Hash Sum
-The MD5 hash sum for `gimp-2.8.18-setup-8.exe` is: <kbd>510bb11abc72443f431226523fa21b6f</kbd>.
+The MD5 hash sum for `gimp-2.8.18-setup.exe` is: <kbd>510bb11abc72443f431226523fa21b6f</kbd>.
 
 ### Older Downloads
 Previous installers for Windows can be found here: [download.gimp.org](//download.gimp.org/mirror/pub/gimp/v2.8/windows/).
