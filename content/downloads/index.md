@@ -8,7 +8,7 @@ Author: Pat David
 </figure>
 
 ## Current Stable Version
-The current stable release of GIMP is **{{ GIMP_VERSION_STABLE }}** (2016-07-14).
+The current stable release of GIMP is **2.8.18** (2016-07-14).
 
 <div class="OSTEST" markdown="1">
 We think your OS is 
@@ -174,7 +174,7 @@ GIMP releases available from gimp.org and its [mirrors](#mirrors) contain the so
 
 For instructions, how to build GIMP from source code, please see [this page](/source/).
 
-GIMP {{ GIMP_VERSION_STABLE }} is now available at [http://download.gimp.org/mirror/pub/gimp/v2.8/](//download.gimp.org/mirror/pub/gimp/v2.8/). You may want to read the [Release Notes for GIMP 2.8](/release-notes/gimp-2.8.html).
+GIMP 2.8.16 is now available at [http://download.gimp.org/mirror/pub/gimp/v2.8/](//download.gimp.org/mirror/pub/gimp/v2.8/). You may want to read the [Release Notes for GIMP 2.8](/release-notes/gimp-2.8.html).
 
 To allow you to check the integrity of the tarballs, here are the MD5 sums of the latest releases:
 
@@ -223,7 +223,7 @@ Nightly builds for Windows are available at [darkrefraction.com](http://nightly.
 
 A detailed list of changes in the development branch is available in [git](https://git.gnome.org/cgit/gimp/plain/NEWS).
 
-GIMP {{ GIMP_VERSION_DEVEL }} is now available at [http://download.gimp.org/mirror/pub/gimp/v2.9/](//download.gimp.org/mirror/pub/gimp/v2.9/).
+GIMP 2.9.4 is now available at [http://download.gimp.org/mirror/pub/gimp/v2.9/](//download.gimp.org/mirror/pub/gimp/v2.9/).
 
 To allow you to check the integrity of the tarballs, here are the MD5 sums of the latest development snapshots:
 
