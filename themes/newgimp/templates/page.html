@@ -52,7 +52,9 @@
         <div class='container'>
             <div class='row clearfix'>
                 <div class='column full'>
+                    {% block data %}
                     {{ page.content }}
+                    {% endblock data %}
                 </div>
             </div>
         </div>
@@ -101,4 +103,4 @@
     {% endif %}
 
 
-{% endblock %}
+{% endblock content %}
