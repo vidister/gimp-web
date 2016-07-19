@@ -50,7 +50,7 @@ Please refer to the documentation for your Unix-like system on the installation 
 </a>
 </span>
 <span class='win-button'>
-<a href="//download.gimp.org/mirror/pub/gimp/v2.8/osx/gimp-2.8.16-x86_64-1.dmg">
+<a href="//download.gimp.org/mirror/pub/gimp/v2.8/osx/gimp-2.8.18-x86_64.dmg">
     Download GIMP&nbsp;2.8.16<br/>
     directly
 </a>
