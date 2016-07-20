@@ -44,14 +44,14 @@ Please refer to the documentation for your Unix-like system on the installation 
 ## GIMP for Mac OS X
 
 <span class='win-button' id='osx-torrent'>
-<a href="//download.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.16-x86_64-1.dmg.torrent">
-    Download GIMP&nbsp;2.8.16<br/>
+<a href="//download.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.18-x86_64.dmg.torrent">
+    Download GIMP&nbsp;2.8.18<br/>
     via BitTorrent
 </a>
 </span>
 <span class='win-button'>
-<a href="//download.gimp.org/mirror/pub/gimp/v2.8/osx/gimp-2.8.16-x86_64-1.dmg">
-    Download GIMP&nbsp;2.8.16<br/>
+<a href="//download.gimp.org/mirror/pub/gimp/v2.8/osx/gimp-2.8.18-x86_64.dmg">
+    Download GIMP&nbsp;2.8.18<br/>
     directly
 </a>
 </span>
@@ -70,8 +70,8 @@ Since the 2.8.2 version, GIMP runs on OSX natively. No X11 environment is requir
 
 The official GIMP 2.8 DMG installer (linked above) is a stock GIMP build without any add-ons. It works on OS X 10.6 Snow Leopard and later. Just open the downloaded DMG and drag and drop GIMP into your "Applications" folder.
 
-The MD5 hash sum for `gimp-2.8.16-x86_64-1.dmg` is:
-<kbd>07e8116127081bd1e74095d23ab1d174</kbd>.
+The MD5 hash sum for `gimp-2.8.18-x86_64.dmg` is:
+<kbd>81c62ee2a2708568a26db1d3c200c4ab</kbd>.
 
 
 
