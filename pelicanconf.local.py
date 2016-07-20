@@ -2,6 +2,9 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+import sys
+sys.path.append('./')
+from GIMP_VERSIONS import *
 
 #Plugins
 PLUGIN_PATHS = ["plugins"]
