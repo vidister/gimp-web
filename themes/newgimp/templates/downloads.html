@@ -21,6 +21,14 @@
     <h2>Current Stable Version</h2>
     <p>The current stable release of GIMP is <b>{{ GIMP_VERSION }}</b> (2016-07-14).</p>
     
+    <p>Testing something here...
+        {% if VERSIONS %}
+        <br>GOT VERSIONS<br>
+            {% for version in VERSIONS %}
+            <strong>{{ version }}</strong>{{ VERSIONS[version].source }}<br>
+            {% endfor %}
+        {% endif %}
+    </p>
 
     <div class="OSTEST">
         <p>
