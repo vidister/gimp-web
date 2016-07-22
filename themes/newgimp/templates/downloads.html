@@ -1,16 +1,9 @@
 {% extends "page.html" %}
 
 {#
-    Variables in the .md frontmatter like:
-        GIMP_VERSION_STABLE_MACOS: 2.8.16
-    can be access in this template as page variables:
-        {{ page.gimp_version_stable_macos }}
-
-    Variables in the pelicanconf.py files can be
-    accessed in the usual way:
-        {{ GIMP_VERSION }}
+    We've switched to using the GIMP_VERSIONS json file.
+    Access it using GIMP.###
 #}
-
 
 {% block data %}
 
@@ -20,27 +13,7 @@
 
     <h2>Current Stable Version</h2>
     <p>The current stable release of GIMP is <b>{{ GIMP_VERSION }}</b> (2016-07-14).</p>
-    
-    <p>Testing something here...<br>
-        {% if GIMP.VERSIONS %}
-            {% for version, values in GIMP.VERSIONS.iteritems() %}
-            <b>{{ version }}</b>: {{ values.source.keys()[0] }} <br>
-            {% endfor %}
-        {% endif %}
-    </p>
 
-    <p>Testing all the windows versions begin listed...<br>
-    {% if GIMP.VERSIONS %}
-        {% for version, values in GIMP.VERSIONS.iteritems() %}
-        <b>{{ version }}</b><br>
-        <ul>
-            {% for file, hash in version.windows %}
-            <li>{{ file }}: {{ hash }}</li>   
-            {% endfor %}
-        </ul>
-        {% endfor %}
-    {% endif %} 
-    </p>
 
     <div class="OSTEST">
         <p>
@@ -83,14 +56,14 @@
 
         <p>
             <span class='win-button' id='osx-torrent'>
-                <a href="//download.gimp.org/pub/gimp/v2.8/osx/gimp-{{ GIMP_VERSION_STABLE_MACOS }}-x86_64{{ GIMP_VERSION_STABLE_MACOS_POSTFIX }}.dmg.torrent">
-                    Download GIMP&nbsp;{{ GIMP_VERSION_STABLE_MACOS }}<br/>
+                <a href="//download.gimp.org/pub/gimp/v2.8/osx/{{ MACOS_FILE }}.torrent">
+                    Download GIMP&nbsp;{{ MACOS_VER }}<br/>
                     via BitTorrent
                 </a>
             </span>
             <span class='win-button'>
-                <a href="//download.gimp.org/mirror/pub/gimp/v2.8/osx/gimp-{{ GIMP_VERSION_STABLE_MACOS }}-x86_64{{ GIMP_VERSION_STABLE_MACOS_POSTFIX }}.dmg">
-                    Download GIMP&nbsp;{{ GIMP_VERSION_STABLE_MACOS }}<br/>
+                <a href="//download.gimp.org/mirror/pub/gimp/v2.8/osx/{{ MACOS_FILE }}">
+                    Download GIMP&nbsp;{{ MACOS_VER }}<br/>
                     directly
                 </a>
             </span>
@@ -110,8 +83,8 @@
         <p>The official GIMP 2.8 DMG installer (linked above) is a stock GIMP build without any add-ons. It works on OS X 10.6 Snow Leopard and later. Just open the downloaded DMG and drag and drop GIMP into your "Applications" folder.</p>
 
         <p>
-            The MD5 hash sum for <code>gimp-{{ GIMP_VERSION_STABLE_MACOS }}-x86_64{{ GIMP_VERSION_STABLE_MACOS_POSTFIX }}.dmg</code> is:
-            <kbd>07e8116127081bd1e74095d23ab1d174</kbd>.
+            The MD5 hash sum for <code>{{ MACOS_FILE }}</code> is:
+            <kbd>{{ MACOS_HASH }}</kbd>.
         </p>
 
 
@@ -175,14 +148,14 @@
 
     <p>
         <span class='win-button' id='win-torrent'>
-            <a href="//download.gimp.org/pub/gimp/v2.8/windows/gimp-{{ GIMP_VERSION_STABLE_WINDOWS }}-setup{{ GIMP_VERSION_STABLE_WINDOWS_POSTFIX }}.exe.torrent" title="Download GIMP via BitTorrent" id="win-torrent-link">
-                Download GIMP&nbsp;{{ GIMP_VERSION_STABLE_WINDOWS }}<br/>
+            <a href="//download.gimp.org/pub/gimp/v2.8/windows/{{ WINDOWS_FILE }}.torrent" title="Download GIMP via BitTorrent" id="win-torrent-link">
+                Download GIMP&nbsp;{{ WINDOWS_VER }}<br/>
                 via BitTorrent
             </a>  
         </span>
         <span class='win-button'>
-            <a href="//download.gimp.org/mirror/pub/gimp/v2.8/windows/gimp-{{ GIMP_VERSION_STABLE_WINDOWS }}-setup{{ GIMP_VERSION_STABLE_WINDOWS_POSTFIX }}.exe" title="Download GIMP via HTTP" id='win-download-link' >
-                Download GIMP&nbsp;{{ GIMP_VERSION_STABLE_WINDOWS }}<br/>
+            <a href="//download.gimp.org/mirror/pub/gimp/v2.8/windows/{{ WINDOWS_FILE }}" title="Download GIMP via HTTP" id='win-download-link' >
+                Download GIMP&nbsp;{{ WINDOWS_VER }}<br/>
                 directly
             </a>
         </span>
@@ -208,7 +181,7 @@
 
     <h3>MD5 Hash Sum</h3>
     <p>
-        The MD5 hash sum for <code>gimp-{{ GIMP_VERSION_STABLE_WINDOWS }}-setup{{ GIMP_VERSION_STABLE_WINDOWS_POSTFIX }}.exe</code> is: <kbd>510bb11abc72443f431226523fa21b6f</kbd>.
+        The MD5 hash sum for <code>{{ WINDOWS_FILE }}</code> is: <kbd>{{ WINDOWS_HASH }}</kbd>.
     </p>
 
     <h3>Older Downloads</h3>
@@ -249,59 +222,20 @@
 
     <p>For instructions, how to build GIMP from source code, please see <a href='/source/'>this page</a>.</p>
 
-    <p>GIMP 2.8.16 is now available at <a href='//download.gimp.org/mirror/pub/gimp/v2.8/'>http://download.gimp.org/mirror/pub/gimp/v2.8/</a>. You may want to read the <a href='/release-notes/gimp-2.8.html'>Release Notes for GIMP 2.8</a>.</p>
+    <p>GIMP {{ GIMP_VERSION }} is now available at <a href='//download.gimp.org/mirror/pub/gimp/v2.8/'>http://download.gimp.org/mirror/pub/gimp/v2.8/</a>. You may want to read the <a href='/release-notes/gimp-2.8.html'>Release Notes for GIMP 2.8</a>.</p>
 
     <p>To allow you to check the integrity of the tarballs, here are the MD5 sums of the latest releases:</p>
 
-    <p>
-    <strong>gimp-2.8.18.tar.bz2</strong><br>
-    <kbd>5adaa11a68bc8a42bb2c778fee4d389c</kbd>
-    </p>
-
-    <p>
-    <strong>gimp-2.8.16.tar.bz2</strong><br>  
-    <kbd>30e0a1b7c18b0e3415f4ac54567252ac</kbd>
-    </p>
-
-    <p>
-    <strong>gimp-2.8.14.tar.bz2</strong><br>  
-    <kbd>233c948203383fa078434cc3f8f925cb</kbd>
-    </p>
-
-    <p>
-    <strong>gimp-2.8.12.tar.bz2</strong><br>  
-    <kbd>47fefa240c38cfb1016b57ad6324378d</kbd>
-    </p>
-
-    <p>
-    <strong>gimp-2.8.10.tar.bz2</strong><br>  
-    <kbd>84c964aab7044489af69f7319bb59b47</kbd>
-    </p>
-
-    <p>
-    <strong>gimp-2.8.8.tar.bz2</strong><br>  
-    <kbd>ef2547c3514a1096931637bd6250635a</kbd>
-    </p>
-
-    <p>
-    <strong>gimp-2.8.6.tar.bz2</strong><br>  
-    <kbd>12b3fdf33d1f07ae79b412a9e38b9693</kbd>
-    </p>
-
-    <p>
-    <strong>gimp-2.8.4.tar.bz2</strong><br>  
-    <kbd>392592e8755d046317878d226145900f</kbd>
-    </p>
-
-    <p>
-    <strong>gimp-2.8.2.tar.bz2</strong><br>  
-    <kbd>b542138820ca3a41cbd63fc331907955</kbd>
-    </p>
-
-    <p>
-    <strong>gimp-2.8.0.tar.bz2</strong><br>  
-    <kbd>28997d14055f15db063eb92e1c8a7ebb</kbd>
-    </p>
+    {% if GIMP.STABLE %}
+        {% for version, values in GIMP.STABLE.iteritems() %}
+            {% if 'source' in values %}
+            <p>
+                <strong>{{ values['source'].keys()[0] }}</strong><br>
+                <kbd>{{ values['source'].values()[0] }}</kbd>
+            </p>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
 
 
     <p>
