@@ -21,7 +21,6 @@
     <h2>Current Stable Version</h2>
     <p>The current stable release of GIMP is <b>{{ GIMP_VERSION }}</b> (2016-07-14).</p>
     
-    {#
     <p>Testing something here...<br>
         {% if GIMP.VERSIONS %}
             {% for version, values in GIMP.VERSIONS.iteritems() %}
@@ -29,7 +28,19 @@
             {% endfor %}
         {% endif %}
     </p>
-    #}
+
+    <p>Testing all the windows versions begin listed...<br>
+    {% if GIMP.VERSIONS %}
+        {% for version, values in GIMP.VERSIONS.iteritems() %}
+        <b>{{ version }}</b><br>
+        <ul>
+            {% for file, hash in version.windows %}
+            <li>{{ file }}: {{ hash }}</li>   
+            {% endfor %}
+        </ul>
+        {% endfor %}
+    {% endif %} 
+    </p>
 
     <div class="OSTEST">
         <p>
