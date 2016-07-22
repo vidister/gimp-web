@@ -2,9 +2,11 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-import sys
-sys.path.append('./')
-from GIMP_VERSIONS import *
+import json
+from collections import OrderedDict
+with open('GIMP_VERSIONS') as data:
+    GIMP = json.load(data, object_pairs_hook=OrderedDict)
+
 
 #Plugins
 PLUGIN_PATHS = ["plugins"]
