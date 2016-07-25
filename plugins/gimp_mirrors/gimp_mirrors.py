@@ -18,6 +18,16 @@ Don't try to make any sense of it.  I don't know what I'm doing.
 I am not kidding.
 '''
 
+'''
+Update 2016-07-20
+    Had to change the signal to
+    `signals.content_written.connect(do_mirrors)`
+    so we actualy catch the rendered .html files
+    after they've been through the template.
+    This way we can look for <!-- MIRRORS --> to
+    replace it with the correct parsed list.
+'''
+
 class UnexpectedException(Exception): pass
 
 def html_output( data ):
@@ -40,23 +50,14 @@ def html_output( data ):
     return html
 
 
-def do_mirrors(content_object):
+def do_mirrors(path, context):
 
-    # Not 'Page' object?  Quit.
-    if type(content_object) is not contents.Page:
-        return
-    
+
     # normalize OS path separators to fwd slash
-    page = content_object
-    path = content_object.source_path.replace( os.path.sep, '/' )
-
-    #print "##########"
-    #print "%s" % content_object
-    #print "path: %s" % path
-    #print dir(page)
+    path = path.replace( os.path.sep, '/' )
 
     # if we are on a downloads page
-    if '/downloads/index.md' in path:
+    if '/downloads/index.html' in path:
 
         # create mirrors dict
         mirrors = {}
@@ -84,13 +85,35 @@ def do_mirrors(content_object):
                     except:
                         print "cannot resolve record: ", record
 
-                page._content = page._content.replace(u"<!-- MIRRORS -->", html_output( mirrors) )
+                try:
+                    with open( path, 'r') as f:
+                        s = f.read()
+                        #print s.decode('utf-8')
+                        s = s.decode('utf-8').replace(u"<!-- MIRRORS -->", html_output( mirrors ))
+
+                    with open( path, 'w') as f:
+                        f.write( s.encode('utf-8') )
+
+                except:
+                    print "Trouble with reading/writing path."
 
         except IOError:
             print "Cannot open /content/downloads/mirrors.json!"
-            page._content = page.content.replace(u"<!-- MIRRORS -->", "<p><small>Cannot open mirrors2.json</small></p>")
+            try:
+                with open( path, 'r') as f:
+                    s = f.read()
+                    #print s.decode('utf-8')
+                    s = s.decode('utf-8').replace(u"<!-- MIRRORS -->", u"<p><small>Cannot open mirrors2.json</small></p>")
+
+                with open( path, 'w') as f:
+                    f.write( s.encode('utf-8') )
+
+            except:
+                print "Trouble with reading/writing path."
 
 
 
 def register():
-    signals.content_object_init.connect(do_mirrors)
+    # Trying something to read the html after written...
+    signals.content_written.connect(do_mirrors)
+
