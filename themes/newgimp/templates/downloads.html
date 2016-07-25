@@ -229,7 +229,7 @@
     {% if GIMP.STABLE %}
         {% for version, values in GIMP.STABLE.iteritems() %}
             {% if 'source' in values %}
-            <p>
+            <p class='{{ values['source'].values()[0] }}'>
                 <strong>{{ values['source'].keys()[0] }}</strong><br>
                 <kbd>{{ values['source'].values()[0] }}</kbd>
             </p>
