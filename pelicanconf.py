@@ -33,7 +33,7 @@ AUTHOR = u'Pat David'
 SITENAME = u'GIMP'
 SITEURL = '//www.gimp.org'
 SITEMAP_SITEURL = 'https://www.gimp.org'
-GIMP_VERSION = u'2.8.18'
+#GIMP_VERSION = u'2.8.18'
 
 PATH = 'content'
 
@@ -121,3 +121,38 @@ PAGES_DEBUG = False
 # When developing, you probably want document relative URLs - so set this to True
 # When publishing, set to False
 RELATIVE_URLS = False
+
+#
+# Parse the GIMP_VERSIONS json file for use around the site
+# (mostly the /downloads/index.html page)
+#
+
+import json
+from collections import OrderedDict
+with open('GIMP_VERSIONS') as data:
+    GIMP = json.load(data, object_pairs_hook=OrderedDict)
+
+if 'STABLE' in GIMP:
+    # Set the current stable GIMP version from
+    # the GIMP_VERSIONS json file.  The most
+    # current version _should_ be the first key
+    # hence, .keys()[0]
+    GIMP_VERSION = GIMP['STABLE'].keys()[0]
+    for version, info in GIMP['STABLE'].iteritems() :
+        if 'windows' in info: 
+            try:
+                WINDOWS_FILE
+            except NameError:
+                WINDOWS_VER = version
+                WINDOWS_FILE = info['windows'].keys()[0]
+                WINDOWS_HASH = info['windows'].values()[0]
+        if 'macos' in info:
+            try:
+                MACOS_FILE
+            except NameError:
+                MACOS_VER = version
+                MACOS_FILE = info['macos'].keys()[0]
+                MACOS_HASH = info['macos'].values()[0]
+else:
+    print 'STABLE not defined'
+
