@@ -9,8 +9,9 @@ status: hidden
 If you want to discuss features, tips, tricks or contribute to the development of GIMP, then we have several useful mailing lists and [IRC channels](/irc.html) for you.
 
 <dl>
-  <dt><a href="https://mail.gnome.org/mailman/listinfo/gimp-user-list">GIMP User</a></dt>
-  <dd>The original (mostly unix based) user list. For the everyday user.
+  <dt><a href="https://mail.gnome.org/mailman/listinfo/gimp-user-list"><strong>GIMP User</strong></a></dt>
+  <dd><span style='font-weight: 400; font-style: italic;'>This is the main list for questions about using GIMP.</span><br>
+  The original (mostly unix based) user list. For the everyday user.
   Here you will find tips for doing cool effects, user questions, etc.<br>
   Archives:
   <a href="https://mail.gnome.org/archives/gimp-user-list/">GNOME</a>,
