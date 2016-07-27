@@ -124,6 +124,8 @@ For example, at the time of writing this, 2.8.18 was the most recent stable vers
         },
 ```
 
+If there had been no `windows` section under `2.8.18`, then the code at the end of pelicanconf.(local|testing|).py would have checked the next section and so on until it found one.
+
 
 ---
 
