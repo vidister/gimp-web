@@ -8,7 +8,7 @@ lang: en
 
 I (*Pat David*) am creating this page to keep notes and information for building/maintaining the new site.
 
-(Meta) pages of interest:
+Other (Meta) pages of interest:
 
 * [Editing the Front Page](./frontpage.html)
 * [Creating a Translation](./translating.html)
@@ -18,6 +18,117 @@ I (*Pat David*) am creating this page to keep notes and information for building
 * [Markdown Cheatsheet](./markdown.html)
 * [Translations (more info)](./translations.html)
 * [Old URL List](./file-list.html)
+
+
+
+## Python & Pelican
+
+For anyone who wants to build and view the site, they will need only Python, and a couple of extra components (Pelican, Markdown, typogrify).
+This is the same procedure anyone can use to test new content they would like to propose or push.
+
+### Getting a build environment
+
+1. Install [Python].  
+2.7.x is best, earlier versions are not supported.  
+Only provisional support for 3.3+.
+2. Install [Pelican].  
+Simplest method is simply: `pip install pelican`
+3. Install some extra components:
+    * For [Markdown] support:  
+    `pip install Markdown`
+    * For fancy typography elements with [typogrify]:  
+    `pip install typogrify`
+    * For some html scraping for the mirrors list [Beautifulsoup4]:  
+    `pip install bs4`
+    * For ip geolocating (for the gimp-mirrors plugin), pygeoip:
+    `pip install pygeoip`
+
+
+For detailed information refer to the [Pelican documentation](http://docs.getpelican.com/en/stable/).
+
+
+
+### Building the site
+
+Building the site is relatively straightforward:
+
+From the project directory, simply invoke pelican:
+
+`pelican`
+
+If you are writing content or developing other parts of the site, there is an option to watch the directory of files for changes and to automatically re-compile the site as needed:
+
+`pelican -r`
+
+In some cases, it can be beneficial to avoid using the cache that Pelican creates internally (to help speed up the build).
+To avoid using the cache, *and* to watch for changes and rebuild as necessary:
+
+`pelican -r --ignore-cache`
+
+
+### Viewing the site
+
+Python has a simple web server available to preview the site.
+
+For Python 2:  
+`cd output`  
+`python -m SimpleHTTPServer`
+
+For Python 3:  
+`cd output`  
+`python m http.server`
+
+The site can then be accessed locally at:  
+`localhost:8000`
+
+Further notes on using Pelican can be found on the page [Using Pelican](./using-pelican).
+
+
+
+### GIMP_VERSIONS
+
+In the root of the project is a [JSON](http://www.json.org/) file called `GIMP_VERSIONS`.
+This file is meant to contain relevant information for all of the GIMP releases in a parse-able format.
+
+It's also used to automatically fill out relevant information on the [/downloads/](/downloads/) page
+such as the current stable version and associated hashes + links.
+
+The current stable version is automatically pulled from the most recent entry under `STABLE`.
+The current win/osx versions are automatically determined from the most recent entry under `STABLE` that includes either 'windows' or 'macos' respectively.  If an entry is not found in a section, it will continue searching down the list until it's found.
+
+```javascript
+'STABLE': {
+    'VERSION #': {
+        'source | windows | macos': {
+            'filename': 'hash'
+            }
+        }
+    }
+```
+
+For example, at the time of writing this, 2.8.18 was the most recent stable version, and the `GIMP_VERSIONS` file looked (partially) like this:
+
+```javascript
+"STABLE":  {
+
+    "2.8.18": {
+        "source": { 
+            "gimp-2.8.18.tar.bz2": "5adaa11a68bc8a42bb2c778fee4d389c"
+            },
+        "windows": {
+            "gimp-2.8.18-setup.exe": "510bb11abc72443f431226523fa21b6f"
+            },
+        "macos": {
+            "gimp-2.8.18-x86_64.dmg": "76858c813e9974b187edfd71ce6d83c6506d6a3c"
+            }
+        },
+```
+
+If there had been no `windows` section under `2.8.18`, then the code at the end of pelicanconf.(local|testing|).py would have checked the next section and so on until it found one.
+
+
+---
+
 
 
 The work I am doing here is based on a couple of suggestions over the past year (or more, I'm sure) to refresh the design of WGO.
@@ -95,68 +206,6 @@ The build systems will often help to abstract away portions of the underlying ht
 For instance, many will take files written as [Markdown] or [reStructuredText], which are simpler format for writing content that can easily be parsed into html (or other formats).
 
 
-
-### Python & Pelican
-
-For anyone who wants to build and view the site, they will need only Python, and a couple of extra components (Pelican, Markdown, typogrify).
-This is the same procedure anyone can use to test new content they would like to propose or push.
-
-#### Getting a build environment
-
-1. Install [Python].  
-2.7.x is best, earlier versions are not supported.  
-Only provisional support for 3.3+.
-2. Install [Pelican].  
-Simplest method is simply: `pip install pelican`
-3. Install some extra components:
-    * For [Markdown] support:  
-    `pip install Markdown`
-    * For fancy typography elements with [typogrify]:  
-    `pip install typogrify`
-    * For some html scraping for the mirrors list [Beautifulsoup4]:  
-    `pip install bs4`
-    * For ip geolocating (for the gimp-mirrors plugin), pygeoip:
-    `pip install pygeoip`
-
-
-For detailed information refer to the [Pelican documentation](http://docs.getpelican.com/en/stable/).
-
-
-
-#### Building the site
-
-Building the site is relatively straightforward:
-
-From the project directory, simply invoke pelican:
-
-`pelican`
-
-If you are writing content or developing other parts of the site, there is an option to watch the directory of files for changes and to automatically re-compile the site as needed:
-
-`pelican -r`
-
-In some cases, it can be beneficial to avoid using the cache that Pelican creates internally (to help speed up the build).
-To avoid using the cache, *and* to watch for changes and rebuild as necessary:
-
-`pelican -r --ignore-cache`
-
-
-#### Viewing the site
-
-Python has a simple web server available to preview the site.
-
-For Python 2:  
-`cd output`  
-`python -m SimpleHTTPServer`
-
-For Python 3:  
-`cd output`  
-`python m http.server`
-
-The site can then be accessed locally at:  
-`localhost:8000`
-
-Further notes on using Pelican can be found on the page [Using Pelican](./using-pelican).
 
 ## Who
 
