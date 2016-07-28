@@ -49,7 +49,7 @@ GIMP 2.6 - Author: Alexia Death
 <figure>
 <img src="images/gimp-splash-2.8.png" alt="GIMP 2.8 - Author: " />
 <figcaption>
-GIMP 2.8
+GIMP 2.8 - Author: Bernhard Stockmann
 </figcaption>
 </figure>
 
