@@ -1,6 +1,6 @@
 Title: Stable Version Splash History
 Date: 2015-08-13T13:49:06-05:00
-Modified: 2015-08-13T13:49:12-05:00
+Modified: 2016-07-28T09:51:37-05:00
 Author: Pat David
 
 
@@ -43,6 +43,13 @@ GIMP 2.4 - Author: Paul Davey
 <img src="images/gimp-splash-2.6.png" alt="GIMP 2.6 - Author: Alexia Death" />
 <figcaption>
 GIMP 2.6 - Author: Alexia Death
+</figcaption>
+</figure>
+
+<figure>
+<img src="images/gimp-splash-2.8.png" alt="GIMP 2.8 - Author: " />
+<figcaption>
+GIMP 2.8
 </figcaption>
 </figure>
 
