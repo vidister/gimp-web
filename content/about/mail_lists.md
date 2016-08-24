@@ -8,6 +8,9 @@ status: hidden
 
 If you want to discuss features, tips, tricks or contribute to the development of GIMP, then we have several useful mailing lists and [IRC channels](/irc.html) for you.
 
+Please keep in mind that the mailing lists are not only _publicly available and archived_ for __anyone__ to read, but in some cases are also archived in places outside of our control.
+Don't send any private or sensitive information!
+
 <dl>
   <dt><a href="https://mail.gnome.org/mailman/listinfo/gimp-user-list"><strong>GIMP User</strong></a></dt>
   <dd><span style='font-weight: 400; font-style: italic;'>This is the main list for questions about using GIMP.</span><br>
@@ -16,7 +19,6 @@ If you want to discuss features, tips, tricks or contribute to the development o
   Archives:
   <a href="https://mail.gnome.org/archives/gimp-user-list/">GNOME</a>,
   <a href="http://www.mail-archive.com/gimp-user-list%40gnome.org/">mail-archive</a>,  
-  <a href="http://news.gmane.org/gmane.comp.video.gimp.user/">Gmane</a>,
   <a href="http://gimp.1065349.n5.nabble.com/Users-f3.html">nabble</a>,
   <a href="http://www.spinics.net/lists/gimp/">spinics</a><br>
   Old Archives: 
@@ -29,7 +31,6 @@ If you want to discuss features, tips, tricks or contribute to the development o
   Archives:
   <a href="https://mail.gnome.org/archives/gimp-developer-list/">GNOME</a>,
   <a href="http://www.mail-archive.com/gimp-developer-list%40gnome.org/">mail-archive</a>,
-  <a href="http://news.gmane.org/gmane.comp.video.gimp.devel/">Gmane</a>,
   <a href="http://gimp.1065349.n5.nabble.com/Developers-f15145.html">nabble</a><br>
   Old Archives: 
   <a href="http://www.mail-archive.com/gimp-developer%40lists.xcf.berkeley.edu/">mail-archive</a>
@@ -42,7 +43,6 @@ If you want to discuss features, tips, tricks or contribute to the development o
   Archives:
   <a href="https://mail.gnome.org/archives/gegl-developer-list/">GNOME</a>,
   <a href="http://www.mail-archive.com/gegl-developer-list%40gnome.org/">mail-archive</a>,
-  <a href="http://news.gmane.org/gmane.comp.video.gegl.devel/">Gmane</a><br>
   Old Archives: 
   <a href="http://www.mail-archive.com/gegl-developer%40lists.xcf.berkeley.edu/">mail-archive</a>
   </dd>
@@ -52,7 +52,6 @@ If you want to discuss features, tips, tricks or contribute to the development o
   Archives:
   <a href="https://mail.gnome.org/archives/gimp-gui-list/">GNOME</a>,
   <a href="http://www.mail-archive.com/gimp-gui-list%40gnome.org/">mail-archive</a>,
-  <a href="http://news.gmane.org/gmane.comp.video.gimp.gui/">Gmane</a><br>
   </dd>
 
   <dt><a href="https://mail.gnome.org/mailman/listinfo/gimp-web-list">GIMP Web</a></dt>
@@ -61,7 +60,6 @@ If you want to discuss features, tips, tricks or contribute to the development o
   Archives:
   <a href="https://mail.gnome.org/archives/gimp-web-list/">GNOME</a>,
   <a href="http://www.mail-archive.com/gimp-web-list%40gnome.org/">mail-archive</a>,  
-  <a href="http://news.gmane.org/gmane.comp.video.gimp.web/">Gmane</a><br>
   </dd>
 
   <dt><a href="https://mail.gnome.org/mailman/listinfo/gimp-docs-list">GIMP Docs</a></dt>
@@ -70,7 +68,6 @@ If you want to discuss features, tips, tricks or contribute to the development o
   Archives:
   <a href="https://mail.gnome.org/archives/gimp-docs-list/">GNOME</a>,
   <a href="http://www.mail-archive.com/gimp-docs-list%40gnome.org/">mail-archive</a>,
-  <a href="http://news.gmane.org/gmane.comp.video.gimp.documentation/">Gmane</a><br>
   Old Archives: 
   <a href="http://www.mail-archive.com/gimp-docs%40lists.xcf.berkeley.edu/">mail-archive</a>
   </dd>
