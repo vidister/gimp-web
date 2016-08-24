@@ -91,7 +91,7 @@ The code may change in the future, followed by a notification to subscribers.
 
 Please use these sources to check for information on the project, roadmap, feature requests, bug reports etc.:
 
-*   [Bug tracker](https://bugzilla.gnome.org/browse.cgi?product=GIMP). Useful for checking bug reports and feature reqursts.
+*   [Bug tracker](https://bugzilla.gnome.org/browse.cgi?product=GIMP). Useful for checking bug reports and feature requests.
 *   [Roadmap](http://wiki.gimp.org/index.php/Roadmap). We do not schedule releases, but we plan what things we work on next.
 *   [FAQ](//www.gimp.org/docs/userfaq.html). There are some frequently asked questions we already replied.
 *   [Usability](http://gui.gimp.org). There's ongoing work to improve user experience of GIMP.
