@@ -53,5 +53,11 @@
     ],
     "pirbot.com" : [
       "http://pirbot.com/mirrors/gimp/"
+    ],
+    "hoobly.com" : [
+      "http://pirbot.com/mirrors/gimp/"
+    ],
+    "artfiles.org" : [
+      "http://artfiles.org/gimp.org/pub/gimp/"
     ]
 }
