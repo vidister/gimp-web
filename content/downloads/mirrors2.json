@@ -50,5 +50,8 @@
     "acc.umu.se" : [
       "http://ftp.acc.umu.se/pub/gimp/",
       "ftp://ftp.acc.umu.se/pub/gimp/"
+    ],
+    "pirbot.com" : [
+      "http://pirbot.com/mirrors/gimp/"
     ]
 }
