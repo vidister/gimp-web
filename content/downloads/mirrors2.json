@@ -6,10 +6,6 @@
     "de-mirror.gimper.net" : [
       "http://de-mirror.gimper.net/pub/gimp/"
     ],
-    "artfiles.org" : [
-      "http://artfiles.org/gimp.org/gimp/",
-      "ftp://artfiles.org/gimp.org/gimp/"
-    ],
     "fau.de" : [
       "https://ftp.fau.de/gimp/gimp/",
       "ftp://ftp.fau.de/gimp/gimp/",
@@ -46,9 +42,6 @@
     ],
     "hessmo.com" : [
       "http://mirror.hessmo.com/gimp/"
-    ],
-    "hoobly.com" : [
-      "http://gimp.mirrors.hoobly.com/pub/gimp/"
     ],
     "mirrors-usa.go-parts.com" : [
       "http://go-parts.com/mirrors-usa/gimp/gimp/",
