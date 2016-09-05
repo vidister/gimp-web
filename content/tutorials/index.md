@@ -13,11 +13,28 @@ Use GIMP for simple graphics needs without having to learn advanced image manipu
 [Simple Floating Logo][]  
 This tutorial walks through some basic image and layer manipulation techniques.
 
+[Making a Circle-Shaped Image][]  
+
 [Layer Masks][]  
 An introduction to using layer masks to modify the opacity of a layer.
 
 [Basic Color Curves][]  
 A first look at the Curves tool and adjusting color tones in an image.
+
+[Your GIMP Profile (and You)][]  
+What the GIMP Profile is and how to use it.
+
+[Image Formats Overview][]  
+
+
+[GIMP Quickies]: {filename}GIMP_Quickies/index.md
+[Simple Floating Logo]: {filename}Floating_Logo/index.md
+[Layer Masks]: {filename}Layer_Masks/index.md
+[Basic Color Curves]: {filename}Basic_Color_Curves/index.md
+[Your GIMP Profile (and You)]: {filename}GIMPProfile/index.md
+[Making a Circle-Shaped Image]: {filename}CircleImage/index.md
+[Image Formats Overview]: {filename}ImageFormats/index.md
+
 
 
 ## Photo Editing
@@ -31,6 +48,11 @@ Using multiple layer masks to isolate specific tones in your image for editing.
 [Tone Mapping with 'Colors/Exposure'][]  
 Using high bit depth GIMP's 'Colors/Exposure' operation to add exposure compensation to shadows 
 and midtones while retaining highlight details.
+
+[Digital B&W Conversion]: {filename}Digital_Black_and_White_Conversion/index.md
+[Luminosity Masks]: {filename}Luminosity_Masks/index.md
+[Tone Mapping with 'Colors/Exposure']: {filename}Tone_Mapping_Using_GIMP_Levels/index.md
+
 
 
 ## Programming
@@ -57,10 +79,5 @@ Bear in mind that this list is being provided for legacy reasons only.
 [Basic GIMP Perl]: {filename}Basic_Perl/index.md
 [Automate Editing]: {filename}Automate_Editing_in_GIMP/index.md
 [Automatic Creation of XCF from JPG]: {filename}AutomatedJpgToXcf/index.md
-[Basic Color Curves]: {filename}Basic_Color_Curves/index.md
-[Digital B&W Conversion]: {filename}Digital_Black_and_White_Conversion/index.md
-[GIMP Quickies]: {filename}GIMP_Quickies/index.md
-[Layer Masks]: {filename}Layer_Masks/index.md
-[Luminosity Masks]: {filename}Luminosity_Masks/index.md
-[Simple Floating Logo]: {filename}Floating_Logo/index.md
-[Tone Mapping with 'Colors/Exposure']: {filename}Tone_Mapping_Using_GIMP_Levels/index.md
+
+
