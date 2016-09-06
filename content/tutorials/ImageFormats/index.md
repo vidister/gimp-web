@@ -4,120 +4,130 @@ Modified: 2016-09-04T21:58:31-05:00
 Author: Ofnuts
 Template: page_author
 
-Pros and cons of various images formats from a Gimp perspective
-=============================================================== 
-XCF
----
+## Pros and cons of various images formats from a GIMP perspective
 
-### Pros
+### XCF
 
-* Native Gimp image format. Everything is saved: layers, selections, channels, paths
+#### Pros
 
-### Cons
+* The Native GIMP image format. Everything is saved: layers, selections, channels, paths and more.
+
+#### Cons
 
 * Not a "display" format, even if you can find codecs to display thumbnails of XCF image in file explorers.
-* Bulky
-* Color channels are coded on 8 bits (in Gimp 2.8)
+* Bulky.
+* Color channels are coded in 8 bits (in GIMP 2.8).
  
-### Recommended uses
+#### Recommended uses
 
-* Saving all Gimp work
+* Saving all GIMP work.
 
-JPG
 ---
 
-### Pros
+### JPG
+
+#### Pros
 
 * Compresses the files quite efficiently.
-* Universally supported for display
+* Universally supported for display.
 
-### Cons
+#### Cons
 
-* Compression is "lossy" and it slightly alters the image data. In case of global changes (color, contrast...) repeated file editing will slowly degrade the image quality.
+* Compression is "_lossy_" and it slightly alters the image data. In case of global changes (color, contrast...) repeated file editing will slowly degrade the image quality.
 * At good quality levels, compression is invisible in photography, but can be seen (so called "artifacts") in computer-generated graphics and text.
-* Doesn't support transparency
-* Color channels are coded on 8 bits
+* Doesn't support transparency.
+* Color channels are coded on 8 bits.
 
-### Recommended uses
+#### Recommended uses
 
 * Display of photography
 * Storage of photography
-        
+
 [A more complete FAQ on the subject](http://www.faqs.org/faqs/jpeg-faq/part1/)
-   
-PNG
+
+
 ---
 
-### Pros
+### PNG
 
-* Lossless format, all pixels are kept
-* Supports partial transparency
-* Produces small files with most computer graphics
-* Supported by all browsers
+#### Pros
 
-### Cons
+* Lossless format, all pixels are kept.
+* Supports partial transparency.
+* Produces small files with most computer graphics.
+* Supported by all browsers.
 
-* Complex images (photos) are bulky
-* Color channels are coded on 8 bits
+#### Cons
 
-### Recommended uses
+* Complex images (photos) are bulky.
+* Color channels are coded in 8 bits.
 
-* Web page widgets: banners, buttons, frames,...
-* Computer graphics
-* Screenshots (unless this screenshot contain mostly a photo)
+#### Recommended uses
 
-GIF
+* Web page widgets: banners, buttons, frames, etc...
+* Computer graphics.
+* Screenshots (unless this screenshot contain mostly a photo).
+
+
 ---
 
-### Pros
 
-* Universally supported for animation
+### GIF
 
-### Cons
+#### Pros
 
-* Only 256 colors per image, leads to blocky look 
-(a modern variant supports 256 colors per frame, but Gimp doesn't use it)
-* Supports transparency but only as fully transparent/fully opaque
+* Universally supported for animation.
 
-### Recommended uses
+#### Cons
 
-* Small animated images (in all other still-image uses PNG is a better alternative, 
-and for bigger animation modern HTML supports video)
-    
-TIFF
-----
-### Pros
+* Only 256 colors per image, leads to blocky look.  
+(a modern variant supports 256 colors per frame, but GIMP doesn't use it).
+* Supports transparency but only as fully transparent/fully opaque.
 
-* Lossless format, all pixels are kept
-* Color channels can be coded in 16 bits
-* Can store several images (layers)
+#### Recommended uses
+
+* Small animated images.  
+(in all other still-image uses PNG is a better alternative, and for bigger animation modern HTML supports video)
+
+
+---
+
+### TIFF
+
+#### Pros
+
+* Lossless format, all pixels are kept.
+* Color channels can be coded in 16 bits.
+* Can store several images (layers).
 * Supported by all image processing software.
 
-### Cons
+#### Cons
 
-* Can be bulky on complex images
+* Can be bulky on complex images.
 
-### Recommended uses
+#### Recommended uses
 
-* Storage and exchange of high quality images
+* Storage and exchange of high quality images.
 
-Raw images formats (NEF (Nikon), CR2 (Canon)...)
-------------------------------------------------
+---
 
-### Pros
 
-* No loss of information from the camera sensor (in theory)
-* High-depth color channels (12 or 14-bit)
+### Raw images formats (NEF (Nikon), CR2 (Canon)...)
 
-### Cons
+#### Pros
 
-* Proprietary (except DNG)
+* No loss of information from the camera sensor (in theory).
+* High-depth color channels (12 or 14-bit).
+
+#### Cons
+
+* Proprietary (except DNG).
 * Content format can change without notice (new camera models), this can impact support by your favorite software.
-* Bulky
-* Not suitable for display
-        
-### Recommended uses
-            
+* Bulky.
+* Not suitable for display.
+
+#### Recommended uses
+
 * Storage of camera output, but a secondary copy in some universal format could be a good idea.
 
 
