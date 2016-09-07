@@ -1,8 +1,9 @@
-Title: Making a Circle-Shaped Image
+Title: Circle Images
 Date: 2016-09
 Modified: 2016-09-04T20:54:21-05:00
 Author: Ofnuts
 Template: page_author
+Summary: How to create a circular-shaped image.
 
 Making a circle-shaped image
 ============================
@@ -29,11 +30,11 @@ In light of this:
 
 * If the selection isn't perfect on the first try, you can move it (click around the middle) or extend it (click inside, near a border or a corner).
 
-* Once you have the required selection, invert the selection (*Select&nbsp;→&nbsp;Invert*, or Ctrl-I) so that everything is selected, except your circle
+* Once you have the required selection, invert the selection (*Select&nbsp;→&nbsp;Invert*, or Ctrl-I) so that everything is selected, except your circle.
 
-* Erase the selection (*Edit&nbsp;→&nbsp;Clear* or [Delete] key). You should have your central circle left, surrounded by a checkerboard pattern 
-
+* Erase the selection (*Edit&nbsp;→&nbsp;Clear* or [Delete] key). You should have your central circle left, surrounded by a checkerboard pattern. 
 (this checkerboard is not part of the image, it just indicates the transparent parts of the image).
+
 * You can reduce the checkerboard to the minimum by auto-cropping the image (*Image&nbsp;→&nbsp;Autocrop image*)
 
 * Last, save the image in a format that supports transparency, like PNG (JPEG doesn't support transparent images...)

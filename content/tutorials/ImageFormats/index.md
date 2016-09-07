@@ -3,8 +3,11 @@ Date: 2016-09
 Modified: 2016-09-04T21:58:31-05:00
 Author: Ofnuts
 Template: page_author
+Summary: Selecting the best image format for your purposes.
 
 ## Pros and cons of various images formats from a GIMP perspective
+
+<br>
 
 ### XCF
 
