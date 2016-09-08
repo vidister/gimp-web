@@ -14,6 +14,7 @@ Use GIMP for simple graphics needs without having to learn advanced image manipu
 This tutorial walks through some basic image and layer manipulation techniques.
 
 [Making a Circle-Shaped Image][]  
+How to create a circular-shaped image.
 
 [Layer Masks][]  
 An introduction to using layer masks to modify the opacity of a layer.
@@ -25,6 +26,7 @@ A first look at the Curves tool and adjusting color tones in an image.
 What the GIMP Profile is and how to use it.
 
 [Image Formats Overview][]  
+Selecting the best image format for your purposes.
 
 
 [GIMP Quickies]: {filename}GIMP_Quickies/index.md
