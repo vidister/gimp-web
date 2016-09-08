@@ -68,6 +68,11 @@ New contributors should first introduce themselves on IRC (the #gimp channel at 
 
 This way you can announce the changes you intend to make, ask questions, and discuss which changes would be best. It's generally better to focus on one thing at a time. Contributing to a software project for the first time is always the hardest part, which is why we're here to help each other. There are also websites to give you a good look at how hacking is being done in GIMP.
 
+GIMP has a complex code base, and newcomers that might not be sure where to start should have a look at our list of bugs for newcomers:
+
+* [List of bugs for new contributors](https://bugzilla.gnome.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&columnlist=component%2Cchangeddate%2Cbug_severity%2Cpriority%2Csh&keywords=newcomers&list_id=150486&product=GIMP&resolution=---)
+
+
 The site you should keep updated with and the site that is updated all the time with new development help guides is located at [http://wiki.gimp.org/](http://wiki.gimp.org/). If you have GIMP installed at the moment then there are some files you should look at in the source code that might help you a little.
 
 *   [INSTALL](https://git.gnome.org/browse/gimp/plain/INSTALL.in)  
