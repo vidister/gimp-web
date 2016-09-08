@@ -70,7 +70,7 @@ This way you can announce the changes you intend to make, ask questions, and dis
 
 GIMP has a complex code base, and newcomers that might not be sure where to start should have a look at our list of bugs for newcomers:
 
-* [List of bugs for new contributors](https://bugzilla.gnome.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&columnlist=component%2Cchangeddate%2Cbug_severity%2Cpriority%2Csh&keywords=newcomers&list_id=150486&product=GIMP&resolution=---)
+* [List of bugs for new contributors](https://bugzilla.gnome.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&keywords=newcomers&product=GIMP)
 
 
 The site you should keep updated with and the site that is updated all the time with new development help guides is located at [http://wiki.gimp.org/](http://wiki.gimp.org/). If you have GIMP installed at the moment then there are some files you should look at in the source code that might help you a little.
