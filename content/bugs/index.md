@@ -44,7 +44,7 @@ Below are different links into Bugzilla which show you lists of open and closed 
 *   [List of open bugs (all)](https://bugzilla.gnome.org/buglist.cgi?product=GIMP&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED)
 *   [List of open bugs (all excluding enhancement requests)](https://bugzilla.gnome.org/buglist.cgi?product=GIMP&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_severity=blocker&bug_severity=critical&bug_severity=major&bug_severity=normal&bug_severity=minor&bug_severity=trivial)
 
-*   [List of bugs that are easy to fix](https://bugzilla.gnome.org/buglist.cgi?product=GIMP&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=UNCONFIRMED&bug_status=NEEDINFO&keywords=gnome-love)
+*   [List of bugs that are easy to fix](https://bugzilla.gnome.org/buglist.cgi?product=GIMP&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=UNCONFIRMED&bug_status=NEEDINFO&keywords=newcomers)
 
 *   [List of closed bugs (The past week)](https://bugzilla.gnome.org/buglist.cgi?product=GIMP&bug_status=RESOLVED&bug_status=CLOSED&changedin=7)
 *   [List of fixed bugs since last release](https://bugzilla.gnome.org/buglist.cgi?chfieldto=Now;query_format=advanced;order=Importance;chfieldfrom=2013-11-28;bug_status=RESOLVED;resolution=FIXED;product=GIMP;classification=Other)
@@ -71,7 +71,7 @@ Below are different links into Bugzilla which show you lists of open and closed 
 *   [List of open bugs (all)](https://bugzilla.gnome.org/buglist.cgi?product=GIMP-manual&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED)
 *   [List of open bugs (all excluding enhancement requests)](https://bugzilla.gnome.org/buglist.cgi?product=GIMP-manual&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_severity=blocker&bug_severity=critical&bug_severity=major&bug_severity=normal&bug_severity=minor&bug_severity=trivial)
 
-*   [List of bugs that are easy to fix](https://bugzilla.gnome.org/buglist.cgi?product=GIMP-manual&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=UNCONFIRMED&bug_status=NEEDINFO&keywords=gnome-love)
+*   [List of bugs that are easy to fix](https://bugzilla.gnome.org/buglist.cgi?product=GIMP-manual&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=UNCONFIRMED&bug_status=NEEDINFO&keywords=newcomers)
 
 *   [List of closed bugs (The past week)](https://bugzilla.gnome.org/buglist.cgi?product=GIMP-manual&bug_status=RESOLVED&bug_status=CLOSED&changedin=7)
 *   [List of fixed bugs since last release](https://bugzilla.gnome.org/buglist.cgi?chfieldto=Now;query_format=advanced;order=Importance;chfieldfrom=2013-11-28;bug_status=RESOLVED;resolution=FIXED;product=GIMP-manual;classification=Other)
@@ -83,7 +83,7 @@ Below are different links into Bugzilla which show you lists of open and closed 
 *   [List of open bugs (all)](https://bugzilla.gnome.org/buglist.cgi?product=gimp-web&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED)
 *   [List of open bugs (all excluding enhancement requests)](https://bugzilla.gnome.org/buglist.cgi?product=gimp-web&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_severity=blocker&bug_severity=critical&bug_severity=major&bug_severity=normal&bug_severity=minor&bug_severity=trivial)
 
-*   [List of bugs that are easy to fix](https://bugzilla.gnome.org/buglist.cgi?product=gimp-web&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=UNCONFIRMED&bug_status=NEEDINFO&keywords=gnome-love)
+*   [List of bugs that are easy to fix](https://bugzilla.gnome.org/buglist.cgi?product=gimp-web&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=UNCONFIRMED&bug_status=NEEDINFO&keywords=newcomers)
 
 *   [List of closed bugs (The past week)](https://bugzilla.gnome.org/buglist.cgi?product=gimp-web&bug_status=RESOLVED&bug_status=CLOSED&changedin=7)
 
