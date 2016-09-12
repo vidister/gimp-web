@@ -12,7 +12,7 @@ The "GIMP profile" is a directory/folder (actually a directory tree) where GIMP 
 * your keyboard shortcuts
 * your brushes, gradients, palettes, patterns, fonts, scripts, plugins and brush dynamics (as opposed to those installed for the benefits of all users).
 
-### Locating the GIMP profile
+### Locating the GIMP (2.8) profile 
 
 Since it is a personal folder, GIMP keeps it with others files that also belong to you, usually:
 
@@ -31,7 +31,7 @@ Since it is a personal folder, GIMP keeps it with others files that also belong 
     `/Users/{your_id}/Library/Application Support/GIMP/2.8/`  
     (this could depend on the GIMP build you use).
 
-The `.gimp-2.8` part is of course version-dependent, so in the near future you may have to look for `.gimp-2.9` (or you may still be using `.gimp-2.6`). 
+The `.gimp-2.8` part is of course version-dependent (or you may still be using `.gimp-2.6`). 
 If you run several versions in parallel, you will have a profile for each, i.e., distinct profiles for GIMP 2.6 and GIMP 2.8, while all the successive updates to GIMP 2.8 will use the same profile.
 
 #### If you don't find it in the locations above
