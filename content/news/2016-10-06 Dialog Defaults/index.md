@@ -13,13 +13,13 @@ Upcoming v2.10 has some major improvements in that department.
     <img src="{filename}gimp-2-9-5-filter-named-presets.jpg" alt="Adding a named preset for the Unsharp Mask filter in GIMP" width='975' height='442' />
 </figure>
 
-Early in the current development cycle we started porting existing GIMP filters to GEGL operations and using GEGL tool. This made it possible to automatically save each used combination as preset with a timestamp for a name, or manually &mdash; as a named preset. If you've been using v2.9.2 or v2.9.4, you most likely benefit from that already.
+Early in the current development cycle we started porting existing GIMP filters to GEGL operations and using GEGL tool. This made it possible to automatically save each used combination as preset with a timestamp for a name, or manually&mdash;as a named preset. If you've been using v2.9.2 or v2.9.4, you most likely benefit from that already.
 
 <figure>
     <img src="{filename}gimp-2-9-5-masks-in-xcf.jpg" alt="Using masks for digital photrography in GIMP" width='975' height='596' />
 </figure>
 
-The second part of improvements started with reviewing a [https://bugzilla.gnome.org/show_bug.cgi?id=759601](patch) submitted by Benoit Touchette. The contributor came up with a clever idea to simplify adding new masks: clicking on layers' previews. Various modifier keys would additionally define whether you apply and remove the mask or just drop the mask entirely.
+The second part of improvements started with reviewing a [patch](https://bugzilla.gnome.org/show_bug.cgi?id=759601) submitted by Benoit Touchette. The contributor came up with a clever idea to simplify adding new masks: clicking on layers' previews. Various modifier keys would additionally define whether you apply and remove the mask or just drop the mask entirely.
 
 <figure>
     <img src="{filename}gimp-2-9-5-easy-mask-create-tooltip.jpg" alt="Tooltips for handling masks quickly in GIMP" width='975' height='536' />
@@ -52,6 +52,6 @@ You may have noticed a few more new things about the _Preferences_ dialog. There
 
 The dialog defaults feature will be available in GIMP 2.9.6 and, eventually, in GIMP 2.10.
 
-The introduction of filter presets and dialog defaults gets us closer to resolving [https://bugzilla.gnome.org/show_bug.cgi?id=63610](#63610), [https://bugzilla.gnome.org/show_bug.cgi?id=120829](#120829), and [https://bugzilla.gnome.org/show_bug.cgi?id=599573](#599573), filed in 2001, 2003, and 2009 respectively. If you think that more dialogs could benefit from either saving their settings as defaults or getting named presets, please drop by on [https://www.gimp.org/irc.html](IRC) or the [https://www.gimp.org/mail_lists.html](mailing list) for developers and tell us.
+The introduction of filter presets and dialog defaults gets us closer to resolving [#63610](https://bugzilla.gnome.org/show_bug.cgi?id=63610), [#120829](https://bugzilla.gnome.org/show_bug.cgi?id=120829), and [#599573](https://bugzilla.gnome.org/show_bug.cgi?id=599573), filed in 2001, 2003, and 2009 respectively. If you think that more dialogs could benefit from either saving their settings as defaults or getting named presets, please drop by on [IRC](https://www.gimp.org/irc.html) or the [mailing list](https://www.gimp.org/mail_lists.html) for developers and tell us.
 
-If you are interested in helping out with getting GIMP 2.10 released, please check out the [http://wiki.gimp.org/wiki/Hacking:TODO#2.10](TODO) page.
+If you are interested in helping out with getting GIMP 2.10 released, please check out the [TODO](http://wiki.gimp.org/wiki/Hacking:TODO#2.10) page.
