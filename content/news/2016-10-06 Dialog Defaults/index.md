@@ -2,8 +2,8 @@ Title: Making settings persistent in GIMP
 Date: 2016-10-06
 Category: News
 Authors: Alexandre Prokoudine
-Slug: dialog-defaults
-Summary: Until fairly recently GIMP didn't do a very good job of remembering all the kinds of customizations. Upcoming v2.10 has some major improvements in that department.
+Slug: making-settings-persistent
+Summary: Until fairly recently GIMP didn't do a very good job of remembering all the types of possible customizations. Upcoming v2.10 has some major improvements in that department.
 
 Until fairly recently GIMP didn't do a very good job of remembering all the kinds of customizations. If you applied a filter to an image and liked the combination of options that you used, there was no way you could save that combination for a later use. If you carefully chose selection stroking options, the next time you had to stroke a selection, you had to define settings all over again.
 
@@ -27,7 +27,7 @@ The second part of improvements started with reviewing a [patch](https://bugzill
 
 The difficult part was to come up with a way to remember the last used mask initiation setting not just within one session, but across sessions. So instead of creating a special case for just the _Add Layer Mask_ dialog, Michael Natterer added a whole new infrastructure to automatically save and load settings of dialogs.
 
-All the dialog defaults are stored in the _gimprc_ configuration file. To give you idea, these is how stroking options are saved in _gimprc_:
+All the dialog defaults are stored in the _gimprc_ configuration file. To give you an idea, this is how stroking options are saved in _gimprc_:
 
 	(stroke-options
     	(style solid)
@@ -42,7 +42,7 @@ All the dialog defaults are stored in the _gimprc_ configuration file. To give y
 	    (dash-info 0)
 	    (emulate-brush-dynamics no))
 
-The options are preserved for dialogs like _New File_, _New Channel_, _Feather Selection_, _Stroke Path_ and others. To give you visual control over the settings, Michael created a new page in the _Preferences_ dialog called _Dialog Defaults_.
+The options are preserved for dialogs like _New Channel_, _Feather Selection_, _Stroke Path_ and others. To give you visual control over the settings, Michael created a new page in the _Preferences_ dialog called _Dialog Defaults_.
 
 <figure>
     <img src="{filename}gimp-2-9-5-prefs-dialog-defaults.png" alt="Dialog Defaults preferences page in GIMP 2.9.5" width='805' height='638' />
