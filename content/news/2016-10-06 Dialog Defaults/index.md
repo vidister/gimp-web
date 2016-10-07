@@ -5,7 +5,7 @@ Authors: Alexandre Prokoudine
 Slug: making-settings-persistent
 Summary: Until fairly recently GIMP didn't do a very good job of remembering all the types of possible customizations. Upcoming v2.10 has some major improvements in that department.
 
-Until fairly recently GIMP didn't do a very good job of remembering all the kinds of customizations. If you applied a filter to an image and liked the combination of options that you used, there was no way you could save that combination for a later use. If you carefully chose selection stroking options, the next time you had to stroke a selection, you had to define settings all over again.
+Until fairly recently GIMP didn't do a very good job of remembering all the types of customizations. If you applied a filter to an image and liked the combination of options that you used, there was no way you could save that combination for a later use. If you carefully chose selection stroking options, the next time you had to stroke a selection, you had to define settings all over again.
 
 Upcoming v2.10 has some major improvements in that department.
 
@@ -13,13 +13,13 @@ Upcoming v2.10 has some major improvements in that department.
     <img src="{filename}gimp-2-9-5-filter-named-presets.jpg" alt="Adding a named preset for the Unsharp Mask filter in GIMP" width='975' height='442' />
 </figure>
 
-Early in the current development cycle we started porting existing GIMP filters to GEGL operations and using GEGL tool. This made it possible to automatically save each used combination as preset with a timestamp for a name, or manually&mdash;as a named preset. If you've been using v2.9.2 or v2.9.4, you most likely benefit from that already.
+Early in the current development cycle we started porting existing GIMP filters to GEGL operations and using the GEGL tool skeleton to wrap their GUIs into. This made it possible to automatically save each used combination as preset with a timestamp for a name, or manually&mdash;as a named preset. If you've been using v2.9.2 or v2.9.4, you most likely benefit from that already.
 
 <figure>
     <img src="{filename}gimp-2-9-5-masks-in-xcf.jpg" alt="Using masks for digital photrography in GIMP" width='975' height='596' />
 </figure>
 
-The second part of improvements started with reviewing a [patch](https://bugzilla.gnome.org/show_bug.cgi?id=759601) submitted by Benoit Touchette. The contributor came up with a clever idea to simplify adding new masks: clicking on layers' previews. Various modifier keys would additionally define whether you apply and remove the mask or just drop the mask entirely.
+The second part of improvements started with reviewing a [patch](https://bugzilla.gnome.org/show_bug.cgi?id=759601) submitted by Benoit Touchette. As a professional photographer, he regularly works on hundreds of photos daily and has an extensive use of masks, so he needs to get from A to B extremely fast. So Benoit came up with a clever idea to simplify adding new masks: clicking on layers' previews. Various modifier keys would additionally define whether you apply and remove the mask or just drop the mask entirely.
 
 <figure>
     <img src="{filename}gimp-2-9-5-easy-mask-create-tooltip.jpg" alt="Tooltips for handling masks quickly in GIMP" width='975' height='536' />
