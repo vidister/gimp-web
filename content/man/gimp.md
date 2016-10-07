@@ -4,11 +4,6 @@ Modified: 2015-08-17T11:31:42-05:00
 Authors: Pat David
 Status: hidden
 
-<style>
-dt {
-    font-family: monospace;
-}
-</style>
 
 
 [Table of Contents](#toc)
@@ -19,12 +14,12 @@ gimp - an image manipulation and paint program.
 
 ## [Synopsis](#toc1)
 
-<span style="font-family: monospace;" markdown="1">
+<span class="man" markdown="1">
 **gimp** [&#8209;h] [&#8209;&#8209;help] [&#8209;&#8209;help&#8209;all] [&#8209;&#8209;help&#8209;gtk] [&#8209;v] [&#8209;&#8209;version] [&#8209;&#8209;license] [&#8209;&#8209;verbose] [&#8209;n] [&#8209;&#8209;new&#8209;instance] [&#8209;a] [&#8209;&#8209;as&#8209;new] [&#8209;i] [&#8209;&#8209;no&#8209;interface] [&#8209;d] [&#8209;&#8209;no&#8209;data] [&#8209;f] [&#8209;&#8209;no&#8209;fonts] [&#8209;s] [&#8209;&#8209;no&#8209;splash] [&#8209;&#8209;no&#8209;shm] [&#8209;&#8209;no&#8209;cpu&#8209;accel] [&#8209;&#8209;display&nbsp;_display_] [&#8209;&#8209;session&nbsp;_&lt;name&gt;_] [&#8209;g] [&#8209;&#8209;gimprc&nbsp;_&lt;gimprc&gt;_] [&#8209;&#8209;system&#8209;gimprc&nbsp;_&lt;gimprc&gt;_] [&#8209;&#8209;dump&#8209;gimprc] [&#8209;&#8209;console&#8209;messages] [&#8209;&#8209;debug&#8209;handlers] [&#8209;&#8209;stack&#8209;trace&#8209;mode&nbsp;_&lt;mode&gt;_] [&#8209;&#8209;pdb&#8209;compat&#8209;mode&nbsp;_&lt;mode&gt;_] [&#8209;&#8209;batch&#8209;interpreter&nbsp;_&lt;procedure&gt;_] [&#8209;b] [&#8209;&#8209;batch&nbsp;_&lt;command&gt;_] [_filename_] ...
 </span>
 <!--
 If you're reading this, I'm sorry for what you see above.  It's a man page formatting.  HTML makes a mess of it.
-And raw man pages suck, imo.  Here's what I did:
+And raw man pagstyle="font-family: monospace;es suck, imo.  Here's what I did:
 1. Wrap it in a span, set the font family to mono.
 2. escape all brackets (not sure I need this).
 3. replace all "<" and ">" with &lt; and &gt;
@@ -48,7 +43,7 @@ On platforms with the D-Bus message bus system, GIMP will by default check if an
 
 GIMP accepts the following options:
 
-<dl>
+<dl class='man'>
 
 <dt>-h, --help</dt>
 

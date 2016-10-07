@@ -4,18 +4,6 @@ Modified: 2015-08-17T15:38:12-05:00
 Authors: Pat David
 Status: hidden
 
-<style>
-table {
-max-width: 40rem;
-font-size: 0.85rem;
-margin: 1rem auto;
-}
-table td {
-    padding: 0.25rem;
-    border: solid 1px #eee;
-}
-</style>
-
 
 The official distribution of GIMP is the source code, distributed in tar files from the GIMP FTP site and its [mirrors](/downloads/#mirrors). The same source code can be compiled to create binaries for different platforms such as [GNU/Linux](/unix/), [Microsoft Windows](/windows/), [Mac OS X](/macintosh/), [Solaris](/unix/) and many others.
 
@@ -46,7 +34,7 @@ All requirements below must be met to be able compiling GIMP from source. This l
 
 ### Stable version 2.8.x
 
-<table markdown='span' >
+<table markdown='span' class='gimpfromsrc'>
 <tbody>
 <tr>
 <th>Package</th>
@@ -121,7 +109,7 @@ To find out more about GIMP development, [http://wiki.gimp.org/](http://wiki.gim
 
 To make it easy for you to understand how to get GIMP and what is required to run GIMP, the list of packages has been done below. Not only is the list for the required packages but also for the packages that can be added to support other things like fileformats etc.
 
-<table markdown="span">
+<table markdown="span" class='gimpfromsrc'>
 <tbody>
 <tr>
 <th>Package</th>

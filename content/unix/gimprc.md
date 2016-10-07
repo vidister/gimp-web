@@ -3,13 +3,7 @@ Date: 2015-08-17T16:27:52-05:00
 Author: Pat David
 Status: hidden
 
-<style>
-    .codehilite {
-        max-width: 40rem;
-        font-size: 0.75rem;
-    }
-</style>
-
+<link rel='stylesheet' type='text/css' href='index.css' />
 
     # This is the system-wide gimprc file.  Any change made in this file will
     # affect all users of this system, provided that they are not overriding the

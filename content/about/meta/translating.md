@@ -113,9 +113,3 @@ Once that is done, the `Title` attribute can be different between the two files 
     lang: fr
     slug: creating-translations
 
-
-<style>
-.codehilite .err {
-    border: none;
-}
-</style>

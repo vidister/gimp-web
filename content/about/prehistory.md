@@ -9,7 +9,7 @@ Summary:
 
 At the end of July 1995, Peter Mattis posted a message in several newsgroups related to X11 and Linux application development, asking two questions and giving hints about an interesting program...
 
-<pre style='font-size: 0.75rem; white-space: pre-wrap; border: solid 1px #ccc; padding: 1rem;'>
+<pre class='mail'>
 <b>From:</b> Peter Mattis
 <b>Subject:</b> Image Manipulation Program Features
 <b>Date:</b> 1995-07-29
@@ -31,7 +31,7 @@ Thanks in advance,
 
 Two weeks before, he was mentioning some program using plug-ins...
 
-<pre style='font-size: 0.75rem; white-space: pre-wrap; border: solid 1px #ccc; padding: 1rem;'>
+<pre class='mail'>
 <b>From:</b> Peter Mattis
 <b>Subject:</b> Re: Best way to write plug-ins?
 <b>Date:</b> 1995-07-16
@@ -74,7 +74,7 @@ Peter Mattis
 
 And then in November comes the first announcement of a beta release of the General Image Manipulation Program, "The GIMP" (later renamed to just "GIMP").
 
-<pre style='font-size: 0.75rem; white-space: pre-wrap; border: solid 1px #ccc; padding: 1rem;'>
+<pre class='mail'>
 <b>From:</b> Peter Mattis
 <b>Subject:</b> ANNOUNCE: The GIMP
 <b>Date:</b> 1995-11-21
@@ -159,7 +159,7 @@ precise details on how it can be reliably reproduced.
 
 GIMP 0.54, the (in)famous Motif release, is announced in February 1996.
 
-<pre style='font-size: 0.75rem; white-space: pre-wrap; border: solid 1px #ccc; padding: 1rem;'>
+<pre class='mail'>
 <b>From:</b> Peter Mattis
 <b>Subject:</b> The GIMP v0.54 -- General Image Manipulation Program
 <b>Date:</b> 1996-02-15

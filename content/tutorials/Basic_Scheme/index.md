@@ -313,7 +313,7 @@ Here is an example script which copies the current layer to a new layer, blurs i
 
 In uni-img we called the procedure gimp-edit-fill to fill the whole image. Looking at the info for gimp-edit-fill in the Procedure Browser we find the following:
 
-<table>
+<table class='tut'>
 <tbody>
 <tr>
 <th align="right" valign="top">Name:</th>
@@ -344,7 +344,7 @@ In uni-img we called the procedure gimp-edit-fill to fill the whole image. Looki
 
 Thus, if we have a selection active when gimp-edit-fill is called, then only the selection is painted. There are lots of ways of choosing a selection as can be seen when searching for a "select" in the PDB. We will use gimp-rect-select, whose entry in the PDB looks as follows:
 
-<table>
+<table class='tut'>
 <tbody>
 <tr>
 <th align="right" valign="top">Name:</th>
@@ -528,14 +528,3 @@ In the following example the selection is copied, pasted into the same layer, of
 
 The original tutorial can be found [here](http://imagic.weizmann.ac.il/~dov/gimp/scheme-tut.html).
 
-
-<style>
-table {
-max-width: 40rem;
-font-size: 0.85rem;
-margin: 1rem auto;
-}
-table td, table th{
-    padding: 0.25rem;
-}
-</style>

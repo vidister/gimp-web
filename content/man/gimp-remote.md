@@ -4,11 +4,6 @@ Modified: 2015-08-17T11:31:42-05:00
 Authors: Pat David
 Status: hidden
 
-<style>
-dt {
-    font-family: monospace;
-}
-</style>
 
 [Table of Contents](#toc)
 
@@ -18,7 +13,7 @@ gimp-remote - tells a running GIMP to open a (local or remote) image file.
 
 ## [Synopsis](#toc1)
 
-<span style="font-family: monospace;" markdown="1">
+<span class="man" markdown="1">
 **gimp&#8209;remote** [&#8209;h] [&#8209;&#8209;help] [&#8209;v] [&#8209;&#8209;version] [&#8209;&#8209;display _display_] [&#8209;e] [&#8209;&#8209;existing] [&#8209;q] [&#8209;&#8209;query] [&#8209;s] [&#8209;&#8209;no&#8209;splash] [&#8209;p] [&#8209;&#8209;print&#8209;xid] _filename_ ...
 </span>
 
@@ -34,7 +29,7 @@ If you are using GIMP on Linux or another platform with the D-Bus message bus sy
 
 _gimp-remote_ accepts the following options:
 
-<dl>
+<dl class='man'>
 
 <dt>-h, --help</dt>
 

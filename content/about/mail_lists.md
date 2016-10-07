@@ -13,7 +13,7 @@ Don't send any private or sensitive information!
 
 <dl>
   <dt><a href="https://mail.gnome.org/mailman/listinfo/gimp-user-list"><strong>GIMP User</strong></a></dt>
-  <dd><span style='font-weight: 400; font-style: italic;'>This is the main list for questions about using GIMP.</span><br>
+  <dd><strong><em>This is the main list for questions about using GIMP.</em></strong><br>
   The original (mostly unix based) user list. For the everyday user.
   Here you will find tips for doing cool effects, user questions, etc.<br>
   Archives:

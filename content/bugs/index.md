@@ -4,11 +4,7 @@ Modified: 2015-08-17T11:09:40-05:00
 Authors: Pat David
 Status: hidden
 
-<a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP" title="Report a bug for GIMP!"
-style="
-    font-weight: bold;
-    font-size: 1.2rem;
-">
+<a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP" title="Report a bug for GIMP!" class='reportBug'>
 Report a bug here!
 </a>
 
@@ -18,7 +14,7 @@ Report a bug here!
 <input type="hidden" name="product" value="GIMP" />
 <input type="hidden" name="list_id" value="91665"/>
 <label>Search for an existing bug:<br/>
-<input type="text" name="short_desc" placeholder="e.g.: 'font loading'" style='width: 50%; padding-left: 0.2rem;' /></label>
+<input type="text" name="short_desc" placeholder="e.g.: 'font loading'" id='bugInput' /></label>
 <input type="submit" value="Submit"/>
 </form>
 

@@ -14,23 +14,7 @@ Template: page_author
 
 ## Table of Contents
 
-<style>
-.toc > ul {
-    list-style-type: decimal;
-}
-.toc > ul > li {
-    margin-top: 0;
-}
-.toc li ul {
-    margin-bottom: 1rem;
-}
-.toc > ul > li > ul {
-list-style-type: upper-alpha;
-}
-.toc > ul > li > ul > li > ul {
-list-style-type: lower-roman;
-}
-</style>
+<link rel='stylesheet' type='text/css' href='index.css' />
 <!-- Yes, it's a hot mess. -->
 
 [TOC]
@@ -137,7 +121,7 @@ A final thing that we need to talk about that is not a 'category' of execution b
 *   An architectural advantage is we create this list with a function that reads a configuration file. We only have to define and maintain this configuration list in one place within our system and use the resulting list in as many places as we want by calling a reading function. This is how we will get new macros to show up in the menus when we add them.
 *   The following skeletal code fragments illustrate defining a list 'cmdList' at the top level – 'main', and using it within the registration block and function. Because it is defined at the ‘main’ level, we can reference it within the function and registration block. We can recover the argument from the index (passed by the widget) because we are using the same list in both places:
 
-<span style="font-style: italic">Example - Lists and Scope in Functions</span>
+*Example - Lists and Scope in Functions*
 
     cmdList = cmdrReadObj.CommanderMacros()
     #
@@ -216,7 +200,7 @@ The keyword will determine both the “tag” associated with the line of pseudo
 
 After all of the \*.def files are read into the tree and written back out in the form of an XML file, the formatting is done. Writing out a tree automatically generates all of the containing enclosures, essentially making properly formatting the XML a trivial task. The fragment from combinedCommander.xml illustrates the XML from the pseudo code in NormalGridCanvas.def.
 
-<span style="font-style: italic">Example - combinedCommander.xml (fragment)</span>
+*Example - combinedCommander.xml (fragment)*
 
     <combined>
       Definition
@@ -428,20 +412,8 @@ The Flow Control Parasites provide a method to make each image “self aware” 
 
 Let's examine the steps of the “Standard” flow example that is included with this tutorial. The steps the image will go through are:
 
-<span style="font-style: italic">Example – States or Steps in the Standard Flow Example</span>
+*Example – States or Steps in the Standard Flow Example*
 
-<style>
-table {
-max-width: 40rem;
-font-size: 0.85rem;
-margin: 1rem auto;
-}
-table td {
-    padding: 0.25rem;
-    border: solid 1px #eee;
-}
-
-</style>
 
 <table>
 <tbody>

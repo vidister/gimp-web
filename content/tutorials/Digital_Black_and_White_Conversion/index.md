@@ -457,10 +457,7 @@ Due to the popularity of the **Channel Mixer** as a straightforward means of con
 
 Borrowing the table from [Petteri Sulonen’s site](http://www.prime-junta.net/pont/How_to/100_Curves_and_Films/_Curves_and_films.html#N104E4), these are some common RGB Channel Mixer values to emulate some B&W films. These aren’t exact, of course, but some people may find them useful. Particularly as a starting-off point for further modifications.
 
-<style>
-table { margin: 1rem auto; }
-td { padding-right: 1rem; }
-</style>
+<link rel='stylesheet' type='text/css' href='index.css' />
 
 <table>
 <thead>

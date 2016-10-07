@@ -141,3 +141,71 @@ address.vcard.author {
     border: dotted 1px #ccc;
     font-size: 80%;
 }
+
+.codehilite .err {
+    border: none;
+}
+
+span.man, dl.man dt {
+    font-family: monospace;
+}
+
+table.gimpfromsrc {
+    max-width: 40rem;
+    font-size: 0.85rem;
+    margin: 1rem auto;
+}
+
+table.gimpfromsrc td {
+    padding: 0.25rem;
+    border: solid 1px #eee;
+}
+
+table.tut {
+    max-width: 40rem;
+    font-size: 0.85rem;
+    margin: 1rem auto;
+}
+
+table.tut td, table.tut th {
+    padding: 0.25rem;
+}
+
+pre.mail {
+    font-size: 0.75rem;
+    white-space: pre-wrap;
+    border: solid 1px #ccc;
+    padding: 1rem;
+}
+
+.reportBug {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#bugInput {
+    width: 50%;
+    padding-left: 0.2rem;
+}
+
+
+pre.gimprcsmall {
+    font-size: 0.85rem;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.tRed { color: red; }
+.tGreen { color: green; }
+.tBlue { color: blue; }
+.tCyan { color: cyan; }
+.tMagenta { color: magenta; }
+.tYellow { color: yellow; }
+
+.tGreen { color: #00FF00; }
+.tLightBlue { color: #0080FF; }
+.tBrightBlue { color: #0000ff; }
+.tOrange { color: #ff6f00; }
+

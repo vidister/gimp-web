@@ -4,11 +4,6 @@ Modified: 2015-08-17T11:31:42-05:00
 Authors: Pat David
 Status: hidden
 
-<style>
-dt {
-    font-family: monospace;
-}
-</style>
 
 [Table of Contents](#toc)
 
@@ -24,7 +19,7 @@ Comments are introduced by a hash sign (#), and continue until the end of the li
 
 The **gimprc** file associates values with properties. These properties may be set by lisp-like assignments of the form:
 
-<dl>
+<dl class='man'>
 
 <dt><em><strong>(property-name value)</strong></em></dt>
 
@@ -275,7 +270,7 @@ When enabled, the selected font will be used for all tools. Possible values are 
 <dt>(default-image</dt>
 
 <dd>
-<pre style="font-size: 0.85rem;">
+<pre class='gimprcsmall'>
     (width 640)  
     (height 400)  
     (unit pixels)  
@@ -293,7 +288,7 @@ Sets the default image in the "File/New" dialog. This is a parameter list.
 
 <dt>(default-grid</dt>
 
-<dd><pre style="font-size: 0.85rem;">
+<dd><pre class='gimprcsmall'>
 (style solid)  
  (fgcolor (color-rgba 0.000000 0.000000 0.000000 1.000000))  
  (bgcolor (color-rgba 1.000000 1.000000 1.000000 1.000000))  
@@ -399,7 +394,7 @@ Generally only a concern for 8-bit displays, this sets the minimum number of sys
 
 <dt>(color-management</dt>
 
-<dd><pre style="font-size:0.85rem;">
+<dd><pre class='gimprcsmall'>
 (mode display)  
  (display-profile-from-gdk no)  
  (display-rendering-intent perceptual)  
@@ -539,7 +534,7 @@ When enabled, the mouse pointer will be shown over the image while using a paint
 
 Sets the text to appear in image window titles. This is a format string; certain % character sequences are recognised and expanded as follows:  
 
-<pre style="font-size: 0.85rem;">
+<pre class='gimprcsmall'>
     %% literal percent sign   
     %f bare filename, or "Untitled"   
     %F full path to file, or "Untitled"   
@@ -574,7 +569,7 @@ Sets the text to appear in image window titles. This is a format string; certain
 
 Sets the text to appear in image window status bars. This is a format string; certain % character sequences are recognised and expanded as follows:  
 
-<pre style="font-size:0.85rem;">
+<pre class='gimprcsmall'>
 %% literal percent sign   
 %f bare filename, or "Untitled"   
 %F full path to file, or "Untitled"   
@@ -646,7 +641,7 @@ Sets the size of the navigation preview available in the lower right corner of t
 <dt>(default-view</dt>
 
 <dd>
-<pre style="font-size: 0.85rem;">
+<pre class='gimprcsmall'>
 (show-menubar yes)  
  (show-rulers yes)  
  (show-scrollbars yes)  
@@ -667,7 +662,7 @@ Sets the default settings for the image view. This is a parameter list.
 <dt>(default-fullscreen-view</dt>
 
 <dd>
-<pre style="font-size: 0.85rem;">>
+<pre class='gimprcsmall'>>
 (show-menubar yes)  
  (show-rulers yes)  
  (show-scrollbars yes)  

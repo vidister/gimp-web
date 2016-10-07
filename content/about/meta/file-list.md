@@ -234,8 +234,3 @@ The main page links go to legacy WGO, the link icon (if there) will go to the po
 
 <http://www.gimp.org/windows/index.html> (Obsoleted? Directs to downloads page...)  
 
-<style>
-a {
-    word-break: break-all;
-}
-</style>

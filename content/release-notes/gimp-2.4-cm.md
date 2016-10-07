@@ -8,7 +8,7 @@ Status: hidden
 Many devices you use in your design or photography workflow, like digital photo cameras, scanners, displays, printers etc., have their own color reproduction characteristics. If those are not taken into account during opening, editing and saving, harmful adjustments can be done to images. With GIMP 2.4 this has changed: now you can have reliable output for both Web and print.
 
 <figure>
-<img src="{filename}images/color-management.png" alt="color management" style="background-color: #2e3436;"/>
+<img src="{filename}images/color-management.png" alt="color management" class='graybackground' />
 </figure>
 
 ## Color Managed Workflow

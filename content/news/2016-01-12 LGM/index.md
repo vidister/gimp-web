@@ -4,7 +4,7 @@ Category: News
 Authors: Pat David
 Summary: Join us April 15-18 at the 11th annual Libre Graphics Meeting being hosted by Westminster School of Media Arts and Design in London, UK! Come and meet developers of free graphics software, participate in a workshop, and collaborate with other visual artists who choose to work in free software.
 
-<a style='float: right; margin: 0 0 0.5rem 0.5rem;' href='https://pledgie.com/campaigns/30935'><img alt='Click here to lend your support to: Libre Graphics Meeting 2016 - London and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/30935.png?skin_name=chrome' border='0' ></a>
+<a class='pledgieRight' href='https://pledgie.com/campaigns/30935'><img alt='Click here to lend your support to: Libre Graphics Meeting 2016 - London and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/30935.png?skin_name=chrome' border='0' ></a>
 _Join us_ **April 15-18** at the 11th annual [**Libre Graphics Meeting**][lgm] (LGM) hosted by the [Westminster School of Media Arts and Design][westminster], University of Westminster, in London, UK. 
 Come and meet developers of free graphics software, participate in a workshop, or collaborate with other visual artists who choose to work in [free software][].
 
@@ -21,7 +21,7 @@ There's also an opportunity to meet some of the GIMP team as well!
 This year the host is the [Westminster School of Media Arts and Design][westminster], University of Westminster at their Harrow Campus:
 
 <a href='https://www.westminster.ac.uk/' title='University of Westminster'>
-<img src='{filename}UoW-logo.jpg' alt='University of Westminster Logo' style='width:50%;' width='326' height='78' />
+<img src='{filename}UoW-logo.jpg' alt='University of Westminster Logo' width='326' height='78' />
 </a>
 
 Harrow Campus  
@@ -31,13 +31,13 @@ Middlesex
 HA1 3TP
 
 <div class='fluid-video' markdown=1>
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.3714752197265625%2C51.550444854394286%2C-0.27611732482910156%2C51.60506465084748&amp;layer=mapnik&amp;marker=51.57776295788465%2C-0.32379627227783203" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=51.5778&amp;mlon=-0.3238#map=14/51.5778/-0.3238">View Larger Map</a></small>
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.3714752197265625%2C51.550444854394286%2C-0.27611732482910156%2C51.60506465084748&amp;layer=mapnik&amp;marker=51.57776295788465%2C-0.32379627227783203" ></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=51.5778&amp;mlon=-0.3238#map=14/51.5778/-0.3238">View Larger Map</a></small>
 </div>
 
 If you are unable to join us at the meeting, please [consider donating something][pledgie] to help offset the costs of project participants to make the trip out to collaborate with so many other awesome projects!
 LGM has a [Pledgie campaign][pledgie] running to assist with travel costs for participants:
 
-<a style='display:block; text-align: center;' href='https://pledgie.com/campaigns/30935'><img alt='Click here to lend your support to: Libre Graphics Meeting 2016 - London and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/30935.png?skin_name=chrome' border='0' ></a>
+<a  href='https://pledgie.com/campaigns/30935'><img alt='Click here to lend your support to: Libre Graphics Meeting 2016 - London and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/30935.png?skin_name=chrome' border='0' ></a>
 
 Funds from their Pledgie go towards helping contributors from all around the world converge at the meeting to share and present their work with others. 
 

@@ -29,7 +29,7 @@ In keeping with the spirit of the predecessor to this page, I will be using imag
 
 All you need to know to follow these quick examples is to be able to find your image and open it:
 
-<div class="MenuCmd"><span><span style="text-decoration: underline;">F</span>ile → <span style="text-decoration: underline;">O</span>pen</span></div>
+<div class="MenuCmd"><span>File → Open</span></div>
 
 ## Changing the Size (Dimensions) of an Image (Scale)
 
@@ -48,11 +48,11 @@ View of the GIMP canvas, with information at the top of the window.
 </figcaption>
 </figure>
 
-Notice that the information at the top of the window shows the <span style="color: #00FF00;">current pixel dimensions</span> of the image (in this case, the pixel size is 1225×1280).
+Notice that the information at the top of the window shows the <span class="tGreen">current pixel dimensions</span> of the image (in this case, the pixel size is 1225×1280).
 
 To resize the image to new dimensions, we need only invoke the **Scale Image** dialog:
 
-<div class="MenuCmd"><span><span style="text-decoration: underline;">I</span>mage → <span style="text-decoration: underline;">S</span>cale Image…</span></div>
+<div class="MenuCmd"><span>Image → Scale Image…</span></div>
 
 This will then open the **Scale Image** dialog:
 
@@ -63,16 +63,16 @@ The <strong>Scale Image</strong> dialog.
 </figcaption>
 </figure>  
 
-In the **Scale Image** dialog, you’ll find a <span style="color: #00FF00;">place to enter new values</span> for **Width** and **Height**. If you know one of the new dimensions you’d like for the image, fill in the appropriate one here.
+In the **Scale Image** dialog, you’ll find a <span class="tGreen">place to enter new values</span> for **Width** and **Height**. If you know one of the new dimensions you’d like for the image, fill in the appropriate one here.
 
-You’ll also <span style="color: #0080FF;">notice a small chain</span> just to the right of the **Width** and **Height** entry boxes. This icon shows that the Width and Height values are locked with respect to each other, meaning that changing one value will cause the other to change in order to keep the same aspect ratio (no strange compression or stretching in the image).
+You’ll also <span class='tLightBlue'>notice a small chain</span> just to the right of the **Width** and **Height** entry boxes. This icon shows that the Width and Height values are locked with respect to each other, meaning that changing one value will cause the other to change in order to keep the same aspect ratio (no strange compression or stretching in the image).
 
 For example, if you knew that you wanted your image to have a new width of 600px, you can enter that value in the **Width** input, and the **Height** will automatically change to maintain the aspect ratio of the image:
 
 <figure>
 <img src='{filename}Scale-Image-Dialog-Scaled.png' alt='Scaled Image'>
 <figcaption>
-Changing the **Width** to 600px.
+Changing the <strong>Width</strong> to 600px.
 </figcaption>
 </figure>  
 
@@ -120,7 +120,7 @@ As you can see, even at a quality setting of 80, the image is significantly smal
 
 When you’ve finished any image modifications you are doing, and are ready to export, simply invoke the export dialog with:
 
-<div class="MenuCmd"><span><span style="text-decoration: underline;">F</span>ile → Export…</span></div>
+<div class="MenuCmd"><span>File → Export…</span></div>
 
 This will invoke the **Export Image** dialog:
 
@@ -131,9 +131,9 @@ This will invoke the **Export Image** dialog:
 </figcaption>
 </figure>  
 
-You can now enter a <span style="color: #00FF00;">new name for your file here</span>. If you include the filetype extension (in this case, .jpg), GIMP will automatically try to export in that file format for you. Here I am exporting the image as a JPEG file.
+You can now enter a <span class="tGreen">new name for your file here</span>. If you include the filetype extension (in this case, .jpg), GIMP will automatically try to export in that file format for you. Here I am exporting the image as a JPEG file.
 
-You can also navigate to a new location on your computer through the **Places** pane, if you need to export the file to a different location. When you are ready to export the image, just hit <span style="color: #0080FF;">the **Export** button.</span>
+You can also navigate to a new location on your computer through the **Places** pane, if you need to export the file to a different location. When you are ready to export the image, just hit <span class='tLightBlue'>the **Export** button.</span>
 
 This will then bring up the **Export Image as JPEG** dialog, where you can change the quality of the export:
 
@@ -144,9 +144,9 @@ This will then bring up the **Export Image as JPEG** dialog, where you can chang
 </figcaption>
 </figure>  
 
-From this dialog you can now <span style="color: #00FF00;">change the quality of the export</span>. If you also have the “Show preview in image window” option checked, the image on the canvas will update to reflect the quality value you input. This will also enable the “File size:” information to tell you what the resulting file size will be. (You may need to move some windows around to view the preview on the canvas in the background).
+From this dialog you can now <span class="tGreen">change the quality of the export</span>. If you also have the “Show preview in image window” option checked, the image on the canvas will update to reflect the quality value you input. This will also enable the “File size:” information to tell you what the resulting file size will be. (You may need to move some windows around to view the preview on the canvas in the background).
 
-When you are happy with the results, hit the **<span style="text-decoration: underline;">E</span>xport** button to export.
+When you are happy with the results, hit the **Export** button to export.
 
 To see more details about exporting different image formats, see [Getting Images out of GIMP](http://docs.gimp.org/2.8/en/gimp-images-out.html) in the manual.
 
@@ -163,7 +163,7 @@ Original image (left), cropped image (right).
 </figcaption>
 </figure>  
 
-The procedure to crop an image is straightforward. You can either get to <span style="color: #00FF00;">the **Crop Tool**</span> through the tools palette:
+The procedure to crop an image is straightforward. You can either get to <span class="tGreen">the **Crop Tool**</span> through the tools palette:
 
 <figure>
 <img src='{filename}Crop-Tool.png' alt='Crop Tool'>
@@ -174,7 +174,7 @@ Crop Tool on the Tools Palette.
 
 Or you can access the crop tool through the menus:
 
-<div class="MenuCmd"><span><span style="text-decoration: underline;">T</span>ools → <span style="text-decoration: underline;">T</span>ransform Tools → <span style="text-decoration: underline;">C</span>rop</span></div>
+<div class="MenuCmd"><span>Tools → Transform Tools → Crop</span></div>
 
 ![GIMP Crop Tool cursor]({filename}Crop-Cursor.png)Once the tool is activated, you’ll notice that your mouse cursor on the canvas will change to indicate the **Crop Tool** is being used.
 
@@ -210,11 +210,11 @@ Rectangle Select Tool.
 
 Or through the menus:
 
-<div class="MenuCmd"><span><span style="text-decoration: underline;">T</span>ools → <span style="text-decoration: underline;">S</span>election Tools → <span style="text-decoration: underline;">R</span>ectangle Select</span></div>
+<div class="MenuCmd"><span>Tools → Selection Tools → Rectangle Select</span></div>
 
 You can then highlight a selection the same way as the **Crop Tool**, and adjust the selection as well. Once you have a selection you like, you can crop the image to fit that selection through:
 
-<div class="MenuCmd"><span><span style="text-decoration: underline;">I</span>mage → <span style="text-decoration: underline;">C</span>rop to Selection</span></div>
+<div class="MenuCmd"><span>Image → Crop to Selection</span></div>
 
 ## Rotate and/or Flip an Image
 
@@ -222,11 +222,11 @@ There may be a time that you would need to rotate an image. For instance, you ma
 
 There may also be a time that you’d like to flip an image as well. These commands are grouped together under the same menu item:
 
-<div class="MenuCmd"><span><span style="text-decoration: underline;">I</span>mage → <span style="text-decoration: underline;">T</span>ransform</span></div>
+<div class="MenuCmd"><span>Image → Transform</span></div>
 
 ### Flip an Image
 
-If you want to flip your image, the **Transform** menu offers two options, **Flip <span style="text-decoration: underline;">H</span>orizontally**, or **Flip <span style="text-decoration: underline;">V</span>ertically**. This operation will mirror your image along the specified axis. For example, here are all of the flip operations shown in a single image:
+If you want to flip your image, the **Transform** menu offers two options, **Flip Horizontally**, or **Flip Vertically**. This operation will mirror your image along the specified axis. For example, here are all of the flip operations shown in a single image:
 
 <figure>
 <img src='{filename}Flip-Sample-Arrow.jpg' alt='Flipping'>

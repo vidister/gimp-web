@@ -4,11 +4,6 @@ Modified: 2015-08-17T11:31:42-05:00
 Authors: Pat David
 Status: hidden
 
-<style>
-dt {
-    font-family: monospace;
-}
-</style>
 
 [Table of Contents](#toc)
 
@@ -18,7 +13,7 @@ gimptool-2.0 - script to perform various GIMPy functions
 
 ## [Synopsis](#toc1)
 
-<span style="font-family: monospace;" markdown="1">
+<span class="man" markdown="1">
 **gimptool&#8209;2.0** [&#8209;&#8209;prefix_[=DIR]_] [&#8209;&#8209;exec&#8209;prefix_[=DIR]_] [&#8209;&#8209;version] [&#8209;&#8209;help] [&#8209;&#8209;quiet] [&#8209;&#8209;silent] [&#8209;n] [&#8209;&#8209;just&#8209;print] [&#8209;&#8209;dry&#8209;run] [&#8209;&#8209;recon] [&#8209;&#8209;msvc&#8209;syntax] [&#8209;&#8209;bindir] [&#8209;&#8209;sbindir] [&#8209;&#8209;libexecdir] [&#8209;&#8209;datadir] [&#8209;&#8209;sysconfdir] [&#8209;&#8209;sharedstatedir] [&#8209;&#8209;localstatedir] [&#8209;&#8209;libdir] [&#8209;&#8209;infodir] [&#8209;&#8209;mandir] [&#8209;&#8209;includedir] [&#8209;&#8209;gimpplugindir] [&#8209;&#8209;gimpdatadir] [&#8209;&#8209;libs] [&#8209;&#8209;libs&#8209;noui] [&#8209;&#8209;cflags] [&#8209;&#8209;cflags&#8209;noi] [&#8209;&#8209;build&nbsp;_plug&#8209;in.c_] [&#8209;&#8209;build&#8209;strip&nbsp;_plug&#8209;in.c_] [&#8209;&#8209;install&nbsp;_plug&#8209;in.c_] [&#8209;&#8209;install&#8209;strip&nbsp;_plug&#8209;in.c_] [&#8209;&#8209;install&#8209;admin&nbsp;_plug&#8209;in.c_] [&#8209;&#8209;install&#8209;bin&nbsp;_plug&#8209;in_] [&#8209;&#8209;install&#8209;admin&#8209;strip&nbsp;_plug&#8209;in.c_] [&#8209;&#8209;install&#8209;bin&#8209;strip&nbsp;_plug&#8209;in_] [&#8209;&#8209;install&#8209;admin&#8209;bin&nbsp;_plug&#8209;in_] [&#8209;&#8209;install&#8209;script&nbsp;_script.scm_] [&#8209;&#8209;install&#8209;admin&#8209;script&nbsp;_script.scm_] [&#8209;&#8209;uninstall&#8209;bin&nbsp;_plug&#8209;in_] [&#8209;&#8209;uninstall&#8209;admin&#8209;bin&nbsp;_plug&#8209;in_] [&#8209;&#8209;uninstall&#8209;script&nbsp;_script.scm_] [&#8209;&#8209;uninstall&#8209;admin&#8209;script&nbsp;_script.scm_]
 </span>
 
@@ -32,7 +27,7 @@ gimptool-2.0 - script to perform various GIMPy functions
 
 <em>gimptool-2.0</em> accepts the following options:
 
-<dl>
+<dl class='man'>
 
 <dt>--version</dt>
 

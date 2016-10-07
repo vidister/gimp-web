@@ -98,7 +98,7 @@ Before going into the details of the Gimp::Fu script, we will describe how to ac
 
 Gimp comes with a PDB browser available in **Help/Procedure Browser**. This browser provides a way of seeing all the functions in the PDB, as well as their input and output parameters. E.g. the DB Browser entry for `plug-in-gauss-iir`, which will be used in the example below looks like this:
 
-<table>
+<table class='tut'>
 <tbody><tr><th align="right" valign="top">Name:</th><td colspan="3">plug-in-gauss-iir</td></tr>
 <tr><th align="right" valign="top">Blurb:</th><td colspan="3" valign="top">Apply a gaussian blur</td></tr>
 <tr>
@@ -166,7 +166,7 @@ The main function for a Gimp-Fu script is the <tt>podregister</tt> function. Thi
 This list contains a list of image types acceptable.
 This field is only used for scripts that are in the "&lt;Image&gt;" hieararchy. Some possible values are listed in the table below:
 
-    <table>
+    <table class='tut'>
     <tbody>
     <tr>
     <th bgcolor="#dfdfdf">value</th>
@@ -198,7 +198,7 @@ This field is only used for scripts that are in the "&lt;Image&gt;" hieararchy. 
 *  Parameters, from the <tt>PARAMETERS</tt> section. This will be Perl code, which Gimp::Fu evaluates as a list of parameters. Each parameter in turn is a reference to an array containing the following four or five values (A reference to an array in Perl is simply an array written within square brackets):
     * The type of the parameter. The types recognized by Gimp::Fu and their Perl counterparts are given in the following table:
 
-        <table>
+        <table class='tut'>
         <tbody>
         <tr>
         <th >Type</th>
@@ -370,7 +370,7 @@ Most of these commands are directly copied out the PDB.
 
 This script shows the essential steps of producing a stand-alone script:
 
-<table>
+<table class='tut'>
 <tbody>
 <tr>
 <th>line(s)</th>
@@ -437,7 +437,7 @@ Choosing the default values results in the image:
 
 Gimp-Perl provides an alternative object-oriented syntax for the image and the drawable commands. Here is a table showing the procedural vs the object oriented syntax for a few commands:
 
-<table>
+<table class='tut'>
 <tbody>
 <tr>
 <th bgcolor="#E0E0E0">procedural syntax</th>
@@ -462,7 +462,7 @@ Note that the object-oriented syntax appears to be only syntactic sugar that mak
 
 In the <tt>uni</tt> script the function <tt>gimp_edit_fill</tt> was called to fill the whole image. Looking at the info for <tt>gimp_edit_fill</tt> in the DB browser we find the following:
 
-<table>
+<table class='tut'>
 <tbody>
 <tr>
 <th align="right" valign="top">Name:</th>
@@ -495,11 +495,11 @@ Thus, if a selection is active when <tt>gimp_edit_fill</tt> is called, only the 
 
 There are lots of ways of choosing a selection as can be seen when searching for a "select" in the PDB. The example below uses <tt>gimp_image_select_rectangle</tt>, whose entry in the PDB looks as follows:
 
-<table>
+<table class='tut'>
 <tbody>
 <tr>
 <td >
-<table>
+<table class='tut'>
 <tbody>
 <tr>
 <th align="right" valign="top">Name:</th>
@@ -561,7 +561,7 @@ A simple use of this function which selects a rectangle in the middle of an imag
 *   The script is associated with an image since its menu path starts with "&lt;Image&gt;/...". Note that as a result of this the callback sub in line 6 receives two additional parameters, the active image and the selected drawable.
 *   The use of the PDB functions <tt>gimp_image_undo_group_start</tt> and <tt>gimp_image_undo_group_end</tt>. These functions declare an undo group. When an undo is done on the image, instead of having the individual operators undo, all the actions between the undo start and the undo end calls will be undone at once.
 
-<table markdown='1'> 
+<table markdown='1' class='tut'> 
 <tbody>
 <tr>
 <th bgcolor="#E0E0FF">[paint-select](paint-select)</th>
@@ -648,7 +648,7 @@ Search for "select" in the DB Browser to see a list of all the selection related
 
 In perl it is trivial to write loops that together with the various selection tools gives powerful creative possibilities. Here is an example that mixes colors in circles. There is nothing really new here, but it shows the power of what we have described above.
 
-<table markdown="1">
+<table markdown="1" class='tut'>
 <tbody>
 <tr>
 <th bgcolor="#E0E0FF">[circles](circles)</th>
@@ -739,7 +739,7 @@ To create text the PDB function <tt>gimp_text_fontname()</tt> may be used.
 
 Here is an example of a script that creates an image containing "Hello world".
 
-<table markdown="1">
+<table markdown="1" class='tut'>
 <tbody>
 <tr>
 <th bgcolor="#E0E0FF">[hello-world1](hello-world1)</th>
@@ -822,7 +822,7 @@ This script suffers from the problem that the image size is unrelated to the tex
 
 The result is an image composed of two layers; a transparent text layer on top of a uniform background.
 
-<table markdown="1">
+<table markdown="1" class='tut'>
 <tbody>
 <tr>
 <th bgcolor="#E0E0FF">[basic-logo](basic-logo)</th>
@@ -916,7 +916,7 @@ When a region has been selected through one of the selection routines, the area 
 
 This is illustrated in the following program, which works on one image and takes as a parameter another image, which it concatenates to the right of the first image. The lines 28-38 shows how the second image is copied and glued into the first image.
 
-<table markdown="1">
+<table markdown="1" class='tut'>
 <tbody>
 <tr>
 <th bgcolor="#E0E0FF">[horiz-cat](horiz-cat)</th>
@@ -1004,7 +1004,7 @@ The filename for the <tt>--output</tt> has some special magic that allows to set
 
 Here are two invocations of the scripts declared above, but with output written to a jpg file and a png file.
 
-<table border="None">
+<table border="None" class='tut'>
 <tbody>
 <tr>
 <th bgcolor="#E0E0FF"><a href="perl-gimp-from-shell">perl-gimp-from-shell</a></th>
@@ -1026,7 +1026,7 @@ When using the Perl-Server it is not necessary to use <tt>Gimp::Fu</tt> and the 
 
 For a simple but powerful example of the use of the Gimp without Fu, here is a an interactive Gimp-Perl shell that may be run from the command line:
 
-<table markdown="1"> 
+<table markdown="1" class='tut'> 
 <tbody>
 <tr>
 <th bgcolor="#E0E0FF">[pg-shell](pg-shell)</th>
@@ -1059,7 +1059,7 @@ For a simple but powerful example of the use of the Gimp without Fu, here is a a
 
 Here is an example of an interactive session with this shell:
 
-<table border="None">
+<table border="None" class='tut'>
 
 <tbody>
 
@@ -1120,13 +1120,3 @@ The Gimp-Perl distribution also has over 50 more example scripts supplied. Take 
 by [Ed J] is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US).
 </small>
 
-<style>
-table {
-max-width: 40rem;
-font-size: 0.85rem;
-margin: 1rem auto;
-}
-table td, table th{
-    padding: 0.25rem;
-}
-</style>

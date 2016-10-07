@@ -5,11 +5,7 @@ Author: Pat David
 Template: page_author
 
 <noscript>
-<style>
-.comp {
-    width: 450px;
-}
-</style>
+<link rel='stylesheet' type='text/css' href='index.css' />
 </noscript>
 
 <small>
@@ -70,7 +66,7 @@ So now let’s see what goes into making up your pixel:
 <figure>
 <img src="{filename}curves-your-pixel-info.png" alt="GIMP Color Picker Pixel View" >
 <figcaption>
-The RGB components that mix into your final <span style="color: #7ba3ce;">blue pixel</span>.
+The RGB components that mix into your final <span class='tBrightBlue'>blue pixel</span>.
 </figcaption>
 </figure>
 
@@ -103,7 +99,7 @@ In the main area of the dialog I am presented with a linear curve, behind which 
 <img src="{filename}curves-dialog-original-IO.png" alt="GIMP Base Curves Dialog Input Output" />
 </figure>
 
-What we can do right now is to adjust the values of each pixel in the image using this curve. The best way to visualize it is to remember that the bottom range from black to white represents the <span style="color: #0000ff">**_current_** value of the pixels</span>, and the left range is the <span style="color: #ff6f00">value to be mapped to</span>.
+What we can do right now is to adjust the values of each pixel in the image using this curve. The best way to visualize it is to remember that the bottom range from black to white represents the <span class='tBrightBlue'>**_current_** value of the pixels</span>, and the left range is the <span class='tOrange'>value to be mapped to</span>.
 
 So to show an example of how this curve will affect your image, suppose I wanted to remap all the values in the image that were in the midtones, and to make them all lighter. I can do this by clicking on the curve near the midtones, and dragging the curve higher in the Y direction:
 
@@ -111,12 +107,12 @@ So to show an example of how this curve will affect your image, suppose I wanted
 <img src="{filename}curves-dialog-midtones.png" alt="GIMP Base Curves Dialog Push Midtones" />
 </figure>
 
-What this curve does is takes the values around the midtones, and pushes their values to be much lighter than they were. In this case, values around <span style="color: #0000ff">128</span> were re-mapped to now be closer to <span style="color: #ff6f00">192</span>.
+What this curve does is takes the values around the midtones, and pushes their values to be much lighter than they were. In this case, values around <span class='tBrightBlue'>128</span> were re-mapped to now be closer to <span class='tOrange'>192</span>.
 
 Because the curve is set **Smooth**, there will be a gradual transition for all the tones surrounding my point to be pulled in the same direction (this makes for a smoother fall-off as opposed to an abrupt change at one value). Because there is only a single point in the curve right now, this means that all values will be pulled higher.
 
 <figure>
-<noscript><img alt="Hollow Moon Example" class="comp" src="{FILENAME}flickr-qsimple-5636649561-original.jpg" /></noscript>
+<noscript><img alt="Hollow Moon Example" class="comp" src="{filename}flickr-qsimple-5636649561-original.jpg" /></noscript>
 <img class="comp" alt="Hollow Moon Example Pushed Midtones" data-swap-src="{filename}flickr-qsimple-5636649561-original.jpg" src="{filename}flickr-qsimple-5636649561-mid-boostl.jpg" />
 <figcaption>
 The results of pushing the midtones of the value curve higher<br/>
@@ -154,7 +150,7 @@ In general, I find it easiest to visualize in terms of which regions in the curv
 
 If there is one thing you take away from reading this, let it be the image above.
 
-## Curves: <span style="color:red;">Co</span><span style="color:green;">lo</span><span style="color:blue;">rs</span>[](#curves-span-style-color-red-co-span-span-style-color-green-lo-span-span-style-color-blue-rs-span-)
+## Curves: <span class='tRed'>Co</span><span class='tGreen'>lo</span><span class='tBlue'>rs</span>[](#curves-span-style-color-red-co-span-span-style-color-green-lo-span-span-style-color-blue-rs-span-)
 
 So how does this apply to other channels? Let’s have a look.
 
@@ -200,7 +196,7 @@ Well, there’s no “Yellow” curve to modify, so how to approach that? Have a
 
 The thing to look out for here is that opposite your blue tones on this wheel, you’ll find yellow. In fact, for each of the Red, Green, and Blue channels, the opposite colors on the color wheel will show you what an absence of that color will do to your image. So remember:
 
-<div style="text-align: center;"><span style="color: red;">Red</span> → <span style="color: cyan;">Cyan</span></span><br/><span><span style="color: green;">Green</span> → <span style="color: magenta;">Magenta</span></span><br/><span><span style="color: blue;">Blue</span> → <span style="color: yellow;">Yellow</span></div>
+<div "text-align: center;"><span class='tRed'>Red</span> → <span class='tCyan'>Cyan</span></span><br/><span><span class='tGreen'>Green</span> → <span class='tMagenta'>Magenta</span></span><br/><span><span class='tBlue'>Blue</span> → <span class='tYellow'>Yellow</span></div>
 
 What this means to you while manipulating curves is that if you drag a curve for blue up, you will boost the blue in that region of your image. If instead you drag the curve for blue down, you will be **_removing_** blues (or boosting the **Yellows** in that region of your image).
 

@@ -36,7 +36,7 @@ Many thanks to all our [sponsors](sponsors.html)!
 <iframe frameborder="0" height="420" src="//tools.flattr.net/widgets/thing.html?thing=707850" width="292"></iframe>
 </p>
 
-<a class="FlattrButton" style=""
+<a class="FlattrButton" 
 title="Click to Flattr GIMP"
 data-flattr-uid="schumaml"
 data-flattr-popout="1"
