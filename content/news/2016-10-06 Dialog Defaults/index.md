@@ -19,13 +19,13 @@ Early in the current development cycle we started porting existing GIMP filters 
     <img src="{filename}gimp-2-9-5-masks-in-xcf.jpg" alt="Using masks for digital photrography in GIMP" width='975' height='596' />
 </figure>
 
-The second part of improvements started with reviewing a [patch](https://bugzilla.gnome.org/show_bug.cgi?id=759601) submitted by Benoit Touchette. As a professional photographer, he regularly works on hundreds of photos daily and has an extensive use of masks, so he needs to get from A to B extremely fast. So Benoit came up with a clever idea to simplify adding new masks: clicking on layers' previews. Various modifier keys would additionally define whether you apply and remove the mask or just drop the mask entirely.
+The second part of improvements started with reviewing a [patch](https://bugzilla.gnome.org/show_bug.cgi?id=759601) submitted by Benoit Touchette. As a professional photographer, he regularly works on hundreds of photos daily and has an extensive use of masks, so he needs to get from A to B extremely fast. Benoit came up with a clever idea to simplify adding new masks: clicking on layers' previews. Various modifier keys would additionally define whether you apply and remove the mask or just drop the mask entirely.
 
 <figure>
     <img src="{filename}gimp-2-9-5-easy-mask-create-tooltip.jpg" alt="Tooltips for handling masks quickly in GIMP" width='975' height='536' />
 </figure>
 
-The difficult part was to come up with a way to remember the last used mask initiation setting not just within one session, but across sessions. So instead of creating a special case for just the _Add Layer Mask_ dialog, Michael Natterer added a whole new infrastructure to automatically save and load settings of dialogs.
+The difficult part was to come up with a way to remember the last used mask initiation setting not just within one session, but across sessions. So instead of creating a special case for just the _Add Layer Mask_ dialog, Michael Natterer added a whole new infrastructure to automatically save and load the settings of dialogs.
 
 All the dialog defaults are stored in the _gimprc_ configuration file. To give you an idea, this is how stroking options are saved in _gimprc_:
 
@@ -48,7 +48,7 @@ The options are preserved for dialogs like _New Channel_, _Feather Selection_, _
     <img src="{filename}gimp-2-9-5-prefs-dialog-defaults.png" alt="Dialog Defaults preferences page in GIMP 2.9.5" width='805' height='638' />
 </figure>
 
-You may have noticed a few more new things about the _Preferences_ dialog. There is now a scrollbar on large pages, to make the dialog fit small screens like the still popular 1366x768 on lower-end laptops. Additionally, some pages now feature a reset button that restores default settings.
+You may have noticed a few more new things about the _Preferences_ dialog. There is now a scrollbar on large pages to make the dialog fit small screens like the still popular 1366x768 on lower-end laptops (quite a few GIMP users reported that _Preferences_ was getting too big). Additionally, some pages now feature a reset button that restores default settings.
 
 The dialog defaults feature will be available in GIMP 2.9.6 and, eventually, in GIMP 2.10.
 
