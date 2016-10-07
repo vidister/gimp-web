@@ -49,3 +49,7 @@ abbr[title] {
     border: none;
     color: #888;
 }
+
+.feed-text {
+    font-size: 0.85rem;
+}

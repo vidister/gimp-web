@@ -52,10 +52,9 @@
 <body id="index" class="home">
 
 
-        {# <nav id="menu" style='display: none;'> #}
         <nav id="menu">
             <ul>
-                <li id='gimp-home'><a href="/"><img src='/images/wilbericon.svg' id='menuWilber' style='width:25px;height:20px;' alt='Tiny Wilber'> GIMP</a></li>
+                <li id='gimp-home'><a href="/"><img src='/images/wilbericon.svg' id='menuWilber'  alt='Tiny Wilber'> GIMP</a></li>
                 <li><a href="/downloads/"><i class="fa fa-download"></i> Download</a></li>
                 <li><a href="/news/"><i class="fa fa-newspaper-o"></i> News</a></li>
                 <li><a href="/about/"><i class="fa fa-info-circle"></i> About</a></li>
@@ -87,7 +86,7 @@
                 #}
 
                 <li>
-                    <a href="/donating/" style="color:#f57900;"><i class="fa fa-money"></i> Donate</a>
+                    <a class='donate-orange' href="/donating/"><i class="fa fa-money"></i> Donate</a>
                     <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=gimp%40gnome%2eorg&lc=US&item_name=Donation%20to%20GIMP%20Project&item_number=106&currency_code=USD" title='Donate with PayPal' class='donate-type'>
                         <img src='/theme/images/pp16.png' alt="PayPal" >
                     </a>
@@ -105,7 +104,7 @@
 
         <div id='navstrip' class='nav-down'>
             <a href="/" class='navfive'>
-                <img id='wilber-tiny' src="/images/wilbericon.svg" style="width:25px;height:20px;" alt='Wilber Icon'><br/>
+                <img id='wilber-tiny' src="/images/wilbericon.svg"  alt='Wilber Icon'><br/>
                 GIMP
             </a>
             <a href="/news/" class='navfive'>
@@ -142,7 +141,7 @@
                 <div class="row clearfix">
                     <div class="column third">
                         <ul class="nav-bottom">
-                            <li id='nav-btm-gimp-home'><a href="/"><img src='/images/wilbericon.svg' style='width:25px;height:20px;' id='footerWilber' alt='Tiny Wilber'> GIMP</a></li>
+                            <li id='nav-btm-gimp-home'><a href="/"><img src='/images/wilbericon.svg'  id='footerWilber' alt='Tiny Wilber'> GIMP</a></li>
                             <li id="nav-btm-downloads"><a href="/downloads/"><i class="fa fa-download fa-fw"></i> Download</a></li>
                             <li id="nav-btm-news"><a href="/news/"><i class="fa fa-newspaper-o fa-fw"></i> News</a></li>
                         </ul>
@@ -256,18 +255,10 @@
     </div>
 
     {# We use this for the sliding menu on small responsive screen (phone/tablet) #}
-    <script async src="/js/push-menu.js"></script>
+    <script async src='/js/push-menu.js'></script>
 
-    <script>
-        var searchForm = document.getElementById('search-form');
-        var tipue_input = document.getElementById('tipue_search_input');
-        while( searchForm.firstChild ){
-            searchForm.removeChild( searchForm.firstChild );
-        }
-        tipue_input.placeholder = "Search GIMP.org";
-        searchForm.appendChild( tipue_input );
-        searchForm.action = "/search.html";
-    </script>
+    {# including the js snippet for searching with tipuesearch #}
+    <script async src='/js/search-embed.js'></script>
 
 </body>
 </html>

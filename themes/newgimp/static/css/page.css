@@ -136,3 +136,8 @@ figure figcaption {
 address.vcard.author {
     display: inline;
 }
+
+.debug {
+    border: dotted 1px #ccc;
+    font-size: 80%;
+}

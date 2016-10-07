@@ -64,7 +64,7 @@
                     <form action='https://duckduckgo.com/' id='search-form'> 
                     {# <form action='/search.html' id='search-form'> #}
                         {# <input type='text' name='q' id='tipue_search_input' autocomplete='off' required> #}
-                        <input type='text' name='q' id='tipue_search_input' autocomplete='off' required placeholder='Search with DuckDuckGo' style='width:100%;'>
+                        <input type='text' name='q' id='tipue_search_input' class='on_search_page' autocomplete='off' required placeholder='Search with DuckDuckGo' >
                         <input type='hidden' name='sites' value='www.gimp.org'>
                         {#
                         # These only work for js-enabled browsers...
@@ -92,9 +92,9 @@
 
 
     {% if PAGES_DEBUG == true %}
-    <div style="border: dotted 1px #ccc; ;" class='page_content'>
+    <div class='page_content'>
         
-        <div style='font-size: 80%;'>
+        <div>
             <p>Debug stuff.  Ignore</p>
             <p>
                 url: {{ page.url }} <br/>
@@ -125,22 +125,6 @@
     </div>
     {% endif %}
 
-    <script>
-    $(document).ready(function() {
-        $('#tipue_search_input').tipuesearch({
-            'descriptiveWords': 50
-                });
-    });
-    </script>
-    <script>
-        var searchForm = document.getElementById('search-form');
-        var tipue_input = document.getElementById('tipue_search_input');
-        while( searchForm.firstChild ){
-            searchForm.removeChild( searchForm.firstChild );
-        }
-        tipue_input.placeholder = "Search GIMP.org";
-        searchForm.appendChild( tipue_input );
-        searchForm.action = "/search.html";
-    </script>
+    <script async src='/js/search-ready.js'></script>
 
 {% endblock %}

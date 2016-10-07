@@ -254,6 +254,11 @@ figure {
     vertical-align: text-top;
 }
 
+#gimp-home #menuWilber {
+    width: 25px;
+    height: 20px;
+    }
+
 .codehilitetable {
     margin: 1rem auto;
     font-size: 0.8rem;
@@ -726,4 +731,13 @@ blockquote p {
 form {
     max-width: 34rem;
     margin: 1rem auto;
+}
+
+#wilber-tiny {
+    width: 25px;
+    height: 20px;
+}
+
+a.donate-orange {
+    color:#f57900 !important;
 }

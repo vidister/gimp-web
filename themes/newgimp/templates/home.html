@@ -21,9 +21,7 @@
 
 {% block header %}
 <header id="banner" class="body clearfix">
-    {#
-    <img id='twenty-banner' src='/images/frontpage/20banner.svg' alt='GIMP 20th Anniversary Banner' width='250' height='250' style='position: absolute; left: 0; width: 250px; height: 250px;'/>
-    #}
+    
             <div class="container">
                 <div class="intro row">
 
@@ -273,70 +271,5 @@
         
     </section>
 
-    {#
-    <section style='background: repeating-linear-gradient(-45deg, transparent, transparent 40px, rgba(166,166,166,.07) 40px, rgba(166,166,166,.07) 80px);'>
-        <div class='container'>
-            <div class='row clearfix'>
-                <div class='column full'>
-                    <h2>Temporary Stuff Below Here</h2>
-                    <p>
-                        The content below this section is almost entirely for testing the build system and article parsing.
-                        Disregard the formatting/content unless specifically addressing something that was asked about.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    #}
-
-{#
-    <section id="articles">
-{#
-        {% block content_title %}
-            <h2>Recent News</h2>
-        {% endblock %}
-
-        
-        {# original stuff ...
-        <ol id="post-list">
-        {% for article in articles_page.object_list %}
-                <li><article class="hentry">
-                        <header> <h2 class="entry-title"><a href="/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2> </header>
-                        <footer class="post-info">
-                            <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr>
-                            <address class="vcard author">By
-                            {% for author in article.authors %}
-                                <a class="url fn" href="/{{ author.url }}">{{ author }}</a>
-                            {% endfor %}
-                            </address>
-                        </footer><!-- /.post-info -->
-                        <div class="entry-content"> {{ article.summary }} </div><!-- /.entry-content -->
-                </article></li>
-        {% endfor %}
-        </ol><!-- /#posts-list -->
-        {% if articles_page.has_other_pages() %}
-            {% include 'pagination.html' %}
-        {% endif %}
-#}
-
-{#
-
-        <h3>Articles Object</h3>
-        <div>
-            <a href="{{ articles[0].url }}">{{ articles[0].title }}</a>
-        </div>
-        <div>
-            {{ articles[0].summary }}
-        </div>
-        <div>
-            {{ articles[0].author }}
-        </div>
-        <div>
-            articles[0].date: {{ articles[0].date }}<br/>
-            articles[0].locale_date: {{ articles[0].locale_date }}<br/>
-            articles[0].locale_modified: {{ articles[0].locale_modified }}
-        </div>
-    </section><!-- /#content -->
-#}
 
 {% endblock content %}

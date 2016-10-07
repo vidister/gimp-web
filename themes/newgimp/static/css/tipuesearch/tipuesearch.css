@@ -212,6 +212,10 @@ http://www.tipue.com/search
     width: 300px;
 }
 
+#tipue_search_input.on_search_page {
+    width: 100%;
+}
+
 .tipue_search_content_title {
     font-family: Questrial;
     line-height: 1.5rem;
