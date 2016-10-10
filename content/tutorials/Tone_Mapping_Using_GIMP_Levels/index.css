@@ -12,3 +12,30 @@ ol {
 .top-margin-1 { margin-top: 1rem; }
 
 ol.lowerroman { list-style-type: lower-roman; }
+
+@media screen {
+    .toggle-swap {
+        cursor: pointer;
+        color: #497bad;
+    }
+    body {
+        counter-reset: figure 0;
+    }
+    ol li {
+        margin-bottom: 1rem;
+    }
+    figure figcaption {
+        text-align: left;
+    }
+    figcaption::before {
+        counter-increment: figure;
+        content: "Figure " counter(figure) ". ";
+        font-weight: bold;
+    }
+    .toc ul {
+        list-style-type: decimal;
+    }
+    .toc li {
+        margin-bottom: 1rem;
+    }
+}

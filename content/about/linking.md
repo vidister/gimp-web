@@ -19,7 +19,7 @@ If you want to link to our home page, here are some buttons that you can use, fo
 
     :::html
     <a href="http://www.gimp.org/"><img alt="Graphics by GIMP"
-    src="http://www.gimp.org/images/gfx_by_gimp.png" border="0"
+    src="https://www.gimp.org/images/gfx_by_gimp.png" border="0"
     width="90" height="36" /></a>
 
 
@@ -29,7 +29,7 @@ If you want to link to our home page, here are some buttons that you can use, fo
 
     :::html
     <a href="http://www.gimp.org/"><img alt="GIMP - Free"
-    src="http://www.gimp.org/images/gimp_free_button.png" border="0"
+    src="https://www.gimp.org/images/gimp_free_button.png" border="0"
     width="88" height="31" /></a>
 
 The HTML code shown above links directly to the images provided by this site. This will work for a while, until we change the name or the location of these images. If you want to be sure that you will not have broken images in a few days or weeks, we recommend that you copy the button(s) to your own web site, as explained below.

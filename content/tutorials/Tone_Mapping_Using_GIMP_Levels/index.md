@@ -292,30 +292,3 @@ For the "Power lines" picture shown in Figure 8 above, after doing "Color/Auto/S
 
 
 <script type='text/javascript' src='/js/img-swap.js'></script>
-
-<style media='screen' type='text/css'>
-.toggle-swap {
-    cursor: pointer;
-    color: #497bad;
-}
-body {
-    counter-reset: figure 0;
-}
-ol li {
-    margin-bottom: 1rem;
-}
-figure figcaption {
-    text-align: left;
-}
-figcaption::before {
-    counter-increment: figure;
-    content: "Figure " counter(figure) ". ";
-    font-weight: bold;
-}
-.toc ul {
-    list-style-type: decimal;
-}
-.toc li {
-    margin-bottom: 1rem;
-}
-</style>
