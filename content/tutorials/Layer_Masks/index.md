@@ -97,7 +97,7 @@ I want to fill this selection with black, but before I do I need to make sure th
 <figure>
 <img src="{filename}Change-Foreground-Color.png" alt="Change-Foreground-Color"/>
 <figcaption>
-Click the <span style="color: #00FF00;">foreground color</span> to change.
+Click the <span class='tGreen'>foreground color</span> to change.
 </figcaption>
 </figure>
 

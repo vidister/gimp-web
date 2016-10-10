@@ -12,6 +12,7 @@ canonical: http://ninedegreesbelow.com/photography/gimp-tone-map-with-levels.htm
 <span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - Tone Mapping Using GIMP Levels (text & images)</span> by [Elle Stone](http://ninedegreesbelow.com/) is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
 </small>
 
+<link rel='stylesheet' type='text/css' href='index.css'>
 
 <!-- BEGIN ARTICLE -->
 
@@ -30,7 +31,7 @@ This step-by-step tutorial shows you how to use GIMP's unbounded floating point 
 <figure>
 <img src='power-lines.jpg' alt='power-lines' width='768' height='614' >
 <figcaption>
-<em style='font-weight: 400;'>Power lines at noon</em>, before and after tone mapping (aka "shadow recovery") using high bit depth GIMP's floating point "Colors/Exposure".<br>
+<em><strong>Power lines at noon</strong></em>, before and after tone mapping (aka "shadow recovery") using high bit depth GIMP's floating point "Colors/Exposure".<br>
 (Click to view):<br>
 <span class='toggle-swap' data-fig-swap='before-auto-stretch-contrast.jpg'>Scene-referred interpolated raw file.</span><br>
 <span class='toggle-swap' data-fig-swap='power-lines.jpg'>After tone mapping/shadow recovery using GIMP unbounded Levels.</span>
@@ -69,7 +70,7 @@ Using high bit depth GIMP's "Colors/Exposure" to lighten the ground by one stop 
 
 This step-by-step example provides a sample image and is broken down into five steps, starting with downloading the image. Steps 3, 4, and 5 describe the actual procedure, so here's an overview:
 
-<ol start='3' style='padding-left: 3rem; font-style: italic;' markdown=1 >
+<ol start='3' class='italic' markdown=1 >
 3. Duplicate the base layer and then use GIMP's unbounded Levels to add one stop of positive exposure compensation to the duplicated layer.
 4. Add an inverse grayscale layer mask to the now much brighter duplicated layer.
 5. Do "Auto/Stretch Contrast" on the layer mask and then fine-tune the mask until you are happy. Then make a "New from Visible" layer.
@@ -77,7 +78,7 @@ This step-by-step example provides a sample image and is broken down into five s
 
 ---
 
-<ol style='max-width: 35rem;' markdown=1>
+<ol markdown=1>
 
 <li><b>Download <a href="tree.png">tree.png</a></b>, which is a 16-bit integer sRGB image. High bit depth GIMP really is an "sRGB only" image editor, so it's best if you don't even try to edit in other RGB working spaces.</li>
 
@@ -109,7 +110,7 @@ When using "Colors/Exposure" to add one stop of positive exposure compensation, 
 </li>
 
 <li>
-<img style='float: right;' src="add-inverse-grayscale-mask.jpg" alt="add-inverse-grayscale-mask" width='292' height='381'>
+<img class='float-right' src="add-inverse-grayscale-mask.jpg" alt="add-inverse-grayscale-mask" width='292' height='381'>
 <b>Add an inverse grayscale layer mask</b>: Right-click on the layer and select "Layer/Mask/Add Layer Mask", and when the "Add a mask to the Layer" dialog pops up, choose "Grayscale copy of layer" and check the "Invert mask" box. 
 <p>As shown in Figure 5 below, at this point the highlights will be brought back into the display range, meaning all RGB channel values are between 0.0f and 1.0f. But the image will probably look a little odd (sort of cloudy and flat), and depending on the image, the brightest highlights might actually have dark splotches&mdash;don't worry! this is temporary.</p>
  
@@ -123,7 +124,7 @@ When using "Colors/Exposure" to add one stop of positive exposure compensation, 
 
 
 <li>
-<img src="auto-stretch-contrast-mask.jpg" alt="auto-stretch-contrast-mask" style='float:right; margin-left: 1rem;' width='301' height='230' >
+<img src="auto-stretch-contrast-mask.jpg" alt="auto-stretch-contrast-mask" class='float-right' width='301' height='230' >
 <b>Click on the layer mask to select it for editing, and then select "Colors/Auto/Stretch Contrast"</b>: 
 <p>"Keep Colors" should be checked (though it doesn't really matter on grayscale images such as layer masks). Figure 6 below shows the final result:</p>
 
@@ -158,20 +159,20 @@ That's the whole procedure for using "Colors/Exposure" to add a stop of positive
 (Click to view):<br>
 <span class='toggle-swap' data-fig-swap='apple-orchard-truck-from-camera.jpg'>1. Image from the camera, underexposed to avoid blowing out highlights..</span><br>
 <noscript>
-<img src='apple-orchard-truck-from-camera.jpg' alt='apple-orchard-truck-from-camera' style='margin-bottom:1rem;' width='593' height='395'>
+<img src='apple-orchard-truck-from-camera.jpg' alt='apple-orchard-truck-from-camera' class='bottom-margin' width='593' height='395'>
 </noscript>
 <span class='toggle-swap' data-fig-swap='apple-orchard-truck-tone-mapped-using-gimp-colors-exposure.jpg'>2. After tone mapping/shadow recovery using high bit depth GIMP's floating point "Colors/Exposure".</span><br>
 <noscript>
-<img src='apple-orchard-truck-tone-mapped-using-gimp-colors-exposure.jpg' alt='apple-orchard-truck-tone-mapped-using-gimp-colors-exposure' style='margin-bottom:1rem;' width='593' height='395'>
+<img src='apple-orchard-truck-tone-mapped-using-gimp-colors-exposure.jpg' alt='apple-orchard-truck-tone-mapped-using-gimp-colors-exposure' class='bottom-margin' width='593' height='395'>
 </noscript>
 <span class='toggle-swap' data-fig-swap='apple-orchard-truck-tone-mapped-using-gegl-mantuik.jpg'>3. For comparison, Mantuik tone-mapping using the GEGL default settings.</span><br>
 <noscript>
-<img src='apple-orchard-truck-tone-mapped-using-gegl-mantuik.jpg' alt='apple-orchard-truck-tone-mapped-using-gegl-mantuik' style='margin-bottom:1rem;' width='593' height='395'>
+<img src='apple-orchard-truck-tone-mapped-using-gegl-mantuik.jpg' alt='apple-orchard-truck-tone-mapped-using-gegl-mantuik' class='bottom-margin' width='593' height='395'>
 </noscript>
 
 <p>Using GIMP's floating point "Colors/Exposure" plus layer masks to add two and a half stops of positive exposure compensation to the shadows and midtones of a "bright sun" photograph of an apple orchard truck.</p>
 
-<p><img style='float:right;' src="orchard-truck-layer-stack.jpg" alt="orchard-truck-layer-stack" width='465' height='432'>To the right is a screenshot of the layer stack that I used to tone-map the photograph of the apple orchard truck. Tone-mapping by hand gives you complete control over the resulting image. Mantuik and other "automagic" tone-mapping algorithms are CPU-intensive, unpredictable, and often produce unnatural-looking results.</p>
+<p><img class='float-right' src="orchard-truck-layer-stack.jpg" alt="orchard-truck-layer-stack" width='465' height='432'>To the right is a screenshot of the layer stack that I used to tone-map the photograph of the apple orchard truck. Tone-mapping by hand gives you complete control over the resulting image. Mantuik and other "automagic" tone-mapping algorithms are CPU-intensive, unpredictable, and often produce unnatural-looking results.</p>
 </figcaption>
 </figure>
 </li>
@@ -190,20 +191,20 @@ Before and after doing "Colors/Auto/Stretch Contrast" on the base layer, plus th
 <span class='toggle-swap' data-fig-swap='after-auto-stretch-contrast.jpg'>2. After doing "Colors/Auto/Stretch Contrast".</span><br>
 <span class='toggle-swap' data-fig-swap='power-lines.jpg'>3. Final "Power lines" image.</span>
 
-<ol style='margin-top: 1rem;'>
+<ol class='top-margin-1'>
 <li>This scene-referred interpolated raw file from the PhotoFlow raw processor (which provides a GIMP plug-in for easy opening of raw files) has out-of-display-range RGB channel values that will be brought back into the display range by doing "Colors/Auto/Stretch Contrast".</li>
 <noscript>
-<img src='before-auto-stretch-contrast.jpg' alt='before-auto-stretch-contrast' style='margin-top:-0.5rem; margin-bottom:1rem;' width='593' height='474'>
+<img src='before-auto-stretch-contrast.jpg' alt='before-auto-stretch-contrast' class='top-margin-05 bottom-margin' width='593' height='474'>
 </noscript>
 
 <li>After doing "Colors/Auto/Stretch Contrast", shadows are lighter and highlights are darker because the dynamic range has been compressed to fit within the display range. This looks like an editing step in the wrong direction! but actually it's necessary.</li>
 <noscript>
-<img src='after-auto-stretch-contrast.jpg' alt='after-auto-stretch-contrast' style='margin-top:-0.5rem; margin-bottom:1rem;' width='593' height='474'>
+<img src='after-auto-stretch-contrast.jpg' alt='after-auto-stretch-contrast' class='top-margin-05 bottom-margin' width='593' height='474'>
 </noscript>
 
 <li>Here's the final "Power lines" image after tone mapping the scene-referred interpolated raw file using the procedure described in this tutorial.</li>
 <noscript>
-<img src='power-lines.jpg' alt='power-lines' style='margin-top:-0.5rem; margin-bottom:1rem;' width='593' height='474'>
+<img src='power-lines.jpg' alt='power-lines' class='top-margin-05 bottom-margin' width='593' height='474'>
 </noscript>
 </ol>
 
@@ -217,9 +218,9 @@ Before and after doing "Colors/Auto/Stretch Contrast" on the base layer, plus th
 
 
 <li> <b>Dispensing with "useless" shadow and highlight information:</b> Sometimes interpolated raw files of photographs of high dynamic range scenes end up with a sprinkling of highlight and shadow pixels that contains essentially no useful information. The easiest thing to do with such pixels is to use "Colors/Exposure" to set the desired black and white points, and then clip the resulting out of gamut channel information.
-  <ol style="list-style-type: lower-roman">
+  <ol class='lowerroman'> 
   <li><i><b>Useless highlight information:</b></i>
-<p><img style='float:right;' src="histogram-specular-highlights.jpg" alt="histogram-specular-highlights" width='374' height='322'>
+<p><img class='float-right' src="histogram-specular-highlights.jpg" alt="histogram-specular-highlights" width='374' height='322'>
 For the "Power lines" picture shown in Figure 8 above, after doing "Color/Auto/Stretch Contrast", a measly 48 pixels occupied nearly half the tonal range (see the histogram to the right). A little investigation with GIMP's Threshold tool revealed that all 48 pixels are the peak values of specular highlights on the ceramic insulators on the power line pole in the foreground.</p> 
 
 <p>In cases where nearly half the histogram is occupied by a sprinkling of specular highlights, clipping the pixels is often the best and easiest solution. For the "Power lines" image, the 48 pixels in question carried essentially zero information. So I used "Colors/Exposure" to raise the white point, and then used "Tools/GEGL Operation/Clip RGB" to actually clip the channel information in the highlights (this time making sure the "Clip high pixel values" box was checked). </p>
@@ -246,13 +247,13 @@ For the "Power lines" picture shown in Figure 8 above, after doing "Color/Auto/S
 <span class='toggle-swap' data-fig-swap='without-bilateral-smoothing-of-mask.jpg'>Without applying bilateral smoothing to the mask, micro contrast is flattened.</span><br>
 
 <noscript>
-<img src='without-bilateral-smoothing-of-mask.jpg' alt='without-bilateral-smoothing-of-mask' style='margin-bottom: 1rem;' width='593' height='474'>
+<img src='without-bilateral-smoothing-of-mask.jpg' alt='without-bilateral-smoothing-of-mask' class='bottom-margin' width='593' height='474'>
 </noscript>
 
 <span class='toggle-swap' data-fig-swap='with-bilateral-smoothing-of-mask.jpg'>After applying bilateral smoothing to the mask, micro contrast is restored.</span>
 
 <noscript>
-<img src='with-bilateral-smoothing-of-mask.jpg' alt='with-bilateral-smoothing-of-mask' style='margin-bottom: 1rem;' width='593' height='474'>
+<img src='with-bilateral-smoothing-of-mask.jpg' alt='with-bilateral-smoothing-of-mask' class='bottom-margin' width='593' height='474'>
 </noscript>
 
 <p>Adding exposure compensation combined with an inverse grayscale mask does flatten micro contrast, which might or might not be desireable depending on your artistic intentions for the image. To restore micro contrast, try using an edge-respecting blur such as G'MIC's bilateral smoothing filter. GIMP G'MIC doesn't work on layer masks. A workaround is to to turn the unblurred mask into a selection, save the selection as a channel, and then drag the channel to the layer stack for blurring.</p>

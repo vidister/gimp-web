@@ -64,15 +64,17 @@ The Gimp module provides tracing ability, which is a form of debugging. To activ
 
 This will give the maximum amount of tracing information, displayed on the console window you start GIMP from. You can cut back on what all gets displayed by using an "or'ed" combination of the following other options in place of TRACE_ALL:
 
-<table style="background: #CCFFCC none; max-width:34rem;margin:1rem auto;">
+<link rel='stylesheet' type='text/css' href='index.css' />
+
+<table class='ptable'>
 
 <tbody>
 
 <tr>
 
-<td style="width: 20%;">TRACE_NONE</td>
+<td class='t20'>TRACE_NONE</td>
 
-<td style="width: 40%">turn off tracing</td>
+<td class='t40'>turn off tracing</td>
 
 </tr>
 

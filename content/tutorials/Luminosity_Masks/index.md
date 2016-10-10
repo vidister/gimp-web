@@ -45,7 +45,7 @@ To begin creating the masks we will need to first get a luminosity representatio
 
 Either through the menus, or by Right-Clicking on the base layer in the **Layer Dialog**:
 
-<div class="MenuCmd"><span><span style="text-decoration: underline;">L</span>ayer → D<span style="text-decoration: underline;">u</span>plicate Layer</span></div>
+<div class="MenuCmd"><span>Layer → Duplicate Layer</span></div>
 
 <figure>
 <img src="{filename}Layer-Duplicate.png" alt="Layer-Duplicate"/>  
@@ -75,9 +75,9 @@ The easiest way to do this is through the **Channels** Dialog. If you don't see 
 The <strong>Channels</strong> Dialog
 </figcaption></figure>
 
-On the <span style="color: #ff5500;">top half</span> of this window you’ll see the an entry for each channel in your image (Red, Green, Blue, and Alpha). On <span style="color: #00aaff;">the bottom</span> will be a list of any channels you have previously defined.
+On the <span class='tOrange'>top half</span> of this window you’ll see the an entry for each channel in your image (Red, Green, Blue, and Alpha). On <span class='tBrightBlue'>the bottom</span> will be a list of any channels you have previously defined.
 
-To create a new channel that will become your “Lights” channel, drag any one of the <span style="color: #ff5500;">RGB channels</span> down to the <span style="color: #00aaff;">lower window</span> (it doesn’t matter which - they all have the same data due to the desaturation operation).
+To create a new channel that will become your “Lights” channel, drag any one of the <span class='tOrange'>RGB channels</span> down to the <span class='tBrightBlue'>lower window</span> (it doesn’t matter which - they all have the same data due to the desaturation operation).
 
 Now rename this channel to something meaningful (like “**L**” for instance!), by double-clicking on its name (in my case it‘s called “Blue Channel Copy”) and entering a new one.
 

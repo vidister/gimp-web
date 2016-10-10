@@ -1,2 +1,11 @@
 table { margin: 1rem auto; }
 td { padding-right: 1rem; }
+
+.color-ex {
+    text-align: center;
+    padding: 1rem;
+}
+.color080205255 {background-color: rgb(80, 205,255);}
+.color255172080 {background-color: rgb(255,172,80); }
+.color127127127 {background-color: rgb(127,127,127);}
+.color220220220 {background-color: rgb(222,220,220);}

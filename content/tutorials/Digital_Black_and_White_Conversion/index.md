@@ -77,10 +77,10 @@ You are working in an RGB world when you stare at your monitors. Every single pi
 
 The variations in brightness of each of the sub-pixels will “mix” to produce the colors you finally see. The scales available in an 8-bit display are discrete levels from 0—255 for each color (2<sup>8</sup> = 256). So if all of the sub-pixel values are 0, the resulting color is black. If they are all 255, you’ll see white. Any other combination will produce some variation of a color.
 
-<p class="color-ex" style="background-color: rgb(80,205,255); text-align: center; padding: 1rem;">
+<p class="color-ex color080205255" >
 80, 205, 255 for instance
 </p>
-<p class="color-ex" style="background-color: rgb(255,172,80); text-align: center; padding: 1rem;">
+<p class="color-ex color255172080" >
 or 255, 172, 80
 </p>
 
@@ -88,10 +88,10 @@ or 255, 172, 80
 
 The important point to take away from this is to realize that when all three color channels are the same value, you’ll got a grey color. So a middle gray value of 127, 127, 127 would look like this:
 
-<p class="color-ex" style="background-color: rgb(127,127,127); color: #222; text-align: center; padding: 1rem;">
+<p class="color-ex color127127127" >
 127, 127, 127
 </p>
-<p class="color-ex" style="background-color: rgb(222,220,220); text-align: center; padding: 1rem;">
+<p class="color-ex color220220220" >
 While this is a little brighter: 220, 220, 220
 </p>
 
@@ -201,7 +201,7 @@ The weighted function describing relative luminance is:
 <figcaption>This is closer to how our eyes will actually perceive the brightness of each color</figcaption>
 </figure>
 
-<figure style="background-color:white;">
+<figure>
 <img src="{filename}rgb-mix-luminosity.png" alt="RGB Luminosity Mix" />
 <figcaption>
 Notice the overwhelming contribution from green  
