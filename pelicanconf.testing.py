@@ -31,7 +31,7 @@ I18N_SUBSITES = {
 
 AUTHOR = u'Pat David'
 SITENAME = u'GIMP'
-SITEURL = '//testing.gimp.org'
+SITEURL = 'https://testing.gimp.org'
 SITEMAP_SITEURL = 'https://testing.gimp.org'
 #GIMP_VERSION = u'2.8.18'
 
