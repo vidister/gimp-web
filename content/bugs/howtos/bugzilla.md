@@ -24,7 +24,7 @@ The goal of the following is to give the developers as much information about wh
 
 ### The Steps
 
-1.  Use <kbd>gimp --version</kbd> or the about dialog to check your GIMP version. Next check with [www.gimp.org](//www.gimp.org/) to see what the most recent GIMP release is. If your GIMP is old, update then try to to reproduce the bug. Your bug may have been fixed in the most recent release. If you are running GIMP from GIT, update and and recompile.
+1.  Use <kbd>gimp --version</kbd> or the about dialog to check your GIMP version. Next check with [www.gimp.org](http://www.gimp.org/) to see what the most recent GIMP release is. If your GIMP is old, update then try to to reproduce the bug. Your bug may have been fixed in the most recent release. If you are running GIMP from GIT, update and and recompile.
 
 2.  Attempt to reproduce the problem. Go do what you were doing when it happened and see if you can do it again.
 

@@ -18,7 +18,7 @@ The Path Tool (replacing the old Bezier Selection tool) can be used in many crea
 
 This tutorial is about making simple geometrical shapes with GIMP. I will concentrate on the Path tool since I find it so useful for this purpose. I hope you get some help and new stuff to put in your GIMP Tricks Sack :) I personally use this technique for nearly all my work.
 
-**Notice!** This is not a 'back to basics' -tutorial. You should be familiar with GIMP's dialogs and menus. I was thinking about this, and I did not want to make this an 'entry level' thing, basically to avoid bloating this too big and duplicating other people's work. [Paths are covered in my other tutorial](/tutorials/Bezier_Selections/), and I recommend you to read it before going further if you find the material here confusing. If you are new to GIMP I suggest you to go to the GIMP homepage in [www.gimp.org](//www.gimp.org/) and first read through the Documentation section there.
+**Notice!** This is not a 'back to basics' -tutorial. You should be familiar with GIMP's dialogs and menus. I was thinking about this, and I did not want to make this an 'entry level' thing, basically to avoid bloating this too big and duplicating other people's work. [Paths are covered in my other tutorial](/tutorials/Bezier_Selections/), and I recommend you to read it before going further if you find the material here confusing. If you are new to GIMP I suggest you to go to the GIMP homepage in [www.gimp.org](http://www.gimp.org) and first read through the Documentation section there.
 
 ## Let's get started!
 

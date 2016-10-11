@@ -95,7 +95,7 @@ The GIMP community is a friendly one, but it probably is still worth saying this
 
 ## Important GIMP Links
 
-*   [The GNU Image Manipulation Program](//www.gimp.org/) — www.gimp.org
+*   [The GNU Image Manipulation Program](http://www.gimp.org/) — www.gimp.org
 *   [GIMP Wiki](http://wiki.gimp.org/) — wiki.gimp.org
 *   [GIMP Bugzilla](https://bugzilla.gnome.org/) — bugzilla.gnome.org
 *   [The GIMP Toolkit](http://www.gtk.org/) — www.gtk.org

@@ -229,7 +229,7 @@ better yet, help us finish GIMP 2.10.
 
 Great! Please check the [wiki](http://wiki.gimp.org/wiki/Hacking:Developer_FAQ) 
 for introduction on GIMP development and talk to us on 
-[IRC](//www.gimp.org/irc.html).
+[IRC](http://www.gimp.org/irc.html).
 
 ### I'm not a developer. Can I still help you somehow?
 

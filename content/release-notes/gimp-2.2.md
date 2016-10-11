@@ -11,7 +11,7 @@ The GIMP developers are proud to release version 2.2 of the **GNU Image Manipula
 
 The GNU Image Manipulation Program is ideal for amateur photographers, web designers, and many other people who want to create and edit digital images. It is a very powerful application, with features including: channels, layers and masks; colour operations such as levels, curves and threshhold; advanced selection operations using intelligent scissors and selection channels; and much more.
 
-GIMP is free software, which means it can be freely distributed and modified. This makes it well suited to be included on cover disks of magazines dedicated to digital photography or image editing, or to be included with digital cameras, scanners, printers etc. As free software, its capabilities are ultimately limited only by the collective imagination of the community of free software contributors. More information about GIMP is available at [www.gimp.org](//www.gimp.org/).
+GIMP is free software, which means it can be freely distributed and modified. This makes it well suited to be included on cover disks of magazines dedicated to digital photography or image editing, or to be included with digital cameras, scanners, printers etc. As free software, its capabilities are ultimately limited only by the collective imagination of the community of free software contributors. More information about GIMP is available at [www.gimp.org](http://www.gimp.org/).
 
 ## Download
 

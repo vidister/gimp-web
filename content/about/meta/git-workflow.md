@@ -37,11 +37,11 @@ The general workflow is:
 There are two main branches we are working with.
 Well, mainly *one* branch that is worked with mostly and another that is actually the main site.
 
-The **testing** branch will build to [testing.gimp.org](//testing.gimp.org).
+The **testing** branch will build to [testing.gimp.org](http://testing.gimp.org).
 This is the main branch for testing things out and checking that they will build correctly on the server.
 Once a change works here ok, it can then be merged into **master** and pushed to the server.
 
-The **master** branch will build to the full [www.gimp.org](//www.gimp.org).
+The **master** branch will build to the full [www.gimp.org](http://www.gimp.org).
 
 
 

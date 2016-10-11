@@ -14,4 +14,4 @@ Find the packages on our [FTP server](ftp://ftp.gimp.org/pub/gimp/help/).
 
 For easy installation we suggest that you wait until an installer for this release has been packaged for your platform. Find more releases and information about our goals and how you can help at [docs.gimp.org](http://docs.gimp.org/).
 
-An additional bug fix release for GIMP 2.6 has been prepared as well: [2.6.2](//download.gimp.org/pub/gimp/help/gimp-help-2.6.2.tar.bz2). It contains content fixes and an improved build system. 
+An additional bug fix release for GIMP 2.6 has been prepared as well: [2.6.2](http://download.gimp.org/pub/gimp/help/gimp-help-2.6.2.tar.bz2). It contains content fixes and an improved build system. 

@@ -105,7 +105,7 @@ In addition to porting color operations to GEGL, an experimental _GEGL Operation
 
 There are new things for a plug-in developer to enjoy as well. For example, procedures can now give a detailed error description in case of an error, and the error can be propagated to the user.
 
-GIMP 2.6 also further enhances its scripting abilities. In particular there is now a much richer API for the creation and manipulation of text layers. Here is a [list of new symbols in GIMP 2.6](//developer.gimp.org/api/2.0/libgimp/libgimp-index-new-in-2-6.html).
+GIMP 2.6 also further enhances its scripting abilities. In particular there is now a much richer API for the creation and manipulation of text layers. Here is a [list of new symbols in GIMP 2.6](http://developer.gimp.org/api/2.0/libgimp/libgimp-index-new-in-2-6.html).
 
 ### Backwards Compatibility
 
