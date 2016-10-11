@@ -11,7 +11,7 @@ Summary:
 
 With all the talk and theorizing going on about Free Software development models, I thought that it might be a good idea to actually give an example. I've tried to keep it as accurate as possible, and hope my experiences working on this team can benefit other projects as well.
 
-Like current GIMP development, this was not done alone. This is a compilation of knowledge from a lot of people on #gimp, some of it predating my own experience. This history would not have been possible without, specifically, the help of josh, Raph, Adrian, Xach, yosh, and more generally all of the guys on #gimp. This is NOT inclusive - there are many sites and people that continue to contribute to the success of GIMP that are not listed here. I suggest visiting [http://www.gimp.org/](//www.gimp.org/) for a more complete listing of gimp links.
+Like current GIMP development, this was not done alone. This is a compilation of knowledge from a lot of people on #gimp, some of it predating my own experience. This history would not have been possible without, specifically, the help of josh, Raph, Adrian, Xach, yosh, and more generally all of the guys on #gimp. This is NOT inclusive - there are many sites and people that continue to contribute to the success of GIMP that are not listed here. I suggest visiting [http://www.gimp.org/](http://www.gimp.org/) for a more complete listing of gimp links.
 
 -- [Seth Burgess](mailto:sjburges@ou.edu)
 
@@ -114,7 +114,7 @@ Obviously, WilberWorks exists to make money. So why a bug tracking system? The a
 
 ### Centralization:
 
-In response to a need for a central repository for all these aspects of the program, Shawn Amundson (Snorfle) secured the domain "gimp.org". The main server of this is [www.gimp.org](//www.gimp.org), which just about anyone should be able to guess and remember. Started on October 7th, 1997, it contains a broad overview of things to get you going with gimp, from the source to to tips and tricks.
+In response to a need for a central repository for all these aspects of the program, Shawn Amundson (Snorfle) secured the domain "gimp.org". The main server of this is [www.gimp.org](http://www.gimp.org), which just about anyone should be able to guess and remember. Started on October 7th, 1997, it contains a broad overview of things to get you going with gimp, from the source to to tips and tricks.
 
 ### Publicity:
 
@@ -122,7 +122,7 @@ Michael J. Hammel wrote a four part series on GIMP for inclusion in [Linux Journ
 
 [Red Hat Linux](http://www.redhat.com) has bundled GIMP in its distribution since version 5.0\. This has turned out to be something of a double edged sword - while it exposes the world to GIMP, it uses a now ancient version. If you are using version 0.99.12 that comes with RedHat 5.0, please [upgrade!](ftp://s9412a.steinan.ntnu.no/pub/gimp/) Many improvements to the libraries, program, and plug-ins have taken place since 0.99.12.
 
-[www.gimp.org](//www.gimp.org/) also uses the GIMP mascot, Wilber. Wilber is cool. Wilber's eyes move, and thats kinda disturbing to some people, but I like him. Wilber is a GIMP. Created on Sept. 25, 1997 by Tuomas Kuosmanen, Wilber has taken on a life of its own. For example, Wilber is pictured doing all sorts of stuff at the top left hand corner of the page at www.gimp.org (_edit: the old web site now lives at [classic.gimp.org](http://classic.gimp.org/)_). Wilber has become a recognized icon associated with GIMP, and may be seen at [slashdot](http://slashdot.org) whenever GIMP is mentioned. He appears on the help screen when starting GIMP for the first time, offering useful advice. Now that GIMP is becoming more ready to be seen by the general public, Wilber is helping get GIMP out to the masses much like (the penguin some call) Tux is for Linux.
+[www.gimp.org](http://www.gimp.org/) also uses the GIMP mascot, Wilber. Wilber is cool. Wilber's eyes move, and thats kinda disturbing to some people, but I like him. Wilber is a GIMP. Created on Sept. 25, 1997 by Tuomas Kuosmanen, Wilber has taken on a life of its own. For example, Wilber is pictured doing all sorts of stuff at the top left hand corner of the page at www.gimp.org (_edit: the old web site now lives at [classic.gimp.org](http://classic.gimp.org/)_). Wilber has become a recognized icon associated with GIMP, and may be seen at [slashdot](http://slashdot.org) whenever GIMP is mentioned. He appears on the help screen when starting GIMP for the first time, offering useful advice. Now that GIMP is becoming more ready to be seen by the general public, Wilber is helping get GIMP out to the masses much like (the penguin some call) Tux is for Linux.
 
 ### And It Goes On:
 

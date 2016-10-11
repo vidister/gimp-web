@@ -36,7 +36,7 @@ A full compile of the stable version takes 1-2 hours on a PPro 200 or K-6 200 wi
 ## GIMP Compilation and Installation
 
 
-After grabbing the GIMP distribution, you are ready to compile and install. The main site for the latest offical GIMP distribution is [http://download.gimp.org/pub/gimp/](//download.gimp.org/pub/gimp/) but you should consider using one of the mirrors listed on the [download page](./).
+After grabbing the GIMP distribution, you are ready to compile and install. The main site for the latest offical GIMP distribution is [http://download.gimp.org/pub/gimp/](http://download.gimp.org/pub/gimp/) but you should consider using one of the mirrors listed on the [download page](./).
 
 GIMP makes use of the Gimp Toolkit (GTK+) and other libraries that must be installed first. Look in Requirements above to find out more.
 

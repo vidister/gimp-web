@@ -120,14 +120,14 @@ I am only doing it this way to support a few legacy pages that will exist direct
 
 Those pages currently are:
 
-* [archive.html](//www.gimp.org/archive.html)  
+* [archive.html](http://www.gimp.org/archive.html)  
     An archive of news items that were on the front page.
     Likely deprecated for the "News" section now?
-* [index.html](//www.gimp.org/index.html)  
+* [index.html](http://www.gimp.org/index.html)  
     The main page (still).
-* [irc.html](//www.gimp.org/irc.html)
-* [mail_lists.html](//www.gimp.org/mail_lists.html)
-* [team.html](//www.gimp.org/team.html)
-* [template.html](//www.gimp.org/template.html)  
+* [irc.html](http://www.gimp.org/irc.html)
+* [mail_lists.html](http://www.gimp.org/mail_lists.html)
+* [team.html](http://www.gimp.org/team.html)
+* [template.html](http://www.gimp.org/template.html)  
     This seems to be a simple test page.
-* [webmasters.html](//www.gimp.org/webmasters.html)
+* [webmasters.html](http://www.gimp.org/webmasters.html)

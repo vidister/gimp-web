@@ -20,7 +20,7 @@ OpenUsability student projects are sponsored with $700 USD. The sponsorship will
 
 ## Project Opening: GIMP
 
-This project offers the opportunity to work as an Associate Interaction Architect, and to shape the user interface of the next generation of the GNU Image Manipulation Program (www.gimp.org).
+This project offers the opportunity to work as an Associate Interaction Architect, and to shape the user interface of the next generation of the GNU Image Manipulation Program (http://www.gimp.org).
 
 You will be working with Peter Sikking, principal interaction architect at M+MI Works ([www.mmiworks.net](http://www.mmiworks.net/)). Activities include methodically performing a full expert evaluation and analysis of the software, being fully involved in every decision, and performing the bulk of the project work. You will have a great opportunity to learn the ropes in interaction architecture in a project that matters.
 

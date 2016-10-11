@@ -11,7 +11,7 @@ This is an unstable development version of the **GNU Image Manipulation Program*
 
 ## What's New in GIMP 2.3
 
-Please see the [NEWS](https://git.gnome.org/browse/gimp/plain/NEWS?h=gimp-2-4&id=GIMP_2_3_0) file for a list of changes. [Screenshots](//developer.gimp.org/screenshots.html) of the development version can also be found there.
+Please see the [NEWS](https://git.gnome.org/browse/gimp/plain/NEWS?h=gimp-2-4&id=GIMP_2_3_0) file for a list of changes. [Screenshots](http://developer.gimp.org/screenshots.html) of the development version can also be found there.
 
 ## Download
 

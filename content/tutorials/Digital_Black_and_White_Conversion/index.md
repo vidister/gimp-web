@@ -13,7 +13,7 @@ Template: page_author
 
 ## Intention
 
-Black and White photography is a big topic that deserves entire books devoted to the subject. In this article we are going to explore some of the most common methods for converting a color digital image into monochrome in [GIMP](//www.gimp.org "GIMP Homepage").
+Black and White photography is a big topic that deserves entire books devoted to the subject. In this article we are going to explore some of the most common methods for converting a color digital image into monochrome in [GIMP](http://www.gimp.org "GIMP Homepage").
 
 There are a few things you should focus on in regards to preparing your images for a B&W conversion. You want to keep in mind that by removing color information you are effectively left with only tonal data (and composition) to convey your intentions.
 
@@ -124,7 +124,7 @@ One of these methods may work fine for you. Or, if you’re like me, it will mos
 
 ## Desaturate (GIMP)
 
-Perhaps the easiest and most straightforward path to a grayscale image is using the `Desaturate` command. It can be invoked from the [GIMP](//www.gimp.org "GIMP Homepage") menu:
+Perhaps the easiest and most straightforward path to a grayscale image is using the `Desaturate` command. It can be invoked from the [GIMP](http://www.gimp.org "GIMP Homepage") menu:
 
 <div class="MenuCmd"><span>Colors → Desaturate…</span></div>
 
