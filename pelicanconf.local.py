@@ -74,7 +74,7 @@ DEFAULT_PAGINATION = False
 READERS = {'html': None}
 
 # This will copy over these folders w/o modification
-STATIC_PATHS = ['images', 'js', 'pages', 'tutorials', 'about', 'books', 'develop', 'docs', 'donating', 'downloads', 'features', 'bugs', 'links', 'man', 'release-notes', 'screenshots', 'source', 'unix', 'robots.txt', 'COPYING', 'GNUGPLv2', 'GNUGPLv3', 'news']
+STATIC_PATHS = ['images', 'js', 'pages', 'tutorials', 'about', 'books', 'develop', 'docs', 'donating', 'downloads', 'features', 'bugs', 'links', 'man', 'release-notes', 'screenshots', 'source', 'unix', 'robots.txt', 'COPYING', 'GNUGPLv2', 'GNUGPLv3', 'news', 'contribute.json']
 
 # This sets which directories will be parsed as pages (vs. news/articles)
 # If a new directory is to be added under content/, make sure it gets added here.
