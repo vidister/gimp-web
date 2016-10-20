@@ -1,0 +1,34 @@
+{
+    "name": "GNU Image Manipulation Program",
+    "description": "GIMP is a cross-platform image editor available for GNU/Linux, OS X, Windows and more operating systems.",
+    "repository": {
+        "url": "https://git.gnome.org/browse/gimp/",
+        "license": "GPL-3.0+, LGPL-3.0+"
+    },
+    "bugs": {
+        "list": "https://bugzilla.gnome.org/page.cgi?id=browse.html&product=GIMP",
+        "report": "https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP"
+    },
+    "participate": {
+        "docs": "https://docs.gimp.org/",
+        "mailing-list": "https://mail.gnome.org/mailman/listinfo/gimp-developer-list",
+        "irc": "irc://irc.gimp.org/gimp",
+        "irc-contacts": [
+	    "Jehan",
+            "mitch",
+            "schumaml",
+        ]
+    },
+    "urls": {
+        "prod": "https://www.gimp.org/"
+    },
+    "keywords": [
+        "gimp",
+        "graphics",
+	"gnu",
+        "image",
+        "manipulation",
+	"program",
+	"editor",
+    ]
+}
