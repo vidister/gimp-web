@@ -16,7 +16,7 @@
         "irc-contacts": [
 	    "Jehan",
             "mitch",
-            "schumaml",
+            "schumaml"
         ]
     },
     "urls": {
@@ -29,6 +29,6 @@
         "image",
         "manipulation",
 	"program",
-	"editor",
+	"editor"
     ]
 }
