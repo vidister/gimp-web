@@ -112,6 +112,7 @@ If a new directory needs to be added, like `artists/`:
 
 
 ### File Formats
+#### Text files
 The files can be written using ReStructuredText, Markdown, or HTML.
 The latest information for using these formats can be found in the documentation:
 http://docs.getpelican.com/en/latest/content.html
@@ -120,6 +121,32 @@ The majority of the files here are likely Markdown, as it's what I (Pat David) u
 I wrote a brief cheatsheet of the Markdown format that can be found on the site here:
 `about/meta/markdown.html`
 
+#### SVG files
+The website is served with a strict Content Security Policy, and as a
+consequence, inline scripts and styles are ignored by compliant browsers.
+Normally according to the specification, SVG included via <img> should not apply
+the policy (https://www.w3.org/TR/CSP11/#which-policy-applies), but at least
+Firefox does not follow the spec properly right now and all SVG with inlined CSS
+end up dark.
+
+Here is the current process to add SVG images with Inkscape and keep the
+styling:
+
+1. keep the original as `some-file-name.src.svg`;
+2. from Inkscape, export it as "Optimized SVG" as `some-file-name.svg`; make
+sure that "Convert CSS attributes to XML attributes" option is checked;
+3. edit `some-file-name.svg` with a text editor and run a search and replace to
+clean the remaining style attributes: %s/style="[^"]*"//g
+4. use only the optimized SVG in the website.
+
+Further edits on the images should happen on the source file only, which should
+then be re-exported with the above process.
+
+Note: for complicated SVG images, it is possible that some features can only
+work with CSS rules though this won't be the likely case for most simple images.
+For such cases, there is no perfect solution at the time of writing (except
+moving the CSS of every SVG images out as an external file, or setting our web
+server to serve SVG images with `style-src 'unsafe-inline'`).
 
 ### Writing a News post
 To write a News post, simply include your new post in the `news/` directory.
