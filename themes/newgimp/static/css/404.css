@@ -1,0 +1,36 @@
+img#animation-404 {
+    background-size: contain;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@keyframes animation-404-text {
+    0% {opacity: 0;}
+    90% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#animation-404-text-left,
+#animation-404-text-right {
+    position: absolute;
+    text-align: center;
+    width: 50%;
+
+    animation-name: animation-404-text;
+    animation-duration: 10s;
+}
+
+#animation-404-text-left {
+    left: 0;
+    top: 100px;
+}
+#animation-404-text-right {
+    right: 0;
+    top: 150px;
+}
