@@ -6335,8 +6335,7 @@
            rx="3.0865259"
            ry="2.9049964"
            id="oh-mouth"
-           visibility="hidden"
-           style="display:inline;visibility:hidden;opacity:1;fill:url(#linearGradient7247);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.66469109;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           style="display:inline;opacity:1;fill:url(#linearGradient7247);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.66469109;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            inkscape:label="#path5376-5" />
         <g
            id="smiling-mouth"
@@ -11967,24 +11966,30 @@
      calcMode="discrete"
      from="0"
      to="0 3" />
-  <animate
+  <animateTransform
      xlink:href="#left-leg"
+     additive="sum"
+     type="translate"
+     attributeName="transform"
      attributeType="XML"
-     attributeName="visibility"
      dur="0.5s"
      begin="3.6s"
      calcMode="discrete"
      fill="freeze"
-     values="hidden" />
-  <animate
+     keyTimes="0;1"
+     values="-1000;0" />
+  <animateTransform
      xlink:href="#right-leg"
+     additive="sum"
+     type="translate"
+     attributeName="transform"
      attributeType="XML"
-     attributeName="visibility"
      dur="0.5s"
      begin="3.6s"
      calcMode="discrete"
      fill="freeze"
-     values="hidden" />
+     keyTimes="0;1"
+     values="-1000;0" />
   <animateTransform
      xlink:href="#ready-to-jump-legs"
      type="translate"
@@ -12034,16 +12039,18 @@
      fill="freeze"
      keyTimes="0;1"
      values="-1000;0" />
-  <animate
+  <animateTransform
      xlink:href="#Wilber-jumping-legs"
-     attributeName="opacity"
-     attributeType="CSS"
+     additive="sum"
+     type="translate"
+     attributeName="transform"
+     attributeType="XML"
      dur="4.7s"
      begin="0s"
      calcMode="discrete"
      fill="freeze"
      keyTimes="0;0.948;1"
-     values="0;1;0" />
+     values="-1000;0;-1000" />
   <animateTransform
      xlink:href="#handle-in-Wilber-hand"
      type="translate"
@@ -12069,45 +12076,54 @@
      calcMode="discrete"
      keyTimes="0;0.1"
      values="0 757 -85;10 757 -85" />
-  <animate
+  <animateTransform
      xlink:href="#smiling-mouth"
+     type="translate"
+     additive="sum"
+     attributeName="transform"
      attributeType="XML"
-     attributeName="visibility"
      dur="3s"
      begin="4.7s"
      calcMode="discrete"
      fill="freeze"
      keyTimes="0;0.1"
-     values="visible;hidden" />
-  <animate
+     values="0;-1000" />
+  <animateTransform
      xlink:href="#oh-mouth"
+     type="translate"
+     additive="sum"
+     attributeName="transform"
      attributeType="XML"
-     attributeName="visibility"
-     dur="3s"
-     begin="4.7s"
+     dur="7.7s"
+     begin="0s"
      calcMode="discrete"
-     fill="remove"
-     keyTimes="0;0.1"
-     values="hidden;visible" />
-  <animate
+     fill="freeze"
+     keyTimes="0;0.62;1"
+     values="-5000;0;-5000" />
+  <animateTransform
      xlink:href="#line"
+     type="translate"
+     additive="sum"
+     attributeName="transform"
      attributeType="XML"
-     attributeName="visibility"
-     dur="3s"
+     dur="3.8s"
      begin="4.7s"
      calcMode="discrete"
      fill="freeze"
-     values="hidden" />
-  <animate
+     keyTimes="0;1"
+     values="-5000;0" />
+  <animateTransform
      xlink:href="#pulled-line-1"
-     attributeName="opacity"
-     attributeType="CSS"
+     type="translate"
+     additive="sum"
+     attributeName="transform"
+     attributeType="XML"
      dur="7.7s"
      begin="0s"
      calcMode="discrete"
      fill="freeze"
      keyTimes="0;0.61;1"
-     values="0;1;0" />
+     values="-5000;0;-5000" />
   <!-- Getting second arm on handle. -->
   <animateTransform
      xlink:href="#left-arm"
@@ -12153,26 +12169,30 @@
      calcMode="discrete"
      keyTimes="0;0.4;0.55;0.7;0.85;1"
      values="0;0 3;0 -3;0 3;0 -3;0 3" />
-  <animate
+  <animateTransform
      xlink:href="#left-leg"
+     type="translate"
+     additive="sum"
+     attributeName="transform"
      attributeType="XML"
-     attributeName="visibility"
      dur="3s"
      begin="4.7s"
      calcMode="discrete"
      fill="freeze"
      keyTimes="0;0.4;0.55;0.7;0.85;1"
-     values="visible;hidden;visible;hidden;visible;hidden" />
-  <animate
+     values="0;-1000;0;-1000;0;-1000" />
+  <animateTransform
      xlink:href="#right-leg"
+     type="translate"
+     additive="sum"
+     attributeName="transform"
      attributeType="XML"
-     attributeName="visibility"
      dur="3s"
      begin="4.7s"
      calcMode="discrete"
      fill="freeze"
      keyTimes="0;0.4;0.55;0.7;0.85;1"
-     values="visible;hidden;visible;hidden;visible;hidden" />
+     values="0;-1000;0;-1000;0;-1000" />
   <animateTransform
      xlink:href="#ready-to-jump-legs"
      type="translate"
@@ -12246,14 +12266,17 @@
      calcMode="discrete"
      keyTimes="0;0.28;0.57;1"
      values="0 15;0 20.5;0 -10;0 -60" />
-  <animate
+  <animateTransform
      xlink:href="#Wilber"
+     type="translate"
+     additive="sum"
+     attributeName="transform"
      attributeType="XML"
-     attributeName="visibility"
      dur="3s"
      begin="7.8s"
      calcMode="discrete"
-     values="hidden"
+     keyTimes="0"
+     values="-1000"
      fill="freeze" />
   <animateTransform
      xlink:href="#Wilber-pull-2"
