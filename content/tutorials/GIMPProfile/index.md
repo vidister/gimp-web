@@ -54,7 +54,7 @@ Here are two tricks to find it (they both assume that GIMP can run):
 ##### Trick #2
 
 * Open Filters/Python-fu/Console
-* Enter this: `print gimp.directory` and srtoke [Enter]
+* Enter this: `print gimp.directory` and strike [Enter]
 
 ### When to use the GIMP profile
 
