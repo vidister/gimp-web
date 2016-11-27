@@ -9,7 +9,7 @@ GIMP comes with a built-in help system. Once you have started the program, press
 
 The user manual for the GIMP 2.8 release is available in 17 languages:
 
-*   [Catalá](http://docs.gimp.org/2.8/ca)
+*   [Català](http://docs.gimp.org/2.8/ca)
 *   [中文 (Chinese Simplified)](http://docs.gimp.org/2.8/zh_CN)
 *   [Dansk](http://docs.gimp.org/2.8/da)
 *   [Deutsch](http://docs.gimp.org/2.8/de/)
