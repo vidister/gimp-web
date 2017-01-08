@@ -1,0 +1,4 @@
+#
+# 301 for the old macintosh page
+#
+Redirect 301 /macintosh/index.html https://www.gimp.org/downloads/
