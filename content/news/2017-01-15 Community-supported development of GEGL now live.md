@@ -9,6 +9,10 @@ Almost every new major feature people have been asking us for, be it high bit de
 
 Øyvind Kolås picked up [GEGL](http://gegl.org/) in mid-2000s and has been working on it in his spare time ever since. He is the author of 42% of commits in GEGL and 50% of commits in [babl](http://gegl.org/babl/) (pixel data conversion library).
 
+<div class='fluid-video'>
+<iframe width="979" height="551" src="https://www.youtube.com/embed/GJJPgLGrSgc?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Thanks to his work, we shall be shipping GIMP 2.10 with 16/32-bit per color channel precision, linear pixel data workflow, and filters that have an on-canvas preview.
 
 But we always need more from both GEGL and babl:
