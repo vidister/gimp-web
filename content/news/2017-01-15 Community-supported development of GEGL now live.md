@@ -1,5 +1,5 @@
 Title: Community-supported development of GEGL now live
-Date: 2017-01-15
+Date: 2017-01-16
 Category: News
 Authors: Alexandre Prokoudine
 Slug: pippin-patreon-fundraising-started
