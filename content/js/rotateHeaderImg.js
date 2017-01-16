@@ -103,3 +103,13 @@ if( typeof( image.license ) !== undefined ){
             break;
     }
 }
+
+//
+// Pre-Cache all the header images now
+// This will allow subsequent visits to the page to
+// call the browser-cached version of these
+//
+for( var i = 0; i < imglist.length; i++ ){
+    var img = new Image();
+    img.src = imglist[i].file;    
+}
