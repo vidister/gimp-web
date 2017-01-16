@@ -49,26 +49,29 @@ var image = imglist[ Math.floor( Math.random() * (imglist.length) )  ];
 
 var himage = new Image();
 
-himage.onload = function() {
-    // Loading the style as a node into the dom
-    // on the head element (CSP might bork if we do it to the 
-    // element directly as inline (even after load?)
-    // .. CSP _does_ bork, seeing this as an inline style, which is blocked.
+//himage.onload = function() {
+//    // Loading the style as a node into the dom
+//    // on the head element (CSP might bork if we do it to the 
+//    // element directly as inline (even after load?)
+//    // .. CSP _does_ bork, seeing this as an inline style, which is blocked.
+//
+//    //var css = "#banner {"
+//    //css += "background-image: linear-gradient(rgba(44,52,80,0.5), rgba(44,62,80,0.5)), url('"+ image.file +"') !important;";
+//    //css += "background-size: cover;";
+//    //css += "background-position: 0;";
+//    //css += "}";
+//    //var style = document.createElement('style');
+//    //style.type = 'text/css';
+//    //style.appendChild( document.createTextNode( css ) );
+//    //document.head.appendChild( style );
+//    var tmpstyle = "linear-gradient(rgba(44,52,80,0.5), rgba(44,62,80,0.5)), url('"+ image.file +"')";
+//    imgBanner.style.backgroundImage = tmpstyle;
+//}
+//
+////himage.src = image.file;
 
-    //var css = "#banner {"
-    //css += "background-image: linear-gradient(rgba(44,52,80,0.5), rgba(44,62,80,0.5)), url('"+ image.file +"') !important;";
-    //css += "background-size: cover;";
-    //css += "background-position: 0;";
-    //css += "}";
-    //var style = document.createElement('style');
-    //style.type = 'text/css';
-    //style.appendChild( document.createTextNode( css ) );
-    //document.head.appendChild( style );
-    var tmpstyle = "linear-gradient(rgba(44,52,80,0.5), rgba(44,62,80,0.5)), url('"+ image.file +"')";
-    imgBanner.style.backgroundImage = tmpstyle;
-}
-
-himage.src = image.file;
+var tmpstyle = "linear-gradient(rgba(44,52,80,0.5), rgba(44,62,80,0.5)), url('"+ image.file +"')";
+imgBanner.style.backgroundImage = tmpstyle;
 
 if( typeof( image.title ) !== undefined ){
     title.innerText = image.title;
