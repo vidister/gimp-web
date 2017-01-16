@@ -64,8 +64,8 @@ himage.onload = function() {
     //style.type = 'text/css';
     //style.appendChild( document.createTextNode( css ) );
     //document.head.appendChild( style );
-    var style = "linear-gradient(rgba(44,52,80,0.5), rgba(44,62,80,0.5)), url('"+ image.file +"')";
-    imgBanner.style.backgroundImage = style;
+    var tmpstyle = "linear-gradient(rgba(44,52,80,0.5), rgba(44,62,80,0.5)), url('"+ image.file +"')";
+    imgBanner.style.backgroundImage = tmpstyle;
 }
 
 himage.src = image.file;
