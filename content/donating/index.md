@@ -9,7 +9,7 @@ While we don't raise funds to sponsor development of GIMP as an organization at 
 
 Øyvind Kolås uses Patreon to [raise funds](https://www.patreon.com/pippin) for his work on [GEGL](http://gegl.org/), GIMP's new sophisticated image processing core. This work is crucial to implement features such as non-destructive editing in GIMP, including features known as adjustment layers and layer effects in similar software. Øyvind is the primary developer of GEGL who has been working on it since mid-2000s.
 
-Jehan Pagès runs another [Patreon-hosted campaign](https://www.patreon.com/zemarmot) to raise funds for a GIMP-powered animated movie. Part of the funds is spent on development of [advanced animation features in GIMP](https://girinstud.io/news/2016/12/zemarmot-end-of-year-report/). Jehan is one of the most active contributors to GIMP in recent years who fixed countless bugs.
+Jehan Pagès runs another [Patreon-hosted campaign](https://www.patreon.com/zemarmot) to raise funds for a GIMP-powered animated movie, ZeMarmot. Part of the funds is spent on development of [advanced animation features in GIMP](https://girinstud.io/news/2016/12/zemarmot-end-of-year-report/). Jehan is one of the most active contributors to GIMP in recent years who has fixed countless bugs.
 
 ## Donate to The Project
 
@@ -19,7 +19,7 @@ You can choose from several options to support GIMP financially:
 
 [TOC]
 
-Financial help is needed for many different reasons. The annual [Libre Graphics Meeting][lgm] is one things that the money will go to. It helps us to get as many [GIMP Developers](http://wiki.gimp.org/) to the conference as possible, so that we could do face-to-face team meetings, plan further development, fix bugs, and write new features.
+Financial help is needed for many different reasons. The annual [Libre Graphics Meeting][lgm] is one of the things that the money will go to. It helps us to get as many [GIMP Developers](http://wiki.gimp.org/) to the conference as possible, so that we can do face-to-face team meetings, plan further development, fix bugs, and write new features.
 
 If applicable, please specify whether you want to remain anonymous. While we usually don't publish the names of donors, this may be considered for exceptional donations.  
 
