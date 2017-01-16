@@ -53,15 +53,19 @@ himage.onload = function() {
     // Loading the style as a node into the dom
     // on the head element (CSP might bork if we do it to the 
     // element directly as inline (even after load?)
-    var css = "#banner {"
-    css += "background-image: linear-gradient(rgba(44,52,80,0.5), rgba(44,62,80,0.5)), url('"+ image.file +"') !important;";
-    css += "background-size: cover;";
-    css += "background-position: 0;";
-    css += "}";
-    var style = document.createElement('style');
-    style.type = 'text/css';
-    style.appendChild( document.createTextNode( css ) );
-    document.head.appendChild( style );
+    // .. CSP _does_ bork, seeing this as an inline style, which is blocked.
+
+    //var css = "#banner {"
+    //css += "background-image: linear-gradient(rgba(44,52,80,0.5), rgba(44,62,80,0.5)), url('"+ image.file +"') !important;";
+    //css += "background-size: cover;";
+    //css += "background-position: 0;";
+    //css += "}";
+    //var style = document.createElement('style');
+    //style.type = 'text/css';
+    //style.appendChild( document.createTextNode( css ) );
+    //document.head.appendChild( style );
+    var style = "linear-gradient(rgba(44,52,80,0.5), rgba(44,62,80,0.5)), url('"+ image.file +"')";
+    imgBanner.style.backgroundImage = style;
 }
 
 himage.src = image.file;
