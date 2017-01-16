@@ -15,7 +15,7 @@ p {
 #banner {
     min-height: 350px;
     background-image: linear-gradient(rgba(44,52,80,0.5), rgba(44,62,80,0.5));
-    /*background-image: linear-gradient(rgba(44,52,80,0.5), rgba(44,62,80,0.5)), url('/theme/images/Niagara_Rainbow.jpg'); */
+    /* background-image: linear-gradient(rgba(44,52,80,0.5), rgba(44,62,80,0.5)), url('/theme/images/Niagara_Rainbow.jpg'); */
     background-position: 0;
     background-size: cover;
     transition: opacity 0.5s ease;

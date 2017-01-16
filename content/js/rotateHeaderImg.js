@@ -54,11 +54,10 @@ himage.onload = function() {
     // on the head element (CSP might bork if we do it to the 
     // element directly as inline (even after load?)
     var css = "#banner {"
-    css += "background-image: linear-gradient(rgba(44,52,80,0.5), rgba(44,62,80,0.5)), url('"+ image.file +"');";
+    css += "background-image: linear-gradient(rgba(44,52,80,0.5), rgba(44,62,80,0.5)), url('"+ image.file +"') !important;";
     css += "background-size: cover;";
     css += "background-position: 0;";
     css += "}";
-
     var style = document.createElement('style');
     style.type = 'text/css';
     style.appendChild( document.createTextNode( css ) );
