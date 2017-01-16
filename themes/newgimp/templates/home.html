@@ -244,8 +244,11 @@
         <div class="container">
             <div class="row clearfix">
                 <div class="column half">
-                    <p>
-                        <em>Header</em> background image: <a href="https://www.flickr.com/photos/shadowdrama/20786243805/in/dateposted/" title='Niagara Rainbow'>Niagara Rainbow</a> by <a href="http://shadowdrama.net/">Ville Pätsi</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/" title="Creative Commons Attribution-ShareAlike"><span class='cc'>cba</span></a>)
+                    <p id='headerImgAttr'>
+                        <em>Header</em> image: <a class='headerTitle' href="https://www.flickr.com/photos/shadowdrama/20786243805/in/dateposted/" title='Niagara Rainbow'>Niagara Rainbow</a> 
+                        by 
+                        <a class='headerAuthor' href="http://shadowdrama.net/">Ville Pätsi</a> 
+                        (<a class='headerLicense' href="https://creativecommons.org/licenses/by-sa/4.0/" title="Creative Commons Attribution-ShareAlike"><span class='cc'>cba</span></a>)
                     </p>
 
                     <p>
@@ -271,5 +274,11 @@
         
     </section>
 
+    <noscript>
+    <link rel='stylesheet' type='text/css' href="/theme/css/home-header.css" />
+    </noscript>
+
+    <!-- <script async src='/images/headers.json'></script> -->
+    <script async src='/js/rotateHeaderImg.js'></script>
 
 {% endblock content %}
