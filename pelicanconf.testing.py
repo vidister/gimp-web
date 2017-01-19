@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 #Plugins
 PLUGIN_PATHS = ["plugins"]
 #PLUGINS = ["page_hierarchy_gimp"]
-PLUGINS = ["mimic_hierarchy", "i18n_subsites", "sitemap", "gimp_mirrors", "tipue_search"]
+PLUGINS = ["mimic_hierarchy", "i18n_subsites", "sitemap", "gimp_mirrors", "tipue_search", "random_header"]
 
 # sitemap plugin settings
 SITEMAP = {
@@ -156,3 +156,19 @@ if 'STABLE' in GIMP:
 else:
     print 'STABLE not defined'
 
+
+#
+# Random Header Background Image
+# 
+# This is to get the possible header images
+# and choose one randomly to display.
+#
+# Templates will use HEADER_IMG data to parse image information.  
+# Refer to the random_header plugin for actually putting the image
+# in the correct stylesheet.
+#
+from random import randint
+with open('header-images.json') as data:
+    IMG_LIST = json.load(data)
+
+HEADER_IMG = IMG_LIST[ randint(0, len(IMG_LIST) - 1) ]
