@@ -244,12 +244,14 @@
         <div class="container">
             <div class="row clearfix">
                 <div class="column half">
+                    {% if HEADER_IMG %}
                     <p id='headerImgAttr'>
-                        <em>Header</em> image: <a class='headerTitle' href="https://www.flickr.com/photos/shadowdrama/20786243805/in/dateposted/" title='Niagara Rainbow'>Niagara Rainbow</a> 
+                        <em>Header</em> image: <a class='headerTitle' href="{{ HEADER_IMG.sourceURL }}" title='{{ HEADER_IMG.title }}'>{{ HEADER_IMG.title }}</a> 
                         by 
-                        <a class='headerAuthor' href="http://shadowdrama.net/">Ville Pätsi</a> 
+                        <a class='headerAuthor' href="{{ HEADER_IMG.authorURL }}">{{ HEADER_IMG.author }}</a> 
                         (<a class='headerLicense' href="https://creativecommons.org/licenses/by-sa/4.0/" title="Creative Commons Attribution-ShareAlike"><span class='cc'>cba</span></a>)
                     </p>
+                    {% endif %}
 
                     <p>
                         <em>High Quality Photo Manipulation</em> background image by <a href="https://pixls.us">Pat David</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/" title="Creative Commons Attribution-ShareAlike"><span class='cc'>cba</span></a>)
@@ -273,12 +275,5 @@
         
         
     </section>
-
-    <noscript>
-    <link rel='stylesheet' type='text/css' href="/theme/css/home-header.css" />
-    </noscript>
-
-    <!-- <script async src='/images/headers.json'></script> -->
-    <script async src='/js/rotateHeaderImg.js'></script>
 
 {% endblock content %}
