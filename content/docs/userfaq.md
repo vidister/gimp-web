@@ -89,9 +89,7 @@ bug is knowingly affecting a lot of users; 2) the amount of improvements and
 bug fixes is large enough to justify an update&nbsp;&mdash; typically, a few 
 dozens of each, but there is no rule.
 
-Currently we have no released unstable/development versions. We'd like to 
-release GIMP 2.9.0 as the first step towards GIMP 2.10 sometime in 2015, but 
-quite a few changes have to be made first.
+Currently we are cleaning up GIMP code for v2.10 release some time in 2017.
 
 ### Why can't you announce dates of future releases?
 
@@ -106,10 +104,13 @@ requests made by users.
 ### Aren't you interested in doing paid development of GIMP via crowdfunding?
 
 We already have jobs we love. However we actively encourage personal
-fundraisers by trusted contributors. If you are willing to launch a campaign
-and develop some features for GIMP, talk to us about changes you are about to
-propose. We'll help you to flesh out your idea and promote it to a larger
-community.
+fundraisers by trusted contributors. There are two such campaigns running at 
+the moment. You can learn more about them on the 
+[Donate](https://www.gimp.org/donating/) page.
+
+If you are willing to launch a campaign and develop some features for GIMP, 
+talk to us about changes you are about to propose. We'll help you to flesh 
+out your idea and promote it to a larger community.
 
 ## Features
 
@@ -131,7 +132,10 @@ Currently you need to install [UFRaw](http://ufraw.sourceforge.net/) to open
 raw files. It's both a standalone application and a GIMP plug-in for opening 
 and processing raw images.
 
-Upcoming GIMP 2.10 is featuring a plug-in for using [darktable](http://www.darktable.org/) to process raw images on Linux. Additionally, users will be able to set a preferred raw processing application, when multiple GIMP plug-ins of that kind are available.
+Upcoming GIMP 2.10 is featuring a plug-in for using 
+[darktable](http://www.darktable.org/) to process raw images on Linux. 
+Additionally, users will be able to set a preferred raw processing application, 
+when multiple GIMP plug-ins of that kind are available.
 
 ### I do a lot of desktop publishing related work. Will you ever support CMYK?
 
@@ -178,11 +182,19 @@ they aren't maintained up to date with regards to bugfixes.
 
 ### Why doesn't GIMP use GTK+3?
 
-We made a preliminary port of GIMP to GTK+3 a few years ago and intend to complete it once v2.10 is out. GTK+3 based GIMP will be eventually released as v3.0 (see the [roadmap](http://wiki.gimp.org/wiki/Roadmap) for reference).
+We made a preliminary port of GIMP to GTK+3 a few years ago and intend to 
+complete it once v2.10 is out. GTK+3 based GIMP will be eventually released 
+as v3.0 (see the [roadmap](http://wiki.gimp.org/wiki/Roadmap) for reference).
 
-The reason we prioritize it that way is that users who don't make a heavy use of Wacom tablets on Windows can live with GTK+2 based GIMP another year or so. However not providing high bit depth precision for editing makes GIMP unusable in professional workflows involving color grading and retouching.
+The reason we prioritize it that way is that users who don't make a heavy 
+use of Wacom tablets on Windows can live with GTK+2 based GIMP another year 
+or so. However not providing high bit depth precision for editing makes GIMP 
+unusable in professional workflows involving color grading and retouching.
 
-When completing the GTK+3 port, we will have to break API/ABI compatibility to make GIMP's custom widgets work with GTK+3. Moreover, we need to break a few more things to make GIMP's architecture cleaner and prepare it for non-destructive editing (a feature currently planned for v3.2).
+When completing the GTK+3 port, we will have to break API/ABI compatibility 
+to make GIMP's custom widgets work with GTK+3. Moreover, we need to break a 
+few more things to make GIMP's architecture cleaner and prepare it for 
+non-destructive editing (a feature currently planned for v3.2).
 
 ## Tips
 
