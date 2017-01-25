@@ -104,7 +104,7 @@ INDEX_SAVE_AS = "/news/index.html"
 TYPOGRIFY = True
 TYPOGRIFY_IGNORE_TAGS = ['title']
 
-DELETE_OUTPUT_DIRECTORY = True
+#DELETE_OUTPUT_DIRECTORY = True
 
 MD_EXTENSIONS = ['fenced_code', 'codehilite(css_class=codehilite)', 'extra', 'headerid', 'toc(permalink=True)']
 
@@ -121,6 +121,19 @@ PAGES_DEBUG = False
 # When publishing, set to False
 RELATIVE_URLS = True
 
+
+#
+# Caching build for faster regeneration
+#
+
+LOAD_CONTENT_CACHE = True
+CHECK_MODIFIED_METHOD = 'mtime'
+CACHE_CONTENT = True
+
+
+###########################################################
+# Functions below for pushing data to the build system
+###########################################################
 
 #
 # Parse the GIMP_VERSIONS json file for use around the site
