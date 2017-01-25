@@ -15,7 +15,7 @@ A common question from new users is how to install these assets, so we are going
 ## Finding Asset Folders
 
 GIMP searches for these assets in locations specified in the _Preferences_ dialog.
-To open it go to:
+To open it, go to:
 
 <div class="MenuCmd"><span>Edit → Preferences</span></div>
 
@@ -25,7 +25,7 @@ Which will open the GIMP preferences dialog:
 <img src='{filename}GIMP-Preferences.png' alt='GIMP Preferences Dialog'>
 </figure>
 
-Expanding the **Folders** in the left pane of the dialog will expose the various asset folder locations:
+Expanding the **Folders** (click the "+") in the left pane of the dialog will expose the various asset folder locations:
 
 <figure>
 <img src='{filename}GIMP-Preferences-Folders.png' alt='GIMP Preferences Folders Dialog'>
