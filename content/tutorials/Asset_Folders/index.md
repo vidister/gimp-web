@@ -8,7 +8,7 @@ Summary: A quick look at some easy features.
 ## So You Want to Install Some Assets?
 
 GIMP allows users to include various types of assets to extend its functionality.
-These assets include common items such as brushes, patterns, palettes, fonts, Plug-Ins, and Scripts.
+These include common items such as brushes, patterns, palettes, fonts, Plug-Ins, and Scripts.
 A common question from new users is how to install these assets, so we are going to look at that here!
 
 
