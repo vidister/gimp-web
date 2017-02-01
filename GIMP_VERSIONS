@@ -1,6 +1,12 @@
 {
     "STABLE":  {
 
+    	"2.8.20": {
+            "source": { 
+                "gimp-2.8.20.tar.bz2": "d405640c426b234d6efc36fb4f5bae57"
+                },
+	    },
+
         "2.8.18": {
             "source": { 
                 "gimp-2.8.18.tar.bz2": "5adaa11a68bc8a42bb2c778fee4d389c"
