@@ -85,6 +85,11 @@ It will work regardless of OS and should be the default method for finding these
 
 TIP: If possible, consider using a separate folder to store your own assets in, and then linking to it from these dialogs.
 
+[Libre Graphics World][lgw] has a more in-depth article on this topic that includes looking at installing many other assets as well.  You can read it here:
+
+* [GIMP add-ons: types, installation, management | Libre Graphics World](http://libregraphicsworld.org/blog/entry/gimp-add-ons-types-installation-management)
+
+[lgw]: http://libregraphicsworld.org/
 
 ---
 
