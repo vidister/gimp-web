@@ -33,7 +33,7 @@ AUTHOR = u'Pat David'
 SITENAME = u'GIMP'
 SITEURL = 'https://testing.gimp.org'
 SITEMAP_SITEURL = 'https://testing.gimp.org'
-#GIMP_VERSION = u'2.8.18'
+#GIMP_VERSION = u'2.8.20'
 
 PATH = 'content'
 
