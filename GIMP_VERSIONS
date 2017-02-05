@@ -4,6 +4,9 @@
     	"2.8.20": {
             "source": { 
                 "gimp-2.8.20.tar.bz2": "d405640c426b234d6efc36fb4f5bae57"
+                },
+            "macos": {
+		"gimp-2.8.20-x86_64.dmg": "ba69e3b399c6903180265d60ed2c49b2"
                 }
 	    },
 
