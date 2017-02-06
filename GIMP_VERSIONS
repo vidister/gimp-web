@@ -7,6 +7,9 @@
                 },
             "macos": {
 		"gimp-2.8.20-x86_64.dmg": "ba69e3b399c6903180265d60ed2c49b2"
+                },
+            "windows": {
+                "gimp-2.8.20-setup.exe": "df90eaa5ababdbc4f2e7e0432ba36fe7"
                 }
 	    },
 
