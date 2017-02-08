@@ -112,13 +112,29 @@ If you are willing to launch a campaign and develop some features for GIMP,
 talk to us about changes you are about to propose. We'll help you to flesh 
 out your idea and promote it to a larger community.
 
+### Will you release GIMP for Android or iOS devices?
+
+Apps for mobile devices imply a different approach to designing interfaces.
+Since most of GIMP's source code is related to the user interface one way or
+another, it means that we would have to design and then develop a whole new
+application. Given the current manpower, we'd rather focus on delivering a
+great image manipulation program for desktop users.
+
+However, we are interested to consult 3rd party developers willing to make a
+free/libre GIMP-branded image manipulation program for Android. As for iOS, 
+please note that GIMP is licensed under GNU GPL v3+ which conflicts with
+Apple's Terms of Service. For a full story, please read 
+[this article](https://www.engadget.com/2011/01/09/the-gpl-the-app-store-and-you/) 
+by Richard Gaywood.
+
 ## Features
 
 ### When will GIMP support HDR imaging and processing with 16bit per color channel precision?
 
 GIMP 2.10 will be the first version to feature processing with precision of
-16, 32, and 64bit per color channel. This version is currently in the works,
-and this particular feature has already been implemented.
+16-bit and 32-bit per color channel. This version is currently in the works,
+and this particular feature has already been implemented and avialable in
+v2.9.2 and newer releases.
 
 ### When will GIMP support any kind of non-destructive editing like adjustment layers, layer filters, and/or full-blown node-based editing?
 
@@ -134,8 +150,8 @@ and processing raw images.
 
 Upcoming GIMP 2.10 is featuring a plug-in for using 
 [darktable](http://www.darktable.org/) to process raw images on Linux. 
-Additionally, users will be able to set a preferred raw processing application, 
-when multiple GIMP plug-ins of that kind are available.
+Additionally, the plan is to make preferred raw processing application
+configurable for cases, when multiple GIMP plug-ins of that kind are available.
 
 ### I do a lot of desktop publishing related work. Will you ever support CMYK?
 
@@ -220,7 +236,7 @@ Edit->Stroke Path... instead of Stroke Selection...
 
 ## Troubleshooting
 
-### My graphic tablet doesn't work on  Windows/Mac. Does GIMP support advanced input devices such as Wacom?
+### My graphic tablet doesn't work on Windows/Mac. Does GIMP support advanced input devices such as Wacom?
 
 Yes, GIMP does support graphic tablets and maps pressure, stroke speed and
 other events to its advanced brush engine properties. However, the version of
