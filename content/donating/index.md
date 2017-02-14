@@ -61,19 +61,6 @@ Bitcoin (BTC) is an online digital currency that is based on an open-source, pee
 
 Bitcoin address: [1NVMCeoBfTAJQ1qwX2Dx1C8zkcRCQWwHBq](bitcoin:1NVMCeoBfTAJQ1qwX2Dx1C8zkcRCQWwHBq?label=GIMP%20Donation)
 
-### Wire Transfer
-
-Transfer the money to:
-
-Account Name: GNOME Foundation  
- Bank Name: Citibank  
- Bank Address: 21 Orinda Way Ste C  
- ABA: 321171184  
- Account: 205317639  
- SWIFT: CITIUS33  
-
-And send an e-mail to fundraising@gnome.org with the transfer date and amounts, for tracking purposes. If available, please add a "For GIMP" note to your transfer.
-
 ### Cheque
 
 Cheque, made payable to the [GNOME Foundation](http://www.gnome.org/), and sent to:
