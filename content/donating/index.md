@@ -21,7 +21,7 @@ You can choose from several options to support GIMP financially:
 
 Financial help is needed for many different reasons. The annual [Libre Graphics Meeting][lgm] is one of the things that the money will go to. It helps us to get as many [GIMP Developers](http://wiki.gimp.org/) to the conference as possible, so that we can do face-to-face team meetings, plan further development, fix bugs, and write new features.
 
-If applicable, please specify whether you want to remain anonymous. While we usually don't publish the names of donors, this may be considered for exceptional donations.  
+If applicable, please specify whether you want to remain anonymous. While we usually don't publish the names of donors, this may be considered for exceptional donations.
 
 Many thanks to all our [sponsors](sponsors.html)!
 
@@ -45,7 +45,7 @@ Many thanks to all our [sponsors](sponsors.html)!
 <iframe frameborder="0" height="420" src="//tools.flattr.net/widgets/thing.html?thing=707850" width="292"></iframe>
 </p>
 
-<a class="FlattrButton" 
+<a class="FlattrButton"
 title="Click to Flattr GIMP"
 data-flattr-uid="schumaml"
 data-flattr-popout="1"
@@ -61,29 +61,16 @@ Bitcoin (BTC) is an online digital currency that is based on an open-source, pee
 
 Bitcoin address: [1NVMCeoBfTAJQ1qwX2Dx1C8zkcRCQWwHBq](bitcoin:1NVMCeoBfTAJQ1qwX2Dx1C8zkcRCQWwHBq?label=GIMP%20Donation)
 
-### Wire Transfer
-
-Transfer the money to:
-
-Account Name: GNOME Foundation  
- Bank Name: Citibank  
- Bank Address: 21 Orinda Way Ste C  
- ABA: 321171184  
- Account: 205317639  
- SWIFT: CITIUS33  
-
-And send an e-mail to fundraising@gnome.org with the transfer date and amounts, for tracking purposes. If available, please add a "For GIMP" note to your transfer.
-
 ### Cheque
 
 Cheque, made payable to the [GNOME Foundation](http://www.gnome.org/), and sent to:
 
-GNOME Foundation  
- #117  
- 21 Orinda Way Ste. C  
- Orinda, CA 94563  
- USA  
+GNOME Foundation
+ #117
+ 21 Orinda Way Ste. C
+ Orinda, CA 94563
+ USA
 
 with a cover-letter (or a note in the "memo" field) saying it is for the GIMP project.
 
-[lgm]: http://libregraphicsmeeting.org/ 
+[lgm]: http://libregraphicsmeeting.org/
