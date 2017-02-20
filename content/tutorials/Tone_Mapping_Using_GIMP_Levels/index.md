@@ -5,12 +5,6 @@ Author: Elle Stone
 Template: page_author
 canonical: http://ninedegreesbelow.com/photography/gimp-tone-map-with-levels.html
 
-<small>
-<a href='http://creativecommons.org/licenses/by-sa/3.0/'>
-<img class='cc-badge' src='/images/creativecommons/by-sa 80x15.png' alt='Creative Commons By Share Alike'/>
-</a>
-<span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - Tone Mapping Using GIMP Levels (text & images)</span> by [Elle Stone](http://ninedegreesbelow.com/) is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
-</small>
 
 <link rel='stylesheet' type='text/css' href='index.css'>
 

@@ -5,12 +5,6 @@ Author: Pat David
 Template: page_author
 
 
-<small>
-<a href='http://creativecommons.org/licenses/by-sa/3.0/deed.en_US'>
-<img class='cc-badge' src='/images/creativecommons/by-sa 80x15.png' alt='Creative Commons By Share Alike'/>
-</a>
-<span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - Layer Masks (text & images)</span> by [Pat David](http://blog.patdavid.net) is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US).
-</small>
 
 ## Intention
 
@@ -199,9 +193,11 @@ Simple Selective Colorization Example (painted with gray vs. black).
 
 The original tutorial this was adapted from may be found [here](http://blog.patdavid.net/2011/10/getting-around-in-gimp-layer-masks.html) (possibly with updated information).
 
+<small>
 <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.en_US'>
 <img class='cc-badge' src='/images/creativecommons/by-sa 80x15.png' alt='Creative Commons By Share Alike'/>
 </a>
 <span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - Layer Masks (text & images)</span> by [Pat David](http://blog.patdavid.net).  
 Licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US).
 
+</small>

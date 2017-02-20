@@ -5,12 +5,6 @@ Authors: Pat David
 Template: page_author
 Summary: A quick look at some easy features.
 
-<small>
-<a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US" rel="license"><img class='cc-badge' alt="Creative Commons License" src="/images/creativecommons/by-sa 80x15.png" /></a>
-<span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - GIMP Quickies (text & images)</span> by [Pat David](http://blog.patdavid.net)   
-is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US).
-</small>
-
 
 ## Intention
 

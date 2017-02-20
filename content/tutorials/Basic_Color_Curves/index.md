@@ -8,13 +8,6 @@ Template: page_author
 <link rel='stylesheet' type='text/css' href='index.css' />
 </noscript>
 
-<small>
-<a href='http://creativecommons.org/licenses/by-sa/3.0/deed.en_US'>
-<img class='cc-badge' src='/images/creativecommons/by-sa 80x15.png' alt='Creative Commons By Share Alike'/>
-</a>
-<span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - Basic Color Curves (text & images)</span> by [Pat David](http://blog.patdavid.net) is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US) (except _Hollow Moon_ by _qsimple/Eric_ on [Flickr](https://www.flickr.com/people/qsimple/)).
-</small>
-
 Color has this amazing ability to evoke emotional responses from us. From the warm glow of a sunny summer afternoon to a cool refreshing early evening in fall. We associate colors with certain moods, places, feelings, and memories (consciously or not).
 
 Volumes have been written on color and I am in no ways even remotely qualified to speak on it. So I won’t.
