@@ -28,6 +28,8 @@ What the GIMP Profile is and how to use it.
 [Image Formats Overview][]  
 Selecting the best image format for your purposes.
 
+[Asset Folders][]  
+Extending GIMP with new plug-ins, scripts, brushes, and more.
 
 [GIMP Quickies]: {filename}GIMP_Quickies/index.md
 [Simple Floating Logo]: {filename}Floating_Logo/index.md
@@ -36,7 +38,7 @@ Selecting the best image format for your purposes.
 [Your GIMP Profile (and You)]: {filename}GIMPProfile/index.md
 [Making a Circle-Shaped Image]: {filename}CircleImage/index.md
 [Image Formats Overview]: {filename}ImageFormats/index.md
-
+[Asset Folders]: {filename}Asset_Folders/index.md
 
 
 ## Photo Editing
