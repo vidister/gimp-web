@@ -10,7 +10,7 @@ Template: page_author
 
 <small>
 <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.en_US'>
-<img class='cc-badge' src='https://i.creativecommons.org/l/by-sa/3.0/80x15.png' alt='Creative Commons By Share Alike'/>
+<img class='cc-badge' src='/images/creativecommons/by-sa 80x15.png' alt='Creative Commons By Share Alike'/>
 </a>
 <span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - Basic Color Curves (text & images)</span> by [Pat David](http://blog.patdavid.net) is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US) (except _Hollow Moon_ by _qsimple/Eric_ on [Flickr](https://www.flickr.com/people/qsimple/)).
 </small>
@@ -354,7 +354,7 @@ The original tutorial this was adapted from may be found [here](http://blog.patd
 
 <small>
 <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.en_US'>
-<img class='cc-badge' src='https://i.creativecommons.org/l/by-sa/3.0/80x15.png' alt='Creative Commons By Share Alike'/>
+<img class='cc-badge' src='/images/creativecommons/by-sa 80x15.png' alt='Creative Commons By Share Alike'/>
 </a>
 <span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - Basic Color Curves (text & images)</span> by [Pat David](http://blog.patdavid.net) is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US) (except _Hollow Moon_ by _qsimple/Eric_ on [Flickr](https://www.flickr.com/people/qsimple/)).
 </small>

@@ -7,7 +7,7 @@ Template: page_author
 
 <small>
 <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.en_US'>
-<img class='cc-badge' src='https://i.creativecommons.org/l/by-sa/3.0/80x15.png' alt='Creative Commons By Share Alike'/>
+<img class='cc-badge' src='/images/creativecommons/by-sa 80x15.png' alt='Creative Commons By Share Alike'/>
 </a>
 <span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - Automate Editing</span> by <a rel="cc:attributionURL" xmlns:cc="http://creativecommons.org/ns#">Stephen Kiel</a> is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US). The code sources in this tutorial are licensed by Stephen Kiel under the conditions of the [GNU Public License GPL V3](https://www.gnu.org/copyleft/gpl.html).
 </small>
@@ -662,7 +662,7 @@ Image - Running your code in the Gimp Python Console
 
 
 <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.en_US'>
-<img class='cc-badge' src='https://i.creativecommons.org/l/by-sa/3.0/80x15.png' alt='Creative Commons By Share Alike'/>
+<img class='cc-badge' src='/images/creativecommons/by-sa 80x15.png' alt='Creative Commons By Share Alike'/>
 </a>
 <br><span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - Automate Editing</span> by <a rel="cc:attributionURL" xmlns:cc="http://creativecommons.org/ns#">Stephen Kiel</a> is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US" rel="license">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. The code sources in this tutorial are licensed by Stephen Kiel under the conditions of the <a href="https://www.gnu.org/copyleft/gpl.html">GNU Public License GPL V3</a>.
 
