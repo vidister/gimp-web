@@ -5,13 +5,6 @@ Author: Ed J
 Template: page_author
 
 
-<small>
-<a href='http://creativecommons.org/licenses/by-sa/3.0/deed.en_US'>
-<img class='cc-badge' src='https://i.creativecommons.org/l/by-sa/3.0/80x15.png' alt='Creative Commons By Share Alike'/>
-</a>
-<span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - A Tutorial for GIMP-Perl Users (text & images)</span> 
-by [Ed J] is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US).
-</small>
 
 [Ed J]: https://metacpan.org/author/ETJ
 
@@ -1114,7 +1107,7 @@ The Gimp-Perl distribution also has over 50 more example scripts supplied. Take 
 
 <small>
 <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.en_US'>
-<img class='cc-badge' src='https://i.creativecommons.org/l/by-sa/3.0/80x15.png' alt='Creative Commons By Share Alike'/>
+<img class='cc-badge' src='/images/creativecommons/by-sa 80x15.png' alt='Creative Commons By Share Alike'/>
 </a>
 <span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - A Tutorial for GIMP-Perl Users (text & images)</span> 
 by [Ed J] is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US).

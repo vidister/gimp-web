@@ -4,12 +4,6 @@ Modified: 2015-09-24T15:00:00-05:00
 Author: Pat David
 Template: page_author
 
-<small>
-<a href='http://creativecommons.org/licenses/by-sa/3.0/deed.en_US'>
-<img class='cc-badge' src='https://i.creativecommons.org/l/by-sa/3.0/80x15.png' alt='Creative Commons By Share Alike'/>
-</a>
-<span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - Luminosity Masks (text)</span> by [Pat David](http://blog.patdavid.net) is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US).
-</small>
 
 ## Intention
 
@@ -403,8 +397,10 @@ As always, I encourage you to experiment and play!
 
 The original tutorial this was adapted from may be found [here](http://blog.patdavid.net/2013/11/getting-around-in-gimp-luminosity-masks.html) (possibly with updated information).
 
+<small>
 <a href='http://creativecommons.org/licenses/by-sa/3.0/deed.en_US'>
-<img class='cc-badge' src='https://i.creativecommons.org/l/by-sa/3.0/80x15.png' alt='Creative Commons By Share Alike'/>
+<img class='cc-badge' src='/images/creativecommons/by-sa 80x15.png' alt='Creative Commons By Share Alike'/>
 </a>
 <span xmlns:dct="http://purl.org/dc/terms/">GIMP Tutorial - Luminosity Masks (text)</span> by [Pat David](http://blog.patdavid.net).  
 Licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US).
+</small>
