@@ -3,7 +3,6 @@ Date: 2017-01-25T08:44:05-06:00
 Authors: Pat David
 Template: page_author
 Summary: A quick look at some easy features.
-Status: draft
 
 
 ## So You Want to Install Some Assets?
