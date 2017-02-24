@@ -60,7 +60,7 @@ them in the menu.
 
 _J: Why do you continue working on GIMP?_
 
-**M:** that's a good question. (laugh)
+**M:** that's a good question. *(laughs)*
    I don't know. You guys, perhaps?
    Because it's annoying sometimes.
    Why do you continue?
@@ -83,8 +83,8 @@ _J: What do you think of Free Software?_
 available, so… for some tasks, you use what is available. If it's not Free, you
 have no choice but to use it.
 
-For example: [showing nomis trying to make a label printer work on a GNU/Linux
-distribution] if you would be using the closed-source driver of that, it would
+For example: *[showing nomis trying to make a label printer work on a GNU/Linux
+distribution]* if you would be using the closed-source driver of that, it would
 work.
 
 _*: (laughs)_
@@ -140,7 +140,7 @@ _J: Do you code under the influence?_
 <figure>
 <a href='https://xkcd.com/323/' title='Apple uses automated schnapps IVs.'><img src='{filename}images/ballmer_peak.png' alt='XKCD Ballmer Peak'></a>
 <figcaption>
-Obligatory <a href='https://xkcd.com/323/' title='Apple uses automated schnapps IVs.'>XKCD</a>.
+Obligatory <a href='https://xkcd.com/323/' title='Apple uses automated schnapps IVs.'>XKCD</a> ([Creative Commons By-NC 2.5](http://creativecommons.org/licenses/by-nc/2.5/)).
 </figcaption>
 </figure>
 
@@ -201,7 +201,7 @@ doesn't make it better by making it easier. Arrogant but true.
 _S: Anything else you want to change?_
 
 **M:** Yes a lot of stuff if _I_ don't have to change them because I really have
-enough things to do (laughs).
+enough things to do *(laughs)*.
 
 So you go organize it better.
 
@@ -216,7 +216,7 @@ right. It always works like that.
 
 _S: They do not need a blessing from you, right?_
 
-**M:** I don't do blessings. (laughs)
+**M:** I don't do blessings. *(laughs)*
 
 _J: GTK+ comes from GIMP. What do you think of GTK now?_
 
