@@ -13,6 +13,14 @@ As an insider myself, I've wanted to launch a series of interviews with the many
 This interview was held on Friday, February 3, 2017, at around 3AM, after a day of hacking at [Wilber Week](https://www.gimp.org/news/2017/01/18/wilberweek-2017-announced/), next to the fire place.
 Next to us were several team members, amongst which Michael Schumacher (schumaml (S)) and Øyvind Kolås (pippin (P)) also asked questions.
 
+<figure>
+<img src="{filename}images/mitch-interview/mitch-interview-950w.jpg" alt='Mitch, the man, the myth, the legend'>
+<figcaption>
+Mitch.  The man.  The myth.  The legend.<br>
+The reason your commit probably got reverted.
+</figcaption>
+</figure>
+
 _Jehan: Hello Mitch! In a few words, what's the close future of GIMP?_
 
 **Mitch:** In 2.10, there is the GEGL port, then the GTK+3 port immediately after, which will go as fast as possible. We don't plan many features there, just the GTK+3 port.
@@ -64,6 +72,13 @@ _J: Why do you continue working on GIMP?_
    I don't know. You guys, perhaps?
    Because it's annoying sometimes.
    Why do you continue?
+
+<figure>
+<img src="{filename}images/mitch-interview/Montserrat_Pano_Gimpheros_Wilberheads.jpg" alt='GIMPers at Montserrat, Espana'>
+<figcaption>
+GIMPers at Montserrat.
+</figcaption>
+</figure>
 
 _J: Me? It's fun._
 
@@ -272,3 +287,7 @@ _S: So do not be afraid of errors?_
 _*: Thanks for the interview._
 
 **M:** You are welcome.
+
+<figure>
+<img src="{filename}images/mitch-interview/mitch-coding.jpg" alt='Mitch at work'>
+</figure>
