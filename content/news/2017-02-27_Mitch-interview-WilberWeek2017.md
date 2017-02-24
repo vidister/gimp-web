@@ -7,8 +7,8 @@ Summary: Michael Natterer gets interviewed by other GIMP developers
 
 GIMP is [Free Software](https://www.gnu.org/philosophy/free-sw.html), but even before this, it is people: the ones who create it, the ones who create _with_ it… We don't have accurate statistics and we take pride on not gathering your data. Yet we know (because there are various other websites who have logged partial statistics over the years) that this is a widely used piece of software, by millions of people around the world. So wouldn't it be neat to meet some of the individuals who make this project come alive?
 
-Some people expect a huge company behind GIMP. This is not the case. GIMP has always been developed by a random bunch of people scattered around the world, most of them volunteers.
-As an insider myself, I've wanted to launch a series of interviews with the many awesome people I've met since I started contributing. So who better to start with than our own benevolent dictator, GIMP maintainer: **Michael Natterer**, aka "mitch".
+Some people expect a huge company behind GIMP. This is not the case. GIMP has always been developed by a random bunch of people scattered around the world (just a handful at a time), most of them volunteers, and none full-time.
+As an insider myself, I've wanted to launch a series of interviews with the many awesome people I've met since I started contributing. So who better to start with than our own benevolent dictator, GIMP maintainer, also the biggest code contributor: **Michael Natterer**, aka "mitch".
 
 This interview was held on Friday, February 3, 2017, at around 3AM, after a day of hacking at [Wilber Week](https://www.gimp.org/news/2017/01/18/wilberweek-2017-announced/), next to the fire place.
 Next to us were several team members, amongst which Michael Schumacher (schumaml (S)) and Øyvind Kolås (pippin (P)) also asked questions.
