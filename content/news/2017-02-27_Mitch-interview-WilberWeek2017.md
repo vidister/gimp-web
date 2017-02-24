@@ -60,7 +60,7 @@ _Schumaml: Have you ever met the [original authors][] (Spencer Kimball and Peter
 
 _S: Have they ever contacted you?_
 
-**M:** Yes, they sent me a few plugins which I pushed. It's 10 years ago or so. Neon, photocopy and cartoon. It's 10 years later, one of them comes and says _"hey Mitch, I coded 3 plugins, here they are"_. Everything looks
+**M:** Yes, they sent me a few plugins which I pushed. It's 10 years ago or so. Neon, photocopy and cartoon. It's like 10 years later, one of them comes and says _"hey Mitch, I coded 3 plugins, here they are"_. Everything looks
 perfect, so I just pushed them as-is and they still exist.
 
 The GEGL version gives different results, though. So that's why we still have
@@ -99,7 +99,7 @@ available, so… for some tasks, you use what is available. If it's not Free, yo
 have no choice but to use it.
 
 For example: *[showing nomis trying to make a label printer work on a GNU/Linux
-distribution]* if you would be using the closed-source driver of that, it would
+distribution]* if you were using the closed-source driver of that, it would
 work.
 
 _*: (laughs)_
