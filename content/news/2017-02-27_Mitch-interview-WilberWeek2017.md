@@ -60,8 +60,7 @@ _Schumaml: Have you ever met the [original authors][] (Spencer Kimball and Peter
 
 _S: Have they ever contacted you?_
 
-**M:** Yes, they sent me a few plugins which I pushed. It's 10 years ago or so. Neon, photocopy and cartoon. It's like 10 years later, one of them comes and says _"hey Mitch, I coded 3 plugins, here they are"_. Everything looks
-perfect, so I just pushed them as-is and they still exist.
+**M:** Yes, they sent me a few plugins which I pushed. Neon, photocopy and cartoon. It's like 10 years later, one of them comes and says _"hey Mitch, I coded 3 plugins, here they are"_. Everything looks perfect, so I just pushed them as-is and they still exist.
 
 The GEGL version gives different results, though. So that's why we still have
 them in the menu.
@@ -90,11 +89,12 @@ _J: How do you see GIMP 20 years from now?_
 **M:** It will probably end up in a pile of bits rotting in some corner. But 20 years ago, I was probably thinking the same. So you never know.
 
 
+
 ## A hacker ##
 
 _J: What do you think of Free Software?_
 
-**M:** It's the way to go. But, I mean, everybody uses the software which is
+**M:** It's the way to go. I mean, everybody uses the software which is
 available, so… for some tasks, you use what is available. If it's not Free, you
 have no choice but to use it.
 
@@ -125,9 +125,9 @@ _J: How do you like to hack?_
 
 _J: You are your own boss in a bookstore. But we see commits from you all the time. So are you hacking in your bookstore when you get free times and don't have to take care of your employees or customers?_
 
-**M:** No. Sometimes. But very rarely. It's mostly in the evenings. Or I commit
+**M:** No. Sometimes, but very rarely. It's mostly in the evenings. Or I commit
 something during the daytime, after 5 minutes of looking at it awake after doing
-it the night before at 2AM. Then I think _"I better go to sleep before I
+it the night before at 2AM. I think _"I better go to sleep before I
 push this"_. Then I push it on the next day. But I don't have time to do 
 5-hour long patches during working hours.
 
@@ -168,9 +168,9 @@ _J: All software are shit, but in the shitty software list, is GIMP a not too sh
 what other companies do with 100 people. It can only be really weird in
 many places.
 
-_J: But we do something sometimes not too bad, right?_
+_J: But sometimes we do things not so bad, right?_
 
-**M:** Yes, we do something sometimes not too bad. But there is nobody who makes
+**M:** Yes, we sometimes do things not so bad. But there is nobody who makes
 sure of it. There is nobody who puts like 2 months into a plugin to make it
 perfect. It happens, but then they dump it on us and that's it. And 10 years
 later, we see it and _"oh my god, this is complete garbage"_.
@@ -208,7 +208,7 @@ _S: So you don't see any big changes regarding GIMP in the near future?_
 **M:** In the near future definitely not, because we have to get some releases out.
 
 Using other languages? Why not? There is Rust. There is… maybe simpler stuff for
-doing UI stuff. But if that's actually working… I mean: look at this javascript
+doing UI. If that's actually working… I mean, look at this javascript
 mess. Is that really better? Just because it's easier? Easier just means that
 more clueless people can write code, and they are clueless enough already. So it
 doesn't make it better by making it easier. Arrogant but true.
@@ -229,15 +229,13 @@ _J: That's a very good point._
 **M:** If they do it right, then they'll be in charge of the part they are doing
 right. It always works like that.
 
-_S: They do not need a blessing from you, right?_
+_S: They don't need a blessing from you, right?_
 
 **M:** I don't do blessings. *(laughs)*
 
 _J: GTK+ comes from GIMP. What do you think of GTK now?_
 
-**M:** They lost their mind but they are also doing really good work. Some of the
-decisions, you cannot understand. Because… is GIMP the only application left in
-the GTK world? Everything else is *apps* and buttons and touch. Is there any other complex GTK application? Complex-complex-complex like GIMP?
+**M:** They lost their mind but they are also doing really good work. Some of the decisions, you can't understand. Because… is GIMP the only application left in the GTK world? Everything else is *apps* and buttons and touch. Is there any other complex GTK application? Complex-complex-complex like GIMP?
 
 _S: So we will release GIMP 3 with GTK+3 or 4?_
 
@@ -264,9 +262,8 @@ _J: Who is Wilber?_
 
 _S: What special device would you like to see GIMP on._
 
-**M:** This cool Microsoft thing ([Surface Studio PC](https://youtu.be/BzMLA8YIgG0)) where they have this video online. It looks like
-super slick, with touch and everything. Videos like Apple used to do, now it's
-long gone. Now Microsoft does that. Isn't that sad?
+**M:** This cool Microsoft thing ([Surface Studio PC](https://youtu.be/BzMLA8YIgG0)) where they have this video online. It looks super slick, with touch and everything. Videos like Apple used to do, now it's long gone. Now Microsoft does that. Isn't that sad?
+
 The official Microsoft youtube video makes you want to have one of these things.
 
 _S: What advice you would like to give to someone who would want to contribute?
@@ -286,8 +283,10 @@ _S: So do not be afraid of errors?_
 
 _*: Thanks for the interview._
 
-**M:** You are welcome.
+**M:** You are welcome!
 
 <figure>
 <img src="{filename}images/mitch-interview/mitch-coding.jpg" alt='Mitch at work'>
 </figure>
+
+<small>Images in this post are courtesy of [antenne](http://antenne.springborn.net/) and used by permission.</small>
