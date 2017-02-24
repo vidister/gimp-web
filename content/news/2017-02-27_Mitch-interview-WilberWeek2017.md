@@ -140,7 +140,7 @@ _J: Do you code under the influence?_
 <figure>
 <a href='https://xkcd.com/323/' title='Apple uses automated schnapps IVs.'><img src='{filename}images/ballmer_peak.png' alt='XKCD Ballmer Peak'></a>
 <figcaption>
-Obligatory <a href='https://xkcd.com/323/' title='Apple uses automated schnapps IVs.'>XKCD</a> ([Creative Commons By-NC 2.5](http://creativecommons.org/licenses/by-nc/2.5/)).
+Obligatory <a href='https://xkcd.com/323/' title='Apple uses automated schnapps IVs.'>XKCD</a>, by Randall Munroe (<a href='http://creativecommons.org/licenses/by-nc/2.5/' title='Creative Commons Attribution-NonCommercial 2.5 License'>Creative Commons By-NC 2.5</a>).
 </figcaption>
 </figure>
 
