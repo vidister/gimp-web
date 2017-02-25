@@ -68,10 +68,9 @@ _Schumaml: Have you ever met the [original authors][] (Spencer Kimball and Peter
 <br>
 _S: Have they ever contacted you?_
 
-**M:** Yes, they sent me a few plugins which I pushed. Neon, photocopy and cartoon. It's like 10 years later, and one of them comes and says _"hey Mitch, I coded 3 plugins, here they are"_. Everything looked perfect, so I just pushed them as-is and they still exist.
+**M:** Yes, they sent me a few plugins which I pushed. Neon, photocopy and cartoon. It was around 10 years after they left the project, one of them comes and says _"hey Mitch, I coded 3 plugins, here they are"_. Everything looked perfect, so I just pushed them as-is and they still exist.
 
-The GEGL version gives different results, though. So that's why we still have
-them in the menu.
+These days, they got reimplemented in GEGL, but the new versions give different results, so the old plugins are still in the menu.
 
 <br>
 _J: Why do you continue working on GIMP?_
@@ -96,7 +95,7 @@ anyway.
 <br>
 _J: Where do you see GIMP 20 years from now?_
 
-**M:** It will probably end up in a pile of bits rotting in some corner. But 20 years ago I was probably thinking the same. So you never know.
+**M:** It will probably end up in a pile of bits rotting in some corner. But maybe I was thinking the same 20 years ago, so you never know.
 
 
 
@@ -125,10 +124,8 @@ _J: You often complain about all these though._
 
 **M:** Because it's all shit. 
 Just because you have the least shitty doesn't mean it's not all shit. 
-Like autotools. 
-They are shit but it's the best shit there is, but of course it could be much better. 
-There is no software that isn't shit. 
-I mean except perhaps the most simple of all software, which does that one task.
+Like autotools, they are shit, but it's the best shit we have.
+There is no software that isn't shit, except perhaps the most simple of all software, which does that one task.
 
 <br>
 _J: What's your development environment or text editor of choice?_
@@ -138,14 +135,14 @@ _J: What's your development environment or text editor of choice?_
 <br>
 _J: How do you like to hack?_
 
-**M:** Depends. Sometimes I need silence, sometimes a crowded city.
+**M:** Depends. Sometimes I need silence, sometimes a crowded room.
 
 <br>
-_J: You are your own boss in a bookstore. But we see commits from you all the time. So are you hacking in your bookstore when you get free times and don't have to take care of your employees or customers?_
+_J: You are your own boss in a shop. But we see commits from you all the time. So are you hacking in your bookstore when you get free time and don't have to take care of your employees or customers?_
 
-**M:** Sometimes, but very rarely. It's mostly in the evenings. Or I commit something during the daytime that I worked on the night before until 2AM (after 5 minutes of looking at it). I think _"I better go to sleep before I
-push this"_. Then I push it on the next day. But I don't have time to do 
-5-hour long patches during working hours.
+**M:** Sometimes, but very rarely. I'm mostly hacking in the evenings. Or I commit something during daytime that I worked on the night before until 2AM. If I think _"I better go to sleep before I
+push this"_, I push it on the next day after looking at it one more time awake.
+But I don't have time to do 5-hour long patches during working hours.
 
 <br>
 _J: You don't sleep?_
@@ -186,7 +183,7 @@ Obligatory <a href='https://xkcd.com/323/' title='Apple uses automated schnapps 
 _J: All software is shit, but in the shitty software list, is GIMP not so bad?_
 
 **M:** I hope so, but of course it's shitty. 
-Just a handful of people doing what other companies do with 100 (or more) people. 
+We're just a handful of people doing what companies do with 100 (or more) people. 
 It can only be really weird in many places.
 
 <br>
@@ -194,14 +191,14 @@ _J: But sometimes we do things not so bad, right?_
 
 **M:** Yes, we sometimes do things not so bad, but there is nobody who makes
 sure of it.
-There is nobody who puts like 2 months into a plugin to make it perfect. 
-It happens, but then they dump it on us and that's it. 
-Ten years later, we see it and say _"oh my god, this is complete garbage"_.
+There is nobody who puts 2 months of work into a plugin to make it perfect. 
+Sometimes it happens, but then it get's dumped on us and that's it. 
+Ten years later, we look at the code again and say _"oh my god, this is complete garbage"_. Very rarely, people maintain and fix their code long term. But then, we cannot seriously expect that to happen more often, everybody is a volunteer here.
 
 <br>
 _S: Is there something you'd like to do much more in the project, apart from coding?_
 
-**M:** In the project? No. Coding is fun. Other things are not so fun if it comes to software. So I'm happy that somebody does the office work.
+**M:** In the project? No, coding is fun. I'm happy that I don't have to do that much administrative work.
 
 <br>
 _S: When will 2.10 be released?_
