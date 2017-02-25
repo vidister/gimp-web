@@ -23,8 +23,8 @@ The reason your commit probably got reverted.
 
 _Jehan: Hello Mitch! In a few words, what's the close future of GIMP?_
 
-**Mitch:** In 2.10, there is the GEGL port. 
-Then the GTK+3 port immediately after, which will go as fast as possible. 
+**Mitch:** In 2.10, there is the GEGL port.
+Then the GTK+3 port immediately after, which will go as fast as possible.
 We don't plan many features during the GTK+3 port.
 
 <br>
@@ -103,8 +103,8 @@ _J: Where do you see GIMP 20 years from now?_
 
 _J: What do you think of Free Software?_
 
-**M:** It's the way to go. 
-I mean, everybody uses the software which is available, so… for some tasks, you use what is available. 
+**M:** It's the way to go.
+I mean, everybody uses the software which is available, so… for some tasks, you use what is available.
 If it's not Free, you have no choice but to use it.
 
 For example: *[showing nomis trying to make a label printer work on a GNU/Linux
@@ -122,8 +122,8 @@ _J: What's your operating system, distribution, desktop…_
 <br>
 _J: You often complain about all these though._
 
-**M:** Because it's all shit. 
-Just because you have the least shitty doesn't mean it's not all shit. 
+**M:** Because it's all shit.
+Just because you have the least shitty doesn't mean it's not all shit.
 Like autotools, they are shit, but it's the best shit we have.
 There is no software that isn't shit, except perhaps the most simple of all software, which does that one task.
 
@@ -182,8 +182,8 @@ Obligatory <a href='https://xkcd.com/323/' title='Apple uses automated schnapps 
 
 _J: All software is shit, but in the shitty software list, is GIMP not so bad?_
 
-**M:** I hope so, but of course it's shitty. 
-We're just a handful of people doing what companies do with 100 (or more) people. 
+**M:** I hope so, but of course it's shitty.
+We're just a handful of people doing what companies do with 100 (or more) people.
 It can only be really weird in many places.
 
 <br>
@@ -191,8 +191,8 @@ _J: But sometimes we do things not so bad, right?_
 
 **M:** Yes, we sometimes do things not so bad, but there is nobody who makes
 sure of it.
-There is nobody who puts 2 months of work into a plugin to make it perfect. 
-Sometimes it happens, but then it gets dumped on us and that's it. 
+There is nobody who puts 2 months of work into a plugin to make it perfect.
+Sometimes it happens, but then it gets dumped on us and that's it.
 Ten years later, we look at the code again and say _"oh my god, this is complete garbage"_. Very rarely, people maintain and fix their code long term. But then, we cannot seriously expect that to happen more often, everybody is a volunteer here.
 
 <br>
@@ -235,12 +235,12 @@ _S: So you don't see any big changes regarding GIMP in the near future?_
 **M:** In the near future definitely not, because we have to get some releases out.
 
 Using other languages? Why not? There is Rust. There is maybe simpler stuff for
-doing UI. If that's actually working… 
+doing UI. If that's actually working…
 
-I mean, look at this javascript mess. 
-Is that really better? Just because it's easier? 
-Easier just means that more clueless people can write code, and they are clueless enough already. 
-So it doesn't make it better by making it easier. 
+I mean, look at this javascript mess.
+Is that really better? Just because it's easier?
+Easier just means that more clueless people can write code, and they are clueless enough already.
+So it doesn't make it better by making it easier.
 Arrogant but true.
 
 <br>
@@ -251,10 +251,10 @@ enough things to do *(laughs)*.
 
 So you go organize it better.
 
-You can be maintainer of whatever subpart, please. 
-**Please.** 
-Take away the work from me. 
-The contributors need to realize that if you do something really well, they will be in charge of the part they do well. 
+You can be maintainer of whatever subpart, please.
+**Please.**
+Take away the work from me.
+The contributors need to realize that if you do something really well, they will be in charge of the part they do well.
 Nobody realizes that.
 
 <br>
