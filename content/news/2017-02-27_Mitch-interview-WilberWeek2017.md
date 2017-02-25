@@ -77,8 +77,8 @@ _J: Why do you continue working on GIMP?_
 
 **M:** that's a good question. *(laughs)*
    I don't know. You guys, perhaps?
-   Because it's annoying sometimes.
-   Why do you continue?
+   It can be really annoying sometimes.
+   Why do you guys continue?
 
 <figure>
 <img src="{filename}images/mitch-interview/Montserrat_Pano_Gimpheros_Wilberheads.jpg" alt='GIMPers at Montserrat, Espana'>
@@ -104,10 +104,9 @@ _J: Where do you see GIMP 20 years from now?_
 _J: What do you think of Free Software?_
 
 **M:** It's the way to go.
-I mean, everybody uses the software which is available, so… for some tasks, you use what is available.
-If it's not Free, you have no choice but to use it.
+But everybody has to use the software which is available for a task, so for some tasks, you have no choice but using something that's not exactly free.
 
-For example: *[showing nomis trying to make a label printer work on a GNU/Linux
+For example: *[pointing to nomis trying to make a label printer work on a GNU/Linux
 distribution]* if you were using the closed-source driver for that, it would
 work.
 
@@ -232,35 +231,32 @@ _S: This is something we had discussed._
 <br>
 _S: So you don't see any big changes regarding GIMP in the near future?_
 
-**M:** In the near future definitely not, because we have to get some releases out.
+**M:** In the near future definitely not, because we have to get some releases out. Unless of course there is a well-done patch that doesn't need weeks of discusion and back-and-forth negotiations on how things _should_ be done.
 
-Using other languages? Why not? There is Rust. There is maybe simpler stuff for
-doing UI. If that's actually working…
+About using other languages? Why not? There is Rust. There is maybe simpler stuff for doing user interfaces, there is this and that. But making such decisions for a codebase the size of GIMP is not something we can decide based on _"the latest hot stuff"_.
 
-I mean, look at this javascript mess.
+I mean, look at this javascript mess. 
 Is that really better? Just because it's easier?
 Easier just means that more clueless people can write code, and they are clueless enough already.
-So it doesn't make it better by making it easier.
+So making is easier doesn't make it better.
 Arrogant but true.
 
 <br>
 _S: Anything else you want to change?_
 
-**M:** Yes a lot of stuff if **I** don't have to change them because I really have
-enough things to do *(laughs)*.
+**M:** Yes a lot of stuff, if **I** don't have to do all the changes, because I really have enough things to do already *(laughs)*.
 
 So you go organize it better.
 
 You can be maintainer of whatever subpart, please.
 **Please.**
 Take away the work from me.
-The contributors need to realize that if you do something really well, they will be in charge of the part they do well.
-Nobody realizes that.
+All contributors need to realize that if they do something really well, they will be in charge of the part they do well.
 
 <br>
 _J: That's a very good point._
 
-**M:** If they do it right, then they'll be in charge of the part they are doing
+**M:** If you do it right, then you'll be in charge of the part you are doing
 right. It always works like that.
 
 <br>
@@ -269,20 +265,21 @@ _S: They don't need a blessing from you, right?_
 **M:** I don't do blessings. *(laughs)*
 
 <br>
-_J: GTK comes from GIMP. What do you think of GTK+ now?_
+_J: GTK+ comes from GIMP. What do you think of GTK+ now?_
 
-**M:** They lost their mind but they are also doing really good work. Some of the decisions, you can't understand. Because… is GIMP the only application left in the GTK world? Everything else is *apps* and buttons and touch. Is there any other complex GTK application? Complex-complex-complex like GIMP?
+**M:** They lost their minds, but they are also doing really good work. I don't really understand some of the decisions.
+
+But… look at the mails we get. People say exactly the same about GIMP: _"Have the GIMP devs lost their minds?!?"_. Also, I was involved in GTK+ for a long time, and people thought I had lost my mind, which was (and is) probably true. Bottom line is that all is fine between GTK+ and GIMP, I just reserve the right to complain for myself too.
 
 <br>
 _S: So we will release GIMP 3 with GTK+3 or 4?_
 
-**M:** If we go further, we go further. They just branched to GTK+4 anyway.
-That's not going to happen overnight.
+**M:** They just branched for GTK+ 4.x, that's not going to happen overnight.
 
 <br>
 _P: It won't harm to suddenly have GIMP 4 instead of 3._
 
-**M:** Yeah no, if they are done in a few weeks, we'd go for GIMP 4 right away. So why not. That would be cool. *(laughs)* Or GIMP 5!
+**M:** No it wouldn't. If they are done in a few weeks, we'd go for GIMP 4 right away. So why not. That would be cool. *(laughs)* Or GIMP 5!
 
 <br>
 _J: GIMP 10?_
@@ -293,7 +290,7 @@ _J: GIMP 10?_
 
 _S: If you happen to be in a conversation with people talking about GIMP, but they don't know that you are involved, do you come out as the GIMP principal developer._
 
-**M:** Only if they start talking utter bullshit. It has happened before, of course. A guy wanted to convert me to GIMP once and I had to tell him: yeah you don't need to. In a non-computer situation, like in private.
+**M:** Only if they start talking utter bullshit, or things simply need clarification. It has happened, of course. A guy wanted to convert me to GIMP once and I had to tell him: yeah you don't need to. It was in a non-hacker situation.
 
 <br>
 _J: Who is Wilber?_
@@ -303,8 +300,7 @@ _J: Who is Wilber?_
 <br>
 _S: What special device would you like to see GIMP on._
 
-**M:** This cool Microsoft thing ([Surface Studio PC](https://youtu.be/BzMLA8YIgG0)) where they have this video online. It looks super slick, with touch and everything. Videos like Apple used to do, now it's long gone. Now Microsoft does that. Isn't that sad?
-
+**M:** This cool Microsoft thing ([Surface Studio PC](https://youtu.be/BzMLA8YIgG0)) where they have this hyped video online. It looks super slick, with touch and everything. An ad like Apple used to do them, in the past. Now Microsoft does that, which is a bit weird.
 The official Microsoft youtube video makes you want to have one of these things.
 
 <br>
@@ -313,7 +309,7 @@ _S: What advice you would like to give to someone who would want to contribute?
 
 **M:** Listen to advice and be persistent.
 
-Don't give up because someone says _"this patch isn't quite right"_, it's most often not quite right. My first commit to GIMP was reverted immediately.
+Don't give up because somebody says _"this patch isn't quite right"_, most of the time, it's simply not quite right. My first commit to GIMP was reverted immediately.
 
 <br>
 _S: I think you also reverted my first._
