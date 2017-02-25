@@ -215,12 +215,12 @@ doesn't make it better by making it easier. Arrogant but true.
 
 _S: Anything else you want to change?_
 
-**M:** Yes a lot of stuff if _I_ don't have to change them because I really have
+**M:** Yes a lot of stuff if **I** don't have to change them because I really have
 enough things to do *(laughs)*.
 
 So you go organize it better.
 
-You can be maintainer of whatever subpart, please. Please. Take away the work
+You can be maintainer of whatever subpart, please. **Please.** Take away the work
 from me. The contributors need to realize that if you do something really well,
 they will be in charge of the part they do well. Nobody realizes that.
 
@@ -233,7 +233,7 @@ _S: They don't need a blessing from you, right?_
 
 **M:** I don't do blessings. *(laughs)*
 
-_J: GTK+ comes from GIMP. What do you think of GTK now?_
+_J: GTK comes from GIMP. What do you think of GTK+ now?_
 
 **M:** They lost their mind but they are also doing really good work. Some of the decisions, you can't understand. Because… is GIMP the only application left in the GTK world? Everything else is *apps* and buttons and touch. Is there any other complex GTK application? Complex-complex-complex like GIMP?
 
@@ -244,7 +244,7 @@ That's not going to happen overnight.
 
 _P: It won't harm to suddenly have GIMP 4 instead of 3._
 
-**M:** Yeah no, if they are done in a few weeks, we'd go for GIMP 4 right away. So why not. That would be cool. (laughs) Or GIMP 5!
+**M:** Yeah no, if they are done in a few weeks, we'd go for GIMP 4 right away. So why not. That would be cool. *(laughs)* Or GIMP 5!
 
 _J: GIMP 10?_
 
