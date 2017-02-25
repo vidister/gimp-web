@@ -192,7 +192,7 @@ _J: But sometimes we do things not so bad, right?_
 **M:** Yes, we sometimes do things not so bad, but there is nobody who makes
 sure of it.
 There is nobody who puts 2 months of work into a plugin to make it perfect. 
-Sometimes it happens, but then it get's dumped on us and that's it. 
+Sometimes it happens, but then it gets dumped on us and that's it. 
 Ten years later, we look at the code again and say _"oh my god, this is complete garbage"_. Very rarely, people maintain and fix their code long term. But then, we cannot seriously expect that to happen more often, everybody is a volunteer here.
 
 <br>
