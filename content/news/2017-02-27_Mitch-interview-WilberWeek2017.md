@@ -32,12 +32,10 @@ _J: What are your preferred features of 2.10?_
 
 **M:** High bit depth, on-canvas filter previews… I don't actually remember the features of 2.8 [to compare] because I never use it.
 
-<br>
 _J: You use 2.10 instead?_
 
 **M:** Yes.
 
-<br>
 _J: And you use GIMP often?_
 
 **M:** Mostly for trying what I implement, and also for making postcards I sell in my family business. That's the only thing I use it for. I mean… whenever I have to manipulate a pixel image, and not being an artist.
@@ -232,7 +230,7 @@ Arrogant but true.
 <br>
 _S: Anything else you want to change?_
 
-**M:** Yes a lot of stuff, if **I** don't have to do all the changes, because I really have enough things to do already *(laughs)*.
+**M:** Yes a lot of stuff, if _**I**_ don't have to do all the changes, because I really have enough things to do already *(laughs)*.
 
 So you go organize it better.
 
