@@ -80,6 +80,11 @@ _J: Why do you continue working on GIMP?_
    It can be really annoying sometimes.
    Why do you guys continue?
 
+_J: Me? It's fun._
+
+**M:** It's fun yeah. But only if it's fun. Sometimes it's not fun but you do it
+anyway.
+
 <figure>
 <img src="{filename}images/mitch-interview/Montserrat_Pano_Gimpheros_Wilberheads.jpg" alt='GIMPers at Montserrat, Espana'>
 <figcaption>
@@ -87,16 +92,10 @@ GIMPers at Montserrat.
 </figcaption>
 </figure>
 
-_J: Me? It's fun._
-
-**M:** It's fun yeah. But only if it's fun. Sometimes it's not fun but you do it
-anyway.
-
 <br>
 _J: Where do you see GIMP 20 years from now?_
 
 **M:** It will probably end up in a pile of bits rotting in some corner. But maybe I was thinking the same 20 years ago, so you never know.
-
 
 
 ## A hacker ##
