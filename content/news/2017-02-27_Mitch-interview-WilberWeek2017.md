@@ -65,7 +65,6 @@ _Schumaml: Have you ever met the [original authors][] (Spencer Kimball and Peter
 
 **M:** No. Has anyone?
 
-<br>
 _S: Have they ever contacted you?_
 
 **M:** Yes, they sent me a few plugins which I pushed. Neon, photocopy and cartoon. It was around 10 years after they left the project, one of them comes and says _"hey Mitch, I coded 3 plugins, here they are"_. Everything looked perfect, so I just pushed them as-is and they still exist.
@@ -109,7 +108,6 @@ For example: *[pointing to nomis trying to make a label printer work on a GNU/Li
 distribution]* if you were using the closed-source driver for that, it would
 work.
 
-<br>
 _*: (laughs)_
 
 <br>
@@ -117,7 +115,6 @@ _J: What's your operating system, distribution, desktop…_
 
 **M:** Debian Unstable, GNOME 3.
 
-<br>
 _J: You often complain about all these though._
 
 **M:** Because it's all shit.
@@ -142,7 +139,6 @@ _J: You are your own boss in a shop. But we see commits from you all the time. S
 push this"_, I push it on the next day after looking at it one more time awake.
 But I don't have time to do 5-hour long patches during working hours.
 
-<br>
 _J: You don't sleep?_
 
 **M:** I don't really sleep, no.
@@ -184,7 +180,6 @@ _J: All software is shit, but in the shitty software list, is GIMP not so bad?_
 We're just a handful of people doing what companies do with 100 (or more) people.
 It can only be really weird in many places.
 
-<br>
 _J: But sometimes we do things not so bad, right?_
 
 **M:** Yes, we sometimes do things not so bad, but there is nobody who makes
@@ -203,17 +198,13 @@ _S: When will 2.10 be released?_
 
 **M:** Oh go away! The answer is _"go away!"_. Read my lips: **"go away"**. When it's ready.
 
-<br>
 _S: Do you expect it to be this year._
 
 **M:** Yes of course.
 
-<br>
 _J: So we have a promise!_
 
-<br>
 _*: (laughs)_
-
 
 
 ## GIMP: future ##
@@ -222,12 +213,10 @@ _S: There was this thing that the UI should use Python and the core should use C
 
 **M:** Python for the user interface. Horrible! Why?
 
-<br>
 _S: This is something we had discussed._
 
 **M:** Yes but in the past, people wanted to use javascript, the year before they wanted to use Java, the year before they wanted to use this, and the year after they want to use that. And they are all gone. Everybody who ever said _"I want to use this or that"_, and _"…it's all shit, let's use javascript"_. None of them are still in the project, so… it gets boring.
 
-<br>
 _S: So you don't see any big changes regarding GIMP in the near future?_
 
 **M:** In the near future definitely not, because we have to get some releases out. Unless of course there is a well-done patch that doesn't need weeks of discusion and back-and-forth negotiations on how things _should_ be done.
@@ -252,13 +241,11 @@ You can be maintainer of whatever subpart, please.
 Take away the work from me.
 All contributors need to realize that if they do something really well, they will be in charge of the part they do well.
 
-<br>
 _J: That's a very good point._
 
 **M:** If you do it right, then you'll be in charge of the part you are doing
 right. It always works like that.
 
-<br>
 _S: They don't need a blessing from you, right?_
 
 **M:** I don't do blessings. *(laughs)*
@@ -275,12 +262,10 @@ _S: So we will release GIMP 3 with GTK+3 or 4?_
 
 **M:** They just branched for GTK+ 4.x, that's not going to happen overnight.
 
-<br>
 _P: It won't harm to suddenly have GIMP 4 instead of 3._
 
 **M:** No it wouldn't. If they are done in a few weeks, we'd go for GIMP 4 right away. So why not. That would be cool. *(laughs)* Or GIMP 5!
 
-<br>
 _J: GIMP 10?_
 
 **M:** GIMP X!
@@ -310,12 +295,10 @@ _S: What advice you would like to give to someone who would want to contribute?
 
 Don't give up because somebody says _"this patch isn't quite right"_, most of the time, it's simply not quite right. My first commit to GIMP was reverted immediately.
 
-<br>
 _S: I think you also reverted my first._
 
 **M:** Yes, that's kind of a tradition. Everybody fucks up on their first commit and gets reverted. That's good standard.
 
-<br>
 _S: So do not be afraid of errors?_
 
 **M:** Yes exactly. Unless they jeopardize the fate of humanity or something. That's unlikely.
