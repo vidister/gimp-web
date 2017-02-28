@@ -83,7 +83,7 @@ _J: Me? It's fun._
 Sometimes it's not fun but you do it anyway.
 
 <figure>
-<img src="{filename}images/mitch-interview/Montserrat_Pano_Gimpheros_Wilberheads.jpg" alt='GIMPers at Montserrat, Espana'>
+<img src="{filename}images/mitch-interview/Montserrat_Pano_Gimpheros_Wilberheads.jpg" alt='GIMPers at Montserrat, España'>
 <figcaption>
 GIMPers at Montserrat.
 </figcaption>
@@ -108,7 +108,7 @@ work.
 _*: (laughs)_
 
 <br>
-_J: What's your operating system, distribution, desktop…_
+_J: What's your operating system, distribution, desktop…?_
 
 **M:** Debian Unstable, GNOME 3.
 
@@ -154,7 +154,7 @@ _pippin: What was the first computer you programmed?_
 <br>
 _S: How did you write your first hello world?_
 
-**M:** In Basic of course. My programming languages were basic, assembler, pascal, modula2, C, in that weird order. :) Plus some others at university nobody cares about. :)
+**M:** In BASIC of course. My programming languages were BASIC, Assembly, Pascal, Modula-2, C, in that weird order. :) Plus some others at university nobody cares about. :)
 
 <br>
 _J: Do you code under the influence?_
@@ -195,7 +195,7 @@ _S: When will 2.10 be released?_
 
 **M:** Oh go away! The answer is _"go away!"_. Read my lips: **"go away"**. When it's ready.
 
-_S: Do you expect it to be this year._
+_S: Do you expect it to be this year?_
 
 **M:** Yes of course.
 
@@ -212,14 +212,14 @@ _S: There was this thing that the UI should use Python and the core should use C
 
 _S: This is something we had discussed._
 
-**M:** Yes but in the past, people wanted to use javascript, the year before they wanted to use Java, the year before they wanted to use this, and the year after they want to use that. And they are all gone. 
+**M:** Yes but in the past, people wanted to use JavaScript, the year before they wanted to use Java, the year before they wanted to use this, and the year after they want to use that. And they are all gone. 
 
-Everyone who ever said _"I want to use this or that"_, and _"…it's all shit, let's use javascript"_. None of them are still in the project, so… 
+Everyone who ever said _"I want to use this or that"_, and _"…it's all shit, let's use JavaScript"_. None of them are still in the project, so… 
 
 _S: So you don't see any big changes regarding GIMP in the near future?_
 
 **M:** In the near future definitely not, because we need to get some releases out.
-Unless, of course, there is a well-done patch that doesn't need weeks of discusion and back-and-forth negotiations on how things _should_ be done.
+Unless, of course, there is a well-done patch that doesn't need weeks of discussion and back-and-forth negotiations on how things _should_ be done.
 
 About using other languages: why not? There is Rust. There is maybe simpler stuff for doing user interfaces, but making such decisions for a codebase the size of GIMP is not something we can decide based on _"the latest hot stuff"_.
 
@@ -262,7 +262,7 @@ _J: GIMP 10?_
 
 ## Various rants ##
 
-_S: If you happen to be in a conversation with people talking about GIMP, but they don't know that you are involved, do you come out as the GIMP principal developer._
+_S: If you happen to be in a conversation with people talking about GIMP, but they don't know that you are involved, do you come out as the GIMP principal developer?_
 
 **M:** Only if they start talking utter bullshit, or if things simply need clarification. It has happened, of course. A guy wanted to convert me to GIMP once and I had to tell him: yeah you don't need to. It was in a non-hacker situation.
 
@@ -272,11 +272,11 @@ _J: Who is Wilber?_
 **M:** Nobody knows. Wilber is a GIMP.
 
 <br>
-_S: What special device would you like to see GIMP on._
+_S: What special device would you like to see GIMP on?_
 
 **M:** This cool Microsoft thing ([Surface Studio PC](https://youtu.be/BzMLA8YIgG0)) where they have this hyped video online, where it looks super slick, with touch and everything. 
 It's an ad like Apple used to do in the past, and now Microsoft does it, which is a bit weird.
-The official Microsoft youtube video makes you want to have one of these things.
+The official Microsoft YouTube video makes you want to have one of these things.
 
 <br>
 _S: What advice you would like to give to someone who would want to contribute?
