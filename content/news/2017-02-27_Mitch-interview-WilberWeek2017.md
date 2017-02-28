@@ -1,17 +1,17 @@
-Title: Interview of Michael Natterer, GIMP maintainer, during WilberWeek 2017
+Title: An Interview with Michael Natterer, GIMP maintainer
 Date: 2017-02-27
 Category: News
 Authors: Jehan
-Slug: interview-michael-natterer-wilberweek-2017
+Status: draft
 Summary: Michael Natterer gets interviewed by other GIMP developers
 
 GIMP is [Free Software](https://www.gnu.org/philosophy/free-sw.html), but even before this, it is people: the ones who create it, the ones who create _with_ it… We don't have accurate statistics and we take pride on not gathering your data. Yet we know (because there are various other websites who have logged partial statistics over the years) that this is a widely used piece of software, by millions of people around the world. So wouldn't it be neat to meet some of the individuals who make this project come alive?
 
-Some people expect a huge company behind GIMP. This is not the case. GIMP has always been developed by a random bunch of people scattered around the world (just a handful at a time), most of them volunteers, and none full-time.
-As an insider myself, I've wanted to launch a series of interviews with the many awesome people I've met since I started contributing. So who better to start with than our own benevolent dictator, GIMP maintainer, also the biggest code contributor: **Michael Natterer**, aka "mitch".
+Some people might expect that there's a huge company behind GIMP, but this is not the case. GIMP has always been developed by a handful of random people scattered around the world, most are volunteers and none of them work on it full-time.
+As an insider myself, I've wanted to launch a series of interviews with the many awesome people I've met since I started contributing. So who better to start with than our own benevolent dictator, GIMP maintainer, and the biggest code contributor: **Michael Natterer**, aka "mitch".
 
-This interview was held on Friday, February 3, 2017, at around 3AM, after a day of hacking at [Wilber Week](https://www.gimp.org/news/2017/01/18/wilberweek-2017-announced/), next to the fireplace.
-Next to us were several team members, amongst which Michael Schumacher (schumaml (S)) and Øyvind Kolås (pippin (P)) also asked questions.
+This interview was held on Friday, February 3, 2017 at around 3AM in front of a fireplace and after a day of hacking at [Wilber Week](https://www.gimp.org/news/2017/01/18/wilberweek-2017-announced/).
+With us were several team members, including Michael Schumacher (schumaml (S)) and Øyvind Kolås (pippin (P)), who also asked questions.
 
 <figure>
 <img src="{filename}images/mitch-interview/mitch-interview-950w.jpg" alt='Mitch, the man, the myth, the legend'>
@@ -38,7 +38,7 @@ _J: You use 2.10 instead?_
 
 _J: And you use GIMP often?_
 
-**M:** Mostly for trying what I implement, and also for making postcards I sell in my family business. That's the only thing I use it for. I mean… whenever I have to manipulate a pixel image, and not being an artist.
+**M:** Mostly for testing what I implement, and also for making postcards I sell in my family business. That's the only thing I use it for. 
 
 
 ## A maintainer ##
@@ -46,7 +46,7 @@ _J: And you use GIMP often?_
 _J: How did you start hacking GIMP?_
 
 **M:** There was this code that saved the user-assigned keyboard shortcuts for menu actions. The code had an escaping bug where you couldn't have a hyphen as an accelerator. So I wrote code for escaping the string. That was [my first GIMP
-patch][firstpatch] in… 1997 or 1998.
+patch][firstpatch] in 1997 or 1998.
 
 [firstpatch]: https://git.gnome.org/browse/gimp/commit/?id=2d442d4842e21c45959ed73a5d9ee3896a2ada08
 
@@ -67,7 +67,7 @@ _S: Have they ever contacted you?_
 
 **M:** Yes, they sent me a few plugins which I pushed. Neon, photocopy and cartoon. It was around 10 years after they left the project, one of them comes and says _"hey Mitch, I coded 3 plugins, here they are"_. Everything looked perfect, so I just pushed them as-is and they still exist.
 
-These days, they got reimplemented in GEGL, but the new versions give different results, so the old plugins are still in the menu.
+These days, they've been reimplemented in GEGL, but the new versions give different results, so the old plugins are still in the menu.
 
 <br>
 _J: Why do you continue working on GIMP?_
@@ -79,8 +79,8 @@ _J: Why do you continue working on GIMP?_
 
 _J: Me? It's fun._
 
-**M:** It's fun yeah. But only if it's fun. Sometimes it's not fun but you do it
-anyway.
+**M:** It's fun yeah. 
+Sometimes it's not fun but you do it anyway.
 
 <figure>
 <img src="{filename}images/mitch-interview/Montserrat_Pano_Gimpheros_Wilberheads.jpg" alt='GIMPers at Montserrat, Espana'>
@@ -92,15 +92,14 @@ GIMPers at Montserrat.
 <br>
 _J: Where do you see GIMP 20 years from now?_
 
-**M:** It will probably end up in a pile of bits rotting in some corner. But maybe I was thinking the same 20 years ago, so you never know.
+**M:** It will probably end up in a pile of bits rotting in some corner, but I may have been thinking the same 20 years ago, so you never know.
 
 
 ## A hacker ##
 
 _J: What do you think of Free Software?_
 
-**M:** It's the way to go.
-But everybody has to use the software which is available for a task, so for some tasks, you have no choice but using something that's not exactly free.
+**M:** It's the way to go, but you need to use the software which is available for a task, so for some tasks you have no choice but to use something that's not exactly free.
 
 For example: *[pointing to nomis trying to make a label printer work on a GNU/Linux
 distribution]* if you were using the closed-source driver for that, it would
@@ -116,9 +115,9 @@ _J: What's your operating system, distribution, desktop…_
 _J: You often complain about all these though._
 
 **M:** Because it's all shit.
-Just because you have the least shitty doesn't mean it's not all shit.
-Like autotools, they are shit, but it's the best shit we have.
-There is no software that isn't shit, except perhaps the most simple of all software, which does that one task.
+Just because you have the least shitty [software] doesn't mean it's not all shit.
+Like autotools. They are shit, but it's the best shit we have.
+There is no software that isn't shit, except perhaps the most simple of software which does one task.
 
 <br>
 _J: What's your development environment or text editor of choice?_
@@ -128,13 +127,14 @@ _J: What's your development environment or text editor of choice?_
 <br>
 _J: How do you like to hack?_
 
-**M:** Depends. Sometimes I need silence, sometimes a crowded room.
+**M:** It depends. Sometimes I need silence and sometimes a crowded room.
 
 <br>
-_J: You are your own boss in a shop. But we see commits from you all the time. So are you hacking in your bookstore when you get free time and don't have to take care of your employees or customers?_
+_J: You are your own boss in a shop. But we see commits from you all the time. Are you hacking in your bookstore when you get free time and don't have to take care of your employees or customers?_
 
-**M:** Sometimes, but very rarely. I'm mostly hacking in the evenings. Or I commit something during daytime that I worked on the night before until 2AM. If I think _"I better go to sleep before I
-push this"_, I push it on the next day after looking at it one more time awake.
+**M:** Sometimes, but very rarely. I'm mostly hacking in the evenings, or I commit something during the daytime that I worked on the night before until 2AM. 
+If I think _"I better go to sleep before I push this"_, then I wait until the next day when I'm awake to check it once more before I do.
+
 But I don't have time to do 5-hour long patches during working hours.
 
 _J: You don't sleep?_
@@ -144,13 +144,12 @@ _J: You don't sleep?_
 <br>
 _S: What channels do you use to communicate on behalf or in the project?_
 
-**M:** [IRC. And IRC.](https://xkcd.com/1782/)
+**M:** [IRC, and IRC.](https://xkcd.com/1782/)
 
 <br>
 _pippin: What was the first computer you programmed?_
 
-**M:** It was a Schneider CPC, a variation of the Amstrad.
-   At 15 or 16?
+**M:** It was a Schneider CPC, a variation of the Amstrad. At 15 or 16?
 
 <br>
 _S: How did you write your first hello world?_
@@ -172,19 +171,19 @@ Obligatory <a href='https://xkcd.com/323/' title='Apple uses automated schnapps 
 
 ## GIMP: present ##
 
-_J: All software is shit, but in the shitty software list, is GIMP not so bad?_
+_J: So all software is shit, but in the list of shitty software, is GIMP not so bad?_
 
 **M:** I hope so, but of course it's shitty.
-We're just a handful of people doing what companies do with 100 (or more) people.
-It can only be really weird in many places.
+We're just a handful of volunteers doing what companies with hundreds of (paid) people do.
 
 _J: But sometimes we do things not so bad, right?_
 
-**M:** Yes, we sometimes do things not so bad, but there is nobody who makes
-sure of it.
-There is nobody who puts 2 months of work into a plugin to make it perfect.
-Sometimes it happens, but then it gets dumped on us and that's it.
-Ten years later, we look at the code again and say _"oh my god, this is complete garbage"_. Very rarely, people maintain and fix their code long term. But then, we cannot seriously expect that to happen more often, everybody is a volunteer here.
+**M:** Yes, we sometimes do things not so bad, but there is nobody to make sure of it.
+It's not often that someone spends the time and effort to make a plugin perfect.
+Sometimes it happens, but usually it gets dumped on us and that's it.
+Ten years later, we look at the code again and say _"oh my god, this is complete garbage"_. 
+Very rarely do people maintain their code long term and we cannot seriously expect that to happen with everyone being a volunteer here.
+
 
 <br>
 _S: Is there something you'd like to do much more in the project, apart from coding?_
@@ -213,36 +212,29 @@ _S: There was this thing that the UI should use Python and the core should use C
 
 _S: This is something we had discussed._
 
-**M:** Yes but in the past, people wanted to use javascript, the year before they wanted to use Java, the year before they wanted to use this, and the year after they want to use that. And they are all gone. Everybody who ever said _"I want to use this or that"_, and _"…it's all shit, let's use javascript"_. None of them are still in the project, so… it gets boring.
+**M:** Yes but in the past, people wanted to use javascript, the year before they wanted to use Java, the year before they wanted to use this, and the year after they want to use that. And they are all gone. 
+
+Everyone who ever said _"I want to use this or that"_, and _"…it's all shit, let's use javascript"_. None of them are still in the project, so… 
 
 _S: So you don't see any big changes regarding GIMP in the near future?_
 
-**M:** In the near future definitely not, because we have to get some releases out. Unless of course there is a well-done patch that doesn't need weeks of discusion and back-and-forth negotiations on how things _should_ be done.
+**M:** In the near future definitely not, because we need to get some releases out.
+Unless, of course, there is a well-done patch that doesn't need weeks of discusion and back-and-forth negotiations on how things _should_ be done.
 
-About using other languages? Why not? There is Rust. There is maybe simpler stuff for doing user interfaces, there is this and that. But making such decisions for a codebase the size of GIMP is not something we can decide based on _"the latest hot stuff"_.
+About using other languages: why not? There is Rust. There is maybe simpler stuff for doing user interfaces, but making such decisions for a codebase the size of GIMP is not something we can decide based on _"the latest hot stuff"_.
 
-I mean, look at this javascript mess. 
-Is that really better? Just because it's easier?
-Easier just means that more clueless people can write code, and they are clueless enough already.
-So making is easier doesn't make it better.
-Arrogant but true.
 
 <br>
 _S: Anything else you want to change?_
 
-**M:** Yes a lot of stuff, if _**I**_ don't have to do all the changes, because I really have enough things to do already *(laughs)*.
+**M:** Yes a lot of stuff as long as _**I**_ don't have to do all the changes, because I really have enough things to do already *(laughs)*.
 
-So you go organize it better.
-
-You can be maintainer of whatever subpart, please.
-**Please.**
-Take away the work from me.
-All contributors need to realize that if they do something really well, they will be in charge of the part they do well.
+All contributors need to realize that if they do something really well, they will be in charge of that part.
 
 _J: That's a very good point._
 
-**M:** If you do it right, then you'll be in charge of the part you are doing
-right. It always works like that.
+**M:** If you do it right, then you'll be in charge of the part you are doing right.
+It always works like that.
 
 _S: They don't need a blessing from you, right?_
 
@@ -251,14 +243,14 @@ _S: They don't need a blessing from you, right?_
 <br>
 _J: GTK+ comes from GIMP. What do you think of GTK+ now?_
 
-**M:** They lost their minds, but they are also doing really good work. I don't really understand some of the decisions.
+**M:** They lost their minds, but they are also doing really good work. I don't really understand some of their decisions.
 
-But… look at the mails we get. People say exactly the same about GIMP: _"Have the GIMP devs lost their minds?!?"_. Also, I was involved in GTK+ for a long time, and people thought I had lost my mind, which was (and is) probably true. Bottom line is that all is fine between GTK+ and GIMP, I just reserve the right to complain for myself too.
+On the other hand, look at the mails we get. People say exactly the same about GIMP: _"Have the GIMP devs lost their minds?!?"_. I was involved with GTK+ for a long time and people thought that I had lost my mind, which was (and is) probably true. Bottom line is that **all is fine between GTK+ and GIMP**, I just reserve the right to complain for myself.
 
 <br>
 _S: So we will release GIMP 3 with GTK+3 or 4?_
 
-**M:** They just branched for GTK+ 4.x, that's not going to happen overnight.
+**M:** They just branched for GTK+ 4.x, so that's not going to happen overnight.
 
 _P: It won't harm to suddenly have GIMP 4 instead of 3._
 
@@ -272,7 +264,7 @@ _J: GIMP 10?_
 
 _S: If you happen to be in a conversation with people talking about GIMP, but they don't know that you are involved, do you come out as the GIMP principal developer._
 
-**M:** Only if they start talking utter bullshit, or things simply need clarification. It has happened, of course. A guy wanted to convert me to GIMP once and I had to tell him: yeah you don't need to. It was in a non-hacker situation.
+**M:** Only if they start talking utter bullshit, or if things simply need clarification. It has happened, of course. A guy wanted to convert me to GIMP once and I had to tell him: yeah you don't need to. It was in a non-hacker situation.
 
 <br>
 _J: Who is Wilber?_
@@ -282,7 +274,8 @@ _J: Who is Wilber?_
 <br>
 _S: What special device would you like to see GIMP on._
 
-**M:** This cool Microsoft thing ([Surface Studio PC](https://youtu.be/BzMLA8YIgG0)) where they have this hyped video online. It looks super slick, with touch and everything. An ad like Apple used to do them, in the past. Now Microsoft does that, which is a bit weird.
+**M:** This cool Microsoft thing ([Surface Studio PC](https://youtu.be/BzMLA8YIgG0)) where they have this hyped video online, where it looks super slick, with touch and everything. 
+It's an ad like Apple used to do in the past, and now Microsoft does it, which is a bit weird.
 The official Microsoft youtube video makes you want to have one of these things.
 
 <br>
@@ -291,11 +284,11 @@ _S: What advice you would like to give to someone who would want to contribute?
 
 **M:** Listen to advice and be persistent.
 
-Don't give up because somebody says _"this patch isn't quite right"_, most of the time, it's simply not quite right. My first commit to GIMP was reverted immediately.
+Don't give up because somebody says _"this patch isn't quite right"_, most of the time it won't be. My first commit to GIMP was reverted immediately.
 
 _S: I think you also reverted my first._
 
-**M:** Yes, that's kind of a tradition. Everybody fucks up on their first commit and gets reverted. That's good standard.
+**M:** Yes, that's kind of a tradition. Everybody fucks up on their first commit and it gets reverted. That's a good standard.
 
 _S: So do not be afraid of errors?_
 
