@@ -5,7 +5,7 @@ Authors: Jehan
 Status: draft
 Summary: Michael Natterer gets interviewed by other GIMP developers
 
-GIMP is [Free Software](https://www.gnu.org/philosophy/free-sw.html), but even before this, it is people: the ones who create it, the ones who create _with_ it… We don't have accurate statistics and we take pride on not gathering your data. Yet we know (because there are various other websites who have logged partial statistics over the years) that this is a widely used piece of software, by millions of people around the world. So wouldn't it be neat to meet some of the individuals who make this project come alive?
+GIMP is [Free Software](https://www.gnu.org/philosophy/free-sw.html), but even before this, it is people: the ones who create it, the ones who create _with_ it… We don't have accurate statistics and we take pride on not gathering your data. Yet we know (through other websites that have logged partial statistics over the years) that this is a widely used piece of software, by millions of people around the world. So wouldn't it be neat to meet some of the individuals who make this project come alive?
 
 Some people might expect that there's a huge company behind GIMP, but this is not the case. GIMP has always been developed by a handful of random people scattered around the world, most are volunteers and none of them work on it full-time.
 As an insider myself, I've wanted to launch a series of interviews with the many awesome people I've met since I started contributing. So who better to start with than our own benevolent dictator, GIMP maintainer, and the biggest code contributor: **Michael Natterer**, aka "mitch".
@@ -36,7 +36,7 @@ _J: You use 2.10 instead?_
 
 **M:** Yes.
 
-_J: And you use GIMP often?_
+_J: Do you use GIMP often?_
 
 **M:** Mostly for testing what I implement, and also for making postcards I sell in my family business. That's the only thing I use it for.
 
@@ -65,22 +65,21 @@ _Schumaml: Have you ever met the [original authors][] (Spencer Kimball and Peter
 
 _S: Have they ever contacted you?_
 
-**M:** Yes, they sent me a few plugins which I pushed. Neon, photocopy and cartoon. It was around 10 years after they left the project, one of them comes and says _"hey Mitch, I coded 3 plugins, here they are"_. Everything looked perfect, so I just pushed them as-is and they still exist.
+**M:** Yes, they sent me a few plugins which I pushed. Neon, photocopy and cartoon. It was around 10 years after they left the project, one of them comes to me and says _"Hey Mitch, I coded 3 plugins, here they are"_. Everything looked perfect so I just pushed them as-is, and they still exist.
 
 These days, they've been reimplemented in GEGL, but the new versions give different results, so the old plugins are still in the menu.
 
 <br>
 _J: Why do you continue working on GIMP?_
 
-**M:** that's a good question. *(laughs)*
-   I don't know. You guys, perhaps?
-   It can be really annoying sometimes.
-   Why do you guys continue?
+**M:** That's a good question. *(laughs)*
+I don't know. You guys, perhaps?
+It can be really annoying sometimes.
+Why do you guys continue?
 
 _J: Me? It's fun._
 
-**M:** It's fun yeah.
-Sometimes it's not fun but you do it anyway.
+**M:** It's fun yes but sometimes it's not fun and you do it anyway.
 
 <figure>
 <img src="{filename}images/mitch-interview/Montserrat_Pano_Gimpheros_Wilberheads.jpg" alt='GIMPers at Montserrat, España'>
@@ -92,7 +91,7 @@ GIMPers at Montserrat.
 <br>
 _J: Where do you see GIMP 20 years from now?_
 
-**M:** It will probably end up in a pile of bits rotting in some corner, but I may have been thinking the same 20 years ago, so you never know.
+**M:** It will probably end up in a pile of bits rotting in some corner.  I may have been thinking the same thing twenty years ago, though, so you never know.
 
 
 ## A hacker ##
@@ -133,7 +132,7 @@ _J: How do you like to hack?_
 _J: You are your own boss in a shop. But we see commits from you all the time. Are you hacking in your bookstore when you get free time and don't have to take care of your employees or customers?_
 
 **M:** Sometimes, but very rarely. I'm mostly hacking in the evenings, or I commit something during the daytime that I worked on the night before until 2AM.
-If I think _"I better go to sleep before I push this"_, then I wait until the next day when I'm awake to check it once more before I do.
+If I think _"I better go to sleep before I push this"_, then I'll wait until the next day when I'm awake to check it once more before I do.
 
 But I don't have time to do 5-hour long patches during working hours.
 
@@ -178,7 +177,7 @@ We're just a handful of volunteers doing what companies with hundreds of (paid) 
 
 _J: But sometimes we do things not so bad, right?_
 
-**M:** Yes, we sometimes do things not so bad, but there is nobody to make sure of it.
+**M:** Yes, but there is nobody to make sure of it.
 It's not often that someone spends the time and effort to make a plugin perfect.
 Sometimes it happens, but usually it gets dumped on us and that's it.
 Ten years later, we look at the code again and say _"oh my god, this is complete garbage"_.
@@ -212,13 +211,13 @@ _S: There was this thing that the UI should use Python and the core should use C
 
 _S: This is something we had discussed._
 
-**M:** Yes but in the past, people wanted to use JavaScript, the year before they wanted to use Java, the year before they wanted to use this, and the year after they want to use that. And they are all gone.
+**M:** Yes but in the past people wanted to use JavaScript. The year before they wanted to use Java, the year before they wanted to use this, and the year after they want to use that. Now they're all gone.
 
-Everyone who ever said _"I want to use this or that"_, and _"…it's all shit, let's use JavaScript"_. None of them are still in the project, so…
+Everyone who ever said _"I want to use this or that"_, and _"It's all shit, let's use JavaScript"_, none of them are still in the project, so…
 
 _S: So you don't see any big changes regarding GIMP in the near future?_
 
-**M:** In the near future definitely not, because we need to get some releases out.
+**M:** In the near future definitely not because we need to get some releases out.
 Unless, of course, there is a well-done patch that doesn't need weeks of discussion and back-and-forth negotiations on how things _should_ be done.
 
 About using other languages: why not? There is Rust. There is maybe simpler stuff for doing user interfaces, but making such decisions for a codebase the size of GIMP is not something we can decide based on _"the latest hot stuff"_.
@@ -252,7 +251,7 @@ _S: So we will release GIMP 3 with GTK+3 or 4?_
 
 **M:** They just branched for GTK+ 4.x, so that's not going to happen overnight.
 
-_P: It won't harm to suddenly have GIMP 4 instead of 3._
+_P: It won't hurt to suddenly have GIMP 4 instead of 3._
 
 **M:** No it wouldn't. If they are done in a few weeks, we'd go for GIMP 4 right away. So why not. That would be cool. *(laughs)* Or GIMP 5!
 
@@ -274,8 +273,8 @@ _J: Who is Wilber?_
 <br>
 _S: What special device would you like to see GIMP on?_
 
-**M:** This cool Microsoft thing ([Surface Studio PC](https://youtu.be/BzMLA8YIgG0)) where they have this hyped video online, where it looks super slick, with touch and everything.
-It's an ad like Apple used to do in the past, and now Microsoft does it, which is a bit weird.
+**M:** This cool Microsoft thing ([Surface Studio PC](https://youtu.be/BzMLA8YIgG0)) where they have this hyped video online, and it looks super slick with touch and everything.
+It's an ad like Apple used to do in the past and now Microsoft does it, which is a bit weird.
 The official Microsoft YouTube video makes you want to have one of these things.
 
 <br>
