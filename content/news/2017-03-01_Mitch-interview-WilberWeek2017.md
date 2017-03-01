@@ -1,5 +1,5 @@
 Title: An Interview with Michael Natterer, GIMP maintainer
-Date: 2017-02-27
+Date: 2017-03-01
 Category: News
 Authors: Jehan
 Summary: Michael Natterer gets interviewed by other GIMP developers
