@@ -38,7 +38,7 @@ _J: You use 2.10 instead?_
 
 _J: And you use GIMP often?_
 
-**M:** Mostly for testing what I implement, and also for making postcards I sell in my family business. That's the only thing I use it for. 
+**M:** Mostly for testing what I implement, and also for making postcards I sell in my family business. That's the only thing I use it for.
 
 
 ## A maintainer ##
@@ -79,7 +79,7 @@ _J: Why do you continue working on GIMP?_
 
 _J: Me? It's fun._
 
-**M:** It's fun yeah. 
+**M:** It's fun yeah.
 Sometimes it's not fun but you do it anyway.
 
 <figure>
@@ -132,7 +132,7 @@ _J: How do you like to hack?_
 <br>
 _J: You are your own boss in a shop. But we see commits from you all the time. Are you hacking in your bookstore when you get free time and don't have to take care of your employees or customers?_
 
-**M:** Sometimes, but very rarely. I'm mostly hacking in the evenings, or I commit something during the daytime that I worked on the night before until 2AM. 
+**M:** Sometimes, but very rarely. I'm mostly hacking in the evenings, or I commit something during the daytime that I worked on the night before until 2AM.
 If I think _"I better go to sleep before I push this"_, then I wait until the next day when I'm awake to check it once more before I do.
 
 But I don't have time to do 5-hour long patches during working hours.
@@ -181,7 +181,7 @@ _J: But sometimes we do things not so bad, right?_
 **M:** Yes, we sometimes do things not so bad, but there is nobody to make sure of it.
 It's not often that someone spends the time and effort to make a plugin perfect.
 Sometimes it happens, but usually it gets dumped on us and that's it.
-Ten years later, we look at the code again and say _"oh my god, this is complete garbage"_. 
+Ten years later, we look at the code again and say _"oh my god, this is complete garbage"_.
 Very rarely do people maintain their code long term and we cannot seriously expect that to happen with everyone being a volunteer here.
 
 
@@ -212,9 +212,9 @@ _S: There was this thing that the UI should use Python and the core should use C
 
 _S: This is something we had discussed._
 
-**M:** Yes but in the past, people wanted to use JavaScript, the year before they wanted to use Java, the year before they wanted to use this, and the year after they want to use that. And they are all gone. 
+**M:** Yes but in the past, people wanted to use JavaScript, the year before they wanted to use Java, the year before they wanted to use this, and the year after they want to use that. And they are all gone.
 
-Everyone who ever said _"I want to use this or that"_, and _"…it's all shit, let's use JavaScript"_. None of them are still in the project, so… 
+Everyone who ever said _"I want to use this or that"_, and _"…it's all shit, let's use JavaScript"_. None of them are still in the project, so…
 
 _S: So you don't see any big changes regarding GIMP in the near future?_
 
@@ -274,7 +274,7 @@ _J: Who is Wilber?_
 <br>
 _S: What special device would you like to see GIMP on?_
 
-**M:** This cool Microsoft thing ([Surface Studio PC](https://youtu.be/BzMLA8YIgG0)) where they have this hyped video online, where it looks super slick, with touch and everything. 
+**M:** This cool Microsoft thing ([Surface Studio PC](https://youtu.be/BzMLA8YIgG0)) where they have this hyped video online, where it looks super slick, with touch and everything.
 It's an ad like Apple used to do in the past, and now Microsoft does it, which is a bit weird.
 The official Microsoft YouTube video makes you want to have one of these things.
 
