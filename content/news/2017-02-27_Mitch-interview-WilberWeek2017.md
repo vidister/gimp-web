@@ -2,7 +2,6 @@ Title: An Interview with Michael Natterer, GIMP maintainer
 Date: 2017-02-27
 Category: News
 Authors: Jehan
-Status: draft
 Summary: Michael Natterer gets interviewed by other GIMP developers
 
 GIMP is [Free Software](https://www.gnu.org/philosophy/free-sw.html), but even before this, it is people: the ones who create it, the ones who create _with_ it… We don't have accurate statistics and we take pride on not gathering your data. Yet we know (through other websites that have logged partial statistics over the years) that this is a widely used piece of software, by millions of people around the world. So wouldn't it be neat to meet some of the individuals who make this project come alive?
