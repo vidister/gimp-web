@@ -7,7 +7,7 @@ Summary: Michael Natterer gets interviewed by other GIMP developers
 GIMP is [Free Software](https://www.gnu.org/philosophy/free-sw.html), but even before this, it is people: the ones who create it, the ones who create _with_ it… We don't have accurate statistics and we take pride on not gathering your data. Yet we know (through other websites that have logged partial statistics over the years) that this is a widely used piece of software, by millions of people around the world. So wouldn't it be neat to meet some of the individuals who make this project come alive?
 
 Some people think there's a huge company behind GIMP. This is not the case.
-GIMP has always been developed by a handful of random people scattered around the world.
+GIMP has always been developed by a handful of random people scattered around the world. 
 Most of them are volunteers and none of them work on it full-time.
 As an insider myself, I've wanted to launch a series of interviews with the many awesome people I've met since I started contributing. So who better to start with than our own benevolent dictator, GIMP maintainer, and the biggest code contributor: **Michael Natterer**, aka "mitch".
 
