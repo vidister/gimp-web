@@ -236,7 +236,7 @@ _S: Anything else you want to change?_
 
 **M:** Yes a lot of stuff as long as _**I**_ don't have to do all the changes, because I really have enough things to do already *(laughs)*.
 
-You can be maintainer of whatever subpart, please.
+You can be the maintainer of whatever subpart, please.
 **Please.** Take away the work from me.
 All contributors need to realize that if they do something really well, they will be in charge of that part.
 
