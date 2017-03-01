@@ -16,7 +16,7 @@ This interview was held on Friday, February 3, 2017 at around 3AM in front of a 
 With us were several team members, including Michael Schumacher (schumaml (S)) and Øyvind Kolås (pippin (P)), who also asked questions.
 
 <figure>
-<img src="{filename}images/mitch-interview/mitch-interview-950w.jpg" alt='Mitch, the man, the myth, the legend'>
+<img src="{filename}images/mitch-interview/mitch-interview-950w.jpg" alt='Mitch, the man, the myth, the legend' width='950' height='566'>
 <figcaption>
 Mitch.  The man.  The myth.  The legend.<br>
 The reason your commit probably got reverted.
@@ -84,7 +84,7 @@ _J: Me? It's fun._
 **M:** It's fun yes but sometimes it's not fun and you do it anyway.
 
 <figure>
-<img src="{filename}images/mitch-interview/Montserrat_Pano_Gimpheros_Wilberheads.jpg" alt='GIMPers at Montserrat, España'>
+<img src="{filename}images/mitch-interview/Montserrat_Pano_Gimpheros_Wilberheads.jpg" alt='GIMPers at Montserrat, España' width='950' height='343'>
 <figcaption>
 GIMPers at Montserrat.
 </figcaption>
@@ -163,7 +163,9 @@ _J: Do you code under the influence?_
 **M:** Always! That's the only way to code.
 
 <figure>
-<a href='https://xkcd.com/323/' title='Apple uses automated schnapps IVs.'><img src='{filename}images/ballmer_peak.png' alt='XKCD Ballmer Peak'></a>
+<a href='https://xkcd.com/323/' title='Apple uses automated schnapps IVs.'>
+<img src='{filename}images/ballmer_peak.png' alt='XKCD Ballmer Peak' width='652' height='592'>
+</a>
 <figcaption>
 Obligatory <a href='https://xkcd.com/323/' title='Apple uses automated schnapps IVs.'>XKCD</a>, by Randall Munroe (<a href='http://creativecommons.org/licenses/by-nc/2.5/' title='Creative Commons Attribution-NonCommercial 2.5 License'>Creative Commons By-NC 2.5</a>).
 </figcaption>
@@ -301,7 +303,7 @@ _*: Thanks for the interview._
 **M:** You are welcome!
 
 <figure>
-<img src="{filename}images/mitch-interview/mitch-coding.jpg" alt='Mitch at work'>
+<img src="{filename}images/mitch-interview/mitch-coding.jpg" alt='Mitch at work' width='650' height='650'>
 </figure>
 
 <small>Images in this post are courtesy of [antenne](http://antenne.springborn.net/) and used by permission.</small>
