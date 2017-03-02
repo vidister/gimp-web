@@ -228,7 +228,7 @@ About using other languages: why not? There is Rust. There is maybe simpler stuf
 I mean, look at this javascript mess.
 Is that really better? Just because it's easier?
 Easier just means that more clueless people can write code, and they are clueless enough already.
-So making is easier doesn't make it better.
+So making it easier doesn't make it better.
 Arrogant but true.
 
 <br>
