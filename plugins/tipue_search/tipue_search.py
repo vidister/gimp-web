@@ -88,7 +88,7 @@ class Tipue_Search_JSON_Generator(object):
 
 
     def generate_output(self, writer):
-        path = os.path.join(self.output_path, 'tipuesearch_content.json')
+        path = os.path.join(self.output_path, 'tipuesearch_content.js')
 
         pages = self.context['pages'] + self.context['articles']
 
