@@ -29,10 +29,12 @@ This is the same procedure anyone can use to test new content they would like to
 ### Getting a build environment
 
 1. Install [Python].  
-2.7.x is best, earlier versions are not supported.  
-Only provisional support for 3.3+.
+ 2.7.x is best, earlier versions are not supported.  
+ Only provisional support for 3.3+.
 2. Install [Pelican].  
-Simplest method is simply: `pip install pelican`
+ Simplest method is simply: `pip install pelican`  
+ Current version of Pelican is `3.6.2`.  
+ Use this version for now to stay in sync with pentagon (the server).
 3. Install some extra components:
     * For [Markdown] support:  
     `pip install Markdown`
