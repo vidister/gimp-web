@@ -312,4 +312,4 @@ _*: Thanks for the interview._
 <img src="{filename}images/mitch-interview/mitch-coding.jpg" alt='Mitch at work' width='650' height='650'>
 </figure>
 
-<small>Images in this post are courtesy of [antenne](http://antenne.springborn.net/) and used by permission.</small>
+<small>Images in this post are courtesy of antenne and used by permission (<a class='cc' href='https://creativecommons.org/licenses/by-sa/4.0/' title='Creative Commons Attribution-ShareAlike 4.0 International'>cba</a>).</small>
