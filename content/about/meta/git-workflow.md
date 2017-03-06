@@ -4,7 +4,7 @@ Author: Pat David
 Summary: What the workflow should be with branches test and master.
 
 <figure>
-<img src="https://imgs.xkcd.com/comics/git.png" title="If that doesn't fix it, git.txt contains the phone number of a friend of mine who understands git. Just wait through a few minutes of 'It's really pretty simple, just think of branches as...' and eventually you'll learn the commands that will fix everything." alt="Git">
+<img src="{filename}git.png" title="If that doesn't fix it, git.txt contains the phone number of a friend of mine who understands git. Just wait through a few minutes of 'It's really pretty simple, just think of branches as...' and eventually you'll learn the commands that will fix everything." alt="Git">
 <figcaption>
 Obligatory <a href="https://xkcd.com/1597/">XKCD</a>. 
 (<a class='cc' href='http://creativecommons.org/licenses/by-nc/2.5/' title='Creative Commons Attribution-NonCommercial'>cbn</a>)
