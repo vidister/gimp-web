@@ -81,7 +81,7 @@ or 255, 172, 80
 
 <span>But what about 16-bit images?</span> Well - the data is still in the image file to correctly describe the colors at 16bit/channel, but most likely what you’ll be seeing on your monitor is an interpolation of the values to an 8-bit/channel colorspace. You should _always_ work in the highest bit depth color that you can, and leave any conversions to 8-bit for when you are saving your work to be viewed on a monitor.
 
-The important point to take away from this is to realize that when all three color channels are the same value, you’ll got a grey color. So a middle gray value of 127, 127, 127 would look like this:
+The important point to take away from this is to realize that when all three color channels are the same value, you’ll get a grey color. So a middle gray value of 127, 127, 127 would look like this:
 
 <p class="color-ex color127127127" >
 127, 127, 127
