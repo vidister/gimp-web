@@ -2,6 +2,7 @@ Title: An Interview with Michael Schumacher, GIMP administrator
 Date: 2017-04-19
 Category: News
 Authors: Jehan
+Status: draft
 Summary: Michael Schumacher gets interviewed by other GIMP developers
 
 *This is the second of a series of interviews of various people surrounding GIMP development and community. See also the [interview of Mitch, GIMP maintainer](https://www.gimp.org/news/2017/03/01/an-interview-with-michael-natterer-gimp-maintainer/)*
