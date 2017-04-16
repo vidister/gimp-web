@@ -7,7 +7,7 @@ Summary: Michael Schumacher gets interviewed by other GIMP developers
 
 *This is the second of a series of interviews of various people surrounding GIMP development and community. See also the [interview of Mitch, GIMP maintainer](https://www.gimp.org/news/2017/03/01/an-interview-with-michael-natterer-gimp-maintainer/)*
 
-GIMP is not only made by hard-core developers. The team also encourages less technical-inclined contributors. Michael Schumacher, *aka* Schumaml, is a good example of such a core contributor, as he had a very important impact over more than 10 years. Mostly known as the project administrator, nowadays he takes care of everything but coding: administrative tasks, management…
+GIMP is not only made by hard-core developers. The team also encourages less technical-inclined contributors. Michael Schumacher, *aka* Schumaml, is a good example of such a core contributor, as he has had a very important impact for over more than 10 years. Mostly known as the project administrator, nowadays he takes care of everything but coding: administrative tasks, management…
 
 Furthermore Schumaml was recently named the maintainer of the 2.8 branch, the stable version of GIMP which only receives bugfixes, showing that it does not require a technically-focused mind to occupy important roles successfully.
 
