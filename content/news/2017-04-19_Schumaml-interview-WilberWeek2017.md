@@ -34,6 +34,7 @@ And also I have administrative priviledges on GIMP web server, on mailing lists,
 
 So I've been called the tie-bearing GIMP office manager. I even got a t-shirt with a printed tie because I've actually been in one meeting, at Libre Graphics Meeting wearing a shirt and a tie.
 
+<br/>
 _J: How long have you contributed?_
 
 **S:** I think I started somewhere between 2001 and 2004. The first contributions were probably getting GIMP buildable on MSYS, the minimal GNU build system on the Windows platform. Because I was annoyed that there were only GIMP builds for releases and not for every commit in between.
@@ -46,6 +47,7 @@ _J: So you mostly use GIMP on Windows?_
 
 **S:** Back more than 10 years ago, I did use Windows exclusively. So basically back then I had done the porting of GIMP to the Windows platform.
 
+<br/>
 _J: Do you use GIMP?_
 
 **S:** I use GIMP. Not as much as many other people but I use it to test many things of GIMP itself. I use it to edit photos I make. I don't publish many of them because when I'm editing them, I print them or I use them for some documentation work so it goes to a customer. I even use it on Windows still. But now my main platform is Linux.
@@ -55,10 +57,12 @@ _J: What kind of job do you do?_
 **S:** I'm working for a company that used to be a part of Siemens. It's been carved out. It's still partially owned by Siemens. And we are selling communication systems. Nowadays this stuff is called "Communication Enabled Business Processes". Like everything which has to do with communication. Calling someone or texting someone or exchanging chats or whatever. And we are providing the software, the service and
 the consulting.
 
+<br/>
 _J: Why do you contribute to GIMP?_
 
 **S:** It started with pure selfishness like being able to have the most current GIMP available to me. I believe in Free Software. I believe software should be available for everyone for every purpose. GIMP is a Free Software project. Around the time I got hooked up on GIMP, I got hooked up on Wikipedia which does the same to knowledge. So I kind of feel like — yeah well — I'm contributing to something that helps a lot of people all over the world. I think that's a good thing. And GIMP happens to be the project that was my first major project I contributed to at all. And I like it. It's kind of in-line with what I specialized at university. Like image synthesis, image manipulation, whatever. Kind of seem like a logical extension.
 
+<br/>
 _Rishi: What do you think of Michael Schumacher?_
 
 **S:** (laughs) The formula one driver?
@@ -75,12 +79,14 @@ _pippin: Have you ever made use of sharing the name?_
 
 I've never used it, I've never abused it. And nowadays, or after the end of his professional racing career, it basically didn't matter anymore.
 
+<br/>
 _P: Any controversial theme you wish to be asked?_
 
 **S:** Like the fact that I would like to kill spammers?
 
 _Nomis: Not very controversial._
 
+<br/>
 _J: What do you want to see in GIMP?_
 
 **S:** Feature-wise, I'm quite OK with what GIMP is right now. I have to admit that some of the current stuff in GIMP development version is still above my head like I have no real concept yet of the difference of compositing and blending. Learning that it was 2 different things was quite useful. I hope that we can get the documentation of GIMP up-to-speed in time.  
@@ -89,14 +95,17 @@ I'm more concerned about the project management. As in how do we decide what new
 
 But yeah the project is still a bit old-fashion in regard to releases. So we are trailing current development models. "Development models" is the term I use because I'm not even really familiar how you call this. I'm intrigued by the idea of having stable branches that can actually receive new features. I'm not quite sure if I want 2.10 constantly evolving. I would prefer to have 2.12. That's details.
 
+<br/>
 _J: How do you see GIMP in 20 years?_
 
 **S:** First thing in 20 years, I'll be 60 (laughs). So I'm not even sure how I see myself at that point. Well let's be selfish. I very much would like to see myself still part of the project in 20 years. I would still like to be able to see it as an image manipulation program. One of the major Free Software ones. And I have no idea at all how it will look like (laughs) because there is so much that can change. Especially even in the user interaction. How people interact with software might actually be the defining factor for how applications will look in 20 years.
 
+<br/>
 _J: What's **the** feature you are really waiting for?_
 
 **S:** The feature I'm really waiting for. It's not a feature of painting or image manipulation. It's about organization. This thing we want to do, plugin or ressource registry 2.0. Like properly built. Like really managed. Like not the hand-duplicate of an existing plugin. This thing we talked so much about, have so many great ideas, but always seem to lack the time to do it. This is the feature I would like to see.  
 
+<br/>
 _J: Do you contribute under the influence?_
 
 **S:** Yeah have a look at the 2.8.20 NEWS file, at the typos, which I did totally not notice. So now I prefer to not contribute under influence.
