@@ -11,7 +11,7 @@ GIMP is not only made by hard-core developers. The team also encourages less tec
 
 Furthermore Schumaml was recently named the maintainer of the 2.8 branch, the stable version of GIMP which only receives bugfixes, showing that it does not require a technically-focused mind to occupy important roles successfully.
 
-This interview was held on Saturday, February 4, 2017, at about 00:27 AM in front of a fireplace and after a day of hacking at Wilber Week. With us were several team members, including Debarshi Ray (Rishi (R)), Øyvind Kolås (pippin (P)) and Simon Budig (Nomis (N)) who also asked questions.
+This interview was held on Saturday, February 4, 2017, at about 00:27 AM in front of a fireplace and after a day of hacking at Wilber Week. With us were several team members, including Debarshi Ray (Rishi (R)), Øyvind Kolås (pippin (P)) and Simon Budig who also asked questions.
 
 <figure>
 <img src="{filename}images/schumaml-interview/schumaml-interview-950w.jpg" alt='Schumaml, the tie-bearing GIMP office manager' width='950' height='566'>
@@ -84,7 +84,7 @@ _P: Any controversial theme you wish to be asked?_
 
 **S:** Like the fact that I would like to kill spammers? (Maintain several mailing lists, one forum and also be a recipient for "can we haz ads on gimp.org, plz?" and you know what I mean)
 
-_Nomis: Not very controversial._
+_Simon: Not very controversial._
 
 <br/>
 _J: What do you want to see in GIMP?_
