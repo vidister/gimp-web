@@ -16,7 +16,7 @@ This interview was held on Saturday, February 4, 2017, at about 00:27 AM in fron
 <figure>
 <img src="{filename}images/schumaml-interview/schumaml-interview-950w.jpg" alt='Schumaml, the tie-bearing GIMP office manager' width='950' height='566'>
 <figcaption>
-Schumaml, the tie-bearing GIMP office manager.
+Schumaml, the tie-wearing GIMP office manager.
 </figcaption>
 </figure>
 
@@ -37,7 +37,7 @@ I've been called the tie-wearing GIMP office manager, and I even got a t-shirt w
 <br/>
 _J: How long have you contributed?_
 
-**S:** I think I started somewhere between 2001 and 2004. The first contributions were probably getting GIMP buildable on MSYS, the minimal GNU build system on the Windows platform. Because I was annoyed that there were only GIMP builds for releases and not for every commit in between.
+**S:** I think I started [somewhere between 2001 and 2004](https://git.gnome.org/browse/gimp/commit/?id=f7d599851c7fce5d289410cb568d515bcf737466). The first contributions were probably getting GIMP buildable on MSYS, the minimal GNU build system on the Windows platform. Because I was annoyed that there were only GIMP builds for releases and not for every commit in between.
 
 _J: Was it like nightly builds?_
 
@@ -71,18 +71,18 @@ _Rishi: What do you think of Michael Schumacher?_
 _R: Yeah._
 
 **S:** First thing, you know about his current condition, like probably still in the coma or a vegetable. Surely I hope that he will get better. He probably won't make it to his former self but at least to a state that he can live his remaining life in a somewhat decent way.
-He got famous when I was in the so-called German "Gymnasium" (part of secondary education). It was a bit of an annoyance. I got the same nickname "Schumy" as he did. I didn't follow his career too closely, but nkew about every race he won because I would be congratulated at school.
+He got famous when I was in the so-called German "Gymnasium" (part of secondary education). It was a bit of an annoyance. I got the same nickname "Schumy" as he did. I didn't follow his career too closely, but knew about every race he won because I would be congratulated at school.
 
 _pippin: Have you ever made use of sharing the name?_
 
-**S:** No I haven't. It got me an interview opportunity with a locale radio station because they were calling all people who beared the name "Michael Schumacher" and they were asking them "How hard does this affect your personal life? Has it ever affected you?". Once, I almost had an appointment canceled because someone thought I was mocking him, but that was the only incident ever.
+**S:** No I haven't. It got me an interview opportunity with a locale radio station because they were calling all people who beared the name "Michael Schumacher" and they were asking them "*How hard does this affect your personal life? Has it ever affected you?*". Once, I almost had an appointment canceled because someone thought I was mocking him, but that was the only incident ever.
 
 I've never used it, I've never abused it. And nowadays, or after the end of his professional racing career, it basically didn't matter anymore.
 
 <br/>
 _P: Any controversial theme you wish to be asked?_
 
-**S:** Like the fact that I would like to kill spammers? (Maintain several mailing lists, one forum and also be a recipient for "can we haz ads on gimp.org, plz?" and you know what I mean)
+**S:** Like the fact that I would like to kill spammers? (Maintain several mailing lists, one forum and also be a recipient for "*can we haz ads on gimp.org, plz?*" and you know what I mean)
 
 _Simon: Not very controversial._
 
@@ -91,7 +91,7 @@ _J: What do you want to see in GIMP?_
 
 **S:** Feature-wise, I'm quite OK with what GIMP is right now. I have to admit that some of the current stuff in the GIMP development version is still above my head - like for example, I have no real concept yet of the difference of compositing and blending. Learning that it was 2 different things was quite useful. I hope that we can get the documentation of GIMP up-to-speed in time.
 
-I'm more concerned about the project management. As in how do we decide what new feature go into GIMP, how do we decide how they get into GIMP, how do we decide what GIMP development will look like, for instance post-2.10. Because you see it yourself, right now, our release cycles are much too long. Even the fact that we have actual release cycles is probably bad. If you have a look at services like Twitter or similar, they are constantly releasing. They just push new features out to the people and there is a constant review "this is working, this is not working".  With our long release cycles, users get surprised by "Ouh this does not work as it usede to. Why have they changed it?".
+I'm more concerned about the project management. As in how do we decide what new feature go into GIMP, how do we decide how they get into GIMP, how do we decide what GIMP development will look like, for instance post-2.10. Because you see it yourself, right now, our release cycles are much too long. Even the fact that we have actual release cycles is probably bad. If you have a look at services like Twitter or similar, they are constantly releasing. They just push new features out to the people and there is a constant review "*this is working, this is not working*".  With our long release cycles, users get surprised by "*Ouh this does not work as it used to. Why have they changed it?*".
 
 But yeah, the project is still a bit old-fashioned in regard to releases. We are trailing current development models. "Development models" is the term I use because I'm not even really familiar how you call this. I'm intrigued by the idea of having stable branches with continuously added new features, but I'm not quite sure if I want 2.10 to be constantly evolving. I would prefer to have 2.12. That's details.
 
@@ -112,7 +112,7 @@ _J: Do you contribute under influence?_
 
 _J: Indeed you are now the maintainer of the 2.8 branch, or at least the releaser. If not mistaken, you took care of 2.8.18 and 2.8.20 releases. What can you say about this?_
 
-**S:** I guess I should start at why I am doing more 2.8 releases. As I explained before, I'm not interested in coding that much, but much more engaged in user support and maintenance. Approximately one month before the release of 2.8.18, we had received [a report about a security issue in the XCF loading code](https://bugzilla.gnome.org/show_bug.cgi?id=767873). It was fixed quickly, for both the development and 2.8 branches, but there was no plan to do a 2.8 release. We have instructions for this, and mitch replied "Just do it!" when I asked about it.
+**S:** I guess I should start at why I am doing more 2.8 releases. As I explained before, I'm not interested in coding that much, but much more engaged in user support and maintenance. Approximately one month before the release of 2.8.18, we had received [a report about a security issue in the XCF loading code](https://bugzilla.gnome.org/show_bug.cgi?id=767873). It was fixed quickly, for both the development and 2.8 branches, but there was no plan to do a 2.8 release. We have instructions for this, and mitch replied "*Just do it!*" when I asked about it.
 
 It still felt like partly flying blind. Had I done the version changes - to 2.8.18, and afterwards advancing to 2.8.19 - correctly? Was the tarball made correctly? Would it build on any other system than mine? It did - but I had still missed two action: the release tag is supposed to be signed (i.e. git tag -s), and the GNOME translations teams should be notified about planned releases and a string freeze be put in place until the release to make it easy for them to complete translations. 2.8.20 was much better prepared, and even had an extra long string freeze - I had planned to do it in October 2016, but had to delay it to February 2017, during Wilber Week.
 
