@@ -37,8 +37,7 @@ I've been called the tie-wearing GIMP office manager, and I even got a t-shirt w
 <figure>
 <img src="{filename}images/schumaml-interview/schumaml-twom-480x702.jpg" alt='Schumaml, the tie-wearing GIMP office manager' width='480' height='702'>
 <figcaption>
-Schumaml, the tie-wearing GIMP office manager (<small>photo by
-[houz](https://www.flickr.com/photos/the_houz/8663090451/in/album-72157633284677024/) used by permission</small>).
+Schumaml, the tie-wearing GIMP office manager (<small><a href='https://www.flickr.com/photos/the_houz/8663090451/in/album-72157633284677024/' title='Photo of Schumaml by houz'>photo by houz</a> used by permission</small>).
 </figcaption>
 </figure>
 
