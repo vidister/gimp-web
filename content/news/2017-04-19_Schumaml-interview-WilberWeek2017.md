@@ -16,7 +16,7 @@ This interview was held on Saturday, February 4, 2017, at about 00:27 AM in fron
 <figure>
 <img src="{filename}images/schumaml-interview/schumaml-interview-950w.jpg" alt='Schumaml, the tie-bearing GIMP office manager' width='950' height='566'>
 <figcaption>
-Schumaml, the tie-wearing GIMP office manager.
+Schumaml, GIMP administrator (<small>photo by antenne used by permission (<a class='cc' href='https://creativecommons.org/licenses/by-sa/4.0/' title='Creative Commons Attribution-ShareAlike 4.0 International'>cba</a>)</small>)
 </figcaption>
 </figure>
 
@@ -33,6 +33,14 @@ I also care about the bug reports we have. I try to have them categorized, have 
 And also I have administrative privileges on the GIMP web server, on mailing lists, and… what else. Do I forget anything? That's about it, yeah.
 
 I've been called the tie-wearing GIMP office manager, and I even got a t-shirt with a printed tie and a "TWOM" label, because I've actually been wearing a proper shirt (made to measure) in one GIMP meeting, at the Libre Graphics Meeting 2012 in Vienna.
+
+<figure>
+<img src="{filename}images/schumaml-interview/schumaml-twom-480x702.jpg" alt='Schumaml, the tie-wearing GIMP office manager' width='480' height='702'>
+<figcaption>
+Schumaml, the tie-wearing GIMP office manager (<small>photo by
+[houz](https://www.flickr.com/photos/the_houz/8663090451/in/album-72157633284677024/) used by permission</small>).
+</figcaption>
+</figure>
 
 <br/>
 _J: How long have you contributed?_
@@ -123,5 +131,3 @@ _J: This was a good interview._
 **S:** Thank you for doing it.
 
 _J: And thank you for answering._
-
-<small>Images in this post are courtesy of antenne and used by permission (<a class='cc' href='https://creativecommons.org/licenses/by-sa/4.0/' title='Creative Commons Attribution-ShareAlike 4.0 International'>cba</a>).</small>
