@@ -57,7 +57,7 @@ _J: So you mostly use GIMP on Windows?_
 <br/>
 _J: Do you use GIMP?_
 
-**S:** I use GIMP. Not as much as many other people but I use it to test many things of GIMP itself. I use it to edit photos I make. I don't publish many of the images because when I'm editing them, I print them or I use them for some documentation work, so it goes to a customer. I even still use it on MW Windows still. But now my main platform is Linux.
+**S:** I use GIMP. Not as much as many other people but I use it to test many things of GIMP itself. I use it to edit photos I make. I don't publish many of the images because when I'm editing them, I print them or I use them for some documentation work, so it goes to a customer. I even still use it on MS Windows still. But now my main platform is Linux.
 
 _J: What kind of job do you do?_
 
