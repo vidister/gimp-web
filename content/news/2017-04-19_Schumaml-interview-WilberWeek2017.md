@@ -7,9 +7,10 @@ Summary: Michael Schumacher gets interviewed by other GIMP developers
 
 *This is the second of a series of interviews of various people surrounding GIMP development and community. See also the [interview of Mitch, GIMP maintainer](https://www.gimp.org/news/2017/03/01/an-interview-with-michael-natterer-gimp-maintainer/)*
 
-GIMP is not only made by hard-core developers. The team also encourages less technically-inclined contributors.  Michael Schumacher, *aka* Schumaml, is a great example of an important core contributor who has been with the project for over 10 years.  Mostly known as the project administrator, nowadays he takes care of everything but coding: administrative tasks, management, support…
+GIMP is made not only by hard-core developers but also through the hard work of many less technically-inclined contributors.
+Michael Schumacher, *aka* Schumaml, is a great example of an important core contributor who has been with the project for over 10 years.  Mostly known as the project administrator, nowadays he takes care of everything but programming: administrative tasks, management, PR, support…
 
-Schumaml was recently named the maintainer of the 2.8 branch, the stable version of GIMP which only receives bugfixes, showing that it does not require a developer to occupy important roles successfully.
+Schumaml was recently named the maintainer of the 2.8 branch, the stable version of GIMP which only receives bugfixes, showing that it does not require a developer to manage important roles successfully.
 
 This interview was held on Saturday, February 4, 2017, at about 12:27 AM in front of a fireplace and after a day of hacking at [Wilber Week][]. With us were several team members, including Debarshi Ray (Rishi (R)), Øyvind Kolås (pippin (P)) and Simon Budig who also asked questions.
 
@@ -42,7 +43,7 @@ I've been called the tie-wearing GIMP office manager and I even got a t-shirt wi
 <figure>
 <img src="{filename}images/schumaml-interview/schumaml-twom-480x702.jpg" alt='Schumaml, the tie-wearing GIMP office manager' width='480' height='702'>
 <figcaption>
-Schumaml, the tie-wearing GIMP office manager (<small><a href='https://www.flickr.com/photos/the_houz/8663090451/in/album-72157633284677024/' title='Photo of Schumaml by houz'>photo by houz</a> used by permission</small>).
+Schumaml, the tie-wearing GIMP office manager (<small><a href='https://www.flickr.com/photos/the_houz/8663090451/in/album-72157633284677024/' title='Photo of Schumaml by houz'>photo by houz</a> (<a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/' title='Creative Commons Attribution-ShareAlike 4.0 International'>cba</a>)</small>).
 </figcaption>
 </figure>
 
@@ -76,9 +77,18 @@ _J: Why do you contribute to GIMP?_
 
 **S:** It started due to pure selfishness: being able to have the most current GIMP available to me.
 
-Since then, a lot has changed: I believe in [Free Software][]. I believe software should be available for everyone for every purpose. GIMP is a Free Software project. Around the time I got hooked up to GIMP, I also got hooked up to Wikipedia, which follows the same approach towards knowledge. I feel like — yeah well — I'm contributing to something that helps a lot of people all over the world. I think that's a good thing. GIMP happens to be the the first major project I contributed to, and I like it. It's also in-line with the topics I specialized in at university: image synthesis, image manipulation. It kind of seemed like a logical extension.
+Since then, a lot has changed: I believe in [Free Software][]. I believe software should be available for everyone for every purpose. GIMP is a Free Software project. Around the time I got hooked up with GIMP, I also got hooked up with Wikipedia, which follows the same approach towards knowledge. I feel like — yeah well — I'm contributing to something that helps a lot of people all over the world. I think that's a good thing. GIMP happens to be the the first major project I contributed to, and I like it. It's also in-line with the topics I specialized in at university: image synthesis, image manipulation. It kind of seemed like a logical extension.
 
 [Free Software]: https://www.gnu.org/philosophy/free-sw.en.html
+
+
+<br>
+<figure>
+<img src="{filename}images/schumaml-interview/schumaml-lgm2014-800w.jpg" alt='Schumaml, the tie-bearing GIMP office manager' width='800' height='459'>
+<figcaption>
+<em>Not</em> the Formula One driver. (<small>Photo by Pat David (<a class='cc' href='https://creativecommons.org/licenses/by-sa/4.0/' title='Creative Commons Attribution-ShareAlike 4.0 International'>cba</a>)</small>)
+</figcaption>
+</figure>
 
 <br>
 _Rishi: What do you think of Michael Schumacher?_
@@ -141,5 +151,3 @@ Releasing is definitely something you want to do right, and this means taking a 
 _J: This was a good interview._
 
 **S:** Thank you for doing it.
-
-_J: And thank you for answering._
