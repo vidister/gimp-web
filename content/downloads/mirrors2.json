@@ -11,16 +11,6 @@
       "ftp://ftp.fau.de/gimp/gimp/",
       "rsync://ftp.fau.de/gimp/"
     ],
-    "go-parts.com" : [
-      "http://mirrors.go-parts.com/gimp/",
-      "ftp://mirrors.go-parts.com/gimp/",
-      "rsync://mirrors.go-parts.com/mirrors/gimp/"
-    ],
-    "mirrors-ru.go-parts.com" : [
-      "http://go-parts.com/mirrors-ru/gimp/gimp/",
-      "ftp://mirrors-ru.go-parts.com/gimp/gimp/",
-      "rsync://mirrors-ru.go-parts.com/mirrors/gimp/"
-    ],
     "gimp.afri.cc" : [
       "http://gimp.afri.cc/pub/gimp/"
     ],
@@ -28,11 +18,6 @@
       "http://www.mirrorservice.org/sites/ftp.gimp.org/pub/gimp/",
       "ftp://ftp.mirrorservice.org/sites/ftp.gimp.org/pub/gimp/",
       "rsync://rsync.mirrorservice.org/ftp.gimp.org/pub/gimp/"
-    ],
-    "mirrors-uk.go-parts.com" : [
-      "http://mirrors-uk.go-parts.com/gimp/",
-      "ftp://mirrors-uk.go-parts.com/gimp/",
-      "rsync://mirrors-uk.go-parts.com/mirrors/gimp/"
     ],
     "galaxyverge.com" : [
       "http://gimp.galaxyverge.com/"
@@ -42,10 +27,6 @@
     ],
     "hessmo.com" : [
       "http://mirror.hessmo.com/gimp/"
-    ],
-    "mirrors-usa.go-parts.com" : [
-      "http://go-parts.com/mirrors-usa/gimp/gimp/",
-      "rsync://mirrors-usa/go-parts.com/mirrors/gimp/"
     ],
     "acc.umu.se" : [
       "http://ftp.acc.umu.se/pub/gimp/",
