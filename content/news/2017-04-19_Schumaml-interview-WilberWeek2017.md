@@ -99,14 +99,14 @@ _Rishi: What do you think of Michael Schumacher?_
 
 _R: Yeah._
 
-**S:** First thing, you know about his current condition, like probably still in the coma. I hope that he will get better. He probably won't make it to his former self but at least to a state that he can live his remaining life in a somewhat decent way.
-He got famous when I was in the so-called German "Gymnasium" (part of secondary education). It was a bit of an annoyance. I got the same nickname - "Schumy" - as he did. I didn't follow his career too closely, but knew about every race he won because I would be congratulated at school.
+**S:** First thing, you know about his current condition, like probably still in the coma. I hope that he will get better. He probably won't make it to his former self but at least to a state allowing him to live in a somewhat decent way.
+He got famous when I was in the so-called German "Gymnasium" (part of secondary education). It was a bit of an annoyance then -  I got the same nickname - "Schumi" - as he had. I didn't follow his career too closely, but knew about every race he won because I would be congratulated at school.
 
 _pippin: Have you ever made use of sharing the name?_
 
 **S:** No I haven't. It got me an interview opportunity with a locale radio station because they were calling all people who had the name "Michael Schumacher" and they were asking them "*How hard does this affect your personal life? Has it ever affected you?*". Once, I almost had an appointment canceled because someone thought I was mocking them, but that was the only incident ever.
 
-I've never used it. I've never abused it. Nowadays, or after the end of his professional racing career, it basically didn't matter anymore.
+I've never used it. I've never abused it. Nowadays, after the end of his professional racing career, it basically didn't matter anymore.
 
 <br>
 _P: Any controversial theme you wish to be asked?_
@@ -120,7 +120,7 @@ _J: What do you want to see in GIMP?_
 
 **S:** Feature-wise, I'm quite OK with what GIMP is right now. I have to admit that some of the current stuff in the GIMP development version is still above my head - for example, I have no real concept yet of the difference between compositing and blending. Learning that it was 2 different things was quite useful. I hope that we can get the documentation of GIMP up-to-speed in time.
 
-I'm more concerned about the project management. As in: how do we decide what new features go into GIMP, how they get into GIMP, and what GIMP development will look like. Particularly post-2.10. You can see it yourself. Right now, our release cycles are much too long. Even the fact that we _have_ actual release cycles is probably bad. If you have a look at services like Twitter or similar, they are constantly releasing. They just push new features out to the people and there is a constant review "*this is working, this is not working*".  With our long release cycles, users get surprised by "*Oh this does not work as it used to. Why have they changed it?*".
+I'm more concerned about the project management. As in: how do we decide what new features go into GIMP, how they get into GIMP, and what GIMP development will look like. Particularly post-2.10. You can see it yourself: Right now, our release cycles are much too long. Even the fact that we _have_ actual release cycles is probably bad. If you have a look at services like Twitter or similar, they are constantly releasing. They just push new features out to the people and there is a constant review "*this is working, this is not working*".  With our long release cycles, users get surprised by "*Oh this does not work as it used to. Why have they changed it?*".
 
 The project is still a bit old-fashioned in regard to releases. We are trailing current development models. "Development models" is the term I use because I'm not sure how to refer to this. I'm intrigued by the idea of having stable branches with continuously added new features, but I'm not quite sure if I want 2.10 to be constantly evolving. I would prefer to have 2.12. That's details.
 
@@ -132,7 +132,7 @@ _J: How do you see GIMP in 20 years?_
 <br>
 _J: What's **the** feature you are really waiting for?_
 
-**S:** The feature I'm really waiting for... It's not a feature of painting or image manipulation. It's about organization. This thing we want to do, Plug-in or Resource Registry 2.0. Properly built and really managed. The thing we talked so much about, have so many great ideas, but always seem to lack the time to do it. This is the feature I would like to see. 
+**S:** The feature I'm really waiting for... It's not a feature of painting or image manipulation. It's about organization. This thing we want to do, Plug-in or Resource Registry 2.0. Properly built and really managed. The thing we talked so much about, have so many great ideas, but always seem to lack the time to do. This is the feature I would like to see. 
 
 <br>
 _J: Do you contribute under influence?_
