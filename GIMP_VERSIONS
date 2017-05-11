@@ -1,6 +1,18 @@
 {
     "STABLE":  {
 
+        "2.8.22": {
+            "source": {
+                "gimp-2.8.22.tar.bz2": "7e4fd7a53b1d3c32dff642ab1a94b44d"
+                },
+            "macos": {
+                "gimp-2.8.22-x86_64.dmg": "2d314ae82f686ea15a681c32b5891e20"
+                },
+            "windows": {
+                "gimp-2.8.22-setup.exe": "8e54225029a44ab6ef1fde09686fec7b"
+                }
+	    },
+
         "2.8.20": {
             "source": {
                 "gimp-2.8.20.tar.bz2": "d405640c426b234d6efc36fb4f5bae57"
