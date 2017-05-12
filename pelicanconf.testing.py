@@ -139,6 +139,11 @@ if 'STABLE' in GIMP:
     # hence, .keys()[0]
     GIMP_VERSION = GIMP['STABLE'].keys()[0]
     for version, info in GIMP['STABLE'].iteritems() :
+        if 'date' in info:
+            try:
+                RELEASE_DATE
+            except NameError:
+                RELEASE_DATE = info['date']
         if 'windows' in info: 
             try:
                 WINDOWS_FILE

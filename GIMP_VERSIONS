@@ -2,6 +2,7 @@
     "STABLE":  {
 
         "2.8.22": {
+            "date": "2017-05-11",
             "source": {
                 "gimp-2.8.22.tar.bz2": "7e4fd7a53b1d3c32dff642ab1a94b44d"
                 },
@@ -11,7 +12,7 @@
             "windows": {
                 "gimp-2.8.22-setup.exe": "8e54225029a44ab6ef1fde09686fec7b"
                 }
-	    },
+        },
 
         "2.8.20": {
             "source": {
@@ -23,7 +24,7 @@
             "windows": {
                 "gimp-2.8.20-setup.exe": "df90eaa5ababdbc4f2e7e0432ba36fe7"
                 }
-	    },
+        },
 
         "2.8.18": {
             "source": {
@@ -33,8 +34,8 @@
                 "gimp-2.8.18-setup.exe": "510bb11abc72443f431226523fa21b6f"
                 },
             "macos": {
-	        "gimp-2.8.18-x86_64-1.dmg": "b86d3b884011b931408c6233d71ee41a",
-		"gimp-2.8.18-x86_64.dmg": "81c62ee2a2708568a26db1d3c200c4ab"
+                "gimp-2.8.18-x86_64-1.dmg": "b86d3b884011b931408c6233d71ee41a",
+                "gimp-2.8.18-x86_64.dmg": "81c62ee2a2708568a26db1d3c200c4ab"
                 }
             },
 
